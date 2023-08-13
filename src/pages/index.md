@@ -3,14 +3,14 @@ templateKey: index-page
 title: Samagra Governance
 description: Samagra Governance
 stickyBanner:
-  stickyBannerActive: false
-  stickyBannerTitle: This is a test banner title
-  stickyBannerTitleColor: black
-  stickyBannerColor: white
-  stickyBannerButtonTitle: Press
-  stickyBannerButtonTextColor: white
+  stickyBannerActive: true
   stickyBannerButtonColor: orange
-  stickyBannerButtonLink: https://www.google.com
+  stickyBannerButtonLink: 'https://www.youtube.com/@SushasanThePodcast'
+  stickyBannerButtonTextColor: white
+  stickyBannerButtonTitle: Watch Now
+  stickyBannerColor: white
+  stickyBannerTitle: Check out our newly launched podcast - 'Sushasan'
+  stickyBannerTitleColor: black
 media:
   - mediaItem: >-
       1 Stop, 556 Schemes: Haryana Govt’s Unique System Can Revolutionise How
