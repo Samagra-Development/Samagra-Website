@@ -1,7 +1,7 @@
 ---
 templateKey: sushasan-page
 title: Sushasan
-bannerImage: /img/sushasan_header.jpeg
+bannerImage: /img/as-banner.png
 logo: /img/sushasan_logo.png
 text: >-
   Sushasan is India’s first podcast exclusively focused on governance, where we
