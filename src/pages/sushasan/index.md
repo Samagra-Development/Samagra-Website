@@ -27,6 +27,11 @@ podcasts:
   - title: EP 04 – Dr. R.S. Sharma
     url: 'https://www.youtube.com/embed/PwFZMd6SG_E'
   - title: EP 05 – Ashish Dhawan
-    url: 'https://www.youtube.com/embed/xTiOH-ixAYs?si=tGka_JGv8YsTBBrN'
+    url: >-
+      <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/xTiOH-ixAYs?si=6Maq7UijPvU8NhSH"
+      title="YouTube video player" frameborder="0" allow="accelerometer;
+      autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+      web-share" allowfullscreen></iframe>
 ---
 
