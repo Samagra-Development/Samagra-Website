@@ -28,5 +28,7 @@ podcasts:
     url: 'https://www.youtube.com/embed/PwFZMd6SG_E'
   - title: EP 05 – Ashish Dhawan
     url: 'https://www.youtube.com/embed/xTiOH-ixAYs?si=NWYKLC3iCuWW2BQT'
+  - title: EP 06 – Jasmine Shah
+    url: 'https://www.youtube.com/embed/iZlZWSMVTXU?si=A1gVJ6a7KAnzwByo'
 ---
 
