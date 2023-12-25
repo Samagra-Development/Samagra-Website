@@ -1,6 +1,6 @@
 ---
 templateKey: case-study
-title: India’s first Centralised Monitoring Center for Agricultural Governance
+title: India’s 1st Centralized Monitoring System in Agriculture to enhance Governance
 projectId: KRUSHI SAMIKSHA KENDRA
 projectId_bg: '#418F37'
 projectId_fc: white
