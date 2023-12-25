@@ -133,12 +133,12 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
         />
         <img src={mailLogo} alt="" />
       </div> */}
-      <div className="spacer">
+      <div className="spacer first-spacer">
         <img src={spacer} alt="" />
       </div>
       <FadeInSection>
         <div
-          className="case-study-main-heading heading"
+          className="case-study-main-heading headingCaseStudy"
           style={{
             color: '#418F37',
             fontSize: mobile ? '20px' : '30px',
@@ -166,7 +166,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
         <img src={spacer} alt="" />
       </div>
       <FadeInSection>
-        <div className="text" style={{ width: '70%', margin: 'auto' }}>
+        <div className="textCaseStudy" style={{ width: '70%', margin: 'auto' }}>
           <b>Need</b> for evidence-backed decision-making <br></br>
           <br></br> Agri-operations are highly complex to manage with challenges
           like lack of timely inputs, increased pest incidents and worsening
@@ -214,7 +214,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
           </div> */}
           <div className="case-study-summary-text">
             <div
-              className="heading"
+              className="headingCaseStudy"
               style={{
                 textAlign: 'center',
                 color: '#418F37',
@@ -250,7 +250,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               </div>
             {!mobile && <LineDrawingOnScrollLR id={'clip2'} />}
             </div>
-            {/* <div className="text" style={{ textAlign: 'left' }}>
+            {/* <div className="textCaseStudy" style={{ textAlign: 'left' }}>
               To transform the way government officials use data and real-time
               analytics on key agri-operations, with 4 sharp areas of focus:
               <br></br><br></br>
@@ -279,7 +279,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               marginTop: !mobile ? '10px': ''
             }}>
             <div
-              className="heading"
+              className="headingCaseStudy"
               style={{
                 position: 'relative',
                 padding: '10px',
@@ -313,7 +313,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               onClick={() => openModal(infographic)}></div>
           </div>
           <div
-            className="heading"
+            className="headingCaseStudy"
             style={{
               color: '#418F37',
               width: '80%',
@@ -347,7 +347,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 height={mobile ? 100 : 150}
               />
               <p
-                className="text"
+                className="textCaseStudy"
                 style={{
                   fontWeight: 'bold',
                   fontSize: '24px',
@@ -357,7 +357,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 92%
               </p>
               <p
-                className="text"
+                className="textCaseStudy"
                 style={{
                   padding: 0,
                   margin: 0,
@@ -385,7 +385,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 height={mobile ? 100 : 150}
               />
               <p
-                className="text"
+                className="textCaseStudy"
                 style={{
                   fontWeight: 'bold',
                   fontSize: '24px',
@@ -395,7 +395,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 90%
               </p>
               <p
-                className="text"
+                className="textCaseStudy"
                 style={{
                   padding: 0,
                   margin: 0,
@@ -423,7 +423,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 height={mobile ? 100 : 150}
               />
               <p
-                className="text"
+                className="textCaseStudy"
                 style={{
                   fontWeight: 'bold',
                   fontSize: '24px',
@@ -433,7 +433,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 87%
               </p>
               <p
-                className="text"
+                className="textCaseStudy"
                 style={{
                   padding: 0,
                   margin: 0,
@@ -461,7 +461,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 height={mobile ? 100 : 150}
               />
               <p
-                className="text"
+                className="textCaseStudy"
                 style={{
                   fontWeight: 'bold',
                   fontSize: '24px',
@@ -471,7 +471,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 85%
               </p>
               <p
-                className="text"
+                className="textCaseStudy"
                 style={{
                   padding: 0,
                   margin: 0,
@@ -494,7 +494,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               }}>
               <img src={icon5} alt="" width={mobile ? 100 : 150} height={mobile ? 100 : 150}/>
               <p
-                className="text"
+                className="textCaseStudy"
                 style={{
                   fontWeight: 'bold',
                   fontSize: '24px',
@@ -504,7 +504,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 100%
               </p>
               <p
-                className="text"
+                className="textCaseStudy"
                 style={{ padding: 0, margin: 0, fontSize: '14px' }}>
                 System capacity built consistently through trainings of all
                 officials
@@ -558,7 +558,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               marginTop: mobile ? '10px' : '',
             }}>
             <div
-              className="heading"
+              className="headingCaseStudy"
               style={{
                 textAlign: 'left',
                 color: '#418F37',
@@ -569,7 +569,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
             </div>
             <div>
               <p
-                className="text"
+                className="textCaseStudy"
                 style={{
                   textAlign: 'left',
                   marginBottom: '0',
@@ -579,7 +579,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 Blog
               </p>
               <p
-                className="text"
+                className="textCaseStudy"
                 style={{
                   textAlign: 'left',
                   marginBottom: '0',
@@ -607,7 +607,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
 
             {/* <div>
               <p
-                className="text"
+                className="textCaseStudy"
                 style={{
                   textAlign: 'left',
                   marginBottom: '0',
@@ -617,7 +617,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 Op-Ed
               </p>
               <p
-                className="text"
+                className="textCaseStudy"
                 style={{
                   textAlign: 'left',
                   marginBottom: '0',
@@ -639,7 +639,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
             </div> */}
             {/* <div>
               <p
-                className="text"
+                className="textCaseStudy"
                 style={{
                   textAlign: 'left',
                   marginBottom: '0',
@@ -649,7 +649,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 Sub Heading
               </p>
               <p
-                className="text"
+                className="textCaseStudy"
                 style={{
                   textAlign: 'left',
                   marginBottom: '0',
@@ -674,7 +674,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
             </div>
             <div>
               <p
-                className="text"
+                className="textCaseStudy"
                 style={{
                   textAlign: 'left',
                   marginBottom: '0',
@@ -684,7 +684,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 Sub Heading
               </p>
               <p
-                className="text"
+                className="textCaseStudy"
                 style={{
                   textAlign: 'left',
                   marginBottom: '0',
@@ -763,7 +763,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
       </div> */}
       {/* <FadeInSection>
         <div
-          className="heading"
+          className="headingCaseStudy"
           style={{ color: '#418F37', width: '80%', margin: 'auto' }}>
           This breakthrough is a result of consistent support and meaningful
           collaborations that we have received from our{' '}
@@ -796,7 +796,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               return (
                 <a href={''} target="_blank">
                   <div
-                    className={`card-wrapper ${
+                    className={`card-wrapper-case-study ${
                       hoveredIndex === index ? 'hovered' : ''
                     } `}
                     onMouseLeave={() => setHoveredIndex(-1)}
@@ -808,7 +808,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                       }}
                     />
                     <div className={'content-section'}>
-                      <div className={'heading'} style={{ minHeight: '40px' }}>
+                      <div className={'headingCaseStudy'} style={{ minHeight: '40px' }}>
                         {content.title}
                       </div>
                       <div className={'timestamp'}>{content.date}</div>
@@ -871,7 +871,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
       </div>
       {/* <FadeInSection>
         <div
-          className="heading"
+          className="headingCaseStudy"
           style={{ color: '#418F37', margin: '50px auto', fontSize: mobile ? '20px' : '30px' }}>
           View more <i>Success Stories of Impact</i>
         </div>
@@ -880,7 +880,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
             return (
               <a href={''} target="_blank">
                 <div
-                  className={`card-wrapper ${
+                  className={`card-wrapper-case-study ${
                     hoveredIndex === index ? 'hovered' : ''
                   } `}
                   onMouseLeave={() => setHoveredIndex(-1)}
@@ -892,7 +892,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                     }}
                   />
                   <div className={'content-section'}>
-                    <div className={'heading'} style={{ minHeight: '40px' }}>
+                    <div className={'headingCaseStudy'} style={{ minHeight: '40px' }}>
                       {content.title}
                     </div>
                     <div className={'timestamp'}>{content.date}</div>

@@ -108,7 +108,7 @@
   height: 25px;
 }
 
-.heading {
+.headingCaseStudy {
   color: #343434;
   font-size: 36px;
   font-weight: 700;
@@ -117,7 +117,7 @@
   line-height: 1.2;
 }
 
-.text {
+.textCaseStudy {
   color: #343434;
   font-size: 20px;
   text-align: center;
@@ -256,7 +256,7 @@
   justify-content: space-evenly;
   width: 100%;
 }
-.cards-section .card-wrapper {
+.cards-section .card-wrapper-case-study {
   height: 300px;
   width: 400px;
   display: inline-block;
@@ -267,11 +267,14 @@
   overflow: hidden;
 }
 @media only screen and (max-width: 980px) {
-  .cards-section .card-wrapper {
+  .cards-section .card-wrapper-case-study {
     max-width: 300px;
   }
+  .first-spacer{
+    margin-top: 30%;
+  }
 }
-.cards-section .card-wrapper.hovered {
+.cards-section .card-wrapper-case-study.hovered {
   -webkit-animation-name: smoothScaleIn;
   /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 0.3s;
@@ -280,30 +283,30 @@
   animation-duration: 0.3s;
   transform: scale(1.02);
 }
-.cards-section .card-wrapper .image-section {
+.cards-section .card-wrapper-case-study .image-section {
   height: 60%;
   background: #eeeeee;
   background-size: cover;
 }
-.cards-section .card-wrapper .image-section.background-right {
+.cards-section .card-wrapper-case-study .image-section.background-right {
   background-position: right;
 }
-.cards-section .card-wrapper .content-section {
+.cards-section .card-wrapper-case-study .content-section {
   padding: 15px;
   text-align: left;
 }
-.cards-section .card-wrapper .content-section .heading {
+.cards-section .card-wrapper-case-study .content-section .headingCaseStudy {
   font-size: 14px;
   color: #343434;
   min-height: 41px;
 }
-.cards-section .card-wrapper .content-section .timestamp {
+.cards-section .card-wrapper-case-study .content-section .timestamp {
   color: #a5a5a5;
   font-size: 12px;
   margin-top: 8px;
 }
 @media only screen and (max-width: 1200px) {
-  .cards-section .card-wrapper {
+  .cards-section .card-wrapper-case-study {
     width: 50%;
   }
 }
@@ -314,7 +317,7 @@
   }
 }
 @media only screen and (max-width: 760px) {
-  .cards-section .card-wrapper {
+  .cards-section .card-wrapper-case-study {
     width: 100%;
   }
 
@@ -322,19 +325,26 @@
     height: 170px !important;
     width: 300px !important;
   }
+
+  .first-spacer{
+    margin-top: 20%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-  .heading {
+  .headingCaseStudy {
     font-size: 32px;
   }
-  .text {
+  .textCaseStudy {
     font-size: 16px;
   }
   #img1 {
     height: 170px;
     width: 300px;
     max-width: 90vw;
+  }
+  .first-spacer{
+    margin-top: 50px;
   }
 
   .case-study-summary-container {
@@ -351,7 +361,7 @@
   .cards-section {
     flex-direction: column;
   }
-  .cards-section .card-wrapper {
+  .cards-section .card-wrapper-case-study {
     margin-top: 25px;
   }
 
