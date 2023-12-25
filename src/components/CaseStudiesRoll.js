@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql, StaticQuery } from 'gatsby';
-import { PrimaryButton } from '../components/PrimaryButton/PrimaryButton';
 
 class CaseStudiesRoll extends React.Component {
   render() {
@@ -22,75 +21,86 @@ class CaseStudiesRoll extends React.Component {
                   <div
                     className="blog-wrapper"
                     style={{ position: 'relative' }}>
-                    <div className="flip-card">
-                      <div className="front">
+                    <div
+                      className="flip-card"
+                      style={{ minHeight: '350px', minWidth: 'fit-content' }}>
+                      <div
+                        className="front"
+                        style={{
+                          minHeight: 'fit-content',
+                          minWidth: 'fit-content',
+                        }}>
                         {post.frontmatter.featuredimage ? (
                           <div
                             className="image-wrapper"
                             style={{
+                              position: 'relative',
                               backgroundImage: `url(${post.frontmatter
                                 .featuredimage.childImageSharp.fluid.src ||
                                 post.frontmatter.featuredimage})`,
                               transition: 'background 0.5s ease-out',
                               display: 'flex',
                               alignItems: 'center',
+                              height: '150px',
+                              minWidth: '250px',
+                              borderRadius: '20px 20px 0 0',
+                              overflow: 'hidden',
                             }}>
-                            <p
+                            <div
+                              className="image-overlay"
                               style={{
-                                background: '#2B2A2A',
-                                width: '100%',
-                                textAlign: 'center',
-                                color: 'white',
-                                fontSize: '18px',
+                                position: 'absolute',
+                                top: 0,
+                                left: 0,
+                                right: 0,
+                                bottom: 0,
+                                background: 'rgba(0, 0, 0, 0.5)',
+                                display: 'flex',
+                                flexDirection: 'column',
+                                justifyContent: 'center',
+                                alignItems: 'center',
                               }}>
-                              {post.frontmatter.projectId}
-                            </p>
+                              <p
+                                style={{
+                                  color: '#fff',
+                                  textAlign: 'center',
+                                  margin: '0',
+                                  fontWeight: 'bold'
+                                }}>
+                                {post?.frontmatter?.impactNumber}
+                              </p>
+                            </div>
                           </div>
                         ) : null}
-                      </div>
-                      <div className="back">
-                        <div
+                        <p
                           style={{
-                            position: 'absolute',
-                            top: 0,
-                            right: 0,
-                            width: '100%',
-                            height: '100%',
-                            display: 'flex',
-                            flexDirection: 'column',
+                            margin: '5px auto',
+                            padding: '5px 0',
+                            width: '95%',
+                            textAlign: 'center',
+                            fontSize: '18px',
+                            fontWeight: 'bolder',
+                            background: post?.frontmatter?.projectId_bg || 'white',
+                            color: post?.frontmatter?.projectId_fc || 'black'
                           }}>
-                          <p
-                            style={{
-                              width: '100%',
-                              textAlign: 'center',
-                              margin: 'auto auto 5% auto',
-                              color: 'white',
-                              fontSize: '18px',
-                            }}>
-                            {post.frontmatter.projectId}
-                          </p>
-                          <p
-                            style={{
-                              margin: '5%',
-                              color: 'white',
-                              fontSize: '16px',
-                              textShadow: '1px 1px 2px black',
-                              textAlign: 'center',
-                            }}>
-                            {post.frontmatter.title}
-                          </p>
-                          <PrimaryButton
-                            style={{
-                              margin: 'auto auto 5% auto',
-                              pointerEvents: 'auto',
-                            }}
-                            classes={'py-1 text-uppercase'}
-                            text={post.frontmatter.buttonText}
-                            click={() => {
-                              window.open(post.frontmatter.link, '_blank');
-                            }}
-                          />
-                        </div>
+                          {post?.frontmatter?.projectId}
+                        </p>
+                        <p
+                          style={{
+                            margin: '5%',
+                            fontSize: '16px',
+                            textAlign: 'center',
+                          }}>
+                          {post?.frontmatter?.title}
+                        </p>
+                        <button
+                          className="case-study-roll-btn"
+                          onClick={() => {
+                            post?.frontmatter?.buttonText != 'Coming soon' &&
+                              window.open(post?.fields?.slug, '_blank');
+                          }}>
+                          {post?.frontmatter?.buttonText}
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -117,7 +127,7 @@ export default () => (
     query={graphql`
       query CaseStudiesRollQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
+          sort: { order: ASC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "case-study" } } }
         ) {
           edges {
@@ -131,6 +141,9 @@ export default () => (
                 templateKey
                 title
                 projectId
+                projectId_bg
+                projectId_fc
+                impactNumber
                 date(formatString: "MMMM DD, YYYY")
                 featuredimage {
                   childImageSharp {
@@ -139,7 +152,6 @@ export default () => (
                     }
                   }
                 }
-                link
                 buttonText
               }
             }
