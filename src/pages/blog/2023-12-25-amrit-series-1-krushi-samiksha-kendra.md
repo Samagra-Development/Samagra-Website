@@ -10,7 +10,7 @@ description: >-
   Agriculture 
 featuredimage: /img/1-x1-2.png
 ---
-_**How Odisha operationalized India’s 1st Centralized Monitoring System in Agriculture**_ 
+**_How Odisha operationalized India’s 1st Centralized Monitoring System in Agriculture_** 
 
 India was facing one of its most critical public health challenges during the second wave of COVID-19 in May 2021. New Delhi was one of the [worst impacted cities](https://www.hindustantimes.com/india-news/half-of-all-covid-deaths-in-india-took-place-in-april-may-shows-government-data-101627204345380.html) during this wave, and as a response, Delhi govt. set up a Centralised Monitoring System to enable real-time [data-driven COVID management](https://www.newindianexpress.com/cities/delhi/2022/jan/31/delhis-government-school-teachers-manage-covid-data-at-integrated-war-room-2413407.html). Hospitals were directed to provide real-time data surrounding the availability of oxygen, beds, medicine and other medical supplies and equipment. The data was then synthesized in dashboards which were used by senior government officials to drive crucial decisions surrounding the timely provision of scarce medical supplies to severely impacted regions and differential delivery of healthcare to patients based on the severity of their conditions. 
 
@@ -91,4 +91,4 @@ Since operationalisation, the Krushi Samiksha Kendra has conducted 50+ hypothesi
 
 _Glimpses of the developed and fully functional Krushi Samiksha Kendra_
 
-_This blog is part of the Amrit Series, where we bring to you success stories of large scale impact through our work across domains and states. You can learn more about Krushi Samiksha Kendra here._
+_This blog is part of the Amrit Series, where we bring to you success stories of large scale impact through our work across domains and states. You can learn more about Krushi Samiksha Kendra_ [_here_](https://www.samagragovernance.in/amritseries/ksk/)_._
