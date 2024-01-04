@@ -607,6 +607,17 @@ export const JoinUsFormSection = ({
           </div>
         ) : null}
       </div>
+
+      <div className="follow-linkedin">
+      We are no longer accepting applications, follow us on &nbsp;
+                <a
+                  target={'_blank'}
+                  href="https://www.linkedin.com/company/samagra-transforming-governance/mycompany/">
+                  LinkedIn
+                </a>{' '}
+                 to be updated of new roles when we announce them
+               
+              </div>
       <div className={'join-us-form'}>
         <div className="container">
           {showForm ? (
@@ -906,6 +917,9 @@ export const JoinUsFormSection = ({
             </div>
           )}
         </div>
+      </div>
+      <div>
+
       </div>
     </div>
   );
