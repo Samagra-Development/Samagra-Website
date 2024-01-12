@@ -12,33 +12,31 @@ text: >-
   state as well as a glimpse into the personal journeys of these leaders. <br>
   <br>
 
-  Subscribe now and watch all the latest episodes on Sushasan's YouTube channel
-  for governance behind-the-scenes! <br> <br>
+  Subscribe now and watch all the latest episodes on Sushasan's YouTube channel for governance behind-the-scenes! <br> <br>
 
   #GovernanceBTS
 mail: sushasan@samagragovernance.in
 podcasts:
   - title: EP 01 – Anil Swarup
-    url: 'https://www.youtube.com/embed/vLrZOL0X81k'
+    url: https://www.youtube.com/embed/vLrZOL0X81k
   - title: EP 02 – Anita Karwal
-    url: 'https://www.youtube.com/embed/zidabJy7ous'
+    url: https://www.youtube.com/embed/zidabJy7ous
   - title: EP 03 – Awanish Awasthi
-    url: 'https://www.youtube.com/embed/yuV5afr7E9E'
+    url: https://www.youtube.com/embed/yuV5afr7E9E
   - title: EP 04 – Dr. R.S. Sharma
-    url: 'https://www.youtube.com/embed/PwFZMd6SG_E'
+    url: https://www.youtube.com/embed/PwFZMd6SG_E
   - title: EP 05 – Ashish Dhawan
-    url: 'https://www.youtube.com/embed/xTiOH-ixAYs?si=NWYKLC3iCuWW2BQT'
+    url: https://www.youtube.com/embed/xTiOH-ixAYs?si=NWYKLC3iCuWW2BQT
   - title: EP 06 – Jasmine Shah
-    url: 'https://www.youtube.com/embed/iZlZWSMVTXU?si=A1gVJ6a7KAnzwByo'
+    url: https://www.youtube.com/embed/iZlZWSMVTXU?si=A1gVJ6a7KAnzwByo
   - title: EP 07 – Rajesh Bhushan
-    url: 'https://youtu.be/eLvVvaat5Aw?si=un-zcac2VYgJ8yXj'
+    url: https://www.youtube.com/embed/eLvVvaat5Aw?si=peOpV2Jkvbafc1lk
   - title: EP 08 – Alok Kumar
-    url: 'https://youtu.be/8QzklM9DPPg?si=bJ75aIcOGf1CXP7m'
+    url: https://www.youtube.com/embed/8QzklM9DPPg?si=P0aneaWuRtvU5nIT
   - title: EP 09 – Dr. Rakesh Gupta
-    url: 'https://youtu.be/2uZtnYNCRxg?si=hpOnRUbCyVRqyyNW'
+    url: https://www.youtube.com/embed/2uZtnYNCRxg?si=fb8XBafE6yeQeY8-
   - title: EP 10 – Dr. S.Y. Quraishi
-    url: 'https://youtu.be/oO1S9puUE1M?si=jfTzp857ora3yx3n'
+    url: https://www.youtube.com/embed/oO1S9puUE1M?si=ZEW5wHc2Ub8vbkIN
   - title: S1 – Recap
-    url: 'https://youtu.be/VwFe_bkW-cw?si=MMAdH5DqmWTpvLg2'
+    url: https://www.youtube.com/embed/VwFe_bkW-cw?si=UYk6uGJDd33YIJOL
 ---
-
