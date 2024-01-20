@@ -17,7 +17,7 @@ text: >-
   #GovernanceBTS
 mail: sushasan@samagragovernance.in
 title1: Sushasan Season 1
-title2: ''
+title2: " "
 podcastsS1:
   - title: EP 01 – Anil Swarup
     url: https://www.youtube.com/embed/vLrZOL0X81k
@@ -46,8 +46,8 @@ title4: New episodes every week!
 podcastsS2:
   - title: S2 – Trailer
     url: https://www.youtube.com/embed/EunWHI9_aco
-  - title: EP 01 – P. Narahari Trailer
-    url: https://www.youtube.com/embed/YxxNbtiHmD0
   - title: EP 01 – P. Narahari
     url: https://www.youtube.com/embed/V1yNZUThGoU
+  - title: EP 02 – Amit Mohan Prasad
+    url: https://www.youtube.com/embed/a9niDBhFwcU?si=0F2E92SQsXJmZ7IC
 ---
