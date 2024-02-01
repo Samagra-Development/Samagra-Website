@@ -9,7 +9,7 @@ description: "How Odisha operationalized India’s 1st Centralized Monitoring
   System in Agriculture "
 featuredimage: /img/1-x1-2.png
 ---
-**_How Odisha operationalized India’s 1st Centralized Monitoring System in Agriculture_** 
+***How Odisha operationalized India’s 1st Centralized Monitoring System in Agriculture*** 
 
 India was facing one of its most critical public health challenges during the second wave of COVID-19 in May 2021. New Delhi was one of the [worst impacted cities](https://www.hindustantimes.com/india-news/half-of-all-covid-deaths-in-india-took-place-in-april-may-shows-government-data-101627204345380.html) during this wave, and as a response, Delhi govt. set up a Centralised Monitoring System to enable real-time [data-driven COVID management](https://www.newindianexpress.com/cities/delhi/2022/jan/31/delhis-government-school-teachers-manage-covid-data-at-integrated-war-room-2413407.html). Hospitals were directed to provide real-time data surrounding the availability of oxygen, beds, medicine and other medical supplies and equipment. The data was then synthesized in dashboards which were used by senior government officials to drive crucial decisions surrounding the timely provision of scarce medical supplies to severely impacted regions and differential delivery of healthcare to patients based on the severity of their conditions. 
 
@@ -31,7 +31,7 @@ ADAPT (Analytics for Decision Making and Agricultural Policy Transformation) sta
 
 ![Integrated Decision Support System (DSS)](/img/dss-blog.png)
 
-_ADAPT DSS functions as a unified portal that enables decentralised review & monitoring_
+*ADAPT DSS functions as a unified portal that enables decentralised review & monitoring*
 
 More than 5000 officials like Rashmi Ji (from the GP to the state level) have been [equipped](https://theprint.in/opinion/indias-agriculture-departments-are-complex-but-odisha-is-using-data-to-fix-it/351881/) with ADAPT DSS that enables real-time review & monitoring and informed decision-making surrounding diverse agri-operations. This has been a contributing factor in several key successes of the Government of Odisha including [Krushak Assistance for Livelihood and Income Augmentation (KALIA)](https://indianexpress.com/article/explained/kalia-how-odisha-new-scheme-supports-farm-community-with-payments-5540259/) - India's first direct income transfer scheme, improvement of food-grain production, and implementation of the Hon’ble Chief Minister Naveen Patnaik’s [5T Transformation charter](https://frontline.thehindu.com/the-nation/naveen-patnaiks-5t-initiative-for-good-governance-in-odisha/article38482345.ece) (through interventions like e-pest management).
 
@@ -49,15 +49,15 @@ Work on Krushi Samiksha Kendra, started in April 2022. Whilst constructing a phy
 
 **1. Identifying impactful use-cases and tangible Key Performance Indicators (KPIs):** ‘Agri-operations’ is a broad term consisting of different activities that differentially impact farmers’ well-being. As a first step, the extent to which Krushi Samiksha Kendra will be involved in each of the agri-operations and relevant metrics (KPIs) to track their progress was finalised. At a broad level, 3 impactful use-cases were identified for the initial phase of implementation, targeted action along which would empirically have a positive and direct impact on productivity and farmers income:
 
-* _Program Implementation:_ Delivery of schemes (eg: subsidy on purchase of agri inputs like seeds & nutrients, crop demonstration) & services (eg: extension, low-cost crop loans) provided by the government
-* _Plant Protection:_ Coordinating relief in case of environmental emergencies (e.g. weather disruption, pest incidence) that causes crop loss 
-* _Policy reform:_ Improvement of department initiatives basis feedback of stakeholders in the ecosystem 
+* *Program Implementation:* Delivery of schemes (eg: subsidy on purchase of agri inputs like seeds & nutrients, crop demonstration) & services (eg: extension, low-cost crop loans) provided by the government
+* *Plant Protection:* Coordinating relief in case of environmental emergencies (e.g. weather disruption, pest incidence) that causes crop loss 
+* *Policy reform:* Improvement of department initiatives basis feedback of stakeholders in the ecosystem 
 
 **2. Revamping ADAPT DSS as a unified portal for review & monitoring:** Over the past few years, the Government of Odisha has operationalised multiple key tech-centric initiatives (such as farmer-facing scheme portal - [GO-SUGAM](https://sugam.odisha.gov.in/website/home)). To ensure that officials on the ground have access to all relevant data points on a unified portal in real-time, a rigorous exercise surrounding API integrations was undertaken. Different actors at the state and national level were aligned to fetch all relevant data points onto ADAPT DSS. 
 
 ![Dashboard](/img/adapt-dashboard-blog.png)
 
-_Interactive dashboards used by officials to monitor relevant KPIs_
+*Interactive dashboards used by officials to monitor relevant KPIs*
 
 **3. Enabling a system of nudges and escalations:** Basis the KPIs visible on the ADAPT DSS, department officials get automated and manual nudges and alerts through WhatsApp, call, and email. Regular touchpoints with underperforming units (be it GPs, blocks or districts) allows the state to pre-emptively identify issues and enable resolutions. Based on the response of field officials to nudges and performance of KPIs, issues are escalated within the department hierarchy to the senior most officials as per a defined matrix to ensure timely service delivery & farmers’ welfare. 
 
@@ -72,13 +72,13 @@ This team structure allowed the department to perfectly balance technological pr
 
 ![Organisational structure of the Krushi Samiksha Kendra ](/img/ksk-org-structure.png)
 
-_Organisational structure of the Krushi Samiksha Kendra_ 
+*Organisational structure of the Krushi Samiksha Kendra* 
 
 **5. Review & Monitoring Meetings:** A monthly top-down cascaded review & a monitoring calendar was implemented through which each department official conducts a review (of subordinates) and is reviewed (by senior officials) along the same defined KPIs in their jurisdiction. This transparent system ensures that all officials take full ownership of operations (manifested in the form of tangible KPIs) and enables streamlined discussions on and escalation of underperforming KPIs and critical issues on the ground.
 
 ![Glimpses of cascaded monthly review meetings by Horticulture (left) and Agriculture (right) directorates (Apr 2023)](/img/picture1.png)
 
-_Glimpses of cascaded monthly review meetings by Horticulture (left) and Agriculture (right) directorates (Apr 2023)_
+*Glimpses of cascaded monthly review meetings by Horticulture (left) and Agriculture (right) directorates (Apr 2023)*
 
 **Pilot success and formal inauguration**
 
@@ -88,6 +88,6 @@ Since operationalisation, the Krushi Samiksha Kendra has conducted 50+ hypothesi
 
 ![Glimpses of the developed and fully functional Krushi Samiksha Kendra](/img/ksk.png)
 
-_Glimpses of the developed and fully functional Krushi Samiksha Kendra_
+*Glimpses of the developed and fully functional Krushi Samiksha Kendra*
 
-_This blog is part of the Amrit Series, where we bring to you success stories of large scale impact through our work across domains and states. You can learn more about Krushi Samiksha Kendra_ [_here_](https://www.samagragovernance.in/amritseries/ksk/)_._
+*This blog is part of the [Amrit Series](https://www.samagragovernance.in/amritseries), where we bring to you success stories of large scale impact through our work across domains and states. You can learn more about Krushi Samiksha Kendra* *[here](https://www.samagragovernance.in/amritseries/ksk/).*
