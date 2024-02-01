@@ -5,7 +5,8 @@ author: KONNECT Team
 projectId: KONNECT
 authorImage: /img/person-vector.jpeg
 date: 2024-02-01T12:02:43.070Z
-description: N/A
+description: Government of Odisha’s single window portal for digital delivery of
+  agricultural schemes to farmers
 featuredimage: /img/insta-linkedin-1x1-thumbnail.png
 ---
 ***Government of Odisha’s single window portal for digital delivery of agricultural schemes to farmers***
