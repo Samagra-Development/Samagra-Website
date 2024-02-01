@@ -1,13 +1,12 @@
 ---
 templateKey: blog-post
-title: 'Amrit Series #1: Krushi Samiksha Kendra'
+title: "Amrit Series #1: Krushi Samiksha Kendra"
 author: KONNECT Team
 projectId: KONNECT
-authorImage: /img/copy-of-ko-logo-2-.png
+authorImage: /img/person-vector.jpeg
 date: 2023-12-25T13:55:27.756Z
-description: >-
-  How Odisha operationalized India’s 1st Centralized Monitoring System in
-  Agriculture 
+description: "How Odisha operationalized India’s 1st Centralized Monitoring
+  System in Agriculture "
 featuredimage: /img/1-x1-2.png
 ---
 **_How Odisha operationalized India’s 1st Centralized Monitoring System in Agriculture_** 
