@@ -135,4 +135,4 @@ More than 2,00,000 beneficiaries have applied to schemes and services through GO
 
 GO-SUGAM stands as a great example of how digitization in governance can effectively transform scheme and service delivery. The digital platform's functionalities have helped both the farmers as well as officials, offering efficiency and transparency. As farmers like Rashmi ji and officials like Naresh ji experience the ease of accessing & processing agricultural schemes, the success of GO-SUGAM symbolizes a positive step towards empowering communities and propelling Odisha into a future of streamlined and accessible agricultural schemes and services.
 
-*This blog is part of the Amrit Series, where we bring to you success stories of large scale impact through our work across domains and states. You can learn more about GO-SUGAM here.*
+*This blog is part of the [Amrit Series](https://www.samagragovernance.in/amritseries), where we bring to you success stories of large scale impact through our work across domains and states. You can learn more about GO-SUGAM [here](https://www.samagragovernance.in/amritseries/go-sugam/).*
