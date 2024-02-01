@@ -50,4 +50,6 @@ podcastsS2:
     url: https://www.youtube.com/embed/V1yNZUThGoU
   - title: EP 02 – Amit Mohan Prasad
     url: https://www.youtube.com/embed/a9niDBhFwcU?si=0F2E92SQsXJmZ7IC
+  - title: EP 03 – Dr. Indu Bhushan
+    url: https://www.youtube.com/embed/FnMSjEFiSw0?si=pj-4N2N0Mc9yhu8x
 ---
