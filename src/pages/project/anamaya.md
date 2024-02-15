@@ -21,10 +21,10 @@ overview:
       capacity, strengthening healthcare delivery channels, and promoting
       health-seeking behaviour among the citizens through communitization.
 scale:
-  - count: "5"
-    label: QLI Dimensions
   - count: 1 crore+
     label: Tribal citizens
+  - count: "5"
+    label: QLI Dimensions
 projectMiddleBannerImage: /img/up-niramaya_samagragovernance1.jpeg
 approach:
   - text: Our approach to transforming tribal population’s experience at public
