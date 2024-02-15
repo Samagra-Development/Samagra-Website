@@ -5,10 +5,8 @@ mediaHouse: The Print
 projectId: SAKSHAM_EDUCATION
 date: 2020-01-17T12:54:18.213Z
 author: NA
-link: >-
-  https://theprint.in/opinion/how-haryana-made-government-school-education-political-priority/350446/
+link: https://theprint.in/opinion/how-haryana-made-government-school-education-political-priority/350446/
 tag: NA
-displayOnHomePage: true
+displayOnHomePage: false
 image: /img/home-banner-saksham-slide-2.jpg
 ---
-
