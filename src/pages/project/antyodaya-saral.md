@@ -24,12 +24,12 @@ overview:
       same services, and Common Service Centres across more than 6,000 villages
       in Haryana.
 scale:
-  - count: "36"
-    label: Government Departments
-  - count: "550"
-    label: Schemes and services
   - count: 2.7 crore
     label: Citizens in Haryana
+  - count: "550"
+    label: Schemes and services
+  - count: "36"
+    label: Government Departments
 projectMiddleBannerImage: /img/saral-cover.JPG
 approach:
   - text: "Our approach to streamlining public service delivery in Haryana was
