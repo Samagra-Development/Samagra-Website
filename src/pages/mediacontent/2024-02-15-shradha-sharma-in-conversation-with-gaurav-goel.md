@@ -8,5 +8,5 @@ author: N/A
 link: https://yourstory.com/video/gaurav-goel-samagra-governance
 tag: N/A
 displayOnHomePage: true
-image: /img/gg-ys-teaser-thumbnail-2.png
+image: /img/gg-ys-teaser-thumbnail-1.png
 ---
