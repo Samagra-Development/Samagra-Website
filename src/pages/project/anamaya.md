@@ -23,7 +23,7 @@ overview:
 scale:
   - count: "5"
     label: QLI Dimensions
-  - count: 1 Cr+
+  - count: 1 crore+
     label: Tribal citizens
 projectMiddleBannerImage: /img/up-niramaya_samagragovernance1.jpeg
 approach:
