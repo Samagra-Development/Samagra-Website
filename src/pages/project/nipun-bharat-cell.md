@@ -23,12 +23,12 @@ overview:
       primary school students are able to attain foundational literacy and
       numeracy skills by 2026.
 scale:
-  - count: 1,10,000
-    label: Primary Schools
-  - count: 3,90,000
-    label: Teachers
   - count: 60,00,000
     label: Students
+  - count: 3,90,000
+    label: Teachers
+  - count: 1,10,000
+    label: Primary Schools
 projectMiddleBannerImage: /img/samagraup_cm.jpeg
 approach:
   - text: Samagra’s approach to transforming school education combines both academic
