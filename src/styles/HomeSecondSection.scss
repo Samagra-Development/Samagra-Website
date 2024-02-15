@@ -1,11 +1,16 @@
 @import "./variable";
 
+.home-second-section-iframe{
+  height: 400px;
+  width: 620px;
+}
+
 .home-second-section-wrapper {
   padding: 50px 0;
   text-align: center;
 
   .title {
-    font-size: 38px;
+    font-size: 32px;
     color: $theme-text-normal;
     letter-spacing: 0.47px;
   }
@@ -21,15 +26,11 @@
     margin-top: 50px;
     padding-left: 30px;
 
-    &.first {
-
-    }
-
     .image-section {
       flex: 1;
       position: relative;
 
-      min-height: 40vw;
+      min-height: 30vw;
 
       .image-background-section {
         position: absolute;
@@ -40,6 +41,8 @@
         background: #efefef;
         z-index: -1;
       }
+
+      
 
       .image-wrapper {
         background-repeat: no-repeat;
@@ -56,8 +59,8 @@
 
         &#our-image-approach-wrapper {
 
-          width: calc(40vw);
-          height: calc(40vw);
+          width: calc(30vw);
+          height: calc(30vw);
           top: 0;
           left: -10px;
         }
@@ -88,7 +91,7 @@
       padding: 20px;
 
       .title {
-        font-size: 40px;
+        font-size: 30px;
         line-height: 65px;
         font-weight: 600;
         margin-bottom: 20px;
@@ -101,8 +104,8 @@
       }
 
       .description {
-        max-width: 480px;
-        font-size: 16px;
+        max-width: 580px;
+        font-size: 14px;
       }
 
       &#our-vision-text-section {
@@ -123,7 +126,7 @@
 
     &.reverse {
       flex-direction: row-reverse;
-      margin-right: 30px;
+      align-items: center;
 
       .image-background-section {
         left: auto;
@@ -131,7 +134,7 @@
       }
 
       .image-section {
-        margin-top: 100px;
+        // margin-top: 100px;
 
         .image-wrapper {
           background-size: contain;
@@ -155,20 +158,25 @@
 
           &#our-image-approach-wrapper {
 
-            width: calc(40vw);
-            height: calc(40vw);
+            width: calc(30vw);
+            height: calc(30vw);
           }
         }
       }
 
       .text-section {
-        padding-left: 2vw;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
       }
     }
   }
 
   @media only screen and (max-width: 980px) {
+    .home-second-section-iframe{
+      height: 400px;
+      width: 600px;
+    }
+
     .title {
       font-size: 28px;
       line-height: 34px;
@@ -180,6 +188,8 @@
     .image-section {
       padding-top: calc((500px - 45vw) / 2);
 
+      
+
       .image-wrapper {
         position: initial !important;
       }
@@ -187,7 +197,7 @@
   }
   @media only screen and (min-width: 980px) and (max-width: 1335px) {
     .title {
-      font-size: 38px;
+      font-size: 28px;
     }
     .content-section {
       .text-section {
@@ -201,7 +211,7 @@
         }
 
         .title {
-          font-size: 60px;
+          font-size: 44px;
           line-height: 85px;
         }
 
@@ -210,8 +220,8 @@
         }
 
         .description {
-          font-size: 20px;
-          line-height: 29px;
+          font-size: 18px;
+          line-height: 24px;
         }
       }
     }
@@ -219,7 +229,7 @@
   }
   @media only screen and (min-width: 1336px) and (max-width: 1440px) {
     .title {
-      font-size: 38px;
+      font-size: 32px;
     }
     .content-section {
       .text-section {
@@ -233,7 +243,7 @@
         }
 
         .title {
-          font-size: 60px;
+          font-size: 44px;
           line-height: 85px;
         }
 
@@ -242,8 +252,8 @@
         }
 
         .description {
-          font-size: 20px;
-          line-height: 29px;
+          font-size: 18px;
+          line-height: 24px;
         }
       }
     }
@@ -265,7 +275,7 @@
         }
 
         .title {
-          font-size: 100px;
+          font-size: 90px;
           line-height: 120px;
         }
 
@@ -274,26 +284,32 @@
         }
 
         .description {
-          font-size: 20px;
-          line-height: 29px;
+          font-size: 18px;
+          line-height: 24px;
         }
 
         .sub-title {
-          font-size: 30px;
+          font-size: 24px;
         }
       }
     }
   }
   @media only screen and (max-width: 760px) {
+    .home-second-section-iframe{
+      height: 190px;
+      width: 300px;
+    }
+
     .content-section {
       flex-direction: column;
       margin-top: 60px;
 
       &.reverse {
-        flex-direction: column;
+        flex-direction: column-reverse;
       }
 
       .image-section {
+       
         .image-wrapper {
           width: calc(100vw - 20px);
           height: calc(100vw - 20px);
