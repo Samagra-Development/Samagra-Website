@@ -1,18 +1,17 @@
 ---
 templateKey: project-post
-title: NIPUN Bharat Cell
+title: NIPUN Bharat
 domainNew: Education
-fullName: NIPUN Bharat Cell
-id: NIPUN Bharat Cell
+fullName: NIPUN Bharat
+id: NIPUN Bharat
 backgroundCover: /img/samagragovernance_missionprerna.jpg
 domain: Education
 subTitle: Samagra
 state: Uttar Pradesh
-tagLine: Imparting foundational learning to primary students in Uttar Pradesh
+tagLine: Enabling grade 1-3 students to attain foundational literacy & numeracy
 projectLogoWithState: /img/nbc.png
 overview:
-  - text: >-
-      Uttar Pradesh has the largest school education system in India. Over the
+  - text: Uttar Pradesh has the largest school education system in India. Over the
       last few decades, while the state has achieved near universal school
       enrollment, learning outcomes of students remain poor as highlighted by
       several reports such as NAS and ASER. Keeping in line with the draft New
@@ -24,16 +23,15 @@ overview:
       primary school students are able to attain foundational literacy and
       numeracy skills by 2026.
 scale:
-  - count: '1,10,000'
+  - count: 1,10,000
     label: Primary Schools
-  - count: '3,90,000'
+  - count: 3,90,000
     label: Teachers
-  - count: 1.2 crore
+  - count: 60,00,000
     label: Students
 projectMiddleBannerImage: /img/samagraup_cm.jpeg
 approach:
-  - text: >-
-      Samagra’s approach to transforming school education combines both academic
+  - text: Samagra’s approach to transforming school education combines both academic
       and administrative reforms. This means we focus as much on improving the
       quality of classroom interactions between students and teachers (shifting
       focus from syllabus completion to competency-based teaching,  providing
@@ -47,25 +45,19 @@ approach:
       carry out timely corrective action.
 readMore:
   - text: UP govt pushes massive education reform programmes
-  - text: >-
-      CM Adityanath’s 5-step plan for UP students under lockdown that other
+  - text: CM Adityanath’s 5-step plan for UP students under lockdown that other
       states can emulate
-  - text: >-
-      The Uttar Pradesh government is revolutionising primary education in the
+  - text: The Uttar Pradesh government is revolutionising primary education in the
       state
 impact:
-  - count: '   '
-    label: >-
-      Supporting the state in setting a quantifiable target for improving
+  - count: "   "
+    label: Supporting the state in setting a quantifiable target for improving
       foundational literacy and numeracy
-  - count: '   '
-    label: >-
-      Working with academic partners to develop the instructional design and
+  - count: "   "
+    label: Working with academic partners to develop the instructional design and
       pedagogy strategy for the state
-  - count: '    '
-    label: >-
-      Developing a tech tool to measure progress made by students on key
+  - count: "    "
+    label: Developing a tech tool to measure progress made by students on key
       academic metrics
-keyInitiativesTitle: '  '
+keyInitiativesTitle: "  "
 ---
-
