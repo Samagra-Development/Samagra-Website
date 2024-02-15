@@ -8,6 +8,6 @@ date: 2023-12-26T07:22:34.416Z
 author: Rahul Kulkarni
 link: https://government.economictimes.indiatimes.com/blog/10-govtech-trends-for-2024-major-futuristic-tech-trends-to-watch-in-government-sector-in-2024/106291853
 tag: N/A
-displayOnHomePage: true
+displayOnHomePage: false
 image: /img/govtech.jpg
 ---
