@@ -19,7 +19,7 @@ baseBanner:
     - text: Transforming
     - text: Governance
 subBanners:
-  - projectName: NIPUN Bharat
+  - projectName: NIPUN Bharat cell
     color: '#BA9807'
     slides:
       - image: /img/NIPUN-Bharat-slide-1.png
