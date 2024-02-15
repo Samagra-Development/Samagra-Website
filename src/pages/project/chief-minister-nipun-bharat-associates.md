@@ -1,8 +1,8 @@
 ---
 templateKey: project-post
 title: CMNBA
-domainNew: Education
-fullName: 'Chief Minister''s NIPUN Bharat Associates '
+domainNew: Past Projects
+fullName: "Chief Minister's NIPUN Bharat Associates "
 id: CMNBA
 backgroundCover: /img/beneficiary-photo.jpg
 domain: Education
@@ -11,8 +11,7 @@ state: Uttar Pradesh
 tagLine: Enabling FLN implementation through 111 high-quality associates
 projectLogoWithState: /img/cmnba-1-.png
 overview:
-  - text: >-
-      Samagra is working with the Department of Basic Education, Govt of Uttar
+  - text: Samagra is working with the Department of Basic Education, Govt of Uttar
       Pradesh with support from the Central Square Foundation (CSF), to achieve
       universal Foundational Literacy and Numeracy (FLN) skills among 1.1 crore
       primary school students in Uttar Pradesh (UP) by 2025-26. To catalyze the
@@ -27,11 +26,10 @@ scale:
   - count: 1.36 Lakh
     label: Government Schools
   - count: 111 Associates
-    label: 'Across 75 districts of Uttar Pradesh '
+    label: "Across 75 districts of Uttar Pradesh "
 projectMiddleBannerImage: /img/govt-leader.jpg
 approach:
-  - text: >-
-      CMNBAs will be posted at the Chief Development Officer’s office in the
+  - text: "CMNBAs will be posted at the Chief Development Officer’s office in the
       districts to co-lead and drive the academic and administrative reforms
       rolled out by the state to achieve 100% FLN skills by 2025-26. CMNBAs will
       own the education outcomes of the district by actively debottlenecking
@@ -39,22 +37,18 @@ approach:
       actors through regular capacity building and mentoring, identifying key
       focus areas and challenges for non-NIPUN blocks by devising action plans
       and re-inforce accountability amongst all cadres by facilitating high
-      quality data backed review mechanisms. 
+      quality data backed review mechanisms. "
 impact:
-  - count: ' '
+  - count: " "
     label: Increasing the number of grade-competent ‘NIPUN’ students in the district
-  - count: ' '
-    label: >-
-      Rigorous implementation of academic and administrative reforms under
-      NIPUN 
-  - count: ' '
-    label: >-
-      Quality data-backed monitoring by incorporating qualitative (school/field
-      visits) & quantitative (data analytical) insights 
-  - count: ' '
-    label: >-
-      Compliance and effective translation of academic strategy and motivation
+  - count: " "
+    label: "Rigorous implementation of academic and administrative reforms under
+      NIPUN "
+  - count: " "
+    label: "Quality data-backed monitoring by incorporating qualitative
+      (school/field visits) & quantitative (data analytical) insights "
+  - count: " "
+    label: Compliance and effective translation of academic strategy and motivation
       mechanisms on the ground
-keyInitiativesTitle: ' '
+keyInitiativesTitle: " "
 ---
-
