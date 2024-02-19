@@ -59,18 +59,23 @@ collections:
       - { label: 'Impact number 1', name: 'impactNumber1', widget: 'number', required: false }
       - { label: 'Impact number 1 text', name: 'impactNumber1Text', widget: 'string', required: false }
       - { label: 'Impact number 1 title', name: 'impactNumber1Title', widget: 'string', required: false }
+      - { label: 'Show Plus Icon 1', name: 'showPlus1', widget: 'boolean' }
       - { label: 'Impact number 2', name: 'impactNumber2', widget: 'number', required: false }
       - { label: 'Impact number 2 text', name: 'impactNumber2Text', widget: 'string', required: false }
       - { label: 'Impact number 2 title', name: 'impactNumber2Title', widget: 'string', required: false }
+      - { label: 'Show Plus Icon 2', name: 'showPlus2', widget: 'boolean' }
       - { label: 'Impact number 3', name: 'impactNumber3', widget: 'number', required: false }
       - { label: 'Impact number 3 text', name: 'impactNumber3Text', widget: 'string', required: false }
       - { label: 'Impact number 3 title', name: 'impactNumber3Title', widget: 'string', required: false }
+      - { label: 'Show Plus Icon 3', name: 'showPlus3', widget: 'boolean' }
       - { label: 'Impact number 4', name: 'impactNumber4', widget: 'number', required: false }
       - { label: 'Impact number 4 text', name: 'impactNumber4Text', widget: 'string', required: false }
       - { label: 'Impact number 4 title', name: 'impactNumber4Title', widget: 'string', required: false }
+      - { label: 'Show Plus Icon 4', name: 'showPlus4', widget: 'boolean' }
       - { label: 'Impact number 5', name: 'impactNumber5', widget: 'number', required: false }
       - { label: 'Impact number 5 text', name: 'impactNumber5Text', widget: 'string', required: false }
       - { label: 'Impact number 5 title', name: 'impactNumber5Title', widget: 'string', required: false }
+      - { label: 'Show Plus Icon 5', name: 'showPlus5', widget: 'boolean' }
       - { label: 'Title 8', name: 'title8', widget: 'string', required: false }
       - { label: 'Blog Title', name: 'blogTitle', widget: 'string', required: false }
       - { label: 'Blog Link (starts with /blog/...)', name: 'blogLink', widget: 'string', required: false }

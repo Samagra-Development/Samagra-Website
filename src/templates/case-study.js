@@ -706,13 +706,13 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   scrollSpyOnce={true}
                 />{' '}
                 {content?.impactNumber1Text}{' '}
-                <span
+                {content?.showPlus1 && <span
                   style={{
                     color: content?.fontColor,
                     fontWeight: 'bold',
                   }}>
                   +
-                </span>
+                </span>}
               </p>
               <p
                 className="textCaseStudy"
@@ -760,13 +760,13 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   scrollSpyOnce={true}
                 />{' '}
                 {content?.impactNumber2Text}{' '}
-                <span
+                {content?.showPlus2 && <span
                   style={{
                     color: content?.fontColor,
                     fontWeight: 'bold',
                   }}>
                   +
-                </span>
+                </span>}
               </p>
               <p
                 className="textCaseStudy"
@@ -814,13 +814,13 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   scrollSpyOnce={true}
                 />
                 {content?.impactNumber3Text}{' '}
-                <span
+                {content?.showPlus3 && <span
                   style={{
                     color: content?.fontColor,
                     fontWeight: 'bold',
                   }}>
                   +
-                </span>
+                </span>}
               </p>
               <p
                 className="textCaseStudy"
@@ -868,13 +868,13 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   scrollSpyOnce={true}
                 />
                 {content?.impactNumber4Text}{' '}
-                <span
+                {content?.showPlus4 && <span
                   style={{
                     color: content?.fontColor,
                     fontWeight: 'bold',
                   }}>
                   +
-                </span>
+                </span>}
               </p>
               <p
                 className="textCaseStudy"
@@ -922,13 +922,13 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   scrollSpyOnce={true}
                 />
                 {content?.impactNumber5Text}{' '}
-                <span
+                {content?.showPlus5 && <span
                   style={{
                     color: content?.fontColor,
                     fontWeight: 'bold',
                   }}>
                   +
-                </span>
+                </span>}
               </p>
               <p
                 className="textCaseStudy"
@@ -1379,18 +1379,23 @@ export const pageQuery = graphql`
         impactNumber1
         impactNumber1Text
         impactNumber1Title
+        showPlus1
         impactNumber2
         impactNumber2Text
         impactNumber2Title
+        showPlus2
         impactNumber3
         impactNumber3Text
         impactNumber3Title
+        showPlus3
         impactNumber4
         impactNumber4Text
         impactNumber4Title
+        showPlus4
         impactNumber5
         impactNumber5Text
         impactNumber5Title
+        showPlus5
 
         sideIcon1 {
           childImageSharp {

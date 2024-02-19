@@ -22,18 +22,23 @@ title7: GO-SUGAM has quickly become the de-facto choice of Department of
 impactNumber1: 2
 impactNumber1Text: Lakh
 impactNumber1Title: Total applications <br>received
+showPlus1: true
 impactNumber2: 1
 impactNumber2Text: Lakh
 impactNumber2Title: Go-ahead generated <br>against for applications
+showPlus2: true
 impactNumber3: 70000
 impactNumber3Text: ''
 impactNumber3Title: Subsidies released <br>against go-ahead
+showPlus3: true
 impactNumber4: 44
 impactNumber4Text: '%'
 impactNumber4Title: Farmers applied on <br>their own
+showPlus4: true
 impactNumber5: 99
 impactNumber5Text: '%'
 impactNumber5Title: Farmer stated correct <br>subsidy was received
+showPlus5: true
 
 title8: Insights from the ground
 blogTitle: Government of Odisha’s single window portal for digital delivery of agricultural schemes to farmers
