@@ -107,7 +107,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
             aspectRatio: '2',
             objectFit: 'cover',
           }}>
-          <source src={content.bannerImage.publicURL} type="video/mp4" />
+          <source src={content?.bannerImage?.publicURL} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="case-study-translucent-dark-overlay" />
@@ -417,7 +417,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 aspectRatio: '2',
                 objectFit: 'cover',
               }}>
-              <source src={content.motionGraphic1.publicURL} type="video/mp4" />
+              <source src={content?.motionGraphic1?.publicURL} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             {/* <div
@@ -465,7 +465,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               className="infographic-img"
               style={{ width: 'fit-content', margin: 'auto' }}>
               <img
-                src={content?.infographic1[0].img.childImageSharp?.fluid?.src}
+                src={content?.infographic1?.[0]?.img?.childImageSharp?.fluid?.src}
                 alt=""
                 style={{ maxWidth: '200px' }}
               />
@@ -478,13 +478,13 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 flexDirection: mobile ? 'column' : 'row',
                 alignItems: mobile ? 'center' : 'flex-start',
               }}>
-              {content?.infographic1.map((item, index, array) => {
+              {content?.infographic1?.map((item, index, array) => {
                 if(index === 0) return null;
                 return (
                   <>
                     <div className="infographic-img">
                       <img
-                        src={item.img.childImageSharp?.fluid?.src}
+                        src={item?.img?.childImageSharp?.fluid?.src}
                         alt=""
                         style={{ maxWidth: '250px' }}
                       />
@@ -549,7 +549,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               className="infographic-img"
               style={{ width: 'fit-content', margin: '15px auto' }}>
               <img
-                src={content?.infographic2[0].img.childImageSharp?.fluid?.src}
+                src={content?.infographic2?.[0]?.img?.childImageSharp?.fluid?.src}
                 alt=""
                 style={{ maxWidth: '200px' }}
               />
@@ -562,14 +562,14 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 alignItems: mobile ? 'center' : 'flex-start',
                 marginTop: '10px',
               }}>
-              {content?.infographic2.map((item, index) => {
+              {content?.infographic2?.map((item, index) => {
                 if(index === 0) return null;
                 return (
                   <div
                     className="infographic-img"
                     style={{ margin: mobile ? '15px 0' : '0 15px' }}>
                     <img
-                      src={item.img.childImageSharp?.fluid?.src}
+                      src={item?.img?.childImageSharp?.fluid?.src}
                       alt=""
                       style={{ maxWidth: '250px' }}
                     />
@@ -623,7 +623,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 aspectRatio: '2',
                 objectFit: 'cover',
               }}>
-              <source src={content.motionGraphic2.publicURL} type="video/mp4" />
+              <source src={content?.motionGraphic2?.publicURL} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             {/* <div
@@ -685,7 +685,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 padding: '10px',
               }}>
               <img
-                src={content.icon1.childImageSharp.fluid.src}
+                src={content?.icon1?.childImageSharp?.fluid?.src}
                 alt=""
                 width={mobile ? 35 : 75}
                 height={mobile ? 35 : 75}
@@ -739,7 +739,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 padding: '10px',
               }}>
               <img
-                src={content.icon2.childImageSharp.fluid.src}
+                src={content?.icon2?.childImageSharp?.fluid?.src}
                 alt=""
                 width={mobile ? 35 : 75}
                 height={mobile ? 35 : 75}
@@ -793,7 +793,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 padding: '10px',
               }}>
               <img
-                src={content.icon3.childImageSharp.fluid.src}
+                src={content?.icon3?.childImageSharp?.fluid?.src}
                 alt=""
                 width={mobile ? 35 : 75}
                 height={mobile ? 35 : 75}
@@ -847,7 +847,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 padding: '10px',
               }}>
               <img
-                src={content.icon4.childImageSharp.fluid.src}
+                src={content?.icon4?.childImageSharp?.fluid?.src}
                 alt=""
                 width={mobile ? 35 : 75}
                 height={mobile ? 35 : 75}
@@ -901,7 +901,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 padding: '10px',
               }}>
               <img
-                src={content.icon5.childImageSharp.fluid.src}
+                src={content?.icon5?.childImageSharp?.fluid?.src}
                 alt=""
                 width={mobile ? 35 : 75}
                 height={mobile ? 35 : 75}
@@ -1284,7 +1284,7 @@ const CaseStudy = ({ data }) => {
         helmet={
           <Helmet titleTemplate="%s | CaseStudy">
             <title>{`${post.frontmatter.title}`}</title>
-            <meta name="description" content={`${post.frontmatter.title}`} />
+            <meta name="description" content={`${post.frontmatter?.title}`} />
           </Helmet>
         }
       />
