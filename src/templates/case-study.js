@@ -209,7 +209,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
             margin: 'auto',
             marginTop: '100px',
           }}>
-          {content?.title}
+          {content?.title1}
         </div>
       </FadeInSection>
       {/* Show modal only in mobile */}
@@ -1283,8 +1283,8 @@ const CaseStudy = ({ data }) => {
         content={post.frontmatter}
         helmet={
           <Helmet titleTemplate="%s | CaseStudy">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta name="description" content={`${post.frontmatter?.title}`} />
+            <title>{`${post.frontmatter.title1}`}</title>
+            <meta name="description" content={`${post.frontmatter?.title1}`} />
           </Helmet>
         }
       />
@@ -1309,7 +1309,6 @@ export const pageQuery = graphql`
       }
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
-        title
         fontColor
         icon1 {
           childImageSharp {
@@ -1346,7 +1345,7 @@ export const pageQuery = graphql`
             }
           }
         }
-
+        title1
         title2
         title3
         impactVideoLink

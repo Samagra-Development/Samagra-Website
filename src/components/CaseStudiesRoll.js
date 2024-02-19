@@ -121,7 +121,7 @@ class CaseStudiesRoll extends React.Component {
                             fontSize: '16px',
                             textAlign: 'center',
                           }}>
-                          {post?.frontmatter?.title}
+                          {post?.frontmatter?.title1}
                         </p>
                         <button
                           className="case-study-roll-btn"
@@ -170,7 +170,7 @@ export default () => (
               frontmatter {
                 templateKey
                 show
-                title
+                title1
                 projectId
                 date(formatString: "MMMM DD, YYYY")
                 featuredimage {
