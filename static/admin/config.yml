@@ -42,16 +42,76 @@ collections:
           widget: 'hidden',
           default: 'case-study',
         }
+      - { label: 'Show', name: 'show', widget: 'boolean' }
       - { label: 'Project ID', name: 'projectId', widget: 'string' }
-      - { label: 'Caption', name: 'title', widget: 'string' }
-      # - { label: "Author", name: "author", widget: "string" }
-      # - { label: "Author Image", name: "authorImage", widget: image }
+      - { label: 'Title 1', name: 'title', widget: 'string' }
+      - { label: 'Title 2', name: 'title2', widget: 'string' }
+      - { label: 'Title 3', name: 'title3', widget: 'string' }
+      - { label: 'Impact video embed link', name: 'impactVideoLink', widget: 'string' }
+      - { label: 'Title 4', name: 'title4', widget: 'string' }
+      - { label: 'Title 5', name: 'title5', widget: 'string' }
+      - { label: 'Title 6', name: 'title6', widget: 'string' }
+      - { label: 'Title 7', name: 'title7', widget: 'string' }
+      - { label: 'Impact number 1', name: 'impactNumber1', widget: 'number' }
+      - { label: 'Impact number 1 text', name: 'impactNumber1Text', widget: 'string' }
+      - { label: 'Impact number 1 title', name: 'impactNumber1Title', widget: 'string' }
+      - { label: 'Impact number 2', name: 'impactNumber2', widget: 'number' }
+      - { label: 'Impact number 2 text', name: 'impactNumber2Text', widget: 'string' }
+      - { label: 'Impact number 2 title', name: 'impactNumber2Title', widget: 'string' }
+      - { label: 'Impact number 3', name: 'impactNumber3', widget: 'number' }
+      - { label: 'Impact number 3 text', name: 'impactNumber3Text', widget: 'string' }
+      - { label: 'Impact number 3 title', name: 'impactNumber3Title', widget: 'string' }
+      - { label: 'Impact number 4', name: 'impactNumber4', widget: 'number' }
+      - { label: 'Impact number 4 text', name: 'impactNumber4Text', widget: 'string' }
+      - { label: 'Impact number 4 title', name: 'impactNumber4Title', widget: 'string' }
+      - { label: 'Impact number 5', name: 'impactNumber5', widget: 'number' }
+      - { label: 'Impact number 5 text', name: 'impactNumber5Text', widget: 'string' }
+      - { label: 'Impact number 5 title', name: 'impactNumber5Title', widget: 'string' }
+      - { label: 'Title 8', name: 'title8', widget: 'string' }
+      - { label: 'Blog Title', name: 'blogTitle', widget: 'string' }
+      - { label: 'Blog Link (starts with /blog/...)', name: 'blogLink', widget: 'string' }
+      - { label: 'Show OpEd', name: 'showOpEd', widget: 'boolean' }
+      - { label: 'OpEd Title', name: 'opEdTitle', widget: 'string' }
+      - { label: 'OpEd Link', name: 'opEdLink', widget: 'string' }
+      - { label: 'Show Webinar', name: 'showWebinar', widget: 'boolean' }
+      - { label: 'Webinar Title', name: 'webinarTitle', widget: 'string' }
+      - { label: 'Webinar Link', name: 'webinarLink', widget: 'string' }
+      - { label: "Blog Section Image", name: "blogSectionImage", widget: image }
+      - { label: 'Infographic Google Drive Link', name: 'infographicGoogleDriveLink', widget: 'string' }
+      - { label: 'Download Infographic button text', name: 'downloadInfographicBtn', widget: 'string' }
+      - { label: 'Font Color (hex code)', name: 'fontColor', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'date' }
-      # - { label: "Description", name: "description", widget: "text" }
       - { label: 'Featured Image', name: 'featuredimage', widget: image }
-      - { label: 'Banner Image', name: 'bannerImage', widget: image }
-      - { label: 'Link', name: 'link', widget: 'string' }
       - { label: 'Button Text', name: 'buttonText', widget: 'string' }
+      - { label: 'Banner Image', name: 'bannerImage', widget: file }
+      - { label: 'Impact icon 1', name: 'icon1', widget: image }
+      - { label: 'Impact icon 2', name: 'icon2', widget: image }
+      - { label: 'Impact icon 3', name: 'icon3', widget: image }
+      - { label: 'Impact icon 4', name: 'icon4', widget: image }
+      - { label: 'Impact icon 5', name: 'icon5', widget: image }
+      - { label: 'Motion Graphic 1', name: 'motionGraphic1', widget: file }
+      - { label: 'Motion Graphic 2', name: 'motionGraphic2', widget: file }
+      - { label: 'Footer Text 1', name: 'footerText1', widget: 'string' }
+      - { label: 'Footer Text 2', name: 'footerText2', widget: 'string' }
+      - { label: 'Success Stories Title', name: 'successStoriesTitle', widget: 'string' }
+      - {
+          label: Infographic 1,
+          name: infographic1,
+          widget: list,
+          fields:
+            [
+              { label: Image, name: img, widget: image },
+            ],
+        }
+      - {
+          label: Infographic 2,
+          name: infographic2,
+          widget: list,
+          fields:
+            [
+              { label: Image, name: img, widget: image },
+            ],
+        }
   - name: 'projectdomain'
     label: 'Project Domain'
     folder: 'src/pages/project-domain'

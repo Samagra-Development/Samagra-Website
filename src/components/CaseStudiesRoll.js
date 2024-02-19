@@ -41,6 +41,9 @@ class CaseStudiesRoll extends React.Component {
         <div className="blogs-section" style={{paddingBottom: '100px'}}>
           <div className="row" style={{justifyContent: 'center'}}>
             {clean_posts.map(({ node: post }) => {
+              if(!post.frontmatter.show){
+                return null;
+              }
               return (
                 <div
                 style={{ minHeight: '350px', minWidth: mobile ? '200px' : '350px', margin: mobile ? '15px 0' : '0 15px' }}
@@ -166,6 +169,7 @@ export default () => (
               }
               frontmatter {
                 templateKey
+                show
                 title
                 projectId
                 date(formatString: "MMMM DD, YYYY")

@@ -1,5 +1,6 @@
 ---
 templateKey: case-study
+show: true
 title: Government of Odisha's single window portal for digital delivery of agricultural schemes to farmers
 title2: Impact Video
 title3: GO-SUGAM was introduced by the Govt of Odisha in May 2022, to ease
@@ -82,4 +83,16 @@ footerText1: Partner with us today!
 footerText2: 'Write to us at: outreach@samagragovernance.in'
 
 successStoriesTitle: View more <i>Success Stories of Impact</i>
+
+infographic1:
+  - img: /img/gosugam-infographic1-img1.png
+  - img: /img/gosugam-infographic1-img2.png
+  - img: /img/gosugam-infographic1-img3.png
+  - img: /img/gosugam-infographic1-img4.png
+
+infographic2:
+  - img: /img/gosugam-infographic2-img1.png
+  - img: /img/gosugam-infographic2-img2.png
+  - img: /img/gosugam-infographic2-img3.png
+  - img: /img/gosugam-infographic2-img4.png
 ---

@@ -16,14 +16,6 @@ import amritSeriesBubble from '../../static/img/amrit-series-text-bubble.svg';
 import gosugamImpactImg from '../../static/img/gosugam-impact.jpg';
 import akailaunch from '../../static/img/ama-krushai-launch.png';
 import gosugamLinksImg from '../../static/img/gosugam-links.jpeg';
-import gosugamInfographic1Img1 from '../../static/img/gosugam-infographic1-img1.png';
-import gosugamInfographic1Img2 from '../../static/img/gosugam-infographic1-img2.png';
-import gosugamInfographic1Img3 from '../../static/img/gosugam-infographic1-img3.png';
-import gosugamInfographic1Img4 from '../../static/img/gosugam-infographic1-img4.png';
-import gosugamInfographic2Img1 from '../../static/img/gosugam-infographic2-img1.png';
-import gosugamInfographic2Img2 from '../../static/img/gosugam-infographic2-img2.png';
-import gosugamInfographic2Img3 from '../../static/img/gosugam-infographic2-img3.png';
-import gosugamInfographic2Img4 from '../../static/img/gosugam-infographic2-img4.png';
 import { RightArrow } from '../components/CaseStudyComponents/RightArrow';
 import { Modal } from 'react-responsive-modal';
 import { debounce } from 'lodash';
@@ -80,6 +72,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
   };
 
   useEffect(() => {
+    console.log("hello",content)
     const handleResize = () => {
       if (window.innerWidth < 768) {
         setMobile(true);
@@ -472,7 +465,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               className="infographic-img"
               style={{ width: 'fit-content', margin: 'auto' }}>
               <img
-                src={gosugamInfographic1Img1}
+                src={content?.infographic1[0].img.childImageSharp?.fluid?.src}
                 alt=""
                 style={{ maxWidth: '200px' }}
               />
@@ -485,26 +478,37 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 flexDirection: mobile ? 'column' : 'row',
                 alignItems: mobile ? 'center' : 'flex-start',
               }}>
-              <div className="infographic-img">
-                <img
-                  src={gosugamInfographic1Img2}
-                  alt=""
-                  style={{ maxWidth: '250px' }}
-                />
-              </div>
-              <div
-                style={{
-                  height: '500px',
-                  width: '1px',
-                  borderWidth: '1px',
-                  borderStyle: 'solid',
-                  borderColor: 'transparent',
-                  borderImage: 'linear-gradient(to bottom, #418F37, #FFE81D) 1',
-                  display: mobile ? 'none' : 'block',
-                  margin: '0 10px',
-                }}></div>
+              {content?.infographic1.map((item, index, array) => {
+                if(index === 0) return null;
+                return (
+                  <>
+                    <div className="infographic-img">
+                      <img
+                        src={item.img.childImageSharp?.fluid?.src}
+                        alt=""
+                        style={{ maxWidth: '250px' }}
+                      />
+                    </div>
+                    {/* Check if it's not the last element */}
+                    {index !== array.length - 1 && (
+                      <div
+                        style={{
+                          height: '500px',
+                          width: '1px',
+                          borderWidth: '1px',
+                          borderStyle: 'solid',
+                          borderColor: 'transparent',
+                          borderImage:
+                            'linear-gradient(to bottom, #418F37, #FFE81D) 1',
+                          display: mobile ? 'none' : 'block',
+                          margin: '0 10px',
+                        }}></div>
+                    )}
+                  </>
+                );
+              })}
 
-              <div className="infographic-img">
+              {/* <div className="infographic-img">
                 <img
                   src={gosugamInfographic1Img3}
                   alt=""
@@ -528,7 +532,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   alt=""
                   style={{ maxWidth: '250px' }}
                 />
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -545,7 +549,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               className="infographic-img"
               style={{ width: 'fit-content', margin: '15px auto' }}>
               <img
-                src={gosugamInfographic2Img1}
+                src={content?.infographic2[0].img.childImageSharp?.fluid?.src}
                 alt=""
                 style={{ maxWidth: '200px' }}
               />
@@ -558,17 +562,22 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 alignItems: mobile ? 'center' : 'flex-start',
                 marginTop: '10px',
               }}>
-              <div
-                className="infographic-img"
-                style={{ margin: mobile ? '15px 0' : '0 15px' }}>
-                <img
-                  src={gosugamInfographic2Img2}
-                  alt=""
-                  style={{ maxWidth: '250px' }}
-                />
-              </div>
+              {content?.infographic2.map((item, index) => {
+                if(index === 0) return null;
+                return (
+                  <div
+                    className="infographic-img"
+                    style={{ margin: mobile ? '15px 0' : '0 15px' }}>
+                    <img
+                      src={item.img.childImageSharp?.fluid?.src}
+                      alt=""
+                      style={{ maxWidth: '250px' }}
+                    />
+                  </div>
+                );
+              })}
 
-              <div
+              {/* <div
                 className="infographic-img"
                 style={{ margin: mobile ? '15px 0' : '0 15px' }}>
                 <img
@@ -586,7 +595,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   alt=""
                   style={{ maxWidth: '250px' }}
                 />
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -707,7 +716,9 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               </p>
               <p
                 className="textCaseStudy"
-                dangerouslySetInnerHTML={{__html: content?.impactNumber1Title}}
+                dangerouslySetInnerHTML={{
+                  __html: content?.impactNumber1Title,
+                }}
                 style={{
                   padding: 0,
                   margin: 0,
@@ -715,8 +726,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   width: mobile ? '90%' : '80%',
                   color: content?.fontColor,
                   fontWeight: 'bold',
-                }}>
-              </p>
+                }}></p>
             </div>
             <div
               style={{
@@ -760,7 +770,9 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               </p>
               <p
                 className="textCaseStudy"
-                dangerouslySetInnerHTML={{__html: content?.impactNumber2Title}}
+                dangerouslySetInnerHTML={{
+                  __html: content?.impactNumber2Title,
+                }}
                 style={{
                   padding: 0,
                   margin: 0,
@@ -768,8 +780,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   width: mobile ? '90%' : '80%',
                   color: content?.fontColor,
                   fontWeight: 'bold',
-                }}>
-              </p>
+                }}></p>
             </div>
             <div
               style={{
@@ -813,7 +824,9 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               </p>
               <p
                 className="textCaseStudy"
-                dangerouslySetInnerHTML={{__html: content?.impactNumber3Title}}
+                dangerouslySetInnerHTML={{
+                  __html: content?.impactNumber3Title,
+                }}
                 style={{
                   padding: 0,
                   margin: 0,
@@ -821,8 +834,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   width: mobile ? '90%' : '80%',
                   color: content?.fontColor,
                   fontWeight: 'bold',
-                }}>
-              </p>
+                }}></p>
             </div>
             <div
               style={{
@@ -866,7 +878,9 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               </p>
               <p
                 className="textCaseStudy"
-                dangerouslySetInnerHTML={{__html: content?.impactNumber4Title}}
+                dangerouslySetInnerHTML={{
+                  __html: content?.impactNumber4Title,
+                }}
                 style={{
                   padding: 0,
                   margin: 0,
@@ -874,8 +888,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   width: mobile ? '90%' : '80%',
                   color: content?.fontColor,
                   fontWeight: 'bold',
-                }}>
-              </p>
+                }}></p>
             </div>
             <div
               style={{
@@ -919,16 +932,16 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               </p>
               <p
                 className="textCaseStudy"
-                dangerouslySetInnerHTML={{__html: content?.impactNumber5Title}}
+                dangerouslySetInnerHTML={{
+                  __html: content?.impactNumber5Title,
+                }}
                 style={{
                   padding: 0,
                   margin: 0,
                   fontSize: '14px',
                   color: content?.fontColor,
                   fontWeight: 'bold',
-                }}>
-                
-              </p>
+                }}></p>
             </div>
           </div>
           <div
@@ -1405,6 +1418,24 @@ export const pageQuery = graphql`
           childImageSharp {
             fluid(maxWidth: 1280, quality: 62) {
               ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        infographic1 {
+          img {
+            childImageSharp {
+              fluid(maxWidth: 1280, quality: 62) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        infographic2 {
+          img {
+            childImageSharp {
+              fluid(maxWidth: 1280, quality: 62) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }
