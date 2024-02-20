@@ -919,8 +919,8 @@ const KSK = ({ data }) => {
         content={post.frontmatter}
         helmet={
           <Helmet titleTemplate="%s | CaseStudy">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta name="description" content={`${post.frontmatter.title}`} />
+            <title>{`${post.frontmatter.title1}`}</title>
+            <meta name="description" content={`${post.frontmatter.title1}`} />
           </Helmet>
         }
       />
@@ -945,7 +945,7 @@ export const pageQuery = graphql`
       }
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
-        title
+        title1
         featuredimage {
           childImageSharp {
             fluid(maxWidth: 1280, quality: 62) {

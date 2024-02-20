@@ -83,7 +83,7 @@ export const SuccessStoriesSection = ({ data }) => {
                   flex: 0.8,
                   padding: '20px 10px',
                 }}>
-                {post.node.frontmatter.title}
+                {post?.node?.frontmatter?.projectId}
               </div>
               <div
                 style={{
