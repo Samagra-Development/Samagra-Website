@@ -700,6 +700,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 }}>
                 <CountUp
                   start={0}
+                  decimals={content?.impactNumber1Decimal}
                   end={content?.impactNumber1}
                   duration={3}
                   enableScrollSpy
@@ -754,6 +755,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 }}>
                 <CountUp
                   start={0}
+                  decimals={content?.impactNumber2Decimal}
                   end={content?.impactNumber2}
                   duration={3}
                   enableScrollSpy
@@ -808,6 +810,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 }}>
                 <CountUp
                   start={0}
+                  decimals={content?.impactNumber3Decimal}
                   end={content?.impactNumber3}
                   duration={3}
                   enableScrollSpy
@@ -862,6 +865,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 }}>
                 <CountUp
                   start={0}
+                  decimals={content?.impactNumber4Decimal}
                   end={content?.impactNumber4}
                   duration={3}
                   enableScrollSpy
@@ -916,6 +920,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 }}>
                 <CountUp
                   start={0}
+                  decimals={content?.impactNumber5Decimal}
                   end={content?.impactNumber5}
                   duration={3}
                   enableScrollSpy
@@ -1377,22 +1382,27 @@ export const pageQuery = graphql`
         blogLink
 
         impactNumber1
+        impactNumber1Decimal
         impactNumber1Text
         impactNumber1Title
         showPlus1
         impactNumber2
+        impactNumber2Decimal
         impactNumber2Text
         impactNumber2Title
         showPlus2
         impactNumber3
+        impactNumber3Decimal
         impactNumber3Text
         impactNumber3Title
         showPlus3
         impactNumber4
+        impactNumber4Decimal
         impactNumber4Text
         impactNumber4Title
         showPlus4
         impactNumber5
+        impactNumber5Decimal
         impactNumber5Text
         impactNumber5Title
         showPlus5

@@ -20,22 +20,27 @@ title7: GO-SUGAM has quickly become the de-facto choice of Department of
   schemes across directorates
 
 impactNumber1: 2
+impactNumber1Decimal: 0
 impactNumber1Text: Lakh
 impactNumber1Title: Total applications <br>received
 showPlus1: true
 impactNumber2: 1
+impactNumber2Decimal: 0
 impactNumber2Text: Lakh
 impactNumber2Title: Go-ahead generated <br>against for applications
 showPlus2: true
 impactNumber3: 70000
+impactNumber3Decimal: 0
 impactNumber3Text: ''
 impactNumber3Title: Subsidies released <br>against go-ahead
 showPlus3: true
 impactNumber4: 44
+impactNumber4Decimal: 0
 impactNumber4Text: '%'
 impactNumber4Title: Farmers applied on <br>their own
 showPlus4: true
 impactNumber5: 99
+impactNumber5Decimal: 0
 impactNumber5Text: '%'
 impactNumber5Title: Farmer stated correct <br>subsidy was received
 showPlus5: true
