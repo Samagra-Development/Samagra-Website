@@ -83,7 +83,7 @@ export const SuccessStoriesSection = ({ data }) => {
                   flex: 0.8,
                   padding: '20px 10px',
                 }}>
-                {post?.node?.frontmatter?.projectId}
+                {post?.node?.frontmatter?.title1}
               </div>
               <div
                 style={{
@@ -124,8 +124,7 @@ export default () => (
               }
               frontmatter {
                 templateKey
-                title
-                projectId
+                title1
                 date(formatString: "MMMM DD, YYYY")
                 featuredimage {
                   childImageSharp {
