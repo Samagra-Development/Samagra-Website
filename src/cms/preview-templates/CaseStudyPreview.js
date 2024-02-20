@@ -7,13 +7,7 @@ const CaseStudyPreview = ({ entry, widgetFor }) => {
   if (data) {
     return (
       <CaseStudyTemplate
-        content={data?.markdownRemark?.frontmatter}
-        helmet={
-          <Helmet titleTemplate="%s | CaseStudy">
-            <title>{`preview`}</title>
-            <meta name="description" content={`preview`} />
-          </Helmet>
-        }
+        content={data}
       />
     );
   } else {
