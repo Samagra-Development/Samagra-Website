@@ -4,22 +4,22 @@ bannerImage: /img/opening-screen.mp4
 motionGraphic2: /img/flow-chart_new_post-1-.gif
 title8: Insights from the ground
 sideIcon1: /img/icon1-gosugam.png
-impactNumber1: "1.5"
+impactNumber1: 1.5
 sideIcon2: /img/icon2-gosugam.png
-impactNumber2: "3000"
+impactNumber2: 3000
 sideIcon3: /img/icon3-gosugam.png
 impactNumber3Text: "%"
-impactNumber5: "67"
+impactNumber5: 67
 webinarLink: /blog/2023-12-25-amrit-series-1-krushi-samiksha-kendra/
 showsideIcon1: false
-impactNumber3: "90"
+impactNumber3: 90
 sideIcon4: /img/icon4-gosugam.png
 showsideIcon2: false
 templateKey: case-study
 featuredimage: /img/GO-SUGAM-landing-page.jpg
 impactNumber1Decimal: 1
 impactNumber3Decimal: 0
-impactNumber4: "84"
+impactNumber4: 84
 showsideIcon3: false
 showsideIcon4: false
 impactVideoLink: https://www.youtube.com/embed/DYKEJfHbjVM?si=ggltnk6nWh966wG_
