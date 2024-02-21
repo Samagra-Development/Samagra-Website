@@ -39,7 +39,7 @@ sideIcon1Text: Need / Challenges
 sideIcon2Text: Impact Video
 sideIcon3Text: Use Cases
 sideIcon4Text: Impact Numbers
-show: true
+show: false
 projectId: HKRN
 buttonText: Learn More
 title: hkrn
