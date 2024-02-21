@@ -709,7 +709,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 {content?.impactNumber1Text}{' '}
                 {content?.showPlus1 && <span
                   style={{
-                    color: content?.fontColor,
+                    // color: content?.fontColor,
                     fontWeight: 'bold',
                   }}>
                   +
@@ -725,7 +725,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   margin: 0,
                   fontSize: mobile ? '12px' : '14px',
                   width: mobile ? '90%' : '80%',
-                  color: content?.fontColor,
+                  // color: content?.fontColor,
                   fontWeight: 'bold',
                 }}></p>
             </div>
@@ -764,7 +764,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 {content?.impactNumber2Text}{' '}
                 {content?.showPlus2 && <span
                   style={{
-                    color: content?.fontColor,
+                    // color: content?.fontColor,
                     fontWeight: 'bold',
                   }}>
                   +
@@ -780,7 +780,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   margin: 0,
                   fontSize: mobile ? '12px' : '14px',
                   width: mobile ? '90%' : '80%',
-                  color: content?.fontColor,
+                  // color: content?.fontColor,
                   fontWeight: 'bold',
                 }}></p>
             </div>
@@ -819,7 +819,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 {content?.impactNumber3Text}{' '}
                 {content?.showPlus3 && <span
                   style={{
-                    color: content?.fontColor,
+                    // color: content?.fontColor,
                     fontWeight: 'bold',
                   }}>
                   +
@@ -835,7 +835,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   margin: 0,
                   fontSize: mobile ? '12px' : '14px',
                   width: mobile ? '90%' : '80%',
-                  color: content?.fontColor,
+                  // color: content?.fontColor,
                   fontWeight: 'bold',
                 }}></p>
             </div>
@@ -874,7 +874,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 {content?.impactNumber4Text}{' '}
                 {content?.showPlus4 && <span
                   style={{
-                    color: content?.fontColor,
+                    // color: content?.fontColor,
                     fontWeight: 'bold',
                   }}>
                   +
@@ -890,7 +890,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   margin: 0,
                   fontSize: mobile ? '12px' : '14px',
                   width: mobile ? '90%' : '80%',
-                  color: content?.fontColor,
+                  // color: content?.fontColor,
                   fontWeight: 'bold',
                 }}></p>
             </div>
@@ -929,7 +929,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 {content?.impactNumber5Text}{' '}
                 {content?.showPlus5 && <span
                   style={{
-                    color: content?.fontColor,
+                    // color: content?.fontColor,
                     fontWeight: 'bold',
                   }}>
                   +
@@ -944,7 +944,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   padding: 0,
                   margin: 0,
                   fontSize: '14px',
-                  color: content?.fontColor,
+                  // color: content?.fontColor,
                   fontWeight: 'bold',
                 }}></p>
             </div>
