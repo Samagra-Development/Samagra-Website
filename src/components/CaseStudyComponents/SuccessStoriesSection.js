@@ -35,11 +35,11 @@ export const SuccessStoriesSection = ({ data }) => {
   if (!posts?.edges) return <></>;
   else
     return posts.edges.map((post, index) => {
-      if (post.node.fields.slug.includes(path)) {
-        return <React.Fragment key={post.node.id}></React.Fragment>;
+      if (post?.node?.fields?.slug.includes(path)) {
+        return <React.Fragment key={post?.node?.id}></React.Fragment>;
       }
       return (
-        <a href={post.node.fields.slug} target="_blank">
+        <a href={post?.node?.fields?.slug} target="_blank">
           <div
             className={`card-wrapper-case-study ${
               hoveredIndex === index ? 'hovered' : ''
@@ -77,11 +77,23 @@ export const SuccessStoriesSection = ({ data }) => {
               <div
                 className={'headingCaseStudy'}
                 style={{
-                  minHeight: '40px',
+                  minHeight: 'fit-content',
+                  fontSize: '16px',
+                  fontWeight: '900',
+                  color: '#717171',
+                  // flex: 0.8,
+                  padding: '10px 10px',
+                }}>
+                {post?.node?.frontmatter?.projectId}
+              </div>
+              <div
+                className={'headingCaseStudy'}
+                style={{
+                  minHeight: 'fit-content',
                   fontSize: '16px',
                   color: '#717171',
-                  flex: 0.8,
-                  padding: '20px 10px',
+                  // flex: 0.4,
+                  padding: '0px 10px',
                 }}>
                 {post?.node?.frontmatter?.title1}
               </div>
@@ -91,8 +103,8 @@ export const SuccessStoriesSection = ({ data }) => {
                   color: '#025300',
                   fontWeight: 'bold',
                   textAlign: 'center',
-                  flex: 0.2,
-                  padding: '20px',
+                  // flex: 0.2,
+                  padding: '10px',
                 }}>
                 Read More{' '}
                 <RightArrow color="#025300" height="15px" width="15px" />
@@ -125,6 +137,7 @@ export default () => (
               frontmatter {
                 templateKey
                 title1
+                projectId
                 date(formatString: "MMMM DD, YYYY")
                 featuredimage {
                   childImageSharp {
