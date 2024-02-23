@@ -54,4 +54,8 @@ podcastsS2:
     url: https://www.youtube.com/embed/FnMSjEFiSw0?si=pj-4N2N0Mc9yhu8x
   - url: https://www.youtube.com/embed/IkYZviYmsQs?si=gh10b2JOhdZeEWpZ
     title: EP 04 – Dr. Pramod Varma
+  - url: https://www.youtube.com/embed/lO45u_E9uVI?si=x9WIkk9cX-CGA5lS
+    title: EP 05 – Manjari Jaruhar
+  - url: https://www.youtube.com/embed/d7ESYjV3E-0?si=SaG0zAh5HRtHtQrq
+    title: S2 – Recap
 ---
