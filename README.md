@@ -1,6 +1,6 @@
 ## Front end for Samagra | Transforming Governance.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0ff2fb63-5ace-408f-b756-18cac54a7537/deploy-status)](https://app.netlify.com/sites/samagra/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5db5a3f0-494b-44f7-aeb4-c51771263175/deploy-status)](https://app.netlify.com/sites/samagra/deploys)
 
 **Note:** This starter uses [Gatsby v2](https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/).
 
