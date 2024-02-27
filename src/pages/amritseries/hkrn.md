@@ -1,5 +1,5 @@
 ---
-date: 2024-02-21T12:08:07.408Z
+date: 2024-02-27T13:30:21.607Z
 bannerImage: /img/opening-screen.mp4
 motionGraphic2: /img/post.mp4
 title8: Insights from the ground
