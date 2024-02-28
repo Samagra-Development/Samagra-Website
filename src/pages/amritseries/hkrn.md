@@ -1,5 +1,5 @@
 ---
-date: 2024-02-27T13:30:21.607Z
+date: 2024-02-28T05:45:48.019Z
 bannerImage: /img/opening-screen.mp4
 motionGraphic2: /img/post.mp4
 title8: Insights from the ground
@@ -56,16 +56,16 @@ title4: Just like Sarita, 1.5 lakh contractual employees in various departments
 motionGraphic1: /img/pre.mp4
 title5: ""
 infographic1:
-  - img: /img/employee-card_icon_head.png
+  - img: /img/employee-card_icon_head_v2.png
   - img: /img/employee_card1.png
   - img: /img/employee_card2.png
   - img: /img/employee_card3.png
 title6: The departments also faced significant challenges with hiring and
   onboarding contractual manpower
 infographic2:
-  - img: /img/official-card_icon-top-.jpg
+  - img: /img/official-card_icon-top-_v2.jpg
   - img: /img/official-card_1.png
-  - img: /img/official-card_2.jpg
+  - img: /img/official-card_2_v2.jpg
   - img: /img/official-card_3.png
 title7: "HKRN has been able to replace contractors and provide all  contractual
   employees with improved dignity of life "
@@ -86,7 +86,7 @@ icon5: /img/icon-4.png
 impactNumber5Text: "%"
 impactNumber5Title: Reduced time taken <br> to onboard manpower
 showPlus5: false
-blogTitle: ""
+blogTitle: Coming Soon!
 blogLink: ""
 showOpEd: false
 opEdTitle: ""
