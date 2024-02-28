@@ -42,7 +42,7 @@ podcastsS1:
   - title: S1 – Recap
     url: https://www.youtube.com/embed/VwFe_bkW-cw?si=UYk6uGJDd33YIJOL
 title3: Sushasan Season 2
-title4: New episodes every week!
+title4: " "
 podcastsS2:
   - title: S2 – Trailer
     url: https://www.youtube.com/embed/EunWHI9_aco
