@@ -1,5 +1,5 @@
 ---
-date: 2024-02-28T06:57:42.039Z
+date: 2024-02-28T07:54:53.001Z
 bannerImage: /img/opening-screen.mp4
 motionGraphic2: /img/post.mp4
 title8: Insights from the ground
@@ -63,10 +63,10 @@ infographic1:
 title6: The departments also faced significant challenges with hiring and
   onboarding contractual manpower
 infographic2:
-  - img: /img/official-card_icon-top-_v3.jpg
-  - img: /img/official-card_1.png
+  - img: /img/official-card_icon-top-_v4.jpg
+  - img: /img/official-card_1_v4.png
   - img: /img/official-card_2_v3.jpg
-  - img: /img/official-card_3.png
+  - img: /img/official-card_3_v4.png
 title7: "HKRN has been able to replace contractors and provide all  contractual
   employees with improved dignity of life "
 icon1: /img/icon-6.png
