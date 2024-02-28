@@ -1,5 +1,5 @@
 ---
-date: 2024-02-28T07:54:53.001Z
+date: 2024-02-28T08:29:16.558Z
 bannerImage: /img/opening-screen.mp4
 motionGraphic2: /img/post.mp4
 title8: Insights from the ground
@@ -63,7 +63,7 @@ infographic1:
 title6: The departments also faced significant challenges with hiring and
   onboarding contractual manpower
 infographic2:
-  - img: /img/official-card_icon-top-_v4.jpg
+  - img: /img/official-card_icon-top-_v5.jpg
   - img: /img/official-card_1_v4.png
   - img: /img/official-card_2_v3.jpg
   - img: /img/official-card_3_v4.png
