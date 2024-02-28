@@ -63,9 +63,9 @@ infographic1:
 title6: The departments also faced significant challenges with hiring and
   onboarding contractual manpower
 infographic2:
-  - img: /img/official-card_icon-top-_v2.jpg
+  - img: /img/official-card_icon-top-.jpg
   - img: /img/official-card_1.png
-  - img: /img/official-card_2_v2.jpg
+  - img: /img/official-card_2.jpg
   - img: /img/official-card_3.png
 title7: "HKRN has been able to replace contractors and provide all  contractual
   employees with improved dignity of life "
