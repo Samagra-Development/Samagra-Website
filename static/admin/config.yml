@@ -45,12 +45,19 @@ collections:
       - { label: 'Show', name: 'show', widget: 'boolean', default: false }
       - { label: 'Project ID', name: 'projectId', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Section Sequence', name: 'sectionSequence', widget: 'string', default: '1 2 3 4 5 6', hint: 'Reference for section sequence
+          **1:** Impact Video Section
+          **2:** Motion Graphic 1
+          **3:** Infographic Section
+          **4:** Motion Graphic 2
+          **5:** Impact Section
+          **6:** Link Container Section', required: false}
       - { label: 'Featured Image', name: 'featuredimage', widget: image }
       - { label: 'Button Text', name: 'buttonText', widget: 'string' }
       - { label: 'URL', name: 'title', widget: 'string' }
       - { label: 'Font Color (hex code)', name: 'fontColor', widget: 'color' }
-      - { label: 'Banner Image', name: 'bannerImage', widget: file, required: false }
-      - { label: 'Title 1', name: 'title1', widget: 'string', required: false}
+      - { label: 'Banner Image', name: 'bannerImage', widget: file }
+      - { label: 'Title 1', name: 'title1', widget: 'string'}
       - { label: 'Title 2', name: 'title2', widget: 'string', required: false }
       - { label: 'Title 3', name: 'title3', widget: 'string', required: false }
       - { label: 'Impact video embed link', name: 'impactVideoLink', widget: 'string', required: false }
