@@ -242,7 +242,7 @@ export const KSKTemplate = ({ content, helmet }) => {
                     padding: '4px',
                     border: '4px solid #A97F2B',
                   }}
-                  src="https://www.youtube.com/embed/-GRdJ9XSAEE?si=iYN4BchI6rJRT78z"
+                  src="https://www.youtube.com/embed/UQ3-w5oupEw?si=RZfhlLldgF8-MraH"
                   // title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
