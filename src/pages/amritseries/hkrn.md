@@ -91,5 +91,5 @@ blogLink: ""
 showOpEd: false
 opEdTitle: ""
 opEdLink: ""
-blogSectionImage: ""
+blogSectionImage: null
 ---
