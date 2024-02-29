@@ -1,5 +1,6 @@
 ---
 date: 2024-02-28T08:29:16.558Z
+sectionSequence: 1 2 3 4 5 6
 bannerImage: /img/opening-screen.mp4
 motionGraphic2: /img/post.mp4
 title8: Insights from the ground

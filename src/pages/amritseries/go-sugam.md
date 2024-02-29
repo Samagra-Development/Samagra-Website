@@ -1,6 +1,7 @@
 ---
 templateKey: case-study
 show: true
+sectionSequence: 1 2 3 4 5 6
 title: go-sugam
 title1: Government of Odisha's single window portal for digital delivery of agricultural schemes to farmers
 title2: Impact Video
