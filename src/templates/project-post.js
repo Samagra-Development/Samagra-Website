@@ -14,7 +14,7 @@ export const ProjectPostTemplate = ({project}) => {
             <ProductBannerImage project={project}/>
             <ProductPageSecondSection project={project}/>
             {
-                project.keyInitiatives ? <ProductPageKeyInitiatives project={project}/> : null
+               (project.keyInitiatives && project.keyInitiatives.length !== 0) ? <ProductPageKeyInitiatives project={project}/> : null
             }
 
             <OurPublicationsSection readMore={project.readMore} projectId={project.id}/>
