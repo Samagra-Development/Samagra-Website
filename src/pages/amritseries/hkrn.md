@@ -1,32 +1,32 @@
 ---
-date: 2024-02-28T08:29:16.558Z
-sectionSequence: 1 2 3 4 5 6
-bannerImage: /img/opening-screen.mp4
-motionGraphic2: /img/post.mp4
+motionGraphic2: /img/post_vf_v2.mp4
 title8: Insights from the ground
 sideIcon1: /img/icon1-gosugam.png
 impactNumber1: 1.5
 sideIcon2: /img/icon2-gosugam.png
 impactNumber2: 3000
 sideIcon3: /img/icon3-gosugam.png
-impactNumber3Text: "%"
-impactNumber5: 67
+impactNumber2Text: Crore
 webinarLink: ""
 showsideIcon1: false
 impactNumber3: 90
 sideIcon4: /img/icon4-gosugam.png
 showsideIcon2: false
 templateKey: case-study
-featuredimage: /img/picture1.jpg
-impactNumber1Decimal: 1
-impactNumber3Decimal: 0
+impactNumber1Text: Lakh
 impactNumber4: 84
 showsideIcon3: false
+sectionSequence: 1 2 3 4 5 6
+featuredimage: /img/picture1.jpg
+impactNumber3Text: "%"
+impactNumber5: 67
 showsideIcon4: false
+date: 2024-02-29T06:33:53.420Z
+bannerImage: /img/opening-screen.mp4
 impactVideoLink: https://www.youtube.com/embed/AoPGFk4bZwk?si=k60t5bIWH044APe5
-impactNumber1Text: Lakh
+impactNumber1Decimal: 1
 impactNumber2Decimal: 0
-impactNumber2Text: Crore
+impactNumber3Decimal: 0
 impactNumber4Decimal: 0
 impactNumber5Decimal: 0
 infographicGoogleDriveLink: https://drive.google.com/file/d/1PrBHGoQ6QsGSo8UZuy212QSQ4XAxIYMg/view?usp=sharing
@@ -54,7 +54,7 @@ title3: "HKRN was introduced in November 2021 to improve the quality of life of
 title4: Just like Sarita, 1.5 lakh contractual employees in various departments
   of the Government of Haryana had to go through contractors for jobs &
   employment benefits
-motionGraphic1: /img/pre.mp4
+motionGraphic1: /img/pre_vf_v2.mp4
 title5: ""
 infographic1:
   - img: /img/employee-card_icon_head_v2.png
