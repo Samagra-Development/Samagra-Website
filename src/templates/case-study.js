@@ -52,16 +52,16 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
   const [showUpIcon, setShowUpIcon] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
   const [modalImage, setModalImage] = useState(null);
-  const arr = content.sectionSequence ? content.sectionSequence.trim().split(" ") : ["1", "2", "3", "4", "5", "6"];
-  const isShowImpactIcon = content.icon1 || content.icon2 || content.icon3 || content.icon4 || content.icon5 ;
-  const isCaseStudyLinkContainer = content.title8 || content.blogTitle || content.showOpEd || content.showWebinar ;
-  const isFooter = content.footerText1 || content.footerText2;
-  const isSectionOne = content.title2 || content.title3 ||content.impactVideoLink; 
-  const isSectionTwo = content.title4 || content.motionGraphic1;
-  const isSectionThree = content.title5 || content.title6 ||content.infographic1 || content.infographic2;  
-  const isSectionFour = content.motionGraphic2 && true;
-  const isSectionFive = isShowImpactIcon || content.title7 || content.downloadInfographicBtn; 
-  const isSectionSix = isCaseStudyLinkContainer||content.blogSectionImage||isFooter;
+  const arr = content?.sectionSequence.trim() ? content.sectionSequence.trim().split(" ") : ["1", "2", "3", "4", "5", "6"];
+  const isShowImpactIcon = content?.icon1 || content?.icon2 || content?.icon3 || content?.icon4 || content?.icon5 ;
+  const isCaseStudyLinkContainer = content?.title8 || content?.blogTitle || content?.showOpEd || content?.showWebinar ;
+  const isFooter = content?.footerText1 || content?.footerText2;
+  const isSectionOne = content?.title2 || content?.title3 ||content?.impactVideoLink; 
+  const isSectionTwo = content?.title4 || content?.motionGraphic1;
+  const isSectionThree = content?.title5 || content?.title6 ||content?.infographic1 || content?.infographic2;  
+  const isSectionFour = content?.motionGraphic2 && true;
+  const isSectionFive = isShowImpactIcon || content?.title7 || content?.downloadInfographicBtn; 
+  const isSectionSix = isCaseStudyLinkContainer||content?.blogSectionImage||isFooter;
 
   const openModal = (image) => {
     setModalImage(image);
@@ -332,7 +332,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               />
             </div>}
 
-            {content.infographic1.length>1 && <div
+            {content?.infographic1.length>1 && <div
               style={{
                 display: 'flex',
                 justifyContent: 'center',
@@ -415,7 +415,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 style={{ maxWidth: '200px' }}
               />
             </div>}
-            {content.infographic2.length>1 && <div
+            {content?.infographic2.length>1 && <div
               style={{
                 display: 'flex',
                 justifyContent: 'center',
@@ -526,7 +526,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               justifyContent: 'space-evenly',
               flexDirection: mobile ? 'column' : 'row',
             }}>
-            {content.icon1 && <div
+            {content?.icon1 && <div
               style={{
                 display: 'flex',
                 flexDirection: 'column',
@@ -580,7 +580,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   fontWeight: 'bold',
                 }}></p>
             </div>}
-            {content.icon2 && <div
+            {content?.icon2 && <div
               style={{
                 display: 'flex',
                 flexDirection: 'column',
@@ -635,7 +635,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   fontWeight: 'bold',
                 }}></p>
             </div>}
-            {content.icon3 && <div
+            {content?.icon3 && <div
               style={{
                 display: 'flex',
                 flexDirection: 'column',
@@ -690,7 +690,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   fontWeight: 'bold',
                 }}></p>
             </div>}
-            {content.icon4 && <div
+            {content?.icon4 && <div
               style={{
                 display: 'flex',
                 flexDirection: 'column',
@@ -745,7 +745,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   fontWeight: 'bold',
                 }}></p>
             </div>}
-            {content.icon1 && <div
+            {content?.icon1 && <div
               style={{
                 display: 'flex',
                 flexDirection: 'column',
@@ -836,7 +836,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
   }
 
   const sectionSix = ()=> {
-    return <>{(isCaseStudyLinkContainer||content.blogSectionImage) && <FadeInSection>
+    return <>{(isCaseStudyLinkContainer||content?.blogSectionImage) && <FadeInSection>
         <div
           style={{
             display: 'flex',
@@ -1083,8 +1083,8 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
         <div
           className="partner-with-us"
           style={{ marginTop: mobile ? '100px' : '150px' }}>
-          {content.footerText1 && <p className="partner-with-us-main-text">{content.footerText1}</p>}
-          {content.footerText2 && <p>{content.footerText2}</p>}
+          {content?.footerText1 && <p className="partner-with-us-main-text">{content?.footerText1}</p>}
+          {content?.footerText2 && <p>{content?.footerText2}</p>}
         </div>
       </FadeInSection>}
       <SectionDivider/></>
