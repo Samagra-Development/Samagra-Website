@@ -141,7 +141,7 @@ export default function CaseStudiesIndexPage() {
         className="partner-with-us"
         style={{ marginTop: mobile ? '0px' : '25px' }}>
         <p className="partner-with-us-main-text">Partner with us today!</p>
-        <p>Write to us at: outreach@samagragovernance.in</p>
+        <p>Write to us at:{" "}<a href="mailto:outreach@samagragovernance.in" className='partner-with-us-anchor-text'>outreach@samagragovernance.in</a></p>
       </div>
     </Layout>
   );
