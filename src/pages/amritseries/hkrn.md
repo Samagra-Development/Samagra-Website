@@ -1,6 +1,6 @@
 ---
 sectionSequence: 1 2 3 4 5 6
-impactVideoLink: https://www.youtube.com/embed/AoPGFk4bZwk?si=k60t5bIWH044APe5
+impactVideoLink: https://www.youtube.com/embed/AoPGFk4bZwk?si=llRO9UrmietJpc-A
 motionGraphic2: /img/post_vf_v3.mp4
 title8: Insights from the ground
 sideIcon1: /img/icon1-gosugam.png
@@ -22,14 +22,14 @@ impactNumber3Decimal: 0
 impactNumber4: 84
 showsideIcon3: false
 showsideIcon4: false
-date: 2024-02-29T07:58:40.649Z
+date: 2024-03-04T04:52:21.014Z
 bannerImage: /img/opening-screen.mp4
 impactNumber2Decimal: 0
 impactNumber2Text: Crore
 impactNumber3Text: "%"
 impactNumber4Decimal: 0
 impactNumber5Decimal: 0
-infographicGoogleDriveLink: https://drive.google.com/file/d/1PrBHGoQ6QsGSo8UZuy212QSQ4XAxIYMg/view?usp=sharing
+infographicGoogleDriveLink: https://drive.google.com/file/d/1X2XEM3Kin7WD9Mw_l3ag-1SCo6gMsQ8S/view?usp=sharing
 downloadInfographicBtn: Download Infographic
 showWebinar: false
 webinarTitle: ""
