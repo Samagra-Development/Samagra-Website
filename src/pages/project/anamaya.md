@@ -4,52 +4,62 @@ title: STRIDE
 domainNew: Health
 fullName: STRIDE
 id: STRIDE
-backgroundCover: /img/stride.jpg
+backgroundCover: /img/whatsapp-image-2024-03-04-at-19.59.51.jpeg
 domain: Health
 subTitle: Samagra
 state: Odisha
-tagLine: Establishing systemic enablers for improvement in health & nutrition
-  outcomes of tribals
-projectLogoWithState: /img/stride.png
+tagLine: To establish systemic enablers for continuous improvement in health and
+  nutrition outcomes of tribal citizens in Odisha.
+projectLogoWithState: /img/stride-logo_vf.png
 overview:
-  - text: STRIDE is a health system transformation program with the aim of improving
-      accessibility, quality, and speed of care in public healthcare facilities.
-      This is part of the “Tribal Health Collaborative'' formed by the Bill &
-      Melinda Gates Foundation and Piramal Foundation to improve health outcomes
-      of tribal and other marginalized communities. As part of the program,
-      Samagra is supporting the Government of Odisha in building institutional
-      capacity, strengthening healthcare delivery channels, and promoting
-      health-seeking behaviour among the citizens through communitization.
+  - text: The STRIDE program, a part of the Tribal Health Collaborative initiated by
+      the Bill & Melinda Gates Foundation and Piramal Foundation, operates in
+      partnership with Odisha's ST & SC Development Department. Its core mission
+      is to enhance the health and nutrition outcomes of the state's tribal
+      communities. Systemic enablers will be established under the program that
+      lead to the continuous improvement in delivery of all entitlements
+      fundamental to the wellbeing of tribal communities. This will be done by
+      enriching the Tribal Database, a golden record of all tribal citizens,
+      with high-confidence data and leveraging it to optimize the delivery of
+      essential entitlements measured through the Quality of Life Index (QLI).
+      The program encompasses a spectrum of interventions, from restructuring
+      the MAMATA scheme to fostering access to Anganwadi Centres and enhancing
+      social determinants like land rights, livelihood, and education, thereby
+      paving the way for a healthier, well-nourished tribal population in
+      Odisha.
 scale:
-  - count: 1 crore+
-    label: Tribal citizens
-  - count: "5"
-    label: QLI Dimensions
-projectMiddleBannerImage: /img/up-niramaya_samagragovernance1.jpeg
+  - count: 5+
+    label: Domains
+  - count: "121"
+    label: Tribal Sub Plan Blocks
+  - count: 96 Lakh
+    label: Tribal Citizens
+projectMiddleBannerImage: /img/whatsapp-image-2023-10-31-at-23.02.32.jpeg
 approach:
-  - text: Our approach to transforming tribal population’s experience at public
-      healthcare facilities is centered on building institutional capacity, and
-      strengthening public healthcare service delivery channels in the system
-      given its current low resource capacity. This involves interventions to
-      augment doctor availability, build capacity of frontline workers,
-      streamline review and monitoring mechanisms and medicine availability and
-      so on. In cognizance of distinctive tribal realities and challenges,
-      interventions have been contextualized for implementation in tribal areas
-      while some solutions are exclusively targeted at tribal population.
-      Further all interventions are focused on priority health programs like the
-      Reproductive and Child Health program and the Non-Communicable Diseases
-      program. While there is a strong emphasis on supply side system
-      strengthening, adoption of demand side health promotion activities to
-      increase awareness and build people’s trust in the system is also being
-      undertaken.
+  - text: Our approach to transforming tribal population’s health and nutrition
+      outcomes is to establish systemic enablers such as policies, programs,
+      data, tools and processes within tribal health systems. These enablers
+      include the setup of a golden record of all tribal citizens, the Tribal
+      Database, and leveraging it to optimize the delivery of essential
+      entitlements. The Quality of Life Index (QLI), a multi-dimensional index,
+      will measure saturation against a basket of 25 entitlements key to the
+      health and nutrition status of a tribal household. QLI analytics will
+      enable the government to maximize the saturation of existing entitlements
+      by reaching out to missed eligible beneficiaries or addressing
+      accessibility gaps and designing new programs/ entitlements where needed.
+      QLI will set in motion the cycle of continuous improvement in health and
+      nutrition outcomes. The target for 2025 will be to demonstrate the
+      effectiveness of QLI as a system enabler by increasing the state-level QLI
+      by 1 point.
 impact:
-  - count: " "
-    label: " Building system capacity by augmenting health resources & enforcing
-      accountability"
-  - count: " "
-    label: Ensuring inclusive access to care through strengthened delivery channels
-  - count: " "
-    label: Improving health outcomes through assured care & promotion of
-      health-seeking behaviour
+  - label: "Establishment of Digital infrastructure in form of Tribal Database and
+      Quality of Life Index for reliable measurement and effective delivery of
+      entitlements to tribal communities "
+    count: " "
+  - label: "Targeted strengthening of delivery channels of entitlement delivery "
+    count: " "
+  - label: "Improving health outcomes through assured continuum of care & promotion
+      of health seeking behaviors "
+    count: " "
 keyInitiativesTitle: " "
 ---
