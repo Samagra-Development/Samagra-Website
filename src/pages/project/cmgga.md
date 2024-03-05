@@ -2,66 +2,66 @@
 templateKey: project-post
 title: CMGGA
 domainNew: Past Projects
-fullName: Chief Minister Good Governance Associates
+fullName: Chief Minister’s Good Governance Associates (CMGGA)
 id: CMGGA
-backgroundCover: /img/cmgga-header-bg.jpg
+backgroundCover: /img/amrit-sarovar-beneficiaries.jpeg
 domain: Past Projects
 subTitle: Samagra
 state: Haryana
-tagLine: Catalyzing governance through young professionals
+tagLine: Catalysing quality implementation of flagship programs of the
+  Government of Haryana
 projectLogoWithState: /img/cmgga-logo.png
 overview:
-  - text: >-
-      The Chief Minister’s Good Governance Associates (CMGGA) Programme is a
-      partnership between the Government of Haryana and Ashoka University.
-      Starting in 2016, when the programme was launched, Samagra co-managed the
-      programme with Ashoka University till 2020. CMGGA recruits young
-      professionals to work with the district administrations in Haryana as
-      representatives of the Chief Minister of the state. Associates are posted
-      in each of the 22 districts of Haryana for a 12-month period where they
-      work closely with the Deputy Commissioner and other district officials.
-      Through the period of their engagement, the Associates interact
-      periodically with the Chief Minister to present the work done and assist
-      in the decision-making process at the highest levels of government at the
-      state. From the time of its inception, Samagra was closely involved in
-      designing the Fellowship as an experiential learning opportunity that
-      would be useful for the government as well as selected candidates. 
+  - text: Every year 22 - 25 young professionals are recruited as CMGGAs (Chief
+      Minister’s Good Governance Associates) and placed, one in each of the 22
+      districts of Haryana, to co-work with DCs and the larger district
+      administrations to catalyze quality implementation of 5-7 flagship
+      initiatives of the Chief Minister. A Program Team (PT) from Samagra,
+      stationed in the CM office, manages the program by coordinating with the
+      CM and his team, collaborating with concerned departments (depending on
+      the prioritized initiatives) at the state level, and overseeing the work
+      and experience of CMGGAs.
 scale:
-  - count: '36'
-    label: Departments
-  - count: '65 '
-    label: Projects
-  - count: '94'
-    label: CMMGAs
-projectMiddleBannerImage: /img/cmgga-cover.jpg
+  - label: CMGGAs across 22 Districts of Haryana
+    count: "22"
+  - count: "5"
+    label: projects
+  - count: "5"
+    label: "departments "
+projectMiddleBannerImage: /img/cm-meeting_cmgga-dec-23-.jpeg
 approach:
-  - text: >-
-      During the one-year programme for each of the four cohorts, CMGGAs were
-      provided clearly defined work modules with specific objectives under
-      requisite mentorship. This was done to ensure they support implementation
-      of the Chief Minister’s priorities in a structured manner. Through weekly
-      progress calls, Slack channels, fortnightly calls with an assigned “buddy”
-      from the programme team and a week long forum every 7 weeks, the programme
-      ensured their skill building, professional development, cross learning for
-      associates while creating impact on ground.
+  - text: Associates work on select flagship programs to address critical issues
+      pertinent in their respective districts. The programme emphasizes
+      professional development of associates through constant mentorship,
+      including regular performance appraisals, problem-solving sessions, skills
+      imparting sessions, and guidance from the Chief Minister's Office. 6 -7
+      weeks of fieldwork in districts is complemented by a week-long in-person
+      forum, which offers problem-solving and skill-building opportunities
+      through peer learning and sharing best practices. This approach empowers
+      young professionals to develop their knowledge and skills while co-working
+      with district administration to drive impact across the state.
 readMore:
-  - text: >-
-      CMs of Arunachal, Delhi, Nagaland have fellowships to work with youth. Why
+  - text: CMs of Arunachal, Delhi, Nagaland have fellowships to work with youth. Why
       Haryana stands out
-  - text: 'Grievance redressal, top priority: Khattar'
+  - text: "Grievance redressal, top priority: Khattar"
   - text: Women’s safety focus area of CMGGA programme
 impact:
-  - count: '22'
-    label: 24*7 One Stop Centres operationalized
-  - count: '115'
-    label: service delivery centres operationalized
-  - count: '10,00,000'
-    label: students linked to teachers via WhatsApp for e-learning
+  - label: Rejuvenating 2000 public ponds in Haryana with better access to
+      community, ensured sustainability and increased panchayat income
+    count: " "
+  - count: " "
+    label: Bridging infrastructure gaps in 3000 Government Playschools to ensure a
+      holistic learning environment and achieve an 'aspirational model of early
+      childhood care and education' at the village level in Haryana
+  - label: Reducing overall anemia load by 3% (Mild - 5%, Moderate - 5%, Severe -
+      1%) and ensuring timely (4-week) delivery of spectacles to all the
+      government school students diagnosed with anemia and refractive error
+      through targetted interventions
+    count: " "
 keyInitiativesTitle: Key Initiatives
 keyInitiatives:
   - description:
-      text: >-
-        Associates work with district and block education officials as well as
+      text: Associates work with district and block education officials as well as
         teachers to ensure that the state government's educational intitiaitves
         are implemented effectively on the ground. This includes conducting
         third-party competency pre-assessment tests, driving the adoption of the
@@ -73,9 +73,8 @@ keyInitiatives:
     image: /img/cmgga-initiative-1.jpg
     title: School Education
   - description:
-      text: >-
-        Associates have been instrumental in making the Chief Minister's vision
-        of transforming public service delivery in Haryana a reality. When the
+      text: Associates have been instrumental in making the Chief Minister's vision of
+        transforming public service delivery in Haryana a reality. When the
         initiative was launched, Associates conducted a comprehensive diagnostic
         of the existing public service delivery system which brought forth its
         shortcomings. Based on this diagnosis, they then took on the task of
@@ -88,8 +87,7 @@ keyInitiatives:
     image: /img/cmgga-initiative-2.jpeg
     title: Operationalizing Service Delivery
   - description:
-      text: >-
-        Citizens typically have to run from pillar to post to get grievances
+      text: Citizens typically have to run from pillar to post to get grievances
         resolved. To this end, the Chief Minister of Haryana set up an online
         grievance monitoring system. However, this initiative also suffered from
         inefficiency and poor redressal rate. To mitigate this challenge,
@@ -99,4 +97,3 @@ keyInitiatives:
     image: /img/cmgga-initiative-3.jpeg
     title: Grievance Redressal
 ---
-
