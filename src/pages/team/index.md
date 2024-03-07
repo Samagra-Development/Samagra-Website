@@ -1202,4 +1202,22 @@ team:
       roles at Sattva Consulting.A strong motivation to drive large governance
       transformations and create scalable impact, brings him to Samagra.
     linkedInProfile: " "
+  - image: /img/person-vector.jpeg
+    name: Dhruv Baliyan
+    project: " "
+    bio: Dhruv holds a Bachelors in Computer Science Engineering from JSS Academy of
+      Technical Education, Noida. Before joining Samagra, he has interned with
+      Supplynote as an android developer intern and Summer of Bitcoin. The
+      exposure and fast-paced environment that Samagra offers is what brings him
+      to Samagra.
+    linkedInProfile: " "
+  - name: Vibhu Agiwal
+    image: /img/person-vector.jpeg
+    project: " "
+    bio: "Vibhu holds a Bachelors in Economics and Political Theory from Ashoka
+      University. Before joining Samagra, he has worked part-time with
+      Think-tanks, consulting firms and professors. Being able to see how
+      intellectual ideas on freedom, agency and other things get actualized in
+      reality, at scale, is what brings him to Samagra. "
+    linkedInProfile: " "
 ---
