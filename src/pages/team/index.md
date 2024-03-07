@@ -955,7 +955,7 @@ team:
       roles at Sattva Consulting.A strong motivation to drive large governance
       transformations and create scalable impact, brings him to Samagra.
     linkedInProfile: " "
-  - image: /img/person-vector.jpeg
+  - image: /img/dhruv.jpeg
     name: Dhruv Baliyan
     project: " "
     bio: Dhruv holds a Bachelors in Computer Science Engineering from JSS Academy of
@@ -965,7 +965,7 @@ team:
       to Samagra.
     linkedInProfile: " "
   - name: Vibhu Agiwal
-    image: /img/person-vector.jpeg
+    image: /img/vibhu.jpg
     project: " "
     bio: "Vibhu holds a Bachelors in Economics and Political Theory from Ashoka
       University. Before joining Samagra, he has worked part-time with
