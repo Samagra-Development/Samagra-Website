@@ -544,15 +544,19 @@ team:
     linkedInProfile: https://www.linkedin.com/in/sanskar-kumar-gupta/
     name: Sanskar Kumar Gupta
     project: Saksham Haryana-Education
-  - bio: Shashwat holds a Bachelor's degree in Civil Engineering from Pandit
+  - bio: >-
+      Shashwat holds a Bachelor's degree in Civil Engineering from Pandit
       Deendayal Energy University. Prior to joining Samagra, he was working as
       the National Head of Operations at AIESEC in India, focusing on leadership
       development in youth. A strong desire to bring about systemic change while
       working with the government brought him to Samagra.
+
+
+      Shashwat is the Program Coordinator of the CMGGA team in Haryana and manages its daily operations.
     image: /img/shashwat_7696.jpg
     linkedInProfile: https://www.linkedin.com/in/shashwat-shah-32a1131b4/
     name: Shashwat Shah
-    project: CMNBA
+    project: CMGGA
   - bio: >-
       Shraya holds a Bachelor's degree in Chemical Engineering from National
       Institute of Technology Karnataka, Surathkal. Before joining Samagra, she
@@ -563,11 +567,11 @@ team:
       Impact Scholar.
 
 
-      The penchant for problem solving while translating ideas on paper into reality, brought her to Samagra.
+      The penchant for problem solving while translating ideas on paper into reality, brought her to Samagra. Shraya is the Program Coordinator of the Outreach team and manages its daily operations.
     image: /img/shraya.jpg
     linkedInProfile: https://www.linkedin.com/in/shraya-sapru/
     name: Shraya Sapru
-    project: .
+    project: Central Team
   - bio: >-
       Shreyashi holds a Master’s degree in Management Studies with a
       specialization in Urban Management from CEPT University, Ahmedabad and a
@@ -586,11 +590,11 @@ team:
       Code 2021 contributing to FOSSology and has also worked with several
       startups previously.
        
-      Shruti is passionate about automation and contributing to OpenSource. An opportunity to leverage her tech skills to build OpenSource products for governments brought her to Samagra.
+      Shruti is passionate about automation and contributing to OpenSource. An opportunity to leverage her tech skills to build OpenSource products for governments brought her to Samagra. Currently, she is part of the SamagraX team.
     image: /img/shruti_g_7659.jpg
     linkedInProfile: https://www.linkedin.com/in/shruti-ag/
     name: Shruti Agarwal
-    project: .
+    project: SamagraX
   - bio: >-
       Shubhajeet holds an MBA from Indian Institute of Management, Lucknow and a
       Bachelor’s degree in Mechanical Engineering from Kalinga Institute of
@@ -626,11 +630,11 @@ team:
       across industries. His long-standing motivation to assist governments in
       maximizing impact while working at the grassroots level towards societal
       change brought him to Samagra. Siddhant is the Program Coordinator of the
-      KONNECT team in Odisha and manages its daily operations.
+      Krishi SAMRIDHI team in Odisha and manages its daily operations.
     image: /img/siddhant_7522.jpg
     linkedInProfile: https://www.linkedin.com/in/siddhant-agarwal-774a6b122/
     name: Siddhant Agarwal
-    project: KONNECT
+    project: Krishi SAMRIDHI
   - bio: >-
       Simran holds a Master's degree in Economics from the Delhi School of
       Economics and a Bachelor's degree in the same from Lady Shri Ram College
@@ -638,11 +642,11 @@ team:
       Account Manager in Procter & Gamble's sales function.
 
 
-      Her passion to bridge the gap between the haves and have nots, and belief in governance as a lever of change brought her to Samagra. Simran is the Program Coordinator of the Saksham Haryana-Education team and manages its daily operations.
+      Her passion to bridge the gap between the haves and have nots, and belief in governance as a lever of change brought her to Samagra.
     image: /img/simran-bagga.jpg
     linkedInProfile: https://www.linkedin.com/in/baggasimran/
     name: Simran Bagga
-    project: Saksham Haryana-Education
+    project: Central Team
   - bio: >-
       Snehi is a Young India Fellow who holds a Post Graduate Diploma in Liberal
       Studies from Ashoka University, Haryana and a Bachelor's degree in
@@ -691,10 +695,11 @@ team:
       gaps in Indian governance first-hand. An opportunity to drive impact at
       scale through good governance brought her to Samagra. Ujjwal is currently
       Chief of Staff to the CEO and leads the Central Team in the Delhi office.
+      She also leads the SamagraX team.
     image: /img/ujjwal_7644.jpg
     linkedInProfile: https://www.linkedin.com/in/ujjwal-relan-981b814a
     name: Ujjwal Relan
-    project: Chief of Staff
+    project: Chief of Staff & Samagra X
   - bio: >-
       Utkarsh holds a Bachelor's degree in Computer Science Engineering from
       NIT, Jalandhar. Previously, he has worked as Technology Consultant with
@@ -708,11 +713,11 @@ team:
       technology, consulting and entrepreneurial skills brought him to Samagra. 
 
 
-      Utkarsh is Vice President at Samagra and currently leads the KONNECT programme in Odisha and SamagraX.
+      Utkarsh is Vice President at Samagra and currently leads the KONNECT & LEAP programmes in Odisha & Krishi SAMRIDHI programme in Uttar Pradesh.
     image: /img/utkarsh_7885-1-.jpg
     linkedInProfile: https://www.linkedin.com/in/uvijay
     name: Utkarsh Vijay
-    project: KONNECT & SamagraX
+    project: KONNECT, LEAP & Krishi SAMRIDHI
   - bio: >-
       Utsav holds an MBA and a Bachelor’s degree in Foundations of Management
       from IIM Indore. Before joining Samagra, he was working as a Senior
