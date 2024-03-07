@@ -8,8 +8,7 @@ backgroundCover: /img/amrit-sarovar-beneficiaries.jpeg
 domain: Past Projects
 subTitle: Samagra
 state: Haryana
-tagLine: Catalysing quality implementation of flagship programs of the
-  Government of Haryana
+tagLine: Catalysing quality implementation of flagship programs of the Govt of Haryana
 projectLogoWithState: /img/cmgga-logo.png
 overview:
   - text: Every year 22 - 25 young professionals are recruited as CMGGAs (Chief
