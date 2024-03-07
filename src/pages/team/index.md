@@ -34,17 +34,6 @@ team:
     name: Rahul Kulkarni
     project: Chief Technologist
   - bio: >-
-      Aakash holds an integrated Bachelor's and Master's Degree in Mechanical
-      Engineering from Indian Institute of Technology Kharagpur. Before joining
-      Samagra, he was working as a Product Manager at CityMall. 
-
-
-      An opportunity to build high-value products that can impact millions brought him to Samagra. Currently, he is part of the SamagraX team.
-    image: /img/akash.jpg
-    linkedInProfile: https://www.linkedin.com/in/aakashyadav-kgp/
-    name: Aakash Yadav
-    project: SamagraX
-  - bio: >-
       Aashutosh holds an MBA from Indian Institute of Management, Ahmedabad and
       a Bachelor's degree in Economics from Shri Ram College of Commerce,
       University of Delhi. Before joining Samagra, he was working as a Product
@@ -80,11 +69,11 @@ team:
       reading thriller novels and watching crime documentaries. 
 
 
-      An opportunity to work with governments to create impact that reaches the last mile and help society inch towards a more equitable and inclusive future, brought him to Samagra. Currently, he is part of the NIPUN Bharat team in Uttar Pradesh.
+      An opportunity to work with governments to create impact that reaches the last mile and help society inch towards a more equitable and inclusive future, brought him to Samagra. Currently, he is part of the Central Team in Delhi
     image: /img/aayush-malik.jpg
     linkedInProfile: https://www.linkedin.com/in/aayush-malik/
     name: Aayush Malik
-    project: NIPUN Bharat Cell
+    project: Central Team
   - bio: Abhay holds an MBA from Indian Institute of Management Ahmedabad and a dual
       degree in Mechanical Engineering from Indian Institute of Technology,
       Kanpur. Before joining Samagra, he was working with IBM as a strategy and
@@ -137,11 +126,11 @@ team:
       scale brought her to Samagra.
 
 
-      Aditi has availed Samagra's Graduate Study Support Program called Vidya. She is currently pursuing an MBA at the Saïd Business School, University of Oxford and will be returning to Samagra after completing her studies. 
+      Aditi availed Samagra's Graduate Study Support Program called Vidya. She pursued an MBA at the Saïd Business School, University of Oxford and returned to Samagra in 2023 after completing her studies. 
     image: /img/aditi_7685.jpg
     linkedInProfile: https://www.linkedin.com/in/aditi-phadnis93/
     name: Aditi Phadnis
-    project: Vidya Candidate
+    project: " "
   - bio: >-
       Aditya holds an MBA from the University of Oxford and BTech in Mechanical
       Engineering from YMCA Faridabad. He previously worked as an Associate
@@ -154,11 +143,11 @@ team:
       to improve governance and create impact at scale brought him to Samagra. 
 
 
-      Aditya is Vice President at Samagra and currently leads the Samarth programme in Himachal Pradesh and the Saksham Haryana-Education programme.
+      Aditya is Vice President at Samagra and currently leads the CMGGA programme in Haryana and the Saksham Haryana-Education programme.
     image: /img/aditya_7618.jpg
     linkedInProfile: https://www.linkedin.com/in/adityachopra770/
     name: Aditya Chopra
-    project: Saksham Haryana-Education & Samarth
+    project: Saksham Haryana-Education & CMGGA
   - bio: >-
       Aditya holds an MBA from IE Business School, Madrid and a Bachelor's
       degree in IT Engineering from Dr. A.P.J. Abdul Kalam Technical University,
@@ -167,7 +156,7 @@ team:
       defecation free.
 
 
-      A strong motivation to work on complex social issues & drive real change on ground through better governance, brings Aditya to Samagra. Currently, he is part of the Niramaya team in Uttar Pradesh.
+      A strong motivation to work on complex social issues & drive real change on ground through better governance, brings Aditya to Samagra. Aditya is the Program Coordinator of the Niramaya team in Uttar Pradesh and manages its daily operations.
     image: /img/aditya-rana.jpg
     linkedInProfile: https://www.linkedin.com/in/adityasinghrana94/
     name: Aditya Singh Rana
@@ -234,11 +223,11 @@ team:
       Chhattisgarh as a Chief Minister’s Good Governance Fellow. The zeal to
       create real impact on the ground by transforming governance and public
       administration brought him to Samagra. Ankit currently leads the NIPUN
-      Bharat and Niramaya programmes in Uttar Pradesh.
+      Bharat, Niramaya and FAMILY ID programmes in Uttar Pradesh.
     image: /img/ankit_7709.jpg
     linkedInProfile: https://www.linkedin.com/in/ankitg17
     name: Ankit Goel
-    project: "NIPUN Bharat Cell & Niramaya "
+    project: NIPUN Bharat Cell, Niramaya & FAMILY ID
   - bio: >-
       Ashana holds an MBA from IIM Kozhikode and a Bachelor’s degree in
       Electrical Engineering from Sardar Patel College of Engineering, Mumbai.
@@ -261,11 +250,11 @@ team:
       Her experience of working at the grassroots as a part of Enactus and subsequently building the first-ever makerspace manual for educators under Project Prayogshala solidified her zeal to work in the social impact space. 
 
 
-      A strong belief in governance as a key lever of change and the opportunity to gain hands-on experience working with the government brought her to Samagra. Currently, she is part of the C4GT team in the Delhi office. 
+      A strong belief in governance as a key lever of change and the opportunity to gain hands-on experience working with the government brought her to Samagra.
     image: /img/edited_img_7713.jpg
     linkedInProfile: https://www.linkedin.com/in/bhavya-berlia-936a8b128/
     name: Bhavya Berlia
-    project: C4GT
+    project: " "
   - bio: >-
       Chakshu holds a Bachelor's degree in Civil Engineering from Galgotias
       College of Engineering and Technology and an MTech in Structural
@@ -284,11 +273,11 @@ team:
       from Ashoka University. An opportunity to contribute towards driving value
       for the public and various stakeholders in the government and to create
       real impact at scale, brought him to Samagra. Currently, he is part of the
-      Niramaya team in Uttar Pradesh.
+      Krishi SAMRIDHI team in Uttar Pradesh.
     image: /img/edited_img_3863.jpg
     linkedInProfile: https://www.linkedin.com/in/deepanshu-singal-12489119b/
     name: Deepanshu Singal
-    project: Niramaya
+    project: Krishi SAMRIDHI
   - bio: >-
       Garima holds a Bachelor’s degree in International Relations with a
       specialisation in Applied Quantitative Methods from University of Essex.
@@ -336,11 +325,11 @@ team:
       Government of Puducherry. 
 
 
-      A strong desire to explore governance consulting brought her to Samagra. Currently, she is part of the NIPUN Bharat team in Uttar Pradesh.
+      A strong desire to explore governance consulting brought her to Samagra. Currently, she is part of the Saksham Haryana - Education team in Haryana.
     image: /img/2.jpg
     linkedInProfile: https://www.linkedin.com/in/khushi-goyal-/
     name: Khushi Goyal
-    project: NIPUN Bharat Cell
+    project: "Saksham Haryana - Education "
   - bio: >-
       Kritika holds a Bachelor's degree in Commerce from Shri Ram College of
       Commerce, University of Delhi. Before joining Samagra, she was working as
@@ -349,22 +338,21 @@ team:
       Karnataka.
 
 
-      An opportunity to solve complex governance problems and create on-ground impact that is sustainable and scalable, brings Kritika to Samagra. Currently, she is part of the CMNBA team in Uttar Pradesh.
+      An opportunity to solve complex governance problems and create on-ground impact that is sustainable and scalable, brings Kritika to Samagra. 
     image: /img/kritika-garg.jpg
     linkedInProfile: https://www.linkedin.com/in/kritika-garg-69171b129/
     name: Kritika Garg
-    project: CMNBA
+    project: " "
   - bio: Mehul holds a Bachelor's degree in Economics from Hindu College, University
       of Delhi. Before joining Samagra, he interned at KPMG, PATH and RTI
       International, India. He has also been part of programmes and projects at
       Federation of Indian Chambers of Commerce and Industry (FICCI) and Central
       Board of Secondary Education (CBSE). A strong passion for creating impact
       at scale through the ambit of governance brought him to Samagra.
-      Currently, he is part of the Central Team in the Delhi office.
     image: /img/mehul-sehgal.jpg
     linkedInProfile: https://www.linkedin.com/in/mehul-sehgal-a38337152/
     name: Mehul Sehgal
-    project: Central Team
+    project: " "
   - bio: >-
       Mohit holds a Bachelor's degree in Management Studies from Shaheed Sukhdev
       College of Business Studies, University of Delhi. 
@@ -383,11 +371,11 @@ team:
       retail chains in Asia Pacific markets.
 
 
-      A strong motivation to navigate and solve for India’s development puzzle through institutionalisation and tech brought her to Samagra. 
+      A strong motivation to navigate and solve for India’s development puzzle through institutionalisation and tech brought her to Samagra. Namisha is the Program Coordinator of the  Saksham Haryana - Education team in Haryana and manages its daily operations.
     image: /img/namisha_7630.jpg
     linkedInProfile: https://www.linkedin.com/in/namisha-m-75a98014b/
     name: Namisha Mehra
-    project: " "
+    project: " Saksham Haryana - Education "
   - bio: >-
       Nawaz holds a Bachelor's degree in Aeronautics from Jamia Millia Islamia,
       New Delhi. Before joining Samagra, he was working as a Programme Associate
@@ -395,11 +383,11 @@ team:
       intern at the Indian Institute of Management, Bangalore.
 
 
-      An opportunity to solve complex governance problems and improve the lives of citizens brought him to Samagra.
+      An opportunity to solve complex governance problems and improve the lives of citizens brought him to Samagra. Currently, he is part of the CMGGA team in Haryana.
     image: /img/nawaz.png
     linkedInProfile: https://www.linkedin.com/in/nawaz-ahmed-khan-23512a18b/
     name: Nawaz Ahmed Khan
-    project: .
+    project: CMGGA
   - bio: >-
       Nikhil holds an MBA from the Indian Institute of Management Ahmedabad
       (IIMA), a Master’s degree in Public Administration from Indira Gandhi
@@ -437,24 +425,27 @@ team:
   - bio: Praachi holds a Bachelor's degree in Mathematics from St. Stephen's
       College, University of Delhi. A strong passion for creating systemic
       change in governance while driving impact at the grassroots, brought her
-      to Samagra. Currently, she is part of the Samarth team in Himachal
-      Pradesh.
+      to Samagra. Currently, she is part of the STRIDE team in Odisha.
     image: /img/edited_img_3640.jpg
     linkedInProfile: https://www.linkedin.com/in/praachi-bhatia/
     name: Praachi Bhatia
-    project: Samarth
-  - bio: "Pragya hold a Bachelor's degree in Economics from Miranda House,
+    project: STRIDE
+  - bio: >-
+      Pragya hold a Bachelor's degree in Economics from Miranda House,
       University of Delhi. She has previously interned at CollarFolk, a start up
       in Gurgaon and conceptualized a self-guided social entrepreneurship
       project called 'Pravah', on stopping the use of plastic straws. Pragya
       also completed a course on 'Re-thinking the Obvious: Rhetoric of
       Development' at Miranda House in collaboration with The George Washington
       University. An opportunity to create positive impact in the lives of
-      people and an interest in public policy brought her to Samagra. "
+      people and an interest in public policy brought her to Samagra. 
+
+
+      Pragya is the Program Coordinator of the STRIDE team in Odisha and manages its daily operations.
     image: /img/pragya_7691.jpg
     linkedInProfile: https://www.linkedin.com/in/pragya-mathur-678779126
     name: Pragya Mathur
-    project: .
+    project: STRIDE
   - bio: Prasanna holds a Bachelor's degree in Statistics from St. Joseph's College,
       Trichy and a Master's in Computer Applications from Adaikalamatha College,
       Thanjavur. He has worked extensively in the consulting and investment
@@ -465,7 +456,7 @@ team:
     image: /img/prasanna_7785.jpg
     linkedInProfile: https://www.linkedin.com/in/a-lourdu-pownraj-prasanna-786a1a132
     name: Prasanna A
-    project: Creatives
+    project: Central Team
   - bio: >-
       Prerna holds a Bachelor's degree in Philosophy from Lady Shri Ram College
       for Women, University of Delhi. An interest in creating social impact
@@ -492,11 +483,11 @@ team:
       development initiatives in the MP's constituency.
 
 
-      An opportunity to transform governance by combining consulting skills and the power of technology brought him to Samagra. Raghav is the Program Coordinator of the CMNBA team in Uttar Pradesh and manages its daily operations.
+      An opportunity to transform governance by combining consulting skills and the power of technology brought him to Samagra.
     image: /img/raghav_7533.jpg
     linkedInProfile: https://www.linkedin.com/in/raghav-katyal-2a3250120/
     name: Raghav Katyal
-    project: CMNBA
+    project: " "
   - bio: Raju worked with Punj Lloyd as a administrative assistant in Libya, and
       with Walt Disney as a Office Coordinator. He manages the daily
       administrative operations of the Samagra office.
@@ -513,11 +504,11 @@ team:
       literacy. 
 
 
-      An opportunity to create measurable impact at scale, through contextual solutions informed by a bottom-up understanding of governance structures, brought her to Samagra. Currently, she is part of the Niramaya team in Uttar Pradesh.
+      An opportunity to create measurable impact at scale, through contextual solutions informed by a bottom-up understanding of governance structures, brought her to Samagra.
     image: /img/edited_img_7635.jpg
     linkedInProfile: https://www.linkedin.com/in/ria-goyal-2b3935189/
     name: Ria Goyal
-    project: Niramaya
+    project: " "
   - bio: >-
       Sagar holds a Bachelor’s degree in Civil Engineering from Thapar Institute
       of Engineering & Technology, Patiala. Before joining Samagra, he was
@@ -525,11 +516,11 @@ team:
       operations & strategy for SaaS products.
 
 
-      An opportunity to solve complex governance challenges that benefit the lives of citizens brought him to Samagra.
+      An opportunity to solve complex governance challenges that benefit the lives of citizens brought him to Samagra. Currently, he is part of the FAMILY ID team in Uttar Pradesh.
     image: /img/sagar.png
     linkedInProfile: https://www.linkedin.com/in/sagar-vats/
     name: Sagar Vats
-    project: .
+    project: FAMILY ID
   - bio: Sanchita holds a Bachelor's degree in Home Science from Lady Irwin college.
       Previously, Sanchita was working as Executive Assistant to the Managing
       Director of Twitter India. An opportunity to contribute to Samagra’s
