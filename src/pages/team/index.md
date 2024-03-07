@@ -240,19 +240,6 @@ team:
     name: Ankit Goel
     project: "NIPUN Bharat Cell & Niramaya "
   - bio: >-
-      Anurag holds a Bachelor's degree in Engineering from NSUT, University of
-      Delhi. Before joining Samagra, he was working as an Analyst at Everest
-      Group in their strategic advisory practice, helping BFSI (Banking
-      Financial Services and Insurance) firms in their IT transformation and
-      strategic sourcing needs.
-
-
-      A strong desire to contribute towards improving public services and enhancing quality of life of citizens coupled with a passion for tech and governance, brought him to Samagra. Currently, he is part of the SamagraX team.
-    image: /img/anurag.jpg
-    linkedInProfile: https://www.linkedin.com/in/anurag-bahadur-singh-2790b3142/
-    name: Anurag Bahadur Singh
-    project: SamagraX
-  - bio: >-
       Ashana holds an MBA from IIM Kozhikode and a Bachelor’s degree in
       Electrical Engineering from Sardar Patel College of Engineering, Mumbai.
       Before joining Samagra, she was working as an Area Sales Manager for the
@@ -303,25 +290,6 @@ team:
     name: Deepanshu Singal
     project: Niramaya
   - bio: >-
-      Deepshikha holds a Master's degree in Nutrition and Public Health from
-      S.N.D.T. Women's University, Mumbai and a Bachelor's degree in the same
-      discipline from Lady Irwin College, University of Delhi. Before joining
-      Samagra, she has actively worked in different capacities with bureaucrats
-      and politicians in policy research, advisory and consulting on a range of
-      issues such as maternal health, education, employment, etc. Previously,
-      she has worked with the Government of Haryana as a State Consultant in the
-      Women and Child Development Department and has also been a Chief
-      Minister’s Good Governance Associate. She has also been an India fellow as
-      part of the India Fellow Social Leadership Program where she worked in the
-      tribal regions of Rajasthan. 
-
-
-      A strong passion to create tangible and measurable impact at scale, brought her to Samagra. Currently, she is part of the Saksham Haryana–Education team.
-    image: /img/deepshikha.jpg
-    linkedInProfile: https://www.linkedin.com/in/deepshikha-chhetri/
-    name: " Deepshikha Chhetri"
-    project: Saksham Haryana-Education
-  - bio: >-
       Garima holds a Bachelor’s degree in International Relations with a
       specialisation in Applied Quantitative Methods from University of Essex.
       Before joining Samagra, she was working as Communications Associate and
@@ -349,32 +317,6 @@ team:
     linkedInProfile: https://www.linkedin.com/in/gautam-rajeev-096ba6100/
     name: Gautam Rajeev
     project: SamagraX
-  - bio: >-
-      Jayashankar holds a Master's degree in Development Studies from Tata
-      Institute of Social Sciences (TISS), Mumbai and a Bachelor's degree in
-      Commerce from Christ (Deemed to be University), Bengaluru. Before joining
-      Samagra, he was working as an associate with Janaagraha Centre for
-      Citizenship and Democracy with their Municipal Finance team.
-       
-      A deep interest in subnational governance and a penchant for problem solving brought him to Samagra. He intends to leverage his academic grounding and hands-on experience in governance and developmental issues to create impact at scale. Currently, he is part of the Central Team in the Delhi office.
-    image: /img/edited_img_3638.jpg
-    linkedInProfile: https://www.linkedin.com/in/jayashankar-vengathattil/
-    name: Jayashankar Vengathattil
-    project: " Central Team"
-  - bio: >-
-      Karan holds a Postgraduate Diploma in Rural Management from Xavier
-      Institute of Social Service, Ranchi and a Bachelor's degree in Information
-      Technology from Shri Ramswaroop Memorial College of Engineering and
-      Management, Lucknow. Before joining Samagra, he was working as a Young
-      Professional Livestock at Bihar Rural Livelihoods Promotion Society
-      (JEEViKA). 
-
-
-      An opportunity to work at the intersection of data, technology and governance to improve the quality of life of citizens brings Karan to Samagra. Currently, he is part of the Niramaya team in Uttar Pradesh.
-    image: /img/karan-s.jpg
-    linkedInProfile: https://www.linkedin.com/in/karan-sabharwal-239858184/
-    name: Karan Sabharwal
-    project: Niramaya
   - bio: >-
       Karan holds a Bachelor’s degree in Information Technology from University
       of Mumbai. Karan has more than 10 years of experience in software
@@ -412,29 +354,6 @@ team:
     linkedInProfile: https://www.linkedin.com/in/kritika-garg-69171b129/
     name: Kritika Garg
     project: CMNBA
-  - bio: >
-      Lakshay holds a Bachelor's degree in Accounting and Finance from Shri Ram
-      College of Commerce, University of Delhi. Before joining Samagra, he
-      worked on District level projects on issues of animal welfare and gender
-      diversity & inclusivity. 
-
-
-      An opportunity to understand and impact the functioning of government departments and create real impact at scale, brought him to Samagra. Currently, he is part of the Saksham Haryana-Skills & Employment team.
-    image: /img/edited_img_3614.jpg
-    linkedInProfile: https://www.linkedin.com/in/lakshay-gupta-578019195/
-    name: Lakshay Gupta
-    project: " "
-  - bio: >-
-      Manik holds a Bachelor's degree in Commerce from Hansraj College,
-      University of Delhi. He is also a licensed Certified Public Accountant.
-      Before joining Samagra, he was working as an Internal Auditor with Nokia.
-
-
-      A strong desire to bring about systemic change brought him to Samagra. He plans to leverage his problem solving and stakeholder management skills to create impact at scale. Currently, he is part of the Samarth team in Himachal Pradesh.
-    image: /img/manik.jpg
-    linkedInProfile: https://www.linkedin.com/in/manik05/
-    name: Manik
-    project: Samarth
   - bio: Mehul holds a Bachelor's degree in Economics from Hindu College, University
       of Delhi. Before joining Samagra, he interned at KPMG, PATH and RTI
       International, India. He has also been part of programmes and projects at
@@ -515,17 +434,6 @@ team:
     linkedInProfile: https://www.linkedin.com/in/nitin-kashyap-7573181/
     name: Nitin Kashyap
     project: " "
-  - bio: >-
-      Pavan holds a Bachelor's degree in Commerce from Shri Ram College of
-      Commerce, University of Delhi. Before joining Samagra, he was working as
-      an Associate Consultant at Sattva Consulting. 
-
-
-      A strong desire to explore governance consulting as a tool to create large-scale impact and to work with state governments to bring about systemic change, brought him to Samagra. Currently, he is part of the Central Team in the Delhi office.
-    image: /img/8.jpg
-    linkedInProfile: https://www.linkedin.com/in/pavan-bhat-kundapura-48b41a105/
-    name: "Pavan Bhat Kundapura "
-    project: Central Team
   - bio: Praachi holds a Bachelor's degree in Mathematics from St. Stephen's
       College, University of Delhi. A strong passion for creating systemic
       change in governance while driving impact at the grassroots, brought her
@@ -578,19 +486,6 @@ team:
     name: Prerna Bhandari
     project: FAMILY ID
   - bio: >-
-      Prerna holds an MBA from Indian Institute of Management, Calcutta and a
-      Bachelor's degree in Civil Engineering from Jadavpur University, Kolkata.
-      Before joining Samagra, she was working as an Assistant Manager in Fosroc
-      Chemicals, primarily working on infrastructure projects with government
-      stakeholders. 
-
-
-      A strong motivation to work in the impact space and contribute towards social development brings Prerna to Samagra
-    image: /img/prerna-singh.jpg
-    linkedInProfile: https://www.linkedin.com/in/prerna-singh-b92016145/
-    name: Prerna Singh
-    project: " "
-  - bio: >-
       Raghav holds a Bachelor's degree in Political Science and Economics from
       Ashoka University. Before joining Samagra, he was working as a Legislative
       Assistant to a Lok Sabha Member of Parliament, supporting multiple
@@ -610,18 +505,6 @@ team:
     name: Raju Ram
     project: NA
   - bio: >-
-      Reetika holds an integrated Bachelor's and Master's Degree in Physics from
-      Birla Institute of Technology and Science, Pilani (BITS Pilani) and is a
-      CFA Level II candidate. Before joining Samagra, she was working as an AVP
-      in the Benchmark Administration team of Citi. 
-
-
-      A strong belief in governance being a key lever to drive change brought her to Samagra. She intends to leverage her professional and academic experiences to create impact at scale.
-    image: /img/reetika.jpg
-    linkedInProfile: https://www.linkedin.com/in/reetika-srivastava/
-    name: Reetika Srivastava
-    project: .
-  - bio: >-
       Ria holds a Masters’ degree in Development Studies from Ambedkar
       University and a Bachelor’s Degree in Political Science from Lady Shri Ram
       College for Women, Delhi. Before joining Samagra she has actively worked
@@ -635,16 +518,6 @@ team:
     linkedInProfile: https://www.linkedin.com/in/ria-goyal-2b3935189/
     name: Ria Goyal
     project: Niramaya
-  - bio: "Sagari holds a Bachelor's and Master's degree in Environmental Engineering
-      from Delhi Technological University and Stanford University, respectively.
-      After graduating from Stanford, she worked at Geosyntec Consultants, an
-      environmental consulting company, in Seattle. Her interest in
-      transitioning to the development sector and facilitating sustainable
-      change on the ground brought her to Samagra. "
-    image: /img/sagari_7668.jpg
-    linkedInProfile: https://www.linkedin.com/in/sagari-handa-5a86157a
-    name: Sagari Handa
-    project: .
   - bio: >-
       Sagar holds a Bachelor’s degree in Civil Engineering from Thapar Institute
       of Engineering & Technology, Patiala. Before joining Samagra, he was
@@ -690,21 +563,6 @@ team:
     name: Shashwat Shah
     project: CMNBA
   - bio: >-
-      Shipra holds an MPhil degree in Public Policy from the University of
-      Cambridge, UK and a Bachelor's degree in History from Lady Shri Ram
-      College for Women, University of Delhi. Before joining Samagra, she was
-      working as a Research Manager at Centre for Science of Student Learning
-      (CSSL), assessing cognitive and affective skill development among students
-      in South Asia and making recommendations for its improvement to
-      policymakers. 
-
-
-      A desire to solve some of society's most critical challenges and bring about a meaningful change in people's lives at scale, brought her to Samagra.
-    image: /img/shipra.jpg
-    linkedInProfile: https://www.linkedin.com/in/shipra-bihani-a224a674/
-    name: Shipra Bihani
-    project: .
-  - bio: >-
       Shraya holds a Bachelor's degree in Chemical Engineering from National
       Institute of Technology Karnataka, Surathkal. Before joining Samagra, she
       was working as a Customer & Application Development Engineer, South Asia
@@ -719,19 +577,6 @@ team:
     linkedInProfile: https://www.linkedin.com/in/shraya-sapru/
     name: Shraya Sapru
     project: .
-  - bio: >-
-      Shreya holds a Master's degree in Management from INSEAD, France and a
-      Bachelor's degree in Business Administration with a specialisation in
-      Marketing from St. Xavier’s College, Kolkata. Before joining Samagra, she
-      was interning at Arthur D. Little in Singapore. Previously, she also ran a
-      regional content creation venture.
-
-
-      A strong desire to create impact at scale through governance consulting brings Shreya to Samagra. Currently, she is part of the FAMILY ID team in Uttar Pradesh.
-    image: /img/shreya-aggarwal.png
-    linkedInProfile: https://www.linkedin.com/in/shreyaagarwal15/
-    name: Shreya Agarwal
-    project: FAMILY ID
   - bio: >-
       Shreyashi holds a Master’s degree in Management Studies with a
       specialization in Urban Management from CEPT University, Ahmedabad and a
@@ -796,21 +641,6 @@ team:
     name: Siddhant Agarwal
     project: KONNECT
   - bio: >-
-      Siddharth holds a Bachelor’s degree in Political Science and Economics
-      from St. Stephen’s College, University of Delhi. Before joining Samagra,
-      he interned with NITI Aayog and The Prime Minister's Science, Technology
-      and Innovation Advisory Council (PM-STIAC). He is also the Co-Founder of
-      PeaceX - a UNEP MGCY member organisation with a volunteer presence in 119
-      countries. 
-
-
-      An opportunity to drive real impact at scale brought him to Samagra. Currently, he is part of the Central Team in the Delhi office.
-    image: /img/edited_img_3612.jpg
-    linkedInProfile: https://www.linkedin.com/in/siddharth-gulati-740386166/
-    name: |
-      Siddharth Gulati
-    project: Central Team
-  - bio: >-
       Simran holds a Master's degree in Economics from the Delhi School of
       Economics and a Bachelor's degree in the same from Lady Shri Ram College
       for Women, University of Delhi. Before joining Samagra, she worked as an
@@ -836,18 +666,6 @@ team:
     name: Snehi Gupta
     project: .
   - bio: >-
-      Srajan is a Young India Fellow who holds a Postgraduate Diploma in Liberal
-      Studies from Ashoka University, Haryana and a Bachelor's degree in
-      Electronics and Communications Engineering from IIIT Delhi. Before joining
-      Samagra, he was working as a Deputy Manager - CSR at ESSAR Foundation.
-
-
-      A strong desire to understand the scale of governance challenges in India and become a part of the solution, brought him to Samagra. Currently, he is part of the NIPUN Bharat team in Uttar Pradesh.
-    image: /img/srajan.jpg
-    linkedInProfile: " ."
-    name: Srajan Bhatnagar
-    project: NIPUN Bharat Cell
-  - bio: >-
       Srikanth holds an MBA from Xavier Institute of Management, Bhubaneswar and
       a Bachelor's degree in Electrical, Electronics and Communications
       Engineering from National Institute of Science and Technology (NIST),
@@ -859,20 +677,6 @@ team:
     linkedInProfile: https://www.linkedin.com/in/srikanth-pattnaik-882228168/
     name: Srikanth Pattnaik
     project: KONNECT
-  - bio: "Sukhpreet holds a Bachelor's degree in Commerce from Shri Ram College of
-      Commerce, University of Delhi. Previously, he has worked with KPMG to
-      provide integrity intelligence for M&A transactions to Fortune 500
-      companies and Private Equities. Prior to Samagra, he worked as the Senior
-      Research Associate (Team Lead) at Pratham where he set up and built a
-      Monitoring, Measurement & Evaluation team of over 60 people across 17
-      states with the mandate to design and manage the implementation of
-      standardized measurements across Pratham's flagship Read India programme.
-      His passion to transform citizen-government experiences at scale brought
-      him to Samagra. "
-    image: /img/sukhpreet_7699.jpg
-    linkedInProfile: https://www.linkedin.com/in/sukhpreetsekhon
-    name: Sukhpreet Sekhon
-    project: .
   - bio: >-
       Suresh holds a Master's degree in Systems Management from University of
       Calicut, Malappuram. Suresh has more than 25 years of experience in
@@ -889,35 +693,6 @@ team:
     linkedInProfile: https://www.linkedin.com/in/sureshunnikrishnan/
     name: Suresh Unnikrishnan
     project: " "
-  - bio: >-
-      Susheel holds a Bachelor's degree in Sociology from St. Andrew's College,
-      Mumbai, and a Post-Graduate Diploma in Liberal Studies under the Young
-      India Fellowship at Ashoka University. Susheel has had a longstanding
-      interest in governance and policy implementation, leading him to work with
-      organisations such as the Informed Voter Project and Praja Foundation
-      during his undergraduate studies in Mumbai. His experience at the Young
-      India Fellowship reinforced these ideas and also led him to explore the
-      role of technology and data-based decision-making in governance. 
-
-
-      His search for the intersection between technology and governance, and his quest to contribute in creating impact at scale brought Susheel to Samagra. Currently, he is part of the SamagraX team.
-    image: /img/susheel_7671.jpg
-    linkedInProfile: https://www.linkedin.com/in/susheel-varghese-13b3ab151/
-    name: Susheel Varghese
-    project: SamagraX
-  - bio: >-
-      Tarang holds a Bachelor's degree in Electronics and Communication
-      Engineering from Vellore Institute of Technology. After graduating, Tarang
-      joined ION a Client Services professional in the Operations department. He
-      primarily worked in the Fixed Income and Repo trading domain, providing
-      technical as well as business support to traders and gained hands-on
-      experience in using complex trading tools.
-       
-      An opportunity to create impact at scale and gain insight into governance consulting brought Tarang to Samagra.
-    image: /img/tarang_7645.jpg
-    linkedInProfile: https://www.linkedin.com/in/tarang-khurana-16550a106/
-    name: Tarang Khurana
-    project: FAMILY ID
   - bio: Ujjwal holds a Bachelor's degree in Computer Engineering from Netaji Subhas
       Institute of Technology. She worked with Microsoft and Directi before
       pursuing the Young India Fellowship. During the Fellowship, she got a
@@ -1007,24 +782,6 @@ team:
     linkedInProfile: https://www.linkedin.com/in/vijeet-shivhare/
     name: Vijeet Shivhare
     project: Central Team
-  - bio: >
-      Viren holds an MBA from S.P. Jain Institute of Management & Research.
-      Before joining Samagra, he was working as a Senior Manager with Kearney,
-      primarily focused on strategy and operations consulting for clients in the
-      consumer sectors.
-
-
-      Over the years, as his understanding of the governance system grew he became increasingly restless. The pandemic gave him time to pause, introspect and find the answer to a fundamental question: Do I want to remain on the sidelines or actively contribute towards bringing about a change in the system? He decided he wanted to do the latter. 
-
-
-      An opportunity to work with the system and create sustainable impact in the lives of people brought him to Samagra. 
-
-
-      Viren is Vice President at Samagra and currently leads the Saksham Haryana-Skills & Employment programme.
-    image: /img/viren_7884.jpg
-    linkedInProfile: https://www.linkedin.com/in/viren-bavishi-4693173/
-    name: Viren Bavishi
-    project: Saksham Haryana-Skills & Employment
   - name: Lakshay Jain
     bio: "Lakshay holds a Bachelor’s degree in Business Administrations with a
       specialization in Financial Investment Analysis from Shaheed Sukhdev
