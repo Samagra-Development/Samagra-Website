@@ -9,8 +9,7 @@ domain: Agriculture
 subTitle: Samagra
 state: Odisha
 tagLine: Enabling data-backed decision making within the department &
-  streamlining agri-service delivery (input supply, credit & schemes) for
-  farmers
+  streamlining agri-service delivery for farmers
 projectLogoWithState: /img/ks-logo.png
 overview:
   - text: Samagra, with support from Bill & Melinda Gates Foundation, is working
