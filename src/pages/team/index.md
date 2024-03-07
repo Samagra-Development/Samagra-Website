@@ -725,21 +725,21 @@ team:
       working on M&A, large scale transformation and change management projects.
 
 
-      A strong motivation to bring about positive change in the lives of citizens through governance as a lever of change, brought Utsav to Samagra. He intends to leverage his academic grounding and hands-on experience with large scale change management to deliver impact at scale. Currently, he is part of the NIPUN Bharat team in Uttar Pradesh.
+      A strong motivation to bring about positive change in the lives of citizens through governance as a lever of change, brought Utsav to Samagra. He intends to leverage his academic grounding and hands-on experience with large scale change management to deliver impact at scale.
     image: /img/utsav.png
     linkedInProfile: https://www.linkedin.com/in/utsavthapliyal/
     name: Utsav Thapliyal
-    project: NIPUN Bharat Cell
+    project: " "
   - bio: Vasundhra holds a Bachelor’s degree in Mathematics from Sri Guru Tegh
       Bahadur Khalsa College, University of Delhi. Before joining Samagra, she
       was volunteering for the National Service Scheme. In her spare time,
       Vasundhra enjoys reading and swimming. A strong drive to work in social
       impact consulting and create impact at scale, brought her to Samagra.
-      Currently, she is part of the NIPUN Bharat team in Uttar Pradesh.
+      Currently, she is part of the LEAP team in Odisha.
     image: /img/vasundhra.jpg
     linkedInProfile: https://www.linkedin.com/in/vasundhra-negi-96b383209/
     name: Vasundhra Negi
-    project: NIPUN Bharat Cell
+    project: LEAP
   - bio: >-
       Venkatesh holds an MBA from Indian School of Business, Hyderabad and a
       Bachelor's degree in Electrical, Electronics and Communications
@@ -761,7 +761,7 @@ team:
       foreign education and skill development in South Asian Markets.
 
 
-      A strong motivation to drive impact at the grassroots across a comprehensive range of development markers, combined with a deep-rooted interest for first-principle based problem solving, brought him to Samagra. Currently, he is part of the KONNECT team in Odisha.
+      A strong motivation to drive impact at the grassroots across a comprehensive range of development markers, combined with a deep-rooted interest for first-principle based problem solving, brought him to Samagra. Vijeeth is the Program Coordinator of the KONNECT team in Odisha and manages its daily operations.
     image: /img/vijeeth-website.jpg
     linkedInProfile: https://www.linkedin.com/in/vijeeth-srinivas-756873148/
     name: Vijeeth Srinivas
