@@ -1120,4 +1120,86 @@ team:
       hands-on experience from internships and social impact projects to drive
       impact at scale.
     linkedInProfile: " "
+  - image: /img/person-vector.jpeg
+    name: Vehuvoyi Theluo
+    project: " "
+    bio: Vehuvoyi holds a Bachelor's degree in Electronics & Communication
+      engineering from NSUT, Delhi. Before joining Samagra, he interned at
+      INSEAD, Scaler and NagaEd.The opportunity to drive meaningful impact at
+      scale is what brings Vehu to Samagra.
+    linkedInProfile: " "
+  - image: /img/person-vector.jpeg
+    name: Priyal Batheja
+    project: " "
+    bio: "Priyal Batheja holds a Bachelors in Economics from Shri Ram College of
+      Commerce, University of Delhi. Before joining Samagra, she worked with
+      boutique consulting firms, policy think tanks and organisations like The
+      Indian Express to gather immersive experiences across different domains of
+      consulting. An opportunity to work on ground to solve large-scale problems
+      is what brings her to Samagra. She intends to leverage her academic
+      grounding and versatile mindset to contribute towards the impact sector. "
+    linkedInProfile: " "
+  - image: /img/person-vector.jpeg
+    name: Shivangi Mittal
+    project: " "
+    bio: Shivangi holds a Bachelors's degree in Commerce from Lady Shri Ram College
+      for Women, University of Delhi. Before joining Samagra, she interned at
+      Ernst and Young's government transactions division, primarily studying the
+      landscape of cooperative societies in India. An opportunity to work at the
+      intersection of public and private sector and experience the best of both
+      domains is what brings her to Samagra. She plans to leverage her penchant
+      for public speaking to tell stories about impact at scale.
+    linkedInProfile: " "
+  - image: /img/person-vector.jpeg
+    name: Mohd Abdullah Alam
+    project: " "
+    bio: Abdullah holds a Bachelor's degree in Business Management with a
+      specialization in Finance from Shaheed Sukhdev College of Business
+      Studies, University of Delhi. Before joining Samagra, he has interned as a
+      Business Analyst at Mosaic Consulting and has led a live project at
+      Penguin Random House India. A conviction to realize the potential of India
+      through better governance to create significant and lasting impact, brings
+      Abdullah to Samagra. He intends to leverage his academic grounding and
+      hands-on-experience in solving pragmatic problems to create impact at
+      scale.
+    linkedInProfile: " "
+  - image: /img/person-vector.jpeg
+    name: Nikita Agarwal
+    project: " "
+    bio: >-
+      Nikita holds a Bachelor's degree in Economics from Lady Shri Ram College
+      for Women, University of Delhi. Before joining Samagra, she interned with
+      Invest India and 
+
+      Behavioural Insights Unit, Niti Aayog. An opportunity to own workstreams early in her career, connect with touchpoints on the ground, and interact with diverse stakeholders in the ecosystem is what brings her to Samagra.
+    linkedInProfile: " "
+  - name: Abhimanyu Timbadia
+    image: /img/person-vector.jpeg
+    project: " "
+    bio: Abhimanyu holds a Post-Graduate diploma in Computer Science and a Bachelors
+      in Politics, Philosophy & Economics from Ashoka University. Before joining
+      Samagra, he was working as a research assistant in the Computer Science
+      department of Ashoka University with the primary focus of developing an
+      indigenous public-key encryption system that was secure against
+      post-quantum adversaries for the DRDO.The chance to do work he could
+      genuinely connect with due to its social impact driven nature brought him
+      to Samagra.
+    linkedInProfile: " "
+  - image: /img/person-vector.jpeg
+    name: Tammisetti Sai Satvik
+    project: " "
+    bio: Satvik holds a Bachelors in Mechanical Engineering from NIT, Warangal.
+      Before joining Samagra, he interned at Axis Bank in Business Intelligence
+      Unit. An opportunity to create impact at scale and improving quality of
+      life through better governance brings him to Samagra.
+    linkedInProfile: " "
+  - name: Abhishek Yadav
+    image: /img/person-vector.jpeg
+    project: " "
+    bio: Abhishek holds a Bachelor's degree in Commerce from Shri Ram College of
+      Commerce, University of Delhi. Before joining Samagra, he explored the
+      impact sector by interning in Digital Platform and Government Engagement
+      roles at Sattva Consulting.A strong motivation to drive large governance
+      transformations and create scalable impact, brings him to Samagra.
+    linkedInProfile: " "
 ---
