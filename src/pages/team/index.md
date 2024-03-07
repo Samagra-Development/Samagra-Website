@@ -1044,4 +1044,80 @@ team:
       effecting positive change and impacting lives directly is what brings her
       to Samagra.
     linkedInProfile: " "
+  - image: /img/person-vector.jpeg
+    name: Shubham
+    project: " "
+    bio: "Shubham holds a Bachelors in Environmental Engineering with a minor in
+      Economics from Delhi Technological University. Before joining Samagra, he
+      interned at NITI Aayog and contributed to UNDP-SEPA's Environmental
+      Governance Programme. A drive to work closely with key stakeholders and
+      making his fair share of contribution towards enabling #ImpactAtScale
+      brings Shubham to Samagra."
+    linkedInProfile: " "
+  - image: /img/person-vector.jpeg
+    name: Mohit Naswa
+    project: " "
+    bio: Mohit holds a Bachelors of Technology degree from Delhi Technological
+      University.  Using his technical skills and leveraging data and technology
+      to solve problems at scale is what brings him to Samagra.
+    linkedInProfile: " "
+  - image: /img/person-vector.jpeg
+    name: Tanishk Verma
+    project: " "
+    bio: Tanishk holds a bachelors degree in engineering with a minor degree in
+      economics from DTU. Before joining Samagra, he has interned with Moment as
+      a growth consultant and with EY as an implementation consultant. A
+      background in strategic and advisory profiles and a strong drive for
+      transformative change, brings Tanishk to Samagra
+    linkedInProfile: " "
+  - image: /img/person-vector.jpeg
+    name: Ananya Mishra
+    project: " "
+    bio: Ananya holds a Bachelor's Degree in Business Administration with a
+      specialisation in Financial Investment Analysis from Shaheed Sukhdev
+      College of Business Studies, University of Delhi. Before joining Samagra,
+      she has explored the social impact space by being a part of organisations
+      like Rotaract and AIESEC. An opportunity to work with the government to
+      create large-scale solutions to the macro problems of the society by
+      working on the ground-level brings Ananya to Samagra.
+    linkedInProfile: " "
+  - image: /img/person-vector.jpeg
+    name: Varn Roy
+    project: " "
+    bio: Varn holds a Bachelor's of Technology degree in Production and Industrial
+      Engineering from Delhi Technological University. Before joining Samagra,
+      he has been working in the Product Team at Kohbee. A passion to work in
+      the union of problem solving and creating an impact at scale brings Varn
+      to Samagra.
+    linkedInProfile: " "
+  - name: Pranshu Birla
+    image: /img/person-vector.jpeg
+    project: " "
+    bio: Pranshu holds a Bachelors in Engineering from Netaji Subhas University of
+      Technology. Working with the government and creating impact at scale is
+      what brings him to Samagra.
+    linkedInProfile: " "
+  - name: Simran Singh
+    image: /img/person-vector.jpeg
+    project: " "
+    bio: >-
+      Simran holds a Master's degree in Economics from Ashoka University, and a
+      bachelors degree in Mathematics from Jesus and Mary College, Delhi
+      University. 
+
+
+      A passion to work towards driving real change which is sustainable and improves' peoples lives brings her to Samagra. She intends to leverage her research experience and problem solving skills to create impact at scale.
+    linkedInProfile: " "
+  - name: Akshit Singh
+    image: /img/person-vector.jpeg
+    project: " "
+    bio: Akshit holds a bachelor's degree in Commerce (Hons) from Shri Ram College
+      of Commerce, University of Delhi. Before joining Samagra, he interned with
+      companies like OLX Autos, TATA 1mg, where he gained experience in
+      operations, strategy, and finance roles. An aspiration to create
+      large-scale impact by improving governance and service delivery brings him
+      to Samagra. He intends to leverage his academic background along with his
+      hands-on experience from internships and social impact projects to drive
+      impact at scale.
+    linkedInProfile: " "
 ---
