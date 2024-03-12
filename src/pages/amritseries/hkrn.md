@@ -15,14 +15,14 @@ impactNumber3: 90
 sideIcon4: /img/icon4-gosugam.png
 showsideIcon2: false
 templateKey: case-study
-featuredimage: /img/picture1.jpg
+featuredimage: https://www.youtube.com/embed/AoPGFk4bZwk?si=yfKTuqjXCgldYVST
 impactNumber1Decimal: 1
 impactNumber1Text: Lakh
 impactNumber3Decimal: 0
 impactNumber4: 84
 showsideIcon3: false
 showsideIcon4: false
-date: 2024-03-12T07:36:46.110Z
+date: 2024-03-12T08:12:45.758Z
 bannerImage: /img/opening-screen.mp4
 impactNumber2Decimal: 0
 impactNumber2Text: Crore
