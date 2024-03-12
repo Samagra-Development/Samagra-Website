@@ -605,7 +605,7 @@ export const KSKTemplate = ({ content, helmet }) => {
               </p>
             </div>
 
-            {/* <div>
+            <div>
               <p
                 className="textCaseStudy"
                 style={{
@@ -623,7 +623,7 @@ export const KSKTemplate = ({ content, helmet }) => {
                   marginBottom: '0',
                   paddingBottom: '0',
                 }}>
-                {'<<Title of Op-Ed>>'}
+                Leveraging technology to enable famers to get better access to agricultural services and delivery
               </p>
               <p
                 style={{
@@ -633,10 +633,13 @@ export const KSKTemplate = ({ content, helmet }) => {
                   color: '#418F37',
                   cursor: 'pointer',
                   fontStyle: 'italic',
+                }}
+                onClick={() => {
+                  window.open('https://government.economictimes.indiatimes.com/blog/leveraging-technology-to-enable-famers-to-get-better-access-to-agricultural-services-and-delivery/108270726#:~:text=Krushi%20Samiksha%20Kendra%20(KSK)%20is,ground%20feedback%20on%20changes%20needed', '_blank');
                 }}>
                 Read More
               </p>
-            </div> */}
+            </div>
             {/* <div>
               <p
                 className="textCaseStudy"
