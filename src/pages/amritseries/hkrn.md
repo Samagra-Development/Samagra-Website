@@ -22,7 +22,7 @@ impactNumber3Decimal: 0
 impactNumber4: 84
 showsideIcon3: false
 showsideIcon4: false
-date: 2024-03-04T04:52:21.014Z
+date: 2024-03-12T07:36:46.110Z
 bannerImage: /img/opening-screen.mp4
 impactNumber2Decimal: 0
 impactNumber2Text: Crore
@@ -74,7 +74,7 @@ icon1: /img/icon-6.png
 impactNumber1Title: Contractual employees <br> onboarded on HKRN
 showPlus1: true
 icon2: /img/icon-7.png
-impactNumber2Title: Salary disbursed (₹) till date <br> through HKRN
+impactNumber2Title: Salary disbursed (₹) <br> till date through HKRN
 showPlus2: true
 icon3: /img/icon-1.png
 impactNumber3Title: Received all <br> social security benefits
