@@ -10,7 +10,7 @@ subTitle: Samagra
 state: Odisha
 tagLine: Enabling data-backed decision making within the department &
   streamlining agri-service delivery for farmers
-projectLogoWithState: /img/ks-logo.png
+projectLogoWithState: /img/krishi-samridhi.png
 overview:
   - text: Samagra, with support from Bill & Melinda Gates Foundation, is working
       with the Government of UP to enable department officers with timely
