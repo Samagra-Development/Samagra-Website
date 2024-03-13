@@ -13,13 +13,12 @@ featuredimage: /img/hkrn-insta-linkedin-1x1-thumbnail.png
 
 Government jobs have been sacrosanct for all Indians irrespective of their economic class, since the British era. Even with the era of globalization bringing in a plethora of opportunities in the private sector, these jobs are the most sought after. Why does that seem to be the case? The answer lies primarily in the “security” provided through these opportunities. The security of receiving timely salary, leaves, health allowances, paid leaves, various social security benefits, timely promotion, pensions and most importantly - transparent communication and management of any personnel decisions is what makes these government jobs extremely lucrative till date. Along with this, was attached the respect from society that came with holding a government job. 
 
-These were the exact expectations of Shanty Kapoor, a contractual employee from Rohtak in Haryana. It was a joyous occasion for him and his family when he was offered a contractual position in the Govt. of Haryana’s Health Department. With the job offer, Shanty and his family felt they now have a sense of security with the benefits offered with the position.  Shanty did have to pay the contractor a fairly large sum of money to get the job, but it had all finally come together for them in the beginning of 2020. 
+These were the exact expectations of Shanty Kapoor, a contractual employee from Rohtak in Haryana. It was a joyous occasion for him and his family when he was offered a contractual position in the Govt. of Haryana’s Health Department. With the job offer, Shanty and his family felt they now have a sense of security with the benefits offered with the position. Shanty did have to pay the contractor a fairly large sum of money to get the job, but it had all finally come together for them in the beginning of 2020. 
 
-Our team met with Shanty while he was running from pillar to post in the Chief Minister’s Office  to  get  what was due to him – his leaves.  Shanty narrated his journey of having worked 6 months as a contractual employee in the Health Department, and described the job in the organised government sector, extremely unorganised. His salary for the first month was credited  4 months after starting work and he received only 60% of it.  After working for 10 months, he was abruptly transferred to an office 250 kms away from his home district. He  learned that this was to accommodate another employee who was given priority over him. After having reached out to his contractor, the contractor simply shrugged off any responsibility and told him to count his blessings of having the job opportunity, and could quit if he had any problems.
+Our team met with Shanty while he was running from pillar to post in the Chief Minister’s Office  to  get  what was due to him – his leaves. Shanty narrated his journey of having worked 6 months as a contractual employee in the Health Department, and described the job in the organised government sector, extremely unorganised. His salary for the first month was credited 4 months after starting work and he received only 60% of it. After working for 10 months, he was abruptly transferred to an office 250 kms away from his home district. He  learned that this was to accommodate another employee who was given priority over him. After having reached out to his contractor, the contractor simply shrugged off any responsibility and told him to count his blessings of having the job opportunity, and could quit if he had any problems.
 
-Shanty is just one of the 1.5 lakh contractual employees in the state of Haryana who face these problems on a regular basis.  
+Shanty is just one of the 1.5 lakh contractual employees in the state of Haryana who face these problems on a regular basis.
 
-\
 In the health department office in Rohtak, Ravi Sharma, was sympathetic to Shanty’s problems, but he could not change the situation or circumstances for Shanty. He had limited visibility on the employed contractual manpower in the department, as their contract was completely managed by the contractor. About 40-50% of the amount released from the state coffers to pay the wages to the contractual employees would not reach them, as the contractors would keep the same for themselves. It was always a tedious process of getting the contractual manpower recruited. He would have to collect the requirement of manpower from each field office individually. There would almost never be a fixed eligibility criteria defined for the open vacant positions,  and there would be unnecessary hiring and unskilled manpower recruited for the positions. As these contracts were also poorly managed, there was high attrition among the contractual employees and the entire recruitment process would have to start again. 
 
 This is the story of 200+ departments, 20+ boards & corporations and 40+ PSUs in the state of Haryana. 
@@ -57,8 +56,6 @@ As a centralized nodal body, the scope of HKRN included all existing and new con
 ![](/img/hkrn-1.png)
 
 *Fig : Organisation Structure of HKRN (2023)*
-
-
 
 1. **HKRN Portal as a multi-sided tech platform**
 
