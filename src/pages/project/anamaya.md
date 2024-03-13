@@ -10,7 +10,7 @@ subTitle: Samagra
 state: Odisha
 tagLine: To establish systemic enablers for continuous improvement in health and
   nutrition outcomes of tribal citizens in Odisha.
-projectLogoWithState: /img/stride-logo_vf.png
+projectLogoWithState: /img/stride.png
 overview:
   - text: The STRIDE program, a part of the Tribal Health Collaborative initiated by
       the Bill & Melinda Gates Foundation and Piramal Foundation, operates in
