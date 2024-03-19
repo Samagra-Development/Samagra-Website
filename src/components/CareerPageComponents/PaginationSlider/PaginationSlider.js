@@ -1,23 +1,24 @@
 import React from "react";
 import Swiper from "react-id-swiper";
 
+const service = {};
 const PaginationSlider = ({content}) => {
     const params = {
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true,
-      bulletClass: 'life-at-samagra-page-indicator',
-      bulletActiveClass: 'life-at-samagra-page-indicator-active',
-      clickableClass: 'life-at-samagra-bullets',
-    },
-    slidesPerView: 1,
-    autoplay: { // Enable autoplay (might require additional configuration)
-      delay: 5000, // Set autoplay delay (in milliseconds)
-      disableOnInteraction: false, // Allow user interaction to pause/resume
-    },
-    loop: true,
-  };
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            clickable: true,
+            bulletClass: 'life-at-samagra-page-indicator',
+            bulletActiveClass: 'life-at-samagra-page-indicator-active',
+            clickableClass: 'life-at-samagra-bullets'
+        },
+        slidesPerView: 1,
+        autoplay: { // Enable autoplay (might require additional configuration)
+            delay: 5000, // Set autoplay delay (in milliseconds)
+            disableOnInteraction: false, // Allow user interaction to pause/resume
+        },
+        loop: true
+    };
     return (
         <div className={'container-fluid testimonial-slider'}>
             <div className="row">
@@ -38,7 +39,7 @@ const PaginationSlider = ({content}) => {
                                         <div className={'align-self-end f-40 mb-5 ml-5 text-white text-title'} style={{background: 'rgba(0,0,0,0.8)', padding: '0 20px'}}>
                                             {item.text}
                                         </div>
-                                    </div>
+                                    </div>-
                                 </div>
                             })
                         }
