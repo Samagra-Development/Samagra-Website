@@ -124,7 +124,7 @@ export default () => (
           sort: { order: DESC, fields: [frontmatter___date] }
           limit: 3
           filter: {
-            frontmatter: { templateKey: { in: ["case-study", "ksk"] } }
+            frontmatter: { templateKey: { in: ["case-study", "ksk","old-case-study"] } }
           }
         ) {
           edges {

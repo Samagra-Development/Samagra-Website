@@ -158,7 +158,7 @@ export default () => (
       query CaseStudiesRollQuery {
         allMarkdownRemark(
           sort: { order: ASC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { in: ["case-study", "ksk"] } } }
+          filter: { frontmatter: { templateKey: { in: ["case-study", "ksk", "old-case-study"] } } }
         ) {
           edges {
             node {
