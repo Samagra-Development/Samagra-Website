@@ -12,7 +12,12 @@ const PaginationSlider = ({content}) => {
             bulletActiveClass: 'life-at-samagra-page-indicator-active',
             clickableClass: 'life-at-samagra-bullets'
         },
-        slidesPerView: 1
+        slidesPerView: 1,
+        autoplay: { // Enable autoplay (might require additional configuration)
+            delay: 5000, // Set autoplay delay (in milliseconds)
+            disableOnInteraction: false, // Allow user interaction to pause/resume
+        },
+        loop: true
     };
     return (
         <div className={'container-fluid testimonial-slider'}>
@@ -26,7 +31,7 @@ const PaginationSlider = ({content}) => {
                     <Swiper {...params} ContainerEl={'div'}>
                         {
                             content.slides.map((item, index) => {
-                                return <div className={'life-at-samagra'} style={{width: '100%'}}>
+                                return <div key={index} className={'life-at-samagra'} style={{width: '100%'}}>
                                     <div className={'d-flex flex-wrap w-100 h-100 image-wrapper'} style={{backgroundImage: `url(${
                                             !!item.image.childImageSharp ? item.image.childImageSharp.fluid.src : item.image
                                     })`,backgroundSize: 'cover',
