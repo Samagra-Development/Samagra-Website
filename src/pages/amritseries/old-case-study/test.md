@@ -1,84 +1,66 @@
 ---
-sectionSequence: 1 2 3 4 5 6
-impactVideoLink: https://www.youtube.com/embed/DYKEJfHbjVM?si=ggltnk6nWh966wG_
-motionGraphic2: /img/02_screen.mp4
-title8: Insights from the ground
-sideIcon1: /img/icon1-gosugam.png
-impactNumber1: 2
-sideIcon2: /img/icon2-gosugam.png
-impactNumber2: 1
-sideIcon3: /img/icon3-gosugam.png
-impactNumber5: 99
-webinarLink: /blog/2023-12-25-amrit-series-1-krushi-samiksha-kendra/
-showsideIcon1: false
-impactNumber3: 70000
-sideIcon4: /img/icon4-gosugam.png
-showsideIcon2: false
 templateKey: old-case-study
-featuredimage: /img/GO-SUGAM-landing-page.jpg
-impactNumber1Decimal: 0
-impactNumber1Text: Lakh
-impactNumber3Decimal: 0
-impactNumber4: 44
-showsideIcon3: false
-showsideIcon4: false
 date: 2024-01-15T07:24:17.098Z
 bannerImage: /img/gosugam.mp4
-impactNumber2Decimal: 0
-impactNumber2Text: Lakh
-impactNumber3Text: ""
-impactNumber4Decimal: 0
-impactNumber5Decimal: 0
-infographicGoogleDriveLink: https://drive.google.com/file/d/1BL_OLyhvmrt9BsOCiSya-6UEOhJAAyyr/view?usp=drive_link
-downloadInfographicBtn: Download Infographic
-showWebinar: false
-webinarTitle: Title of webinar
-footerText1: Partner with us today!
-footerText2: "Write to us at: outreach@samagragovernance.in"
-successStoriesTitle: View more <i>Success Stories of Impact</i>
-sideIcon1Text: Need / Challenges
-sideIcon2Text: Impact Video
-sideIcon3Text: Use Cases
-sideIcon4Text: Impact Numbers
+featuredimage: /img/GO-SUGAM-landing-page.jpg
 show: true
 projectId: TEST
 buttonText: Learn More
 title: test
 fontColor: "#025300"
-title1: Government of Odisha's single window portal for digital delivery of
-  agricultural schemes to farmers
-title2: Impact Video
-title3: GO-SUGAM was introduced by the Govt of Odisha in May 2022, to ease the
-  life of farmers. See how it impacted the life of an aspirational small scale
-  farmer - Sangita.
-title4: Like Sangita, many farmers in Odisha have such dreams. And they need
-  help from the right schemes to unlock these dreams.
-motionGraphic1: /img/01_screen.mp4
-title5: Farmers in Odisha primarily face three challenges in accessing the right
-  schemes
+title1: Transforming scheme and service delivery for citizens in the state of Haryana
+title2: Each citizen needs access to government schemes and services like Aadhar, Birth Certificate, etc as part of our everyday lives. But, there are many complexities that make this process difficult...
+title3: What was life like before Antyodaya Saral?
+title4: What was the journey of Antyodaya Saral in the Governance Matrix?
+title5: Here is how the Haryana government worked in a mission mode to augment the system capacity...
+title6: Antyodaya Saral transformed the lives of millions of citizens and department officials with SARAL portal and SARAL Kendras enabling citizen-centric governance in Haryana 
+title7: In Media
 infographic1:
   - img: /img/gosugam-infographic1-img1.png
   - img: /img/group_1.jpg
   - img: /img/group_2.jpg
   - img: /img/group_3.jpg
-title6: For the Government of Odisha, the key processes that needed streamlining
-  included the following-
+  - img: /img/group_2.jpg
+  - img: /img/group_3.jpg
 infographic2:
   - img: /img/gosugam-infographic2-img1.png
   - img: /img/gosugam-infographic2-img2.png
   - img: /img/gosugam-infographic2-img3.png
   - img: /img/gosugam-infographic2-img4.png
-title7: GO-SUGAM has quickly become the de-facto choice of Department of
-  Agriculture and Farmers' Empowerment (DA&FE) and Fisheries and Animal
-  Resources Development (FARD) for easy and smooth delivery of schemes across
-  directorates
+  - img: /img/gosugam-infographic2-img3.png
+  - img: /img/gosugam-infographic2-img4.png
+newsdescription1: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it.
+newsdescription2: The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it.
+newsletterBtn: Read Newsletter
+newsletterLink: ""
+motionGraphic: /img/02_screen.mp4
+showImpactVideo: true
+impactVideoLink: https://www.youtube.com/embed/DYKEJfHbjVM?si=ggltnk6nWh966wG_
+showImpactCard: true
+img1: ""
+cardTitle1: Antyodaya Saral online Portal
+cardDescription1: Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+cardBtn1: Learn more
+cardLink1: ""
+img2: ""
+cardTitle2: Citizen Touch Points
+cardDescription2: Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+cardBtn2: Learn more
+cardLink2: ""
+img3: ""
+cardTitle3: Enablers
+cardDescription3: Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+cardBtn3: Learn more
+cardLink3: ""
 icon1: /img/gosugam-icon1.png
 impactNumber1Title: Total applications <br>received
 showPlus1: true
 icon2: /img/gosugam-icon2.png
+impactNumber2Text: "%"
 impactNumber2Title: Go-ahead generated <br>against for applications
 showPlus2: true
 icon3: /img/gosugam-icon3.png
+impactNumber3Text: "%"
 impactNumber3Title: Subsidies released <br>against go-ahead
 showPlus3: true
 icon4: /img/gosugam-icon4.png
@@ -89,11 +71,27 @@ icon5: /img/gosugam-icon5.png
 impactNumber5Text: "%"
 impactNumber5Title: Farmer stated correct <br>subsidy was received
 showPlus5: true
+impactNumber1: 1
+impactNumber2: 85
+impactNumber3: 89
+impactNumber4: 100
+impactNumber5: 40
+impactNumber1Text: ""
+impactNumber1Decimal: 0
+impactNumber2Decimal: 0
+impactNumber3Decimal: 0
+impactNumber4Decimal: 0
+impactNumber5Decimal: 0
+infographicGoogleDriveLink: https://drive.google.com/file/d/1BL_OLyhvmrt9BsOCiSya-6UEOhJAAyyr/view?usp=drive_link
+downloadInfographicBtn: Download Infographic
 blogTitle: Government of Odisha’s single window portal for digital delivery of
   agricultural schemes to farmers
 blogLink: /blog/2024-02-01-amrit-series-2-go-sugam/
-showOpEd: false
+showOpEd: true
 opEdTitle: Title of op-ed
 opEdLink: /blog/2023-12-25-amrit-series-1-krushi-samiksha-kendra/
 blogSectionImage: /img/gosugam-impact.jpg
+footerText1: Partner with us today!
+footerText2: "Write to us at: outreach@samagragovernance.in"
+successStoriesTitle: View more <i>Success Stories of Impact</i>
 ---

@@ -253,7 +253,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
           </div>
         </div>
       </FadeInSection> 
-       <SectionDivider/></>
+       <SectionDivider color={content?.fontColor}/></>
   }
 
   const sectionTwo = ()=> {
@@ -307,7 +307,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
        {/* <div className="spacer">
             <img src={spacer} alt="" />
           </div> */}
-      <SectionDivider/></>
+      <SectionDivider color={content?.fontColor}/></>
   }
 
   const sectionThree = ()=> {
@@ -460,7 +460,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
             </div>}
            </div>}
           </FadeInSection>
-          <SectionDivider/></>
+          <SectionDivider color={content?.fontColor}/></>
   }
 
   const sectionFour = ()=> {
@@ -498,7 +498,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
             </div> */}
           </div>
           </FadeInSection>
-          <SectionDivider/></>
+          <SectionDivider color={content?.fontColor}/></>
   }
 
   const sectionFive = ()=> {
@@ -832,7 +832,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
           </div>}
         </div>
       </FadeInSection>
-      <SectionDivider/></>
+      <SectionDivider color={content?.fontColor}/></>
   }
 
   const sectionSix = ()=> {
@@ -1087,7 +1087,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
           {content?.footerText2 && <p>{content?.footerText2}</p>}
         </div>
       </FadeInSection>}
-      <SectionDivider/></>
+      <SectionDivider color={content?.fontColor}/></>
   }
 
   if (!content) {
@@ -1226,7 +1226,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
       {/* <div className="spacer">
         <img src={spacer} alt="" />
       </div> */}
-       <SectionDivider/>
+       <SectionDivider color={content?.fontColor}/>
       {arr.map((option, index) => (
         <React.Fragment key={index}>{renderSection(option)}</React.Fragment>
       ))}

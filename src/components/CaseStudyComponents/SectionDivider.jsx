@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SectionDivider = () => {
+const SectionDivider = ({color}) => {
   return (
     <div
         style={{
@@ -9,7 +9,7 @@ const SectionDivider = () => {
           borderWidth: '1px',
           borderStyle: 'solid',
           borderColor: 'transparent',
-          borderImage: 'linear-gradient(to left, #418F37, #FFE81D) 1',
+          borderImage: `linear-gradient(to left, ${color} , #FFE81D) 1`,
           margin: '75px auto',
         }}></div>
   );

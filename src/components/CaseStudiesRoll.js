@@ -39,7 +39,7 @@ class CaseStudiesRoll extends React.Component {
     return (
       <>
         <div className="blogs-section" style={{paddingBottom: '100px'}}>
-          <div className="row" style={{justifyContent: 'center'}}>
+          <div className="row" style={{justifyContent: 'center', gap:"32px"}}>
             {clean_posts.map(({ node: post }) => {
               if(!post.frontmatter.show){
                 return null;

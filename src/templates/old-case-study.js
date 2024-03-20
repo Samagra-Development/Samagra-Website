@@ -52,16 +52,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
   const [showUpIcon, setShowUpIcon] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
   const [modalImage, setModalImage] = useState(null);
-  const arr = content?.sectionSequence.trim() ? content.sectionSequence.trim().split(" ") : ["1", "2", "3", "4", "5", "6"];
-  const isShowImpactIcon = content?.icon1 || content?.icon2 || content?.icon3 || content?.icon4 || content?.icon5 ;
-  const isCaseStudyLinkContainer = content?.title8 || content?.blogTitle || content?.showOpEd || content?.showWebinar ;
-  const isFooter = content?.footerText1 || content?.footerText2;
-  const isSectionOne = content?.title2 || content?.title3 ||content?.impactVideoLink; 
-  const isSectionTwo = content?.title4 || content?.motionGraphic1;
-  const isSectionThree = content?.title5 || content?.title6 ||content?.infographic1 || content?.infographic2;  
-  const isSectionFour = content?.motionGraphic2 && true;
-  const isSectionFive = isShowImpactIcon || content?.title7 || content?.downloadInfographicBtn; 
-  const isSectionSix = isCaseStudyLinkContainer||content?.blogSectionImage||isFooter;
+  const arr = ["1", "2", "3", "4", "5"];
 
   const openModal = (image) => {
     setModalImage(image);
@@ -105,21 +96,21 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
   const renderSection = (option) => {
     switch (option) {
       case '1':
-        return isSectionTwo ? sectionTwo() : <></>;
+        return sectionOne();
       case '2':
-        return isSectionThree ? sectionThree() : <></>;
+        return sectionTwo();
       case '3':
-        return isSectionFour ? sectionFour() : <></>;
+        return sectionThree();
       case '4':
-        return isSectionFive ? sectionFive() : <></>;
+        return sectionFour();
       case '5':
-        return isSectionSix ? sectionSix() : <></>;
+        return sectionFive();
       default:
         return <></>;
     }
   };
 
-  const sectionThree = ()=> {
+  const sectionTwo = ()=> {
     return <><FadeInSection> 
       {content?.title4 && <div
         className="textCaseStudy"
@@ -132,8 +123,12 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
         }}>
         {content?.title4}
           </div>}
-      {content?.motionGraphic1 && <div
+      <div style={{display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-evenly',padding:"32px 20vh", gap:"64px"}}>
+                {content?.motionGraphic && <div
             style={{
+                display:"flex",justifyContent:"center",
               marginTop: !mobile ? '10px' : '',
             }}>
             <video
@@ -141,28 +136,57 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               loop
               muted
               style={{
+                flex:"1fr",
                 width: '100%',
                 aspectRatio: '2',
                 objectFit: 'cover',
               }}>
-              <source src={content?.motionGraphic1?.publicURL} type="video/mp4" />
+              <source src={content?.motionGraphic?.publicURL} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>}
+          <div style={{flex:"1fr", display:"flex" , flexDirection:"column", fontSize:"18px"}}>
+            <p>{content?.newsdescription1}</p>
+            <p>{content?.newsdescription2}</p>
+            {content?.newsletterBtn && <div
+            className="casestudy-btn-container"
+           >
+            <button
+              style={{
+                cursor: 'pointer',
+                background: content?.fontColor,
+                padding: '4px 30px',
+               color: "white",
+               outline: "none",
+               borderRadius: "8px",
+               transition: "transform 0.2s ease",
+              }}
+              onClick={() => {
+                const link = document.createElement('a');
+                link.href = content?.newsletterLink;
+                link.target = '_blank';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+              }}>
+              {content?.newsletterBtn}
+            </button>
+          </div>}</div>
+            </div>
       </FadeInSection>
-      <SectionDivider/></>
+      <SectionDivider color={content?.fontColor}/></>
   }
 
-  const sectionTwo = ()=> {
+  const sectionOne = ()=> {
     return <><FadeInSection>
-         {content?.title5 && <div
+         {content?.title3 && <div
             className="textCaseStudy"
             id="use-cases-section"
             style={{ fontSize: mobile ? '20px' : '30px' }}>
-            {content?.title5}
+            {content?.title3}
           </div>}
 
-         {content?.infographic1 && <div
+          {content?.infographic1 && <div
             className="infographic1"
             style={{ marginTop: '75px', marginBottom: '75px' }}>
             {content?.infographic1?.[0]?.img && <div
@@ -174,13 +198,14 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 style={{ maxWidth: '200px' }}
               />
             </div>}
-
             {content?.infographic1.length>1 && <div
               style={{
                 display: 'flex',
+                flexWrap: "wrap",
                 justifyContent: 'center',
                 flexDirection: mobile ? 'column' : 'row',
                 alignItems: mobile ? 'center' : 'flex-start',
+                padding: "0 15vw"
               }}>
               {content?.infographic1?.map((item, index, array) => {
                 if(index === 0) return null;
@@ -197,7 +222,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                     {index !== array.length - 1 && (
                       <div
                         style={{
-                          height: '500px',
+                          height: '450px',
                           width: '1px',
                           borderWidth: '1px',
                           borderStyle: 'solid',
@@ -210,33 +235,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                     )}
                   </>
                 );
-              })}
-
-              {/* <div className="infographic-img">
-                <img
-                  src={gosugamInfographic1Img3}
-                  alt=""
-                  style={{ maxWidth: '250px' }}
-                />
-              </div>
-              <div
-                style={{
-                  height: '500px',
-                  width: '1px',
-                  borderWidth: '1px',
-                  borderStyle: 'solid',
-                  borderColor: 'transparent',
-                  borderImage: 'linear-gradient(to bottom, #418F37, #FFE81D) 1',
-                  display: mobile ? 'none' : 'block',
-                  margin: '0 10px',
-                }}></div>
-              <div className="infographic-img">
-                <img
-                  src={gosugamInfographic1Img4}
-                  alt=""
-                  style={{ maxWidth: '250px' }}
-                />
-              </div> */}
+              })} 
             </div>}
           </div>}
 
@@ -255,17 +254,19 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
             {content?.infographic2.length>1 && <div
               style={{
                 display: 'flex',
+                flexWrap: "wrap",
                 justifyContent: 'center',
                 flexDirection: mobile ? 'column' : 'row',
                 alignItems: mobile ? 'center' : 'flex-start',
                 marginTop: '10px',
+                padding:"0 18vw"
               }}>
               {content?.infographic2?.map((item, index) => {
                 if(index === 0) return null;
                 return (
                   <div
                     className="infographic-img"
-                    style={{ margin: mobile ? '15px 0' : '0 15px' }}>
+                    style={{ margin: mobile ? '15px 0' : '0 5px' }}>
                     <img
                       src={item?.img?.childImageSharp?.fluid?.src}
                       alt=""
@@ -274,48 +275,28 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   </div>
                 );
               })}
-
-              {/* <div
-                className="infographic-img"
-                style={{ margin: mobile ? '15px 0' : '0 15px' }}>
-                <img
-                  src={gosugamInfographic2Img3}
-                  alt=""
-                  style={{ maxWidth: '250px' }}
-                />
-              </div>
-
-              <div
-                className="infographic-img"
-                style={{ margin: mobile ? '15px 0' : '0 15px' }}>
-                <img
-                  src={gosugamInfographic2Img4}
-                  alt=""
-                  style={{ maxWidth: '250px' }}
-                />
-              </div> */}
             </div>}
            </div>}
           </FadeInSection>
-          <SectionDivider/></>
+          <SectionDivider color={content?.fontColor}/></>
   }
 
-  const sectionFour = ()=> {
+  const sectionThree = ()=> {
     return <><FadeInSection>
         <div
           className="case-study-summary-container"
           style={{ marginTop: mobile ? '75px' : '100px' }}>
           <div className="case-study-summary-text" id="impact-video-section">
-            {content?.title3 && <div
+            {content?.title5 && <div
               className="textCaseStudy"
               style={{
                 textAlign: 'center',
                 paddingTop: !mobile ? '5px' : '50px',
                 fontSize: mobile ? '20px' : '30px',
               }}>
-              {content?.title3}
+              {content?.title5}
             </div>}
-            {content?.impactVideoLink && <><div
+            {content?.showImpactVideo && <><div
               style={{
                 textAlign: 'right',
                 width: '66vw',
@@ -377,16 +358,25 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 />
               </div>
             </div></>}
+             {/* <div class="card">
+              <img src={content?.blogSectionImage?.childImageSharp?.fluid?.src} alt="Card background image" />
+              <div class="card-content">
+               <h3>Heading Text</h3>
+               <p>This is a brief description of the card content.</p>
+                 <a href="#" class="learn-more">Learn More</a>
+             </div> */}
+  {/* </div> */}
+
           </div>
         </div>
       </FadeInSection> 
-       <SectionDivider/></>
+       <SectionDivider color={content?.fontColor}/></>
   }
 
-  const sectionFive = ()=> {
+  const sectionFour = ()=> {
     return <><FadeInSection>
         <div className="impact">
-          {content?.title7 && <div
+          {content?.title6 && <div
             className="headingCaseStudy"
             id="impact-numbers-section"
             style={{
@@ -397,9 +387,9 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               paddingTop: '50px',
               fontSize: mobile ? '20px' : '30px',
             }}>
-            {content?.title7}
+            {content?.title6}
           </div>}
-         {isShowImpactIcon && <div
+         <div
             style={{
               width: '80%',
               margin: '50px auto',
@@ -682,7 +672,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   fontWeight: 'bold',
                 }}></p>
             </div>}
-          </div>}
+          </div>
           {content?.downloadInfographicBtn && <div
             className="casestudy-btn-container"
             style={{
@@ -715,7 +705,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
           </div>}
         </div>
       </FadeInSection>
-      <SectionDivider />
+      <SectionDivider color={content?.fontColor}/>
        {/* <div
         style={{
           height: '5px',
@@ -726,8 +716,8 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
         </>
   }
 
-  const sectionSix = ()=> {
-    return <>{(isCaseStudyLinkContainer||content?.blogSectionImage) && <FadeInSection>
+  const sectionFive = ()=> {
+    return <> <FadeInSection>
         <div
           style={{
             display: 'flex',
@@ -736,13 +726,13 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
             paddingTop: "32px"
           }}
           className="case-study-links-container">
-          {isCaseStudyLinkContainer && <div
+          <div
             style={{
               width: mobile ? '80%' : '50%',
               marginBottom: 'auto',
               marginTop: mobile ? '10px' : '',
             }}>
-            {content?.title8 && <div
+            {content?.title7 && <div
               className="headingCaseStudy"
               style={{
                 textAlign: 'left',
@@ -750,7 +740,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 paddingTop: mobile ? '25px' : 0,
                 fontSize: mobile ? '20px' : '30px',
               }}>
-              {content?.title8}
+              {content?.title7}
             </div>}
             {content?.blogTitle && <div>
               <p
@@ -834,49 +824,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 </p>
               </div>
             )}
-            {content?.showWebinar && (
-              <div>
-                <p
-                  className="textCaseStudy"
-                  style={{
-                    textAlign: 'left',
-                    marginBottom: '0',
-                    paddingBottom: '0',
-                    fontSize: mobile ? '18px' : '28px',
-                  }}>
-                  Webinar
-                </p>
-                <p
-                  className="textCaseStudy"
-                  style={{
-                    textAlign: 'left',
-                    marginBottom: '0',
-                    paddingBottom: '0',
-                  }}>
-                  {content?.webinarTitle}
-                </p>
-                <p
-                  style={{
-                    textAlign: 'left',
-                    marginTop: '0',
-                    paddingTop: '15px',
-                    color: content?.fontColor,
-                    cursor: 'pointer',
-                    fontStyle: 'italic',
-                  }}
-                  onClick={() => {
-                    window.location.href = content?.webinarLink;
-                  }}>
-                  Read More{' '}
-                  <RightArrow
-                    color={content?.fontColor}
-                    height="15px"
-                    width="15px"
-                  />
-                </p>
-              </div>
-            )}
-          </div>}
+          </div>
           {content?.blogSectionImage && <div
             style={{
               display: 'flex',
@@ -897,16 +845,16 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               }}></div>
           </div>}
         </div>
-      </FadeInSection>}
+      </FadeInSection>
 
-      {isFooter && <FadeInSection>
+      <FadeInSection>
         <div
           className="partner-with-us"
           style={{ marginTop: mobile ? '100px' : '150px' }}>
           {content?.footerText1 && <p className="partner-with-us-main-text">{content?.footerText1}</p>}
           {content?.footerText2 && <p>{content?.footerText2}</p>}
         </div>
-      </FadeInSection>}
+      </FadeInSection>
       </>
   }
 
@@ -949,7 +897,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
           }}>
           {content?.title1}
         </div>
-        <div className={"old-case-study-sub-heading"} style={{fontSize: mobile ? '20px' : '28px'}}>{content?.title3}</div></div>
+        <div className={"old-case-study-sub-heading"} style={{fontSize: mobile ? '20px' : '28px'}}>{content?.title2}</div></div>
       </FadeInSection>
       {/* Show modal only in mobile */}
       {mobile && (
@@ -963,7 +911,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
           )}
         </Modal>
       )}
-       <SectionDivider/>
+       <SectionDivider color={content?.fontColor}/>
       {arr.map((option, index) => (
         <React.Fragment key={index}>{renderSection(option)}</React.Fragment>
       ))}
@@ -1062,16 +1010,36 @@ export const pageQuery = graphql`
             }
           }
         }
-        sectionSequence
         title1
         title2
         title3
         impactVideoLink
+        showImpactVideo
+        showImpactCard
+        img1
+        cardTitle1
+        cardDescription1
+        cardBtn1
+        cardLink1
+        img2
+        cardTitle2
+        cardDescription2
+        cardBtn2
+        cardLink2
+        img3
+        cardTitle3
+        cardDescription3
+        cardBtn3
+        cardLink3
+
         title4
         title5
         title6
         title7
-
+        newsdescription1
+        newsdescription2
+        newsletterBtn
+        newsletterLink
         blogSectionImage {
           childImageSharp {
             fluid(maxWidth: 1280, quality: 62) {
@@ -1082,15 +1050,10 @@ export const pageQuery = graphql`
         infographicGoogleDriveLink
         downloadInfographicBtn
 
-        showWebinar
-        webinarTitle
-        webinarLink
-
         showOpEd
         opEdTitle
         opEdLink
 
-        title8
         blogTitle
         blogLink
 
@@ -1120,34 +1083,6 @@ export const pageQuery = graphql`
         impactNumber5Title
         showPlus5
 
-        sideIcon1 {
-          childImageSharp {
-            fluid(maxWidth: 1280, quality: 62) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        sideIcon2 {
-          childImageSharp {
-            fluid(maxWidth: 1280, quality: 62) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        sideIcon3 {
-          childImageSharp {
-            fluid(maxWidth: 1280, quality: 62) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        sideIcon4 {
-          childImageSharp {
-            fluid(maxWidth: 1280, quality: 62) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
         infographic1 {
           img {
             childImageSharp {
@@ -1166,21 +1101,10 @@ export const pageQuery = graphql`
             }
           }
         }
-        sideIcon1Text
-        sideIcon2Text
-        sideIcon3Text
-        sideIcon4Text
-        showsideIcon1
-        showsideIcon2
-        showsideIcon3
-        showsideIcon4
         bannerImage {
           publicURL
         }
-        motionGraphic1 {
-          publicURL
-        }
-        motionGraphic2 {
+        motionGraphic {
           publicURL
         }
         footerText1

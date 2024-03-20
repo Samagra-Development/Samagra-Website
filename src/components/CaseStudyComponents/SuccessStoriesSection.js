@@ -122,9 +122,9 @@ export default () => (
       query SuccessStoriesSectionQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          limit: 3
+          limit: 4
           filter: {
-            frontmatter: { templateKey: { in: ["case-study", "ksk","old-case-study"] } }
+            frontmatter: { templateKey: { in: ["case-study", "ksk", "old-case-study"] } }
           }
         ) {
           edges {

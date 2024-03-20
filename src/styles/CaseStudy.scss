@@ -292,6 +292,50 @@
   cursor: pointer;
   overflow: hidden;
 }
+.info-card-wrapper{
+  width: 40vh;
+  height: 60vh;
+  border-radius: 12px;
+  border: none;
+}
+.info-card-wrapper:hover{
+ -webkit-animation-name: smoothScaleIn;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 0.3s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: smoothScaleIn;
+  animation-duration: 0.3s;
+  transform: scale(1.02);
+}
+
+// .card {
+//       position: relative; /* Make the card the positioning context */
+//       width: 300px; /* Set a width for the card */
+//       height: 200px; /* Set a height for the card */
+//       overflow: hidden; /* Clip content that overflows */
+//     }
+
+//     .card img {
+//       width: 100%; /* Stretch image to fill the card */
+//       height: 100%; /* Stretch image to fill the card */
+//       object-fit: cover; /* Ensure image covers the entire card */
+//       position: absolute; /* Position the image on top */
+//       top: 0;
+//       left: 0;
+//     }
+
+//     .card-content {
+//       position: absolute; /* Position the content on top */
+//       bottom: 0; /* Position content at the bottom */
+//       left: 0;
+//       right: 0;
+//       padding: 20px; /* Add some padding inside the content area */
+//       color: white; /* Set text color to white for better contrast */
+//       background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+//       text-align: center; /* Center the text content */
+//     }
+
+
 @media only screen and (max-width: 980px) {
   .cards-section .card-wrapper-case-study {
     max-width: 300px;
