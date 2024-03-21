@@ -60,6 +60,20 @@
   font-family: sans-serif !important;
 }
 
+.old-case-study-main-heading{
+  font-weight: 600 !important;
+  font-family: sans-serif !important;
+  padding: 12px 48px;
+  text-align: center;
+}
+
+.old-case-study-sub-heading{
+  font-weight:500 !important;
+  width:80%;
+  text-align: center;
+  margin-top: 32px;
+}
+
 .fade-in-section {
   opacity: 0;
   transform: translateY(20vh);
@@ -278,6 +292,50 @@
   cursor: pointer;
   overflow: hidden;
 }
+.info-card-wrapper{
+  width: 40vh;
+  height: 60vh;
+  border-radius: 12px;
+  border: none;
+}
+.info-card-wrapper:hover{
+ -webkit-animation-name: smoothScaleIn;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 0.3s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: smoothScaleIn;
+  animation-duration: 0.3s;
+  transform: scale(1.02);
+}
+
+.impact-card {
+      position: relative; /* Make the card the positioning context */
+      width: 272px; /* Set a width for the card */
+      height: 332px; /* Set a height for the card */
+      overflow: hidden; /* Clip content that overflows */
+      border-radius: 12px;
+      // background-image: linear-gradient(to bottom, #000000 0%, #76323F 12%, #76323F 100%);
+    }
+
+    .impact-card img {
+      width: 100%; /* Stretch image to fill the card */
+      height: 100%; /* Stretch image to fill the card */
+      object-fit: cover; /* Ensure image covers the entire card */
+      position: absolute; /* Position the image on top */
+      top: 0;
+      left: 0;
+    }
+
+    .impact-card-content {
+      position: absolute; /* Position the content on top */
+      left: 0;
+      top: 100px;
+      padding: 24px; /* Add some padding inside the content area */
+      color: white; /* Set text color to white for better contrast */
+      text-align: center; /* Center the text content */
+    }
+
+
 @media only screen and (max-width: 980px) {
   .cards-section .card-wrapper-case-study {
     max-width: 300px;

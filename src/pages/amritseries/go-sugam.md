@@ -1,5 +1,6 @@
 ---
 sectionSequence: 1 2 3 4 5 6
+formType: This is new case study form
 impactVideoLink: https://www.youtube.com/embed/DYKEJfHbjVM?si=ggltnk6nWh966wG_
 motionGraphic2: /img/02_screen.mp4
 title8: Insights from the ground

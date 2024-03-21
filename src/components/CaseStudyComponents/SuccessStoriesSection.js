@@ -37,6 +37,8 @@ export const SuccessStoriesSection = ({ data }) => {
     return posts.edges.map((post, index) => {
       if (post?.node?.fields?.slug.includes(path)) {
         return <React.Fragment key={post?.node?.id}></React.Fragment>;
+      } else if(!post?.node?.frontmatter.show){
+        return null;
       }
       return (
         <a href={post?.node?.fields?.slug} target="_blank">
@@ -122,9 +124,9 @@ export default () => (
       query SuccessStoriesSectionQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          limit: 3
+          limit: 4
           filter: {
-            frontmatter: { templateKey: { in: ["case-study", "ksk"] } }
+            frontmatter: { templateKey: { in: ["case-study", "ksk", "old-case-study"] } }
           }
         ) {
           edges {
@@ -136,6 +138,7 @@ export default () => (
               }
               frontmatter {
                 templateKey
+                show
                 title1
                 projectId
                 date(formatString: "MMMM DD, YYYY")
