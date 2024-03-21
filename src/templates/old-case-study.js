@@ -4,19 +4,11 @@ import React, { useState, useEffect, useRef } from 'react';
 import Helmet from 'react-helmet';
 import Layout from '../components/Layout';
 import PropTypes from 'prop-types';
-import img2 from '../../static/img/kskimg2.gif';
-import infographic from '../../static/img/infographic.gif';
 import { animateScroll as scroll } from 'react-scroll';
 import upIcon from '../img/up-arrow-png-20.png';
-import apostrophe_start from '../img/apostrophe_start.svg';
-import apostrophe_end from '../img/apostrophe_end.svg';
-import spacer from '../img/spacer.png';
 import amritSeriesDoodle from '../../static/img/amrit-series-text-doodle.svg';
-import amritSeriesBubble from '../../static/img/amrit-series-text-bubble.svg';
-import gosugamImpactImg from '../../static/img/gosugam-impact.jpg';
-import akailaunch from '../../static/img/ama-krushai-launch.png';
-import gosugamLinksImg from '../../static/img/gosugam-links.jpeg';
 import { RightArrow } from '../components/CaseStudyComponents/RightArrow';
+import { InfoIcon } from '../components/CaseStudyComponents/InfoIcon';
 import { Modal } from 'react-responsive-modal';
 import { debounce } from 'lodash';
 import 'react-responsive-modal/styles.css';
@@ -157,7 +149,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 background: content?.fontColor,
                 padding: '4px 30px',
                color: "white",
-               outline: "none",
+               border: "none",
                borderRadius: "8px",
                transition: "transform 0.2s ease",
               }}
@@ -185,7 +177,10 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
             style={{ fontSize: mobile ? '20px' : '30px' }}>
             {content?.title3}
           </div>}
-
+          <div style={{   backgroundImage: `url(${content?.backgroundMap?.childImageSharp?.fluid?.src})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    backgroundSize: 'auto' }}>
           {content?.infographic1 && <div
             className="infographic1"
             style={{ marginTop: '75px', marginBottom: '75px' }}>
@@ -205,7 +200,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 justifyContent: 'center',
                 flexDirection: mobile ? 'column' : 'row',
                 alignItems: mobile ? 'center' : 'flex-start',
-                padding: "0 15vw"
+                padding: "0 16vw"
               }}>
               {content?.infographic1?.map((item, index, array) => {
                 if(index === 0) return null;
@@ -219,7 +214,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                       />
                     </div>
                     {/* Check if it's not the last element */}
-                    {index !== array.length - 1 && (
+                    {(index !== array.length - 1 && index!==3) && (
                       <div
                         style={{
                           height: '450px',
@@ -228,7 +223,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                           borderStyle: 'solid',
                           borderColor: 'transparent',
                           borderImage:
-                            'linear-gradient(to bottom, #418F37, #FFE81D) 1',
+                            `linear-gradient(to bottom, ${content?.fontColor}, #ffffff) 1`,
                           display: mobile ? 'none' : 'block',
                           margin: '0 10px',
                         }}></div>
@@ -259,7 +254,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 flexDirection: mobile ? 'column' : 'row',
                 alignItems: mobile ? 'center' : 'flex-start',
                 marginTop: '10px',
-                padding:"0 18vw"
+                padding:"0 16vw"
               }}>
               {content?.infographic2?.map((item, index) => {
                 if(index === 0) return null;
@@ -276,7 +271,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 );
               })}
             </div>}
-           </div>}
+           </div>}</div>
           </FadeInSection>
           <SectionDivider color={content?.fontColor}/></>
   }
@@ -358,14 +353,65 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 />
               </div>
             </div></>}
-             {/* <div class="card">
-              <img src={content?.blogSectionImage?.childImageSharp?.fluid?.src} alt="Card background image" />
-              <div class="card-content">
-               <h3>Heading Text</h3>
-               <p>This is a brief description of the card content.</p>
-                 <a href="#" class="learn-more">Learn More</a>
-             </div> */}
-  {/* </div> */}
+            <div style={{display:"flex",flexWrap:"wrap", gap:"32px",justifyContent:"center", margin:"60px 0"}}>
+            <div class="impact-card">
+              <img src={content?.img1?.childImageSharp?.fluid?.src} alt="Card background image" />
+              <div class="impact-card-content">
+                <div style={{fontWeight:"600",fontSize:"25px"}}>{content?.cardTitle1}</div>
+                <div style={{fontWeight:"400", fontSize:"18",color:"#DADADA"}}>{content?.cardDescription1}</div>
+                <p
+                style={{
+                  paddingTop: '15px',
+                  cursor: 'pointer',
+                  textDecoration: 'underline'
+                }}
+                onClick={() => {
+                  window.location.href = content?.cardLink1;
+                }}>
+                {content?.cardBtn1}{' '}
+                <InfoIcon/>
+              </p>
+              </div>
+            </div>
+            <div class="impact-card">
+              <img src={content?.img2?.childImageSharp?.fluid?.src} alt="Card background image" />
+              <div class="impact-card-content">
+              <div style={{fontWeight:"600",fontSize:"25px"}}>{content?.cardTitle2}</div>
+                <div style={{fontWeight:"400", fontSize:"18",color:"#DADADA"}}>{content?.cardDescription2}</div>
+                <p
+                style={{
+                  paddingTop: '15px',
+                  cursor: 'pointer',
+                  textDecoration: 'underline'
+                }}
+                onClick={() => {
+                  window.location.href = content?.cardLink2;
+                }}>
+                {content?.cardBtn2}{' '}
+                <InfoIcon/>
+              </p>
+              </div>
+            </div>
+            <div class="impact-card">
+              <img src={content?.img3?.childImageSharp?.fluid?.src} alt="Card background image" />
+              <div class="impact-card-content">
+              <div style={{fontWeight:"600",fontSize:"25px"}}>{content?.cardTitle3}</div>
+                <div style={{fontWeight:"400", fontSize:"18",color:"#DADADA"}}>{content?.cardDescription3}</div>
+                <p
+                style={{
+                  paddingTop: '15px',
+                  cursor: 'pointer',
+                  textDecoration: 'underline'
+                }}
+                onClick={() => {
+                  window.location.href = content?.cardLink3;
+                }}>
+                {content?.cardBtn3}{' '}
+                <InfoIcon/>
+              </p>
+            </div>
+            </div>
+            </div>
 
           </div>
         </div>
@@ -381,7 +427,6 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
             id="impact-numbers-section"
             style={{
               textAlign: 'center',
-              color: content?.fontColor,
               width: '80%',
               margin: 'auto',
               paddingTop: '50px',
@@ -416,9 +461,10 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 className="textCaseStudy"
                 style={{
                   fontWeight: 'bold',
+                  color: content.fontColor,
                   fontSize: '24px',
                   marginBottom: 0,
-                  paddingTop: 0,
+                  paddingTop: "2vh",
                 }}>
                 <span
                   style={{
@@ -475,9 +521,10 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 className="textCaseStudy"
                 style={{
                   fontWeight: 'bold',
+                  color: content.fontColor,
                   fontSize: '24px',
                   marginBottom: 0,
-                  paddingTop: 0,
+                  paddingTop: "2vh",
                 }}>
                     <span
                   style={{
@@ -534,9 +581,10 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 className="textCaseStudy"
                 style={{
                   fontWeight: 'bold',
+                  color: content.fontColor,
                   fontSize: '24px',
                   marginBottom: 0,
-                  paddingTop: 0,
+                  paddingTop: "2vh",
                 }}>
                 <CountUp
                   start={0}
@@ -587,9 +635,10 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 className="textCaseStudy"
                 style={{
                   fontWeight: 'bold',
+                  color: content.fontColor,
                   fontSize: '24px',
                   marginBottom: 0,
-                  paddingTop: 0,
+                  paddingTop: "2vh",
                 }}>
                 <CountUp
                   start={0}
@@ -620,7 +669,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   fontWeight: 'bold',
                 }}></p>
             </div>}
-            {content?.icon1 && <div
+            {content?.icon5 && <div
               style={{
                 display: 'flex',
                 flexDirection: 'column',
@@ -640,9 +689,10 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 className="textCaseStudy"
                 style={{
                   fontWeight: 'bold',
+                  color: content.fontColor,
                   fontSize: '24px',
                   marginBottom: 0,
-                  paddingTop: 0,
+                  paddingTop: "2vh",
                 }}>
                 <CountUp
                   start={0}
@@ -814,6 +864,48 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   }}
                   onClick={() => {
                     window.location.href = content?.opEdLink;
+                  }}>
+                  Read More{' '}
+                  <RightArrow
+                    color={content?.fontColor}
+                    height="15px"
+                    width="15px"
+                  />
+                </p>
+              </div>
+            )}
+            {content?.showWebinar && (
+              <div>
+                <p
+                  className="textCaseStudy"
+                  style={{
+                    textAlign: 'left',
+                    marginBottom: '0',
+                    paddingBottom: '0',
+                    fontSize: mobile ? '18px' : '28px',
+                  }}>
+                  Webinar
+                </p>
+                <p
+                  className="textCaseStudy"
+                  style={{
+                    textAlign: 'left',
+                    marginBottom: '0',
+                    paddingBottom: '0',
+                  }}>
+                  {content?.webinarTitle}
+                </p>
+                <p
+                  style={{
+                    textAlign: 'left',
+                    marginTop: '0',
+                    paddingTop: '15px',
+                    color: content?.fontColor,
+                    cursor: 'pointer',
+                    fontStyle: 'italic',
+                  }}
+                  onClick={() => {
+                    window.location.href = content?.webinarLink;
                   }}>
                   Read More{' '}
                   <RightArrow
@@ -1016,21 +1108,47 @@ export const pageQuery = graphql`
         impactVideoLink
         showImpactVideo
         showImpactCard
-        img1
+        img1 {
+          childImageSharp {
+            fluid(maxWidth: 1280, quality: 62) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+      }
         cardTitle1
         cardDescription1
         cardBtn1
         cardLink1
-        img2
+        img2 {
+            childImageSharp {
+              fluid(maxWidth: 1280, quality: 62) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+        }
         cardTitle2
         cardDescription2
         cardBtn2
         cardLink2
-        img3
+        img3 {
+            childImageSharp {
+              fluid(maxWidth: 1280, quality: 62) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+        }
         cardTitle3
         cardDescription3
         cardBtn3
         cardLink3
+
+        backgroundMap {
+          childImageSharp {
+            fluid(maxWidth: 1280, quality: 62) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
 
         title4
         title5
@@ -1053,6 +1171,10 @@ export const pageQuery = graphql`
         showOpEd
         opEdTitle
         opEdLink
+
+        showWebinar
+        webinarTitle
+        webinarLink
 
         blogTitle
         blogLink

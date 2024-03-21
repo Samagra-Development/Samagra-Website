@@ -308,32 +308,32 @@
   transform: scale(1.02);
 }
 
-// .card {
-//       position: relative; /* Make the card the positioning context */
-//       width: 300px; /* Set a width for the card */
-//       height: 200px; /* Set a height for the card */
-//       overflow: hidden; /* Clip content that overflows */
-//     }
+.impact-card {
+      position: relative; /* Make the card the positioning context */
+      width: 272px; /* Set a width for the card */
+      height: 332px; /* Set a height for the card */
+      overflow: hidden; /* Clip content that overflows */
+      border-radius: 12px;
+      // background-image: linear-gradient(to bottom, #000000 0%, #76323F 12%, #76323F 100%);
+    }
 
-//     .card img {
-//       width: 100%; /* Stretch image to fill the card */
-//       height: 100%; /* Stretch image to fill the card */
-//       object-fit: cover; /* Ensure image covers the entire card */
-//       position: absolute; /* Position the image on top */
-//       top: 0;
-//       left: 0;
-//     }
+    .impact-card img {
+      width: 100%; /* Stretch image to fill the card */
+      height: 100%; /* Stretch image to fill the card */
+      object-fit: cover; /* Ensure image covers the entire card */
+      position: absolute; /* Position the image on top */
+      top: 0;
+      left: 0;
+    }
 
-//     .card-content {
-//       position: absolute; /* Position the content on top */
-//       bottom: 0; /* Position content at the bottom */
-//       left: 0;
-//       right: 0;
-//       padding: 20px; /* Add some padding inside the content area */
-//       color: white; /* Set text color to white for better contrast */
-//       background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-//       text-align: center; /* Center the text content */
-//     }
+    .impact-card-content {
+      position: absolute; /* Position the content on top */
+      left: 0;
+      top: 100px;
+      padding: 24px; /* Add some padding inside the content area */
+      color: white; /* Set text color to white for better contrast */
+      text-align: center; /* Center the text content */
+    }
 
 
 @media only screen and (max-width: 980px) {

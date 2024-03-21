@@ -1,13 +1,14 @@
 ---
 templateKey: old-case-study
-date: 2024-01-15T07:24:17.098Z
+formType: This is old case study form
+date: 2024-03-20T07:24:17.098Z
 bannerImage: /img/gosugam.mp4
 featuredimage: /img/GO-SUGAM-landing-page.jpg
-show: true
+show: false
 projectId: TEST
 buttonText: Learn More
 title: test
-fontColor: "#025300"
+fontColor: "#763240"
 title1: Transforming scheme and service delivery for citizens in the state of Haryana
 title2: Each citizen needs access to government schemes and services like Aadhar, Birth Certificate, etc as part of our everyday lives. But, there are many complexities that make this process difficult...
 title3: What was life like before Antyodaya Saral?
@@ -15,6 +16,7 @@ title4: What was the journey of Antyodaya Saral in the Governance Matrix?
 title5: Here is how the Haryana government worked in a mission mode to augment the system capacity...
 title6: Antyodaya Saral transformed the lives of millions of citizens and department officials with SARAL portal and SARAL Kendras enabling citizen-centric governance in Haryana 
 title7: In Media
+backgroundMap: /img/haryanaMap.png
 infographic1:
   - img: /img/gosugam-infographic1-img1.png
   - img: /img/group_1.jpg
@@ -37,17 +39,17 @@ motionGraphic: /img/02_screen.mp4
 showImpactVideo: true
 impactVideoLink: https://www.youtube.com/embed/DYKEJfHbjVM?si=ggltnk6nWh966wG_
 showImpactCard: true
-img1: ""
+img1: /img/ImpactCard.png
 cardTitle1: Antyodaya Saral online Portal
 cardDescription1: Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
 cardBtn1: Learn more
 cardLink1: ""
-img2: ""
+img2: /img/ImpactCard.png
 cardTitle2: Citizen Touch Points
 cardDescription2: Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
 cardBtn2: Learn more
 cardLink2: ""
-img3: ""
+img3: /img/ImpactCard.png
 cardTitle3: Enablers
 cardDescription3: Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
 cardBtn3: Learn more
@@ -90,6 +92,9 @@ blogLink: /blog/2024-02-01-amrit-series-2-go-sugam/
 showOpEd: true
 opEdTitle: Title of op-ed
 opEdLink: /blog/2023-12-25-amrit-series-1-krushi-samiksha-kendra/
+showWebinar: false
+webinarTitle: Title of webinar
+webinarLink: ""
 blogSectionImage: /img/gosugam-impact.jpg
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
