@@ -1,7 +1,7 @@
 ---
 templateKey: media-post
 title: Over 16K U.P. govt primary schools shine in NIPUN test
-mediaHouse: HindustanTimes
+mediaHouse: Hindustan Times
 projectId: NIPUN Bharat
 date: 2024-02-17T03:39:38.173Z
 author: K Sandeep Kumar
