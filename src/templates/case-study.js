@@ -836,7 +836,8 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
   }
 
   const sectionSix = ()=> {
-    return <>{(isCaseStudyLinkContainer||content?.blogSectionImage) && <FadeInSection>
+    return <>
+    {(isCaseStudyLinkContainer||content?.blogSectionImage) && <><FadeInSection>
         <div
           style={{
             display: 'flex',
@@ -1035,46 +1036,36 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               }}></div> */}
           </div>}
         </div>
-      </FadeInSection>}
+      </FadeInSection><SectionDivider color={content?.fontColor}/></>}
 
       {/* <div className="spacer">
         <img src={spacer} alt="" />
       </div> */}
-
-      {/* <FadeInSection>
+      {content?.showTestimonial && <>
+      <FadeInSection>
         <div className="testimonials" style={{marginTop: '100px'}}>
           <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
             <img src={apostrophe_start} alt="" />
           </div>
           <i className="testimonial-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-            repellat cumque similique, sapiente ipsa alias nisi enim nesciunt
-            officiis, quo ex autem magni, necessitatibus in nostrum cupiditate
-            fugit quaerat! Illo. Id incidunt repellat ducimus. Harum ratione
-            quod culpa illo necessitatibus fuga omnis reiciendis natus? Fuga
-            corporis similique beatae sed aliquid, ratione aspernatur nihil
-            vitae tempore! Sequi expedita eveniet iusto quam? Magnam ut, debitis
-            maiores asperiores eius, voluptas eveniet repellendus ipsa,
-            temporibus itaque sapiente nostrum perferendis consequatur!
-            Nesciunt, suscipit ducimus! Reprehenderit veritatis distinctio porro
-            a. Nihil blanditiis voluptatum aliquam vitae iure.
+            {content?.testimonialText}
           </i>
           <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
             <img src={apostrophe_end} alt="" />
           </div>
           <div className="testimonial-author">
-            <img src="/img/garima_7700.jpg" alt="" />
+            <img src={content?.testimonialImg?.childImageSharp?.fluid?.src} alt="" />
             <div>
-              <p className="testimonial-author-name">Garima Sood</p>
+              <p className="testimonial-author-name">{content?.testimonialAuthor}</p>
               <p
                 className="testimonial-author-designation"
                 style={{ color: '#a97f2b' }}>
-                Outreach Team, Samagra
+                {content?.testimonialAuthorDesignation}
               </p>
             </div>
           </div>
         </div>
-      </FadeInSection> */}
+      </FadeInSection><SectionDivider color={content?.fontColor}/></>}
 
       {/* <div className="spacer">
         <img src={spacer} alt="" />
@@ -1086,8 +1077,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
           {content?.footerText1 && <p className="partner-with-us-main-text">{content?.footerText1}</p>}
           {content?.footerText2 && <p>{content?.footerText2}</p>}
         </div>
-      </FadeInSection>}
-      <SectionDivider color={content?.fontColor}/></>
+      </FadeInSection>}</>
   }
 
   if (!content) {
@@ -1116,7 +1106,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
           <img src={upIcon} onClick={scrollToTop} />
         </div>
       )}
-      {/* <div className="share" style={{ border: '1px solid #FFA500' }}>
+      {content?.showSideNavbar ? <div className="share" style={{ border: '1px solid #FFA500' }}>
         {content?.showsideIcon1 ? (
           <div
             style={{ textAlign: 'center' }}
@@ -1124,7 +1114,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               const ref = document.getElementById('needs-section');
               ref.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }}>
-            <img src={content.sideIcon1.childImageSharp.fluid.src} alt="" />
+            <img src={content?.sideIcon1?.childImageSharp?.fluid?.src} alt="" />
             <p
               style={{
                 color: content?.fontColor,
@@ -1143,7 +1133,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               const ref = document.getElementById('impact-video-section');
               ref.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }}>
-            <img src={content.sideIcon2.childImageSharp.fluid.src} alt="" />
+            <img src={content?.sideIcon2?.childImageSharp?.fluid?.src} alt="" />
             <p
               style={{
                 color: '',
@@ -1162,7 +1152,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               const ref = document.getElementById('use-cases-section');
               ref.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }}>
-            <img src={content.sideIcon3.childImageSharp.fluid.src} alt="" />
+            <img src={content?.sideIcon3?.childImageSharp?.fluid?.src} alt="" />
             <p
               style={{
                 color: content?.fontColor,
@@ -1181,7 +1171,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               const ref = document.getElementById('impact-numbers-section');
               ref.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }}>
-            <img src={content.sideIcon4.childImageSharp.fluid.src} alt="" />
+            <img src={content?.sideIcon4?.childImageSharp?.fluid?.src} alt="" />
             <p
               style={{
                 color: content?.fontColor,
@@ -1193,7 +1183,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
             </p>
           </div>
         ) : null}
-      </div> */}
+      </div> : null}
       {/* <div className="spacer first-spacer">
         <img src={spacer} alt="" />
       </div> */}
@@ -1432,6 +1422,7 @@ export const pageQuery = graphql`
             }
           }
         }
+        showSideNavbar
         sideIcon1Text
         sideIcon2Text
         sideIcon3Text
@@ -1448,6 +1439,17 @@ export const pageQuery = graphql`
         }
         motionGraphic2 {
           publicURL
+        }
+        showTestimonial
+        testimonialText
+        testimonialAuthor
+        testimonialAuthorDesignation
+        testimonialImg {
+          childImageSharp {
+            fluid(maxWidth: 1280, quality: 62) {
+              ...GatsbyImageSharpFluid
+            }
+          }
         }
         footerText1
         footerText2

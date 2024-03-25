@@ -4,6 +4,7 @@ formType: This is new case study form
 impactVideoLink: https://www.youtube.com/embed/DYKEJfHbjVM?si=ggltnk6nWh966wG_
 motionGraphic2: /img/02_screen.mp4
 title8: Insights from the ground
+showSideNavbar: false
 sideIcon1: /img/icon1-gosugam.png
 impactNumber1: 2
 sideIcon2: /img/icon2-gosugam.png
@@ -97,4 +98,19 @@ showOpEd: false
 opEdTitle: Title of op-ed
 opEdLink: /blog/2023-12-25-amrit-series-1-krushi-samiksha-kendra/
 blogSectionImage: /img/gosugam-impact.jpg
+showTestimonial: false
+testimonialText: Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+            repellat cumque similique, sapiente ipsa alias nisi enim nesciunt
+            officiis, quo ex autem magni, necessitatibus in nostrum cupiditate
+            fugit quaerat! Illo. Id incidunt repellat ducimus. Harum ratione
+            quod culpa illo necessitatibus fuga omnis reiciendis natus? Fuga
+            corporis similique beatae sed aliquid, ratione aspernatur nihil
+            vitae tempore! Sequi expedita eveniet iusto quam? Magnam ut, debitis
+            maiores asperiores eius, voluptas eveniet repellendus ipsa,
+            temporibus itaque sapiente nostrum perferendis consequatur!
+            Nesciunt, suscipit ducimus! Reprehenderit veritatis distinctio porro
+            a. Nihil blanditiis voluptatum aliquam vitae iure.
+testimonialAuthor: Garima Sood
+testimonialAuthorDesignation: Outreach Team, Samagra
+testimonialImg: /img/garima_7700.jpg
 ---
