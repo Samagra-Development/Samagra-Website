@@ -1,6 +1,5 @@
 ---
 sectionSequence: 1 2 3 4 5 6
-formType: This is new case study form
 impactVideoLink: https://www.youtube.com/embed/AoPGFk4bZwk?si=llRO9UrmietJpc-A
 motionGraphic2: /img/post_vf_v3.mp4
 title8: Insights from the ground
@@ -41,6 +40,7 @@ sideIcon1Text: Need / Challenges
 sideIcon2Text: Impact Video
 sideIcon3Text: Use Cases
 sideIcon4Text: Impact Numbers
+formType: This is new case study form
 show: true
 projectId: HKRN
 buttonText: Learn More
@@ -88,8 +88,9 @@ icon5: /img/icon-4.png
 impactNumber5Text: "%"
 impactNumber5Title: Reduced time taken <br> to onboard manpower
 showPlus5: false
-blogTitle: Coming Soon!
-blogLink: ""
+blogTitle: Tech-enabled streamlining of hiring and benefits dispersal for
+  contractual government employees in Haryana
+blogLink: https://samagragovernance.in/blog/2024-03-12-amrit-series-3-haryana-kaushal-rozgar-nigam/
 showOpEd: false
 opEdTitle: ""
 opEdLink: ""
