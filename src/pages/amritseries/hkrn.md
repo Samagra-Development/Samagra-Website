@@ -3,6 +3,7 @@ sectionSequence: 1 2 3 4 5 6
 impactVideoLink: https://www.youtube.com/embed/AoPGFk4bZwk?si=llRO9UrmietJpc-A
 motionGraphic2: /img/post_vf_v3.mp4
 title8: Insights from the ground
+showSideNavbar: false
 sideIcon1: /img/icon1-gosugam.png
 impactNumber1: 1.5
 sideIcon2: /img/icon2-gosugam.png
@@ -95,4 +96,19 @@ showOpEd: false
 opEdTitle: ""
 opEdLink: ""
 blogSectionImage: null
+showTestimonial: false
+testimonialText: Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+            repellat cumque similique, sapiente ipsa alias nisi enim nesciunt
+            officiis, quo ex autem magni, necessitatibus in nostrum cupiditate
+            fugit quaerat! Illo. Id incidunt repellat ducimus. Harum ratione
+            quod culpa illo necessitatibus fuga omnis reiciendis natus? Fuga
+            corporis similique beatae sed aliquid, ratione aspernatur nihil
+            vitae tempore! Sequi expedita eveniet iusto quam? Magnam ut, debitis
+            maiores asperiores eius, voluptas eveniet repellendus ipsa,
+            temporibus itaque sapiente nostrum perferendis consequatur!
+            Nesciunt, suscipit ducimus! Reprehenderit veritatis distinctio porro
+            a. Nihil blanditiis voluptatum aliquam vitae iure.
+testimonialAuthor: Garima Sood
+testimonialAuthorDesignation: Outreach Team, Samagra
+testimonialImg: /img/garima_7700.jpg
 ---
