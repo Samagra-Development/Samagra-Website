@@ -52,7 +52,7 @@ export const OurPublicationsSection = ({data, projectId, readMore}) => {
                                          style={
                                              {
                                                  backgroundImage: `url(${
-                                                     !!publication.node.frontmatter.image.childImageSharp ? publication.node.frontmatter.image.childImageSharp.fluid.src : publication.node.frontmatter.image
+                                                     !!publication.node.frontmatter?.image ? publication.node.frontmatter?.image?.childImageSharp?.fluid?.src : publication.node.frontmatter?.image
                                                  })`,
                                                  backgroundSize: 'cover',
                                                  backgroundPosition: 'center'
