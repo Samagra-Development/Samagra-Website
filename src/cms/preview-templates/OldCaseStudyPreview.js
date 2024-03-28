@@ -16,7 +16,7 @@ const OldCaseStudyPreview = ({ entry, widgetFor }) => {
   }
 };
 
-CaseStudyPreview.propTypes = {
+OldCaseStudyPreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
