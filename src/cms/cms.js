@@ -17,6 +17,7 @@ import TGCPagePreview from "./preview-templates/TGCPagePreview";
 import SushasanPagePreview from "./preview-templates/SushasanPagePreview";
 import CaseStudyPreview from "./preview-templates/CaseStudyPreview";
 import KSKPreview from "./preview-templates/KSKCaseStudyPreview";
+import OldCaseStudyPreview from "./preview-templates/OldCaseStudyPreview";
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
@@ -35,5 +36,6 @@ CMS.registerPreviewTemplate("joinus", JoinUsPreview);
 CMS.registerPreviewTemplate("mediacontent", MediaPostPreview);
 CMS.registerPreviewTemplate("partner", PartnerPagePreview);
 CMS.registerPreviewTemplate("careers", CareerPagePreview);
-CMS.registerPreviewTemplate("amritseries", CaseStudyPreview);
+CMS.registerPreviewTemplate("casestudy", CaseStudyPreview);
+CMS.registerPreviewTemplate("oldcasestudy", OldCaseStudyPreview);
 CMS.registerPreviewTemplate("ksk", KSKPreview);

@@ -39,7 +39,7 @@ function FadeInSection(props) {
   );
 }
 
-export const CaseStudyTemplate = ({ content, helmet }) => {
+export const OldCaseStudyTemplate = ({ content, helmet }) => {
   const [mobile, setMobile] = useState(false);
   const [showUpIcon, setShowUpIcon] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
@@ -1036,7 +1036,7 @@ const OldCaseStudy = ({ data }) => {
 
   return (
     <Layout slug={data.markdownRemark.fields.slug}>
-      <CaseStudyTemplate 
+      <OldCaseStudyTemplate 
         content={post.frontmatter}
         helmet={
           <Helmet titleTemplate="%s | CaseStudy">
