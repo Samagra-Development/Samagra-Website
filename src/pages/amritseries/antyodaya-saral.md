@@ -1,7 +1,7 @@
 ---
 templateKey: old-case-study
 formType: This is old case study form
-show: true
+show: false
 projectId: ANTYODAYA SARAL
 date: 2024-03-20T07:24:17.098Z
 featuredimage: /img/slide1-2-.jpeg
