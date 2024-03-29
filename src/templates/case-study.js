@@ -1237,7 +1237,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
             justifyContent: mobile ? '' : 'space-evenly',
             flexDirection: mobile ? 'column' : 'row',
           }}>
-          <SuccessStoriesSection />
+          <SuccessStoriesSection successStories={content?.showSuccessStories}/>
         </div>
       </FadeInSection>
       {/* <div className="spacer">
@@ -1454,6 +1454,7 @@ export const pageQuery = graphql`
         footerText1
         footerText2
         successStoriesTitle
+        showSuccessStories
       }
     }
   }

@@ -2,11 +2,11 @@
 templateKey: old-case-study
 formType: This is old case study form
 show: true
-projectId: TEST
+projectId: ANTYODAYA SARAL
 date: 2024-03-20T07:24:17.098Z
 featuredimage: /img/slide1-2-.jpeg
 buttonText: Learn More
-title: test
+title: antyodaya-saral
 fontColor: "#763240"
 bannerImage: /img/as.mp4
 title1: Transforming scheme and service delivery for citizens in the state of Haryana
@@ -46,12 +46,12 @@ newsdescription1: "Scheme and service delivery in Haryana shifted from being
   timely manner. "
 newsdescription2: ""
 newsletterBtn: Read Newsletter
-motionGraphic: ""
+motionGraphic: null
 newsletterLink: ""
 title5: Here is how the Haryana government worked in a mission mode to augment
   the system capacity...
 showImpactVideo: true
-impactVideoLink: https://youtu.be/PIGCFr1So8U?si=XBMLem4l0z7WXSqP
+impactVideoLink: https://youtube/PIGCFr1So8U?si=XBMLem4l0z7WXSqP
 showImpactCard: true
 img1: /img/ImpactCard.png
 cardTitle1: Antyodaya Saral online Portal
@@ -120,8 +120,9 @@ opEdLink: https://nicharyana.nic.in/news/antyodaya-saral-haryana-received-gold-a
 showWebinar: false
 webinarTitle: Title of webinar
 webinarLink: ""
-blogSectionImage: ""
+blogSectionImage: null
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
 successStoriesTitle: View more <i>Success Stories of Impact</i>
+showSuccessStories: go-sugam,hkrn,ksk
 ---

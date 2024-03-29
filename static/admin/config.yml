@@ -3,7 +3,7 @@ backend:
   branch: master
   publish_mode: editorial_workflow
 
-  
+
 
 editorial_workflow:
   enable: true
@@ -153,6 +153,7 @@ collections:
       - { label: 'Footer Text 1', name: 'footerText1', widget: 'string', required: false }
       - { label: 'Footer Text 2', name: 'footerText2', widget: 'string', required: false }
       - { label: 'Success Stories Title', name: 'successStoriesTitle', widget: 'string', required: false }
+      - { label: 'Show Success Stories(Provide title upto 3)', name: 'showSuccessStories', widget: 'string' }
   - name: 'oldcasestudy'
     label: 'Old Case Study'
     folder: 'src/pages/amritseries'
@@ -205,7 +206,7 @@ collections:
       - { label: 'Newsletter Description 1', name: 'newsdescription1', widget: 'string', required: false }
       - { label: 'Newsletter Description 2', name: 'newsdescription2', widget: 'string', required: false }
       - { label: 'Newsletter button text', name: 'newsletterBtn', widget: 'string', required: false }
-      - { label: 'Motion Graphic', name: 'motionGraphic', widget: file, required: false }
+      - { label: 'Motion Graphic', name: 'motionGraphic', widget: file, required: false, default: null }
       - { label: 'Newsletter Link', name: 'newsletterLink', widget: 'string', required: false }
       - { label: 'Title 5', name: 'title5', widget: 'string', required: false }
       - { label: 'Show Impact Video', name: 'showImpactVideo', widget: 'boolean', default: false }
@@ -272,6 +273,7 @@ collections:
       - { label: 'Footer Text 1', name: 'footerText1', widget: 'string', required: false }
       - { label: 'Footer Text 2', name: 'footerText2', widget: 'string', required: false }
       - { label: 'Success Stories Title', name: 'successStoriesTitle', widget: 'string', required: false }
+      - { label: 'Show Success Stories(Provide title upto 3)', name: 'showSuccessStories', widget: 'string' }
   - name: 'projectdomain'
     label: 'Project Domain'
     folder: 'src/pages/project-domain'
