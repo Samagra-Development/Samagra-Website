@@ -113,4 +113,5 @@ testimonialText: Lorem ipsum dolor sit amet consectetur adipisicing elit. Consec
 testimonialAuthor: Garima Sood
 testimonialAuthorDesignation: Outreach Team, Samagra
 testimonialImg: /img/garima_7700.jpg
+showSuccessStories: antyodaya-saral,ksk,hkrn
 ---

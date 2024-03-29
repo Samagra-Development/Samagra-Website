@@ -353,7 +353,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                 />
               </div>
             </div></>}
-            <div style={{display:"flex",flexWrap:"wrap", gap:"32px",justifyContent:"center", margin:"60px 0"}}>
+            {content?.showImpactCard && <div style={{display:"flex",flexWrap:"wrap", gap:"32px",justifyContent:"center", margin:"60px 0"}}>
             <div class="impact-card">
               <img src={content?.img1?.childImageSharp?.fluid?.src} alt="Card background image" />
               <div class="impact-card-content">
@@ -411,7 +411,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
               </p>
             </div>
             </div>
-            </div>
+            </div>}
 
           </div>
         </div>
@@ -1024,7 +1024,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
             justifyContent: mobile ? '' : 'space-evenly',
             flexDirection: mobile ? 'column' : 'row',
           }}>
-          <SuccessStoriesSection />
+          <SuccessStoriesSection successStories={content?.showSuccessStories}/>
         </div>
       </FadeInSection>
     </section>
@@ -1232,6 +1232,7 @@ export const pageQuery = graphql`
         footerText1
         footerText2
         successStoriesTitle
+        showSuccessStories
       }
     }
   }

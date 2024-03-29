@@ -3,12 +3,13 @@ import { useLocation } from '@reach/router';
 import { graphql, StaticQuery } from 'gatsby';
 import { RightArrow } from './RightArrow';
 
-export const SuccessStoriesSection = ({ data }) => {
+export const SuccessStoriesSection = ({ data, successStories }) => {
   const location = useLocation();
   const { allMarkdownRemark: posts } = data;
   const [hoveredIndex, setHoveredIndex] = useState(-1);
   const [mobile, setMobile] = useState(false);
   const [path, setPath] = useState('');
+  const showStories = successStories.trim().split(",")
 
   useEffect(() => {
     const handleResize = () => {
@@ -39,7 +40,7 @@ export const SuccessStoriesSection = ({ data }) => {
         return <React.Fragment key={post?.node?.id}></React.Fragment>;
       } else if(!post?.node?.frontmatter.show){
         return null;
-      }
+      } else if(showStories.includes(post?.node?.frontmatter.title)){
       return (
         <a href={post?.node?.fields?.slug} target="_blank">
           <div
@@ -114,17 +115,16 @@ export const SuccessStoriesSection = ({ data }) => {
             </div>
           </div>
         </a>
-      );
+      );} else return null
     });
 };
 
-export default () => (
+export default ({successStories}) => (
   <StaticQuery
     query={graphql`
       query SuccessStoriesSectionQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          limit: 4
           filter: {
             frontmatter: { templateKey: { in: ["case-study", "ksk", "old-case-study"] } }
           }
@@ -139,6 +139,7 @@ export default () => (
               frontmatter {
                 templateKey
                 show
+                title
                 title1
                 projectId
                 date(formatString: "MMMM DD, YYYY")
@@ -156,6 +157,6 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <SuccessStoriesSection data={data} />}
+    render={(data, count) => <SuccessStoriesSection data={data} successStories={successStories}/>}
   />
 );
