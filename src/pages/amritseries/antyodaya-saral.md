@@ -1,7 +1,7 @@
 ---
 templateKey: old-case-study
 formType: This is old case study form
-show: false
+show: true
 projectId: ANTYODAYA SARAL
 date: 2024-03-20T07:24:17.098Z
 featuredimage: /img/slide1-2-.jpeg
@@ -16,34 +16,33 @@ title2: Each citizen needs access to government schemes and services like
 title3: What was life like before Antyodaya Saral?
 backgroundMap: /img/haryanaMap.png
 infographic1:
-  - img: /img/gosugam-infographic1-img1.png
-  - img: /img/group_1.jpg
-  - img: /img/group_2.jpg
-  - img: /img/group_3.jpg
-  - img: /img/group_2.jpg
-  - img: /img/group_3.jpg
+  - img: /img/citizen.jpg
+  - img: /img/citizencard1.jpg
+  - img: /img/citizencard2.jpg
+  - img: /img/citizencard3.jpg
+  - img: ""
+  - img: ""
 infographic2:
-  - img: /img/gosugam-infographic2-img1.png
-  - img: /img/gosugam-infographic2-img2.png
-  - img: /img/gosugam-infographic2-img3.png
-  - img: /img/gosugam-infographic2-img4.png
-  - img: /img/gosugam-infographic2-img3.png
-  - img: /img/gosugam-infographic2-img4.png
+  - img: /img/official.jpg
+  - img: /img/official1.jpg
+  - img: /img/official2.jpg
+  - img: /img/official3.jpg
 title4: What was the journey of Antyodaya Saral in the Governance Matrix?
-newsdescription1: "Scheme and service delivery in Haryana shifted from being
-  ‘Comatose’ with low ‘political salience’ and low ‘system capacity’ to ‘Battle
-  Ready’ with high ‘political salience’ and high ‘system capacity’. Political
-  salience for transforming scheme and service delivery in Haryana increased
-  from 2017 to 2018 (corresponding to the ‘Shooting Star’ quadrant), leading to
-  the launch of Antyodaya Saral as an initiative. From 2018 to 2019, system
-  capacity was built via transformation of the state machinery on the people,
-  process and infrastructure fronts. The state’s digital infrastructure was
-  built in the form of an online platform to streamline scheme delivery through
-  a single window on top of physical infrastructure in the form of Saral Kendras
-  as citizen touchpoints. High political salience, galvanized the people and
-  processes in the system to work in a mission-mode driving multi-department
-  coordination for all citizen-centric scheme delivery in an efficient and
-  timely manner. "
+newsdescription1: "In our view, scheme and service delivery in Haryana shifted
+  from being ‘Sleeping Giant’ with low ‘political salience’ and high ‘system
+  capacity’ to ‘Battle Ready’ with high ‘political salience’ and high ‘system
+  capacity’. The system already had decent capacity with a well-oiled NIC with
+  strong leadership and decent work on e-District implementation in the state
+  under which some schemes/services had been made accessible at the
+  district/subdivision/tehsil level in physical centres. Further investment was
+  made in system capacity especially on technology front by building an online
+  platform that could be used directly and in assisted mode. Further capacity
+  was built on physical infrastructure front where physical centres were
+  revamped - made state of the art & single window. Processes were put in place
+  to run this strengthened system. Political salience for transforming schemes
+  and service delivery in Haryana increased from 2017 to 2018 leading to the
+  launch of Antyodaya Saral as an initiative which further streamlined the
+  scheme-service delivery in Haryana. "
 newsdescription2: ""
 newsletterBtn: Read Newsletter
 motionGraphic: null
@@ -51,30 +50,25 @@ newsletterLink: ""
 title5: Here is how the Haryana government worked in a mission mode to augment
   the system capacity...
 showImpactVideo: true
-impactVideoLink: https://youtube/PIGCFr1So8U?si=XBMLem4l0z7WXSqP
+impactVideoLink: https://www.youtube.com/embed/PIGCFr1So8U?si=ioCsvEzrvSxBHr2X
 showImpactCard: true
 img1: /img/ImpactCard.png
-cardTitle1: Antyodaya Saral online Portal
-cardDescription1: "The online platform leverages the modular Service Plus
-  architecture of National Informatics Centre (NIC), Government of India. The
-  implementation has been done by NIC Haryana State Unit without any external
-  vendors, to drive ownership of departments and long-term sustainability. "
-cardBtn1: Learn more
+cardTitle1: ANTYODAYA SARAL ONLINE PORTAL
+cardDescription1: "Integrated online portal enabling 550+ schemes and
+  services  leveraging NIC’s modular Service Plus platform "
+cardBtn1: ""
 cardLink1: ""
 img2: /img/ImpactCard.png
-cardTitle2: Citizen Touch Points
-cardDescription2: 115 Saral Kendras at District Headquarter, Subdivision and
-  Tehsils act as a single-point interface for citizens to avail all government
-  schemes and services. Each Kendra has a standardised citizen-centric layout
-  adhering to 60+ quality parameters such as token system, adequate waiting
-  area, clean washrooms etc.
-cardBtn2: Learn more
+cardTitle2: CITIZEN TOUCHPOINTS
+cardDescription2: " Assisted support of all schemes and services enabled through
+  115+ VFS-like Saral Kendras and 6000+ Common Service Centres"
+cardBtn2: ""
 cardLink2: ""
 img3: /img/ImpactCard.png
-cardTitle3: Enablers
-cardDescription3: A helpline number for grievance addressal and data dashboards
-  for regular monitoring and tracking of applications.
-cardBtn3: Learn more
+cardTitle3: SERVICE DELIVERY DASHBOARD
+cardDescription3: A ‘Saral Score’ given to each department based on compliance
+  to timelines under Right to Service act & citizen satisfaction
+cardBtn3: ""
 cardLink3: ""
 title6: Antyodaya Saral transformed the lives of millions of citizens and
   department officials with SARAL portal and SARAL Kendras enabling
@@ -83,31 +77,31 @@ icon1: /img/gosugam-icon1.png
 impactNumber1: 1
 impactNumber1Decimal: 0
 impactNumber1Text: ""
-impactNumber1Title: "Haryana ranked #1 in citizen-centric governance in all states"
+impactNumber1Title: Haryana topped Citizen-Centric Governance Ranking in 2021
 showPlus1: true
 icon2: /img/gosugam-icon2.png
 impactNumber2: 85
 impactNumber2Decimal: 0
 impactNumber2Text: "%"
-impactNumber2Title: More than 85% applications closed within Right to Service timelines
+impactNumber2Title: Applications  closed within Right to Service timelines
 showPlus2: true
 icon3: /img/gosugam-icon3.png
-impactNumber3: 1
+impactNumber3: 1.2
 impactNumber3Decimal: 0
-impactNumber3Text: crore
-impactNumber3Title: "Online applications received through portal every year "
+impactNumber3Text: " crore"
+impactNumber3Title: "Applications recorded in the Antyodaya Saral system every year "
 showPlus3: true
 icon4: /img/gosugam-icon4.png
-impactNumber4: 100
+impactNumber4: 31
 impactNumber4Decimal: 0
 impactNumber4Text: "%"
-impactNumber4Title: Antyodaya Saral Portal enables access for all citizens of Haryana
+impactNumber4Title: "Reduction in delivery time on average across schemes and services "
 showPlus4: true
 icon5: /img/gosugam-icon5.png
 impactNumber5: 40
 impactNumber5Decimal: 0
 impactNumber5Text: "%"
-impactNumber5Title: Reduction in delivery time of applications across schemes and services
+impactNumber5Title: "Increase in annual applications across schemes and services "
 showPlus5: true
 infographicGoogleDriveLink: https://drive.google.com/file/d/1qux_0xs5JyS6hE_0-IhBPwb5J-my5KoH/view?usp=drive_link
 downloadInfographicBtn: Download Infographic
