@@ -49,9 +49,6 @@ readMore:
       states can emulate
   - text: The Uttar Pradesh government is revolutionising primary education in the
       state
-  - blogTitle: A Stakeholder Approach to Waste Management
-    mediaTitle: "1 Stop, 556 Schemes: Haryana Govt’s Unique System Can Revolutionise
-      How India Works."
 impact:
   - count: "   "
     label: Supporting the state in setting a quantifiable target for improving
