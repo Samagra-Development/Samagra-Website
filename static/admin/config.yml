@@ -393,6 +393,8 @@ collections:
           label: Read More,
           name: readMore,
           widget: list,
+          max: 200,
+          min: 1,
           fields:
             [
               {
@@ -404,6 +406,7 @@ collections:
                 valueField: title,
                 widget: relation,
                 required: false,
+                optionsLength: 100,
               },
               {
                 label: Media Title,
@@ -414,6 +417,7 @@ collections:
                 name: mediaTitle,
                 valueField: title,
                 widget: relation,
+                optionsLength: 100,
               },
             ],
         }
@@ -515,6 +519,7 @@ collections:
               label: Media,
               name: media,
               widget: list,
+              max: 100,
               fields:
                 [
                   {
@@ -525,6 +530,7 @@ collections:
                     searchFields: ['title'],
                     displayFields: ['title'],
                     valueField: 'title',
+                    optionsLength: 100,
                   },
                 ],
             }
