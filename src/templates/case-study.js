@@ -284,7 +284,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 aspectRatio: '2',
                 objectFit: 'cover',
               }}>
-              <source src={content?.motionGraphic1?.publicURL} type="video/mp4" />
+              <source src={content?.motionGraphic1?.publicURL?(content?.motionGraphic1?.publicURL):content?.motionGraphic1} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             {/* <div
@@ -326,7 +326,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               className="infographic-img"
               style={{ width: 'fit-content', margin: 'auto' }}>
               <img
-                src={content?.infographic1?.[0]?.img?.childImageSharp?.fluid?.src}
+                src={content?.infographic1?.[0]?.img?.childImageSharp? (content?.infographic1?.[0]?.img?.childImageSharp?.fluid?.src) : (content?.infographic1?.[0]?.img)}
                 alt=""
                 style={{ maxWidth: '200px' }}
               />
@@ -345,7 +345,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   <>
                     <div className="infographic-img">
                       <img
-                        src={item?.img?.childImageSharp?.fluid?.src}
+                        src={item?.img?.childImageSharp? (item?.img?.childImageSharp?.fluid?.src) : item?.img}
                         alt=""
                         style={{ maxWidth: '250px' }}
                       />
@@ -410,7 +410,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               className="infographic-img"
               style={{ width: 'fit-content', margin: '15px auto' }}>
               <img
-                src={content?.infographic2?.[0]?.img?.childImageSharp?.fluid?.src}
+                src={content?.infographic2?.[0]?.img?.childImageSharp?(content?.infographic2?.[0]?.img?.childImageSharp?.fluid?.src): content?.infographic2?.[0]?.img}
                 alt=""
                 style={{ maxWidth: '200px' }}
               />
@@ -430,7 +430,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                     className="infographic-img"
                     style={{ margin: mobile ? '15px 0' : '0 15px' }}>
                     <img
-                      src={item?.img?.childImageSharp?.fluid?.src}
+                      src={item?.img?.childImageSharp?(item?.img?.childImageSharp?.fluid?.src):item?.img}
                       alt=""
                       style={{ maxWidth: '250px' }}
                     />
@@ -478,7 +478,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 aspectRatio: '2',
                 objectFit: 'cover',
               }}>
-              <source src={content?.motionGraphic2?.publicURL} type="video/mp4" />
+              <source src={content?.motionGraphic2?.publicURL?(content?.motionGraphic2?.publicURL):content?.motionGraphic2} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             {/* <div
@@ -536,7 +536,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 padding: '10px',
               }}>
               <img
-                src={content?.icon1?.childImageSharp?.fluid?.src}
+                src={content?.icon1?.childImageSharp?(content?.icon1?.childImageSharp?.fluid?.src):content?.icon1}
                 alt=""
                 width={mobile ? 35 : 75}
                 height={mobile ? 35 : 75}
@@ -591,7 +591,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 padding: '10px',
               }}>
               <img
-                src={content?.icon2?.childImageSharp?.fluid?.src}
+                src={content?.icon2?.childImageSharp?(content?.icon2?.childImageSharp?.fluid?.src):content?.icon2}
                 alt=""
                 width={mobile ? 35 : 75}
                 height={mobile ? 35 : 75}
@@ -646,7 +646,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 padding: '10px',
               }}>
               <img
-                src={content?.icon3?.childImageSharp?.fluid?.src}
+                src={content?.icon3?.childImageSharp?(content?.icon3?.childImageSharp?.fluid?.src):content?.icon3}
                 alt=""
                 width={mobile ? 35 : 75}
                 height={mobile ? 35 : 75}
@@ -701,7 +701,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 padding: '10px',
               }}>
               <img
-                src={content?.icon4?.childImageSharp?.fluid?.src}
+                src={content?.icon4?.childImageSharp?(content?.icon4?.childImageSharp?.fluid?.src):content?.icon4}
                 alt=""
                 width={mobile ? 35 : 75}
                 height={mobile ? 35 : 75}
@@ -756,7 +756,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 padding: '10px',
               }}>
               <img
-                src={content?.icon5?.childImageSharp?.fluid?.src}
+                src={content?.icon5?.childImageSharp?(content?.icon5?.childImageSharp?.fluid?.src):content?.icon5}
                 alt=""
                 width={mobile ? 35 : 75}
                 height={mobile ? 35 : 75}
@@ -1013,7 +1013,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 zIndex: '1',
                 height: mobile ? '275px' : '500px',
                 width: mobile ? '275px' : '500px',
-                backgroundImage: `url(${content?.blogSectionImage?.childImageSharp?.fluid?.src})`,
+                backgroundImage: `url(${content?.blogSectionImage?.childImageSharp?(content?.blogSectionImage?.childImageSharp?.fluid?.src):content?.blogSectionImage})`,
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
@@ -1054,7 +1054,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
             <img src={apostrophe_end} alt="" />
           </div>
           <div className="testimonial-author">
-            <img src={content?.testimonialImg?.childImageSharp?.fluid?.src} alt="" />
+            <img src={content?.testimonialImg?.childImageSharp?(content?.testimonialImg?.childImageSharp?.fluid?.src):content?.testimonialImg} alt="" />
             <div>
               <p className="testimonial-author-name">{content?.testimonialAuthor}</p>
               <p
@@ -1096,7 +1096,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
             aspectRatio: '2',
             objectFit: 'cover',
           }}>
-          <source src={content?.bannerImage?.publicURL} type="video/mp4" />
+          <source src={content?.bannerImage?.publicURL? (content?.bannerImage?.publicURL):content?.bannerImage} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="case-study-translucent-dark-overlay" />
@@ -1114,7 +1114,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               const ref = document.getElementById('needs-section');
               ref.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }}>
-            <img src={content?.sideIcon1?.childImageSharp?.fluid?.src} alt="" />
+            <img src={content?.sideIcon1?.childImageSharp?(content?.sideIcon1?.childImageSharp?.fluid?.src):content?.sideIcon1} alt="" />
             <p
               style={{
                 color: content?.fontColor,
@@ -1133,7 +1133,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               const ref = document.getElementById('impact-video-section');
               ref.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }}>
-            <img src={content?.sideIcon2?.childImageSharp?.fluid?.src} alt="" />
+            <img src={content?.sideIcon2?.childImageSharp?(content?.sideIcon2?.childImageSharp?.fluid?.src):content?.sideIcon2} alt="" />
             <p
               style={{
                 color: '',
@@ -1152,7 +1152,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               const ref = document.getElementById('use-cases-section');
               ref.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }}>
-            <img src={content?.sideIcon3?.childImageSharp?.fluid?.src} alt="" />
+            <img src={content?.sideIcon3?.childImageSharp?(content?.sideIcon3?.childImageSharp?.fluid?.src):content?.sideIcon3} alt="" />
             <p
               style={{
                 color: content?.fontColor,
@@ -1171,7 +1171,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               const ref = document.getElementById('impact-numbers-section');
               ref.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }}>
-            <img src={content?.sideIcon4?.childImageSharp?.fluid?.src} alt="" />
+            <img src={content?.sideIcon4?.childImageSharp?(content?.sideIcon4?.childImageSharp?.fluid?.src):content?.sideIcon4} alt="" />
             <p
               style={{
                 color: content?.fontColor,
