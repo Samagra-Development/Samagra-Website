@@ -133,7 +133,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                 aspectRatio: '2',
                 objectFit: 'cover',
               }}>
-              <source src={content?.motionGraphic?.publicURL} type="video/mp4" />
+              <source src={content?.motionGraphic?.publicURL?(content?.motionGraphic?.publicURL):content?.motionGraphic} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>}
@@ -177,7 +177,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
             style={{ fontSize: mobile ? '20px' : '30px' }}>
             {content?.title3}
           </div>}
-          <div style={{   backgroundImage: `url(${content?.backgroundMap?.childImageSharp?.fluid?.src})`,
+          <div style={{   backgroundImage: `url(${content?.backgroundMap?.childImageSharp?(content?.backgroundMap?.childImageSharp?.fluid?.src):content?.backgroundMap})`,
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
     backgroundSize: 'auto' }}>
@@ -188,7 +188,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
               className="infographic-img"
               style={{ width: 'fit-content', margin: 'auto' }}>
               <img
-                src={content?.infographic1?.[0]?.img?.childImageSharp?.fluid?.src}
+                src={content?.infographic1?.[0]?.img?.childImageSharp?(content?.infographic1?.[0]?.img?.childImageSharp?.fluid?.src):content?.infographic1?.[0]?.img}
                 alt=""
                 style={{ maxWidth: '200px' }}
               />
@@ -208,7 +208,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                   <>
                     <div className="infographic-img">
                       <img
-                        src={item?.img?.childImageSharp?.fluid?.src}
+                        src={item?.img?.childImageSharp?(item?.img?.childImageSharp?.fluid?.src):item?.img}
                         alt=""
                         style={{ maxWidth: '250px' }}
                       />
@@ -241,7 +241,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
               className="infographic-img"
               style={{ width: 'fit-content', margin: '15px auto' }}>
               <img
-                src={content?.infographic2?.[0]?.img?.childImageSharp?.fluid?.src}
+                src={content?.infographic2?.[0]?.img?.childImageSharp?(content?.infographic2?.[0]?.img?.childImageSharp?.fluid?.src):content?.infographic2?.[0]?.img}
                 alt=""
                 style={{ maxWidth: '200px' }}
               />
@@ -263,7 +263,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                     className="infographic-img"
                     style={{ margin: mobile ? '15px 0' : '0 5px' }}>
                     <img
-                      src={item?.img?.childImageSharp?.fluid?.src}
+                      src={item?.img?.childImageSharp?(item?.img?.childImageSharp?.fluid?.src):item?.img}
                       alt=""
                       style={{ maxWidth: '250px' }}
                     />
@@ -355,7 +355,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
             </div></>}
             {content?.showImpactCard && <div style={{display:"flex",flexWrap:"wrap", gap:"32px",justifyContent:"center", margin:"60px 0"}}>
             <div class="impact-card">
-              <img src={content?.img1?.childImageSharp?.fluid?.src} alt="Card background image" />
+              <img src={content?.img1?.childImageSharp?(content?.img1?.childImageSharp?.fluid?.src):content?.img1} alt="Card background image" />
               <div class="impact-card-content">
                 <div style={{fontWeight:"600",fontSize:"25px"}}>{content?.cardTitle1}</div>
                 <div style={{fontWeight:"400", fontSize:"18",color:"#DADADA"}}>{content?.cardDescription1}</div>
@@ -374,7 +374,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
               </div>
             </div>
             <div class="impact-card">
-              <img src={content?.img2?.childImageSharp?.fluid?.src} alt="Card background image" />
+              <img src={content?.img2?.childImageSharp?(content?.img2?.childImageSharp?.fluid?.src):content?.img2} alt="Card background image" />
               <div class="impact-card-content">
               <div style={{fontWeight:"600",fontSize:"25px"}}>{content?.cardTitle2}</div>
                 <div style={{fontWeight:"400", fontSize:"18",color:"#DADADA"}}>{content?.cardDescription2}</div>
@@ -393,7 +393,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
               </div>
             </div>
             <div class="impact-card">
-              <img src={content?.img3?.childImageSharp?.fluid?.src} alt="Card background image" />
+              <img src={content?.img3?.childImageSharp?(content?.img3?.childImageSharp?.fluid?.src):content?.img3} alt="Card background image" />
               <div class="impact-card-content">
               <div style={{fontWeight:"600",fontSize:"25px"}}>{content?.cardTitle3}</div>
                 <div style={{fontWeight:"400", fontSize:"18",color:"#DADADA"}}>{content?.cardDescription3}</div>
@@ -452,7 +452,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                 padding: '10px',
               }}>
               <img
-                src={content?.icon1?.childImageSharp?.fluid?.src}
+                src={content?.icon1?.childImageSharp?(content?.icon1?.childImageSharp?.fluid?.src):content?.icon1}
                 alt=""
                 width={mobile ? 35 : 75}
                 height={mobile ? 35 : 75}
@@ -512,7 +512,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                 padding: '10px',
               }}>
               <img
-                src={content?.icon2?.childImageSharp?.fluid?.src}
+                src={content?.icon2?.childImageSharp?(content?.icon2?.childImageSharp?.fluid?.src):content?.icon2}
                 alt=""
                 width={mobile ? 35 : 75}
                 height={mobile ? 35 : 75}
@@ -572,7 +572,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                 padding: '10px',
               }}>
               <img
-                src={content?.icon3?.childImageSharp?.fluid?.src}
+                src={content?.icon3?.childImageSharp?(content?.icon3?.childImageSharp?.fluid?.src):content?.icon3}
                 alt=""
                 width={mobile ? 35 : 75}
                 height={mobile ? 35 : 75}
@@ -626,7 +626,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                 padding: '10px',
               }}>
               <img
-                src={content?.icon4?.childImageSharp?.fluid?.src}
+                src={content?.icon4?.childImageSharp?(content?.icon4?.childImageSharp?.fluid?.src):content?.icon4}
                 alt=""
                 width={mobile ? 35 : 75}
                 height={mobile ? 35 : 75}
@@ -680,7 +680,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                 padding: '10px',
               }}>
               <img
-                src={content?.icon5?.childImageSharp?.fluid?.src}
+                src={content?.icon5?.childImageSharp?(content?.icon5?.childImageSharp?.fluid?.src):content?.icon5}
                 alt=""
                 width={mobile ? 35 : 75}
                 height={mobile ? 35 : 75}
@@ -929,7 +929,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                 zIndex: '1',
                 height: mobile ? '275px' : '500px',
                 width: mobile ? '275px' : '500px',
-                backgroundImage: `url(${content?.blogSectionImage?.childImageSharp?.fluid?.src})`,
+                backgroundImage: `url(${content?.blogSectionImage?.childImageSharp?(content?.blogSectionImage?.childImageSharp?.fluid?.src):content?.blogSectionImage})`,
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
@@ -966,7 +966,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
             aspectRatio: '2',
             objectFit: 'cover',
           }}>
-          <source src={content?.bannerImage?.publicURL} type="video/mp4" />
+          <source src={content?.bannerImage?.publicURL?(content?.bannerImage?.publicURL):content?.bannerImage} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="case-study-translucent-dark-overlay" />
