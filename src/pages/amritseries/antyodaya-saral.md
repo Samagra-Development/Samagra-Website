@@ -17,16 +17,16 @@ title3: What was life like before Antyodaya Saral?
 backgroundMap: /img/haryanaMap.png
 infographic1:
   - img: /img/citizen.jpg
-  - img: /img/citizencard1.jpg
-  - img: /img/citizencard2.jpg
-  - img: /img/citizencard3.jpg
+  - img: /img/citizencard1-1-.jpg
+  - img: /img/citizencard2-1-.jpg
+  - img: /img/citizencard3-1-.jpg
   - img: ""
   - img: ""
 infographic2:
   - img: /img/official.jpg
-  - img: /img/official1.jpg
-  - img: /img/official2.jpg
-  - img: /img/official3.jpg
+  - img: /img/officialcard1.jpg
+  - img: /img/officialcard2.jpg
+  - img: /img/officialcard3.jpg
 title4: What was the journey of Antyodaya Saral in the Governance Matrix?
 newsdescription1: "In our view, scheme and service delivery in Haryana shifted
   from being ‘Sleeping Giant’ with low ‘political salience’ and high ‘system
@@ -45,26 +45,26 @@ newsdescription1: "In our view, scheme and service delivery in Haryana shifted
   scheme-service delivery in Haryana. "
 newsdescription2: ""
 newsletterBtn: Read Newsletter
-motionGraphic: null
-newsletterLink: ""
+motionGraphic: /img/as_ig_gif_v4_reduced-gif_2.gif
+newsletterLink: https://www.linkedin.com/pulse/welfare-landscape-india-government-schemes-qb0fc/?trackingId=f%2Bhgxv7djo7uZwf9up2gRg%3D%3D
 title5: Here is how the Haryana government worked in a mission mode to augment
   the system capacity...
 showImpactVideo: true
 impactVideoLink: https://www.youtube.com/embed/PIGCFr1So8U?si=ioCsvEzrvSxBHr2X
 showImpactCard: true
-img1: /img/ImpactCard.png
+img1: /img/card1.jpg
 cardTitle1: ANTYODAYA SARAL ONLINE PORTAL
 cardDescription1: "Integrated online portal enabling 550+ schemes and
   services  leveraging NIC’s modular Service Plus platform "
 cardBtn1: ""
 cardLink1: ""
-img2: /img/ImpactCard.png
+img2: /img/card2.jpg
 cardTitle2: CITIZEN TOUCHPOINTS
 cardDescription2: " Assisted support of all schemes and services enabled through
   115+ VFS-like Saral Kendras and 6000+ Common Service Centres"
 cardBtn2: ""
 cardLink2: ""
-img3: /img/ImpactCard.png
+img3: /img/card3.jpg
 cardTitle3: SERVICE DELIVERY DASHBOARD
 cardDescription3: A ‘Saral Score’ given to each department based on compliance
   to timelines under Right to Service act & citizen satisfaction
@@ -73,31 +73,31 @@ cardLink3: ""
 title6: Antyodaya Saral transformed the lives of millions of citizens and
   department officials with SARAL portal and SARAL Kendras enabling
   citizen-centric governance in Haryana
-icon1: /img/gosugam-icon1.png
+icon1: /img/icon-1.png
 impactNumber1: 1
 impactNumber1Decimal: 0
 impactNumber1Text: ""
 impactNumber1Title: Haryana topped Citizen-Centric Governance Ranking in 2021
 showPlus1: true
-icon2: /img/gosugam-icon2.png
+icon2: /img/icon-2.png
 impactNumber2: 85
 impactNumber2Decimal: 0
 impactNumber2Text: "%"
 impactNumber2Title: Applications  closed within Right to Service timelines
 showPlus2: true
-icon3: /img/gosugam-icon3.png
+icon3: /img/icon-3.png
 impactNumber3: 1.2
 impactNumber3Decimal: 0
 impactNumber3Text: " crore"
 impactNumber3Title: "Applications recorded in the Antyodaya Saral system every year "
 showPlus3: true
-icon4: /img/gosugam-icon4.png
+icon4: /img/icon-4.png
 impactNumber4: 31
 impactNumber4Decimal: 0
 impactNumber4Text: "%"
 impactNumber4Title: "Reduction in delivery time on average across schemes and services "
 showPlus4: true
-icon5: /img/gosugam-icon5.png
+icon5: /img/icon-5.png
 impactNumber5: 40
 impactNumber5Decimal: 0
 impactNumber5Text: "%"
@@ -114,7 +114,7 @@ opEdLink: https://nicharyana.nic.in/news/antyodaya-saral-haryana-received-gold-a
 showWebinar: false
 webinarTitle: Title of webinar
 webinarLink: ""
-blogSectionImage: null
+blogSectionImage: /img/photo1712673432.jpeg
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
 successStoriesTitle: View more <i>Success Stories of Impact</i>
