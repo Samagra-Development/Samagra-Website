@@ -8,13 +8,13 @@ featuredimage: /img/slide1-2-.jpeg
 buttonText: Learn More
 title: antyodaya-saral
 fontColor: "#763240"
-bannerImage: /img/as.mp4
+bannerImage: /img/as_10-apr_gif.gif
 title1: Transforming scheme and service delivery for citizens in the state of Haryana
 title2: Each citizen needs access to government schemes and services like
   Aadhar, Birth Certificate, etc as part of our everyday lives. But, there are
   many complexities that make this process difficult...
 title3: What was life like before Antyodaya Saral?
-backgroundMap: /img/haryanaMap.png
+backgroundMap: ""
 infographic1:
   - img: /img/citizen.jpg
   - img: /img/citizencard1-1-.jpg
@@ -50,17 +50,17 @@ title5: Here is how the Haryana government worked in a mission mode to augment
 showImpactVideo: true
 impactVideoLink: https://www.youtube.com/embed/PIGCFr1So8U?si=ioCsvEzrvSxBHr2X
 showImpactCard: true
-img1: /img/card1.jpg
+img1: /img/card1.png
 cardTitle1: ""
 cardDescription1: ""
 cardBtn1: ""
 cardLink1: ""
-img2: /img/card2.jpg
+img2: /img/card2.png
 cardTitle2: ""
 cardDescription2: ""
 cardBtn2: ""
 cardLink2: ""
-img3: /img/card3.jpg
+img3: /img/card3.png
 cardTitle3: ""
 cardDescription3: ""
 cardBtn3: ""
@@ -98,18 +98,18 @@ impactNumber5Decimal: 0
 impactNumber5Text: "%"
 impactNumber5Title: "Increase in annual applications across schemes and services "
 showPlus5: false
-infographicGoogleDriveLink: https://drive.google.com/file/d/1qux_0xs5JyS6hE_0-IhBPwb5J-my5KoH/view?usp=drive_link
+infographicGoogleDriveLink: https://drive.google.com/file/d/1aDmb1v-4RrnPBJC2m8ln155wOQ9rzDtt/view?usp=sharing
 downloadInfographicBtn: Download Infographic
 title7: In Media
-blogTitle: Haryana wins Digital India awards
-blogLink: https://government.economictimes.indiatimes.com/news/digital-india/haryana-wins-digital-india-awards-2020-for-e-governance/79852044
+blogTitle: ""
+blogLink: ""
 showOpEd: true
-opEdTitle: ""
-opEdLink: https://nicharyana.nic.in/news/antyodaya-saral-haryana-received-gold-award/#:~:text=Its%20%E2%80%9CAntyodaya%20Saral%20Haryana%E2%80%9D%20Project,Mumbai%20on%20February%208%2C%202020
+opEdTitle: Haryana wins Digital India awards 2020 for e-governance
+opEdLink: https://government.economictimes.indiatimes.com/news/digital-india/haryana-wins-digital-india-awards-2020-for-e-governance/79852044
 showWebinar: false
 webinarTitle: Title of webinar
 webinarLink: ""
-blogSectionImage: /img/photo1712729635.jpeg
+blogSectionImage: /img/segment-1.1.jpg
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
 successStoriesTitle: View more <i>Success Stories of Impact</i>
