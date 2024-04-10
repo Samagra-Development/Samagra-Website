@@ -45,7 +45,7 @@ newsdescription1: "In our view, scheme and service delivery in Haryana shifted
   scheme-service delivery in Haryana. "
 newsdescription2: ""
 newsletterBtn: Read Newsletter
-motionGraphic: /img/as_ig_gif_v4_reduced-gif_2.gif
+motionGraphic: /img/ezgif-7-6917833407.mp4
 newsletterLink: https://www.linkedin.com/pulse/welfare-landscape-india-government-schemes-qb0fc/?trackingId=f%2Bhgxv7djo7uZwf9up2gRg%3D%3D
 title5: Here is how the Haryana government worked in a mission mode to augment
   the system capacity...
@@ -53,21 +53,18 @@ showImpactVideo: true
 impactVideoLink: https://www.youtube.com/embed/PIGCFr1So8U?si=ioCsvEzrvSxBHr2X
 showImpactCard: true
 img1: /img/card1.jpg
-cardTitle1: ANTYODAYA SARAL ONLINE PORTAL
-cardDescription1: "Integrated online portal enabling 550+ schemes and
-  services  leveraging NIC’s modular Service Plus platform "
+cardTitle1: ""
+cardDescription1: ""
 cardBtn1: ""
 cardLink1: ""
 img2: /img/card2.jpg
-cardTitle2: CITIZEN TOUCHPOINTS
-cardDescription2: " Assisted support of all schemes and services enabled through
-  115+ VFS-like Saral Kendras and 6000+ Common Service Centres"
+cardTitle2: ""
+cardDescription2: ""
 cardBtn2: ""
 cardLink2: ""
 img3: /img/card3.jpg
-cardTitle3: SERVICE DELIVERY DASHBOARD
-cardDescription3: A ‘Saral Score’ given to each department based on compliance
-  to timelines under Right to Service act & citizen satisfaction
+cardTitle3: ""
+cardDescription3: ""
 cardBtn3: ""
 cardLink3: ""
 title6: Antyodaya Saral transformed the lives of millions of citizens and
@@ -78,16 +75,16 @@ impactNumber1: 1
 impactNumber1Decimal: 0
 impactNumber1Text: ""
 impactNumber1Title: Haryana topped Citizen-Centric Governance Ranking in 2021
-showPlus1: true
+showPlus1: false
 icon2: /img/icon-2.png
 impactNumber2: 85
 impactNumber2Decimal: 0
 impactNumber2Text: "%"
-impactNumber2Title: Applications  closed within Right to Service timelines
-showPlus2: true
+impactNumber2Title: Applications closed within Right to Service timelines
+showPlus2: false
 icon3: /img/icon-3.png
 impactNumber3: 1.2
-impactNumber3Decimal: 0
+impactNumber3Decimal: 1
 impactNumber3Text: " crore"
 impactNumber3Title: "Applications recorded in the Antyodaya Saral system every year "
 showPlus3: true
@@ -96,13 +93,13 @@ impactNumber4: 31
 impactNumber4Decimal: 0
 impactNumber4Text: "%"
 impactNumber4Title: "Reduction in delivery time on average across schemes and services "
-showPlus4: true
+showPlus4: false
 icon5: /img/icon-5.png
 impactNumber5: 40
 impactNumber5Decimal: 0
 impactNumber5Text: "%"
 impactNumber5Title: "Increase in annual applications across schemes and services "
-showPlus5: true
+showPlus5: false
 infographicGoogleDriveLink: https://drive.google.com/file/d/1qux_0xs5JyS6hE_0-IhBPwb5J-my5KoH/view?usp=drive_link
 downloadInfographicBtn: Download Infographic
 title7: In Media
@@ -114,7 +111,7 @@ opEdLink: https://nicharyana.nic.in/news/antyodaya-saral-haryana-received-gold-a
 showWebinar: false
 webinarTitle: Title of webinar
 webinarLink: ""
-blogSectionImage: /img/photo1712673432.jpeg
+blogSectionImage: /img/photo1712729635.jpeg
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
 successStoriesTitle: View more <i>Success Stories of Impact</i>
