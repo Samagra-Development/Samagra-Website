@@ -20,8 +20,6 @@ infographic1:
   - img: /img/citizencard1-1-.jpg
   - img: /img/citizencard2-1-.jpg
   - img: /img/citizencard3-1-.jpg
-  - img: ""
-  - img: ""
 infographic2:
   - img: /img/official.jpg
   - img: /img/officialcard1.jpg

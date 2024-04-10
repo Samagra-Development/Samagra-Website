@@ -116,11 +116,13 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
         {content?.title4}
           </div>}
       <div style={{display: 'flex',
+            flexDirection: mobile ? 'column' : "row" ,
             alignItems: 'center',
-            justifyContent: 'space-evenly',padding:"32px 20vh", gap:"64px"}}>
-                {content?.motionGraphic && <div
+            justifyContent: "center",
+            padding:"32px 64px", gap:"48px"}}>
+            {content?.motionGraphic && <div
             style={{
-                display:"flex",justifyContent:"center",
+                display:"flex",justifyContent:"center", flex: 1,
               marginTop: !mobile ? '10px' : '',
             }}>
             <video
@@ -128,7 +130,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
               loop
               muted
               style={{
-                flex:"1fr",
+                flex:1,
                 width: '100%',
                 aspectRatio: '2',
                 objectFit: 'cover',
@@ -137,7 +139,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
               Your browser does not support the video tag.
             </video>
           </div>}
-          <div style={{flex:"1fr", display:"flex" , flexDirection:"column", fontSize:"18px"}}>
+          <div style={{flex: 1, display:"flex" , flexDirection:"column", fontSize:"18px"}}>
             <p>{content?.newsdescription1}</p>
             <p>{content?.newsdescription2}</p>
             {content?.newsletterBtn && <div
@@ -177,10 +179,10 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
             style={{ fontSize: mobile ? '20px' : '30px' }}>
             {content?.title3}
           </div>}
-          <div style={{   backgroundImage: `url(${content?.backgroundMap?.childImageSharp?(content?.backgroundMap?.childImageSharp?.fluid?.src):content?.backgroundMap})`,
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center',
-    backgroundSize: 'auto' }}>
+          <div style={{ backgroundImage: `url(${content?.backgroundMap?.childImageSharp?(content?.backgroundMap?.childImageSharp?.fluid?.src):content?.backgroundMap})`,
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
+            backgroundSize: 'contain' }}>
           {content?.infographic1 && <div
             className="infographic1"
             style={{ marginTop: '75px', marginBottom: '75px' }}>
@@ -200,7 +202,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                 justifyContent: 'center',
                 flexDirection: mobile ? 'column' : 'row',
                 alignItems: mobile ? 'center' : 'flex-start',
-                padding: "0 16vw"
+                padding: mobile && "0 16vw"
               }}>
               {content?.infographic1?.map((item, index, array) => {
                 if(index === 0) return null;
@@ -359,7 +361,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
               <div class="impact-card-content">
                 <div style={{fontWeight:"600",fontSize:"25px"}}>{content?.cardTitle1}</div>
                 <div style={{fontWeight:"400", fontSize:"18",color:"#DADADA"}}>{content?.cardDescription1}</div>
-                <p
+                {content?.cardBtn1 && <p
                 style={{
                   paddingTop: '15px',
                   cursor: 'pointer',
@@ -370,7 +372,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                 }}>
                 {content?.cardBtn1}{' '}
                 <InfoIcon/>
-              </p>
+              </p>}
               </div>
             </div>
             <div class="impact-card">
@@ -378,7 +380,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
               <div class="impact-card-content">
               <div style={{fontWeight:"600",fontSize:"25px"}}>{content?.cardTitle2}</div>
                 <div style={{fontWeight:"400", fontSize:"18",color:"#DADADA"}}>{content?.cardDescription2}</div>
-                <p
+                {content?.cardBtn2 && <p
                 style={{
                   paddingTop: '15px',
                   cursor: 'pointer',
@@ -389,7 +391,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                 }}>
                 {content?.cardBtn2}{' '}
                 <InfoIcon/>
-              </p>
+              </p>}
               </div>
             </div>
             <div class="impact-card">
@@ -397,7 +399,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
               <div class="impact-card-content">
               <div style={{fontWeight:"600",fontSize:"25px"}}>{content?.cardTitle3}</div>
                 <div style={{fontWeight:"400", fontSize:"18",color:"#DADADA"}}>{content?.cardDescription3}</div>
-                <p
+                {content?.cardBtn3 && <p
                 style={{
                   paddingTop: '15px',
                   cursor: 'pointer',
@@ -408,7 +410,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                 }}>
                 {content?.cardBtn3}{' '}
                 <InfoIcon/>
-              </p>
+              </p>}
             </div>
             </div>
             </div>}
