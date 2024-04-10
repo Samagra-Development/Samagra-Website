@@ -132,7 +132,6 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
               style={{
                 flex:1,
                 width: '100%',
-                aspectRatio: '2',
                 objectFit: 'cover',
               }}>
               <source src={content?.motionGraphic?.publicURL?(content?.motionGraphic?.publicURL):content?.motionGraphic} type="video/mp4" />
