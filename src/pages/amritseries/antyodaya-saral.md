@@ -8,7 +8,7 @@ featuredimage: /img/slide1-2-.jpeg
 buttonText: Learn More
 title: antyodaya-saral
 fontColor: "#763240"
-bannerImage: /img/as_10-apr_gif.gif
+bannerImage: /img/ezgif-3-6142c0b133.mp4
 title1: Transforming scheme and service delivery for citizens in the state of Haryana
 title2: Each citizen needs access to government schemes and services like
   Aadhaar, Birth Certificate, etc as part of our everyday lives. But, there are
