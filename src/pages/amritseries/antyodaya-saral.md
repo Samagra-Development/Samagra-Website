@@ -11,7 +11,7 @@ fontColor: "#763240"
 bannerImage: /img/as_10-apr_gif.gif
 title1: Transforming scheme and service delivery for citizens in the state of Haryana
 title2: Each citizen needs access to government schemes and services like
-  Aadhar, Birth Certificate, etc as part of our everyday lives. But, there are
+  Aadhaar, Birth Certificate, etc as part of our everyday lives. But, there are
   many complexities that make this process difficult...
 title3: What was life like before Antyodaya Saral?
 backgroundMap: ""
