@@ -14,7 +14,7 @@ title2: Each citizen needs access to government schemes and services like
   Aadhaar, Birth Certificate, etc as part of our everyday lives. But, there are
   many complexities that make this process difficult...
 title3: What was life like before Antyodaya Saral?
-backgroundMap: ""
+backgroundMap: null
 infographic1:
   - img: /img/citizen.jpg
   - img: /img/citizencard1-1-.jpg
