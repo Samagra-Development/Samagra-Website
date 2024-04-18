@@ -1,61 +1,75 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import {Link, graphql, StaticQuery} from 'gatsby'
+import React from "react";
+import { graphql } from "gatsby";
 
-import Layout from '../components/Layout'
-import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
-import {HomeTopSlider} from "../components/HomeComponents/HomeTopSlider/HomeTopSlider";
-import {HomeSecondSection} from "../components/HomeComponents/HomeSecondSection/HomeSecondSection";
-import HomeThirdSection from "../components/HomeComponents/HomeThirdSection/HomeThirdSection";
+import Layout from "../components/Layout";
 import HomeNewsSection from "../components/HomeComponents/HomeNewsSection/HomeNewsSection";
+import StickyIcon from "../components/HomeComponents/StickyIcon";
+import SectionDivider from "../components/HomeComponents/SectionDivider";
+import { animateScroll as scroll } from "react-scroll";
+import { OurModelSection } from "../components/HomeComponents/HomeSecondSection/OurModel";
+import OurWorkSection from "../components/HomeComponents/HomeThirdSection/OurWork";
+import OurMissionSection from "../components/HomeComponents/HomeTopSlider/OurMission";
 
-export const IndexPageTemplate = ({
-                                      parentDomains,
-                                      data
-                                  }) => (
-    <React.Fragment>
-        {
-            data && data.subBanners ? <React.Fragment>
-                <HomeTopSlider baseBanner={data.baseBanner} subBanners={data.subBanners}/>
-                <HomeSecondSection homeContent={data}/>
-            </React.Fragment> : <span/>
-        }
-        <HomeThirdSection parentDomains={parentDomains}/>
-        <HomeNewsSection/>
-    </React.Fragment>
-);
+export const IndexPageTemplate = ({ parentDomains, data }) => {
+  const scrollToBottom = () => {
+    scroll.scrollToBottom({
+      duration: 3000, // Optional: animation duration in milliseconds
+    });
+  };
+
+  return (
+    <div id="home-page-font" style={{ fontFamily: "rubik" }}>
+      {data ? (
+        <React.Fragment>
+          <OurMissionSection />
+          <SectionDivider />
+          <OurModelSection homeContent={data} />
+        </React.Fragment>
+      ) : (
+        <span />
+      )}
+      <OurWorkSection />
+      <SectionDivider />
+      <HomeNewsSection />
+      <StickyIcon scrollToBottom={scrollToBottom} />
+    </div>
+  );
+};
 
 class IndexPage extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            domains: []
-        }
+  constructor(props) {
+    super(props);
+    this.state = {
+      domains: [],
+    };
+  }
+
+  componentDidMount() {
+    const self = this;
+    if (window.localStorage.getItem("domains")) {
+      const domains = [];
+      JSON.parse(window.localStorage.getItem("domains")).forEach((d) => {
+        domains.push({ ...d.node.frontmatter });
+      });
+      self.setState({ domains: JSON.parse(JSON.stringify(domains)) });
     }
+  }
 
-    componentDidMount() {
-        const self = this;
-        if (window.localStorage.getItem('domains')) {
-            const domains = [];
-            JSON.parse(window.localStorage.getItem('domains')).forEach((d) => {
-                domains.push({...d.node.frontmatter})
-            });
-            self.setState({domains: JSON.parse(JSON.stringify(domains))})
-        }
-    }
+  render() {
+    const { frontmatter } = this.props.data.markdownRemark;
 
-    render() {
-        const {frontmatter} = this.props.data.markdownRemark;
-
-        return <Layout>
-            <IndexPageTemplate parentDomains={this.state.domains} data={frontmatter}/>
-        </Layout>
-    }
-
+    return (
+      <Layout>
+        <IndexPageTemplate
+          parentDomains={this.state.domains}
+          data={frontmatter}
+        />
+      </Layout>
+    );
+  }
 }
 
-export default IndexPage
+export default IndexPage;
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
@@ -64,52 +78,52 @@ export const pageQuery = graphql`
         title
         description
         baseBanner {
-            titleLines {
-                text
-            }
+          titleLines {
+            text
+          }
         }
         subBanners {
-            projectName
-            projectName2
-            color
-            titleLines {
-                text
+          projectName
+          projectName2
+          color
+          titleLines {
+            text
+          }
+          slides {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 1024, quality: 60) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
             }
-            slides {
-                image {
-                    childImageSharp {
-                        fluid(maxWidth: 1024, quality: 60) {
-                          ...GatsbyImageSharpFluid
-                        }
-                      }
+            logo {
+              childImageSharp {
+                fluid(maxWidth: 1024, quality: 60) {
+                  ...GatsbyImageSharpFluid
                 }
-                logo {
-                    childImageSharp {
-                        fluid(maxWidth: 1024, quality: 60) {
-                          ...GatsbyImageSharpFluid
-                        }
-                      }
-                }
-                title
-            }   
+              }
+            }
+            title
+          }
         }
         secondSection {
-         title
-         ourApproach {
+          title
+          ourApproach {
             title
-             description {
-                text
-                subTitle
+            description {
+              text
+              subTitle
             }
-             image {
+            image {
               childImageSharp {
                 fluid(maxWidth: 640, quality: 64) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
-         }
-         ourModel {
+          }
+          ourModel {
             image {
               childImageSharp {
                 fluid(maxWidth: 640, quality: 64) {
@@ -119,13 +133,12 @@ export const pageQuery = graphql`
             }
             title
             description {
-                text
-                subTitle
+              text
+              subTitle
             }
-         }
+          }
         }
       }
     }
   }
-`
-
+`;

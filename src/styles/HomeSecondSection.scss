@@ -9,6 +9,41 @@
   padding: 50px 0;
   text-align: center;
 
+  .our-model-description{
+    font-size:24px;
+    font-weight:400;
+     line-height:38px;
+  }
+  
+  .our-model-sub-heading{
+    font-size:36px;
+    font-weight:500;
+     color:#775B0F;
+      padding-bottom:4px;
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1200px)  {
+    .our-model-description{
+      font-size:20px;
+       line-height:32px;
+    }
+    
+    .our-model-sub-heading{
+      font-size:32px;
+    }
+  }
+  
+  @media screen and (max-width: 769px)  {
+    .our-model-description{
+      font-size:16px;
+       line-height:26px;
+    }
+    
+    .our-model-sub-heading{
+      font-size:28px;
+    }
+  }
+
   .title {
     font-size: 32px;
     color: $theme-text-normal;
@@ -333,6 +368,8 @@
     }
   }
 }
+
+
 
 
 /* Safari 4.0 - 8.0 */
