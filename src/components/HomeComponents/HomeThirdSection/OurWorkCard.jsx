@@ -1,11 +1,18 @@
 import React, { useState } from "react";
-import Agriculture from "../../../img/home-page/agriculture.png";
 
 function OurWorkCard({ marginTop, marginBottom, data }) {
   const [isFlipped, setIsFlipped] = useState(false);
 
+  console.log("hjhjjhjhj",data)
+
   const handleMouseEnter = () => setIsFlipped(true);
   const handleMouseLeave = () => setIsFlipped(false);
+ const getProjectUrl = (projectName) => {
+        if (!projectName) {
+          return;
+        }
+        return '/project/' + projectName.replace(/ /g, '-').toLowerCase();
+      };
   return (
     <>
       <div
@@ -36,15 +43,15 @@ function OurWorkCard({ marginTop, marginBottom, data }) {
               style={{
                 display: "flex",
                 gap: "24px",
-                backgroundImage: `url(${data.map})`,
+                backgroundImage: `url(${data?.backgroundMap?.childImageSharp?.fluid?.src})`,
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
                 backgroundSize: "contain",
                 padding: "48px",
               }}
             >
-              <img src={data.logo1} />
-              {data.logo2 && <img src={data.logo2} />}
+              <img src={data?.workLogo[0]?.logo?.childImageSharp?.fluid?.src} />
+              {data?.workLogo[1] && <img src={data?.workLogo[1]?.logo?.childImageSharp?.fluid?.src} />}
             </div>
             <div
               style={{
@@ -54,7 +61,7 @@ function OurWorkCard({ marginTop, marginBottom, data }) {
                 textAlign: "center",
               }}
             >
-              {data.description2}
+              {data?.description2}
             </div>
             <button
               style={{
@@ -66,10 +73,13 @@ function OurWorkCard({ marginTop, marginBottom, data }) {
                 background: "none",
                 width: "320px",
               }}
+              onClick={()=>{
+                window.location.href= getProjectUrl(data?.projectName[0]?.project) 
+              }}
             >
-              Learn More{data.logo2 ? "(Konnect)" : ""}
+              Learn More{data?.workLogo[1] ? "(Konnect)" : ""}
             </button>
-            {data.logo2 && (
+            {data?.workLogo[1] && (
               <button
                 style={{
                   border: "solid 1px #D09C0A",
@@ -80,6 +90,9 @@ function OurWorkCard({ marginTop, marginBottom, data }) {
                   background: "none",
                   width: "320px",
                 }}
+                onClick={()=>{
+                  window.location.href= getProjectUrl(data?.projectName[1]?.project) 
+                }}
               >
                 Learn More(Leap)
               </button>
@@ -87,7 +100,7 @@ function OurWorkCard({ marginTop, marginBottom, data }) {
           </div>
         ) : (
           <div>
-            <img src={data.image} alt="agri" style={{ width: "100%" }} />
+            <img src={data?.image?.childImageSharp?.fluid?.src} alt="agri" style={{ width: "100%" }} />
           </div>
         )}
 
@@ -100,7 +113,7 @@ function OurWorkCard({ marginTop, marginBottom, data }) {
               lineHeight: "64px",
             }}
           >
-            {data.subHeading}
+            {data?.titleLines[0]?.text}
           </div>
           <div
             style={{
@@ -110,11 +123,11 @@ function OurWorkCard({ marginTop, marginBottom, data }) {
               lineHeight: "64px",
             }}
           >
-            {data.heading}
+            {data?.titleLines[1]?.text}
           </div>
         </div>
         <div style={{ fontSize: "22px", lineHeight: "34px" }}>
-          {data.description1}
+          {data?.description1}
         </div>
       </div>
     </>

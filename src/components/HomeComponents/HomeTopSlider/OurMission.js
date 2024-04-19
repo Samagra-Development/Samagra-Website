@@ -1,7 +1,7 @@
 import React from "react";
 import homeVideo from '../../../img/home_updated_video.mp4';
 
-const OurMissionSection = () => {
+const OurMissionSection = ({data}) => {
   return (
     <>
       <div
@@ -21,7 +21,7 @@ const OurMissionSection = () => {
             }}
             autoPlay={true}
           >
-            <source src={homeVideo} type="video/mp4" />
+            <source src={data?.baseBannerVideo?.publicURL} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
@@ -30,19 +30,16 @@ const OurMissionSection = () => {
           <div className={"slider-content"}>
             <div className={"left-text-section"}>
               <div className={`title visible`} >
-                <div>Transforming </div>
-                <div>Governance</div>
+                <div>{data?.baseBanner?.titleLines[0].text} </div>
+                <div>{data?.baseBanner?.titleLines[1].text}</div>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div style={{ margin: "81px" }}>
-        <div className="section-heading">Our Mission</div>
-        <div className="section-description">
-          We are working to improve the quality of life of citizens through
-          better governance
-        </div>
+        <div className="section-heading">{data?.ourMission?.title}</div>
+        <div className="section-description">{data?.ourMission?.description}</div>
       </div>
     </>
   );

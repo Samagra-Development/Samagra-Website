@@ -3,7 +3,7 @@ backend:
   branch: master
   publish_mode: editorial_workflow
 
-
+local_backend: true
 
 editorial_workflow:
   enable: true
@@ -465,8 +465,8 @@ collections:
               widget: 'hidden',
               default: 'index-page',
             }
-          - { label: Title, name: title, widget: string }
-          - { label: Description, name: description, widget: string }
+          - { label: 'Title', name: 'title', widget: 'string' } 
+          - { label: 'Description', name: 'description', widget: 'string' }
           - {
               label: Sticky Banner,
               name: stickyBanner,
@@ -548,9 +548,76 @@ collections:
                   },
                 ],
             }
+          - { label: 'Base Banner video', name: 'baseBannerVideo', widget: file }
+          - { 
+              label: 'Our Mission', 
+              name: ourMission, 
+              widget: object,
+              fields:
+                [
+                  { 
+                    label: Title,
+                    name: title, 
+                    widget: string,
+                  },
+                  {
+                    label: Description,
+                    name: description,
+                    widget: string,
+                  },
+                ],      
+            }
+          - { 
+              label: 'Our Model', 
+              name: ourModel, 
+              widget: object,
+              fields:
+                [
+                  { 
+                    label: Title, 
+                    name: title, 
+                    widget: string,
+                  },
+                  {
+                    label: Description,
+                    name: description,
+                    widget: list,
+                    fields:
+                      [
+                        {
+                          label: Sub Title,
+                          name: subTitle,
+                          widget: string,
+                        },
+                        { 
+                          label: Text, 
+                          name: text, 
+                          widget: text,
+                        },
+                      ],
+                  },
+                  { 
+                    label: 'Our Model Video Link', 
+                    name: 'ourModelVideoLink', 
+                    widget: 'string',
+                  },
+                ],
+            }
+          - { 
+              label: 'Our Approach', 
+              name: ourApproach, 
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Description, name: description, widget: string },
+                  { label: 'Approach Video', name: 'approachVideo', widget: file },
+                ],
+            }
+          - { label: 'Our Work Description', name: 'ourWorkDescription', widget: 'string' }
           - {
-              label: 'Sub Banners',
-              name: subBanners,
+              label: 'Our Work', 
+              name: ourWork, 
               widget: list,
               fields:
                 [
@@ -563,118 +630,19 @@ collections:
                   {
                     label: 'Project Name',
                     name: 'projectName',
-                    widget: 'string',
+                    widget: 'list',
+                    fields: [{ label: 'Project', name: project, widget: string }],
                   },
+                  { label: Description1, name: description1, widget: string },
+                  { label: 'Image', name: image, widget: image },
                   {
-                    label: 'Project Name 2 (will appear spearated by a &)',
-                    name: 'projectName2',
-                    widget: 'string',
-                  },
-                  {
-                    label: 'Button Color',
-                    name: 'color',
-                    widget: 'string',
-                  },
-                  {
-                    label: 'Slides',
-                    name: 'slides',
+                    label: 'Work Logo',
+                    name: 'workLogo',
                     widget: list,
-                    fields:
-                      [
-                        { label: 'Image', name: image, widget: image },
-                        { label: 'Logo', name: logo, widget: image },
-                        { label: 'Title', name: title, widget: string },
-                      ],
+                    fields: [{ label: 'Logo', name: logo, widget: image }],
                   },
-                ],
-            }
-          - {
-              label: 'Second Section',
-              name: secondSection,
-              widget: object,
-              fields:
-                [
-                  { label: Title, name: title, widget: string },
-                  {
-                    label: 'Our Model',
-                    name: ourModel,
-                    widget: object,
-                    fields:
-                      [
-                        { label: Image, name: image, widget: image },
-                        { label: Title, name: title, widget: string },
-                        {
-                          label: Description,
-                          name: description,
-                          widget: list,
-                          fields:
-                            [
-                              {
-                                label: Sub Title,
-                                name: subTitle,
-                                widget: string,
-                              },
-                              { label: Text, name: text, widget: text },
-                            ],
-                        },
-                      ],
-                  },
-                  {
-                    label: 'Our Approach',
-                    name: ourApproach,
-                    widget: object,
-                    fields:
-                      [
-                        { label: Title, name: title, widget: string },
-                        {
-                          label: Video PlaceholderImage,
-                          name: image,
-                          widget: image,
-                        },
-                        {
-                          label: Description,
-                          name: description,
-                          widget: list,
-                          fields:
-                            [
-                              {
-                                label: Sub Title,
-                                name: subTitle,
-                                widget: string,
-                              },
-                              { label: Text, name: text, widget: text },
-                            ],
-                        },
-                      ],
-                  },
-                ],
-            }
-          - {
-              label: 'Third Section',
-              name: thirdSection,
-              widget: list,
-              fields:
-                [
-                  {
-                    label: 'Image 1',
-                    name: img1,
-                    widget: image,
-                  },
-                  {
-                    label: 'Image 2',
-                    name: img2,
-                    widget: image,
-                  },
-                  {
-                    label: 'Image 3',
-                    name: img3,
-                    widget: image,
-                  },
-                  {
-                    label: 'Image 4',
-                    name: img4,
-                    widget: image,
-                  },
+                  { label: 'Background Map', name: 'backgroundMap', widget: image},
+                  { label: Description2, name: description2, widget: string },
                 ],
             }
       - file: 'src/pages/team/index.md'
