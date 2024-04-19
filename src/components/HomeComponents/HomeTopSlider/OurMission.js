@@ -1,7 +1,7 @@
 import React from "react";
 import homeVideo from '../../../img/home_updated_video.mp4';
 
-const OurMissionSection = ({data}) => {
+const OurMissionSection = ({data, isMobile}) => {
   return (
     <>
       <div
@@ -21,7 +21,7 @@ const OurMissionSection = ({data}) => {
             }}
             autoPlay={true}
           >
-            <source src={data?.baseBannerVideo?.publicURL} type="video/mp4" />
+            <source src={data?.baseBannerVideo?.publicURL ? (data?.baseBannerVideo?.publicURL) : data?.baseBannerVideo} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

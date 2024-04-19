@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
@@ -12,6 +12,25 @@ import OurMissionSection from "../components/HomeComponents/HomeTopSlider/OurMis
 import LinkedIn from "../img/linkedIn-icon.png"
 
 export const IndexPageTemplate = ({ parentDomains, data }) => {
+  const [mobile, setMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        setMobile(true);
+      } else {
+        setMobile(false);
+      }
+    };
+    handleResize();
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   const scrollToBottom = () => {
     scroll.scrollToBottom({
       duration: 3000, // Optional: animation duration in milliseconds
@@ -22,15 +41,15 @@ export const IndexPageTemplate = ({ parentDomains, data }) => {
     <div id="home-page-font" style={{ fontFamily: "rubik" }}>
       {data ? (
         <React.Fragment>
-          <OurMissionSection data={data}/>
+          <OurMissionSection data={data} isMobile={mobile}/>
           <SectionDivider />
-          <OurModelSection homeContent={data} />
+          <OurModelSection homeContent={data} isMobile={mobile}/>
         </React.Fragment>
       ) : (
         <span />
       )}
-      <OurWorkSection workContent={data}/>
-      <div style={{marginBottom:"85px",display:"flex", justifyContent:"center",alignItems:"center", flexDirection:"column",gap:"16px"}}><div style={{textAlign:"center", fontSize:"28px"}}>For the latest updates related to our work</div>
+      {data?.ourWork && <OurWorkSection workContent={data} isMobile={mobile}/>}
+      <div style={{marginBottom:"85px",display:"flex", justifyContent:"center",alignItems:"center", flexDirection:"column",gap:"16px"}}><div className="section-description">For the latest updates related to our work</div>
       <button style={{background: "#0076B2",color:"#ffffff", borderRadius:"8px",padding:"8px 16px", border:"none", fontSize:"28px",display:"flex",justifyContent:"center",alignItems:"center",gap:"8px"}}
       onClick={()=>{
         window.location.href="https://www.linkedin.com/company/samagra-transforming-governance/"

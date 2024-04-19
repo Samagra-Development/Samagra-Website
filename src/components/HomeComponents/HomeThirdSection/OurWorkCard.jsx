@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
-function OurWorkCard({ marginTop, marginBottom, data }) {
+function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
   const [isFlipped, setIsFlipped] = useState(false);
 
   console.log("hjhjjhjhj",data)
 
-  const handleMouseEnter = () => setIsFlipped(true);
-  const handleMouseLeave = () => setIsFlipped(false);
+  const handleMouseEnter = () => setIsFlipped(()=>true);
+  const handleMouseLeave = () => setIsFlipped(()=>false);
  const getProjectUrl = (projectName) => {
         if (!projectName) {
           return;
@@ -20,17 +20,20 @@ function OurWorkCard({ marginTop, marginBottom, data }) {
         onMouseLeave={handleMouseLeave}
         style={{
           borderRadius: "8px",
-          height: "58.75rem",
+          height: isMobile ? "auto" :"910px",
+          width: isMobile? "auto":"590px",
           background: "#ffffff",
           padding: "24px",
-          marginTop: marginTop,
-          marginBottom: marginBottom,
+          marginTop: isMobile? "24px" :marginTop,
+          marginBottom: isMobile? "24px": marginBottom,
         }}
       >
         {isFlipped ? (
           <div
             style={{
               borderRadius: "8px",
+              minWidth:isMobile?"auto":"540px",
+              minHeight:isMobile?"auto":"610px",
               border: "solid 4px #D09C0A",
               display: "flex",
               flexDirection: "column",
@@ -43,22 +46,23 @@ function OurWorkCard({ marginTop, marginBottom, data }) {
               style={{
                 display: "flex",
                 gap: "24px",
-                backgroundImage: `url(${data?.backgroundMap?.childImageSharp?.fluid?.src})`,
+                backgroundImage: `url(${data?.backgroundMap?.childImageSharp?.fluid?.src ? (data?.backgroundMap?.childImageSharp?.fluid?.src) : data?.backgroundMap})`,
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
+                padding:"32px",
                 backgroundSize: "contain",
-                padding: "48px",
+                justifyContent:"center",
+                alignItems:"center"
               }}
             >
-              <img src={data?.workLogo[0]?.logo?.childImageSharp?.fluid?.src} />
-              {data?.workLogo[1] && <img src={data?.workLogo[1]?.logo?.childImageSharp?.fluid?.src} />}
+              <img width={data?.workLogo[1]?"35%":"70%"} src={data?.workLogo[0]?.logo?.childImageSharp?.fluid?.src ? (data?.workLogo[0]?.logo?.childImageSharp?.fluid?.src) : data?.workLogo[0]?.logo} />
+              {data?.workLogo[1] && <img width={"45%"} src={data?.workLogo[1]?.logo?.childImageSharp?.fluid?.src ? (data?.workLogo[1]?.logo?.childImageSharp?.fluid?.src) : data?.workLogo[1]?.logo} />}
             </div>
             <div
+            className="section-description"
               style={{
-                fontSize: "30.5px",
-                lineHeight: "38px",
+                lineHeight: isMobile?"24px":"38px",
                 fontWeight: "400",
-                textAlign: "center",
               }}
             >
               {data?.description2}
@@ -71,7 +75,7 @@ function OurWorkCard({ marginTop, marginBottom, data }) {
                 margin: "16px 0 8px 0",
                 color: "#D09C0A",
                 background: "none",
-                width: "320px",
+                width: "66%",
               }}
               onClick={()=>{
                 window.location.href= getProjectUrl(data?.projectName[0]?.project) 
@@ -88,7 +92,7 @@ function OurWorkCard({ marginTop, marginBottom, data }) {
                   marginBottom: "8px",
                   color: "#D09C0A",
                   background: "none",
-                  width: "320px",
+                  width: "66%",
                 }}
                 onClick={()=>{
                   window.location.href= getProjectUrl(data?.projectName[1]?.project) 
@@ -100,7 +104,7 @@ function OurWorkCard({ marginTop, marginBottom, data }) {
           </div>
         ) : (
           <div>
-            <img src={data?.image?.childImageSharp?.fluid?.src} alt="agri" style={{ width: "100%" }} />
+            <img src={data?.image?.childImageSharp?.fluid?.src ? (data?.image?.childImageSharp?.fluid?.src) : data?.image} alt="agri" style={{ width: "100%" }} />
           </div>
         )}
 
@@ -108,25 +112,29 @@ function OurWorkCard({ marginTop, marginBottom, data }) {
           <div
             style={{
               color: "#D09C0A",
-              fontSize: "34px",
               fontWeight: "400",
-              lineHeight: "64px",
+              lineHeight: isMobile? "48px" : "56px",
+              textAlign:"left",
+              padding: "0"
             }}
+            className="section-description"
           >
             {data?.titleLines[0]?.text}
           </div>
           <div
             style={{
               color: "#D09C0A",
-              fontSize: "56px",
               fontWeight: "500",
-              lineHeight: "64px",
+              lineHeight: isMobile? "48px":"56px",
+              textAlign:"left",
+              padding:"0"
             }}
+            className="section-heading"
           >
             {data?.titleLines[1]?.text}
           </div>
         </div>
-        <div style={{ fontSize: "22px", lineHeight: "34px" }}>
+        <div style={{ fontSize: isMobile? "14px":"22px", lineHeight: isMobile?"22px":"34px" }}>
           {data?.description1}
         </div>
       </div>
