@@ -3,10 +3,10 @@ import {Link} from 'gatsby'
 
 import logo from '../img/logo.svg'
 import logoColored from "../img/logo-colored.png";
-import facebookIconActive from "../img/facebook.png";
-import linkedInIconActive from "../img/linkedin.png";
-import youtubeIconActive from "../img/youtube.png";
-import instagramIconActive from "../img/instagram.png";
+import facebookIconActive from "../img/footer-facebook-icon.png";
+import linkedInIconActive from "../img/footer-linkedin-icon.png";
+import youtubeIconActive from "../img/footer-youtube-icon.png";
+import instagramIconActive from "../img/footer-insta-icon.png";
 
 const Footer = class extends React.Component {
     render() {
@@ -32,67 +32,89 @@ export const FooterComponent = ({}) => {
 
     return (
         <div className={'footer-wrapper'}>
-            <div className={'container'}>
-                <nav className="nav-wrapper nav justify-content-between">
-                    <a className="nav-link navbar-brand" href="#">
+            <div style={{marginLeft:"80px",marginRight:"100px"}}>
+                <nav className="nav-wrapper nav justify-content-between align-items-center">
+                    <div>
+                    <div>
+                        <a className="nav-link navbar-brand" href="#">
                         <img className={'logo'} src={logoColored}/>
-                    </a>
-                    <ul className={'nav justify-content-end'}>
-                        <li>
-                            <Link to={'/'}><a className="nav-link" href="/">Our Work</a></Link>
-                        </li>
-                        <li>
-                            <Link to={'/team'}><a className="nav-link" href="/team">Team</a></Link>
-                        </li>
-                        <li>
-                            <Link to={'/partners'}><a className="nav-link" href="/partners">Partners</a></Link>
-                        </li>
-                        <li>
-                            <Link to={'/media'}><a className="nav-link" href="/media">Media</a></Link>
-                        </li>
-                        <li>
-                            <Link to={'/blog'}><a className="nav-link" href="/blogs">Blog</a></Link>
-                        </li>
-                        <li>
-                            <Link to={'/careers'}><a className="nav-link" href="/careers">Careers</a></Link>
-                        </li>
-                    </ul>
-                </nav>
-                <nav className="nav-wrapper nav justify-content-between">
-                    <a className="nav-link navbar-brand" href="#">
+                    </a></div>
+                    <div><a className="nav-link navbar-brand" href="#">
                         <div className={'address-line1'}>
                             Samagra | Transforming Governance
                         </div>
-                        <div className={'address-line2'}>
+                        <div className={'address-line1'}>
                             9/5 Sarvapriya Vihar, New Delhi 110016
                         </div>
                     </a>
-                    <ul className={'nav justify-content-end'}>
-                        <li>
-                            <a className="nav-link" href="https://www.instagram.com/samagragovernance/?hl=en">
-                                <img className={'social-icons'} onMouseEnter={() => setIIcon(iIcon)}
-                                     onMouseLeave={() => setIIcon(iIcon)} src={iIcon}/>
-                            </a>
-                        </li>
-                        <li>
-                            <a className="nav-link"
-                               href="https://www.linkedin.com/company/samagra-transforming-governance/">
-                                <img className={'social-icons'} onMouseEnter={() => setLIcon(linkedInIconActive)}
-                                     onMouseLeave={() => setLIcon(linkedInIconActive)} src={lIcon}/>
-                            </a>
-                        </li>
-                        <li>
-                            <a className="nav-link" href="https://www.youtube.com/channel/UCfkXErS-f87xUQkmSKSC8bg">
-                                <img className={'social-icons'} onMouseEnter={() => setYIcon(youtubeIconActive)}
-                                     onMouseLeave={() => setYIcon(youtubeIconActive)} src={yIcon}/>
-                            </a>
-                        </li>
-                    </ul>
+                    </div>
+                    </div>
+                    <div className={'nav'} style={{display:"flex", gap:"32px", padding:"24px 0"}}>
+                        <div style={{display:"flex",flexDirection:"column", gap:"12px"}}>
+                            <div className='footer-heading'>About Us</div>
+                            <div>
+                            <Link to={'/team'}><span style={{color:"#1E2833", paddingBottom:"6px", fontSize:"16px"}}>Team</span></Link>
+                            </div>
+                            <div>
+                            <Link to={'/media'}><span style={{color:"#1E2833", paddingBottom:"6px", fontSize:"16px"}}>News</span></Link>
+                            </div>
+                            <div>
+                            <Link to={'/blog'}><span style={{color:"#1E2833", paddingBottom:"6px", fontSize:"16px"}}>Blog</span></Link>
+                            </div>
+                            <div>
+                            <Link to={'/careers'}><span style={{color:"#1E2833", paddingBottom:"6px", fontSize:"16px"}}>Apply</span></Link>
+                            </div>
+                        </div>
+                        <div style={{display:"flex",flexDirection:"column", gap:"12px"}}>
+                            <div className='footer-heading'>Governance+</div>
+                            <div>
+                            <Link to={'/amritseries'}><span style={{color:"#1E2833", paddingBottom:"6px", fontSize:"16px"}}>Amrit Series</span></Link>
+                            </div>
+                            <div>
+                            <Link to={'/'}><span style={{color:"#1E2833", paddingBottom:"6px", fontSize:"16px"}}>Governance Decluttered</span></Link>
+                            </div>
+                            <div>
+                            <Link to={'/governanceframeworks'}><span style={{color:"#1E2833", paddingBottom:"6px", fontSize:"16px"}}>Governance Frameworks</span></Link>
+                            </div>
+                            <div>
+                            <Link to={'/sushasan'}><span style={{color:"#1E2833", paddingBottom:"6px", fontSize:"16px"}}>Sushasan</span></Link>
+                            </div>
+                        </div>
+                        <div style={{display:"flex",flexDirection:"column", gap:"16px"}}>
+                            <div style={{display:"flex",flexDirection:"column", gap:"12px"}}>
+                                <div className='footer-heading'>Events & Initiatives</div>
+                                <div>
+                                    <Link to={'/c4gt'}><span style={{color:"#1E2833", paddingBottom:"6px", fontSize:"16px"}}>Code for GovTech (C4GT)</span></Link>
+                                </div>
+                                <div>
+                                    <Link to={'/tgc'}><span style={{color:"#1E2833", paddingBottom:"6px", fontSize:"16px"}}>The Governance Challenge (TGC)</span></Link>
+                                </div>
+                            </div>
+                            <div style={{display:"flex",flexDirection:"column", gap:"12px"}}>
+                                <div className='footer-heading'>Follow Us</div>
+                                <div style={{display:"flex",gap:"24px"}}>
+                                    <div>
+                                        <img className={'social-icons'} onClick={()=>{
+                                            window.location.href="https://www.linkedin.com/company/samagra-transforming-governance/"}} src={linkedInIconActive}/>
+                                    </div>
+                                    <div>
+                                        <img className={'social-icons'} onClick={()=>{window.location.href="https://www.instagram.com/samagragovernance/?hl=en"}} src={instagramIconActive}/>
+                                    </div>
+                                    {/* <div>
+                                        <img className={'social-icons'} onClick={()=>{window.location.href="https://www.instagram.com/samagragovernance/?hl=en"}} src={facebookIconActive}/>
+                                    </div> */}
+                                    <div>
+                                        <img className={'social-icons'} onClick={()=>{window.location.href="https://www.youtube.com/channel/UCfkXErS-f87xUQkmSKSC8bg"}} src={youtubeIconActive}/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </nav>
             </div>
             <div className={'bottom-copyright-section'}>
-                © 2019 Samagra Development Associates Pvt. Ltd &nbsp;&nbsp; <a
-                href="https://drive.google.com/file/d/1JBr51LlCtUv-q35Onh6dbgHBmI18qhEH/view?usp=sharing" target="_">CSR</a>
+                © 2024 Samagra Development Associates Pvt. Ltd &nbsp;&nbsp; <a
+                href="https://drive.google.com/file/d/1JBr51LlCtUv-q35Onh6dbgHBmI18qhEH/view?usp=sharing" target="_" style={{color: "#1E2833", textDecoration:"underline"}}>CSR</a>
             </div>
         </div>
     )

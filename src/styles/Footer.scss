@@ -3,17 +3,17 @@
   background: none;
   position: relative;
   padding: 30px 0 0 0;
-  border-top: 1px solid #efefef;
+  border-top: 1px solid rgba(253, 217, 191, 1);
 
   .logo {
-    height: 40px;
+    height: 64px;
   }
 
   .nav-wrapper {
     .nav-link {
       color: $theme-text-normal;
-      font-size: 14px;
-      padding: 8px;
+      font-size: 16px !important;
+      padding-bottom: 6px !important;
 
       &.active {
         color: $primary;
@@ -21,28 +21,32 @@
     }
 
     .address-line1 {
-      text-align: left;
-      font-size: 13px;
-      font-weight: 600;
+      text-align: left !important;
+      font-size: 16px !important;
+      padding-bottom: 6px !important;
     }
-
-    .address-line2 {
-      text-align: left;
-      font-size: 13px;
+    .footer-heading{
+      font-size: 20px;
+      color: #D09C0A;
+      padding-bottom: 6px;
+      font-weight: 600;
     }
   }
 
   .bottom-copyright-section {
     text-align: center;
-    color: $theme-text-normal;
-    font-size: 12px;
-    padding: 10px;
+    color:  #1E2833;
+    font-size: 16px;
+    padding: 32px;
     margin-top: 30px;
-    background: #F1F1F1;
+    opacity: 50%;
+    border-top: rgba(30, 40, 51, 0.07) solid 1px;
+    // background: #F1F1F1;
   }
 
   .social-icons {
-    height: 30px;
-    width: 30px;
+    cursor: pointer;
+    // height: 30px;
+    // width: 30px;
   }
 }
