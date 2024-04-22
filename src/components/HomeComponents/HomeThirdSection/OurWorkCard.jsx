@@ -32,8 +32,8 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
           <div
             style={{
               borderRadius: "8px",
-              minWidth:isMobile?"auto":"540px",
-              minHeight:isMobile?"auto":"610px",
+              minWidth:isMobile?"auto":"542px",
+              minHeight:isMobile?"auto":"604px",
               border: "solid 4px #D09C0A",
               display: "flex",
               flexDirection: "column",
@@ -103,8 +103,11 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
             )}
           </div>
         ) : (
-          <div>
-            <img src={data?.image?.childImageSharp?.fluid?.src ? (data?.image?.childImageSharp?.fluid?.src) : data?.image} alt="agri" style={{ width: "100%" }} />
+          <div style={{
+          minWidth:isMobile?"auto":"542px",
+          minHeight:isMobile?"auto":"604px",}}>
+            <img src={data?.image?.childImageSharp?.fluid?.src ? (data?.image?.childImageSharp?.fluid?.src) : data?.image} alt="agri" style={{ width:isMobile?"100%":"542px",
+          height:isMobile?"auto":"604px",borderRadius: "10px" }} />
           </div>
         )}
 
