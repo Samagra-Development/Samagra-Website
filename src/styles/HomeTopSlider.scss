@@ -70,6 +70,7 @@
     .title {
       font-size: 80px !important;
       line-height: 84px !important;
+      margin-top: calc(50vh - 160px);
     }
   }
   
@@ -77,6 +78,7 @@
     .title {
       font-size: 52px !important;
       line-height: 52px !important;
+      margin-top: calc(50vh - 104px);
     }
   }
 
@@ -109,39 +111,45 @@
 }
 
 .section-heading{
-  padding: 24px;
-  font-size:56px;
-   font-weight: 500;
+  padding: 2.5vh;
+  font-size:36px;
+  line-height: 36px;
+   font-weight: 700;
     text-align: center;
     color:#294294;
 }
 
 .section-description{
-  padding:24px;
-   font-size:30.5px;
+  padding:2.5vh;
+   font-size:24px;
+   line-height: 132%;
     font-weight: 400;
      text-align: center;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1200px)  {
-  .section-heading{
-    font-size:48px;
-  }
+// @media screen and (min-width: 769px) and (max-width: 1200px)  {
+//   .section-heading{
+//     font-size:48px;
+//     line-height: 48px;
+//   }
   
-  .section-description{
-     font-size:24px;
-  }
-}
+//   .section-description{
+//      font-size:24px;
+//      line-height: 132%;
+//   }
+// }
 
-@media screen and (max-width: 769px)  {
-  .section-heading{
-    font-size:40px;
-  }
+// @media screen and (max-width: 769px)  {
+//   .section-heading{
+//     font-size:40px;
+//     line-height: 40px;
+//   }
   
-  .section-description{
-     font-size:18px;
-  }
-}
+//   .section-description{
+//      font-size:18px;
+//      line-height: 132%;
+//   }
+// }
  
 .sticky-icon-container {
   position: fixed;

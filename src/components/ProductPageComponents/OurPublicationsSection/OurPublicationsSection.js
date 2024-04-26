@@ -160,6 +160,7 @@ export default ({projectId, readMore}) => (
                         }
                     }
                     date(formatString: "MMMM DD, YYYY")
+                    linkButtonText
                 }
             }
           }

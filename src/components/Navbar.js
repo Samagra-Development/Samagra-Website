@@ -2,7 +2,8 @@ import React from 'react'
 import {Link} from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo-colored.png'
-import logoInverted from '../img/logo.png'
+import logoInverted from '../img/Samagra_Logo_updated.png'
+import menuIcon from '../img/menu_icon.png'
 import HeaderDropdown from "./HeaderDropdown";
 
 const Navbar = class extends React.Component {
@@ -71,14 +72,33 @@ const Navbar = class extends React.Component {
         const {showInverted, projects, domains} = this.state;
         return (
             <div className={`header-wrapper  ${showInverted ? 'inverted-fixed' : ''} `}>
-                <div className={"container"}>
-                    <nav className="nav-wrapper nav justify-content-between">
-                        <Link to={'/'}>
-                            <a className="nav-link active navbar-brand" style={{paddingTop: 0}} href="#">
-                                <img className={'logo'} src={showInverted ? logo : logoInverted}/>
+                <div>
+                    <nav id='navbar-text' className="nav-wrapper nav justify-content-between align-items-center" style={{padding:"10px 0", margin:"0 132px",borderBottom:"1px rgba(255, 255, 255, 0.72) solid"}}>
+                        <Link to={'/'} style={{padding:"0"}}>
+                            <a className="nav-link active navbar-brand" style={{padding: 0}} href="#">
+                                <img className={'logo'} src={showInverted ? logo : logoInverted} style={{width: !showInverted && "258px",height:!showInverted && "93px"}}/>
                             </a>
                         </Link>
-                        <ul className={'nav justify-content-end'}>
+                        <ul className={'nav justify-content-end'} style={{display:"flex",gap:"36px"}}>
+                            <HeaderDropdown domains={domains}/>
+
+                            <li>
+                            <Link to={'/amritseries'}><a className="nav-link" style={{fontSize:"18px"}} href="/amritseries">Success Stories</a></Link>
+                            </li>
+                            <li>
+                                <a className="nav-link" href="https://tech.samagragovernance.in" style={{fontSize:"18px"}}>Tech and Data</a>
+                            </li>
+                            <li>
+                                <Link to={'/'}><a className="nav-link" href="/" style={{fontSize:"18px"}}>About Us</a></Link>
+                            </li>
+                            <li>
+                                <Link to={'/'}><a className="nav-link" href="/" style={{fontSize:"18px"}}>Governance</a></Link>
+                            </li>
+                            <li>
+                                <Link to={'/c4gt'}><a className="nav-link" href="/c4gt" style={{fontSize:"18px"}}>Events and Initiatives</a></Link>
+                            </li>
+                        </ul>
+                        {/* <ul className={'nav justify-content-end'}>
                             <HeaderDropdown domains={domains}/>
 
                             <li>
@@ -86,36 +106,36 @@ const Navbar = class extends React.Component {
                             </li>
                             <li>
                                 <Link to={'/governanceframeworks'}><a className="nav-link" href="/governanceframeworks">Governance Frameworks</a></Link>
-                            </li>
+                            </li> */}
                             {/* <li>
                                 <Link to={'/casestudies'}><a className="nav-link" href="/casestudies">Case Studies</a></Link>
                             </li> */}
-                            <li>
+                            {/* <li>
                                 <Link to={'/amritseries'}><a className="nav-link" href="/amritseries">Amrit Series</a></Link>
                             </li>
-                            {/* <li>
-                                <Link to={'/c4gt'}><a className="nav-link" href="/c4gt">C4GT</a></Link>
-                            </li> */}
                             <li>
                                 <Link to={'/sushasan'}><a className="nav-link" href="/sushasan">Sushasan</a></Link>
                             </li>
                             <li>
+                                <Link to={'/c4gt'}><a className="nav-link" href="/c4gt">C4GT</a></Link>
+                            </li>
+                            <li>
                                 <Link to={'/team'}><a className="nav-link" href="/team">Team</a></Link>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <Link to={'/partners'}><a className="nav-link" href="/partners">Partners</a></Link>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <Link to={'/media'}><a className="nav-link" href="/media">Media</a></Link>
-                            </li>
+                            </li> */}
 
                             {/*<li>*/}
                             {/*    <Link to={'/blog'}><a className="nav-link" href="/blog">Blog</a></Link>*/}
                             {/*</li>*/}
-                            <li>
+                            {/* <li>
                                 <Link to={'/careers'}><a className="nav-link" href="/careers">Careers</a></Link>
                             </li>
-                        </ul>
+                        </ul> */}
                     </nav>
                 </div>
             </div>

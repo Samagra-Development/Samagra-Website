@@ -32,7 +32,7 @@ export const FooterComponent = ({}) => {
 
     return (
         <div className={'footer-wrapper'}>
-            <div style={{marginLeft:"80px",marginRight:"100px"}}>
+            <div style={{marginLeft:"14.35vh",marginRight:"14.35vh"}}>
                 <nav className="nav-wrapper nav justify-content-between align-items-center">
                     <div>
                     <div>
@@ -49,7 +49,7 @@ export const FooterComponent = ({}) => {
                     </a>
                     </div>
                     </div>
-                    <div className={'nav'} style={{display:"flex", gap:"32px", padding:"24px 0"}}>
+                    <div className={'nav'} style={{display:"flex", gap:"32px", padding:"30px 0"}}>
                         <div style={{display:"flex",flexDirection:"column", gap:"12px"}}>
                             <div className='footer-heading'>About Us</div>
                             <div>
@@ -100,9 +100,9 @@ export const FooterComponent = ({}) => {
                                     <div>
                                         <img className={'social-icons'} onClick={()=>{window.location.href="https://www.instagram.com/samagragovernance/?hl=en"}} src={instagramIconActive}/>
                                     </div>
-                                    {/* <div>
-                                        <img className={'social-icons'} onClick={()=>{window.location.href="https://www.instagram.com/samagragovernance/?hl=en"}} src={facebookIconActive}/>
-                                    </div> */}
+                                    <div>
+                                        <img className={'social-icons'} src={facebookIconActive}/>
+                                    </div>
                                     <div>
                                         <img className={'social-icons'} onClick={()=>{window.location.href="https://www.youtube.com/channel/UCfkXErS-f87xUQkmSKSC8bg"}} src={youtubeIconActive}/>
                                     </div>

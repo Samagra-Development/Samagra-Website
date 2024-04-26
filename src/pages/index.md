@@ -82,4 +82,23 @@ ourWork:
       - logo: /img/saral-logo-copy.png
     backgroundMap: /img/haryana-map.png
     description2: Transforming scheme and service delivery for 2.7 Cr citizens in Haryana
+ourJourney:
+  - subHeading: 15+ Programs
+    description: Across geographies and domains
+    image: /img/programs.png
+  - subHeading: 7 Domains
+    description: Our impactful work spans across domains like health, education, agriculture, skilling, employment and public service delivery among others
+    image: /img/domains.png
+  - subHeading: 7 Governments
+    description: Empowered by a track record of partnership with governments (including state & central)
+    image: /img/government.png
+  - subHeading: 125+ Team
+    description: Dynamic team of young professionals, each driven by a passion for innovation and excellence
+    image: /img/team.png
+  - subHeading: 25 Implementation Partners
+    description: We collaborate with technical experts to execute quality implementation at scale
+    image: /img/implementation_partner.png
+  - subHeading: 50 mn Lives Impacted
+    description: In collaboration with governments and partners, we have transformed the lives of farmers, students, teachers and many more
+    image: /img/live_impacted.png
 ---

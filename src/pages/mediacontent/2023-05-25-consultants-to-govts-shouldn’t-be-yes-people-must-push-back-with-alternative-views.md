@@ -12,5 +12,6 @@ link: >-
 tag: ' Samagra'
 displayOnHomePage: true
 image: /img/new-feature-image-20.png
+linkButtonText: Read Now
 ---
 

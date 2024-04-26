@@ -1,9 +1,7 @@
 @import "./variable";
 
 .home-news-section-wrapper {
-  border-bottom: 1px solid #efefef;
-  padding-bottom: 40px;
-  text-align: center;
+  margin: 10vh;
 
   .title {
     font-size: 50px;
@@ -87,23 +85,45 @@
   }
 }
 
+.news-page-indicator-active {
+  background: #DE6E3D !important;
+}
+
+.news-page-indicator {
+  width: 10px;
+  height: 10px;
+  background: #eeeeee;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.news-bullets {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100% !important;
+  justify-content: flex-end;
+  padding: 10px 40px 50px 10px;
+}
+
 
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes smoothScaleIn {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.02);
-  }
-}
+// @-webkit-keyframes smoothScaleIn {
+//   from {
+//     transform: scale(1);
+//   }
+//   to {
+//     transform: scale(1.02);
+//   }
+// }
 
-/* Standard syntax */
-@keyframes smoothScaleIn {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.02);
-  }
-}
+// /* Standard syntax */
+// @keyframes smoothScaleIn {
+//   from {
+//     transform: scale(1);
+//   }
+//   to {
+//     transform: scale(1.02);
+//   }
+// }

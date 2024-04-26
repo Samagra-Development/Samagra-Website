@@ -8,7 +8,7 @@ const OurMissionSection = ({data, isMobile}) => {
         className={"home-top-slider-wrapper home-page-font"}
         style={{ background: "#444444"}}
       >
-        <div className="video-background">
+        <div className="video-background"> 
           <video
             controls={false}
             muted
@@ -37,7 +37,7 @@ const OurMissionSection = ({data, isMobile}) => {
           </div>
         </div>
       </div>
-      <div style={{ margin: "81px" }}>
+      <div style={{ margin: "7vh" }}>
         <div className="section-heading">{data?.ourMission?.title}</div>
         <div className="section-description">{data?.ourMission?.description}</div>
       </div>

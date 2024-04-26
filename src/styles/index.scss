@@ -184,7 +184,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New','rubik',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New','rubik','noto sans',
     monospace;
 }
 
@@ -201,11 +201,20 @@ code {
   src: url('../fonts/Rubik-VariableFont_wght.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'noto sans';
+  src: url('../fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
 * {
   font-family: 'Proxima Nova Regular' ;
 }
 
 #home-page-font div, #home-page-font span, #home-page-font p{
+  font-family: 'noto sans' !important;
+}
+
+#navbar-text{
   font-family: 'rubik' !important;
 }
 

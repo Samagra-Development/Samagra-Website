@@ -26,14 +26,15 @@ function OurWorkSection({workContent, isMobile}) {
       <div
         style={{
           backgroundColor: "#F2E5CA",
-          padding: "24px 0",
-          marginBottom: "55px",
+          padding: "7.5vh",
+          marginTop: "12.35vh",
+          marginBottom: "9.5vh",
         }}
       >
         <div className="section-heading">Our Work</div>
         <div className="section-description">{workContent?.ourWorkDescription}</div>
-        <div style={{ width: "100%", display: "grid",gridTemplateColumns: gridFlow ? "1fr":"1fr 1fr",
-        justifyItems:"center"
+        <div style={{ width: "100%", display: "grid", gridTemplateColumns: gridFlow ? "1fr":"1fr 1fr",
+        justifyItems:"center", marginTop:"7.5vh"
         }}>
             <OurWorkCard
             marginTop={"0px"}
@@ -42,7 +43,7 @@ function OurWorkSection({workContent, isMobile}) {
                 isMobile={isMobile}
             />
             <OurWorkCard
-               marginTop={gridFlow?"0px":"120px"}
+               marginTop={gridFlow?"0px":"16vh"}
                marginBottom={"20px"}
               data={workContent?.ourWork[1]}
               isMobile={isMobile}
@@ -54,7 +55,7 @@ function OurWorkSection({workContent, isMobile}) {
               isMobile={isMobile}
             />
             <OurWorkCard
-               marginTop={gridFlow?"0px":"120px"}
+               marginTop={gridFlow?"0px":"16vh"}
                marginBottom={"20px"}
               data={workContent?.ourWork[3]}
               isMobile={isMobile}

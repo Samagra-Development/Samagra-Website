@@ -17,9 +17,9 @@ export class OurModelSection extends React.Component {
     console.log("jkjkjkjkjkjk",homeContent, isMobile)
     return (
       <div className={'home-second-section-wrapper'}>
-        <div style={{backgroundColor:"#F2E5CA", padding:"42px 55px 66px 55px",margin:"46px 0 105px 0"}}>
+        <div style={{backgroundColor:"#F2E5CA", padding:"5vh",margin:"9.5vh 0"}}>
           <div className='section-heading'>{homeContent?.ourModel?.title}</div>
-          <div style={{display:"flex",flexDirection:isMobile ? "column" : "row", gap:"77px", padding:"48px 0"}}>
+          <div style={{display:"flex",flexDirection:isMobile ? "column" : "row", gap:"7.4vh", padding:"5vh 10vh"}}>
             <div style={{display:"flex", gap:"32px", flex:"1"}}>
               <div><img style={{background:"#ffffff", borderRadius:"4px", padding:"8px"}} src={whoWeAre} alt="Sticky Icon" /></div>
               <div style={{textAlign:"start"}}>
@@ -35,24 +35,24 @@ export class OurModelSection extends React.Component {
               </div>
             </div>
           </div>
-          <div className={'image-section'} style={{paddingTop:"24px"}}>
-            <div className="image-background-section" style={{ border: !isMobile ? "solid #ffffff 4px" : "none", borderRadius:"24px"}}>
+          <div className={'image-section'} style={{padding:isMobile ?"2.5vh 0":"0 13.5vw"}}>
+            <div className="image-background-section" style={{ border: !isMobile ? "solid rgba(208, 156, 10, 1) 4px" : "none", borderRadius:"19.26px"}}>
             <iframe
               className={'home-second-section-iframe'}
               src={homeContent?.ourModel?.ourModelVideoLink}
-              style={{borderRadius:"24px", padding:"16px", minWidth: "300px",minHeight:"180px", height:"54vw",width:"100%"}}
+              style={{borderRadius:"23px", padding:"16px", minWidth: "300px",minHeight:"180px", height:"40vw",width:"100%"}}
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen></iframe>
            </div>
           </div>
         </div>
-        <SectionDivider />
-        <div style={{position:"relative"}}><div style={{marginTop:"32px", padding:"64px 0"}}>
+        {/* <SectionDivider /> */}
+        <div style={{position:"relative"}}><div style={{margin:"9.6vh 0"}}>
           <div className='section-heading'>{homeContent?.ourApproach?.title}</div>
-          <div className='section-description' style={{ padding:isMobile? "16px 24px 48px 24px":"16px 124px 48px 124px"}}>{homeContent?.ourApproach?.description}</div>
-          <div style={{ display:"flex", alignItems:"center",justifyContent:"center",width:"100%"}}>
-            <div style={{width:"54vw",height:"45vw"}}>
+          <div className='section-description' style={{ padding:isMobile? "24px":"2.5vh 200px"}}>{homeContent?.ourApproach?.description}</div>
+          <div style={{ display:"flex", alignItems:"center",justifyContent:"center",width:"100%", paddingTop:"4vh"}}>
+            <div style={{width:"48vw",height:"39vw"}}>
                 <video
                   autoPlay 
                   muted 

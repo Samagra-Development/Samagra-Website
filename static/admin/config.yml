@@ -327,6 +327,7 @@ collections:
           required: false,
         }
       - { label: 'Image', name: 'image', widget: image }
+      - { label: 'Link Button Text', name: 'linkButtonText', widget: 'string', required: false, default: "" }
   - name: 'project'
     label: 'Projects'
     folder: 'src/pages/project'
@@ -643,6 +644,25 @@ collections:
                   },
                   { label: 'Background Map', name: 'backgroundMap', widget: image},
                   { label: Description2, name: description2, widget: string },
+                ],
+            }
+          - {
+              label: 'Our Journey', 
+              name: ourJourney, 
+              widget: list,
+              fields:
+                [
+                  {
+                    label: 'Sub Heading',
+                    name: 'subHeading',
+                    widget: string,
+                  },
+                  {
+                    label: 'Description',
+                    name: 'description',
+                    widget: string,
+                  },
+                  { label: 'Image', name: image, widget: image },
                 ],
             }
       - file: 'src/pages/team/index.md'
