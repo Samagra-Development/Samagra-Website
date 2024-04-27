@@ -1,44 +1,62 @@
 import React, {useState} from "react";
 import {graphql, StaticQuery} from "gatsby";
-import Swiper from "react-id-swiper";
-import LinkIcon from "../../../img/external-link.png"
 
 export const HomeNewsSection = ({data}) => {
-        const params = {
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-                clickable: true,
-                bulletClass: 'life-at-samagra-page-indicator',
-                bulletActiveClass: 'life-at-samagra-page-indicator-active',
-                clickableClass: 'life-at-samagra-bullets'
-            },
-            slidesPerView: 1,
-            autoplay: { // Enable autoplay (might require additional configuration)
-                delay: 4000, // Set autoplay delay (in milliseconds)
-                disableOnInteraction: false, // Allow user interaction to pause/resume
-            },
-            loop: true
-        };
-    
+    const newsObjects = [
+        // {
+        //     image: news1Image,
+        //     text: 'Let’s step up efforts to get professionals' +
+        //         'in governance',
+        //     aligned: 'right',
+        //     link: 'https://www.livemint.com/opinion/online-views/opinion-let-s-step-up-efforts-to-get-professionals-in-governance-1562089477115.html',
+        //     timestamp: '02-Jul-2019'
+        // }, {
+        //     image: news2Image,
+        //     text: 'How this social enterprise is helping the Odisha govt boost agricultural productivity in the State',
+        //     link: 'https://yourstory.com/socialstory/2019/06/agritech-startup-samagra-odisha-government-productivity',
+        //     timestamp: '28-Jun-2019'
+        // }, {
+        //     image: news3Image,
+        //     text: 'Employment to Agriculture: Meet the Startup Helping States Revolutionise Governance',
+        //     link: 'https://www.thebetterindia.com/173957/startup-governance-farmers-job-haryana-odisha/',
+        //     timestamp: '4-Mar-2019'
+        // }
+    ];
+    const [hoveredIndex, setHoveredIndex] = useState(
+        -1
+    );
     const {allMarkdownRemark: mediaPageContent} = data;
     const media = mediaPageContent.edges;
     return (
         <div className={'home-news-section-wrapper'}>
-            <Swiper {...params} ContainerEl={'div'}>
-                        {
-                            media.map((item, index) => {
-                                return <div key={index} style={{width: '100%', padding:"6vh 10vh", display:"flex", flexDirection:"column", gap:"36px",background:"#D09C0A",borderRadius:"29px"}}>
-                                    <div style={{display:"flex",justifyContent:"space-between",gap:"12px"}}>
-                                        <div style={{color:"#ffffff", fontSize:"28px", lineHeight:"42px", fontWeight:"500",whiteSpace:"nowrap",overflow:"hidden",textOverflow:"ellipsis"}}>{item.node.frontmatter.title}</div>
-                                        <div><button style={{width:"160px",display:"flex",gap:"4px",alignItems:"center",color:"#D09C0A",fontSize:"18px",fontWeight:"400",background:"#ffffff", border:"none",borderRadius:"4px",padding:"4px 8px"}}><span>{item.node.frontmatter.linkButtonText}</span><img src={LinkIcon}/>
-                                        </button></div>
+            <div className={'title'}>
+                Samagra in News
+            </div>
+            <div className={'cards-section'}>
+                {
+                    media.map((news, index) => {
+                        return <a href={news.node.frontmatter.link} target="_blank">
+                            <div
+                                className={`card-wrapper ${hoveredIndex === index ? 'hovered' : ''} `}
+                                onMouseLeave={() => setHoveredIndex(-1)}
+                                onMouseEnter={() => setHoveredIndex(index)}>
+                                <div className={`image-section`}
+                                     style={{backgroundImage: `url(${
+                                             !!news.node.frontmatter.image.childImageSharp ? news.node.frontmatter.image.childImageSharp.fluid.src : news.node.frontmatter.image
+                                     })`}}/>
+                                <div className={'content-section'}>
+                                    <div className={'heading'} style={{minHeight: '40px'}}>
+                                        {news.node.frontmatter.title}
                                     </div>
-                                    <div style={{width:"146vh", height:"63.5vh"}}><img src={item?.node?.frontmatter?.image?.childImageSharp?.fluid?.src} width={"100%"} height={"100%"} style={{borderRadius:"16px"}}/></div>
+                                    <div className={'timestamp'}>
+                                        {news.node.frontmatter.date}
+                                    </div>
                                 </div>
-                            })
-                        }
-                    </Swiper>
+                            </div>
+                        </a>
+                    })
+                }
+            </div>
         </div>
     )
 };
