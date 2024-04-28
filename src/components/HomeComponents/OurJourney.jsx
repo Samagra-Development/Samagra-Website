@@ -24,16 +24,16 @@ function OurJourneySection({content, isMobile}) {
     <>
       <div
         style={{
-          margin: "9.5vh 0"
+          margin: "7.5vh 0"
         }}
       >
         <div className='section-heading'>Our Journey</div>
-        <div style={{width:"100%",display:"grid", gridTemplateColumns: isMobile? "1fr":gridFlow?"1fr 1fr":"1fr 1fr 1fr", columnGap:"7.5vh",rowGap:"2.5vh",padding:"24px 124px 0"}}>
+        <div className="textFade" style={{width:"100%",display:"grid", gridTemplateColumns: (!gridFlow)? "1fr 1fr 1fr":"1fr 1fr", columnGap:"6vw",rowGap:"5vh",padding:"48px 8.6vw 0"}}>
         {content?.ourJourney?.map((item,i)=>{
-            return <div key={i} style={{marginTop:"24px",marginBottom:"24px",display:"flex",flexDirection:"column",gap:"8px"}}>
-            <div><img src={item?.image?.childImageSharp ? (item?.image?.childImageSharp?.fluid?.src) : item?.image}/></div>
-            <div style={{color:"#D09C0A",fontSize:"25px",lineHeight:"33px"}}>{item.subHeading}</div>
-            <div style={{fontSize:"22px",lineHeight:"33px"}}>{item.description}</div>
+            return <div key={i} style={{display:"flex",flexDirection:"column",textAlign:"center"}}>
+            <div style={{paddingBottom:"8px"}}><img src={item?.image?.childImageSharp ? (item?.image?.childImageSharp?.fluid?.src) : item?.image}/></div>
+            <div className="our-model-sub-heading" style={{color:"#D09C0A"}}>{item.subHeading}</div>
+            <div className="our-model-description">{item.description}</div>
         </div>
         })}
         </div>

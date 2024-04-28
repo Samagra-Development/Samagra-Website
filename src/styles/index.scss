@@ -23,6 +23,7 @@
 @import './CustomPagerButton';
 @import './TestimonialSlider';
 @import './HeaderSmall';
+@import './HomePageUpdated';
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
 .media-page-banner {
@@ -210,7 +211,7 @@ code {
   font-family: 'Proxima Nova Regular' ;
 }
 
-#home-page-font div, #home-page-font span, #home-page-font p{
+#home-page-font div, #home-page-font span, #home-page-font p, #home-page-font button{
   font-family: 'noto sans' !important;
 }
 

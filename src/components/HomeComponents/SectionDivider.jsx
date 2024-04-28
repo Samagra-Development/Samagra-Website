@@ -5,7 +5,7 @@ const SectionDivider = () => {
     <div
         style={{
           height: '.25rem',
-          width: '20vw',
+          width: '17.68vw',
           backgroundColor: "#D09C0A",
           margin: '24px auto',
           borderRadius: "4px",

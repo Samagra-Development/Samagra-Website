@@ -73,13 +73,13 @@ const Navbar = class extends React.Component {
         return (
             <div className={`header-wrapper  ${showInverted ? 'inverted-fixed' : ''} `}>
                 <div>
-                    <nav id='navbar-text' className="nav-wrapper nav justify-content-between align-items-center" style={{padding:"10px 0", margin:"0 132px",borderBottom:"1px rgba(255, 255, 255, 0.72) solid"}}>
+                    <nav id='navbar-text' className="nav-wrapper nav justify-content-between align-items-center" style={{padding:"10px 0", margin:"0 108px",borderBottom:"1px rgba(255, 255, 255, 0.72) solid"}}>
                         <Link to={'/'} style={{padding:"0"}}>
-                            <a className="nav-link active navbar-brand" style={{padding: 0}} href="#">
+                            <a className="nav-link active navbar-brand" style={{padding: "0"}} href="#">
                                 <img className={'logo'} src={showInverted ? logo : logoInverted} style={{width: !showInverted && "258px",height:!showInverted && "93px"}}/>
                             </a>
                         </Link>
-                        <ul className={'nav justify-content-end'} style={{display:"flex",gap:"36px"}}>
+                        <ul className={'nav justify-content-end'} style={{display:"flex",gap:"8px"}}>
                             <HeaderDropdown domains={domains}/>
 
                             <li>

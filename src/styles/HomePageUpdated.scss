@@ -1,0 +1,227 @@
+.home-top-gif {
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+
+    .video-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+  
+    .translucent-dark-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.5);
+    }
+  
+    .slider-content {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+  
+        .title {
+          color: white;
+          font-size: 7.7vw;
+          line-height: 7.7vw;
+          font-weight: 600;
+          position: absolute;
+          top: calc(50vh - 120px);
+          right: 0;
+          left: 0;
+          -webkit-animation-name: textFade; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 1.2s; /* Safari 4.0 - 8.0 */
+            animation-name: textFade;
+            animation-duration: 1.2s;
+  
+        }
+
+        @media screen and (min-width: 769px) and (max-width: 1200px)  {
+            .title {
+              top: calc(50vh - 80px);
+            }
+          }
+          
+          @media screen and (max-width: 769px)  {
+            .title {
+              top: calc(50vh - 54px);
+            }
+          }
+
+    }
+    
+  }
+
+  .our-mission{
+    margin: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding: 0 22vw;
+  }
+  .section-heading{
+    font-size:2.5vw;
+    line-height: 2.5vw;
+     font-weight: 700;
+      color:#294294;
+      text-align: center;
+  }
+
+  .section-description{
+     font-size:1.4vw;
+     line-height: 132%;
+      font-weight: 400;
+      text-align: center;
+  }
+
+  .sticky-icon-container {
+    position: fixed;
+    bottom: 28px; /* Adjust this value to change the distance from the bottom */
+    right: 6vw; /* Adjust this value to change the distance from the right */
+    z-index: 1000; /* Ensure it's above other content */
+    cursor: pointer;
+  }
+  
+  .sticky-icon {
+    width: 50px; /* Adjust icon width */
+    height: 50px; /* Adjust icon height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sticky-icon img {
+    width: 80%; /* Adjust icon size */
+    height: auto;
+  }
+
+  .our-model-section{
+    padding: 8vh;
+    background-color:#F2E5CA;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    justify-content: center;
+  }
+
+  .our-model-description{
+    font-size:1.35vw;
+    font-weight:400;
+     line-height:160%;
+     letter-spacing: 2%;
+  }
+
+  .our-model-sub-heading{
+    font-size:1.95vw;
+    font-weight:600;
+    line-height: 160%;
+    letter-spacing: 2%;
+     color:#775B0F;
+      padding-bottom:4px;
+  }
+
+  .model-sub-section{
+    display:flex;
+     gap:32px; 
+     flex:1;
+     text-align: start;
+  }
+
+  .our-model-video{
+    border-radius:19.23px; 
+    padding:13px; 
+    min-width: 300px;
+    min-height:180px; 
+    // height: 60vh;
+  width: 100%;
+  aspect-ratio: 9/5;
+    
+  }
+
+  @keyframes slide-in {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  /* Apply the animation to the text */
+  .animated-text {
+    animation: slide-in 1s ease-in-out;
+  }
+  
+  .textFade{
+    -webkit-animation-name: textFade; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1.2s; /* Safari 4.0 - 8.0 */
+    animation-name: textFade;
+    animation-duration: 1.2s;
+  }
+
+  /* Safari 4.0 - 8.0 */
+@-webkit-keyframes textFade {
+    from {
+      opacity: 0;
+    }
+    to {
+  
+      opacity: 1;
+    }
+  }
+  
+  /* Standard syntax */
+  @keyframes textFade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .news-section{
+    margin: 10vh 15vw;
+  }
+
+  .home-page-indicator-active {
+    background: #DE6E3D !important;
+  }
+  
+  .home-page-indicator {
+    width: 10px;
+    height: 10px;
+    background: #eeeeee;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 4px;
+    cursor: pointer;
+  }
+  
+  .home-page-bullets {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100% !important;
+    justify-content: center;
+    // padding: 0 100px 40px 10px;
+  }
+
+  .swiper-news-pagination {
+    bottom: 0px !important;
+    padding: 20px;
+  }
+  
+
+  

@@ -26,15 +26,13 @@ function OurWorkSection({workContent, isMobile}) {
       <div
         style={{
           backgroundColor: "#F2E5CA",
-          padding: "7.5vh",
-          marginTop: "12.35vh",
-          marginBottom: "9.5vh",
+          padding: "9vh 2.5vh",
         }}
-      >
-        <div className="section-heading">Our Work</div>
-        <div className="section-description">{workContent?.ourWorkDescription}</div>
+      ><div style={{display:"flex",flexDirection:"column",gap:"20px"}}><div className="section-heading">Our Work</div>
+      <div className="section-description">{workContent?.ourWorkDescription}</div></div>
+        
         <div style={{ width: "100%", display: "grid", gridTemplateColumns: gridFlow ? "1fr":"1fr 1fr",
-        justifyItems:"center", marginTop:"7.5vh"
+        justifyItems:"center", marginTop:"8vh"
         }}>
             <OurWorkCard
             marginTop={"0px"}
@@ -43,19 +41,19 @@ function OurWorkSection({workContent, isMobile}) {
                 isMobile={isMobile}
             />
             <OurWorkCard
-               marginTop={gridFlow?"0px":"16vh"}
+               marginTop={gridFlow?"0px":"14vh"}
                marginBottom={"20px"}
               data={workContent?.ourWork[1]}
               isMobile={isMobile}
             />
             <OurWorkCard
-             marginTop={"0px"}
+             marginTop={"2vh"}
              marginBottom={"20px"}
               data={workContent?.ourWork[2]}
               isMobile={isMobile}
             />
             <OurWorkCard
-               marginTop={gridFlow?"0px":"16vh"}
+               marginTop={gridFlow?"0px":"14vh"}
                marginBottom={"20px"}
               data={workContent?.ourWork[3]}
               isMobile={isMobile}

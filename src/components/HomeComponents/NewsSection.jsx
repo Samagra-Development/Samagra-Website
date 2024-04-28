@@ -6,12 +6,12 @@ import LinkIcon from "../../img/external-link.png"
 export const NewsSection = ({data}) => {
         const params = {
             pagination: {
-                el: '.swiper-pagination',
+                el: '.swiper-news-pagination',
                 type: 'bullets',
                 clickable: true,
-                bulletClass: 'life-at-samagra-page-indicator',
-                bulletActiveClass: 'life-at-samagra-page-indicator-active',
-                clickableClass: 'life-at-samagra-bullets'
+                bulletClass: 'home-page-indicator',
+                bulletActiveClass: 'home-page-indicator-active',
+                clickableClass: 'home-page-bullets'
             },
             slidesPerView: 1,
             autoplay: { // Enable autoplay (might require additional configuration)
@@ -24,18 +24,22 @@ export const NewsSection = ({data}) => {
     const {allMarkdownRemark: mediaPageContent} = data;
     const media = mediaPageContent.edges;
     return (
-        <div className={'home-news-section-wrapper'}>
+        <div className={'news-section'}>
             <Swiper {...params} ContainerEl={'div'}>
                         {
                             media.map((item, index) => {
-                                return <div key={index} style={{width: '100%', padding:"6vh 10vh", display:"flex", flexDirection:"column", gap:"36px",background:"#D09C0A",borderRadius:"29px"}}>
-                                    <div style={{display:"flex",justifyContent:"space-between",gap:"12px"}}>
-                                        <div style={{color:"#ffffff", fontSize:"28px", lineHeight:"42px", fontWeight:"500",whiteSpace:"nowrap",overflow:"hidden",textOverflow:"ellipsis"}}>{item.node.frontmatter.title}</div>
-                                        <div><button style={{width:"160px",display:"flex",gap:"4px",alignItems:"center",color:"#D09C0A",fontSize:"18px",fontWeight:"400",background:"#ffffff", border:"none",borderRadius:"4px",padding:"4px 8px"}}><span>{item.node.frontmatter.linkButtonText}</span><img src={LinkIcon}/>
+                                return <div key={index} style={{padding:"0 3.5vw"}}>
+                                    <div style={{width: '100%', padding:"3vw 3.5vw", display:"flex", flexDirection:"column", gap:"27px",background:"#D09C0A",borderRadius:"29px"}}>
+                                    <div style={{display:"flex",justifyContent:"space-between",gap:"34px",maxHeight:"92px"}}>
+                                        <div className="our-model-sub-heading" style={{flex:"3.5",color:"#ffffff", fontWeight:"700",paddingBottom:"0",overflow:"hidden"}}>{item.node.frontmatter.title}</div>
+                                        <div style={{flex:"1"}}><button style={{display:"flex",gap:"4px",alignItems:"center",color:"#D09C0A",fontSize:"1.25vw",fontWeight:"400",lineHeight:"2vw",background:"#ffffff", border:"none",borderRadius:"4px",padding:"4px 8px"}}
+                                        onClick={()=>{
+                                            window.location.href=`${item.node.frontmatter.link}`
+                                        }}><span>{item.node.frontmatter.linkButtonText}</span><img src={LinkIcon}/>
                                         </button></div>
                                     </div>
-                                    <div style={{width:"146vh", height:"63.5vh"}}><img src={item?.node?.frontmatter?.image?.childImageSharp?.fluid?.src} width={"100%"} height={"100%"} style={{borderRadius:"16px"}}/></div>
-                                </div>
+                                    <div style={{width:"55.5vw"}}><img src={item?.node?.frontmatter?.image?.childImageSharp?.fluid?.src} width={"100%"} style={{borderRadius:"16px",aspectRatio:"1.85"}}/></div>
+                                </div></div>
                             })
                         }
                     </Swiper>

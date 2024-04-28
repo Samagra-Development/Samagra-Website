@@ -4,8 +4,7 @@ const OurMissionSection = ({data, isMobile}) => {
   return (
     <>
       <div
-        className={"home-top-slider-wrapper home-page-font"}
-        style={{ background: "#444444"}}
+        className={"home-top-gif"}
       >
         <div className="video-background"> 
           <video
@@ -27,16 +26,14 @@ const OurMissionSection = ({data, isMobile}) => {
         <div className="translucent-dark-overlay" />
         <div className={"container"}>
           <div className={"slider-content"}>
-            <div className={"left-text-section"}>
-              <div className={`title visible`} >
+              <div className={`title`} >
                 <div>{data?.baseBanner?.titleLines[0].text} </div>
                 <div>{data?.baseBanner?.titleLines[1].text}</div>
               </div>
-            </div>
           </div>
         </div>
       </div>
-      <div style={{ margin: "7vh" }}>
+      <div className='our-mission'>
         <div className="section-heading">{data?.ourMission?.title}</div>
         <div className="section-description">{data?.ourMission?.description}</div>
       </div>

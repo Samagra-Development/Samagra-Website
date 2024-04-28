@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
   const [isFlipped, setIsFlipped] = useState(false);
-
-  console.log("hjhjjhjhj",data)
 
   const handleMouseEnter = () => setIsFlipped(()=>true);
   const handleMouseLeave = () => setIsFlipped(()=>false);
@@ -19,9 +17,9 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         style={{
-          borderRadius: "8px",
-          height: isMobile ? "auto" :"910px",
-          width: isMobile? "auto":"590px",
+          borderRadius: "10px",
+          height: isMobile ? "auto" :"842px",
+          width: isMobile? "auto":"568px",
           background: "#ffffff",
           padding: "24px",
           marginTop: isMobile? "24px" :marginTop,
@@ -31,13 +29,13 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
         {isFlipped ? (
           <div
             style={{
-              borderRadius: "8px",
-              minWidth:isMobile?"auto":"542px",
-              minHeight:isMobile?"auto":"604px",
+              borderRadius: "10px",
+              minWidth:isMobile?"auto":"520px",
+              minHeight:isMobile?"auto":"583px",
               border: "solid 4px #D09C0A",
               display: "flex",
               flexDirection: "column",
-              justifyContent: "center",
+              justifyContent: "space-between",
               alignItems: "center",
               padding: "24px",
             }}
@@ -59,11 +57,8 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
               {data?.workLogo[1] && <img width={"45%"} src={data?.workLogo[1]?.logo?.childImageSharp?.fluid?.src ? (data?.workLogo[1]?.logo?.childImageSharp?.fluid?.src) : data?.workLogo[1]?.logo} />}
             </div>
             <div
-            className="section-description"
-              style={{
-                lineHeight: isMobile?"24px":"38px",
-                fontWeight: "400",
-              }}
+            className="our-model-sub-heading"
+            style={{textAlign:"center",maxHeight:"188px",overflow:"hidden"}}
             >
               {data?.description2}
             </div>
@@ -76,7 +71,9 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
                 color: "#D09C0A",
                 background: "none",
                 width: "66%",
+                fontWeight:"500"
               }}
+              className="section-description"
               onClick={()=>{
                 window.location.href= getProjectUrl(data?.projectName[0]?.project) 
               }}
@@ -93,7 +90,9 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
                   color: "#D09C0A",
                   background: "none",
                   width: "66%",
+                  fontWeight:"500"
                 }}
+                className="section-description"
                 onClick={()=>{
                   window.location.href= getProjectUrl(data?.projectName[1]?.project) 
                 }}
@@ -104,10 +103,10 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
           </div>
         ) : (
           <div style={{
-          minWidth:isMobile?"auto":"542px",
-          minHeight:isMobile?"auto":"604px",}}>
-            <img src={data?.image?.childImageSharp?.fluid?.src ? (data?.image?.childImageSharp?.fluid?.src) : data?.image} alt="agri" style={{ width:isMobile?"100%":"542px",
-          height:isMobile?"auto":"604px",borderRadius: "10px" }} />
+          minWidth:isMobile?"auto":"520px",
+          minHeight:isMobile?"auto":"583px",}}>
+            <img src={data?.image?.childImageSharp?.fluid?.src ? (data?.image?.childImageSharp?.fluid?.src) : data?.image} alt="agri" style={{ width:isMobile?"100%":"520px",
+          height:isMobile?"auto":"583px",borderRadius: "10px" }} />
           </div>
         )}
 
@@ -116,7 +115,7 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
             style={{
               color: "#D09C0A",
               fontWeight: "400",
-              lineHeight: isMobile? "48px" : "56px",
+              lineHeight: "160%",
               textAlign:"left",
               padding: "0"
             }}
@@ -127,17 +126,17 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
           <div
             style={{
               color: "#D09C0A",
-              fontWeight: "500",
-              lineHeight: isMobile? "48px":"56px",
+              fontSize:"2.43vw",
+              fontWeight: "700",
+              lineHeight: "2.43vw",
               textAlign:"left",
               padding:"0"
             }}
-            className="section-heading"
           >
             {data?.titleLines[1]?.text}
           </div>
         </div>
-        <div style={{ fontSize: isMobile? "14px":"22px", lineHeight: isMobile?"22px":"34px" }}>
+        <div className="section-description" style={{maxHeight:"100px", lineHeight:"160%",textAlign:"start",overflow:"hidden" }}>
           {data?.description1}
         </div>
       </div>

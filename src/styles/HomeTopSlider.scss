@@ -32,9 +32,9 @@
 
       .title {
         color: white;
-        font-size: 112px;
-        line-height: 112px;
-        font-weight: 500;
+        font-size: 100px;
+        line-height: 121px;
+        font-weight: 600;
         margin: 174px 0;
         margin-top: calc(50vh - 220px);
         opacity: 0;
@@ -66,23 +66,14 @@
 
     }
   }
-  @media screen and (min-width: 769px) and (max-width: 1200px)  {
-    .title {
-      font-size: 80px !important;
-      line-height: 84px !important;
-      margin-top: calc(50vh - 160px);
-    }
-  }
-  
-  @media screen and (max-width: 769px)  {
-    .title {
-      font-size: 52px !important;
-      line-height: 52px !important;
-      margin-top: calc(50vh - 104px);
-    }
-  }
+
 
   @media only screen and (max-width: 980px) {
+    .title {
+      font-size: 50px !important;
+      line-height: 60px !important;
+      margin: 80px 0 !important;
+    }
     .slider-wrapper {
       height: 400px !important;
       padding-left: 0 !important;
@@ -108,68 +99,6 @@
       }
     }
   }
-}
-
-.section-heading{
-  padding: 2.5vh;
-  font-size:36px;
-  line-height: 36px;
-   font-weight: 700;
-    text-align: center;
-    color:#294294;
-}
-
-.section-description{
-  padding:2.5vh;
-   font-size:24px;
-   line-height: 132%;
-    font-weight: 400;
-     text-align: center;
-}
-
-// @media screen and (min-width: 769px) and (max-width: 1200px)  {
-//   .section-heading{
-//     font-size:48px;
-//     line-height: 48px;
-//   }
-  
-//   .section-description{
-//      font-size:24px;
-//      line-height: 132%;
-//   }
-// }
-
-// @media screen and (max-width: 769px)  {
-//   .section-heading{
-//     font-size:40px;
-//     line-height: 40px;
-//   }
-  
-//   .section-description{
-//      font-size:18px;
-//      line-height: 132%;
-//   }
-// }
- 
-.sticky-icon-container {
-  position: fixed;
-  bottom: 28px; /* Adjust this value to change the distance from the bottom */
-  right: 28px; /* Adjust this value to change the distance from the right */
-  z-index: 1000; /* Ensure it's above other content */
-  cursor: pointer;
-}
-
-.sticky-icon {
-  width: 50px; /* Adjust icon width */
-  height: 50px; /* Adjust icon height */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.sticky-icon img {
-  width: 80%; /* Adjust icon size */
-  height: auto;
 }
 
 /* Safari 4.0 - 8.0 */

@@ -6,47 +6,8 @@
 }
 
 .home-second-section-wrapper {
+  padding: 50px 0;
   text-align: center;
-
-  .our-model-description{
-    font-size:22px;
-    font-weight:400;
-     line-height:34px;
-     letter-spacing: 2%;
-  }
-  
-  .our-model-sub-heading{
-    font-size:30px;
-    font-weight:600;
-    line-height: 160%;
-    letter-spacing: 2%;
-     color:#775B0F;
-      padding-bottom:4px;
-  }
-  
-  // @media screen and (min-width: 769px) and (max-width: 1200px)  {
-  //   .our-model-description{
-  //     font-size:20px;
-  //      line-height:160%;
-  //   }
-    
-  //   .our-model-sub-heading{
-  //     font-size:31.5px;
-  //     line-height: 160%;
-  //   }
-  // }
-  
-  // @media screen and (max-width: 769px)  {
-  //   .our-model-description{
-  //     font-size:16px;
-  //      line-height:160%;
-  //   }
-    
-  //   .our-model-sub-heading{
-  //     font-size:28px; 
-  //     line-height: 160%;
-  //   }
-  // }
 
   .title {
     font-size: 32px;
@@ -372,8 +333,6 @@
     }
   }
 }
-
-
 
 
 /* Safari 4.0 - 8.0 */

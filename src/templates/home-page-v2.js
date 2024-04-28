@@ -7,10 +7,11 @@ import SectionDivider from "../components/HomeComponents/SectionDivider";
 import { animateScroll as scroll } from "react-scroll";
 import LinkedIn from "../img/linkedIn-icon.png"
 import OurMissionSection from "../components/HomeComponents/OurMission";
-import { OurModelSection } from "../components/HomeComponents/OurModel";
+import OurModelSection  from "../components/HomeComponents/OurModel";
 import OurWorkSection from "../components/HomeComponents/OurWork";
 import OurJourneySection from "../components/HomeComponents/OurJourney";
 import  NewsSection  from "../components/HomeComponents/NewsSection";
+import OurApproach from "../components/HomeComponents/OurApproach";
 
 export const HomePageTemplate = ({ parentDomains, data }) => {
   const [mobile, setMobile] = useState(false);
@@ -39,25 +40,29 @@ export const HomePageTemplate = ({ parentDomains, data }) => {
   };
 
   return (
-    <div id="home-page-font" style={{ fontFamily: "rubik" }}>
+    <div id="home-page-font">
       {data ? (
         <React.Fragment>
           <OurMissionSection data={data} isMobile={mobile}/>
-          {/* <SectionDivider /> */}
           <OurModelSection homeContent={data} isMobile={mobile}/>
+          <OurApproach homeContent={data} isMobile={mobile}/>
         </React.Fragment>
       ) : (
         <span />
       )}
-      {data?.ourWork && <OurWorkSection workContent={data} isMobile={mobile}/>}
-      <div style={{marginBottom:"12vh",display:"flex", justifyContent:"center",alignItems:"center", flexDirection:"column",gap:"16px"}}><div className="section-description">For the latest updates related to our work</div>
-      <button style={{background: "#0076B2",color:"#ffffff", borderRadius:"10px",padding:"8px 16px", border:"none", fontSize:"28px",lineHeight:"100%",display:"flex",justifyContent:"center",alignItems:"center",gap:"8px"}}
+      {data?.ourWork ? (
+        <OurWorkSection workContent={data} isMobile={mobile}/>
+      ) : (
+        <span />
+      )
+      }
+      <div style={{margin:"6.5vh",display:"flex", justifyContent:"center",alignItems:"center", flexDirection:"column",gap:"24px"}}><div className="our-model-description">For the latest updates related to our work</div>
+      <button style={{background: "#0076B2", borderRadius:"10px",padding:"8px 16px", border:"none",display:"flex",justifyContent:"center",alignItems:"center",gap:"8px"}}
       onClick={()=>{
         window.location.href="https://www.linkedin.com/company/samagra-transforming-governance/"
-      }}><img src={LinkedIn} alt="linkedIn" width={"36px"} height={"36px"}/><span>Follow us on LinkedIn</span></button></div>
+      }}><img src={LinkedIn} alt="linkedIn" width={"36px"} height={"36px"}/><span className="our-model-sub-heading" style={{paddingBottom:"0",color:"#ffffff"}}>Follow us on LinkedIn</span></button></div>
       <SectionDivider />
       <OurJourneySection content={data}/>
-      <SectionDivider />
       <NewsSection />
       <StickyIcon scrollToBottom={scrollToBottom} />
     </div>
