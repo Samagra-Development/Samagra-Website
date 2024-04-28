@@ -42,7 +42,7 @@ ourWork:
     titleLines:
     - text: Transforming
     - text: Agriculture   
-    description1: Our work in the agriculture domain spans xx years which has impacted the lives of xx {'<'}citizens e.g. farmers{'>'} in / across the state/s of xx.
+    description1: Our work in the agriculture domain spans xx years which has impacted the lives of xx <citizens e.g. farmers> in / across the state/s of xx.
     image: /img/agriculture.png
     workLogo:
       - logo: /img/konnect-logo.png

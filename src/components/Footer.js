@@ -3,10 +3,10 @@ import {Link} from 'gatsby'
 
 import logo from '../img/logo.svg'
 import logoColored from "../img/logo-colored.png";
-import facebookIconActive from "../img/footer-facebook-icon.png";
-import linkedInIconActive from "../img/footer-linkedin-icon.png";
-import youtubeIconActive from "../img/footer-youtube-icon.png";
-import instagramIconActive from "../img/footer-insta-icon.png";
+import facebookIconActive from "../img/footer-facebook-icon.svg";
+import linkedInIconActive from "../img/footer-linkedin-icon.svg";
+import youtubeIconActive from "../img/footer-youtube-icon.svg";
+import instagramIconActive from "../img/footer-insta-icon.svg";
 
 const Footer = class extends React.Component {
     render() {

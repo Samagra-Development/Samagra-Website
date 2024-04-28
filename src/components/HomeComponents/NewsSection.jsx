@@ -1,9 +1,26 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import {graphql, StaticQuery} from "gatsby";
 import Swiper from "react-id-swiper";
-import LinkIcon from "../../img/external-link.png"
+import LinkIcon from "../../img/external-link.svg"
 
 export const NewsSection = ({data}) => {
+    const [mobile, setMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        setMobile(true);
+      } else {
+        setMobile(false);
+      }
+    };
+    handleResize();
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }, []);
         const params = {
             pagination: {
                 el: '.swiper-news-pagination',
@@ -32,7 +49,7 @@ export const NewsSection = ({data}) => {
                                     <div style={{width: '100%', padding:"3vw 3.5vw", display:"flex", flexDirection:"column", gap:"27px",background:"#D09C0A",borderRadius:"29px"}}>
                                     <div style={{display:"flex",justifyContent:"space-between",gap:"34px",maxHeight:"92px"}}>
                                         <div className="our-model-sub-heading" style={{flex:"3.5",color:"#ffffff", fontWeight:"700",paddingBottom:"0",overflow:"hidden"}}>{item.node.frontmatter.title}</div>
-                                        <div style={{flex:"1"}}><button style={{display:"flex",gap:"4px",alignItems:"center",color:"#D09C0A",fontSize:"1.25vw",fontWeight:"400",lineHeight:"2vw",background:"#ffffff", border:"none",borderRadius:"4px",padding:"4px 8px"}}
+                                        <div style={{flex:"1"}}><button style={{display:"flex",gap:"4px",alignItems:"center",color:"#D09C0A",fontSize:`${mobile?"14px":"18px"}`,fontWeight:"400",lineHeight:"160%",background:"#ffffff", border:"none",borderRadius:"4px",padding:"4px 8px"}}
                                         onClick={()=>{
                                             window.location.href=`${item.node.frontmatter.link}`
                                         }}><span>{item.node.frontmatter.linkButtonText}</span><img src={LinkIcon}/>

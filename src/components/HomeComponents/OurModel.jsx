@@ -1,6 +1,6 @@
 import React from 'react';
-import whoWeAre from '../../img/home-page/who-we-are.png';
-import whatWeDo from '../../img/home-page/what-we-do.png';
+import whoWeAre from '../../img/home-page/who-we-are.svg';
+import whatWeDo from '../../img/home-page/what-we-do.svg';
 
 const OurModelSection = ({homeContent, isMobile}) =>{
   return (

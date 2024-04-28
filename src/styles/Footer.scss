@@ -12,7 +12,7 @@
   .nav-wrapper {
     .nav-link {
       color: $theme-text-normal;
-      font-size: 1.1vw !important;
+      font-size: 16px !important;
       padding-bottom: 6px !important;
 
       &.active {
@@ -22,11 +22,11 @@
 
     .address-line1 {
       text-align: left !important;
-      font-size: 1.1vw !important;
+      font-size: 16px !important;
       padding-bottom: 6px !important;
     }
     .footer-heading{
-      font-size: 1.3vw;
+      font-size: 18px;
       color: #D09C0A;
       padding-bottom: 6px;
       font-weight: 600;
@@ -36,7 +36,7 @@
   .bottom-copyright-section {
     text-align: center;
     color:  #1E2833;
-    font-size: 1.2vw;
+    font-size: 16px;
     line-height: 1.5vw;
     padding: 6vh 0;
     opacity: 50%;

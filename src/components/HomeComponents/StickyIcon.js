@@ -1,5 +1,5 @@
 import React from 'react';
-import stickyIcon from '../../img/sticky-icon.png';
+import stickyIcon from '../../img/sticky-icon.svg';
 import '../../styles/HomeTopSlider.scss';
 
 const StickyIcon = ({scrollToBottom}) => {
