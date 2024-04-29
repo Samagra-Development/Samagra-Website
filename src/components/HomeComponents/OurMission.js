@@ -1,6 +1,6 @@
 import React from "react";
 
-const OurMissionSection = ({data, isMobile}) => {
+const OurMissionSection = ({data}) => {
   return (
     <>
       <div

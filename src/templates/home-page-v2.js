@@ -43,7 +43,7 @@ export const HomePageTemplate = ({ parentDomains, data }) => {
     <div id="home-page-font">
       {data ? (
         <React.Fragment>
-          <OurMissionSection data={data} isMobile={mobile}/>
+          <OurMissionSection data={data}/>
           <OurModelSection homeContent={data} isMobile={mobile}/>
           <OurApproach homeContent={data} isMobile={mobile}/>
         </React.Fragment>

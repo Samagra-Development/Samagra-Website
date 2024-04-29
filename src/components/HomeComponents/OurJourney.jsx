@@ -1,24 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-function OurJourneySection({content, isMobile}) {
-  const [gridFlow, setGridFlow] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth < 1200) {
-        setGridFlow(true);
-      } else {
-        setGridFlow(false);
-      }
-    };
-    handleResize();
-
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+function OurJourneySection({content}) {
   
   return (
     <>
