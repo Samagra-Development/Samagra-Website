@@ -19,9 +19,9 @@ export const HomePageTemplate = ({ parentDomains, data }) => {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 768) {
-        setMobile(true);
+        setMobile(()=>true);
       } else {
-        setMobile(false);
+        setMobile(()=>false);
       }
     };
     handleResize();
@@ -56,15 +56,15 @@ export const HomePageTemplate = ({ parentDomains, data }) => {
         <span />
       )
       }
-      <div style={{margin:"6.5vh",display:"flex", justifyContent:"center",alignItems:"center", flexDirection:"column",gap:"24px"}}><div className="our-model-description">For the latest updates related to our work</div>
+      <div style={{margin:"6.5vh",display:"flex", justifyContent:"center",alignItems:"center", flexDirection:"column",gap:"24px",textAlign:"center"}}><div className="our-model-description">For the latest updates related to our work</div>
       <button style={{background: "#0076B2", borderRadius:"10px",padding:"8px 16px", border:"none",display:"flex",justifyContent:"center",alignItems:"center",gap:"8px"}}
       onClick={()=>{
         window.location.href="https://www.linkedin.com/company/samagra-transforming-governance/"
-      }}><img src={LinkedIn} alt="linkedIn" width={"36px"} height={"36px"}/><span className="our-model-sub-heading" style={{paddingBottom:"0",color:"#ffffff"}}>Follow us on LinkedIn</span></button></div>
+      }}><img src={LinkedIn} alt="linkedIn" width={mobile?"24px":"36px"} height={mobile?"24px":"36px"}/><span className="our-model-sub-heading" style={{paddingBottom:"0",color:"#ffffff",fontSize:mobile&&"18px"}}>Follow us on LinkedIn</span></button></div>
       <SectionDivider />
       <OurJourneySection content={data}/>
       <NewsSection />
-      <StickyIcon scrollToBottom={scrollToBottom} />
+      {!mobile && <StickyIcon scrollToBottom={scrollToBottom} />}
     </div>
   );
 };

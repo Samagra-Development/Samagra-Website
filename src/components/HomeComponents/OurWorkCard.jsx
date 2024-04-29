@@ -30,8 +30,8 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
           <div
             style={{
               borderRadius: "10px",
-              minWidth:isMobile?"auto":"520px",
-              minHeight:isMobile?"auto":"583px",
+              width:isMobile?"auto":"520px",
+              height:isMobile?"auto":"583px",
               border: "solid 4px #D09C0A",
               display: "flex",
               flexDirection: "column",
@@ -58,7 +58,7 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
             </div>
             <div
             className="our-model-sub-heading"
-            style={{textAlign:"center",maxHeight:"188px",overflow:"hidden"}}
+            style={{textAlign:"center",maxHeight:"188px",overflow:"hidden",fontSize:isMobile?"16px":"28px"}}
             >
               {data?.description2}
             </div>
@@ -71,7 +71,8 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
                 color: "#D09C0A",
                 background: "none",
                 width: "66%",
-                fontWeight:"500"
+                fontWeight:"500",
+                fontSize:isMobile?"12px":"20px"
               }}
               className="section-description"
               onClick={()=>{
@@ -90,7 +91,8 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
                   color: "#D09C0A",
                   background: "none",
                   width: "66%",
-                  fontWeight:"500"
+                  fontWeight:"500",
+                  fontSize:isMobile?"12px":"20px"
                 }}
                 className="section-description"
                 onClick={()=>{
@@ -117,6 +119,7 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
               fontWeight: "400",
               lineHeight: "160%",
               textAlign:"left",
+              fontSize:isMobile?"14px":"20px",
               padding: "0"
             }}
             className="section-description"
@@ -126,7 +129,7 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
           <div
             style={{
               color: "#D09C0A",
-              fontSize:isMobile?"30.5px":"2.43vw",
+              fontSize:isMobile?"30.5px":"35px",
               fontWeight: "700",
               lineHeight: "100%",
               textAlign:"left",
@@ -136,7 +139,7 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
             {data?.titleLines[1]?.text}
           </div>
         </div>
-        <div className="section-description" style={{maxHeight:"100px", lineHeight:"160%",textAlign:"start",overflow:"hidden" }}>
+        <div className="section-description" style={{maxHeight:"100px", lineHeight:"160%",textAlign:"start",overflow:"hidden" ,fontSize:isMobile?"14px":"20px"}}>
           {data?.description1}
         </div>
       </div>

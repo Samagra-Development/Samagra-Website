@@ -9,14 +9,14 @@ const OurModelSection = ({homeContent, isMobile}) =>{
     <div className='section-heading'>{homeContent?.ourModel?.title}</div>
     <div className='animated-text' style={{display:"flex",flexDirection:isMobile ? "column" : "row", gap:"5vw", padding:"0 4vw"}}>
       <div className='model-sub-section'>
-        <div><img src={whoWeAre} alt="Sticky Icon" /></div>
+        <div><img src={whoWeAre} alt="Sticky Icon" width={isMobile&&"52px"} height={isMobile&&"52px"}/></div>
         <div>
           <div className='our-model-sub-heading'>{homeContent?.ourModel?.description[0]?.subTitle}</div>
           <div className='our-model-description'>{homeContent?.ourModel?.description[0]?.text}</div>
         </div>
       </div>
       <div className='model-sub-section'>
-      <div><img src={whatWeDo} alt="Sticky Icon" /></div>
+      <div><img src={whatWeDo} alt="Sticky Icon" width={isMobile&&"52px"} height={isMobile&&"52px"}/></div>
         <div>
           <div className='our-model-sub-heading'>{homeContent?.ourModel?.description[1]?.subTitle}</div>
           <div className='our-model-description'>{homeContent?.ourModel?.description[1]?.text}</div>

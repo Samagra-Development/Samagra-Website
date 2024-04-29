@@ -9,9 +9,9 @@ export const NewsSection = ({data}) => {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 768) {
-        setMobile(true);
+        setMobile(()=>true);
       } else {
-        setMobile(false);
+        setMobile(()=>false);
       }
     };
     handleResize();
@@ -47,15 +47,15 @@ export const NewsSection = ({data}) => {
                             media.map((item, index) => {
                                 return <div key={index} style={{padding:"0 3.5vw"}}>
                                     <div className="carousal-box">
-                                    <div style={{display:"flex",justifyContent:"space-between",gap:"28px",maxHeight:"92px"}}>
+                                    <div style={{display:"flex",justifyContent:"space-between",gap:"28px",height:"92px"}}>
                                         <div className="news-heading" style={{flex:mobile?"2.2":"4",color:"#ffffff",paddingBottom:"0",overflow:"hidden"}}>{item.node.frontmatter.title}</div>
                                         <div style={{flex:"1"}}><button style={{display:"flex",gap:"4px",alignItems:"center",color:"#D09C0A",fontSize:`${mobile?"12px":"18px"}`,fontWeight:"400",lineHeight:"160%",background:"#ffffff", border:"none",borderRadius:"4px",padding:"4px 8px"}}
                                         onClick={()=>{
                                             window.location.href=`${item.node.frontmatter.link}`
-                                        }}><span>{item.node.frontmatter.linkButtonText}</span><img src={LinkIcon} width={mobile && "16px"} height={mobile && "16px"}/>
+                                        }}><span>{item.node.frontmatter.linkButtonText}</span><img src={LinkIcon} width={mobile && "14px"} height={mobile && "14px"}/>
                                         </button></div>
                                     </div>
-                                    <div style={{width:"55.5vw"}}><img src={item?.node?.frontmatter?.image?.childImageSharp?.fluid?.src} width={"100%"} style={{borderRadius:"16px",aspectRatio:"1.85"}}/></div>
+                                    <div style={{width:"100%"}}><img src={item?.node?.frontmatter?.image?.childImageSharp?.fluid?.src} width={"100%"} style={{borderRadius:mobile?"8px":"16px",aspectRatio:"1.85"}}/></div>
                                 </div></div>
                             })
                         }

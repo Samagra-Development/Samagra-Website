@@ -26,7 +26,7 @@ function OurWorkSection({workContent, isMobile}) {
       <div
         style={{
           backgroundColor: "#F2E5CA",
-          padding: "9vh 2.5vh",
+          padding: "9vh 1.5vw",
         }}
       ><div style={{display:"flex",flexDirection:"column",gap:"20px"}}><div className="section-heading">Our Work</div>
       <div className="section-description">{workContent?.ourWorkDescription}</div></div>
