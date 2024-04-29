@@ -1,7 +1,7 @@
 ---
 templateKey: project-post
 title: ADAPT-F&ARD
-domainNew: Past Projects
+domainNew: Agriculture
 fullName: ADAPT-Fisheries and Animal Resources Development
 id: ADAPT-F&ARD
 backgroundCover: /img/img_20200914_084637.jpg

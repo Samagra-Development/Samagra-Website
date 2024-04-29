@@ -32,14 +32,14 @@ export const FooterComponent = ({}) => {
 
     return (
         <div className={'footer-wrapper'}>
-            <div style={{marginLeft:"14.35vh",marginRight:"14.35vh"}}>
+            <div style={{padding:"0 8.5vw"}}>
                 <nav className="nav-wrapper nav justify-content-between align-items-center">
                     <div>
                     <div>
-                        <a className="nav-link navbar-brand" href="#">
+                        <a className="nav-link navbar-brand" href="#" style={{paddingLeft:"0px",paddingRight:"0px"}}>
                         <img className={'logo'} src={logoColored}/>
                     </a></div>
-                    <div><a className="nav-link navbar-brand" href="#">
+                    <div><a className="nav-link navbar-brand" href="#" style={{paddingLeft:"0px",paddingRight:"0px"}}>
                         <div className={'address-line1'}>
                             Samagra | Transforming Governance
                         </div>

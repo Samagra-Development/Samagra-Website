@@ -1,7 +1,7 @@
 ---
 templateKey: project-post
 title: Health Diagnosis & Design
-domainNew: Past Projects
+domainNew: Health
 fullName: Health Diagnosis & Design
 id: Health Diagnosis & Design
 backgroundCover: /img/health-banner-4.jpeg

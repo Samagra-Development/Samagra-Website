@@ -1,7 +1,7 @@
 ---
 templateKey: project-post
 title: ADAPT
-domainNew: Past Projects
+domainNew: Agriculture
 fullName: Analytics for Decision Making & Agriculture Policy Transformation
 id: ADAPT
 backgroundCover: /img/adapt-header-bg.jpg

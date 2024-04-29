@@ -1,7 +1,7 @@
 ---
 templateKey: project-post
 title: Digital Haryana Cell
-domainNew: Digital
+domainNew: Others
 fullName: Digital Haryana Cell
 id: DIGITAL
 backgroundCover: /img/digital-haryana-header-bg.jpeg

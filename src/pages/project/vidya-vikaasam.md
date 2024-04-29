@@ -1,7 +1,7 @@
 ---
 templateKey: project-post
 title: Vidya Vikaasam
-domainNew: Past Projects
+domainNew: Education
 fullName: Vidya Vikaasam
 id: Vidya Vikaasam
 backgroundCover: /img/vv.jpg

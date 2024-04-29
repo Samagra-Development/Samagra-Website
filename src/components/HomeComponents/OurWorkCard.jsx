@@ -126,9 +126,9 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
           <div
             style={{
               color: "#D09C0A",
-              fontSize:"2.43vw",
+              fontSize:isMobile?"30.5px":"2.43vw",
               fontWeight: "700",
-              lineHeight: "2.43vw",
+              lineHeight: "100%",
               textAlign:"left",
               padding:"0"
             }}
