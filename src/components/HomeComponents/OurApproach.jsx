@@ -16,7 +16,6 @@ const OurApproachSection = ({homeContent})=>{
               playsInline
                 autoPlay 
                 muted 
-                loop
                 style={{
                   width: '100%',
                   backgrounColor: 'white',
