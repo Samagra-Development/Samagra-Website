@@ -18,20 +18,20 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
         onMouseLeave={handleMouseLeave}
         style={{
           borderRadius: "10px",
-          height: isMobile ? "auto" :"842px",
-          width: isMobile? "auto":"568px",
+          height: isMobile ? "auto" :"734px",
+          width: isMobile? "348px":"498px",
           background: "#ffffff",
           padding: "24px",
           marginTop: isMobile? "24px" :marginTop,
-          marginBottom: isMobile? "24px": marginBottom,
+          marginBottom:  marginBottom,
         }}
       >
         {isFlipped ? (
           <div
             style={{
               borderRadius: "10px",
-              width:isMobile?"auto":"520px",
-              height:isMobile?"auto":"583px",
+              width:isMobile?"300px":"450px",
+              height:isMobile?"337.84px":"501.53px",
               border: "solid 4px #D09C0A",
               display: "flex",
               flexDirection: "column",
@@ -43,11 +43,11 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
             <div
               style={{
                 display: "flex",
-                gap: "24px",
+                gap: "18px",
                 backgroundImage: `url(${data?.backgroundMap?.childImageSharp?.fluid?.src ? (data?.backgroundMap?.childImageSharp?.fluid?.src) : data?.backgroundMap})`,
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
-                padding:"32px",
+                padding:"28px",
                 backgroundSize: "contain",
                 justifyContent:"center",
                 alignItems:"center"
@@ -57,24 +57,13 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
               {data?.workLogo[1] && <img width={"45%"} src={data?.workLogo[1]?.logo?.childImageSharp?.fluid?.src ? (data?.workLogo[1]?.logo?.childImageSharp?.fluid?.src) : data?.workLogo[1]?.logo} />}
             </div>
             <div
-            className="our-model-sub-heading"
-            style={{textAlign:"center",maxHeight:"188px",overflow:"hidden",fontSize:isMobile?"16px":"28px"}}
+            className="card-hover-description"
+            style={{textAlign:"center",height:"134.38px",overflow:"hidden"}}
             >
               {data?.description2}
             </div>
             <button
-              style={{
-                border: "solid 1px #D09C0A",
-                borderRadius: "4px",
-                padding: "8px",
-                margin: "16px 0 8px 0",
-                color: "#D09C0A",
-                background: "none",
-                width: "66%",
-                fontWeight:"500",
-                fontSize:isMobile?"12px":"20px"
-              }}
-              className="section-description"
+              className="card-button-text card-button"
               onClick={()=>{
                 window.location.href= getProjectUrl(data?.projectName[0]?.project) 
               }}
@@ -83,18 +72,7 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
             </button>
             {data?.workLogo[1] && (
               <button
-                style={{
-                  border: "solid 1px #D09C0A",
-                  borderRadius: "4px",
-                  padding: "8px",
-                  marginBottom: "8px",
-                  color: "#D09C0A",
-                  background: "none",
-                  width: "66%",
-                  fontWeight:"500",
-                  fontSize:isMobile?"12px":"20px"
-                }}
-                className="section-description"
+                className="card-button-text card-button"
                 onClick={()=>{
                   window.location.href= getProjectUrl(data?.projectName[1]?.project) 
                 }}
@@ -105,41 +83,24 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
           </div>
         ) : (
           <div style={{
-          minWidth:isMobile?"auto":"520px",
-          minHeight:isMobile?"auto":"583px",}}>
-            <img src={data?.image?.childImageSharp?.fluid?.src ? (data?.image?.childImageSharp?.fluid?.src) : data?.image} alt="agri" style={{ width:isMobile?"100%":"520px",
-          height:isMobile?"auto":"583px",borderRadius: "10px" }} />
+          width:isMobile?"300px":"450px",
+          height:isMobile?"337.84px":"501.53px"}}>
+            <img src={data?.image?.childImageSharp?.fluid?.src ? (data?.image?.childImageSharp?.fluid?.src) : data?.image} alt="agri" style={{ width:"100%",borderRadius: "10px" }} />
           </div>
         )}
-
-        <div style={{ padding: "24px 0" }}>
+        <div style={{ padding: "16px 0" }}>
           <div
-            style={{
-              color: "#D09C0A",
-              fontWeight: "400",
-              lineHeight: "160%",
-              textAlign:"left",
-              fontSize:isMobile?"14px":"20px",
-              padding: "0"
-            }}
-            className="section-description"
+          className='section-description mustard-text'
           >
             {data?.titleLines[0]?.text}
           </div>
           <div
-            style={{
-              color: "#D09C0A",
-              fontSize:isMobile?"30.5px":"35px",
-              fontWeight: "700",
-              lineHeight: "100%",
-              textAlign:"left",
-              padding:"0"
-            }}
+          className="card-heading mustard-text"
           >
             {data?.titleLines[1]?.text}
           </div>
         </div>
-        <div className="section-description" style={{maxHeight:"100px", lineHeight:"160%",textAlign:"start",overflow:"hidden" ,fontSize:isMobile?"14px":"20px"}}>
+        <div className="card-description black-text-2" style={{height:"86.38px",overflow:"hidden"}}>
           {data?.description1}
         </div>
       </div>

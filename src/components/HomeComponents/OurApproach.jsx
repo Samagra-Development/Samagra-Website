@@ -3,14 +3,14 @@ import colorWheel from '../../img/home-page/color-wheel.png';
 import colorWheel1 from '../../img/home-page/color-wheel1.png';
 import colorWheel2 from '../../img/home-page/color-wheel2.png';
 
-const OurApproachSection = ({homeContent, isMobile})=>{
+const OurApproachSection = ({homeContent})=>{
     return (
         <div style={{position:"relative"}}>
             <div style={{padding:"12vh 0",textAlign:"center"}}>
-            <div className='section-heading'>{homeContent?.ourApproach?.title}</div>
-            <div className='section-description animated-text' style={{ padding:isMobile? "20px":"20px 200px", lineHeight:"160%"}}>{homeContent?.ourApproach?.description}</div>
-            <div style={{ display:"flex", alignItems:"center",justifyContent:"center",width:"100%", paddingTop:"4vh"}}>
-            <div style={{width:"43vw",height:"38vw"}}>
+            <div className='section-heading text-center blue-text'>{homeContent?.ourApproach?.title}</div>
+            <div className='section-description animated-text our-approach black-text-1'>{homeContent?.ourApproach?.description}</div>
+            <div style={{ display:"flex", alignItems:"center",justifyContent:"center",width:"100%", paddingTop:"3vh"}}>
+            <div className='approach-video'>
               <video
                 autoPlay 
                 muted 
@@ -27,9 +27,9 @@ const OurApproachSection = ({homeContent, isMobile})=>{
         </div>
         </div>
       </div>
-      {!isMobile && <><div style={{position:"absolute", top:"0",right:"0"}}><img src={colorWheel} alt='color-wheel'/></div>
-      <div style={{position:"absolute", bottom:"0",left:"0"}}><img src={colorWheel1} alt='color-wheel'/></div>
-      <div style={{position:"absolute", bottom:"0",right:"0"}}><img src={colorWheel2} alt='color-wheel'/></div></>}
+      {<><div style={{position:"absolute", top:"0",right:"0"}}><img src={colorWheel} alt='color-wheel' className='circle1'/></div>
+      <div style={{position:"absolute", bottom:"0",left:"0"}}><img src={colorWheel1} alt='color-wheel' className='circle2'/></div>
+      <div style={{position:"absolute", bottom:"0",right:"0"}}><img src={colorWheel2} alt='color-wheel' className='circle3'/></div></>}
       </div>
     );
 }

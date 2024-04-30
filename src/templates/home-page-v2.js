@@ -5,16 +5,17 @@ import Layout from "../components/Layout";
 import StickyIcon from "../components/HomeComponents/StickyIcon";
 import SectionDivider from "../components/HomeComponents/SectionDivider";
 import { animateScroll as scroll } from "react-scroll";
-import LinkedIn from "../img/linkedIn-icon.png"
 import OurMissionSection from "../components/HomeComponents/OurMission";
 import OurModelSection  from "../components/HomeComponents/OurModel";
 import OurWorkSection from "../components/HomeComponents/OurWork";
 import OurJourneySection from "../components/HomeComponents/OurJourney";
 import  NewsSection  from "../components/HomeComponents/NewsSection";
 import OurApproach from "../components/HomeComponents/OurApproach";
+import upIcon from '../img/up-arrow-png-20.png';
 
 export const HomePageTemplate = ({ parentDomains, data }) => {
   const [mobile, setMobile] = useState(false);
+  const [showUpIcon, setShowUpIcon] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -26,26 +27,38 @@ export const HomePageTemplate = ({ parentDomains, data }) => {
     };
     handleResize();
 
+    window.addEventListener('scroll', handleScroll);
     window.addEventListener('resize', handleResize);
 
     return () => {
+      window.removeEventListener('scroll', handleScroll);
       window.removeEventListener('resize', handleResize);
     };
   }, []);
 
-  const scrollToBottom = () => {
-    scroll.scrollToBottom({
-      duration: 3000, // Optional: animation duration in milliseconds
-    });
+  const scrollToTop = () => {
+    scroll.scrollToTop();
   };
+
+  const handleScroll = () => {
+    if (window && window.scrollY > window.screen.height) {
+      setShowUpIcon(true);
+    } else setShowUpIcon(false);
+  };
+
+  // const scrollToBottom = () => {
+  //   scroll.scrollToBottom({
+  //     duration: 3000, // Optional: animation duration in milliseconds
+  //   });
+  // };
 
   return (
     <div id="home-page-font">
       {data ? (
         <React.Fragment>
           <OurMissionSection data={data}/>
-          <OurModelSection homeContent={data} isMobile={mobile}/>
-          <OurApproach homeContent={data} isMobile={mobile}/>
+          <OurModelSection homeContent={data}/>
+          <OurApproach homeContent={data}/>
         </React.Fragment>
       ) : (
         <span />
@@ -56,15 +69,15 @@ export const HomePageTemplate = ({ parentDomains, data }) => {
         <span />
       )
       }
-      <div style={{margin:"6.5vh",display:"flex", justifyContent:"center",alignItems:"center", flexDirection:"column",gap:"24px",textAlign:"center"}}><div className="our-model-description">For the latest updates related to our work</div>
-      <button style={{background: "#0076B2", borderRadius:"10px",padding:"8px 16px", border:"none",display:"flex",justifyContent:"center",alignItems:"center",gap:"8px"}}
-      onClick={()=>{
-        window.location.href="https://www.linkedin.com/company/samagra-transforming-governance/"
-      }}><img src={LinkedIn} alt="linkedIn" width={mobile?"24px":"36px"} height={mobile?"24px":"36px"}/><span className="our-model-sub-heading" style={{paddingBottom:"0",color:"#ffffff",fontSize:mobile&&"18px"}}>Follow us on LinkedIn</span></button></div>
       <SectionDivider />
       <OurJourneySection content={data}/>
       <NewsSection />
-      {!mobile && <StickyIcon scrollToBottom={scrollToBottom} />}
+      {!mobile && showUpIcon && (
+        <div className={'up-icon'}>
+          <img src={upIcon} onClick={scrollToTop} />
+        </div>
+      )}
+      {/* {!mobile && <StickyIcon scrollToBottom={scrollToBottom} />} */}
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import OurWorkCard from "./OurWorkCard";
+import LinkedIn from "../../img/linkedIn-icon.png"
 
 function OurWorkSection({workContent, isMobile}) {
   const [gridFlow, setGridFlow] = useState(false);
@@ -26,14 +27,15 @@ function OurWorkSection({workContent, isMobile}) {
       <div
         style={{
           backgroundColor: "#F2E5CA",
-          padding: "9vh 1.5vw",
+          padding: "9vh 7vw",
         }}
-      ><div style={{display:"flex",flexDirection:"column",gap:"20px"}}><div className="section-heading">Our Work</div>
-      <div className="section-description">{workContent?.ourWorkDescription}</div></div>
+      ><div style={{display:"flex",flexDirection:"column",gap:"20px"}}>
+        <div className="section-heading blue-text text-center">Our Work</div>
+      <div className="section-description text-center black-text-2">{workContent?.ourWorkDescription}
+      </div>
+      </div>
         
-        <div style={{ width: "100%", display: "grid", gridTemplateColumns: gridFlow ? "1fr":"1fr 1fr",
-        justifyItems:"center", marginTop:"8vh"
-        }}>
+        <div className="work-card-layout">
             <OurWorkCard
             marginTop={"0px"}
             marginBottom={"20px"}
@@ -41,7 +43,7 @@ function OurWorkSection({workContent, isMobile}) {
                 isMobile={isMobile}
             />
             <OurWorkCard
-               marginTop={gridFlow?"0px":"14vh"}
+               marginTop={gridFlow?"0px":"11vh"}
                marginBottom={"20px"}
               data={workContent?.ourWork[1]}
               isMobile={isMobile}
@@ -53,13 +55,18 @@ function OurWorkSection({workContent, isMobile}) {
               isMobile={isMobile}
             />
             <OurWorkCard
-               marginTop={gridFlow?"0px":"14vh"}
+               marginTop={gridFlow?"0px":"11vh"}
                marginBottom={"20px"}
               data={workContent?.ourWork[3]}
               isMobile={isMobile}
             />
         </div>
       </div>
+      <div style={{margin:"6.5vh",display:"flex", justifyContent:"center",alignItems:"center", flexDirection:"column",gap:"24px",textAlign:"center"}}><div className="section-description text-center black-text-2">For the latest updates related to our work</div>
+      <button className="linkedin-button"
+      onClick={()=>{
+        window.location.href="https://www.linkedin.com/company/samagra-transforming-governance/"
+      }}><img className="linkedin-icon" src={LinkedIn} alt="linkedIn"/><span className="linkedin-button-text" style={{color:"#ffffff"}}>Follow us on LinkedIn</span></button></div>
     </>
   );
 }

@@ -2,29 +2,29 @@ import React from 'react';
 import whoWeAre from '../../img/home-page/who-we-are.svg';
 import whatWeDo from '../../img/home-page/what-we-do.svg';
 
-const OurModelSection = ({homeContent, isMobile}) =>{
+const OurModelSection = ({homeContent}) =>{
   return (
     <div style={{paddingTop:"24px"}}>
     <div className='our-model-section'>
-    <div className='section-heading'>{homeContent?.ourModel?.title}</div>
-    <div className='animated-text' style={{display:"flex",flexDirection:isMobile ? "column" : "row", gap:"5vw", padding:"0 4vw"}}>
+    <div className='section-heading blue-text text-center'>{homeContent?.ourModel?.title}</div>
+    <div className='animated-text model-sub-section-division'>
       <div className='model-sub-section'>
-        <div><img src={whoWeAre} alt="Sticky Icon" width={isMobile&&"52px"} height={isMobile&&"52px"}/></div>
+        <div><img src={whoWeAre} alt="Sticky Icon" className='model-icon'/></div>
         <div>
-          <div className='our-model-sub-heading'>{homeContent?.ourModel?.description[0]?.subTitle}</div>
-          <div className='our-model-description'>{homeContent?.ourModel?.description[0]?.text}</div>
+          <div className='section-sub-heading brown-text'>{homeContent?.ourModel?.description[0]?.subTitle}</div>
+          <div className='section-description black-text-2'>{homeContent?.ourModel?.description[0]?.text}</div>
         </div>
       </div>
       <div className='model-sub-section'>
-      <div><img src={whatWeDo} alt="Sticky Icon" width={isMobile&&"52px"} height={isMobile&&"52px"}/></div>
+      <div><img src={whatWeDo} alt="Sticky Icon" className='model-icon'/></div>
         <div>
-          <div className='our-model-sub-heading'>{homeContent?.ourModel?.description[1]?.subTitle}</div>
-          <div className='our-model-description'>{homeContent?.ourModel?.description[1]?.text}</div>
+          <div className='section-sub-heading brown-text'>{homeContent?.ourModel?.description[1]?.subTitle}</div>
+          <div className='section-description black-text-2'>{homeContent?.ourModel?.description[1]?.text}</div>
         </div>
       </div>
     </div>
-    <div className={'image-section'} style={{padding:isMobile ?"0":"0 16vw"}}>
-      <div className="image-background-section" style={{ border: !isMobile ? "solid rgba(208, 156, 10, 1) 4px" : "none", borderRadius:"19.26px"}}>
+    <div className={'model-video'}>
+      <div className="model-border">
       <iframe
         className={'our-model-video'}
         src={homeContent?.ourModel?.ourModelVideoLink}

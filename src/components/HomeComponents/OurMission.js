@@ -34,8 +34,8 @@ const OurMissionSection = ({data}) => {
         </div>
       </div>
       <div className='our-mission'>
-        <div className="section-heading">{data?.ourMission?.title}</div>
-        <div className="section-description">{data?.ourMission?.description}</div>
+        <div className="section-heading text-center blue-text">{data?.ourMission?.title}</div>
+        <div className="section-description text-center blact-text-1">{data?.ourMission?.description}</div>
       </div>
     </>
   );
