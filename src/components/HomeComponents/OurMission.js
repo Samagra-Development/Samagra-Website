@@ -8,10 +8,10 @@ const OurMissionSection = ({data}) => {
       >
           <video
             controls={false}
-            muted
-            autoplay
-            loop
             playsInline
+                autoPlay 
+                muted 
+            loop={true}
             style={{
               width: "100%",
             }}

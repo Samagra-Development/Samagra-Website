@@ -56,6 +56,7 @@ export const HomePageTemplate = ({ parentDomains, data }) => {
   return (
     <div>
       <Helmet>
+      <link rel="prefetch" href={data?.baseBannerVideo?.publicURL} />
       <link rel="prefetch" href={data?.ourWork[0]?.workLogo[0]?.logo?.childImageSharp?.fluid?.src} />
       <link rel="prefetch" href={data?.ourWork[0]?.workLogo[1]?.logo?.childImageSharp?.fluid?.src} />
       <link rel="prefetch" href={data?.ourWork[0]?.backgroundMap?.childImageSharp?.fluid?.src} />
