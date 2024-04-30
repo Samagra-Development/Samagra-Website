@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Helmet } from 'react-helmet';
 import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
@@ -53,6 +54,18 @@ export const HomePageTemplate = ({ parentDomains, data }) => {
   // };
 
   return (
+    <div>
+      <Helmet>
+      <link rel="prefetch" href={data?.ourWork[0]?.workLogo[0]?.logo?.childImageSharp?.fluid?.src} />
+      <link rel="prefetch" href={data?.ourWork[0]?.workLogo[1]?.logo?.childImageSharp?.fluid?.src} />
+      <link rel="prefetch" href={data?.ourWork[0]?.backgroundMap?.childImageSharp?.fluid?.src} />
+      <link rel="prefetch" href={data?.ourWork[1]?.workLogo[0]?.logo?.childImageSharp?.fluid?.src} />
+      <link rel="prefetch" href={data?.ourWork[1]?.backgroundMap?.childImageSharp?.fluid?.src} />
+      <link rel="prefetch" href={data?.ourWork[2]?.workLogo[0]?.logo?.childImageSharp?.fluid?.src} />
+      <link rel="prefetch" href={data?.ourWork[2]?.backgroundMap?.childImageSharp?.fluid?.src} />
+      <link rel="prefetch" href={data?.ourWork[3]?.workLogo[0]?.logo?.childImageSharp?.fluid?.src} />
+      <link rel="prefetch" href={data?.ourWork[3]?.backgroundMap?.childImageSharp?.fluid?.src} />
+      </Helmet>
     <div id="home-page-font">
       {data ? (
         <React.Fragment>
@@ -78,6 +91,7 @@ export const HomePageTemplate = ({ parentDomains, data }) => {
         </div>
       )}
       {/* {!mobile && <StickyIcon scrollToBottom={scrollToBottom} />} */}
+    </div>
     </div>
   );
 };

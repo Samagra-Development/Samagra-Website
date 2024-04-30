@@ -53,8 +53,8 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
                 alignItems:"center"
               }}
             >
-              <img width={data?.workLogo[1]?"35%":"70%"} src={data?.workLogo[0]?.logo?.childImageSharp?.fluid?.src ? (data?.workLogo[0]?.logo?.childImageSharp?.fluid?.src) : data?.workLogo[0]?.logo} />
-              {data?.workLogo[1] && <img width={"45%"} src={data?.workLogo[1]?.logo?.childImageSharp?.fluid?.src ? (data?.workLogo[1]?.logo?.childImageSharp?.fluid?.src) : data?.workLogo[1]?.logo} />}
+              <img fetchPriority="high" width={data?.workLogo[1]?"35%":"70%"} src={data?.workLogo[0]?.logo?.childImageSharp?.fluid?.src ? (data?.workLogo[0]?.logo?.childImageSharp?.fluid?.src) : data?.workLogo[0]?.logo} />
+              {data?.workLogo[1] && <img fetchPriority="high" width={"45%"} src={data?.workLogo[1]?.logo?.childImageSharp?.fluid?.src ? (data?.workLogo[1]?.logo?.childImageSharp?.fluid?.src) : data?.workLogo[1]?.logo} />}
             </div>
             <div
             className="card-hover-description"
