@@ -34,7 +34,7 @@ export const FooterComponent = ({}) => {
         <div className={'footer-wrapper'}>
             <div style={{padding:"0 8.5vw"}}>
                 <nav className="nav-wrapper nav justify-content-between align-items-center">
-                    <div>
+                    <div style={{padding:"16px 0"}}>
                     <div>
                         <a className="nav-link navbar-brand" href="#" style={{paddingLeft:"0px",paddingRight:"0px"}}>
                         <img className={'logo'} src={logoColored} style={{width:"240px",height:"56.657px"}}/>

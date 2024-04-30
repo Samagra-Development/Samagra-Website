@@ -12,6 +12,8 @@ const OurApproachSection = ({homeContent})=>{
             <div style={{ display:"flex", alignItems:"center",justifyContent:"center",width:"100%", paddingTop:"3vh"}}>
             <div className='approach-video'>
               <video
+              controls={false}
+              playsInline
                 autoPlay 
                 muted 
                 style={{

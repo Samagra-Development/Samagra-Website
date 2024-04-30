@@ -9,10 +9,9 @@ const OurMissionSection = ({data}) => {
           <video
             controls={false}
             muted
-            autoplay={true}
-            loop={true}
+            autoplay
+            loop
             playsInline
-  webkit-playsinline="true"
             style={{
               width: "100%",
             }}
