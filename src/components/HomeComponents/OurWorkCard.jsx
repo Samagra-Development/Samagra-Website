@@ -37,7 +37,7 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
               flexDirection: "column",
               justifyContent: "space-between",
               alignItems: "center",
-              padding: "24px",
+              padding: "20px",
             }}
           >
             <div
@@ -47,7 +47,7 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
                 backgroundImage: `url(${data?.backgroundMap?.childImageSharp?.fluid?.src ? (data?.backgroundMap?.childImageSharp?.fluid?.src) : data?.backgroundMap})`,
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
-                padding:"28px",
+                padding:"24px",
                 backgroundSize: "contain",
                 justifyContent:"center",
                 alignItems:"center"
@@ -73,6 +73,7 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
             {data?.workLogo[1] && (
               <button
                 className="card-button-text card-button"
+                style={{marginTop:"8px"}}
                 onClick={()=>{
                   window.location.href= getProjectUrl(data?.projectName[1]?.project) 
                 }}
