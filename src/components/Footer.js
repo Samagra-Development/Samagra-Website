@@ -70,9 +70,9 @@ export const FooterComponent = ({}) => {
                             <div>
                             <Link to={'/amritseries'}><span style={{color:"#1E2833", paddingBottom:"6px", fontSize:"16px"}}>Amrit Series</span></Link>
                             </div>
-                            <div>
+                            {/* <div>
                             <Link to={'/'}><span style={{color:"#1E2833", paddingBottom:"6px", fontSize:"16px"}}>Governance Decluttered</span></Link>
-                            </div>
+                            </div> */}
                             <div>
                             <Link to={'/governanceframeworks'}><span style={{color:"#1E2833", paddingBottom:"6px", fontSize:"16px"}}>Governance Frameworks</span></Link>
                             </div>
@@ -100,9 +100,9 @@ export const FooterComponent = ({}) => {
                                     <div>
                                         <img className={'social-icons'} onClick={()=>{window.location.href="https://www.instagram.com/samagragovernance/?hl=en"}} src={instagramIconActive}/>
                                     </div>
-                                    <div>
+                                    {/* <div>
                                         <img className={'social-icons'} src={facebookIconActive}/>
-                                    </div>
+                                    </div> */}
                                     <div>
                                         <img className={'social-icons'} onClick={()=>{window.location.href="https://www.youtube.com/channel/UCfkXErS-f87xUQkmSKSC8bg"}} src={youtubeIconActive}/>
                                     </div>
