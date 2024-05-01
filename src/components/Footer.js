@@ -112,7 +112,7 @@ export const FooterComponent = ({}) => {
                     </div>
                 </nav>
             </div>
-            <div className={'bottom-copyright-section'}>
+            <div className={'bottom-copyright-section'} style={{opacity: '50%'}}>
                 © 2024 Samagra Development Associates Pvt. Ltd &nbsp;&nbsp; <a
                 href="https://drive.google.com/file/d/1JBr51LlCtUv-q35Onh6dbgHBmI18qhEH/view?usp=sharing" target="_" style={{color: "#1E2833", textDecoration:"underline"}}>CSR</a>
             </div>
