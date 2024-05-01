@@ -82,7 +82,7 @@ export const FooterComponent = ({}) => {
                         </div>
                         <div style={{display:"flex",flexDirection:"column", gap:"8px"}}>
                             <div style={{display:"flex",flexDirection:"column", gap:"4px"}}>
-                                <div className='footer-heading'>Events & Initiatives</div>
+                                <div className='footer-heading'>Ecosystem Initiatives</div>
                                 <div>
                                     <Link to={'/c4gt'}><span className='footer-item'>Code for GovTech (C4GT)</span></Link>
                                 </div>
