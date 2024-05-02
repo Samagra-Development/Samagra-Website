@@ -39,7 +39,7 @@ ourModel:
   ourModelVideoLink: https://www.youtube.com/embed/Y-iHVVfSHRg
 ourApproach:
   title: Our Approach
-  description: We combine a top-down management consulting approach  for problem
+  description: We combine a top-down management consulting approach for problem
     structuring with a bottom-up understanding of the governance ecosystem for
     designing solutions, while leveraging data and technology to enable
     implementation of our solutions, with the objective of making governments
