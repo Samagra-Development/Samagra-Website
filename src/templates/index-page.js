@@ -1,131 +1,216 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import {Link, graphql, StaticQuery} from 'gatsby'
+import React, { useEffect, useState } from "react";
+import { Helmet } from 'react-helmet';
+import { graphql } from "gatsby";
 
-import Layout from '../components/Layout'
-import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
-import {HomeTopSlider} from "../components/HomeComponents/HomeTopSlider/HomeTopSlider";
-import {HomeSecondSection} from "../components/HomeComponents/HomeSecondSection/HomeSecondSection";
-import HomeThirdSection from "../components/HomeComponents/HomeThirdSection/HomeThirdSection";
-import HomeNewsSection from "../components/HomeComponents/HomeNewsSection/HomeNewsSection";
+import Layout from "../components/Layout";
+import StickyIcon from "../components/HomeComponents/StickyIcon";
+import SectionDivider from "../components/HomeComponents/SectionDivider";
+import { animateScroll as scroll } from "react-scroll";
+import OurMissionSection from "../components/HomeComponents/OurMission";
+import OurModelSection  from "../components/HomeComponents/OurModel";
+import OurWorkSection from "../components/HomeComponents/OurWork";
+import OurJourneySection from "../components/HomeComponents/OurJourney";
+import  NewsSection  from "../components/HomeComponents/NewsSection";
+import OurApproach from "../components/HomeComponents/OurApproach";
+import upIcon from '../img/up-icon.png';
 
-export const IndexPageTemplate = ({
-                                      parentDomains,
-                                      data
-                                  }) => (
-    <React.Fragment>
-        {
-            data && data.subBanners ? <React.Fragment>
-                <HomeTopSlider baseBanner={data.baseBanner} subBanners={data.subBanners}/>
-                <HomeSecondSection homeContent={data}/>
-            </React.Fragment> : <span/>
-        }
-        <HomeThirdSection parentDomains={parentDomains}/>
-        <HomeNewsSection/>
-    </React.Fragment>
-);
+export const HomePageTemplate = ({ parentDomains, data }) => {
+  const [mobile, setMobile] = useState(false);
+  const [showUpIcon, setShowUpIcon] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        setMobile(()=>true);
+      } else {
+        setMobile(()=>false);
+      }
+    };
+    handleResize();
+
+    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
+  const handleScroll = () => {
+    if (window && window.scrollY > window.screen.height) {
+      setShowUpIcon(true);
+    } else setShowUpIcon(false);
+  };
+
+  // const scrollToBottom = () => {
+  //   scroll.scrollToBottom({
+  //     duration: 3000, // Optional: animation duration in milliseconds
+  //   });
+  // };
+
+  return (
+    <div>
+      <Helmet>
+      <link rel="prefetch" href={data?.baseBannerVideo?.publicURL} />
+      <link rel="prefetch" href={data?.ourWork[0]?.workLogo[0]?.logo?.childImageSharp?.fluid?.src} />
+      <link rel="prefetch" href={data?.ourWork[0]?.workLogo[1]?.logo?.childImageSharp?.fluid?.src} />
+      <link rel="prefetch" href={data?.ourWork[0]?.backgroundMap?.childImageSharp?.fluid?.src} />
+      <link rel="prefetch" href={data?.ourWork[1]?.workLogo[0]?.logo?.childImageSharp?.fluid?.src} />
+      <link rel="prefetch" href={data?.ourWork[1]?.backgroundMap?.childImageSharp?.fluid?.src} />
+      <link rel="prefetch" href={data?.ourWork[2]?.workLogo[0]?.logo?.childImageSharp?.fluid?.src} />
+      <link rel="prefetch" href={data?.ourWork[2]?.backgroundMap?.childImageSharp?.fluid?.src} />
+      <link rel="prefetch" href={data?.ourWork[3]?.workLogo[0]?.logo?.childImageSharp?.fluid?.src} />
+      <link rel="prefetch" href={data?.ourWork[3]?.backgroundMap?.childImageSharp?.fluid?.src} />
+      </Helmet>
+    <div id="home-page-font">
+      {data ? (
+        <React.Fragment>
+          <OurMissionSection data={data}/>
+          <OurModelSection homeContent={data}/>
+          <OurApproach homeContent={data}/>
+        </React.Fragment>
+      ) : (
+        <span />
+      )}
+      {data?.ourWork ? (
+        <OurWorkSection workContent={data} isMobile={mobile}/>
+      ) : (
+        <span />
+      )
+      }
+      <SectionDivider />
+      <OurJourneySection content={data}/>
+      <NewsSection />
+      {!mobile && showUpIcon && (
+        <div className={'up-icon'}>
+          <img src={upIcon} onClick={scrollToTop} />
+        </div>
+      )}
+      {/* {!mobile && <StickyIcon scrollToBottom={scrollToBottom} />} */}
+    </div>
+    </div>
+  );
+};
 
 class IndexPage extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            domains: []
-        }
+  constructor(props) {
+    super(props);
+    this.state = {
+      domains: [],
+    };
+  }
+
+  componentDidMount() {
+    const self = this;
+    if (window.localStorage.getItem("domains")) {
+      const domains = [];
+      JSON.parse(window.localStorage.getItem("domains")).forEach((d) => {
+        domains.push({ ...d.node.frontmatter });
+      });
+      self.setState({ domains: JSON.parse(JSON.stringify(domains)) });
     }
+  }
 
-    componentDidMount() {
-        const self = this;
-        if (window.localStorage.getItem('domains')) {
-            const domains = [];
-            JSON.parse(window.localStorage.getItem('domains')).forEach((d) => {
-                domains.push({...d.node.frontmatter})
-            });
-            self.setState({domains: JSON.parse(JSON.stringify(domains))})
-        }
-    }
+  render() {
+    const { frontmatter } = this.props.data.markdownRemark;
 
-    render() {
-        const {frontmatter} = this.props.data.markdownRemark;
-
-        return <Layout>
-            <IndexPageTemplate parentDomains={this.state.domains} data={frontmatter}/>
-        </Layout>
-    }
-
+    return (
+      <Layout>
+        <HomePageTemplate
+          parentDomains={this.state.domains}
+          data={frontmatter}
+        />
+      </Layout>
+    );
+  }
 }
 
-export default IndexPage
+export default IndexPage;
 
 export const pageQuery = graphql`
-  query IndexPageTemplate {
+  query HomePageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
         description
         baseBanner {
-            titleLines {
-                text
-            }
+          titleLines {
+            text
+          }
         }
-        subBanners {
-            projectName
-            projectName2
-            color
-            titleLines {
-                text
-            }
-            slides {
-                image {
-                    childImageSharp {
-                        fluid(maxWidth: 1024, quality: 60) {
-                          ...GatsbyImageSharpFluid
-                        }
-                      }
-                }
-                logo {
-                    childImageSharp {
-                        fluid(maxWidth: 1024, quality: 60) {
-                          ...GatsbyImageSharpFluid
-                        }
-                      }
-                }
-                title
-            }   
+        baseBannerVideo {
+          publicURL
         }
-        secondSection {
-         title
-         ourApproach {
-            title
-             description {
-                text
-                subTitle
+        ourMission {
+          title
+          description
+        }
+        ourModel {
+          title
+          description {
+            subTitle
+            text
+          }
+          ourModelVideoLink
+        }
+        ourApproach {
+          title
+          description
+          approachVideo {
+            publicURL
+          }
+        }
+        ourWorkDescription
+        ourWork {
+          titleLines {
+            text
+          }
+          projectName {
+            project
+          }
+          description1
+          image {
+            childImageSharp {
+              fluid(maxWidth: 1024, quality: 60) {
+                ...GatsbyImageSharpFluid
+              }
             }
-             image {
+          }
+          workLogo {
+            logo {
               childImageSharp {
-                fluid(maxWidth: 640, quality: 64) {
+                fluid(maxWidth: 1024, quality: 60) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
-         }
-         ourModel {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 640, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
+          }
+          backgroundMap {
+            childImageSharp {
+              fluid(maxWidth: 1024, quality: 60) {
+                ...GatsbyImageSharpFluid
               }
             }
-            title
-            description {
-                text
-                subTitle
+          }
+          description2
+        }
+        ourJourney {
+          subHeading
+          description
+          image {
+            childImageSharp {
+              fluid(maxWidth: 1024, quality: 60) {
+                ...GatsbyImageSharpFluid
+              }
             }
-         }
+          }
         }
       }
     }
   }
-`
-
+`;

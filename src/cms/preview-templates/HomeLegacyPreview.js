@@ -1,12 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { HomePageTemplate } from '../../templates/home-page-v2';
+import { HomeLegacyPageTemplate } from '../../templates/home-legacy.js'
 
-const HomePageV2Preview = ({ entry, getAsset }) => {
+const HomeLegacyPreview = ({ entry, getAsset }) => {
   const data = entry.getIn(['data']).toJS();
   if (data) {
     return (
-      <HomePageTemplate
+      <HomeLegacyPageTemplate
         data={data}
       />
     )
@@ -15,11 +15,11 @@ const HomePageV2Preview = ({ entry, getAsset }) => {
   }
 };
 
-HomePageV2Preview.propTypes = {
+HomeLegacyPreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
 };
 
-export default HomePageV2Preview
+export default HomeLegacyPreview
