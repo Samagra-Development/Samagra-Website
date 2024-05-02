@@ -241,7 +241,7 @@ export default ({ previewData, parentDomains }) => (
       query ProjectListQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "index-page" } } }
+          filter: { frontmatter: { templateKey: { eq: "home-legacy" } } }
         ) {
           edges {
             node {
