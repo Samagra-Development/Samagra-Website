@@ -2,7 +2,7 @@
 templateKey: team-page
 title: Our Team
 bannerImage: /img/team_image_website.jpg
-subTitle: We are a growing team of 100+ professionals. Our consultants come from
+subTitle: We are a growing team of 125+ professionals. Our consultants come from
   diverse backgrounds, united in their commitment to creating impact at scale.
 team:
   - bio: Gaurav is the Founder & CEO of Samagra. Gaurav holds a dual degree in
