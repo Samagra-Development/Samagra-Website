@@ -54,7 +54,7 @@ ourWork:
       - text: Transforming
       - text: Agriculture
     description1: Our work in the agriculture domain spans 7 years which has
-      impacted the lives of 3 crore+ farmers across the states of Odisha
+      impacted the lives of 3 Cr+ farmers across the states of Odisha
       and Uttar Pradesh
     image: /img/agriculture.png
     workLogo:
