@@ -66,8 +66,6 @@ export const HeaderDropDownComponent = ({data, parentDomains,menuIcon}) => {
                 <div className={"head-items-wrapper"}>
                     {
                         domains.map((item, index) => {
-                            // Temporarily disabled Others section
-                            if(item.name === 'Others') return null;
                             return <div key={index}
                                         className={`head-item ${focusedHeadItemIndex === index ? 'head-focused' : ''}`}
                                         onMouseEnter={() => changeFocusOnHeadItem(index)}>

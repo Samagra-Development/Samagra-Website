@@ -71,13 +71,19 @@ text-align: start;
   line-height: 100%;
 }
 .section-description{
-font-size: 20px;
+font-size: 18px;
+line-height: 160%;
+font-weight: 400;
+letter-spacing: 2%;
+}
+.card-sub-heading{
+  font-size: 20px;
 line-height: 160%;
 font-weight: 400;
 letter-spacing: 2%;
 }
 .section-sub-heading{
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 600;
   line-height: 160%;
   letter-spacing: 2%;
@@ -208,6 +214,7 @@ letter-spacing: 2%;
                   background: none;
                   width: 66%;
                   color: #D09C0A;
+                  height: 45.2px;
   }
   .card-button:hover{
     border: none;
@@ -287,6 +294,8 @@ letter-spacing: 2%;
       color:#ffffff;
       overflow:hidden;
       flex: 4;
+      max-height: 70.39px;
+      overflow: hidden;
   }
   .news-button{
     flex: 1;
@@ -302,6 +311,14 @@ letter-spacing: 2%;
     width: 100%;
     aspect-ratio: 1.85;
     border-radius: 16px;
+  }
+  .carousal-text-content{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:8px;
+    height:70.39px;
   }
   
 
@@ -322,7 +339,7 @@ letter-spacing: 2%;
       height: auto;
     }
     .news-heading{
-      flex: 3.5;
+      flex: 3.2;
   }
     .our-mission{
       padding: 0 20px;
@@ -336,6 +353,9 @@ letter-spacing: 2%;
     }
     .section-description{
        font-size: 15px;
+    }
+    .card-sub-heading{
+      font-size: 15px;
     }
     .card-hover-description{
       font-size: 13px;
@@ -409,15 +429,20 @@ letter-spacing: 2%;
       font-size: 13px;
       font-weight: 400;
     }
+    .card-button{
+      height: 38.8px;
+    }
     .news-section{
       margin: 32px 12px;
     }
     .carousal-box{
       border-radius: 8px;
+      gap: 12px;
     }
     .carousal-text{
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 500;
+      line-height: 140%;
     }
     .carousal-button{
       font-size: 9px;

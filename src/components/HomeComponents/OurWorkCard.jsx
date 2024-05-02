@@ -91,7 +91,7 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
         )}
         <div style={{ padding: "16px 0" }}>
           <div
-          className='section-description mustard-text'
+          className='card-sub-heading mustard-text'
           >
             {data?.titleLines[0]?.text}
           </div>

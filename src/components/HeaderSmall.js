@@ -125,8 +125,6 @@ export class HeaderSmall extends React.Component {
                                 ourWorkActive ? <div className="sub-header-list">
                                     {
                                         projects.map((domain, domainIndex) => {
-                                            // Temporarily disabled Others section
-                                            if(domain.name === 'Others') return null;
                                             return <div className="sub-header-list-item">
                                                 <a className="nav-link" onClick={() => {
                                                     this.setState({selectedDomainIndex: (selectedDomainIndex === domainIndex) ? -1 : domainIndex})

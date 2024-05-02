@@ -30,10 +30,10 @@ export const NewsSection = ({data}) => {
                             media.map((item, index) => {
                                 return <div key={index} style={{padding:"0 2.5vw"}}>
                                     <div className="carousal-box">
-                                    <div style={{width:"100%",display:"flex",alignItems:"center",justifyContent:"space-between",gap:"12px",height:"70.39px"}}>
+                                    <div className="carousal-text-content">
                                         <div className="carousal-text news-heading">{item.node.frontmatter.title}</div>
                                         <div onClick={()=>{
-                                            window.location.href=`${item.node.frontmatter.link}`}} style={{flex:"1"}} className="carousal-button news-button mustard-text" >
+                                            window.location.href=`${item.node.frontmatter.link}`}} className="carousal-button news-button mustard-text" >
                                                 <span>{item.node.frontmatter.linkButtonText}</span>
                                                 <img src={LinkIcon} className="link-img" />
                                         </div>

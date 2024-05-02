@@ -62,7 +62,7 @@ export const FooterComponent = ({}) => {
                             <Link to={'/blog'}><span className='footer-item'>Blog</span></Link>
                             </div>
                             <div>
-                            <Link to={'/careers'}><span className='footer-item'>Apply</span></Link>
+                            <Link to={'/careers'}><span className='footer-item'>Careers</span></Link>
                             </div>
                         </div>
                         <div style={{display:"flex",flexDirection:"column", gap:"4px"}}>
