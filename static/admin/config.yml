@@ -327,6 +327,7 @@ collections:
           required: false,
         }
       - { label: 'Image', name: 'image', widget: image }
+      - { label: 'Link Button Text', name: 'linkButtonText', widget: 'string', required: false, default: "" }
   - name: 'project'
     label: 'Projects'
     folder: 'src/pages/project'
@@ -675,6 +676,215 @@ collections:
                     name: img4,
                     widget: image,
                   },
+                ],
+            }
+      - file: 'src/pages/homeV2/index.md'
+        label: 'Home Page V2'
+        name: 'homeV2'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'home-page-v2',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' } 
+          - { label: 'Description', name: 'description', widget: 'string' }
+          - {
+              label: Sticky Banner,
+              name: stickyBanner,
+              widget: object,
+              fields:
+                [
+                  {
+                    label: Sticky Banner Active,
+                    name: stickyBannerActive,
+                    widget: boolean,
+                  },
+                  {
+                    label: Sticky Banner Title,
+                    name: stickyBannerTitle,
+                    widget: string,
+                  },
+                  {
+                    label: Sticky Banner Title Color,
+                    name: stickyBannerTitleColor,
+                    widget: string,
+                  },
+                  {
+                    label: Sticky Banner Color,
+                    name: stickyBannerColor,
+                    widget: string,
+                  },
+                  {
+                    label: Sticky Banner Button Title,
+                    name: stickyBannerButtonTitle,
+                    widget: string,
+                  },
+                  {
+                    label: Sticky Banner Button Text Color,
+                    name: stickyBannerButtonTextColor,
+                    widget: string,
+                  },
+                  {
+                    label: Sticky Banner Button Color,
+                    name: stickyBannerButtonColor,
+                    widget: string,
+                  },
+                  {
+                    label: Sticky Banner Button Link,
+                    name: stickyBannerButtonLink,
+                    widget: string,
+                  },
+                ],
+            }
+          - {
+              label: Media,
+              name: media,
+              widget: list,
+              max: 100,
+              fields:
+                [
+                  {
+                    label: 'Media',
+                    name: 'mediaItem',
+                    widget: 'relation',
+                    collection: 'mediacontent',
+                    searchFields: ['title'],
+                    displayFields: ['title'],
+                    valueField: 'title',
+                    optionsLength: 100,
+                  },
+                ],
+            }
+          - {
+              label: Base Banner,
+              name: baseBanner,
+              widget: object,
+              fields:
+                [
+                  {
+                    label: 'Title Lines',
+                    name: 'titleLines',
+                    widget: list,
+                    fields: [{ label: Text, name: text, widget: string }],
+                  },
+                ],
+            }
+          - { label: 'Base Banner video', name: 'baseBannerVideo', widget: file }
+          - { 
+              label: 'Our Mission', 
+              name: ourMission, 
+              widget: object,
+              fields:
+                [
+                  { 
+                    label: Title,
+                    name: title, 
+                    widget: string,
+                  },
+                  {
+                    label: Description,
+                    name: description,
+                    widget: string,
+                  },
+                ],      
+            }
+          - { 
+              label: 'Our Model', 
+              name: ourModel, 
+              widget: object,
+              fields:
+                [
+                  { 
+                    label: Title, 
+                    name: title, 
+                    widget: string,
+                  },
+                  {
+                    label: Description,
+                    name: description,
+                    widget: list,
+                    fields:
+                      [
+                        {
+                          label: Sub Title,
+                          name: subTitle,
+                          widget: string,
+                        },
+                        { 
+                          label: Text, 
+                          name: text, 
+                          widget: text,
+                        },
+                      ],
+                  },
+                  { 
+                    label: 'Our Model Video Link', 
+                    name: 'ourModelVideoLink', 
+                    widget: 'string',
+                  },
+                ],
+            }
+          - { 
+              label: 'Our Approach', 
+              name: ourApproach, 
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Description, name: description, widget: string },
+                  { label: 'Approach Video', name: 'approachVideo', widget: file },
+                ],
+            }
+          - { label: 'Our Work Description', name: 'ourWorkDescription', widget: 'string' }
+          - {
+              label: 'Our Work', 
+              name: ourWork, 
+              widget: list,
+              fields:
+                [
+                  {
+                    label: 'Title Lines',
+                    name: 'titleLines',
+                    widget: list,
+                    fields: [{ label: Text, name: text, widget: string }],
+                  },
+                  {
+                    label: 'Project Name',
+                    name: 'projectName',
+                    widget: 'list',
+                    fields: [{ label: 'Project', name: project, widget: string }],
+                  },
+                  { label: Description1, name: description1, widget: string },
+                  { label: 'Image', name: image, widget: image },
+                  {
+                    label: 'Work Logo',
+                    name: 'workLogo',
+                    widget: list,
+                    fields: [{ label: 'Logo', name: logo, widget: image }],
+                  },
+                  { label: 'Background Map', name: 'backgroundMap', widget: image},
+                  { label: Description2, name: description2, widget: string },
+                ],
+            }
+          - {
+              label: 'Our Journey', 
+              name: ourJourney, 
+              widget: list,
+              fields:
+                [
+                  {
+                    label: 'Sub Heading',
+                    name: 'subHeading',
+                    widget: string,
+                  },
+                  {
+                    label: 'Description',
+                    name: 'description',
+                    widget: string,
+                  },
+                  { label: 'Image', name: image, widget: image },
                 ],
             }
       - file: 'src/pages/team/index.md'

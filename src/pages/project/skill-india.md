@@ -1,7 +1,7 @@
 ---
 templateKey: project-post
 title: Skill India
-domainNew: Past Projects
+domainNew: Skills & Employment
 fullName: Skill India
 id: Skill
 backgroundCover: /img/samagragovernance-msde-first-banner.jpg

@@ -10,4 +10,5 @@ link: https://yourstory.com/socialstory/2022/09/samagra-gov-tech-consulting-firm
 tag: N/A
 displayOnHomePage: true
 image: /img/amrit-series-top-banner.jpg
+linkButtonText: Read Now
 ---

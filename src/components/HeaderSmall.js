@@ -81,7 +81,7 @@ export class HeaderSmall extends React.Component {
     };
 
     render() {
-        const {projects, ourWorkActive, selectedDomainIndex, popupOpened, showUpIcon} = this.state;
+        const {projects, ourWorkActive,aboutUsActive,ourAssetsActive,initiativesActive, selectedDomainIndex, popupOpened, showUpIcon} = this.state;
         return (
             <div className={`header-small-wrapper`}>
                 {showUpIcon ? <div className={'up-icon'}>
@@ -99,7 +99,10 @@ export class HeaderSmall extends React.Component {
                             this.setState({
                                 popupOpened: 'active',
                                 selectedDomainIndex: false,
-                                ourWorkActive: false
+                                ourWorkActive: false,
+                                ourAssetsActive: false,
+                                aboutUsActive: false,
+                                initiativesActive: false
                             })
                         }}>
                             <img src={menuIcon} style={{marginRight: '8px', height: '25px'}}/>
@@ -117,7 +120,7 @@ export class HeaderSmall extends React.Component {
                         <div className={"header-list-item"} style={{paddingTop: '30px'}}>
                             <a className="nav-link" onClick={() => {
                                 this.setState({ourWorkActive: !ourWorkActive})
-                            }}>Our Work</a>
+                            }}>Our Programs</a>
                             {
                                 ourWorkActive ? <div className="sub-header-list">
                                     {
@@ -155,56 +158,111 @@ export class HeaderSmall extends React.Component {
                         </div>
 
                         <div className={"header-list-item"}>
-                            <a href={'https://tech.samagragovernance.in'} className="nav-link">SamagraX</a>
-                        </div>
-                        <div className={"header-list-item"}>
-                            <a href={'/governanceframeworks'} className="nav-link">Governance Frameworks</a>
-                        </div>
-                        {/* <div className={"header-list-item"}>
-                            <Link to={'/casestudies'}><a onClick={() => {
-                                this.setState({popupOpened: 'inactive'})
-                            }} className="nav-link" href="/casestudies">Case Studies</a></Link>
-                        </div> */}
-                        <div className={"header-list-item"}>
                             <Link to={'/amritseries'}><a onClick={() => {
                                 this.setState({popupOpened: 'inactive'})
-                            }} className="nav-link" href="/amritseries">Amrit Series</a></Link>
-                        </div>
-                        {/* <div className={"header-list-item"}>
-                            <Link to={'/c4gt'}><a onClick={() => {
-                                this.setState({popupOpened: 'inactive'})
-                            }} className="nav-link" href="/c4gt">C4GT</a></Link>
-                        </div> */}
-                        <div className={"header-list-item"}>
-                            <Link to={'/sushasan'}><a onClick={() => {
-                                this.setState({popupOpened: 'inactive'})
-                            }} className="nav-link" href="/sushasan">Sushasan</a></Link>
+                            }} className="nav-link" href="/amritseries">Our Impact</a></Link>
                         </div>
                         <div className={"header-list-item"}>
-                            <Link to={'/team'}><a onClick={() => {
-                                this.setState({popupOpened: 'inactive'})
-                            }} className="nav-link" href="/team">Team</a></Link>
+                            <a href={'https://tech.samagragovernance.in'} className="nav-link">SamagraX</a>
                         </div>
-                        <div className={"header-list-item"}>
-                            <Link to={'/partners'}><a onClick={() => {
+                        <div className={"header-list-item"} >
+                            <a className="nav-link" onClick={() => {
+                                this.setState({aboutUsActive: !aboutUsActive})
+                            }}>About Us</a>
+                            {
+                                aboutUsActive ? <div className="sub-header-list">
+                                    <div className="sub-header-list-item">
+                                                <a className="nav-link" onClick={() => {
                                 this.setState({popupOpened: 'inactive'})
-                            }} className="nav-link" href="/partners">Partners</a></Link>
-                        </div>
-                        <div className={"header-list-item"}>
-                            <Link to={'/media'}><a onClick={() => {
+                            }} href="/team">
+                                                    Team
+                                                </a>
+                                            </div>
+                                            <div className="sub-header-list-item">
+                                                <a className="nav-link" onClick={() => {
                                 this.setState({popupOpened: 'inactive'})
-                            }} className="nav-link" href="/media">Media</a></Link>
-                        </div>
-                        <div className={"header-list-item"}>
-                            <Link to={'/blog'}><a onClick={() => {
+                            }} href="/partners">
+                                                    Partners
+                                                </a>
+                                            </div>
+                                            <div className="sub-header-list-item">
+                                                <a className="nav-link" onClick={() => {
                                 this.setState({popupOpened: 'inactive'})
-                            }} className="nav-link" href="/blogs">Blog</a></Link>
-                        </div>
-                        <div className={"header-list-item"}>
-                            <Link to={'/careers'}><a onClick={() => {
+                            }} href="/media">
+                                                    Media
+                                                </a>
+                                            </div>
+                                            <div className="sub-header-list-item">
+                                                <a className="nav-link" onClick={() => {
                                 this.setState({popupOpened: 'inactive'})
-                            }} className="nav-link" href="/careers">Careers</a></Link>
-                        </div>
+                            }} href="/blog">
+                                                    Blog
+                                                </a>
+                                            </div>
+                                            <div className="sub-header-list-item">
+                                                <a className="nav-link" onClick={() => {
+                                this.setState({popupOpened: 'inactive'})
+                            }} href="/careers">
+                                                    Careers
+                                                </a>
+                                            </div>
+                                </div> : <span/>
+                            }
+                            </div>
+                            <div className={"header-list-item"} >
+                            <a className="nav-link" onClick={() => {
+                                this.setState({ourAssetsActive: !ourAssetsActive})
+                            }}>Our Assets</a>
+                            {
+                                ourAssetsActive ? <div className="sub-header-list">
+                                    <div className="sub-header-list-item">
+                                                <a className="nav-link" onClick={() => {
+                                this.setState({popupOpened: 'inactive'})
+                            }} href="/amritseries">
+                                                    Amrit Series
+                                                </a>
+                                            </div>
+                                            <div className="sub-header-list-item">
+                                                <a className="nav-link" onClick={() => {
+                                this.setState({popupOpened: 'inactive'})
+                            }} href="/governanceframeworks">
+                                                    Governance Frameworks
+                                                </a>
+                                            </div>
+                                            <div className="sub-header-list-item">
+                                                <a className="nav-link" onClick={() => {
+                                this.setState({popupOpened: 'inactive'})
+                            }} href="/sushasan">
+                                                    Sushasan
+                                                </a>
+                                            </div>
+                                </div> : <span/>
+                            }
+                            </div>
+                            <div className={"header-list-item"} >
+                            <a className="nav-link" onClick={() => {
+                                this.setState({initiativesActive: !initiativesActive})
+                            }}>Ecosystem Initiatives</a>
+                            {
+                                initiativesActive ? <div className="sub-header-list">
+                                    <div className="sub-header-list-item">
+                                                <a className="nav-link" onClick={() => {
+                                this.setState({popupOpened: 'inactive'})
+                            }} href="/c4gt">
+                                                    {"Code for GovTech (C4GT)"}
+                                                </a>
+                                            </div>
+                                            <div className="sub-header-list-item">
+                                                <a className="nav-link" onClick={() => {
+                                this.setState({popupOpened: 'inactive'})
+                            }} href="/tgc">
+                                                    {"The Governance Challenge (TGC)"}
+                                                </a>
+                                            </div>
+                                </div> : <span/>
+                            }
+                            </div>
+                        
                     </div>
                 </div>
 

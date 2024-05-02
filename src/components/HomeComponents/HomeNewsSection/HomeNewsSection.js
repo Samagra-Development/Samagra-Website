@@ -92,6 +92,7 @@ export default () => (
                         }
                     }
                     date(formatString: "MMMM DD, YYYY")
+                    linkButtonText
                 }
             }
           }

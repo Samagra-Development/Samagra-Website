@@ -1,7 +1,7 @@
 ---
 templateKey: project-post
 title: CMGGA
-domainNew: Past Projects
+domainNew: Fellowships
 fullName: Chief Minister’s Good Governance Associates (CMGGA)
 id: CMGGA
 backgroundCover: /img/amrit-sarovar-beneficiaries.jpeg

@@ -1,19 +1,22 @@
 import React, {useState} from 'react';
 import {graphql, StaticQuery} from "gatsby";
+import hoveredArrowIcon from '../img/hovered-arrow-icon.svg'
+import arrowIcon from '../img/arrow-icon.svg'
 
-export const HeaderDropDownComponent = ({data, parentDomains}) => {
+export const HeaderDropDownComponent = ({data, parentDomains,menuIcon}) => {
     let loosingFocusTimeout;
 
     const [focused, changeFocus] = useState(
         false
     );
     const [focusedHeadItemIndex, changeFocusOnHeadItem] = useState(
-        0
+        null
     );
     const looseFocus = () => {
         loosingFocusTimeout = setTimeout(() => {
             changeFocus(false);
             loosingFocusTimeout = null;
+            changeFocusOnHeadItem(null)
         }, 200);
     };
     const setFocus = () => {
@@ -58,7 +61,7 @@ export const HeaderDropDownComponent = ({data, parentDomains}) => {
     return (
         <li onMouseEnter={() => setFocus()} onMouseLeave={() => looseFocus()} style={{position: 'relative'}}
             className={`${focused ? 'focused' : ''}`}>
-            <a className="nav-link" href="#">Our Work</a>
+            <a className="nav-link" href="#" style={{display:"flex",alignItems:"center",gap:"4px"}}><span>Our Programs</span><img src={menuIcon}/></a>
             <div className={'sub-menu'}>
                 <div className={"head-items-wrapper"}>
                     {
@@ -66,9 +69,9 @@ export const HeaderDropDownComponent = ({data, parentDomains}) => {
                             return <div key={index}
                                         className={`head-item ${focusedHeadItemIndex === index ? 'head-focused' : ''}`}
                                         onMouseEnter={() => changeFocusOnHeadItem(index)}>
-                                {
+                                <span>{
                                     item.name
-                                }
+                                }</span><img src={focusedHeadItemIndex === index ? hoveredArrowIcon : arrowIcon}/>
                             </div>;
                         })
                     }
@@ -94,7 +97,7 @@ export const HeaderDropDownComponent = ({data, parentDomains}) => {
     )
 };
 
-export default ({domains}) => (
+export default ({domains,menuIcon}) => (
     <StaticQuery
         query={graphql`
       query ProjectHeaderListQuery {
@@ -120,6 +123,6 @@ export default ({domains}) => (
         }
       }
     `}
-        render={(data, count) => <HeaderDropDownComponent parentDomains={domains} data={data}/>}
+        render={(data, count) => <HeaderDropDownComponent parentDomains={domains} data={data} menuIcon={menuIcon}/>}
     />
 )

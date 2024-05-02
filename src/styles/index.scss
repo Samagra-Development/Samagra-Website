@@ -23,6 +23,7 @@
 @import './CustomPagerButton';
 @import './TestimonialSlider';
 @import './HeaderSmall';
+@import './HomePageUpdated';
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
 .media-page-banner {
@@ -178,13 +179,13 @@
 
 body {
   margin: 0;
-  font-family: 'Proxima Nova Regular' !important;
+  font-family: 'Proxima Nova Regular';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New','rubik','noto sans',
     monospace;
 }
 
@@ -196,8 +197,26 @@ code {
     url('../fonts/ProximaNova-Regular.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'rubik';
+  src: url('../fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'noto sans';
+  src: url('../fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
 * {
-  font-family: 'Proxima Nova Regular' !important;
+  font-family: 'Proxima Nova Regular' ;
+}
+
+#home-page-font div, #home-page-font span, #home-page-font p, #home-page-font button, .footer-wrapper div, .footer-wrapper span{
+  font-family: 'noto sans' !important;
+}
+
+#navbar-text{
+  font-family: 'noto sans' !important;
 }
 
 .f-6 {

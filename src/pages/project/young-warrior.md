@@ -1,7 +1,7 @@
 ---
 templateKey: project-post
 title: Young Warrior
-domainNew: Past Projects
+domainNew: Skills & Employment
 fullName: Young Warrior
 id: Young Warrior
 backgroundCover: /img/0_img-20210309-wa0040-1-.jpg

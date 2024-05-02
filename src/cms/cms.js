@@ -18,11 +18,13 @@ import SushasanPagePreview from "./preview-templates/SushasanPagePreview";
 import CaseStudyPreview from "./preview-templates/CaseStudyPreview";
 import KSKPreview from "./preview-templates/KSKCaseStudyPreview";
 import OldCaseStudyPreview from "./preview-templates/OldCaseStudyPreview";
+import HomePageV2Preview from "./preview-templates/HomePageV2Preview";
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
 CMS.registerPreviewStyle(`cms.css`);
 CMS.registerPreviewTemplate("index", IndexPagePreview);
+CMS.registerPreviewTemplate("homeV2", HomePageV2Preview);
 CMS.registerPreviewTemplate("about", AboutPagePreview);
 CMS.registerPreviewTemplate("products", ProductPagePreview);
 CMS.registerPreviewTemplate("c4gt", C4GTPagePreview);
