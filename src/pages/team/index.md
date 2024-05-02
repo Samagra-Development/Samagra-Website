@@ -1,7 +1,7 @@
 ---
 templateKey: team-page
 title: Our Team
-bannerImage: /img/samagra-photo-2-edit-1-.png
+bannerImage: /img/team_image_website.jpg
 subTitle: We are a growing team of 100+ professionals. Our consultants come from
   diverse backgrounds, united in their commitment to creating impact at scale.
 team:
