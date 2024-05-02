@@ -1,7 +1,7 @@
 ---
 templateKey: media-post
-title: Mr. Bill Gates highlights collaboration with Samagra & Odisha Government
-  in a Keynote Address at IIT Delhi
+title: Bill Gates highlights collaboration with Samagra & Govt. of Odisha in his
+  keynote address at IIT Delhi in Feb'24
 mediaHouse: Samagra
 projectId: KONNECT
 date: 2024-05-02T14:03:11.648Z
