@@ -56,7 +56,7 @@ export const FooterComponent = ({}) => {
                             <Link to={'/team'}><span className='footer-item' >Team</span></Link>
                             </div>
                             <div>
-                            <Link to={'/media'}><span className='footer-item'>News</span></Link>
+                            <Link to={'/media'}><span className='footer-item'>Media</span></Link>
                             </div>
                             <div>
                             <Link to={'/blog'}><span className='footer-item'>Blog</span></Link>

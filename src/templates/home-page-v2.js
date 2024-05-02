@@ -12,7 +12,7 @@ import OurWorkSection from "../components/HomeComponents/OurWork";
 import OurJourneySection from "../components/HomeComponents/OurJourney";
 import  NewsSection  from "../components/HomeComponents/NewsSection";
 import OurApproach from "../components/HomeComponents/OurApproach";
-import upIcon from '../img/up-arrow-png-20.png';
+import upIcon from '../img/up-icon.png';
 
 export const HomePageTemplate = ({ parentDomains, data }) => {
   const [mobile, setMobile] = useState(false);
