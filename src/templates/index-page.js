@@ -87,7 +87,7 @@ export const HomePageTemplate = ({ parentDomains, data }) => {
       <OurJourneySection content={data}/>
       <NewsSection />
       {!mobile && showUpIcon && (
-        <div className={'home-up-icon'}>
+        <div className={'up-icon'}>
           <img src={upIcon} onClick={scrollToTop} />
         </div>
       )}
