@@ -1,7 +1,7 @@
 ---
 templateKey: case-study
 formType: This is new case study form
-show: true
+show: false
 projectId: NL App
 date: 2024-05-04T07:11:54.916Z
 sectionSequence: 1 2 3 4 5 6
