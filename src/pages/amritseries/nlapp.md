@@ -1,7 +1,7 @@
 ---
 templateKey: case-study
 formType: This is new case study form
-show: false
+show: true
 projectId: NL App
 date: 2024-05-04T07:11:54.916Z
 sectionSequence: 1 2 3 4 5 6
@@ -75,7 +75,7 @@ icon5: /img/positive-experience.png
 impactNumber5: 85
 impactNumber5Text: "%"
 impactNumber5Title: Teachers report positive experience <br> on NL App
-infographicGoogleDriveLink: https://drive.google.com/file/d/1X2XEM3Kin7WD9Mw_l3ag-1SCo6gMsQ8S/view?usp=sharing
+infographicGoogleDriveLink: https://drive.google.com/file/d/1h6BmZV-39p0F5njcECbhDOquuMffhVHj/view?usp=sharing
 downloadInfographicBtn: Download Infographic
 title8: Insights from the ground
 webinarLink: ""
@@ -105,9 +105,8 @@ successStoriesTitle: View more <i>Success Stories of Impact</i>
 showSuccessStories: antyodaya-saral,go-sugam,ksk
 sideIcon4Text: Impact Numbers
 showPlus5: false
-blogTitle: Tech-enabled streamlining of hiring and benefits dispersal for
-  contractual government employees in Haryana
-blogLink: https://samagragovernance.in/blog/2024-03-12-amrit-series-3-haryana-kaushal-rozgar-nigam/
+blogTitle: Coming Soon!
+blogLink: ""
 showOpEd: false
 opEdTitle: ""
 opEdLink: ""
