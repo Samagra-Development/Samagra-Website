@@ -26,7 +26,7 @@ title2: Impact Video
 title3: "NIPUN Lakshya App provides empowers teachers through real-time insight
   on student learning levels. Discover this journey as seen through Mussarrat, a
   teacher in Unnao "
-impactVideoLink: https://www.youtube.com/embed/AoPGFk4bZwk?si=u62ys4-k3mTgHeii
+impactVideoLink: https://www.youtube.com/embed/_5MavPddiJ8?si=trbBc3EdNN8GrCKG
 title4: Just like Mussarat, 4 lakh teachers in government schools of Uttar
   Pradesh were unable to measure their student’s learning levels to effectively
   take remedial action
@@ -58,13 +58,13 @@ icon2: /img/teacher_1.png
 impactNumber2: 100
 impactNumber2Decimal: 0
 impactNumber2Text: "%"
-impactNumber2Title: Teachers use NL App
+impactNumber2Title: Teachers use <br> NL App
 showPlus2: false
 icon3: /img/student.png
 impactNumber3: 72
 impactNumber3Decimal: 0
 impactNumber3Text: "%"
-impactNumber3Title: Unique students assessed
+impactNumber3Title: Unique students <br> assessed
 showPlus3: true
 icon4: /img/picture2.png
 impactNumber4: 87
