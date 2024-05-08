@@ -59,18 +59,18 @@ impactNumber2Decimal: 0
 impactNumber2Text: Crore
 impactNumber2Title: Salary disbursed (₹) <br> till date through HKRN
 showPlus2: true
-icon3: /img/icon-1.png
+icon3: /img/picture4.png
 impactNumber3: 90
 impactNumber3Decimal: 0
 impactNumber3Text: "%"
 impactNumber3Title: Received all <br> social security benefits
 showPlus3: false
-icon4: /img/icon-2.png
+icon4: /img/picture5.png
 impactNumber4: 84
 impactNumber4Text: "%"
 impactNumber4Title: Availed paid leave <br> without hesitation
 showPlus4: false
-icon5: /img/icon-4.png
+icon5: /img/picture6.png
 impactNumber5: 67
 impactNumber5Text: "%"
 impactNumber5Title: Reduced time taken <br> to onboard manpower
@@ -101,6 +101,7 @@ testimonialAuthorDesignation: Outreach Team, Samagra
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
 successStoriesTitle: View more <i>Success Stories of Impact</i>
+showSuccessStories: antyodaya-saral,go-sugam,ksk
 sideIcon4Text: Impact Numbers
 showPlus5: false
 blogTitle: Tech-enabled streamlining of hiring and benefits dispersal for
@@ -110,5 +111,4 @@ showOpEd: false
 opEdTitle: ""
 opEdLink: ""
 blogSectionImage: null
-showSuccessStories: antyodaya-saral,go-sugam,ksk
 ---
