@@ -155,6 +155,13 @@ export const pageQuery = graphql`
           description {
             subTitle
             text
+            icon {
+              childImageSharp {
+                fluid(maxWidth: 1024, quality: 60) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
           ourModelVideoLink
         }
@@ -165,13 +172,17 @@ export const pageQuery = graphql`
             publicURL
           }
         }
-        ourWorkDescription
         ourWork {
+          title
+          description
+        }
+        ourWorkCard {
           titleLines {
             text
           }
           projectName {
             project
+            learnButtonText
           }
           description1
           image {
@@ -199,6 +210,8 @@ export const pageQuery = graphql`
           }
           description2
         }
+        linkedInButtonActive
+        ourJourneyTitle
         ourJourney {
           subHeading
           description

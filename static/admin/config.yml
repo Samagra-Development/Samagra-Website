@@ -517,25 +517,6 @@ collections:
                 ],
             }
           - {
-              label: Media,
-              name: media,
-              widget: list,
-              max: 100,
-              fields:
-                [
-                  {
-                    label: 'Media',
-                    name: 'mediaItem',
-                    widget: 'relation',
-                    collection: 'mediacontent',
-                    searchFields: ['title'],
-                    displayFields: ['title'],
-                    valueField: 'title',
-                    optionsLength: 100,
-                  },
-                ],
-            }
-          - {
               label: Base Banner,
               name: baseBanner,
               widget: object,
@@ -595,6 +576,11 @@ collections:
                           name: text, 
                           widget: text,
                         },
+                        {
+                          label: Icon,
+                          name: icon,
+                          widget: image,
+                        }
                       ],
                   },
                   { 
@@ -615,10 +601,19 @@ collections:
                   { label: 'Approach Video', name: 'approachVideo', widget: file },
                 ],
             }
-          - { label: 'Our Work Description', name: 'ourWorkDescription', widget: 'string' }
-          - {
+          - { 
               label: 'Our Work', 
               name: ourWork, 
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Description, name: description, widget: string },
+                ],
+            }
+          - {
+              label: 'Our Work Card', 
+              name: ourWorkCard, 
               widget: list,
               fields:
                 [
@@ -632,7 +627,9 @@ collections:
                     label: 'Project Name',
                     name: 'projectName',
                     widget: 'list',
-                    fields: [{ label: 'Project', name: project, widget: string }],
+                    fields: [
+                      { label: 'Project', name: project, widget: string },
+                      { label: Learn Button Text, name: learnButtonText, widget: string}],
                   },
                   { label: Description1, name: description1, widget: string },
                   { label: 'Image', name: image, widget: image },
@@ -645,6 +642,14 @@ collections:
                   { label: 'Background Map', name: 'backgroundMap', widget: image},
                   { label: Description2, name: description2, widget: string },
                 ],
+            }
+          - {
+              label: LinkedIn Button Active,
+              name: linkedInButtonActive,
+              widget: boolean,
+            }
+          - {
+              label: 'Our Journey Title', name: 'ourJourneyTitle', widget: 'string' 
             }
           - {
               label: 'Our Journey', 

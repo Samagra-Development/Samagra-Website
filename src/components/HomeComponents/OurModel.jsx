@@ -9,14 +9,14 @@ const OurModelSection = ({homeContent}) =>{
     <div className='section-heading blue-text text-center'>{homeContent?.ourModel?.title}</div>
     <div className='animated-text model-sub-section-division'>
       <div className='model-sub-section'>
-        <div><img src={whoWeAre} alt="Sticky Icon" className='model-icon'/></div>
+        <div><img src={homeContent?.ourModel?.description[0]?.icon?.childImageSharp ? (homeContent?.ourModel?.description[0]?.icon?.childImageSharp?.fluid?.src) : homeContent?.ourModel?.description[0]?.icon} alt="Sticky Icon" className='model-icon'/></div>
         <div>
           <div className='section-sub-heading brown-text'>{homeContent?.ourModel?.description[0]?.subTitle}</div>
           <div className='section-description black-text-2'>{homeContent?.ourModel?.description[0]?.text}</div>
         </div>
       </div>
       <div className='model-sub-section'>
-      <div><img src={whatWeDo} alt="Sticky Icon" className='model-icon'/></div>
+      <div><img src={homeContent?.ourModel?.description[1]?.icon?.childImageSharp ? (homeContent?.ourModel?.description[1]?.icon?.childImageSharp?.fluid?.src) : homeContent?.ourModel?.description[1]?.icon} alt="Sticky Icon" className='model-icon'/></div>
         <div>
           <div className='section-sub-heading brown-text'>{homeContent?.ourModel?.description[1]?.subTitle}</div>
           <div className='section-description black-text-2'>{homeContent?.ourModel?.description[1]?.text}</div>

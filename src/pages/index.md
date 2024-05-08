@@ -11,9 +11,6 @@ stickyBanner:
   stickyBannerColor: white
   stickyBannerTitle: Check out our newly launched Amrit Series
   stickyBannerTitleColor: black
-media:
-  - mediaItem: "1 Stop, 556 Schemes: Haryana Govt’s Unique System Can Revolutionise
-      How India Works"
 baseBanner:
   titleLines:
     - text: Transforming
@@ -30,12 +27,14 @@ ourModel:
       text: We are a mission-driven governance consulting firm. We firmly believe in
         governance being the primary lever of change to create large scale
         impact in the country.
+      icon: /img/who-we-are.png
     - subTitle: What we do
       text: We work with the senior political and bureaucratic leadership of states to
         solve governance problems at scale. We co-work with the government to
         diagnose the problem, design a transformation roadmap and implement the
         same. Our solutions are rooted in the realities of governance in India.
         We leverage tech & data to enable systemic transformations.
+      icon: /img/what-we-do.png
   ourModelVideoLink: https://www.youtube.com/embed/Y-iHVVfSHRg
 ourApproach:
   title: Our Approach
@@ -45,11 +44,15 @@ ourApproach:
     implementation of our solutions, with the objective of making governments
     accountable and deliver with minimum delays and maximum efficiency.
   approachVideo: /img/approach_view.mp4
-ourWorkDescription: We work with state governments across domains
 ourWork:
+  title: Our Work
+  description: We work with state governments across domains
+ourWorkCard:
   - projectName:
       - project: KONNECT
+        learnButtonText: Learn More (KONNECT)
       - project: LEAP
+        learnButtonText: Learn More (LEAP)
     titleLines:
       - text: Transforming
       - text: Agriculture
@@ -65,6 +68,7 @@ ourWork:
       approach for 75 lakh farmers in Odisha
   - projectName:
       - project: NIPUN Bharat cell
+        learnButtonText: Learn More
     titleLines:
       - text: Transforming
       - text: Education
@@ -79,6 +83,7 @@ ourWork:
       literacy & numeracy in UP
   - projectName:
       - project: Anamaya
+        learnButtonText: Learn More
     titleLines:
       - text: Transforming
       - text: Health
@@ -92,6 +97,7 @@ ourWork:
       nutrition outcomes of 1 Cr+ tribals in Odisha
   - projectName:
       - project: Antyodaya Saral
+        learnButtonText: Learn More
     titleLines:
       - text: Transforming
       - text: Service Delivery
@@ -102,6 +108,8 @@ ourWork:
       - logo: /img/saral-logo-copy.png
     backgroundMap: /img/haryana-map.png
     description2: Transforming scheme and service delivery for 2.7 Cr citizens in Haryana
+linkedInButtonActive: true
+ourJourneyTitle: Our Journey
 ourJourney:
   - subHeading: 15+ Programs
     description: Across geographies and domains

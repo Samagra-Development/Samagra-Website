@@ -68,9 +68,9 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
                 window.location.href= getProjectUrl(data?.projectName[0]?.project) 
               }}
             >
-              Learn More{data?.workLogo[1] ? " (KONNECT)" : ""}
+              {data?.projectName[0]?.learnButtonText}
             </button>
-            {data?.workLogo[1] && (
+            {data?.projectName[1] && (
               <button
                 className="card-button-text card-button"
                 style={{marginTop:"8px"}}
@@ -78,7 +78,7 @@ function OurWorkCard({ marginTop, marginBottom, data, isMobile }) {
                   window.location.href= getProjectUrl(data?.projectName[1]?.project) 
                 }}
               >
-                Learn More (LEAP)
+                {data?.projectName[1]?.learnButtonText}
               </button>
             )}
           </div>
