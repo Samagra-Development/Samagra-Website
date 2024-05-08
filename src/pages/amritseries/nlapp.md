@@ -25,11 +25,11 @@ title1: Easy-to-use app for quick, accurate and standardized assessment of
 title2: Impact Video
 title3: "NIPUN Lakshya App empowers teachers through real-time insight on
   student learning levels. Discover this journey as seen through Mussarrat, a
-  teacher in Unnao "
+  teacher in Unnao. "
 impactVideoLink: https://www.youtube.com/embed/_5MavPddiJ8?si=trbBc3EdNN8GrCKG
 title4: Just like Mussarat, 4 lakh teachers in government schools of Uttar
   Pradesh were unable to measure their student’s learning levels to effectively
-  take remedial action
+  take remedial action.
 motionGraphic1: /img/part-1_1.mp4
 title5: ""
 infographic1:
@@ -38,16 +38,16 @@ infographic1:
   - img: /img/teacher_card2.jpg
   - img: /img/teacher_card3.jpg
   - img: /img/teacher_card4.jpg
-title6: ""
+title6: With NL App, all teachers can accurately measure student learning levels
+  & chart out their teaching strategy to ensure each student attains grade-level
+  competencies.
 infographic2:
   - img: ""
   - img: ""
   - img: ""
   - img: ""
 motionGraphic2: /img/part-2_1.mp4
-title7: With NL App, all teachers can accurately measure student learning levels
-  & chart out their teaching strategy to ensure each student attains grade-level
-  competencies
+title7: ""
 icon1: /img/assessment-2.png
 impactNumber1: 50
 impactNumber1Decimal: 0
