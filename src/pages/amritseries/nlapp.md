@@ -23,8 +23,8 @@ sideIcon3: /img/icon3-gosugam.png
 title1: Easy-to-use app for quick, accurate and standardized assessment of
   student learning levels at scale
 title2: Impact Video
-title3: "NIPUN Lakshya App provides empowers teachers through real-time insight
-  on student learning levels. Discover this journey as seen through Mussarrat, a
+title3: "NIPUN Lakshya App empowers teachers through real-time insight on
+  student learning levels. Discover this journey as seen through Mussarrat, a
   teacher in Unnao "
 impactVideoLink: https://www.youtube.com/embed/_5MavPddiJ8?si=trbBc3EdNN8GrCKG
 title4: Just like Mussarat, 4 lakh teachers in government schools of Uttar
