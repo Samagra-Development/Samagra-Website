@@ -9,7 +9,7 @@ function OurJourneySection({content}) {
           margin: "7.5vh 0"
         }}
       >
-        <div className='section-heading blue-text text-center'>Our Journey</div>
+        <div className='section-heading blue-text text-center'>{content?.ourJourneyTitle}</div>
         <div className="textFade template-column" style={{ columnGap:"6vw",rowGap:"5vh",padding:"48px 8.6vw 0"}}>
         {content?.ourJourney?.map((item,i)=>{
             return <div key={i} style={{display:"flex",flexDirection:"column",textAlign:"center"}}>
