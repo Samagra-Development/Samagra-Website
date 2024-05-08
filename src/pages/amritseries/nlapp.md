@@ -2,7 +2,7 @@
 templateKey: case-study
 formType: This is new case study form
 show: true
-projectId: NL App
+projectId: NL APP
 date: 2024-05-04T07:11:54.916Z
 sectionSequence: 1 2 3 4 5 6
 featuredimage: /img/_agn7916.jpg
@@ -110,5 +110,5 @@ blogLink: ""
 showOpEd: false
 opEdTitle: ""
 opEdLink: ""
-blogSectionImage: null
+blogSectionImage: /img/dsc_3276.jpg
 ---
