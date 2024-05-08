@@ -1393,3 +1393,64 @@ collections:
                   },
                 ],
             }
+      - file: 'src/pages/assets/index.md'
+        label: 'Our Assets Page'
+        name: 'assets'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'our-assets-page',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Banner Image', name: bannerImage, widget: image }
+          - { label: 'Description', name: 'description', widget: 'string' }
+          - {
+              label: Asset Card 1,
+              name: assetCard1,
+              widget: object,
+              fields:
+                [
+                  { label: Image, name: icon, widget: image },
+                  { label: Description, name: description, widget: string },
+                  { label: Button Link, name: buttonLink, widget: string },
+                  { label: Button Text, name: buttonText, widget: string },
+                ],
+            }
+          - {
+              label: Asset Card 2,
+              name: assetCard1,
+              widget: object,
+              fields:
+                [
+                  { label: Image, name: icon, widget: image },
+                  { label: Description, name: description, widget: string },
+                  { label: Button Link, name: buttonLink, widget: string },
+                  { label: Button Text, name: buttonText, widget: string },
+                ],
+            }
+          - {
+              label: Asset Card 3,
+              name: assetCard1,
+              widget: object,
+              fields:
+                [
+                  { label: Image, name: icon, widget: image },
+                  { label: Description, name: description, widget: string },
+                  { label: Button Link, name: buttonLink, widget: string },
+                  { label: Button Text, name: buttonText, widget: string },
+                ],
+            }
+          - {
+              label: Asset Card 4,
+              name: assetCard1,
+              widget: object,
+              fields:
+                [
+                  { label: Image, name: icon, widget: image },
+                  { label: Description, name: description, widget: string },
+                  { label: Button Link, name: buttonLink, widget: string },
+                  { label: Button Text, name: buttonText, widget: string },
+                ],
+            }
