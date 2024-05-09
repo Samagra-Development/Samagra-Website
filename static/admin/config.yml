@@ -1420,7 +1420,7 @@ collections:
             }
           - {
               label: Asset Card 2,
-              name: assetCard1,
+              name: assetCard2,
               widget: object,
               fields:
                 [
@@ -1432,7 +1432,7 @@ collections:
             }
           - {
               label: Asset Card 3,
-              name: assetCard1,
+              name: assetCard3,
               widget: object,
               fields:
                 [
@@ -1444,7 +1444,7 @@ collections:
             }
           - {
               label: Asset Card 4,
-              name: assetCard1,
+              name: assetCard4,
               widget: object,
               fields:
                 [
