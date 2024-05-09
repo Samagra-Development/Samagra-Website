@@ -1,9 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ReadMoreIcon from '../../img/read_more_icon.svg';
 import BottomReadMoreIcon from '../../img/card_arrow.svg';
+import { set } from "react-ga";
 
 function AssetCard({ data, style}) {
   const [isFlipped, setIsFlipped] = useState(false);
+
+  useEffect(()=>{
+    setIsFlipped(()=>false)
+  },[])
 
   const handleMouseEnter = () => setIsFlipped(()=>true);
   const handleMouseLeave = () => setIsFlipped(()=>false);
