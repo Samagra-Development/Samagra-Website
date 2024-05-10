@@ -65,8 +65,7 @@ team:
       Bank, primarily responsible for maintaining the investment policy for
       proprietary trades of the bank in forex and derivative products and for
       carrying out extensive research on the economic outlook for domestic and
-      global markets. In his spare time, Aayush enjoys playing lawn tennis,
-      reading thriller novels and watching crime documentaries. 
+      global markets. 
 
 
       An opportunity to work with governments to create impact that reaches the last mile and help society inch towards a more equitable and inclusive future, brought him to Samagra. Currently, he is part of the Central Team in Delhi

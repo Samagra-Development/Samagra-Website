@@ -1416,6 +1416,7 @@ collections:
                   { label: Description, name: description, widget: string },
                   { label: Button Link, name: buttonLink, widget: string },
                   { label: Button Text, name: buttonText, widget: string },
+                  { label: Read More Button Active, name: readMoreButtonActive, widget: boolean },
                 ],
             }
           - {
@@ -1428,6 +1429,7 @@ collections:
                   { label: Description, name: description, widget: string },
                   { label: Button Link, name: buttonLink, widget: string },
                   { label: Button Text, name: buttonText, widget: string },
+                  { label: Read More Button Active, name: readMoreButtonActive, widget: boolean },
                 ],
             }
           - {
@@ -1440,6 +1442,7 @@ collections:
                   { label: Description, name: description, widget: string },
                   { label: Button Link, name: buttonLink, widget: string },
                   { label: Button Text, name: buttonText, widget: string },
+                  { label: Read More Button Active, name: readMoreButtonActive, widget: boolean },
                 ],
             }
           - {
@@ -1452,5 +1455,6 @@ collections:
                   { label: Description, name: description, widget: string },
                   { label: Button Link, name: buttonLink, widget: string },
                   { label: Button Text, name: buttonText, widget: string },
+                  { label: Read More Button Active, name: readMoreButtonActive, widget: boolean },
                 ],
             }

@@ -69,6 +69,7 @@ export const assetsPageQuery = graphql`
           description
           buttonLink
           buttonText
+          readMoreButtonActive
           icon {
             childImageSharp {
               fluid(maxWidth: 1024, quality: 60) {
@@ -88,6 +89,7 @@ export const assetsPageQuery = graphql`
             }
           }
           description
+          readMoreButtonActive
         }
         assetCard3 {
           buttonLink
@@ -100,6 +102,7 @@ export const assetsPageQuery = graphql`
             }
           }
           description
+          readMoreButtonActive
         }
         assetCard4 {
           buttonLink
@@ -112,6 +115,7 @@ export const assetsPageQuery = graphql`
             }
           }
           description
+          readMoreButtonActive
         }
       }
     }

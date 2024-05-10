@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ReadMoreIcon from '../../img/read_more_icon.svg';
 import BottomReadMoreIcon from '../../img/card_arrow.svg';
-import { set } from "react-ga";
 
 function AssetCard({ data, style}) {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -18,12 +17,12 @@ function AssetCard({ data, style}) {
     <div onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave} className='card-item'>
             {isFlipped ?
-             <div className="flipped-card">
+             <div className="flipped-card" style={{justifyContent:data?.readMoreButtonActive ?"space-between" : "space-around"}}>
              <img src={data?.icon?.childImageSharp ? (data?.icon?.childImageSharp?.fluid?.src) : data?.icon} className='flipped-card-image'/>
              <div className="card-description text-center blact-text-2">{data?.description}</div>
-             <div className="read-button" onClick={()=>{
+             {data?.readMoreButtonActive && <div className="read-button" onClick={()=>{
                 window.location.href=data?.buttonLink
-             }}>{data?.buttonText}<img className="read-button-arrow" src={ReadMoreIcon}/></div>
+             }}>{data?.buttonText}<img className="read-button-arrow" src={ReadMoreIcon}/></div>}
              </div> : 
              <div className="card-content" ><img src={data?.icon?.childImageSharp ? (data?.icon?.childImageSharp?.fluid?.src) : data?.icon} className='card-image'/></div>
              }
