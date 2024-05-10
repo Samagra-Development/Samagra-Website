@@ -273,7 +273,7 @@ collections:
       - { label: 'Footer Text 1', name: 'footerText1', widget: 'string', required: false }
       - { label: 'Footer Text 2', name: 'footerText2', widget: 'string', required: false }
       - { label: 'Success Stories Title', name: 'successStoriesTitle', widget: 'string', required: false }
-      - { label: 'Show Success Stories(Provide title upto 3)', name: 'showSuccessStories', widget: 'string',required: false }
+      - { label: 'Show Success Stories(Provide title upto 3)', name: 'showSuccessStories', widget: 'string' }
   - name: 'projectdomain'
     label: 'Project Domain'
     folder: 'src/pages/project-domain'
