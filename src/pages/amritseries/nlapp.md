@@ -42,10 +42,10 @@ title6: With NL App, all teachers can accurately measure student learning levels
   & chart out their teaching strategy to ensure each student attains grade-level
   competencies.
 infographic2:
-  - img: ""
-  - img: ""
-  - img: ""
-  - img: ""
+  - img: null
+  - img: null
+  - img: null
+  - img: null
 motionGraphic2: /img/part-2_1.mp4
 title7: ""
 icon1: /img/assessment-2.png

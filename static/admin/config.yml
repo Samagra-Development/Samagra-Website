@@ -273,7 +273,7 @@ collections:
       - { label: 'Footer Text 1', name: 'footerText1', widget: 'string', required: false }
       - { label: 'Footer Text 2', name: 'footerText2', widget: 'string', required: false }
       - { label: 'Success Stories Title', name: 'successStoriesTitle', widget: 'string', required: false }
-      - { label: 'Show Success Stories(Provide title upto 3)', name: 'showSuccessStories', widget: 'string',required: false }
+      - { label: 'Show Success Stories(Provide title upto 3)', name: 'showSuccessStories', widget: 'string' }
   - name: 'projectdomain'
     label: 'Project Domain'
     folder: 'src/pages/project-domain'
@@ -1391,5 +1391,70 @@ collections:
                     fields: [{ label: 'Text', name: 'text', widget: 'string' }],
                     required: false,
                   },
+                ],
+            }
+      - file: 'src/pages/assets/index.md'
+        label: 'Our Assets Page'
+        name: 'assets'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'our-assets-page',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Banner Image', name: bannerImage, widget: image }
+          - { label: 'Description', name: 'description', widget: 'string' }
+          - {
+              label: Asset Card 1,
+              name: assetCard1,
+              widget: object,
+              fields:
+                [
+                  { label: Image, name: icon, widget: image },
+                  { label: Description, name: description, widget: string },
+                  { label: Button Link, name: buttonLink, widget: string },
+                  { label: Button Text, name: buttonText, widget: string },
+                  { label: Read More Button Active, name: readMoreButtonActive, widget: boolean },
+                ],
+            }
+          - {
+              label: Asset Card 2,
+              name: assetCard2,
+              widget: object,
+              fields:
+                [
+                  { label: Image, name: icon, widget: image },
+                  { label: Description, name: description, widget: string },
+                  { label: Button Link, name: buttonLink, widget: string },
+                  { label: Button Text, name: buttonText, widget: string },
+                  { label: Read More Button Active, name: readMoreButtonActive, widget: boolean },
+                ],
+            }
+          - {
+              label: Asset Card 3,
+              name: assetCard3,
+              widget: object,
+              fields:
+                [
+                  { label: Image, name: icon, widget: image },
+                  { label: Description, name: description, widget: string },
+                  { label: Button Link, name: buttonLink, widget: string },
+                  { label: Button Text, name: buttonText, widget: string },
+                  { label: Read More Button Active, name: readMoreButtonActive, widget: boolean },
+                ],
+            }
+          - {
+              label: Asset Card 4,
+              name: assetCard4,
+              widget: object,
+              fields:
+                [
+                  { label: Image, name: icon, widget: image },
+                  { label: Description, name: description, widget: string },
+                  { label: Button Link, name: buttonLink, widget: string },
+                  { label: Button Text, name: buttonText, widget: string },
+                  { label: Read More Button Active, name: readMoreButtonActive, widget: boolean },
                 ],
             }

@@ -1,0 +1,190 @@
+#our-assets{
+    .asset-top-image {
+        position: relative;
+        text-align: center;
+      
+        .slider-content {
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: flex;
+          height: 100%;
+          width: 100%;
+          background-color:rgba(0, 0, 0, 0.34);
+          justify-content: center;
+          align-items: center;
+      
+            .title {
+              color: white;
+              font-size: 124px;
+              line-height: 124px;
+              font-weight: 600;
+              -webkit-animation-name: textFade; /* Safari 4.0 - 8.0 */
+                -webkit-animation-duration: 1.2s; /* Safari 4.0 - 8.0 */
+                animation-name: textFade;
+                animation-duration: 1.2s;
+      
+            }
+    
+            @media screen and (min-width: 769px) and (max-width: 1200px)  {
+                .title {
+                  font-size: 72px;
+                  line-height: 72px;
+                  margin: 0;
+                }
+              }
+              
+              @media screen and (max-width: 769px)  {
+                .title {
+                  font-size: 38px;
+                  line-height: 38px;
+                  margin: 0;
+                }
+              }
+    
+        }
+        
+      }
+    .description{
+      padding: 56px 18vw;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 140%;
+    }
+    .card-description{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 140%;
+      }
+    .card-section{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center; 
+        margin-bottom:96px;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: #FDD9BF solid 0.5px;
+        border-radius: 6px;
+    }
+    .card-box{
+        border: #FDD9BF solid 0.5px;
+        padding: 50px 72px;
+    }
+    .card-item{
+        border-radius: 6px;
+        border: #FDD9BF solid 2.5px;
+        box-shadow: 0px 0px 18px 0px #F3E8CF;
+        padding: 24px 34px;
+        width: 424px;
+        height: 250px;
+        position: relative;
+    }
+    .flipped-card{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    .card-image{
+        width: 320px;
+        height: auto;
+    }
+    .card-content{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .flipped-card-image{
+        width: 180px;
+        height: auto;
+    }
+    .read-button{
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        font-size: 18px;
+        line-height: 140%;
+        font-weight: 400;
+        color: #294294;
+        cursor: pointer;
+        height: 25.2px;
+    }
+    .read-button:hover{
+        border-bottom: solid 1px #294294;
+        font-weight: 500;
+        .read-button-arrow{
+            transform: rotate(30deg);
+        }
+    }
+    .mobile-icon{
+        display: none;
+    }
+
+
+    @media screen and (max-width: 769px) {
+        .description{
+            font-size: 16px;
+            padding: 32px 18px;
+        }
+        .card-section{
+            margin-bottom: 52px;
+        }
+        .card-container{
+            grid-template-columns: 1fr;
+            border: none;
+            border-radius: 0;
+        }
+        .card-box{
+            border: none;
+            padding: 12px 24px;
+        }
+        .card-item{
+            border-radius: 3.2px;
+            padding: 16px 24px;
+            width: 312px;
+            height: 207px;
+        }
+        .card-item:hover{
+            height: 227px;
+        }
+        .card-image{
+            width: 222px;
+            height: auto;
+        }
+        .flipped-card-image{
+            width: 147px;
+            height: auto;
+        }
+        .card-description{
+            font-size: 16px;
+          }
+        .read-button{
+            font-size: 16px;
+        }
+        .read-button-arrow{
+            width: 14px;
+        }
+        .mobile-icon{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            display: inline;
+        }
+    }
+    @media screen and (min-width: 769px) and (max-width: 1200px) {
+        .card-container{
+            grid-template-columns: 1fr;
+            border: none;
+            border-radius: 0;
+        }
+    }
+}

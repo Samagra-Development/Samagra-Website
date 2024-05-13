@@ -24,6 +24,7 @@
 @import './TestimonialSlider';
 @import './HeaderSmall';
 @import './HomePageUpdated';
+@import './OurAssets.scss';
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
 .media-page-banner {
@@ -215,7 +216,7 @@ code {
   font-family: 'noto sans' !important;
 }
 
-#navbar-text{
+#navbar-text, #our-assets div, #our-assets span{
   font-family: 'noto sans' !important;
 }
 
