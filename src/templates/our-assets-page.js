@@ -6,7 +6,7 @@ import AssetCard from '../components/OurAssetComponents/AssetCard';
 import { Helmet } from 'react-helmet';
 
 
-export const AssetPagePreviewTemplate = ({data}) => {
+export const AssetPageTemplate = ({data}) => {
     return (
         <div>
             <Helmet>
@@ -41,7 +41,7 @@ const AssetsPage = ({data}) => {
   
     return (
         <Layout>
-            <AssetPagePreviewTemplate data={markdownRemark.frontmatter}/>
+            <AssetPageTemplate data={markdownRemark.frontmatter}/>
         </Layout>
     )
 };
