@@ -33,7 +33,7 @@ title4: Just like Mussarat, 4 lakh teachers in government schools of Uttar
 motionGraphic1: /img/part-1_1.mp4
 title5: ""
 infographic1:
-  - img: /img/teacher.jpg
+  - img: /img/nlapp_teacher.jpg
   - img: /img/teacher_card1.jpg
   - img: /img/teacher_card2.jpg
   - img: /img/teacher_card3.jpg
@@ -42,10 +42,10 @@ title6: With NL App, all teachers can accurately measure student learning levels
   & chart out their teaching strategy to ensure each student attains grade-level
   competencies.
 infographic2:
-  - img: null
-  - img: null
-  - img: null
-  - img: null
+  - ? img
+  - ? img
+  - ? img
+  - ? img
 motionGraphic2: /img/part-2_1.mp4
 title7: ""
 icon1: /img/assessment-2.png
