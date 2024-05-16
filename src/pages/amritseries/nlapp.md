@@ -105,7 +105,7 @@ successStoriesTitle: View more <i>Success Stories of Impact</i>
 showSuccessStories: antyodaya-saral,go-sugam,ksk
 sideIcon4Text: Impact Numbers
 showPlus5: false
-blogTitle: Coming Soon!
+blogTitle: Coming soon!
 blogLink: ""
 showOpEd: false
 opEdTitle: ""
