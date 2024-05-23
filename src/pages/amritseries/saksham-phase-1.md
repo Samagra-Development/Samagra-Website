@@ -4,11 +4,11 @@ formType: This is old case study form
 show: false
 projectId: SAKSHAM
 date: 2024-05-09T05:16:51.844Z
-featuredimage: /img/teacher.jpg
+featuredimage: /img/sh_feautured_img.jpg
 buttonText: Learn More
 title: saksham-phase-1
 fontColor: "#2e428f"
-bannerImage: /img/teacher.jpg
+bannerImage: /img/sh-phase-1.mp4
 title1: "To make more than 80% government elementary school students grade-level
   competent in Haryana "
 title2: With 15 lakh students studying in 14,500 government schools of Haryana,
@@ -26,6 +26,7 @@ infographic2:
   - img: /img/teachercard2.jpg
   - img: /img/teachercard3.jpg
 title4: What was the journey of Saksham Phase 1 in the Governance Matrix?
+motionGraphic: /img/sh-education.mp4
 showImpactVideo: false
 showImpactCard: false
 showPlus1: false
