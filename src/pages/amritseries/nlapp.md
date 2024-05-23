@@ -107,8 +107,8 @@ sideIcon4Text: Impact Numbers
 showPlus5: false
 blogTitle: Coming soon!
 blogLink: ""
-showOpEd: false
-opEdTitle: ""
-opEdLink: ""
+showOpEd: true
+opEdTitle: "Beyond the Blackboard: Digitally empowering teachers in Uttar Pradesh  "
+opEdLink: https://government.economictimes.indiatimes.com/blog/beyond-the-blackboard-digitally-empowering-teachers-in-uttar-pradesh/110354480
 blogSectionImage: /img/dsc_3276.jpg
 ---
