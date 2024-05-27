@@ -100,7 +100,7 @@ impactNumber5Title: "Increase in annual applications across schemes and services
 showPlus5: false
 infographicGoogleDriveLink: https://drive.google.com/file/d/1uxKCe4QnB6MbQFUfIsBbNkGJh7g41c1X/view?usp=sharing
 downloadInfographicBtn: Download Infographic
-title7: In Media
+title7: Insights from the ground
 blogTitle: ""
 blogLink: ""
 showOpEd: true
