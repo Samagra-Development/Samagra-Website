@@ -16,15 +16,12 @@ title2: With 15 lakh students studying in 14,500 government schools of Haryana,
   'Political Salience' and 'System Capacity' were both equally important.
 title3: What was life like before Saksham Phase 1?
 infographic1:
-  - img: /img/student.jpg
-  - img: /img/student_card1.jpg
-  - img: /img/student_card2.jpg
-  - img: /img/student_card3.jpg
-infographic2:
-  - img: /img/teacher.jpg
-  - img: /img/teachercard1.jpg
-  - img: /img/teachercard2.jpg
-  - img: /img/teachercard3.jpg
+  - img: /img/sk_teacher.jpg
+  - img: /img/sk_teacher_card1.jpg
+  - img: /img/sk_teacher_card2.jpg
+  - img: /img/sk_teacher_card3.jpg
+  - img: /img/sk_teacher_card4.jpg
+infographic2: []
 title4: What was the journey of Saksham Phase 1 in the Governance Matrix?
 motionGraphic: /img/sh-education.mp4
 showImpactVideo: false
