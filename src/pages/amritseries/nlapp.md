@@ -105,8 +105,9 @@ successStoriesTitle: View more <i>Success Stories of Impact</i>
 showSuccessStories: antyodaya-saral,go-sugam,ksk
 sideIcon4Text: Impact Numbers
 showPlus5: false
-blogTitle: Coming soon!
-blogLink: ""
+blogTitle: Easy to use app for quick, accurate and standardized assessment of
+  student learning levels at scale
+blogLink: https://samagragovernance.in/blog/2024-06-05-amrit-series-5-nipun-lakshya-app/
 showOpEd: true
 opEdTitle: "Beyond the Blackboard: Digitally empowering teachers in Uttar Pradesh  "
 opEdLink: https://government.economictimes.indiatimes.com/blog/beyond-the-blackboard-digitally-empowering-teachers-in-uttar-pradesh/110354480
