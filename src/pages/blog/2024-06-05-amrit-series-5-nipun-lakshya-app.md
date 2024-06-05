@@ -51,7 +51,7 @@ To address this gap and empower teachers with a *‘thermometer’* that could m
 
 *F﻿ig:* *Launch of NL App by the Honorable Chief Minister of Uttar Pradesh on 5th Sept 2022*
 
-Leveraging Existing Technology for Scalability
+**Leveraging Existing Technology for Scalability**
 
 The NIPUN Lakshya App ingeniously leveraged existing technology to create a scalable solution. To tackle the challenge of measuring Oral Reading Fluency (ORF), a first-of-its-kind partnership emerged between the Department of Education (Government of Uttar Pradesh) and Google Read Along (GRA). Just like Uber leverages Google Maps for navigation, the NL App harnessed the power of GRA to assess Oral Reading Fluency (ORF) – a critical foundational skill. Understanding the importance of local variations, the GRA model was trained on a massive dataset of Uttar Pradesh dialects, bringing the word recognition error rate from 38% to 1%. This ensured accurate assessments for every child, regardless of their regional background.
 
@@ -101,7 +101,7 @@ For Rashmi ji, the app allowed her to assess and track the progress of each stud
 
 The widespread adoption of the NIPUN Lakshya App has translated into tangible results, the app enabled D.El.Ed students to independently assess 20L students across 68,000 schools in 3 weeks, of which more than [16,000 schools](https://www.hindustantimes.com/cities/lucknow-news/over-16k-u-p-govt-primary-schools-shine-in-nipun-test-101708183426193.html) emerged as "NIPUN Vidyalaya" (where 80% of students in each grade were proficient in grade level competencies as per the NIPUN Lakshya).
 
-**A model for replication**
+**A Model for Replication**
 
 Uttar Pradesh's experience offers a compelling blueprint for transforming education through real-time outcome tracking. This approach empowers teachers with the information they need to make informed decisions, fosters a culture centered on student learning level, and ultimately bridges the gap in foundational skills. This powerful approach can be replicated for Foundational Literacy and Numeracy (FLN) initiatives across India. The app's assessment framework can be adapted to each state's specific FLN goals, ensuring its continued relevance. 
 
