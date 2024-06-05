@@ -69,30 +69,35 @@ title6: Antyodaya Saral transformed the lives of millions of citizens and
   department officials with SARAL portal and SARAL Kendras enabling
   citizen-centric governance in Haryana
 icon1: /img/icon-1.png
+impactNumber1Char: "#"
 impactNumber1: 1
 impactNumber1Decimal: 0
 impactNumber1Text: ""
 impactNumber1Title: Haryana topped Citizen-Centric Governance Ranking in 2021
 showPlus1: false
 icon2: /img/icon-2.png
+impactNumber2Char: "> "
 impactNumber2: 85
 impactNumber2Decimal: 0
 impactNumber2Text: "%"
 impactNumber2Title: Applications closed within Right to Service timelines
 showPlus2: false
 icon3: /img/icon-3.png
+impactNumber3Char: ""
 impactNumber3: 1.2
 impactNumber3Decimal: 1
 impactNumber3Text: " crore"
 impactNumber3Title: "Applications recorded in the Antyodaya Saral system every year "
 showPlus3: true
 icon4: /img/icon-4.png
+impactNumber4Char: ""
 impactNumber4: 31
 impactNumber4Decimal: 0
 impactNumber4Text: "%"
 impactNumber4Title: "Reduction in delivery time on average across schemes and services "
 showPlus4: false
 icon5: /img/icon-5.png
+impactNumber5Char: ""
 impactNumber5: 40
 impactNumber5Decimal: 0
 impactNumber5Text: "%"

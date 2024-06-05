@@ -197,13 +197,62 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
             {content?.infographic1.length>1 && <div
               style={{
                 display: 'flex',
-                flexWrap: "wrap",
                 justifyContent: 'center',
                 flexDirection: mobile ? 'column' : 'row',
                 alignItems: mobile ? 'center' : 'flex-start',
-                padding: mobile && "0 16vw"
               }}>
-              {content?.infographic1?.map((item, index, array) => {
+              {content?.infographic1?.[1]?.img &&  <>
+                    <div className="infographic-img">
+                      <img
+                        src={(content?.infographic1?.[1]?.img?.childImageSharp)?(content?.infographic1?.[1]?.img?.childImageSharp?.fluid?.src):content?.infographic1?.[1]?.img}
+                        alt=""
+                        style={{ maxWidth: '250px' }}
+                      />
+                    </div>
+                  </>}
+                  {content?.infographic1?.[2]?.img &&  <>
+                    <div
+                        style={{
+                          height: '450px',
+                          width: '1px',
+                          borderWidth: '1px',
+                          borderStyle: 'solid',
+                          borderColor: 'transparent',
+                          borderImage:
+                            `linear-gradient(to bottom, ${content?.fontColor}, #ffffff) 1`,
+                          display: mobile ? 'none' : 'block',
+                          margin: '0 10px',
+                        }}></div>
+                    <div className="infographic-img">
+                      <img
+                        src={(content?.infographic1?.[2]?.img?.childImageSharp)?(content?.infographic1?.[2]?.img?.childImageSharp?.fluid?.src):content?.infographic1?.[2]?.img}
+                        alt=""
+                        style={{ maxWidth: '250px' }}
+                      />
+                    </div>
+                  </>}
+                  {content?.infographic1?.[3]?.img &&  <>
+                    <div
+                        style={{
+                          height: '450px',
+                          width: '1px',
+                          borderWidth: '1px',
+                          borderStyle: 'solid',
+                          borderColor: 'transparent',
+                          borderImage:
+                            `linear-gradient(to bottom, ${content?.fontColor}, #ffffff) 1`,
+                          display: mobile ? 'none' : 'block',
+                          margin: '0 10px',
+                        }}></div>
+                    <div className="infographic-img">
+                      <img
+                        src={(content?.infographic1?.[3]?.img?.childImageSharp)?(content?.infographic1?.[3]?.img?.childImageSharp?.fluid?.src):content?.infographic1?.[3]?.img}
+                        alt=""
+                        style={{ maxWidth: '250px' }}
+                      />
+                    </div>
+                  </>}
+              {/* {content?.infographic1?.map((item, index, array) => {
                 if(index === 0) return null;
                 return (
                   <>
@@ -213,9 +262,9 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                         alt=""
                         style={{ maxWidth: '250px' }}
                       />
-                    </div>
+                    </div> */}
                     {/* Check if it's not the last element */}
-                    {(index !== array.length - 1 && index!==3) && (
+                    {/* {(index !== array.length - 1 && index!==3) && (
                       <div
                         style={{
                           height: '450px',
@@ -231,7 +280,45 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                     )}
                   </>
                 );
-              })} 
+              })}  */}
+            </div>}
+            {content?.infographic1.length>4 && <div
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                flexDirection: mobile ? 'column' : 'row',
+                alignItems: mobile ? 'center' : 'flex-start',
+              }}>
+              {content?.infographic1?.[4]?.img &&  <>
+                    <div className="infographic-img">
+                      <img
+                        src={(content?.infographic1?.[4]?.img?.childImageSharp)?(content?.infographic1?.[4]?.img?.childImageSharp?.fluid?.src):content?.infographic1?.[4]?.img}
+                        alt=""
+                        style={{ maxWidth: '250px' }}
+                      />
+                    </div>
+                  </>}
+                  {content?.infographic1?.[5]?.img &&  <>
+                    <div
+                        style={{
+                          height: '450px',
+                          width: '1px',
+                          borderWidth: '1px',
+                          borderStyle: 'solid',
+                          borderColor: 'transparent',
+                          borderImage:
+                            `linear-gradient(to bottom, ${content?.fontColor}, #ffffff) 1`,
+                          display: mobile ? 'none' : 'block',
+                          margin: '0 10px',
+                        }}></div>
+                    <div className="infographic-img">
+                      <img
+                        src={(content?.infographic1?.[5]?.img?.childImageSharp)?(content?.infographic1?.[5]?.img?.childImageSharp?.fluid?.src):content?.infographic1?.[5]?.img}
+                        alt=""
+                        style={{ maxWidth: '250px' }}
+                      />
+                    </div>
+                  </>}
             </div>}
           </div>}
 
@@ -464,15 +551,16 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                   fontWeight: 'bold',
                   color: content.fontColor,
                   fontSize: '24px',
-                  marginBottom: 0,
+                  marginBottom: 0, 
                   paddingTop: "2vh",
                 }}>
-                <span
+                {/* <span
                   style={{
                     fontWeight: 'bold',
                   }}>
                   #
-                </span>
+                </span> */}
+                {content?.impactNumber1Char}
                 <CountUp
                   start={0}
                   decimals={content?.impactNumber1Decimal}
@@ -480,7 +568,8 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                   duration={3}
                   enableScrollSpy
                   scrollSpyOnce={true}
-                />{' '}
+                />
+                {/* {' '} */}
                 {content?.impactNumber1Text}{' '}
                 {content?.showPlus1 && <span
                   style={{
@@ -527,12 +616,13 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                   marginBottom: 0,
                   paddingTop: "2vh",
                 }}>
-                    <span
+                    {/* <span
                   style={{
                     fontWeight: 'bold',
                   }}>
                   &gt;
-                </span>
+                </span> */}
+                {content?.impactNumber2Char}
                 <CountUp
                   start={0}
                   decimals={content?.impactNumber2Decimal}
@@ -540,7 +630,8 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                   duration={3}
                   enableScrollSpy
                   scrollSpyOnce={true}
-                />{' '}
+                />
+                {/* {' '} */}
                 {content?.impactNumber2Text}{' '}
                 {content?.showPlus2 && <span
                   style={{
@@ -587,6 +678,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                   marginBottom: 0,
                   paddingTop: "2vh",
                 }}>
+                  {content?.impactNumber3Char}
                 <CountUp
                   start={0}
                   decimals={content?.impactNumber3Decimal}
@@ -595,6 +687,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                   enableScrollSpy
                   scrollSpyOnce={true}
                 />
+                {/* {' '} */}
                 {content?.impactNumber3Text}{' '}
                 {content?.showPlus3 && <span
                   style={{
@@ -641,6 +734,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                   marginBottom: 0,
                   paddingTop: "2vh",
                 }}>
+                  {content?.impactNumber4Char}
                 <CountUp
                   start={0}
                   decimals={content?.impactNumber4Decimal}
@@ -649,6 +743,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                   enableScrollSpy
                   scrollSpyOnce={true}
                 />
+                {/* {' '} */}
                 {content?.impactNumber4Text}{' '}
                 {content?.showPlus4 && <span
                   style={{
@@ -695,6 +790,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                   marginBottom: 0,
                   paddingTop: "2vh",
                 }}>
+                  {content?.impactNumber5Char}
                 <CountUp
                   start={0}
                   decimals={content?.impactNumber5Decimal}
@@ -703,6 +799,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                   enableScrollSpy
                   scrollSpyOnce={true}
                 />
+                {/* {' '} */}
                 {content?.impactNumber5Text}{' '}
                 {content?.showPlus5 && <span
                   style={{
@@ -1184,26 +1281,31 @@ export const pageQuery = graphql`
         impactNumber1Decimal
         impactNumber1Text
         impactNumber1Title
+        impactNumber1Char
         showPlus1
         impactNumber2
         impactNumber2Decimal
         impactNumber2Text
         impactNumber2Title
+        impactNumber2Char
         showPlus2
         impactNumber3
         impactNumber3Decimal
         impactNumber3Text
         impactNumber3Title
+        impactNumber3Char
         showPlus3
         impactNumber4
         impactNumber4Decimal
         impactNumber4Text
         impactNumber4Title
+        impactNumber4Char
         showPlus4
         impactNumber5
         impactNumber5Decimal
         impactNumber5Text
         impactNumber5Title
+        impactNumber5Char
         showPlus5
 
         infographic1 {

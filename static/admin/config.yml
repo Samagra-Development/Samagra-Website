@@ -229,30 +229,35 @@ collections:
       - { label: 'Impact Card Link 3', name: 'cardLink3', widget: 'string', required: false }
       - { label: 'Title 6', name: 'title6', widget: 'string', required: false }
       - { label: 'Impact icon 1', name: 'icon1', widget: image, required: false }
+      - { label: 'Impact number 1 char', name: 'impactNumber1Char', widget: 'string', required: false }
       - { label: 'Impact number 1', name: 'impactNumber1', widget: 'number', required: false, value_type: 'float' }
       - { label: 'Impact number 1 Decimals', name: 'impactNumber1Decimal', widget: 'number', required: false }
       - { label: 'Impact number 1 text', name: 'impactNumber1Text', widget: 'string', required: false }
       - { label: 'Impact number 1 title', name: 'impactNumber1Title', widget: 'string', required: false }
       - { label: 'Show Plus Icon 1', name: 'showPlus1', widget: 'boolean', default: false }
       - { label: 'Impact icon 2', name: 'icon2', widget: image, required: false }
+      - { label: 'Impact number 2 char', name: 'impactNumber2Char', widget: 'string', required: false }
       - { label: 'Impact number 2', name: 'impactNumber2', widget: 'number', required: false, value_type: 'float' }
       - { label: 'Impact number 2 Decimals', name: 'impactNumber2Decimal', widget: 'number', required: false }
       - { label: 'Impact number 2 text', name: 'impactNumber2Text', widget: 'string', required: false }
       - { label: 'Impact number 2 title', name: 'impactNumber2Title', widget: 'string', required: false }
       - { label: 'Show Plus Icon 2', name: 'showPlus2', widget: 'boolean', default: false  }
       - { label: 'Impact icon 3', name: 'icon3', widget: image, required: false }
+      - { label: 'Impact number 3 char', name: 'impactNumber3Char', widget: 'string', required: false }
       - { label: 'Impact number 3', name: 'impactNumber3', widget: 'number', required: false, value_type: 'float' }
       - { label: 'Impact number 3 Decimals', name: 'impactNumber3Decimal', widget: 'number', required: false }
       - { label: 'Impact number 3 text', name: 'impactNumber3Text', widget: 'string', required: false }
       - { label: 'Impact number 3 title', name: 'impactNumber3Title', widget: 'string', required: false }
       - { label: 'Show Plus Icon 3', name: 'showPlus3', widget: 'boolean', default: false  }
       - { label: 'Impact icon 4', name: 'icon4', widget: image, required: false }
+      - { label: 'Impact number 4 char', name: 'impactNumber4Char', widget: 'string', required: false }
       - { label: 'Impact number 4', name: 'impactNumber4', widget: 'number', required: false, value_type: 'float' }
       - { label: 'Impact number 4 Decimals', name: 'impactNumber4Decimal', widget: 'number', required: false }
       - { label: 'Impact number 4 text', name: 'impactNumber4Text', widget: 'string', required: false }
       - { label: 'Impact number 4 title', name: 'impactNumber4Title', widget: 'string', required: false }
       - { label: 'Show Plus Icon 4', name: 'showPlus4', widget: 'boolean', default: false  }
       - { label: 'Impact icon 5', name: 'icon5', widget: image, required: false }
+      - { label: 'Impact number 5 char', name: 'impactNumber5Char', widget: 'string', required: false }
       - { label: 'Impact number 5', name: 'impactNumber5', widget: 'number', required: false, value_type: 'float' }
       - { label: 'Impact number 5 Decimals', name: 'impactNumber5Decimal', widget: 'number', required: false }
       - { label: 'Impact number 5 text', name: 'impactNumber5Text', widget: 'string', required: false }
