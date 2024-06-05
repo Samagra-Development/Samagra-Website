@@ -57,8 +57,9 @@ img1: ""
 cardTitle1: ""
 icon1: /img/sk_picture-1.svg
 impactNumber1: 55
-impactNumber1Text: "%-85%"
+impactNumber1Text: "%"
 showPlus1: false
+icon2: /img/sk_picture-2.svg
 impactNumber2: 45
 impactNumber2Decimal: 0
 impactNumber2Text: "%"
