@@ -556,7 +556,8 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   duration={3}
                   enableScrollSpy
                   scrollSpyOnce={true}
-                />{' '}
+                />
+                {/* {' '} */}
                 {content?.impactNumber1Text}{' '}
                 {content?.showPlus1 && <span
                   style={{
@@ -611,7 +612,8 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   duration={3}
                   enableScrollSpy
                   scrollSpyOnce={true}
-                />{' '}
+                />
+                {/* {' '} */}
                 {content?.impactNumber2Text}{' '}
                 {content?.showPlus2 && <span
                   style={{
@@ -667,6 +669,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   enableScrollSpy
                   scrollSpyOnce={true}
                 />
+                {/* {" "} */}
                 {content?.impactNumber3Text}{' '}
                 {content?.showPlus3 && <span
                   style={{
@@ -745,7 +748,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   fontWeight: 'bold',
                 }}></p>
             </div>}
-            {content?.icon1 && <div
+            {content?.icon5 && <div
               style={{
                 display: 'flex',
                 flexDirection: 'column',
