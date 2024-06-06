@@ -62,19 +62,19 @@ impactNumber1Text: "%"
 impactNumber1Title: Number of children made 'Saksham', as per third party
   assessments from the 55% benchmark in 2017
 showPlus1: false
-icon2: /img/sk_picture-2.svg
+icon2: /img/sk_picture-2.png
 impactNumber2: 25
 impactNumber2Decimal: ""
 impactNumber2Text: "%"
 impactNumber2Title: More students scoring above 50% in internal tests
 showPlus2: false
-icon3: /img/1.jpg
+icon3: /img/sk_picture-3.png
 impactNumber3Char: "Top "
 impactNumber3: 5
 impactNumber3Text: ""
 impactNumber3Title: Haryana in top 5 states (NAS ’21) and the most improved state from NAS 2017-21
 showPlus3: false
-icon4: /img/1.jpg
+icon4: /img/sk_picture-4.png
 impactNumber4: 15
 impactNumber4Text: " Lakh"
 impactNumber4Title: Students impacted
