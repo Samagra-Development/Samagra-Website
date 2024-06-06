@@ -1,7 +1,7 @@
 ---
 templateKey: old-case-study
 formType: This is old case study form
-show: false
+show: true
 projectId: saksham-phase-1
 date: 2024-05-09T05:16:51.844Z
 featuredimage: /img/sh_feautured_img.jpg
