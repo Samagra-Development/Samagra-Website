@@ -53,15 +53,15 @@ title5: Here is how the Haryana government worked in a mission mode to augment
   the system capacity and poltical salience...
 showImpactVideo: false
 showImpactCard: true
-img1: /img/sk_1.jpg
+img1: /img/sk_1.png
 cardTitle1: Administrative Streamlining
 cardDescription1: Increasing teacher time in the classroom by streamlining
   transfers, MIS and shifting HR processes online
-img2: /img/sk_2.jpg
+img2: /img/sk_2.png
 cardTitle2: Academic Inputs
 cardDescription2: "Delivery of competency-based remediation supported by timely
   textbook delivery and student assessment reforms "
-img3: /img/sk_3.jpg
+img3: /img/sk_3.png
 cardTitle3: Cascaded Gamification
 cardDescription3: Building momentum in the system through gamification and
   direct CM involvement to drive bottom-up innovation
