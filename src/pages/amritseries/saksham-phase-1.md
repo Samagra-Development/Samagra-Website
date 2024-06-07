@@ -4,7 +4,7 @@ formType: This is old case study form
 show: false
 projectId: saksham-phase-1
 date: 2024-05-09T05:16:51.844Z
-featuredimage: /img/sh_feautured_img.jpg
+featuredimage: /img/home-banner-saksham-slide-2.jpg
 buttonText: Learn More
 title: saksham-phase-1
 fontColor: "#2e428f"
@@ -52,9 +52,19 @@ newsletterLink: https://www.linkedin.com/pulse/building-saksham-haryana-samagra-
 title5: Here is how the Haryana government worked in a mission mode to augment
   the system capacity and poltical salience...
 showImpactVideo: false
-showImpactCard: false
-img1: ""
-cardTitle1: ""
+showImpactCard: true
+img1: /img/sk_1.jpg
+cardTitle1: Administrative Streamlining
+cardDescription1: Increasing teacher time in the classroom by streamlining
+  transfers, MIS and shifting HR processes online
+img2: /img/home-banner-saksham-slide-1.jpg
+cardTitle2: Academic Inputs
+cardDescription2: "Delivery of competency-based remediation supported by timely
+  textbook delivery and student assessment reforms "
+img3: /img/home-banner-saksham-slide-3.jpg
+cardTitle3: Cascaded Gamification
+cardDescription3: Building momentum in the system through gamification and
+  direct CM involvement to drive bottom-up innovation
 icon1: /img/sak1.jpg
 impactNumber1: 85
 impactNumber1Decimal: 0
@@ -62,13 +72,13 @@ impactNumber1Text: "%"
 impactNumber1Title: Number of children made 'Saksham', as per third party
   assessments from the 55% benchmark in 2017
 showPlus1: false
-icon2: /img/sak2.jpg
+icon2: /img/sk_2.jpg
 impactNumber2: 25
 impactNumber2Decimal: 0
 impactNumber2Text: "%"
 impactNumber2Title: More students scoring above 50% in internal tests
 showPlus2: false
-icon3: /img/sak3.jpg
+icon3: /img/sk_3.jpg
 impactNumber3Char: "Top "
 impactNumber3: 5
 impactNumber3Text: ""
