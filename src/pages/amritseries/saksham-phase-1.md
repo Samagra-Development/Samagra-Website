@@ -57,11 +57,11 @@ img1: /img/sk_1.jpg
 cardTitle1: Administrative Streamlining
 cardDescription1: Increasing teacher time in the classroom by streamlining
   transfers, MIS and shifting HR processes online
-img2: /img/home-banner-saksham-slide-1.jpg
+img2: /img/sk_2.jpg
 cardTitle2: Academic Inputs
 cardDescription2: "Delivery of competency-based remediation supported by timely
   textbook delivery and student assessment reforms "
-img3: /img/home-banner-saksham-slide-3.jpg
+img3: /img/sk_3.jpg
 cardTitle3: Cascaded Gamification
 cardDescription3: Building momentum in the system through gamification and
   direct CM involvement to drive bottom-up innovation
