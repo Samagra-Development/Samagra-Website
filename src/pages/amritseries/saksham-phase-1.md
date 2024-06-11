@@ -86,9 +86,9 @@ impactNumber3Title: Haryana in top 5 states (NAS ’21) and the most improved st
 showPlus3: false
 icon4: /img/sak4.jpg
 impactNumber4: 15
-impactNumber4Text: " Lakh"
+impactNumber4Text: " Lakh +"
 impactNumber4Title: Students impacted
-showPlus4: true
+showPlus4: false
 showPlus5: false
 infographicGoogleDriveLink: https://drive.google.com/file/d/1qIfwkpOILJsq1anOpDqttTXH0lNUZBOK/view?usp=sharing
 downloadInfographicBtn: Download Infographic
