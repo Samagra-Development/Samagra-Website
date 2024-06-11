@@ -90,6 +90,8 @@ impactNumber4Text: " Lakh"
 impactNumber4Title: Students impacted
 showPlus4: true
 showPlus5: false
+infographicGoogleDriveLink: https://drive.google.com/file/d/1qIfwkpOILJsq1anOpDqttTXH0lNUZBOK/view?usp=sharing
+downloadInfographicBtn: Download Infographic
 showOpEd: false
 showWebinar: false
 showSuccessStories: antyodaya-saral,go-sugam,hkrn
