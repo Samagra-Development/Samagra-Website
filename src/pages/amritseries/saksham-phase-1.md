@@ -72,13 +72,13 @@ impactNumber1Text: "%"
 impactNumber1Title: Number of children made 'Saksham', as per third party
   assessments from the 55% benchmark in 2017
 showPlus1: false
-icon2: /img/sk_2.jpg
+icon2: /img/sk_picture-2.png
 impactNumber2: 25
 impactNumber2Decimal: 0
 impactNumber2Text: "%"
 impactNumber2Title: More students scoring above 50% in internal tests
 showPlus2: false
-icon3: /img/sk_3.jpg
+icon3: /img/sk_picture-3.png
 impactNumber3Char: "Top "
 impactNumber3: 5
 impactNumber3Text: ""
