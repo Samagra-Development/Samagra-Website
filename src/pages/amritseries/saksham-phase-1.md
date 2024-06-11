@@ -92,7 +92,15 @@ showPlus4: false
 showPlus5: false
 infographicGoogleDriveLink: https://drive.google.com/file/d/1qIfwkpOILJsq1anOpDqttTXH0lNUZBOK/view?usp=sharing
 downloadInfographicBtn: Download Infographic
+title7: Insights from the ground
+blogTitle: Improving Pedagogy in Government Schools
+blogLink: https://reachalliance.org/case-study/education-reform-in-haryana-india/
 showOpEd: false
+opEdTitle: ""
+opEdLink: ""
 showWebinar: false
+footerText1: Partner with us today!
+footerText2: "Write to us at: outreach@samagragovernance.in"
+successStoriesTitle: Other success stories in impact
 showSuccessStories: antyodaya-saral,go-sugam,hkrn
 ---
