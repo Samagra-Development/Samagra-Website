@@ -6,7 +6,7 @@ projectId: saksham-phase-1
 date: 2024-05-09T05:16:51.844Z
 featuredimage: /img/home-banner-saksham-slide-2.jpg
 buttonText: Learn More
-title: saksham-phase-1
+title: saksham-education
 fontColor: "#2e428f"
 bannerImage: /img/sh-phase-1.mp4
 title1: "To make more than 80% government elementary school students grade-level
