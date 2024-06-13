@@ -25,6 +25,7 @@
 @import './HeaderSmall';
 @import './HomePageUpdated';
 @import './OurAssets.scss';
+@import './DeclutteredPage.scss';
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
 .media-page-banner {
@@ -216,7 +217,7 @@ code {
   font-family: 'noto sans' !important;
 }
 
-#navbar-text, #our-assets div, #our-assets span{
+#navbar-text, #our-assets div, #our-assets span, #decluttered-page div, #decluttered-page span, #decluttered-page b{
   font-family: 'noto sans' !important;
 }
 

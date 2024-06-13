@@ -1,0 +1,240 @@
+#decluttered-page{
+    .decluttered-top-image {
+        position: relative;
+        text-align: center;
+      
+        .slider-content {
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+          width: 100%;
+          background-color:rgba(0, 0, 0, 0.34);
+          justify-content: center;
+          align-items: center;
+      
+            .title {
+              color: white;
+              font-size: 124px;
+              line-height: 124px;
+              font-weight: 600;
+              -webkit-animation-name: textFade; /* Safari 4.0 - 8.0 */
+                -webkit-animation-duration: 1.2s; /* Safari 4.0 - 8.0 */
+                animation-name: textFade;
+                animation-duration: 1.2s;
+      
+            }
+    
+            @media screen and (min-width: 769px) and (max-width: 1200px)  {
+                .title {
+                  font-size: 72px;
+                  line-height: 72px;
+                  margin: 0;
+                }
+              }
+              
+              @media screen and (max-width: 769px)  {
+                .title {
+                  font-size: 38px;
+                  line-height: 38px;
+                  margin: 0;
+                }
+              }
+    
+        }
+        
+      }
+    .description{
+        width:100%;
+        display:grid;
+        grid-template-columns:1fr 1.4fr;
+        gap:36px;
+        padding:84px 184px;
+        align-items: center;
+    }
+    .description-text{
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 145%;
+        color: #121213;   
+    }
+    .post-group{
+        display:grid;
+        width:100%;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        padding:32px 132px;
+        gap:18px;
+    }
+    .expand-icon{
+        position:absolute;
+        top:16px;
+        right:16px;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+    }
+    .postcard{
+        width:100%;
+        aspect-ratio:1;
+        border-radius:24px;
+    }
+    .insta-button-section{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:22px; 
+        padding:56px 0
+    }
+    .button-section-description{
+        font-size:22px;
+        line-height:160%;
+        text-align:center;
+        font-weight:400;
+        color: #121213;
+    }
+    .button-style{
+        box-shadow:0px 0px 4px rgba(0, 0, 0, 0.25);
+        background:none;
+        display:flex; 
+        align-items:center;
+        padding:12px 18px;
+        gap:12px; 
+        border:1px solid transparent;
+        }
+    .insta-icon{
+        width: 36px;
+        height: 36px;
+    }
+    .button-text{
+        font-size:24px;
+        line-height:160%;
+        font-weight:600;
+        background: linear-gradient(to right, rgba(120, 54, 250, 1) 0%, rgba(235, 0, 157, 1) 50%, rgba(255, 187, 1, 1) 100%);
+        background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+    .asset-heading{
+        text-align:center;
+        font-size:28px;
+        font-weight:600;
+        line-height:160%;
+    }
+    .asset-container{
+        padding-top:48px;
+        padding-bottom:156px;
+            display: flex;
+            justify-content:space-evenly;
+    }
+    .footer{
+        padding: 36px;
+    }
+    .tab-container{
+        margin: 0px 184px;
+    }
+    .tab-sub-container{
+                border-bottom: 1px solid #E2E2E2;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                overflow: auto;
+                white-space: nowrap;
+    }
+    .tab-item{ 
+        padding: 24px 24px;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 150%;
+    }
+    @media screen and (max-width: 769px){
+        .description{
+            grid-template-columns:1fr;
+            gap: 16px;
+            padding: 24px;
+        }
+        .description-text{
+            font-size: 14px; 
+        }
+        .post-group{
+            grid-template-columns:1fr 1fr;
+            padding:16px;
+            gap:5.5px;
+        }
+        .expand-icon{
+            position:absolute;
+            top:6px;
+            right:6px;
+            width: 13px;
+            height: 13px;
+        }
+        .postcard{
+            border-radius:12px;
+        }
+    .insta-button-section{
+        gap:8px; 
+        padding:28px 0
+    }
+    .button-section-description{
+        font-size:12px;
+    }
+    .button-style{
+        box-shadow:0px 0px 1.47px rgba(0, 0, 0, 0.25);
+        padding:5px 8px;
+        gap:5px; 
+        border: 0.4px solid transparent;
+        }
+    .insta-icon{
+        width: 16px;
+        height: 16px;
+    }
+    .button-text{
+        font-size:12px;
+        font-weight:500;
+    }
+    .asset-heading{
+        font-size:19px;
+    }
+    .asset-container{
+        padding-top: 0px;
+        padding-bottom: 72px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer{
+        padding: 36px 20px;
+    }
+    .tab-container{
+        margin: 0px 14px;
+    }
+    .tab-sub-container{
+                // border-bottom: 0.35px solid #E2E2E2;
+                border-bottom: none;
+    }
+    .tab-item{ 
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+    }
+    }
+    .cross-icon{
+        width: 52px;
+        height: 52px;
+        margin: 24px;
+        cursor: pointer;
+    }
+    @media screen and (max-width: 769px){
+    .cross-icon{
+        width: 28px;
+        height: 28px;
+        margin:16px
+    }
+    }
+    ::-webkit-scrollbar {
+        width: 1px;
+      }
