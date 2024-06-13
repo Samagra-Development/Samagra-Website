@@ -99,8 +99,9 @@ showOpEd: false
 opEdTitle: ""
 opEdLink: ""
 showWebinar: false
+blogSectionImage: /img/home-banner-saksham-slide-2.jpg
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
-successStoriesTitle: Other success stories in impact
-showSuccessStories: antyodaya-saral,go-sugam,hkrn
+successStoriesTitle: View more <i> Success Stories of Impact </i>
+showSuccessStories: nlapp,antyodaya-saral,hkrn
 ---
