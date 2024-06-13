@@ -98,12 +98,14 @@ showPlus5: false
 infographicGoogleDriveLink: https://drive.google.com/file/d/1SrCsur2-B411Sce9aU62hGXRWqwaeokx/view?usp=sharing
 downloadInfographicBtn: Download Infographic
 title7: Insights from the ground
-blogTitle: Improving Pedagogy in Government Schools
+blogTitle: "Oxford Reach Alliance: Improving Pedagogy in Government Schools"
 blogLink: https://reachalliance.org/case-study/education-reform-in-haryana-india/
 showOpEd: false
 opEdTitle: ""
 opEdLink: ""
-showWebinar: false
+showWebinar: true
+webinarTitle: "TED Talk: A New Normal for School Education"
+webinarLink: https://www.ted.com/talks/gaurav_goel_a_new_normal_for_school_education
 blogSectionImage: /img/home-banner-saksham-slide-2.jpg
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
