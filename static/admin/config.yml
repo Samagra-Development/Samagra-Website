@@ -1514,7 +1514,7 @@ collections:
               name: 'postCategories',
               widget: list,
               fields: [{ label: Category, name: category, widget: string }],
-            },
+            }
           - {
               label: Post Data,
               name: postData,
