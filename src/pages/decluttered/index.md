@@ -11,7 +11,7 @@ declutteredDescription:
     - header: How can I understand governance from scratch?
   descriptionText: 
     - text: Governance is often invisible and can be complex to understand. Leveraging our learnings from our work, we launched Governance Decluttered, a dedicated series of bite-sized reels to simplify everyday governance terms through references from history and real-life experiences.
-  descriptionVideo: /img/gs_mg_1.mp4
+  descriptionVideo: https://www.youtube.com/embed/DYKEJfHbjVM?si=ggltnk6nWh966wG_
 postCategories:
   - category: Administration
   - category: DPG’s

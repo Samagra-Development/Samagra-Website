@@ -111,29 +111,16 @@ export const DeclutteredPageTemplate = ({ data }) => {
           </div>
           <div className="description">
             <div>
-              <video
-                controls={false}
-                playsInline
-                autoPlay
-                muted
-                loop={true}
-                style={{
-                  width: "100%",
-                  aspectRatio: "1.93",
-                  objectFit: "cover",
-                }}
-              >
-                <source
-                  src={
-                    data?.declutteredDescription?.descriptionVideo?.publicURL
-                      ? data?.declutteredDescription?.descriptionVideo
-                          ?.publicURL
-                      : data?.declutteredDescription?.descriptionVideo
-                  }
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
+            <iframe
+                  style={{
+                    width:"100%",
+                    aspectRatio:"1.78",
+                    objectFit:"cover",
+                  }}
+                  src={data?.declutteredDescription?.descriptionVideo}
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
+                  allowFullScreen></iframe>
             </div>
             <div className="description-text">
               {data?.declutteredDescription?.descriptionHeader?.map((d, i) => {
@@ -189,7 +176,9 @@ export const DeclutteredPageTemplate = ({ data }) => {
           <div className="post-group">
             {currentRecords?.map((p, i) => {
               return (
-                <div key={i} style={{ position: "relative" }}>
+                <div key={i} style={{ position: "relative",cursor:"pointer" }} onClick={() => {
+                    setViewPost(i);
+                  }}>
                   <img
                     src={
                       p?.postCard?.postImage?.childImageSharp
@@ -203,9 +192,6 @@ export const DeclutteredPageTemplate = ({ data }) => {
                     src={expandIcon}
                     alt="expand"
                     className="expand-icon"
-                    onClick={() => {
-                      setViewPost(i);
-                    }}
                   />
                 </div>
               );
@@ -407,9 +393,7 @@ export const declutteredPageQuery = graphql`
           descriptionText {
             text
           }
-          descriptionVideo {
-            publicURL
-          }
+          descriptionVideo
         }
         postCategories {
           category

@@ -104,7 +104,9 @@ const Navbar = class extends React.Component {
                             {title:"Careers",projectUrl:"/careers"}]}/>
                             <MenuDropdown menuIcon={showInverted?menuIconBlack:menuIconWhite} heading={"Our Assets"} data={[{title:"Amrit Series",projectUrl:"/amritseries"},
                             {title:"Governance Frameworks",projectUrl:"/governanceframeworks"},
-                            {title:"Sushasan",projectUrl:"/sushasan"}]}/>
+                            {title:"Sushasan",projectUrl:"/sushasan"},
+                            // {title:"Governance Decluttered",projectUrl:"/decluttered"}
+                            ]}/>
                             {/* <MenuDropdown menuIcon={showInverted?menuIconBlack:menuIconWhite} href='/assets' heading={"Our Assets"} data={[{title:"Amrit Series",projectUrl:"/amritseries"},
                             {title:"Governance Frameworks",projectUrl:"/governanceframeworks"},
                             {title:"Sushasan",projectUrl:"/sushasan"}]}/> */}

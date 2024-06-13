@@ -1506,7 +1506,7 @@ collections:
                     widget: list,
                     fields: [{ label: Text, name: text, widget: string }],
                   },
-                  { label: 'Description Video', name: 'descriptionVideo', widget: file}
+                  { label: 'Description Video', name: 'descriptionVideo', widget: string}
                 ],
             }
           - {
@@ -1529,8 +1529,7 @@ collections:
                     {
                       label: 'Category',
                       name: 'selectedCategory',
-                      widget: 'select',
-                      options: ['Administration','DPG’s','Elections','Judiciary','Policy Making'],
+                      widget: string,
                     },
                     { label: UrlLink, name: urlLink, widget: string },
                   ],
