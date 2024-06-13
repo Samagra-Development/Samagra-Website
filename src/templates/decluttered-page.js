@@ -8,6 +8,7 @@ import upIcon from "../img/up-icon.png";
 import expandIcon from "../img/expandIcon.svg";
 import instaIcon from "../img/instaIcon.svg";
 import crossIcon from "../img/cross-icon.svg";
+import rightArrow from "../img/right-arrow-icon.svg";
 import { animateScroll as scroll } from "react-scroll";
 
 export const DeclutteredPageTemplate = ({ data }) => {
@@ -16,6 +17,12 @@ export const DeclutteredPageTemplate = ({ data }) => {
   const [hoveredIndex, setHoveredIndex] = useState(-1);
   const [viewPost, setViewPost] = useState(-1);
   const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedCategoryData, setSelectedCategoryData] = useState(
+    data?.postData,
+  );
+
+  const [currPage, setCurrPage] = useState(1);
+  const [numberOfItem, setNumberOfItem] = useState(8);
 
   useEffect(() => {
     const handleResize = () => {
@@ -35,6 +42,32 @@ export const DeclutteredPageTemplate = ({ data }) => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
+  useEffect(() => {
+    setSelectedCategoryData(() => {
+      let postdata = data?.postData?.filter((d, i) => {
+        if (selectedCategory === "All") return d;
+        else if (selectedCategory === d?.postCard?.selectedCategory) return d;
+      });
+      return postdata;
+    });
+  }, [selectedCategory]);
+
+  console.log(selectedCategoryData, "jkjkjkj");
+
+  const indexOfLastRecord = currPage * numberOfItem;
+  const indexOfFirstRecord = indexOfLastRecord - numberOfItem;
+  const currentRecords = selectedCategoryData?.slice(
+    indexOfFirstRecord,
+    indexOfLastRecord,
+  );
+  const nPages = Math.ceil(selectedCategoryData?.length / numberOfItem);
+  const goToNextPage = () => {
+    if (currPage !== nPages) setCurrPage(currPage + 1);
+  };
+  const goToPrevPage = () => {
+    if (currPage !== 1) setCurrPage(currPage - 1);
+  };
 
   const scrollToTop = () => {
     scroll.scrollToTop();
@@ -121,7 +154,8 @@ export const DeclutteredPageTemplate = ({ data }) => {
                 className="tab-item"
                 style={{
                   color: selectedCategory == "All" ? "#D09C0A" : "#8E928F",
-                  borderBottom: selectedCategory=="All"?"2px solid #D09C0A":"none",
+                  borderBottom:
+                    selectedCategory == "All" ? "2px solid #D09C0A" : "none",
                 }}
                 onClick={() => {
                   setSelectedCategory("All");
@@ -136,7 +170,10 @@ export const DeclutteredPageTemplate = ({ data }) => {
                     style={{
                       color:
                         selectedCategory == p.category ? "#D09C0A" : "#8E928F",
-                        borderBottom: selectedCategory==p.category ?"2px solid #D09C0A":"none",
+                      borderBottom:
+                        selectedCategory == p.category
+                          ? "2px solid #D09C0A"
+                          : "none",
                     }}
                     className="tab-item"
                     onClick={() => {
@@ -150,53 +187,45 @@ export const DeclutteredPageTemplate = ({ data }) => {
             </div>
           </div>
           <div className="post-group">
-            {data?.postData?.map((p, i) => {
-              if (selectedCategory === "All")
-                return (
-                  <div key={i} style={{ position: "relative" }}>
-                    <img
-                      src={
-                        p?.postCard?.postImage?.childImageSharp
-                          ? p?.postCard?.postImage?.childImageSharp?.fluid?.src
-                          : p?.postCard?.postImage
-                      }
-                      alt="postImg"
-                      className="postcard"
-                    />
-                    <img
-                      src={expandIcon}
-                      alt="expand"
-                      className="expand-icon"
-                      onClick={() => {
-                        setViewPost(i);
-                      }}
-                    />
-                  </div>
-                );
-              else if (selectedCategory === p?.postCard?.selectedCategory)
-                return (
-                  <div key={i} style={{ position: "relative" }}>
-                    <img
-                      src={
-                        p?.postCard?.postImage?.childImageSharp
-                          ? p?.postCard?.postImage?.childImageSharp?.fluid?.src
-                          : p?.postCard?.postImage
-                      }
-                      alt="postImg"
-                      className="postcard"
-                    />
-                    <img
-                      src={expandIcon}
-                      alt="expand"
-                      className="expand-icon"
-                      onClick={() => {
-                        setViewPost(i);
-                      }}
-                    />
-                  </div>
-                );
-              else return <></>;
+            {currentRecords?.map((p, i) => {
+              return (
+                <div key={i} style={{ position: "relative" }}>
+                  <img
+                    src={
+                      p?.postCard?.postImage?.childImageSharp
+                        ? p?.postCard?.postImage?.childImageSharp?.fluid?.src
+                        : p?.postCard?.postImage
+                    }
+                    alt="postImg"
+                    className="postcard"
+                  />
+                  <img
+                    src={expandIcon}
+                    alt="expand"
+                    className="expand-icon"
+                    onClick={() => {
+                      setViewPost(i);
+                    }}
+                  />
+                </div>
+              );
             })}
+          </div>
+          <div className="pagination">
+            <div onClick={goToPrevPage} className="pagination-button">
+              <img
+                src={rightArrow}
+                alt="arrow-icon"
+                className="arrow-icon"
+                style={{ transform: "rotate(180deg)" }}
+              />
+              <a className="pagination-text anchor-color">Previous</a>
+            </div>
+            <div className="pagination-text" style={{color:"#D09C0A"}}>{currPage + "/" + nPages}</div>
+            <div onClick={goToNextPage} className="pagination-button">
+              <a className="pagination-text anchor-color">Next</a>
+              <img src={rightArrow} alt="arrow-icon" className="arrow-icon" />
+            </div>
           </div>
           <div className="insta-button-section">
             <div className="button-section-description">

@@ -152,6 +152,38 @@
         font-weight: 700;
         line-height: 150%;
     }
+    .pagination{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        padding:36px 0px 16px 0px;
+        gap:48px;
+    }
+    .pagination-button{
+        cursor:pointer;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .arrow-icon{
+        width: 28px;
+        height: 28px;
+    }
+    .pagination-text{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 160%;
+    }
+    .anchor-color{
+        color:#D09C0A !important;
+    }
+    .anchor-color:hover{
+        color:#b04b1e !important;
+    }
+    .anchor-color:active{
+        color:#b04b1e !important;
+    }
     @media screen and (max-width: 769px){
         .description{
             grid-template-columns:1fr;
@@ -219,6 +251,13 @@
     .tab-item{ 
         padding: 8px 12px;
         font-size: 12px;
+    }
+    .arrow-icon{
+        width: 18px;
+        height: 18px;
+    }
+    .pagination-text{
+        font-size: 16px;
     }
     }
     }
