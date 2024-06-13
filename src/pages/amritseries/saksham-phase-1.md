@@ -14,7 +14,7 @@ title1: "To make more than 80% government elementary school students grade-level
 title2: With 15 lakh students studying in 14,500 government schools of Haryana,
   making a school 'Saksham Vidyalaya' is a multi-faceted problem where building
   'Political Salience' and 'System Capacity' were both equally important.
-title3: What was life like before 'Saksham' Phase 1?
+title3: What was life like before Saksham Education Phase 1?
 infographic1:
   - img: /img/sk_teacher.jpg
   - img: /img/sk_card1.jpg
@@ -22,7 +22,7 @@ infographic1:
   - img: /img/sk_card3.jpg
   - img: /img/sk_card4.jpg
 infographic2: []
-title4: What was the journey of Saksham Phase 1 in the Governance Matrix?
+title4: What was the journey of Saksham Education Phase 1 in the Governance Matrix?
 newsdescription1: "In our view, the education system of Haryana, from 2017-2020
   (pre COVID), witnessed a shift from being ‘Comatose’ with low ‘political
   salience’ and low ‘system capacity’ to ‘Battle Ready’ with high ‘political
