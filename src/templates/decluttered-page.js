@@ -15,7 +15,7 @@ export const DeclutteredPageTemplate = ({ data }) => {
   const [mobile, setMobile] = useState(false);
   const [showUpIcon, setShowUpIcon] = useState(false);
   const [hoveredIndex, setHoveredIndex] = useState(-1);
-  const [viewPost, setViewPost] = useState(-1);
+  const [viewPost, setViewPost] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedCategoryData, setSelectedCategoryData] = useState(
     data?.postData,
@@ -177,7 +177,7 @@ export const DeclutteredPageTemplate = ({ data }) => {
             {currentRecords?.map((p, i) => {
               return (
                 <div key={i} style={{ position: "relative",cursor:"pointer" }} onClick={() => {
-                    setViewPost(i);
+                    setViewPost(p.postCard.urlLink);
                   }}>
                   <img
                     src={
@@ -310,7 +310,7 @@ export const DeclutteredPageTemplate = ({ data }) => {
             <img src={upIcon} onClick={scrollToTop} alt="scroll" />
           </div>
         )}
-        {viewPost !== -1 && (
+        {viewPost && (
           <div
             style={{
               position: "fixed",
@@ -329,7 +329,7 @@ export const DeclutteredPageTemplate = ({ data }) => {
               <img
                 src={crossIcon}
                 alt="cross-icon"
-                onClick={() => setViewPost(-1)}
+                onClick={() => setViewPost("")}
                 className="cross-icon"
               />
             </div>
@@ -342,7 +342,7 @@ export const DeclutteredPageTemplate = ({ data }) => {
               }}
             >
               <InstagramEmbed
-                url={data?.postData[viewPost]?.postCard?.urlLink}
+                url={viewPost}
                 width={mobile ? "270" : "500"}
                 height={mobile ? "350" : "760"}
               />
