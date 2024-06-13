@@ -51,7 +51,7 @@ motionGraphic: /img/sh-education.mp4
 newsletterLink: https://www.linkedin.com/pulse/building-saksham-haryana-samagra-transforming-governance-a8ptc/?trackingId=dfu%2Fb4qhRJilZBxvcF9pHw%3D%3D
 title5: Here is how the Haryana government worked in a mission mode to augment
   the system capacity and poltical salience...
-showImpactVideo: true
+showImpactVideo: false
 impactVideoLink: <iframe width="560" height="315"
   src="https://www.youtube.com/embed/r9ze1OXsSYw?si=WtyZb0RH0QgyAVZu"
   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
