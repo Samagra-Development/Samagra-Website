@@ -90,7 +90,7 @@ impactNumber4Text: " Lakh +"
 impactNumber4Title: Students impacted
 showPlus4: false
 showPlus5: false
-infographicGoogleDriveLink: https://drive.google.com/file/d/1qIfwkpOILJsq1anOpDqttTXH0lNUZBOK/view?usp=sharing
+infographicGoogleDriveLink: https://drive.google.com/file/d/1iD_BTOD0XEmQhlaQOU-a7Kq95i_0i0Td/view?usp=sharing
 downloadInfographicBtn: Download Infographic
 title7: Insights from the ground
 blogTitle: Improving Pedagogy in Government Schools
