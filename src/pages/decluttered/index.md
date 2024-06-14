@@ -9,9 +9,12 @@ declutteredDescription:
   descriptionHeader:
     - header: How do governments function?
     - header: How can I understand governance from scratch?
-  descriptionText: 
-    - text: Governance is often invisible and can be complex to understand. Leveraging our learnings from our work, we launched Governance Decluttered, a dedicated series of bite-sized reels to simplify everyday governance terms through references from history and real-life experiences.
-  descriptionVideo: https://www.youtube.com/embed/DYKEJfHbjVM?si=ggltnk6nWh966wG_
+  descriptionText:
+    - text: Governance is often invisible and can be complex to understand. Leveraging
+        our learnings from our work, we launched Governance Decluttered, a
+        dedicated series of bite-sized reels to simplify everyday governance
+        terms through references from history and real-life experiences.
+  descriptionVideo: https://www.youtube.com/embed/zBRlux1sOZc?si=Wxt3VZk_my6ulh8K
 postCategories:
   - category: Administration
   - category: DPG’s
@@ -73,16 +76,19 @@ assets:
   - assetCard:
       assetImage: /img/assetImage.png
       name: Lorem Ipsum
-      description: You can use the same format in which we have visually shown the assets in the content assets landing page.
-      link: "/amritseries"
+      description: You can use the same format in which we have visually shown the
+        assets in the content assets landing page.
+      link: /amritseries
   - assetCard:
       assetImage: /img/assetImage.png
       name: Lorem Ipsum
-      description: You can use the same format in which we have visually shown the assets in the content assets landing page.
-      link: "/sushasan"
+      description: You can use the same format in which we have visually shown the
+        assets in the content assets landing page.
+      link: /sushasan
   - assetCard:
       assetImage: /img/assetImage.png
       name: Lorem Ipsum
-      description: You can use the same format in which we have visually shown the assets in the content assets landing page.
-      link: "/governanceframeworks"
+      description: You can use the same format in which we have visually shown the
+        assets in the content assets landing page.
+      link: /governanceframeworks
 ---
