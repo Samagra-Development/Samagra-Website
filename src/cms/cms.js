@@ -20,6 +20,7 @@ import KSKPreview from "./preview-templates/KSKCaseStudyPreview";
 import OldCaseStudyPreview from "./preview-templates/OldCaseStudyPreview";
 import HomeLegacyPreview from "./preview-templates/HomeLegacyPreview";
 import AssetPagePreview from "./preview-templates/AssetPagePreview";
+import DeclutteredPagePreview from "./preview-templates/DeclutteredPagePreview";
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
@@ -43,3 +44,4 @@ CMS.registerPreviewTemplate("casestudy", CaseStudyPreview);
 CMS.registerPreviewTemplate("oldcasestudy", OldCaseStudyPreview);
 CMS.registerPreviewTemplate("ksk", KSKPreview);
 CMS.registerPreviewTemplate("assets", AssetPagePreview);
+CMS.registerPreviewTemplate("decluttered", DeclutteredPagePreview);

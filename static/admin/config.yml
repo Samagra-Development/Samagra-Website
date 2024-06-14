@@ -1463,3 +1463,94 @@ collections:
                   { label: Read More Button Active, name: readMoreButtonActive, widget: boolean },
                 ],
             }
+      - file: 'src/pages/decluttered/index.md'
+        label: 'Governance Decluttered Page'
+        name: 'decluttered'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'decluttered-page',
+            }
+          - {
+              label: Base Banner,
+              name: baseBanner,
+              widget: object,
+              fields:
+                [
+                  {
+                    label: 'Title Lines',
+                    name: 'titleLines',
+                    widget: list,
+                    fields: [{ label: Text, name: text, widget: string }],
+                  },
+                  { label: Banner Image, name: bannerImage, widget: image },
+                ],
+            }
+          - {
+              label: Description,
+              name: declutteredDescription,
+              widget: object,
+              fields:
+                [
+                  {
+                    label: 'Description Header',
+                    name: 'descriptionHeader',
+                    widget: list,
+                    fields: [{ label: Header, name: header, widget: string }],
+                  },
+                  {
+                    label: 'Description Text',
+                    name: 'descriptionText',
+                    widget: list,
+                    fields: [{ label: Text, name: text, widget: string }],
+                  },
+                  { label: 'Description Video', name: 'descriptionVideo', widget: string}
+                ],
+            }
+          - {
+              label: 'Post Categories',
+              name: 'postCategories',
+              widget: list,
+              fields: [{ label: Category, name: category, widget: string }],
+            }
+          - {
+              label: Post Data,
+              name: postData,
+              widget: list,
+              fields: [{
+                label: Post Card,
+                name: postCard,
+                widget: object,
+                fields:
+                  [
+                    { label: Post Image, name: postImage, widget: image },
+                    {
+                      label: 'Category',
+                      name: 'selectedCategory',
+                      widget: string,
+                    },
+                    { label: UrlLink, name: urlLink, widget: string },
+                  ],
+              }]
+            }
+          - { label: 'Instagram Link', name: 'instaLink', widget: 'string' }
+          - { label: 'Assets Heading', name: 'assetsHeading', widget: 'string' }
+          - {
+              label: Assets,
+              name: assets,
+              widget: list,
+              fields: [{
+                label: Asset Card,
+                name: assetCard,
+                widget: object,
+                fields:
+                  [
+                    { label: Asset Image, name: assetImage, widget: image },
+                    { label: Name, name: name, widget: string },
+                    { label: Description, name: description, widget: string },
+                    { label: Link, name: link, widget: string },
+                  ],
+              }]
+            }

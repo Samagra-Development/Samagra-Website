@@ -71,7 +71,7 @@ export const FooterComponent = ({}) => {
                             <Link to={'/amritseries'}><span className='footer-item'>Amrit Series</span></Link>
                             </div>
                             {/* <div>
-                            <Link to={'/'}><span className='footer-item'>Governance Decluttered</span></Link>
+                            <Link to={'/decluttered'}><span className='footer-item'>Governance Decluttered</span></Link>
                             </div> */}
                             <div>
                             <Link to={'/governanceframeworks'}><span className='footer-item'>Governance Frameworks</span></Link>

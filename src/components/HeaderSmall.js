@@ -2,7 +2,8 @@ import React from "react";
 import logoInverted from "../img/logo-colored.png";
 import { Link } from "gatsby";
 import menuIcon from "../img/menu-icon.png";
-import upIcon from "../img/up-arrow-png-20.png";
+// import upIcon from "../img/up-arrow-png-20.png";
+import upIcon from "../img/up-icon.png";
 import { graphql, StaticQuery } from "gatsby";
 
 export class HeaderSmall extends React.Component {
@@ -358,6 +359,17 @@ export class HeaderSmall extends React.Component {
                       href="/sushasan"
                     >
                       Sushasan
+                    </a>
+                  </div>
+                  <div className="sub-header-list-item">
+                    <a
+                      className="nav-link"
+                      onClick={() => {
+                        this.setState({ popupOpened: "inactive" });
+                      }}
+                      href="/decluttered"
+                    >
+                      Governance Decluttered
                     </a>
                   </div>
                 </div>
