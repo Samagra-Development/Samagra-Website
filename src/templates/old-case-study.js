@@ -138,9 +138,10 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
               Your browser does not support the video tag.
             </video>
           </div>}
-          <div style={{flex: 1, display:"flex" , flexDirection:"column", fontSize:"18px"}}>
-            <p>{content?.newsdescription1}</p>
-            <p>{content?.newsdescription2}</p>
+          <div style={{flex: 1, display:"flex" , flexDirection:"column", fontSize:"18px", gap:"8px"}}>
+            {content?.newsdescription?.map((n,i)=>{
+              return <div key={i}>{n?.text}</div>
+            })}
             {content?.newsletterBtn && <div
             className="casestudy-btn-container"
            >
@@ -178,7 +179,94 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
             style={{ fontSize: mobile ? '20px' : '30px' }}>
             {content?.title3}
           </div>}
-          <div style={{ backgroundImage: `url(${content?.backgroundMap?.childImageSharp?(content?.backgroundMap?.childImageSharp?.fluid?.src):content?.backgroundMap})`,
+          {content?.infographic1 && <div
+            className="infographic1"
+            style={{ marginTop: '75px', marginBottom: '75px' }}>
+            {content?.infographic1?.[0]?.img && <div
+              className="infographic-img"
+              style={{ width: 'fit-content', margin: 'auto' }}>
+              <img
+                src={content?.infographic1?.[0]?.img?.childImageSharp? (content?.infographic1?.[0]?.img?.childImageSharp?.fluid?.src) : (content?.infographic1?.[0]?.img)}
+                alt=""
+                style={{ maxWidth: '200px' }}
+              />
+            </div>}
+
+            {content?.infographic1.length>1 && <div
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                flexDirection: mobile ? 'column' : 'row',
+                alignItems: mobile ? 'center' : 'flex-start',
+              }}>
+              {content?.infographic1?.map((item, index, array) => {
+                if(index === 0) return null;
+                return (
+                  <>
+                    <div className="infographic-img">
+                      <img
+                        src={item?.img?.childImageSharp? (item?.img?.childImageSharp?.fluid?.src) : item?.img}
+                        alt=""
+                        style={{ maxWidth: '250px' }}
+                      />
+                    </div>
+                    {/* Check if it's not the last element */}
+                    {index !== array.length - 1 && (
+                        <div
+                        style={{
+                          height: '500px',
+                          width: '1px',
+                          borderWidth: '1px',
+                          borderStyle: 'solid',
+                          borderColor: 'transparent',
+                          borderImage:
+                            `linear-gradient(to bottom, ${content?.fontColor}, #ffffff) 1`,
+                          display: mobile ? 'none' : 'block',
+                          margin: '0 10px',
+                        }}></div>
+                    )}
+                  </>
+                );
+              })}
+            </div>}
+          </div>}
+          {content?.infographic2 && <div
+            className="infographic2"
+            style={{ marginTop: '75px', marginBottom: '75px' }}>
+          {content?.infographic2?.[0]?.img &&  <div
+              className="infographic-img"
+              style={{ width: 'fit-content', margin: '15px auto' }}>
+              <img
+                src={content?.infographic2?.[0]?.img?.childImageSharp?(content?.infographic2?.[0]?.img?.childImageSharp?.fluid?.src): content?.infographic2?.[0]?.img}
+                alt=""
+                style={{ maxWidth: '200px' }}
+              />
+            </div>}
+            {content?.infographic2.length>1 && <div
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                flexDirection: mobile ? 'column' : 'row',
+                alignItems: mobile ? 'center' : 'flex-start',
+                marginTop: '10px',
+              }}>
+              {content?.infographic2?.map((item, index) => {
+                if(index === 0) return null;
+                return (
+                  <div
+                    className="infographic-img"
+                    style={{ margin: mobile ? '15px 0' : '0 15px' }}>
+                    <img
+                      src={item?.img?.childImageSharp?(item?.img?.childImageSharp?.fluid?.src):item?.img}
+                      alt=""
+                      style={{ maxWidth: '250px' }}
+                    />
+                  </div>
+                );
+              })}
+            </div>}
+           </div>}
+          {/* <div style={{ backgroundImage: `url(${content?.backgroundMap?.childImageSharp?(content?.backgroundMap?.childImageSharp?.fluid?.src):content?.backgroundMap})`,
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
             backgroundSize: 'contain' }}>
@@ -252,35 +340,6 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                       />
                     </div>
                   </>}
-              {/* {content?.infographic1?.map((item, index, array) => {
-                if(index === 0) return null;
-                return (
-                  <>
-                    <div className="infographic-img">
-                      <img
-                        src={item?.img?.childImageSharp?(item?.img?.childImageSharp?.fluid?.src):item?.img}
-                        alt=""
-                        style={{ maxWidth: '250px' }}
-                      />
-                    </div> */}
-                    {/* Check if it's not the last element */}
-                    {/* {(index !== array.length - 1 && index!==3) && (
-                      <div
-                        style={{
-                          height: '450px',
-                          width: '1px',
-                          borderWidth: '1px',
-                          borderStyle: 'solid',
-                          borderColor: 'transparent',
-                          borderImage:
-                            `linear-gradient(to bottom, ${content?.fontColor}, #ffffff) 1`,
-                          display: mobile ? 'none' : 'block',
-                          margin: '0 10px',
-                        }}></div>
-                    )}
-                  </>
-                );
-              })}  */}
             </div>}
             {content?.infographic1.length>4 && <div
               style={{
@@ -359,7 +418,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                 );
               })}
             </div>}
-           </div>}</div>
+           </div>}</div> */}
           </FadeInSection>
           <SectionDivider color={content?.fontColor}/></>
   }
@@ -444,9 +503,9 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
             {content?.showImpactCard && <div style={{display:"flex",flexWrap:"wrap", gap:"32px",justifyContent:"center", margin:"60px 0"}}>
             <div class="impact-card">
               <img src={content?.img1?.childImageSharp?(content?.img1?.childImageSharp?.fluid?.src):content?.img1} alt="Card background image" />
-              <div class="impact-card-content">
+              <div class="impact-card-content" style={{color:content?.impactCardFontColor}}>
                 <div style={{fontWeight:"600",fontSize:"25px"}}>{content?.cardTitle1}</div>
-                <div style={{fontWeight:"400", fontSize:"18",color:"#DADADA"}}>{content?.cardDescription1}</div>
+                <div style={{fontWeight:"400", fontSize:"18"}}>{content?.cardDescription1}</div>
                 {content?.cardBtn1 && <p
                 style={{
                   paddingTop: '15px',
@@ -463,9 +522,9 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
             </div>
             <div class="impact-card">
               <img src={content?.img2?.childImageSharp?(content?.img2?.childImageSharp?.fluid?.src):content?.img2} alt="Card background image" />
-              <div class="impact-card-content">
+              <div class="impact-card-content" style={{color:content?.impactCardFontColor}}>
               <div style={{fontWeight:"600",fontSize:"25px"}}>{content?.cardTitle2}</div>
-                <div style={{fontWeight:"400", fontSize:"18",color:"#DADADA"}}>{content?.cardDescription2}</div>
+                <div style={{fontWeight:"400", fontSize:"18"}}>{content?.cardDescription2}</div>
                 {content?.cardBtn2 && <p
                 style={{
                   paddingTop: '15px',
@@ -482,9 +541,9 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
             </div>
             <div class="impact-card">
               <img src={content?.img3?.childImageSharp?(content?.img3?.childImageSharp?.fluid?.src):content?.img3} alt="Card background image" />
-              <div class="impact-card-content">
+              <div class="impact-card-content" style={{color:content?.impactCardFontColor}}>
               <div style={{fontWeight:"600",fontSize:"25px"}}>{content?.cardTitle3}</div>
-                <div style={{fontWeight:"400", fontSize:"18",color:"#DADADA"}}>{content?.cardDescription3}</div>
+                <div style={{fontWeight:"400", fontSize:"18"}}>{content?.cardDescription3}</div>
                 {content?.cardBtn3 && <p
                 style={{
                   paddingTop: '15px',
@@ -890,7 +949,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
               }}>
               {content?.title7}
             </div>}
-            {content?.blogTitle && <div>
+            {content?.showBlog && <div>
               <p
                 className="textCaseStudy"
                 style={{
@@ -899,7 +958,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                   paddingBottom: '0',
                   fontSize: mobile ? '18px' : '28px',
                 }}>
-                Blog
+                {content?.blogTitle}
               </p>
               <p
                 className="textCaseStudy"
@@ -908,7 +967,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                   marginBottom: '0',
                   paddingBottom: '0',
                 }}>
-                {content?.blogTitle}
+                {content?.blogDescription}
               </p>
               <p
                 style={{
@@ -940,7 +999,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                     paddingBottom: '0',
                     fontSize: mobile ? '18px' : '28px',
                   }}>
-                  Op-Ed
+                  {content?.opEdTitle}
                 </p>
                 <p
                   className="textCaseStudy"
@@ -949,7 +1008,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                     marginBottom: '0',
                     paddingBottom: '0',
                   }}>
-                  {content?.opEdTitle}
+                  {content?.opEdDescription}
                 </p>
                 <p
                   style={{
@@ -982,7 +1041,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                     paddingBottom: '0',
                     fontSize: mobile ? '18px' : '28px',
                   }}>
-                  Webinar
+                  {content?.webinarTitle}
                 </p>
                 <p
                   className="textCaseStudy"
@@ -991,7 +1050,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                     marginBottom: '0',
                     paddingBottom: '0',
                   }}>
-                  {content?.webinarTitle}
+                  {content?.webinarDescription}
                 </p>
                 <p
                   style={{
@@ -1206,6 +1265,7 @@ export const pageQuery = graphql`
         impactVideoLink
         showImpactVideo
         showImpactCard
+        impactCardFontColor
         img1 {
           childImageSharp {
             fluid(maxWidth: 1280, quality: 62) {
@@ -1252,8 +1312,9 @@ export const pageQuery = graphql`
         title5
         title6
         title7
-        newsdescription1
-        newsdescription2
+        newsdescription {
+          text
+        }
         newsletterBtn
         newsletterLink
         blogSectionImage {
@@ -1269,13 +1330,17 @@ export const pageQuery = graphql`
         showOpEd
         opEdTitle
         opEdLink
+        opEdDescription
 
         showWebinar
         webinarTitle
         webinarLink
+        webinarDescription
 
+        showBlog
         blogTitle
         blogLink
+        blogDescription
 
         impactNumber1
         impactNumber1Decimal

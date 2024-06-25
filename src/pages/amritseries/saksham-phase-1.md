@@ -23,7 +23,8 @@ infographic1:
   - img: /img/sk_card4.jpg
 infographic2: []
 title4: What was the journey of Saksham Education Phase 1 in the Governance Matrix?
-newsdescription1: "In our view, the education system of Haryana, from 2017-2020
+newsdescription: 
+  - text: "In our view, the education system of Haryana, from 2017-2020
   (pre COVID), witnessed a shift from being ‘Comatose’ with low ‘political
   salience’ and low ‘system capacity’ to ‘Battle Ready’ with high ‘political
   salience’ and high ‘system capacity.’  The Saksham Haryana (Education)
@@ -32,7 +33,8 @@ newsdescription1: "In our view, the education system of Haryana, from 2017-2020
   propelled by increased attention to education, evident in the state's
   performance in ASER and NAS surveys.  Increased political salience, led to
   system capacity being built over the 3 year period with reforms on the
-  process, people and infrastructural fronts. At the process front, key changes
+  process, people and infrastructural fronts."
+  - text: "At the process front, key changes
   included- digitizing all education data, revamping assessments for
   competency-based learning, delivering competency based remediation support and
   ensuring timely textbook delivery. This was further complemented by cascaded
@@ -45,7 +47,7 @@ newsdescription1: "In our view, the education system of Haryana, from 2017-2020
   aid the aforementioned processes.  Additionally, direct involvement of the
   Chief Minister through quarterly reviews and gamification strategies like
   Saksham Goshna fostered accountability and shared vision among stakeholders,
-  making the system Battle Ready. "
+  making the system Battle Ready."
 newsletterBtn: Read Newsletter
 motionGraphic: /img/sh-education.mp4
 newsletterLink: https://www.linkedin.com/pulse/building-saksham-haryana-samagra-transforming-governance-a8ptc/?trackingId=dfu%2Fb4qhRJilZBxvcF9pHw%3D%3D
@@ -58,6 +60,7 @@ impactVideoLink: <iframe width="560" height="315"
   clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 showImpactCard: true
+impactCardFontColor: "#000000"
 img1: /img/sk_1.png
 cardTitle1: Administrative Streamlining
 cardDescription1: Increasing teacher time in the classroom by streamlining
@@ -86,11 +89,13 @@ showPlus2: false
 icon3: /img/sk_picture-3.png
 impactNumber3Char: "Top "
 impactNumber3: 5
+impactNumber3Decimal: 0
 impactNumber3Text: ""
 impactNumber3Title: Haryana in top 5 states (NAS ’21) and the most improved state from NAS 2017-21
 showPlus3: false
 icon4: /img/sak4.jpg
 impactNumber4: 15
+impactNumber4Decimal: 0
 impactNumber4Text: " Lakh +"
 impactNumber4Title: Students impacted
 showPlus4: false
@@ -98,13 +103,17 @@ showPlus5: false
 infographicGoogleDriveLink: https://drive.google.com/file/d/1SrCsur2-B411Sce9aU62hGXRWqwaeokx/view?usp=sharing
 downloadInfographicBtn: Download Infographic
 title7: Insights from the ground
-blogTitle: "Oxford Reach Alliance Study: Improving Pedagogy in Government Schools"
+showBlog: true
+blogTitle: Blog
+blogDescription: "Oxford Reach Alliance Study: Improving Pedagogy in Government Schools"
 blogLink: https://reachalliance.org/case-study/education-reform-in-haryana-india/
 showOpEd: false
 opEdTitle: ""
+opEdDescription: ""
 opEdLink: ""
 showWebinar: true
-webinarTitle: "TED Talk: A New Normal for School Education by Gaurav Goel"
+webinarTitle: Webinar
+webinarDescription: "TED Talk: A New Normal for School Education by Gaurav Goel"
 webinarLink: https://www.ted.com/talks/gaurav_goel_a_new_normal_for_school_education
 blogSectionImage: /img/home-banner-saksham-slide-2.jpg
 footerText1: Partner with us today!

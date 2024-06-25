@@ -86,8 +86,6 @@ sideIcon4: /img/icon4-gosugam.png
 showsideIcon4: false
 impactNumber4Decimal: 0
 impactNumber5Decimal: 0
-showWebinar: false
-webinarTitle: Title of webinar
 testimonialText: Lorem ipsum dolor sit amet consectetur adipisicing elit.
   Consectetur repellat cumque similique, sapiente ipsa alias nisi enim nesciunt
   officiis, quo ex autem magni, necessitatibus in nostrum cupiditate fugit
@@ -106,11 +104,17 @@ successStoriesTitle: View more <i>Success Stories of Impact</i>
 showSuccessStories: antyodaya-saral,ksk,hkrn
 sideIcon4Text: Impact Numbers
 showPlus5: true
-blogTitle: Government of Odisha’s single window portal for digital delivery of
-  agricultural schemes to farmers
 blogLink: /blog/2024-02-01-amrit-series-2-go-sugam/
 showOpEd: false
-opEdTitle: Title of op-ed
 opEdLink: /blog/2023-12-25-amrit-series-1-krushi-samiksha-kendra/
+showBlog: true
+blogTitle: Blog
+blogDescription: Government of Odisha’s single window portal for digital delivery of
+  agricultural schemes to farmers
+opEdTitle: Op-Ed
+opEdDescription: Title of op-ed
+showWebinar: false
+webinarTitle: Webinar
+webinarDescription: Title of webinar
 blogSectionImage: /img/gosugam-impact.jpg
 ---
