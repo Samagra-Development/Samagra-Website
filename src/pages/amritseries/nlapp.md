@@ -87,6 +87,7 @@ impactNumber4Decimal: 0
 impactNumber5Decimal: 0
 showWebinar: false
 webinarTitle: ""
+webinarDescription: Title of webinar
 testimonialText: Lorem ipsum dolor sit amet consectetur adipisicing elit.
   Consectetur repellat cumque similique, sapiente ipsa alias nisi enim nesciunt
   officiis, quo ex autem magni, necessitatibus in nostrum cupiditate fugit
@@ -105,11 +106,14 @@ successStoriesTitle: View more <i>Success Stories of Impact</i>
 showSuccessStories: antyodaya-saral,go-sugam,ksk
 sideIcon4Text: Impact Numbers
 showPlus5: false
-blogTitle: Easy to use app for quick, accurate and standardized assessment of
+showBlog: true
+blogTitle: Blog
+blogDescription: Easy to use app for quick, accurate and standardized assessment of
   student learning levels at scale
 blogLink: https://samagragovernance.in/blog/2024-06-05-amrit-series-5-nipun-lakshya-app/
 showOpEd: true
-opEdTitle: "Beyond the Blackboard: Digitally empowering teachers in Uttar Pradesh  "
+opEdTitle: Op-Ed
+opEdDescription: "Beyond the Blackboard: Digitally empowering teachers in Uttar Pradesh  "
 opEdLink: https://government.economictimes.indiatimes.com/blog/beyond-the-blackboard-digitally-empowering-teachers-in-uttar-pradesh/110354480
 blogSectionImage: /img/dsc_3276.jpg
 ---

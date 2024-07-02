@@ -77,15 +77,12 @@ impactNumber5Title: Reduced time taken <br> to onboard manpower
 infographicGoogleDriveLink: https://drive.google.com/file/d/1X2XEM3Kin7WD9Mw_l3ag-1SCo6gMsQ8S/view?usp=sharing
 downloadInfographicBtn: Download Infographic
 title8: Insights from the ground
-webinarLink: ""
 showTestimonial: false
 testimonialImg: /img/garima_7700.jpg
 sideIcon4: /img/icon4-gosugam.png
 showsideIcon4: false
 impactNumber4Decimal: 0
 impactNumber5Decimal: 0
-showWebinar: false
-webinarTitle: ""
 testimonialText: Lorem ipsum dolor sit amet consectetur adipisicing elit.
   Consectetur repellat cumque similique, sapiente ipsa alias nisi enim nesciunt
   officiis, quo ex autem magni, necessitatibus in nostrum cupiditate fugit
@@ -104,11 +101,18 @@ successStoriesTitle: View more <i>Success Stories of Impact</i>
 showSuccessStories: antyodaya-saral,go-sugam,ksk
 sideIcon4Text: Impact Numbers
 showPlus5: false
-blogTitle: Tech-enabled streamlining of hiring and benefits dispersal for
+showBlog: true
+blogTitle: Blog
+blogDescription: Tech-enabled streamlining of hiring and benefits dispersal for
   contractual government employees in Haryana
 blogLink: https://samagragovernance.in/blog/2024-03-12-amrit-series-3-haryana-kaushal-rozgar-nigam/
 showOpEd: false
-opEdTitle: ""
+opEdTitle: Op-Ed
+opEdDescription: ""
 opEdLink: ""
+showWebinar: false
+webinarTitle: Webinar
+webinarDescription: Title of webinar
+webinarLink: ""
 blogSectionImage: null
 ---

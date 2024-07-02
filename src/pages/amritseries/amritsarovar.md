@@ -100,11 +100,15 @@ successStoriesTitle: View more <i>Success Stories of Impact</i>
 showSuccessStories: antyodaya-saral,ksk,hkrn
 sideIcon4Text: Impact Numbers
 showPlus5: true
-blogTitle: Government of Odisha’s single window portal for digital delivery of
+showBlog: true
+blogTitle: Blog
+blogDescription: Government of Odisha’s single window portal for digital delivery of
   agricultural schemes to farmers
 blogLink: /blog/2024-02-01-amrit-series-2-go-sugam/
 showOpEd: false
 opEdTitle: Title of op-ed
+opEdDescription: Description of op-ed
 opEdLink: /blog/2023-12-25-amrit-series-1-krushi-samiksha-kendra/
+webinarDescription: Description of webinar
 blogSectionImage: /img/gosugam-impact.jpg
 ---
