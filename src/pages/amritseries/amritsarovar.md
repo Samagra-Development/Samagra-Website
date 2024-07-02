@@ -37,11 +37,7 @@ infographic1:
   - img: /img/as_c_2.jpg
   - img: /img/as_c_3.jpg
 title6: ""
-infographic2:
-  - img: ""
-  - img: ""
-  - img: ""
-  - img: ""
+infographic2: []
 motionGraphic2: /img/post-amrit-sarovar_2.mp4
 title7: GO-SUGAM has quickly become the de-facto choice of Department of
   Agriculture and Farmers' Empowerment (DA&FE) and Fisheries and Animal
