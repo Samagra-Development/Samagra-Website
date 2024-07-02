@@ -504,8 +504,8 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
             <div class="impact-card">
               <img src={content?.img1?.childImageSharp?(content?.img1?.childImageSharp?.fluid?.src):content?.img1} alt="Card background image" />
               <div class="impact-card-content" style={{color:content?.impactCardFontColor}}>
-                <div style={{fontWeight:"600",fontSize:"25px"}}>{content?.cardTitle1}</div>
-                <div style={{fontWeight:"400", fontSize:"18"}}>{content?.cardDescription1}</div>
+                <div style={{fontWeight:"600",fontSize:"25px"}} dangerouslySetInnerHTML={{ __html: content?.cardTitle1 }}></div>
+                <div style={{fontWeight:"400", fontSize:"18"}} dangerouslySetInnerHTML={{ __html: content?.cardDescription1 }}></div>
                 {content?.cardBtn1 && <p
                 style={{
                   paddingTop: '15px',
@@ -523,8 +523,8 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
             <div class="impact-card">
               <img src={content?.img2?.childImageSharp?(content?.img2?.childImageSharp?.fluid?.src):content?.img2} alt="Card background image" />
               <div class="impact-card-content" style={{color:content?.impactCardFontColor}}>
-              <div style={{fontWeight:"600",fontSize:"25px"}}>{content?.cardTitle2}</div>
-                <div style={{fontWeight:"400", fontSize:"18"}}>{content?.cardDescription2}</div>
+              <div style={{fontWeight:"600",fontSize:"25px"}} dangerouslySetInnerHTML={{ __html: content?.cardTitle2 }}></div>
+                <div style={{fontWeight:"400", fontSize:"18"}} dangerouslySetInnerHTML={{ __html: content?.cardDescription2 }}></div>
                 {content?.cardBtn2 && <p
                 style={{
                   paddingTop: '15px',
@@ -542,8 +542,8 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
             <div class="impact-card">
               <img src={content?.img3?.childImageSharp?(content?.img3?.childImageSharp?.fluid?.src):content?.img3} alt="Card background image" />
               <div class="impact-card-content" style={{color:content?.impactCardFontColor}}>
-              <div style={{fontWeight:"600",fontSize:"25px"}}>{content?.cardTitle3}</div>
-                <div style={{fontWeight:"400", fontSize:"18"}}>{content?.cardDescription3}</div>
+              <div style={{fontWeight:"600",fontSize:"25px"}} dangerouslySetInnerHTML={{ __html: content?.cardTitle3 }}></div>
+                <div style={{fontWeight:"400", fontSize:"18"}} dangerouslySetInnerHTML={{ __html: content?.cardDescription3 }}></div>
                 {content?.cardBtn3 && <p
                 style={{
                   paddingTop: '15px',
