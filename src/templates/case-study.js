@@ -864,7 +864,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               }}>
               {content?.title8}
             </div>}
-            {content?.blogTitle && <div>
+            {content?.showBlog && <div>
               <p
                 className="textCaseStudy"
                 style={{
@@ -873,7 +873,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   paddingBottom: '0',
                   fontSize: mobile ? '18px' : '28px',
                 }}>
-                Blog
+                {content?.blogTitle}
               </p>
               <p
                 className="textCaseStudy"
@@ -882,7 +882,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   marginBottom: '0',
                   paddingBottom: '0',
                 }}>
-                {content?.blogTitle}
+                {content?.blogDescription}
               </p>
               <p
                 style={{
@@ -914,7 +914,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                     paddingBottom: '0',
                     fontSize: mobile ? '18px' : '28px',
                   }}>
-                  Op-Ed
+                  {content?.opEdTitle}
                 </p>
                 <p
                   className="textCaseStudy"
@@ -923,7 +923,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                     marginBottom: '0',
                     paddingBottom: '0',
                   }}>
-                  {content?.opEdTitle}
+                  {content?.opEdDescription}
                 </p>
                 <p
                   style={{
@@ -956,7 +956,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                     paddingBottom: '0',
                     fontSize: mobile ? '18px' : '28px',
                   }}>
-                  Webinar
+                  {content?.webinarTitle}
                 </p>
                 <p
                   className="textCaseStudy"
@@ -965,7 +965,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                     marginBottom: '0',
                     paddingBottom: '0',
                   }}>
-                  {content?.webinarTitle}
+                  {content?.webinarDescription}
                 </p>
                 <p
                   style={{
@@ -1344,14 +1344,18 @@ export const pageQuery = graphql`
         showWebinar
         webinarTitle
         webinarLink
+        webinarDescription
 
         showOpEd
         opEdTitle
         opEdLink
+        opEdDescription
 
         title8
         blogTitle
         blogLink
+        showBlog
+        blogDescription
 
         impactNumber1
         impactNumber1Decimal
