@@ -78,7 +78,7 @@ instaLink: https://www.instagram.com/samagragovernance/
 assetsHeading: Explore Our Assets
 assets:
   - assetCard:
-      assetImage: /img/amrit-series-logo-1-.png
+      assetImage: /img/amrit-series.png
       name: Sushasan
       description: You can use the same format in which we have visually shown the
         assets in the content assets landing page.
