@@ -25,25 +25,25 @@ postData:
   - postCard:
       selectedCategory: Elections
       urlLink: https://www.instagram.com/reel/C7y-nQZydao/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
-      postImage: /img/counting_resized_2.png
+      postImage: /img/counting_resize_2.png
   - postCard:
-      postImage: /img/polling_resized.png
+      postImage: /img/polling_resize_2.png
       selectedCategory: Elections
       urlLink: https://www.instagram.com/reel/C7T9gHhyRCu/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/evm_resized.png
+      postImage: /img/evm_resize_2.png
       selectedCategory: Elections
       urlLink: https://www.instagram.com/reel/C7B0LtSyfrG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/pre_election_resize.png
+      postImage: /img/pre_resize_2.png
       selectedCategory: Elections
       urlLink: https://www.instagram.com/reel/C6tmBaoSbRX/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/evolution_resize.jpg
+      postImage: /img/evolution_resize_2.jpg
       selectedCategory: Elections
       urlLink: https://www.instagram.com/reel/C6LyWSFSsZ8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/great-indian-election_resize.jpg
+      postImage: /img/great-indian-election_resize_2.jpg
       selectedCategory: Elections
       urlLink: https://www.instagram.com/reel/C5q0aVryA-U/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
