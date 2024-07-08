@@ -25,9 +25,9 @@ postData:
   - postCard:
       selectedCategory: Elections
       urlLink: https://www.instagram.com/reel/C7y-nQZydao/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
-      postImage: /img/counting.png
+      postImage: /img/counting_resized.png
   - postCard:
-      postImage: /img/polling.png
+      postImage: /img/polling_resized.png
       selectedCategory: Elections
       urlLink: https://www.instagram.com/reel/C7T9gHhyRCu/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
