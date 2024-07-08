@@ -4,7 +4,7 @@ baseBanner:
   titleLines:
     - text: Governance
     - text: Decluttered
-  bannerImage: /img/declutteredBannerImage.png
+  bannerImage: /img/whatsapp-image-2024-06-27-at-13.11.49.jpeg
 declutteredDescription:
   descriptionHeader:
     - header: How do governments function?
@@ -17,65 +17,69 @@ declutteredDescription:
   descriptionVideo: https://www.youtube.com/embed/zBRlux1sOZc?si=Wxt3VZk_my6ulh8K
 postCategories:
   - category: Administration
-  - category: DPG’s
+  - category: Digital Governance
   - category: Elections
   - category: Judiciary
   - category: Policy Making
 postData:
   - postCard:
-      postImage: /img/instaPlaceholder.png
-      selectedCategory: Administration
-      urlLink: https://www.instagram.com/p/C7y-nQZydao/
-  - postCard:
-      postImage: /img/instaPlaceholder.png
       selectedCategory: Elections
-      urlLink: https://www.instagram.com/p/C8CqWdYyQZ5/?img_index=1
+      urlLink: https://www.instagram.com/reel/C7y-nQZydao/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+      postImage: /img/counting.png
   - postCard:
-      postImage: /img/instaPlaceholder.png
-      selectedCategory: Administration
-      urlLink: https://www.instagram.com/p/C8ADgblys5u/?img_index=1
-  - postCard:
-      postImage: /img/instaPlaceholder.png
-      selectedCategory: Policy Making
-      urlLink: https://www.instagram.com/p/C7T9gHhyRCu/
-  - postCard:
-      postImage: /img/instaPlaceholder.png
+      postImage: /img/polling.png
       selectedCategory: Elections
-      urlLink: https://www.instagram.com/p/C7egqngyruv/
+      urlLink: https://www.instagram.com/reel/C7T9gHhyRCu/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/instaPlaceholder.png
-      selectedCategory: DPG’s
-      urlLink: https://www.instagram.com/p/C7Q5JGVuZEa/?img_index=1
+      postImage: /img/evms.png
+      selectedCategory: Elections
+      urlLink: https://www.instagram.com/reel/C7B0LtSyfrG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/instaPlaceholder.png
-      selectedCategory: Policy Making
-      urlLink: https://www.instagram.com/p/C7B0LtSyfrG/
+      postImage: /img/pre-elections.png
+      selectedCategory: Elections
+      urlLink: https://www.instagram.com/reel/C6tmBaoSbRX/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/instaPlaceholder.png
-      selectedCategory: Judiciary
-      urlLink: https://www.instagram.com/p/C7Q5JGVuZEa/?img_index=1
+      postImage: /img/evolution.jpeg
+      selectedCategory: Elections
+      urlLink: https://www.instagram.com/reel/C6LyWSFSsZ8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/instaPlaceholder.png
-      selectedCategory: Judiciary
-      urlLink: https://www.instagram.com/p/C63w_J8yLam/?img_index=1
+      postImage: /img/great-indian-elections.jpeg
+      selectedCategory: Elections
+      urlLink: https://www.instagram.com/reel/C5q0aVryA-U/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/instaPlaceholder.png
-      selectedCategory: DPG’s
-      urlLink: https://www.instagram.com/p/C7FqjQJyqex/?img_index=1
+      postImage: /img/union-budget.jpeg
+      selectedCategory: Policy
+      urlLink: https://www.instagram.com/reel/C22udALy80R/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/instaPlaceholder.png
-      selectedCategory: Judiciary
-      urlLink: https://www.instagram.com/p/C6tmBaoSbRX/
+      postImage: /img/lawmaking.png
+      selectedCategory: Policy
+      urlLink: https://www.instagram.com/reel/C5JqJOlS31G/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/instaPlaceholder.png
-      selectedCategory: DPG’s
-      urlLink: https://www.instagram.com/p/C6r9CUzS3Dn/
+      postImage: /img/india-stack.jpg
+      selectedCategory: Digital Governance
+      urlLink: https://www.instagram.com/reel/C3YgDKvSG_f/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+  - postCard:
+      postImage: /img/dpg.jpeg
+      selectedCategory: Digital Governance
+      urlLink: https://www.instagram.com/reel/C3YgDKvSG_f/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+  - postCard:
+      postImage: /img/life-of-a-file.jpg
+      selectedCategory: Administration
+      urlLink: https://www.instagram.com/reel/CzbBgI9y_pl/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+  - postCard:
+      postImage: /img/dm_dc.jpg
+      selectedCategory: Administration
+      urlLink: https://www.instagram.com/reel/C0O0gTkyUpR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+  - postCard:
+      postImage: /img/fir.jpg
+      selectedCategory: Administration
+      urlLink: https://www.instagram.com/reel/Cyk8UwNyJ2w/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
 instaLink: https://www.instagram.com/samagragovernance/
 assetsHeading: Explore Our Assets
 assets:
   - assetCard:
-      assetImage: /img/assetImage.png
-      name: Lorem Ipsum
+      assetImage: /img/amritseries_resized.png
+      name: Sushasan
       description: You can use the same format in which we have visually shown the
         assets in the content assets landing page.
       link: /amritseries
