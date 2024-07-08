@@ -77,21 +77,19 @@ instaLink: https://www.instagram.com/samagragovernance/
 assetsHeading: Explore Our Assets
 assets:
   - assetCard:
-      assetImage: /img/amrit-series.png
-      name: Sushasan
-      description: You can use the same format in which we have visually shown the
-        assets in the content assets landing page.
+      assetImage: /img/amrit-series-3-.png
+      name: Amrit Series
+      description: A collection of success stories of large scale impact through our
+        work across domains and states.
       link: /amritseries
   - assetCard:
-      assetImage: /img/assetImage.png
-      name: Lorem Ipsum
-      description: You can use the same format in which we have visually shown the
-        assets in the content assets landing page.
+      assetImage: /img/amrit-series-1-.png
+      name: Sushasan
+      description: India’s first podcast exclusively focused on governance.
       link: /sushasan
   - assetCard:
-      assetImage: /img/assetImage.png
-      name: Lorem Ipsum
-      description: You can use the same format in which we have visually shown the
-        assets in the content assets landing page.
+      assetImage: /img/amrit-series-2-.png
+      name: Governance Frameworks
+      description: The Governance Matrix and Panchsutras for Governance Transformation.
       link: /governanceframeworks
 ---
