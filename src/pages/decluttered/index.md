@@ -31,39 +31,39 @@ postData:
       selectedCategory: Elections
       urlLink: https://www.instagram.com/reel/C7T9gHhyRCu/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/evms.png
+      postImage: /img/evm_resized.png
       selectedCategory: Elections
       urlLink: https://www.instagram.com/reel/C7B0LtSyfrG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/pre-elections.png
+      postImage: /img/pre_election_resize.png
       selectedCategory: Elections
       urlLink: https://www.instagram.com/reel/C6tmBaoSbRX/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/evolution.jpeg
+      postImage: /img/evolution_resize.jpg
       selectedCategory: Elections
       urlLink: https://www.instagram.com/reel/C6LyWSFSsZ8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/great-indian-elections.jpeg
+      postImage: /img/great-indian-election_resize.jpg
       selectedCategory: Elections
       urlLink: https://www.instagram.com/reel/C5q0aVryA-U/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/union-budget.jpeg
+      postImage: /img/union-budget_resized.jpg
       selectedCategory: Policy
       urlLink: https://www.instagram.com/reel/C22udALy80R/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/lawmaking.png
+      postImage: /img/lawmaking_resized.png
       selectedCategory: Policy
       urlLink: https://www.instagram.com/reel/C5JqJOlS31G/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/india-stack.jpg
+      postImage: /img/indiastack_resized.png
       selectedCategory: Digital Governance
       urlLink: https://www.instagram.com/reel/C3YgDKvSG_f/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/dpg.jpeg
+      postImage: /img/dpg_resize.jpg
       selectedCategory: Digital Governance
       urlLink: https://www.instagram.com/reel/C3YgDKvSG_f/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/life-of-a-file.jpg
+      postImage: /img/file_resized.jpg
       selectedCategory: Administration
       urlLink: https://www.instagram.com/reel/CzbBgI9y_pl/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
@@ -71,7 +71,7 @@ postData:
       selectedCategory: Administration
       urlLink: https://www.instagram.com/reel/C0O0gTkyUpR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/fir.jpg
+      postImage: /img/fir_resize.jpg
       selectedCategory: Administration
       urlLink: https://www.instagram.com/reel/Cyk8UwNyJ2w/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
 instaLink: https://www.instagram.com/samagragovernance/
