@@ -67,7 +67,7 @@ postData:
       selectedCategory: Administration
       urlLink: https://www.instagram.com/reel/CzbBgI9y_pl/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/dm_dc.jpg
+      postImage: /img/dmdc_resize.jpg
       selectedCategory: Administration
       urlLink: https://www.instagram.com/reel/C0O0gTkyUpR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
