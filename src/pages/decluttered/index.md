@@ -20,7 +20,7 @@ postCategories:
   - category: Digital Governance
   - category: Elections
   - category: Judiciary
-  - category: Policy Making
+  - category: Policy
 postData:
   - postCard:
       selectedCategory: Elections
