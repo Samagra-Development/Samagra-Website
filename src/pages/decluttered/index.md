@@ -19,7 +19,6 @@ postCategories:
   - category: Administration
   - category: Digital Governance
   - category: Elections
-  - category: Judiciary
   - category: Policy
 postData:
   - postCard:
