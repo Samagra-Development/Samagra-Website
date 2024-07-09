@@ -317,7 +317,7 @@ export class HeaderSmall extends React.Component {
               </a>
               {ourAssetsActive ? (
                 <div className="sub-header-list">
-                  {/* <div className="sub-header-list-item">
+                  <div className="sub-header-list-item">
                     <a
                       className="nav-link"
                       onClick={() => {
@@ -327,7 +327,7 @@ export class HeaderSmall extends React.Component {
                     >
                       Overview
                     </a>
-                  </div> */}
+                  </div>
                   <div className="sub-header-list-item">
                     <a
                       className="nav-link"
