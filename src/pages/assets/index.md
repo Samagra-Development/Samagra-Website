@@ -1,7 +1,7 @@
 ---
 templateKey: our-assets-page
 title: Our Assets
-bannerImage: /img/dc46ca3a-c447-4780-bb90-c4e36ffd83df.jpeg
+bannerImage: /img/img-20240119-wa0007-2.jpg
 description: "At Samagra, we craft impactful content that engages, inspires, and
   drives progress. Our approach blends persuasive storytelling with credible
   expertise through a unique framework balancing buzz, impact, credibility, and
