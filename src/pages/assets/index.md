@@ -5,9 +5,9 @@ bannerImage: /img/img-20240119-wa0007-2.jpg
 description: "At Samagra, we craft impactful content that engages, inspires, and
   drives progress. Our approach blends persuasive storytelling with credible
   expertise through a unique framework balancing buzz, impact, credibility, and
-  emotional connections. <br> The result is a suite of flagship assets spanning
-  four communication styles: Engage, Inspire, Educate, & Convince. Explore
-  Governance Decluttered, Sushasan, Governance Frameworks & Amrit Series, each
+  emotional connections. The result is a suite of flagship assets spanning four
+  communication styles: Engage, Inspire, Educate, & Convince. Explore Governance
+  Decluttered, Sushasan, Governance Frameworks & Amrit Series, each
   strategically designed to resonate with the audience."
 assetCard1:
   icon: /img/amritseries.png
