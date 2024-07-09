@@ -22,6 +22,10 @@ postCategories:
   - category: Policy
 postData:
   - postCard:
+      postImage: /img/stateadmin_resize.png
+      selectedCategory: Administration
+      urlLink: https://www.instagram.com/reel/C9K0M1XyQ1K/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+  - postCard:
       selectedCategory: Elections
       urlLink: https://www.instagram.com/reel/C7y-nQZydao/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
       postImage: /img/counting_resize_2.png
