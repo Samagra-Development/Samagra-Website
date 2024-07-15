@@ -19,7 +19,7 @@ motionGraphic2: /img/post-amrit-sarovar_2.mp4
 impactNumber1: 2100
 impactNumber1Decimal: 0
 impactNumber1Text: ""
-impactNumber2: 297
+impactNumber2: 300
 impactNumber2Decimal: 0
 impactNumber2Text: ""
 impactNumber3: 130
