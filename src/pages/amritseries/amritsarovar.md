@@ -2,7 +2,7 @@
 templateKey: case-study
 date: 2024-07-15T12:00:29.953Z
 sectionSequence: 1 2 3 4 5 6
-featuredimage: /img/celeste-wallander-2-1.avif
+featuredimage: /img/2023_6-largeimg_2086745234.jpg
 bannerImage: /img/amrit-sarovar_header-1-.mp4
 showSideNavbar: false
 showsideIcon1: false
