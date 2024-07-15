@@ -25,8 +25,8 @@ impactNumber2Text: ""
 impactNumber3: 130
 impactNumber3Decimal: 0
 impactNumber3Text: ""
-impactNumber4: ""
-impactNumber5: ""
+impactNumber4: 0
+impactNumber5: 0
 downloadInfographicBtn: Download Infographic
 title8: Insights from the ground
 webinarLink: /blog/2023-12-25-amrit-series-1-krushi-samiksha-kendra/
@@ -34,8 +34,8 @@ showTestimonial: false
 testimonialImg: /img/garima_7700.jpg
 sideIcon4: /img/icon4-gosugam.png
 showsideIcon4: false
-impactNumber4Decimal: ""
-impactNumber5Decimal: ""
+impactNumber4Decimal: 0
+impactNumber5Decimal: 0
 infographicGoogleDriveLink: https://drive.google.com/file/d/15GeOgAA_g5w7pYmldOD4-yzqnVRCdKoz/view?usp=sharing
 showWebinar: false
 webinarTitle: Title of webinar
@@ -89,11 +89,11 @@ showPlus2: true
 icon3: /img/amritplusplus.png
 impactNumber3Title: Amrit++ Ponds
 showPlus3: true
-icon4: ""
+icon4: null
 impactNumber4Text: ""
 impactNumber4Title: ""
 showPlus4: false
-icon5: ""
+icon5: null
 impactNumber5Text: ""
 impactNumber5Title: ""
 showPlus5: false
