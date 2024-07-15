@@ -19,14 +19,14 @@ motionGraphic2: /img/post-amrit-sarovar_2.mp4
 impactNumber1: 2100
 impactNumber1Decimal: 0
 impactNumber1Text: ""
-impactNumber2: 1
+impactNumber2: 297
 impactNumber2Decimal: 0
-impactNumber2Text: Lakh
-impactNumber3: 70000
+impactNumber2Text: ""
+impactNumber3: 130
 impactNumber3Decimal: 0
 impactNumber3Text: ""
-impactNumber4: 44
-impactNumber5: 99
+impactNumber4: ""
+impactNumber5: ""
 downloadInfographicBtn: Download Infographic
 title8: Insights from the ground
 webinarLink: /blog/2023-12-25-amrit-series-1-krushi-samiksha-kendra/
@@ -34,9 +34,9 @@ showTestimonial: false
 testimonialImg: /img/garima_7700.jpg
 sideIcon4: /img/icon4-gosugam.png
 showsideIcon4: false
-impactNumber4Decimal: 0
-impactNumber5Decimal: 0
-infographicGoogleDriveLink: https://drive.google.com/file/d/1BL_OLyhvmrt9BsOCiSya-6UEOhJAAyyr/view?usp=drive_link
+impactNumber4Decimal: ""
+impactNumber5Decimal: ""
+infographicGoogleDriveLink: https://drive.google.com/file/d/15GeOgAA_g5w7pYmldOD4-yzqnVRCdKoz/view?usp=sharing
 showWebinar: false
 webinarTitle: Title of webinar
 testimonialText: Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -54,7 +54,7 @@ testimonialAuthorDesignation: Outreach Team, Samagra
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
 successStoriesTitle: View more <i>Success Stories of Impact</i>
-showSuccessStories: antyodaya-saral,ksk,hkrn
+showSuccessStories: "hkrn,ksk,nl app "
 sideIcon4Text: Impact Numbers
 formType: This is new case study form
 show: false
@@ -66,8 +66,8 @@ title1: State-wide mission to carry out restoration, build community-driven
   sustainability & enable monetization of ponds
 title2: Impact Video
 title3: Mission Amrit Sarovar was launched by the Hon'ble Prime Minister in
-  April 2022. <br> Witness the rejuvenation, beautification & monetization of
-  these ponds across the state of Haryana.
+  April 2022. Witness the rejuvenation, beautification & monetization of these
+  ponds across the state of Haryana.
 title4: "60% of the ponds in Haryana were contaminated with garbage, leading to
   poor groundwater recharge resulting into water scarcity over time  "
 motionGraphic1: /img/pre-amrit-sarovar_2.mp4
@@ -79,36 +79,34 @@ infographic1:
   - img: /img/as_c_3.jpg
 title6: ""
 infographic2: []
-title7: GO-SUGAM has quickly become the de-facto choice of Department of
-  Agriculture and Farmers' Empowerment (DA&FE) and Fisheries and Animal
-  Resources Development (FARD) for easy and smooth delivery of schemes across
-  directorates
+title7: 100% targets achieved for Amrit, Amrit+ and Amrit++ in Haryana
 icon1: /img/amrit.png
 impactNumber1Title: Amrit Ponds
 showPlus1: true
-icon2: /img/gosugam-icon2.png
-impactNumber2Title: Go-ahead generated <br>against for applications
+icon2: /img/amrit-.png
+impactNumber2Title: Amrit+ Ponds
 showPlus2: true
-icon3: /img/gosugam-icon3.png
-impactNumber3Title: Subsidies released <br>against go-ahead
+icon3: /img/amritplusplus.png
+impactNumber3Title: Amrit++ Ponds
 showPlus3: true
-icon4: /img/gosugam-icon4.png
-impactNumber4Text: "%"
-impactNumber4Title: Farmers applied on <br>their own
-showPlus4: true
-icon5: /img/gosugam-icon5.png
-impactNumber5Text: "%"
-impactNumber5Title: Farmer stated correct <br>subsidy was received
-showPlus5: true
-showBlog: true
+icon4: ""
+impactNumber4Text: ""
+impactNumber4Title: ""
+showPlus4: false
+icon5: ""
+impactNumber5Text: ""
+impactNumber5Title: ""
+showPlus5: false
+showBlog: false
 blogTitle: Blog
 blogDescription: Government of Odisha’s single window portal for digital
   delivery of agricultural schemes to farmers
 blogLink: /blog/2024-02-01-amrit-series-2-go-sugam/
-showOpEd: false
-opEdTitle: Title of op-ed
-opEdDescription: Description of op-ed
-opEdLink: /blog/2023-12-25-amrit-series-1-krushi-samiksha-kendra/
+showOpEd: true
+opEdTitle: "Turning the Tide: A community-driven approach to rejuvenate ponds,
+  resolve the water crisis"
+opEdDescription: ""
+opEdLink: https://government.economictimes.indiatimes.com/blog/turning-the-tide-a-community-driven-solution-to-water-crisis-in-haryana/111271481?utm_source=top_story&utm_medium=homepage
 webinarDescription: Description of webinar
-blogSectionImage: /img/gosugam-impact.jpg
+blogSectionImage: /img/2023_6-largeimg_2086745234.jpg
 ---
