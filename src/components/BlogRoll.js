@@ -1,7 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Link, graphql, StaticQuery } from 'gatsby';
-import PreviewCompatibleImage from './PreviewCompatibleImage';
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql, StaticQuery } from "gatsby";
 
 class BlogRoll extends React.Component {
   render() {
@@ -15,8 +14,9 @@ class BlogRoll extends React.Component {
               <a
                 className="col-lg-3 col-md-4 col-sm-6 col-xs-1"
                 key={post.id}
-                target={'_blank'}
-                href={post.fields.slug}>
+                target={"_blank"}
+                href={post.fields.slug}
+              >
                 <div className="blog-wrapper">
                   {post.frontmatter.featuredimage ? (
                     <div
@@ -25,7 +25,8 @@ class BlogRoll extends React.Component {
                         backgroundImage: `url(${post.frontmatter.featuredimage
                           .childImageSharp.fluid.src ||
                           post.frontmatter.featuredimage})`,
-                      }}></div>
+                      }}
+                    ></div>
                   ) : null}
                   <div className="content-wrapper">
                     <div className="heading">{post.frontmatter.title}</div>

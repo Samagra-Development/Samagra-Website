@@ -1,35 +1,35 @@
-@import './Header';
-@import './OurPublicationsSection';
-@import './ProductPageSecondSection';
-@import './ProductBannerImage';
-@import './ProductPageKeyInitiaves';
-@import './team';
-@import './PartnersSectionSecond';
-@import './PaertnersBannerImage';
-@import './Footer';
-@import './HomeNewsSection';
-@import './HomeSecondSection';
-@import './HomeThirdSection';
-@import './HomeTopSlider';
-@import './HomeTopSliderBannerOne';
-@import './BlogDetails';
-@import './PrimaryButton';
-@import './CareerSectionFifth';
-@import './CareerSectionSecond';
-@import './CareerSectionThird';
-@import './PaginationSlider';
-@import './JoinUsBannerImage';
-@import './JoinUsFormSection';
-@import './CustomPagerButton';
-@import './TestimonialSlider';
-@import './HeaderSmall';
-@import './HomePageUpdated';
-@import './OurAssets.scss';
-@import './DeclutteredPage.scss';
-@import '../../node_modules/bootstrap/scss/bootstrap';
+@import "./Header";
+@import "./OurPublicationsSection";
+@import "./ProductPageSecondSection";
+@import "./ProductBannerImage";
+@import "./ProductPageKeyInitiaves";
+@import "./team";
+@import "./PartnersSectionSecond";
+@import "./Footer";
+@import "./HomeNewsSection";
+@import "./HomeSecondSection";
+@import "./HomeThirdSection";
+@import "./HomeTopSlider";
+@import "./HomeTopSliderBannerOne";
+@import "./BlogDetails";
+@import "./PrimaryButton";
+@import "./CareerSectionFifth";
+@import "./CareerSectionSecond";
+@import "./CareerSectionThird";
+@import "./PaginationSlider";
+@import "./JoinUsBannerImage";
+@import "./JoinUsFormSection";
+@import "./CustomPagerButton";
+@import "./TestimonialSlider";
+@import "./HeaderSmall";
+@import "./HomePageUpdated";
+@import "./OurAssets.scss";
+@import "./DeclutteredPage.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
 .media-page-banner {
   position: relative;
+  text-align: center;
 
   .translucent-dark-overlay {
     background: rgba(0, 0, 0, 0.5);
@@ -64,161 +64,155 @@
   }
 }
 
+.base-banner-image {
+  position: relative;
+  text-align: center;
+  .banner-image {
+    aspect-ratio: 1.85;
+  }
+
+  .slider-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.34);
+    justify-content: center;
+    align-items: center;
+
+    .title {
+      color: white;
+      font-size: 84px;
+      line-height: 100%;
+      font-weight: 600;
+      -webkit-animation-name: textFade; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 1.2s; /* Safari 4.0 - 8.0 */
+      animation-name: textFade;
+      animation-duration: 1.2s;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1200px) {
+      .title {
+        font-size: 72px;
+        line-height: 72px;
+        margin: 0;
+      }
+    }
+
+    @media screen and (max-width: 769px) {
+      .title {
+        font-size: 38px;
+        line-height: 38px;
+        margin: 0;
+      }
+    }
+  }
+}
+
 .career-page-banner,
 .media-page-banner {
   background-size: cover;
   background-position: center;
 }
 
-.blogs-section {
-  padding: 100px 20px 20px 20px;
-
-  .blog-wrapper {
-    position: relative;
-
-    .image-wrapper {
-      height: 300px;
-      background-color: #efefef;
-      background-size: cover;
-      background-position: center;
-      border-radius: 10px;
-    }
-
-    .content-wrapper {
-      padding: 14px;
-      margin-bottom: 30px;
-
-      .heading {
-        font-size: 16px;
-        color: #343434;
-      }
-
-      .posted-on {
-        font-size: 13px;
-        line-height: 13px;
-        color: #a1a1a1;
-        font-style: italic;
-      }
-
-      .description {
-        color: #343434;
-        font-size: 12px;
-        margin-top: 8px;
-      }
-
-      .read-more {
-        font-size: 13px;
-        margin-top: 20px;
-        cursor: pointer;
-        color: $primary;
-      }
-    }
-  }
+@font-face {
+  font-family: "Proxima Nova Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Proxima Nova Regular"),
+    url("../fonts/ProximaNova-Regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Proxima Nova Regular';
+  font-family: "Proxima Nova Thin";
   font-style: normal;
   font-weight: normal;
-  src: local('Proxima Nova Regular'),
-    url('../fonts/ProximaNova-Regular.woff') format('woff');
+  src: local("Proxima Nova Thin"),
+    url("../fonts/ProximaNovaT-Thin.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Proxima Nova Thin';
+  font-family: "Proxima Nova Light";
   font-style: normal;
   font-weight: normal;
-  src: local('Proxima Nova Thin'),
-    url('../fonts/ProximaNovaT-Thin.woff') format('woff');
+  src: local("Proxima Nova Light"),
+    url("../fonts/ProximaNova-Light.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Proxima Nova Light';
+  font-family: "Proxima Nova Semibold";
   font-style: normal;
   font-weight: normal;
-  src: local('Proxima Nova Light'),
-    url('../fonts/ProximaNova-Light.woff') format('woff');
+  src: local("Proxima Nova Semibold"),
+    url("../fonts/ProximaNova-Semibold.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Proxima Nova Semibold';
+  font-family: "Proxima Nova Bold";
   font-style: normal;
   font-weight: normal;
-  src: local('Proxima Nova Semibold'),
-    url('../fonts/ProximaNova-Semibold.woff') format('woff');
+  src: local("Proxima Nova Bold"),
+    url("../fonts/ProximaNova-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Proxima Nova Bold';
+  font-family: "Proxima Nova Extrabold";
   font-style: normal;
   font-weight: normal;
-  src: local('Proxima Nova Bold'),
-    url('../fonts/ProximaNova-Bold.woff') format('woff');
+  src: local("Proxima Nova Extrabold"),
+    url("../fonts/ProximaNova-Extrabld.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Proxima Nova Extrabold';
+  font-family: "Proxima Nova Black";
   font-style: normal;
   font-weight: normal;
-  src: local('Proxima Nova Extrabold'),
-    url('../fonts/ProximaNova-Extrabld.woff') format('woff');
+  src: local("Proxima Nova Black"),
+    url("../fonts/ProximaNova-Black.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Proxima Nova Black';
+  font-family: "impact";
   font-style: normal;
   font-weight: normal;
-  src: local('Proxima Nova Black'),
-    url('../fonts/ProximaNova-Black.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'impact';
-  font-style: normal;
-  font-weight: normal;
-  src: local('impact'), url('../fonts/impact.ttf') format('ttf');
+  src: local("impact"), url("../fonts/impact.ttf") format("ttf");
 }
 
 body {
   margin: 0;
-  font-family: 'Proxima Nova Regular';
+  font-family: "noto sans";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New','rubik','noto sans',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", "rubik",
+    "noto sans", monospace;
 }
 
 @font-face {
-  font-family: 'Proxima Nova Regular';
+  font-family: "Proxima Nova Regular";
   font-style: normal;
   font-weight: normal;
-  src: local('Proxima Nova Regular'),
-    url('../fonts/ProximaNova-Regular.woff') format('woff');
+  src: local("Proxima Nova Regular"),
+    url("../fonts/ProximaNova-Regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'rubik';
-  src: url('../fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+  font-family: "rubik";
+  src: url("../fonts/Rubik-VariableFont_wght.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'noto sans';
-  src: url('../fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype');
+  font-family: "noto sans";
+  src: url("../fonts/NotoSans-VariableFont_wdth,wght.ttf") format("truetype");
 }
 
 * {
-  font-family: 'Proxima Nova Regular' ;
-}
-
-#home-page-font div, #home-page-font span, #home-page-font p, #home-page-font button, .footer-wrapper div, .footer-wrapper span{
-  font-family: 'noto sans' !important;
-}
-
-#navbar-text, #our-assets div, #our-assets span, #decluttered-page div, #decluttered-page span, #decluttered-page b{
-  font-family: 'noto sans' !important;
+  font-family: "noto sans";
 }
 
 .f-6 {
@@ -327,6 +321,10 @@ code {
 
 .f-50 {
   font-size: 50px !important;
+}
+
+.f-72 {
+  font-size: 72px !important;
 }
 
 .f-80 {
@@ -521,25 +519,25 @@ a {
         0 15px 32px 0 rgba(0, 0, 0, 0.1);
 
       .heading {
-        font-size: 16px;
+        font-size: 18px;
         color: #343434;
       }
 
       .posted-on {
-        font-size: 13px;
-        line-height: 13px;
+        font-size: 14px;
+        line-height: 100%;
         margin-top: 7px;
         color: #a1a1a1;
       }
 
       .description {
         color: #343434;
-        font-size: 12px;
-        margin-top: 15px;
+        font-size: 14px;
+        margin-top: 16px;
       }
 
       .read-more {
-        font-size: 13px;
+        font-size: 14px;
         margin-top: 10px;
         cursor: pointer;
         color: $primary;
@@ -604,7 +602,7 @@ a {
 
 body,
 p {
-  font-family: 'Proxima Nova Regular';
+  font-family: "noto sans";
 }
 
 .soft-hide-form-small-only {
@@ -699,5 +697,23 @@ p {
   .sushasan-channel-trailer-text {
     flex: 1;
     text-align: justify;
+  }
+}
+@-webkit-keyframes textFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Standard syntax */
+@keyframes textFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

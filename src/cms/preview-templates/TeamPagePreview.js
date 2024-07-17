@@ -1,27 +1,24 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import {AboutPageTemplate} from '../../templates/footer-page'
-import {TeamPage} from "../../templates/team-page";
+import React from "react";
+import PropTypes from "prop-types";
+import { TeamPage } from "../../templates/team-page";
 
-const TeamPagePreview = ({entry, widgetFor}) => {
-    const data = entry.getIn(['data']).toJS();
-    return (
-        <TeamPage
-            data={
-                {
-                    markdownRemark: {
-                        frontmatter: data
-                    }
-                }
-            }
-        />
-    )
+const TeamPagePreview = ({ entry, widgetFor }) => {
+  const data = entry.getIn(["data"]).toJS();
+  return (
+    <TeamPage
+      data={{
+        markdownRemark: {
+          frontmatter: data,
+        },
+      }}
+    />
+  );
 };
 TeamPagePreview.propTypes = {
-    entry: PropTypes.shape({
-        getIn: PropTypes.func,
-    }),
-    widgetFor: PropTypes.func,
+  entry: PropTypes.shape({
+    getIn: PropTypes.func,
+  }),
+  widgetFor: PropTypes.func,
 };
 
-export default TeamPagePreview
+export default TeamPagePreview;

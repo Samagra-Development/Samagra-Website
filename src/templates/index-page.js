@@ -1,39 +1,38 @@
 import React, { useEffect, useState } from "react";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
-import StickyIcon from "../components/HomeComponents/StickyIcon";
 import SectionDivider from "../components/HomeComponents/SectionDivider";
 import { animateScroll as scroll } from "react-scroll";
 import OurMissionSection from "../components/HomeComponents/OurMission";
-import OurModelSection  from "../components/HomeComponents/OurModel";
+import OurModelSection from "../components/HomeComponents/OurModel";
 import OurWorkSection from "../components/HomeComponents/OurWork";
 import OurJourneySection from "../components/HomeComponents/OurJourney";
-import  NewsSection  from "../components/HomeComponents/NewsSection";
+import NewsSection from "../components/HomeComponents/NewsSection";
 import OurApproach from "../components/HomeComponents/OurApproach";
-import upIcon from '../img/up-icon.png';
+import upIcon from "../img/up-icon.png";
 
-export const HomePageTemplate = ({ parentDomains, data }) => {
+export const HomePageTemplate = ({ data }) => {
   const [mobile, setMobile] = useState(false);
   const [showUpIcon, setShowUpIcon] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 768) {
-        setMobile(()=>true);
+        setMobile(() => true);
       } else {
-        setMobile(()=>false);
+        setMobile(() => false);
       }
     };
     handleResize();
 
-    window.addEventListener('scroll', handleScroll);
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
@@ -47,52 +46,82 @@ export const HomePageTemplate = ({ parentDomains, data }) => {
     } else setShowUpIcon(false);
   };
 
-  // const scrollToBottom = () => {
-  //   scroll.scrollToBottom({
-  //     duration: 3000, // Optional: animation duration in milliseconds
-  //   });
-  // };
-
   return (
     <div>
       <Helmet>
-      <link rel="prefetch" href={data?.baseBannerVideo?.publicURL} />
-      <link rel="prefetch" href={data?.ourWork[0]?.workLogo[0]?.logo?.childImageSharp?.fluid?.src} />
-      <link rel="prefetch" href={data?.ourWork[0]?.workLogo[1]?.logo?.childImageSharp?.fluid?.src} />
-      <link rel="prefetch" href={data?.ourWork[0]?.backgroundMap?.childImageSharp?.fluid?.src} />
-      <link rel="prefetch" href={data?.ourWork[1]?.workLogo[0]?.logo?.childImageSharp?.fluid?.src} />
-      <link rel="prefetch" href={data?.ourWork[1]?.backgroundMap?.childImageSharp?.fluid?.src} />
-      <link rel="prefetch" href={data?.ourWork[2]?.workLogo[0]?.logo?.childImageSharp?.fluid?.src} />
-      <link rel="prefetch" href={data?.ourWork[2]?.backgroundMap?.childImageSharp?.fluid?.src} />
-      <link rel="prefetch" href={data?.ourWork[3]?.workLogo[0]?.logo?.childImageSharp?.fluid?.src} />
-      <link rel="prefetch" href={data?.ourWork[3]?.backgroundMap?.childImageSharp?.fluid?.src} />
+        <link rel="prefetch" href={data?.baseBannerVideo?.publicURL} />
+        <link
+          rel="prefetch"
+          href={
+            data?.ourWork[0]?.workLogo[0]?.logo?.childImageSharp?.fluid?.src
+          }
+        />
+        <link
+          rel="prefetch"
+          href={
+            data?.ourWork[0]?.workLogo[1]?.logo?.childImageSharp?.fluid?.src
+          }
+        />
+        <link
+          rel="prefetch"
+          href={data?.ourWork[0]?.backgroundMap?.childImageSharp?.fluid?.src}
+        />
+        <link
+          rel="prefetch"
+          href={
+            data?.ourWork[1]?.workLogo[0]?.logo?.childImageSharp?.fluid?.src
+          }
+        />
+        <link
+          rel="prefetch"
+          href={data?.ourWork[1]?.backgroundMap?.childImageSharp?.fluid?.src}
+        />
+        <link
+          rel="prefetch"
+          href={
+            data?.ourWork[2]?.workLogo[0]?.logo?.childImageSharp?.fluid?.src
+          }
+        />
+        <link
+          rel="prefetch"
+          href={data?.ourWork[2]?.backgroundMap?.childImageSharp?.fluid?.src}
+        />
+        <link
+          rel="prefetch"
+          href={
+            data?.ourWork[3]?.workLogo[0]?.logo?.childImageSharp?.fluid?.src
+          }
+        />
+        <link
+          rel="prefetch"
+          href={data?.ourWork[3]?.backgroundMap?.childImageSharp?.fluid?.src}
+        />
       </Helmet>
-    <div id="home-page-font">
-      {data ? (
-        <React.Fragment>
-          <OurMissionSection data={data}/>
-          <OurModelSection homeContent={data}/>
-          <OurApproach homeContent={data}/>
-        </React.Fragment>
-      ) : (
-        <span />
-      )}
-      {data?.ourWork ? (
-        <OurWorkSection workContent={data} isMobile={mobile}/>
-      ) : (
-        <span />
-      )
-      }
-      <SectionDivider />
-      <OurJourneySection content={data}/>
-      <NewsSection />
-      {!mobile && showUpIcon && (
-        <div className={'up-icon'}>
-          <img src={upIcon} onClick={scrollToTop} />
-        </div>
-      )}
-      {/* {!mobile && <StickyIcon scrollToBottom={scrollToBottom} />} */}
-    </div>
+      <div id="home-page-font">
+        {data ? (
+          <React.Fragment>
+            <OurMissionSection data={data} />
+            <OurModelSection homeContent={data} />
+            <OurApproach homeContent={data} />
+          </React.Fragment>
+        ) : (
+          <span />
+        )}
+        {data?.ourWork ? (
+          <OurWorkSection workContent={data} isMobile={mobile} />
+        ) : (
+          <span />
+        )}
+        <SectionDivider />
+        <OurJourneySection content={data} />
+        <NewsSection />
+        {!mobile && showUpIcon && (
+          <div className={"up-icon"}>
+            <img src={upIcon} onClick={scrollToTop} />
+          </div>
+        )}
+        {/* {!mobile && <StickyIcon scrollToBottom={scrollToBottom} />} */}
+      </div>
     </div>
   );
 };

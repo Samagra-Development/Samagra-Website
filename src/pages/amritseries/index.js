@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import Layout from '../../components/Layout';
-import CaseStudiesRoll from '../../components/CaseStudiesRoll';
-import backgroundImage from '../../../static/img/amrit-series-top-banner.jpg';
-import amritSeriesLogo from '../../../static/img/amrit-series-logo.png';
-import amritSeriesDoodle from '../../../static/img/amrit-series-text-doodle.svg';
-import spacer from '../../../static/img/yellow-spacer.png';
+import React, { useState, useEffect } from "react";
+import Layout from "../../components/Layout";
+import CaseStudiesRoll from "../../components/CaseStudiesRoll";
+import backgroundImage from "../../../static/img/amrit-series-top-banner.jpg";
+import amritSeriesLogo from "../../../static/img/amrit-series-logo.png";
+import amritSeriesDoodle from "../../../static/img/amrit-series-text-doodle.svg";
 export default function CaseStudiesIndexPage() {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
@@ -20,73 +19,73 @@ export default function CaseStudiesIndexPage() {
     handleResize();
 
     // Event listener for window resize
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     // Cleanup the event listener on component unmount
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
   return (
     // <></>
     <Layout>
-      <div
-        className={'home-top-slider-wrapper media-page-banner'}
-        style={{
-          height: '600px',
-          backgroundImage: `url(${backgroundImage})`,
-        }}>
-        <div
-          className="translucent-dark-overlay"
-          style={{ height: 'auto' }}></div>
-        <div className=" container content-section">
+      <div className={"base-banner-image"}>
+        <img
+          alt="banner-image"
+          src={backgroundImage}
+          width={"100%"}
+          className="banner-image"
+        />
+        <div className={"slider-content"}>
           <div className="title">Amrit Series</div>
         </div>
       </div>
       <div
         style={{
-          height: '1px',
-          width: '75px',
-          borderWidth: '2px',
-          borderStyle: 'solid',
-          borderColor: 'transparent',
-          borderImage: 'linear-gradient(to left, #418F37, #FFE81D) 1',
-          margin: '75px auto',
-        }}></div>
+          height: "1px",
+          width: "75px",
+          borderWidth: "2px",
+          borderStyle: "solid",
+          borderColor: "transparent",
+          borderImage: "linear-gradient(to left, #418F37, #FFE81D) 1",
+          margin: "75px auto",
+        }}
+      ></div>
       <div
-        className={'career-section-second'}
-        style={{ maxWidth: mobile ? '80%' : '75%', margin: 'auto' }}>
+        className={"career-section-second"}
+        style={{ maxWidth: mobile ? "80%" : "75%", margin: "auto" }}
+      >
         <div className="row">
           <div className="mx-auto">
             {/* <div style={{ textAlign: 'center', marginTop: '4rem' }}>
               <img src={spacer} alt="" />
             </div> */}
-            <div style={{ textAlign: 'center', marginBottom: '50px' }}>
+            <div style={{ textAlign: "center", marginBottom: "50px" }}>
               <img
                 src={amritSeriesLogo}
                 alt=""
-                width={mobile ? '250px' : '400px'}
+                width={mobile ? "250px" : "400px"}
               />
             </div>
-            <div className={'sushasan-channel-trailer-container'}>
+            <div className={"sushasan-channel-trailer-container"}>
               <iframe
                 style={{
-                  padding: '10px',
-                  borderWidth: '1px',
-                  borderImage: 'linear-gradient(to right, #418F37, #FFE81D) 1',
+                  padding: "10px",
+                  borderWidth: "1px",
+                  borderImage: "linear-gradient(to right, #418F37, #FFE81D) 1",
                   borderImageSlice: 1,
                 }}
-                className={'sushasan-channel-trailer'}
+                className={"sushasan-channel-trailer"}
                 src="https://www.youtube.com/embed/r0gQp1zQLoM"
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen></iframe>
+                allowFullScreen
+              ></iframe>
               <p className="sushasan-channel-trailer-text">
                 <div
-                  className={
-                    'py-2 text-left f-18 color-text-primary main-text'
-                  }>
+                  className={"py-2 text-left f-18 color-text-primary main-text"}
+                >
                   At Samagra, we are on a mission to improve the quality of life
                   of citizens through better governance. <br></br>
                   <br></br>The Amrit Series is a collection of success stories
@@ -99,31 +98,33 @@ export default function CaseStudiesIndexPage() {
             </div>
             <div
               style={{
-                height: '1px',
-                width: '75px',
-                borderWidth: '2px',
-                borderStyle: 'solid',
-                borderColor: 'transparent',
-                borderImage: 'linear-gradient(to left, #418F37, #FFE81D) 1',
-                margin: '75px auto',
-              }}></div>
+                height: "1px",
+                width: "75px",
+                borderWidth: "2px",
+                borderStyle: "solid",
+                borderColor: "transparent",
+                borderImage: "linear-gradient(to left, #418F37, #FFE81D) 1",
+                margin: "75px auto",
+              }}
+            ></div>
 
             <div
               style={{
-                fontWeight: 'bold',
-                display: 'flex',
-                justifyContent: 'center',
+                fontWeight: "bold",
+                display: "flex",
+                justifyContent: "center",
               }}
               className={
-                'py-2 text-center f-28 color-text-primary main-text text-bold'
-              }>
+                "py-2 text-center f-24 color-text-primary main-text text-bold"
+              }
+            >
               View our Success Stories of Impact!
               <div>
                 <img
                   src={amritSeriesDoodle}
                   alt=""
                   width="24px"
-                  style={{ marginBottom: '28px', marginLeft: '4px' }}
+                  style={{ marginBottom: "28px", marginLeft: "4px" }}
                 />
               </div>
             </div>
@@ -139,9 +140,18 @@ export default function CaseStudiesIndexPage() {
       </section>
       <div
         className="partner-with-us"
-        style={{ marginTop: mobile ? '0px' : '25px' }}>
+        style={{ marginTop: mobile ? "0px" : "25px" }}
+      >
         <p className="partner-with-us-main-text">Partner with us today!</p>
-        <p>Write to us at:{" "}<a href="mailto:outreach@samagragovernance.in" className='partner-with-us-anchor-text'>outreach@samagragovernance.in</a></p>
+        <p>
+          Write to us at:{" "}
+          <a
+            href="mailto:outreach@samagragovernance.in"
+            className="partner-with-us-anchor-text"
+          >
+            outreach@samagragovernance.in
+          </a>
+        </p>
       </div>
     </Layout>
   );

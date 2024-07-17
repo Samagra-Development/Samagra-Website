@@ -1,29 +1,23 @@
 import "../styles/BlogDetails.scss";
 
 import Content, { HTMLContent } from "../components/Content";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 
 import Helmet from "react-helmet";
 import Layout from "../components/Layout";
 import PropTypes from "prop-types";
-import Script from "react-inline-script"
-import React,{useEffect} from "react";
-import { kebabCase } from "lodash";
+import Script from "react-inline-script";
+import React from "react";
+// import { kebabCase } from "lodash";
 
 export const BlogPostTemplate = ({
   content,
   contentComponent,
-  description,
-  tags,
-  title,
   htmlContent,
-  helmet
+  helmet,
 }) => {
-
-
   const PostContent = contentComponent || Content;
 
-  
   if (!content) {
     return <div />;
   }
@@ -31,10 +25,7 @@ export const BlogPostTemplate = ({
     <section className="section">
       {helmet || ""}
       <div className={"blog-banner"}>
-        <div
-          className="translucent-dark-overlay"
-          style={{ height: "auto" }}
-        />
+        <div className="translucent-dark-overlay" style={{ height: "auto" }} />
         <div className=" container content-section">
           <div className="title">
             {content && content.title ? content.title : "Our Blog"}
@@ -55,8 +46,9 @@ export const BlogPostTemplate = ({
                       : content.authorImage
                   })`,
                   backgroundPosition: "center",
-                  backgroundSize: "cover"
-                }}/>
+                  backgroundSize: "cover",
+                }}
+              />
               <div className="details">
                 <div className="name">{content.author}</div>
                 <div className="timestamp">{content.date}</div>
@@ -75,7 +67,6 @@ export const BlogPostTemplate = ({
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
 
-
   return (
     <Layout slug={data.markdownRemark.fields.slug}>
       <BlogPostTemplate
@@ -93,7 +84,7 @@ const BlogPost = ({ data }) => {
           </Helmet>
         }
       />
-     <div id="graphcomment"></div>
+      <div id="graphcomment"></div>
       <Script>
         {`
           window.gc_params = {
@@ -114,8 +105,8 @@ const BlogPost = ({ data }) => {
 
 BlogPost.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object
-  })
+    markdownRemark: PropTypes.object,
+  }),
 };
 
 export default BlogPost;
