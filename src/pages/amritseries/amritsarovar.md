@@ -57,7 +57,7 @@ successStoriesTitle: View more <i>Success Stories of Impact</i>
 showSuccessStories: "hkrn,ksk,nl app "
 sideIcon4Text: Impact Numbers
 formType: This is new case study form
-show: true
+show: false
 projectId: AMRIT SAROVAR
 buttonText: Learn More
 title: amritsarovar
