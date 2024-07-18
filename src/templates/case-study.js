@@ -1211,9 +1211,9 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   <div
                     style={{
                       display: "flex",
-                      alignItems: "flex-end",
+                      alignItems: "center",
+                      justifyContent: "center",
                       marginTop: mobile ? "50px" : "",
-                      // height: mobile ? "275px" : "500px",
                       width: mobile ? "275px" : "500px",
                     }}
                   >
@@ -1231,25 +1231,6 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 backgroundPosition: 'center',
                 borderRadius: '10px',
               }}></div> */}
-
-                    {/* <div
-                      style={{
-                        position: "relative",
-                        zIndex: "1",
-                        height: mobile ? "275px" : "500px",
-                        width: mobile ? "275px" : "500px",
-                        backgroundImage: `url(${
-                          content?.blogSectionImage?.childImageSharp
-                            ? content?.blogSectionImage?.childImageSharp?.fluid
-                                ?.src
-                            : content?.blogSectionImage
-                        })`,
-                        backgroundRepeat: "no-repeat",
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                        borderRadius: "10px",
-                      }}
-                    ></div> */}
                     <img
                       src={
                         content?.blogSectionImage?.childImageSharp
@@ -1257,8 +1238,8 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                               ?.src
                           : content?.blogSectionImage
                       }
-                      width={"100%"}
-                      // height={"100%"}
+                      width={mobile ? "100%" : "80%"}
+                      height={"auto"}
                       style={{ borderRadius: "10px" }}
                     />
                     {/* <div

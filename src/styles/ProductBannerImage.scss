@@ -14,7 +14,6 @@
   }
 
   .translucent-dark-overlay {
-
     position: absolute;
     left: 0;
     right: 0;
@@ -35,7 +34,7 @@
           flex: 1;
           padding: 1.8vw 1.5vw;
 
-          font-size: 1.9vw;
+          font-size: 24px;
           color: white;
           font-weight: 400;
         }
@@ -74,7 +73,7 @@
           flex: 1;
           padding: 1.8vw 1.5vw;
           padding-left: 0;
-          font-size: 1.9vw;
+          font-size: 24px;
           color: white;
           font-weight: 400;
         }
@@ -83,14 +82,10 @@
           height: 6.4vw;
         }
       }
-
-
     }
   }
 
-
   .content-section {
-
     position: absolute;
     top: 0;
     left: 0;

@@ -299,7 +299,7 @@
   transform: scale(1.02);
 }
 
-.impact-card {
+.case-study-impact-card {
   position: relative; /* Make the card the positioning context */
   width: 272px; /* Set a width for the card */
   height: 332px; /* Set a height for the card */
@@ -308,7 +308,7 @@
   // background-image: linear-gradient(to bottom, #000000 0%, #76323F 12%, #76323F 100%);
 }
 
-.impact-card img {
+.case-study-impact-card img {
   width: 100%; /* Stretch image to fill the card */
   height: 100%; /* Stretch image to fill the card */
   object-fit: cover; /* Ensure image covers the entire card */

@@ -608,7 +608,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                     margin: "60px 0",
                   }}
                 >
-                  <div class="impact-card">
+                  <div class="case-study-impact-card">
                     <img
                       src={
                         content?.img1?.childImageSharp
@@ -649,7 +649,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                       )}
                     </div>
                   </div>
-                  <div class="impact-card">
+                  <div class="case-study-impact-card">
                     <img
                       src={
                         content?.img2?.childImageSharp
@@ -690,7 +690,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                       )}
                     </div>
                   </div>
-                  <div class="impact-card">
+                  <div class="case-study-impact-card">
                     <img
                       src={
                         content?.img3?.childImageSharp
@@ -1346,27 +1346,22 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
               <div
                 style={{
                   display: "flex",
-                  alignItems: "flex-end",
+                  alignItems: "center",
+                  justifyContent: "center",
                   marginTop: mobile ? "50px" : "",
+                  width: mobile ? "275px" : "500px",
                 }}
               >
-                <div
-                  style={{
-                    position: "relative",
-                    zIndex: "1",
-                    height: mobile ? "275px" : "500px",
-                    width: mobile ? "275px" : "500px",
-                    backgroundImage: `url(${
-                      content?.blogSectionImage?.childImageSharp
-                        ? content?.blogSectionImage?.childImageSharp?.fluid?.src
-                        : content?.blogSectionImage
-                    })`,
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    borderRadius: "10px",
-                  }}
-                ></div>
+                <img
+                  src={
+                    content?.blogSectionImage?.childImageSharp
+                      ? content?.blogSectionImage?.childImageSharp?.fluid?.src
+                      : content?.blogSectionImage
+                  }
+                  width={mobile ? "100%" : "80%"}
+                  height={"auto"}
+                  style={{ borderRadius: "10px" }}
+                />
               </div>
             )}
           </div>

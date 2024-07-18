@@ -6,10 +6,10 @@
   text-align: center;
 
   .title {
-    font-size: 50px;
+    font-size: 36px;
     color: $theme-text-normal;
     font-weight: 600;
-    margin: 70px 0 10px 0;
+    margin: 20px 0 10px 0;
   }
 
   .cards-section {
@@ -21,7 +21,8 @@
       max-width: 370px;
       border-radius: 7px;
       margin: 20px;
-      box-shadow: 0 6px 0 0 rgba(0, 0, 0, .01), 0 15px 32px 0 rgba(0, 0, 0, .06);
+      box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.01),
+        0 15px 32px 0 rgba(0, 0, 0, 0.06);
       vertical-align: top;
       cursor: pointer;
       overflow: hidden;
@@ -86,7 +87,6 @@
     }
   }
 }
-
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes smoothScaleIn {
