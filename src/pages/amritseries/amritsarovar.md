@@ -14,7 +14,7 @@ sideIcon2: /img/icon2-gosugam.png
 showsideIcon3: false
 sideIcon3Text: Use Cases
 sideIcon3: /img/icon3-gosugam.png
-impactVideoLink: ""
+impactVideoLink: https://www.youtube.com/embed/R6BojXYVbRs?si=RUC75zwrAxQ2elRS
 motionGraphic2: /img/post-amrit-sarovar_2.mp4
 impactNumber1: 2100
 impactNumber1Decimal: 0
@@ -57,7 +57,7 @@ successStoriesTitle: View more <i>Success Stories of Impact</i>
 showSuccessStories: "hkrn,ksk,nl app "
 sideIcon4Text: Impact Numbers
 formType: This is new case study form
-show: false
+show: true
 projectId: AMRIT SAROVAR
 buttonText: Learn More
 title: amritsarovar
