@@ -20,7 +20,12 @@ postCategories:
   - category: Digital Governance
   - category: Elections
   - category: Policy
+  - category: Judiciary
 postData:
+  - postCard:
+      postImage: /img/structure-of-judiciary_resize.png
+      selectedCategory: Judiciary
+      urlLink: https://www.instagram.com/reel/C9RcrIWSkBY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
       postImage: /img/stateadmin_resize.png
       selectedCategory: Administration

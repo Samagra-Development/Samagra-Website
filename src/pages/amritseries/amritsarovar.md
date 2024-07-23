@@ -62,8 +62,8 @@ projectId: AMRIT SAROVAR
 buttonText: Learn More
 title: amritsarovar
 fontColor: "#294294"
-title1: State-wide mission to carry out restoration, build community-driven
-  sustainability & enable monetization of ponds
+title1: State-wide mission to restore, build community-driven sustainability &
+  enable monetization of ponds
 title2: Impact Video
 title3: Mission Amrit Sarovar was launched by the Hon'ble Prime Minister in
   April 2022. Witness the rejuvenation, beautification & monetization of these
