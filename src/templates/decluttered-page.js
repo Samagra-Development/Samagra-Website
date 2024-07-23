@@ -18,7 +18,7 @@ export const DeclutteredPageTemplate = ({ data }) => {
   const [viewPost, setViewPost] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedCategoryData, setSelectedCategoryData] = useState(
-    data?.postData,
+    data?.postData
   );
 
   const [currPage, setCurrPage] = useState(1);
@@ -59,7 +59,7 @@ export const DeclutteredPageTemplate = ({ data }) => {
   const indexOfFirstRecord = indexOfLastRecord - numberOfItem;
   const currentRecords = selectedCategoryData?.slice(
     indexOfFirstRecord,
-    indexOfLastRecord,
+    indexOfLastRecord
   );
   const nPages = Math.ceil(selectedCategoryData?.length / numberOfItem);
   const goToNextPage = () => {
@@ -89,7 +89,7 @@ export const DeclutteredPageTemplate = ({ data }) => {
       </Helmet>
       <div>
         <div id="decluttered-page">
-          <div className={"decluttered-top-image"}>
+          <div className={"base-banner-image"}>
             <img
               alt="banner-image"
               src={
@@ -98,6 +98,7 @@ export const DeclutteredPageTemplate = ({ data }) => {
                   : data?.baseBanner?.bannerImage
               }
               width={"100%"}
+              className="banner-image"
             />
             <div className={"slider-content"}>
               {data?.baseBanner?.titleLines.map((d, i) => {
@@ -111,16 +112,17 @@ export const DeclutteredPageTemplate = ({ data }) => {
           </div>
           <div className="description">
             <div>
-            <iframe
-                  style={{
-                    width:"100%",
-                    aspectRatio:"1.78",
-                    objectFit:"cover",
-                  }}
-                  src={data?.declutteredDescription?.descriptionVideo}
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
-                  allowFullScreen></iframe>
+              <iframe
+                style={{
+                  width: "100%",
+                  aspectRatio: "1.78",
+                  objectFit: "cover",
+                }}
+                src={data?.declutteredDescription?.descriptionVideo}
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
+                allowFullScreen
+              ></iframe>
             </div>
             <div className="description-text">
               {data?.declutteredDescription?.descriptionHeader?.map((d, i) => {
@@ -176,9 +178,13 @@ export const DeclutteredPageTemplate = ({ data }) => {
           <div className="post-group">
             {currentRecords?.map((p, i) => {
               return (
-                <div key={i} style={{ position: "relative",cursor:"pointer" }} onClick={() => {
+                <div
+                  key={i}
+                  style={{ position: "relative", cursor: "pointer" }}
+                  onClick={() => {
                     setViewPost(p.postCard.urlLink);
-                  }}>
+                  }}
+                >
                   <img
                     src={
                       p?.postCard?.postImage?.childImageSharp
@@ -188,11 +194,7 @@ export const DeclutteredPageTemplate = ({ data }) => {
                     alt="postImg"
                     className="postcard"
                   />
-                  <img
-                    src={expandIcon}
-                    alt="expand"
-                    className="expand-icon"
-                  />
+                  <img src={expandIcon} alt="expand" className="expand-icon" />
                 </div>
               );
             })}
@@ -207,7 +209,9 @@ export const DeclutteredPageTemplate = ({ data }) => {
               />
               <a className="pagination-text anchor-color">Previous</a>
             </div>
-            <div className="pagination-text" style={{color:"#D09C0A"}}>{currPage + "/" + nPages}</div>
+            <div className="pagination-text" style={{ color: "#D09C0A" }}>
+              {currPage + "/" + nPages}
+            </div>
             <div onClick={goToNextPage} className="pagination-button">
               <a className="pagination-text anchor-color">Next</a>
               <img src={rightArrow} alt="arrow-icon" className="arrow-icon" />
@@ -249,7 +253,12 @@ export const DeclutteredPageTemplate = ({ data }) => {
                     >
                       <div
                         style={{
-                          backgroundImage: `url(${d?.assetCard?.assetImage?.childImageSharp ? d?.assetCard?.assetImage?.childImageSharp?.fluid?.src : d?.assetCard?.assetImage})`,
+                          backgroundImage: `url(${
+                            d?.assetCard?.assetImage?.childImageSharp
+                              ? d?.assetCard?.assetImage?.childImageSharp?.fluid
+                                  ?.src
+                              : d?.assetCard?.assetImage
+                          })`,
                           height: "100%",
                           borderRadius: "10px",
                           backgroundPosition: "center",

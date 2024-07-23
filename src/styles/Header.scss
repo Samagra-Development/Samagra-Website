@@ -3,7 +3,7 @@
 .header-wrapper {
   background: none;
   position: relative;
- 
+
   .logo {
     height: 67px;
   }
@@ -18,21 +18,24 @@
     left: 0;
     right: 0;
     z-index: 200;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 100%;
     font-weight: 400;
 
     .nav-link {
       color: white;
+      letter-spacing: 0.28px;
     }
 
-    .nav-link:hover{
+    .nav-link:hover {
       color: white;
-        font-weight: 700;
+      font-weight: 600;
+      letter-spacing: 0;
     }
-    .nav-link:active{
+    .nav-link:active {
       color: white;
-        font-weight: 700;
+      font-weight: 600;
+      letter-spacing: 0;
     }
 
     li {
@@ -45,7 +48,7 @@
           display: flex;
           position: absolute;
           background: white;
-          top:54px;
+          top: 54px;
           left: 0;
           overflow: hidden;
           z-index: 2;
@@ -66,14 +69,14 @@
               cursor: pointer;
               white-space: nowrap;
               &.head-focused {
-                color: #D09C0A !important;
+                color: #d09c0a !important;
               }
             }
-            .head-item:hover{
-              color: #D09C0A !important;
+            .head-item:hover {
+              color: #d09c0a !important;
             }
-            .head-item:active{
-              color: #D09C0A !important;
+            .head-item:active {
+              color: #d09c0a !important;
             }
           }
 
@@ -90,8 +93,8 @@
               white-space: nowrap;
               color: rgba(88, 88, 88, 1) !important;
             }
-            .head-item:hover{
-              color: #D09C0A !important;
+            .head-item:hover {
+              color: #d09c0a !important;
             }
           }
         }
@@ -107,26 +110,27 @@
     right: 0;
     background: white;
     height: 75px;
-    box-shadow: 0 6px 0 0 rgba(0, 0, 0, .01), 0 15px 32px 0 rgba(0, 0, 0, .06);
+    box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.01), 0 15px 32px 0 rgba(0, 0, 0, 0.06);
     -webkit-animation-name: headerSlideIn; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
     animation-name: headerSlideIn;
     animation-duration: 0.5s;
 
     .nav-wrapper {
-
       .nav-link {
         color: #262626;
+        letter-spacing: 0.28px;
       }
-      .nav-link:hover{
+      .nav-link:hover {
         color: #262626;
-          font-weight: 700;
+        font-weight: 600;
+        letter-spacing: 0;
       }
-      .nav-link:active{
+      .nav-link:active {
         color: #262626;
-          font-weight: 700;
+        font-weight: 600;
+        letter-spacing: 0;
       }
-
     }
   }
 }
@@ -154,7 +158,7 @@
 /* Show the dropdown menu on hover */
 // .nav-dropdown-menu:hover .dropdown-content{
 //     display: flex;
-// } 
+// }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes headerSlideIn {

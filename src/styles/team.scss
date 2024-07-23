@@ -1,42 +1,5 @@
 @import "variable";
 
-.team-banner {
-  position: relative;
-  background-size: cover;
-  .translucent-dark-overlay {
-    background: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-  }
-
-  .content-section {
-
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
-
-    .title {
-      color: white;
-      font-size: 70px;
-      font-weight: 700;
-      text-align: center;
-      margin-top: 200px;
-      line-height: 150px;
-    }
-  }
-
-  @media only screen and (max-width: 980px) {
-    max-height: 270px !important;
-  }
-}
-
 .team-section {
   .popup {
     position: fixed;
@@ -64,7 +27,8 @@
       right: 0;
       left: calc((100vw - 800px) / 2);
       width: 800px;
-      box-shadow: 0 6px 0 0 rgba(0, 0, 0, .01), 0 15px 32px 0 rgba(0, 0, 0, .06);
+      box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.01),
+        0 15px 32px 0 rgba(0, 0, 0, 0.06);
       border-radius: 3px;
 
       .cross-button {
@@ -99,13 +63,13 @@
           padding: 0 20px;
 
           .title {
-            font-size: 35px;
+            font-size: 36px;
             color: #343434;
             font-weight: 600;
           }
 
           .designation {
-            font-size: 20px;
+            font-size: 24px;
             color: $primary;
             font-weight: 400;
             margin-top: -5px;
@@ -124,11 +88,9 @@
       .text-content-section {
         padding: 0 30px 30px 30px;
 
-
         width: 100%;
         display: inline-block;
         vertical-align: top;
-
 
         .description {
           font-size: 14px;
@@ -136,7 +98,6 @@
           font-weight: 400;
           margin-top: -5px;
         }
-
       }
 
       @media only screen and (max-width: 980px) {
@@ -151,10 +112,6 @@
         }
       }
     }
-  }
-
-  .text-description {
-
   }
 
   .team-card-wrapper {
@@ -180,11 +137,10 @@
         font-size: 24px;
         color: #343434;
         font-weight: 600;
-
       }
 
       .designation {
-        font-size: 14px;
+        font-size: 16px;
         color: $primary;
         font-weight: 500;
         margin-top: -5px;
@@ -199,7 +155,8 @@
 
     &:hover {
       .image-section {
-        box-shadow: 0 6px 0 0 rgba(0, 0, 0, .01), 0 15px 32px 0 rgba(0, 0, 0, .2);
+        box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.01),
+          0 15px 32px 0 rgba(0, 0, 0, 0.2);
       }
     }
 
@@ -208,12 +165,7 @@
         margin-top: 30px;
       }
 
-      .image-section {
-
-      }
-
       .content-section {
-
         .name {
           text-align: center;
         }

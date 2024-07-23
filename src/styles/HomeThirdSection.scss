@@ -1,9 +1,9 @@
 @import "./variable";
 
-.home-third-section-new{
+.home-third-section-new {
   padding-top: 50px;
 
-  .title{
+  .title {
     font-size: 38px;
     text-align: center;
     line-height: 34px;
@@ -21,7 +21,6 @@
     position: relative;
     background: rgba(0, 0, 0, 0.7);
     z-index: 0;
-
   }
   .title {
     font-size: 35px;
@@ -40,7 +39,7 @@
     flex-direction: row;
     background: rgba(0, 0, 0, 0.8);
     padding: 0;
-    box-shadow: 0 6px 0 0 rgba(0, 0, 0, .01), 0 15px 32px 0 rgba(0, 0, 0, .4);
+    box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.01), 0 15px 32px 0 rgba(0, 0, 0, 0.4);
     border-radius: 5px;
     overflow: hidden;
     position: relative;
@@ -106,9 +105,7 @@
         }
       }
 
-
       .image-section {
-
         display: flex;
         padding: 0;
         padding-bottom: 40px;
@@ -193,7 +190,7 @@
                   font-size: 32px;
                   font-weight: 800;
                   padding: 0 10px;
-                  font-family: 'impact' !important;
+                  // font-family: "impact" !important;
                   letter-spacing: 2px;
                 }
 
@@ -228,9 +225,7 @@
         }
       }
     }
-
   }
-
 
   .content-section-small {
     margin-top: 10px;
@@ -243,12 +238,12 @@
       margin-top: 5px;
 
       .card-wrapper {
-
         background: white;
         border-radius: 10px;
         padding: 20px;
         padding-bottom: 30px;
-        box-shadow: 0 6px 0 0 rgba(0, 0, 0, .01), 0 15px 32px 0 rgba(0, 0, 0, .4);
+        box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.01),
+          0 15px 32px 0 rgba(0, 0, 0, 0.4);
         position: relative;
         margin: auto;
 
@@ -315,8 +310,6 @@
     }
   }
 
- 
-
   @media only screen and (max-width: 980px) {
     .title {
       font-size: 20px !important;
@@ -341,17 +334,16 @@
       padding-top: calc((500px - 45vw) / 2);
 
       .image-wrapper {
-
       }
     }
   }
 }
 
 @media only screen and (max-width: 1250px) {
-  .home-third-section-new{
+  .home-third-section-new {
     padding-top: 50px;
 
-    .title{
+    .title {
       font-size: 28px;
       text-align: center;
       line-height: 34px;
@@ -361,10 +353,10 @@
 }
 
 @media only screen and (max-width: 980px) {
-  .home-third-section-new{
+  .home-third-section-new {
     padding-top: 50px;
 
-    .title{
+    .title {
       font-size: 24px;
       text-align: center;
       line-height: 34px;
@@ -374,10 +366,10 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .home-third-section-new{
+  .home-third-section-new {
     padding-top: 0px;
 
-    .title{
+    .title {
       font-size: 24px;
       text-align: center;
       line-height: 34px;
@@ -465,7 +457,7 @@
 }
 
 .home-domain-page-indicator-active {
-  background: #DE6E3D !important;
+  background: #de6e3d !important;
 }
 
 .home-domain-page-indicator {

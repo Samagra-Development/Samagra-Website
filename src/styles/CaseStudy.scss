@@ -1,4 +1,4 @@
-@import './variable';
+@import "./variable";
 
 .case-study-translucent-dark-overlay {
   background: rgba(0, 0, 0, 0.5);
@@ -18,7 +18,7 @@
 @media only screen and (max-width: 1150px) {
   #infographic {
     height: 450px;
-  width: 790px;
+    width: 790px;
   }
 }
 
@@ -43,7 +43,7 @@
   }
 }
 
-.infographic-img:hover{
+.infographic-img:hover {
   transform: scale(1.1);
 }
 
@@ -57,19 +57,17 @@
   width: 90%;
   margin: auto;
   font-weight: 600 !important;
-  font-family: sans-serif !important;
 }
 
-.old-case-study-main-heading{
+.old-case-study-main-heading {
   font-weight: 600 !important;
-  font-family: sans-serif !important;
   padding: 12px 48px;
   text-align: center;
 }
 
-.old-case-study-sub-heading{
-  font-weight:500 !important;
-  width:80%;
+.old-case-study-sub-heading {
+  font-weight: 500 !important;
+  width: 80%;
   text-align: center;
   margin-top: 32px;
 }
@@ -131,13 +129,12 @@
   font-size: 36px;
   font-weight: 700;
   text-align: center;
-  padding-top: 25px;
   line-height: 1.2;
 }
 
 .textCaseStudy {
   color: #343434;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -211,10 +208,6 @@
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-.testimonial-text {
-  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
-}
-
 .testimonial-author {
   margin-top: 10px;
   display: flex;
@@ -253,18 +246,16 @@
     font-weight: 700;
   }
   .partner-with-us-main-text {
-    font-size: 48px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif !important;
+    font-size: 36px;
   }
 }
 
-.partner-with-us-anchor-text{
+.partner-with-us-anchor-text {
   color: white;
 }
-.partner-with-us-anchor-text:hover{
+.partner-with-us-anchor-text:hover {
   color: whitesmoke;
-  text-decoration:  underline !important;
+  text-decoration: underline !important;
 }
 
 .case-study-playlist-container {
@@ -292,14 +283,14 @@
   cursor: pointer;
   overflow: hidden;
 }
-.info-card-wrapper{
+.info-card-wrapper {
   width: 40vh;
   height: 60vh;
   border-radius: 12px;
   border: none;
 }
-.info-card-wrapper:hover{
- -webkit-animation-name: smoothScaleIn;
+.info-card-wrapper:hover {
+  -webkit-animation-name: smoothScaleIn;
   /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 0.3s;
   /* Safari 4.0 - 8.0 */
@@ -308,43 +299,43 @@
   transform: scale(1.02);
 }
 
-.impact-card {
-      position: relative; /* Make the card the positioning context */
-      width: 272px; /* Set a width for the card */
-      height: 332px; /* Set a height for the card */
-      overflow: hidden; /* Clip content that overflows */
-      border-radius: 12px;
-      // background-image: linear-gradient(to bottom, #000000 0%, #76323F 12%, #76323F 100%);
-    }
+.case-study-impact-card {
+  position: relative; /* Make the card the positioning context */
+  width: 272px; /* Set a width for the card */
+  height: 332px; /* Set a height for the card */
+  overflow: hidden; /* Clip content that overflows */
+  border-radius: 12px;
+  // background-image: linear-gradient(to bottom, #000000 0%, #76323F 12%, #76323F 100%);
+}
 
-    .impact-card img {
-      width: 100%; /* Stretch image to fill the card */
-      height: 100%; /* Stretch image to fill the card */
-      object-fit: cover; /* Ensure image covers the entire card */
-      position: absolute; /* Position the image on top */
-      top: 0;
-      left: 0;
-    }
+.case-study-impact-card img {
+  width: 100%; /* Stretch image to fill the card */
+  height: 100%; /* Stretch image to fill the card */
+  object-fit: cover; /* Ensure image covers the entire card */
+  position: absolute; /* Position the image on top */
+  top: 0;
+  left: 0;
+}
 
-    .impact-card-content {
-      position: absolute; /* Position the content on top */
-      left: 0;
-      top: 100px;
-      padding: 24px; /* Add some padding inside the content area */
-      color: white; /* Set text color to white for better contrast */
-      text-align: center; /* Center the text content */
-    }
-
+.impact-card-content {
+  position: absolute; /* Position the content on top */
+  left: 0;
+  top: 100px;
+  padding: 24px; /* Add some padding inside the content area */
+  color: white; /* Set text color to white for better contrast */
+  text-align: center; /* Center the text content */
+}
 
 @media only screen and (max-width: 980px) {
   .cards-section .card-wrapper-case-study {
     max-width: 300px;
   }
-  .first-spacer{
+  .first-spacer {
     margin-top: 30%;
   }
 }
-.cards-section .card-wrapper-case-study.hovered, .card-wrapper-case-study.hovered {
+.cards-section .card-wrapper-case-study.hovered,
+.card-wrapper-case-study.hovered {
   -webkit-animation-name: smoothScaleIn;
   /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 0.3s;
@@ -396,7 +387,7 @@
     width: 300px !important;
   }
 
-  .first-spacer{
+  .first-spacer {
     margin-top: 20%;
   }
 
@@ -414,7 +405,7 @@
     right: 0;
     z-index: 100;
   }
-  
+
   .share img {
     cursor: pointer;
     margin: 5px;
@@ -435,7 +426,7 @@
     width: 300px;
     max-width: 90vw;
   }
-  .first-spacer{
+  .first-spacer {
     margin-top: 50px;
   }
 
@@ -485,7 +476,7 @@
       font-size: 16px;
     }
     .partner-with-us-main-text {
-      font-size: 18px;
+      font-size: 24px;
     }
   }
   .case-study-playlist-container {

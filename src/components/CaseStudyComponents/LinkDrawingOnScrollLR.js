@@ -1,6 +1,6 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useRef } from "react";
 
-const LinkDrawingOnScrollLR = ({id}) => { 
+const LinkDrawingOnScrollLR = ({ id }) => {
   // console.log("log:", id)
   // const [scrollPercentage, setScrollPercentage] = useState(0);
   const pathRef = useRef(null);
@@ -10,7 +10,7 @@ const LinkDrawingOnScrollLR = ({id}) => {
     const pathLength = path.getTotalLength();
 
     // Make very long dashes (the length of the path itself)
-    path.style.strokeDasharray = pathLength + ' ' + pathLength;
+    path.style.strokeDasharray = pathLength + " " + pathLength;
 
     // Offset the dashes so that it appears hidden entirely
     path.style.strokeDashoffset = pathLength;
@@ -18,12 +18,12 @@ const LinkDrawingOnScrollLR = ({id}) => {
     const boundingBox = path.getBoundingClientRect();
     let newScrollPercentage =
       boundingBox.top / (boundingBox.height - window.innerHeight) + 1.15;
-      // console.log("log:", newScrollPercentage);
-    if (newScrollPercentage >= 1){
-      document.getElementById(id).style.display = 'block';
+    // console.log("log:", newScrollPercentage);
+    if (newScrollPercentage >= 1) {
+      document.getElementById(id).style.display = "block";
       newScrollPercentage = 100;
-    }else{
-      document.getElementById(id).style.display = 'none';
+    } else {
+      document.getElementById(id).style.display = "none";
     }
 
     // Length to offset the dashes
@@ -34,7 +34,7 @@ const LinkDrawingOnScrollLR = ({id}) => {
     // When complete, remove the dash array, otherwise, the shape isn't quite sharp
     // Accounts for fuzzy math
     if (newScrollPercentage >= 0.99) {
-      path.style.strokeDasharray = 'none';
+      path.style.strokeDasharray = "none";
     } else {
       path.style.strokeDasharray = pathLength;
     }
@@ -44,23 +44,23 @@ const LinkDrawingOnScrollLR = ({id}) => {
 
   useEffect(() => {
     // Attach the scroll event listener
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // Clean up the event listener on component unmount
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []); // Re-run effect when scrollPercentage changes
 
   return (
-    <div style={{ height: 'fit-content' }}>
+    <div style={{ height: "fit-content" }}>
       <svg
         width="250"
         height="250"
         viewBox="0 0 335 585"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        >
+      >
         <path
           ref={pathRef}
           d="M57.9108 3C709.181 261.552 -8.65268 366.934 21.9584 549"

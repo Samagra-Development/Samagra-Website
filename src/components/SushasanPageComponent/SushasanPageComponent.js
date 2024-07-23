@@ -1,17 +1,18 @@
-import React from 'react';
-import '../../styles/index.scss';
-import Carousel from './Carousel';
-import linkedInIconActive from '../../img/Sushasan_li_logo.png';
-import youtubeIconActive from '../../img/Sushasan_yt_logo.png';
-import instagramIconActive from '../../img/Sushasan_insta_logo.png';
+import React from "react";
+import "../../styles/index.scss";
+import Carousel from "./Carousel";
+import linkedInIconActive from "../../img/Sushasan_li_logo.png";
+import youtubeIconActive from "../../img/Sushasan_yt_logo.png";
+import instagramIconActive from "../../img/Sushasan_insta_logo.png";
 
 const SushasanPageComponent = ({ content }) => {
   return (
     <div
-      className={'container career-section-second'}
-      style={{ maxWidth: '1200px' }}>
+      className={"container career-section-second"}
+      style={{ maxWidth: "1200px" }}
+    >
       <div className="overflow-hidden mx-4">
-        <div style={{ width: '100%', textAlign: 'center' }}>
+        <div style={{ width: "100%", textAlign: "center" }}>
           <img
             className="sushasan-logo"
             src={
@@ -22,68 +23,72 @@ const SushasanPageComponent = ({ content }) => {
             alt="Sushasan Logo"
           />
         </div>
-        <div className={'sushasan-channel-trailer-container'}>
+        <div className={"sushasan-channel-trailer-container"}>
           <iframe
-            className={'sushasan-channel-trailer'}
+            className={"sushasan-channel-trailer"}
             src="https://www.youtube.com/embed/evr-R7iC1VM/"
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen></iframe>
+            allowFullScreen
+          ></iframe>
           <p className="sushasan-channel-trailer-text">
             <div dangerouslySetInnerHTML={{ __html: content?.text }} />
           </p>
         </div>
 
-        <div className="mt-5 main-text text-center">
-          <h3 style={{ fontWeight: 'bold' }}>{content?.title1}</h3>
+        <div className="mt-5 main-text f-24 text-center">
+          <h3 style={{ fontWeight: "bold" }}>{content?.title1}</h3>
           <h5 className="py-2">{content?.title2}</h5>
           <Carousel items={content?.podcastsS1} />
         </div>
 
-        <div className="mt-5 main-text text-center">
-          <h3 style={{ fontWeight: 'bold' }}>{content?.title3}</h3>
+        <div className="mt-5 main-text f-24 text-center">
+          <h3 style={{ fontWeight: "bold" }}>{content?.title3}</h3>
           <h5 className="py-2">{content?.title4}</h5>
           <Carousel items={content?.podcastsS2} />
         </div>
 
-        <div className={'py-3 text-center f-20 main-text'}>
+        <div className={"py-3 text-center f-18 main-text"}>
           Follow Sushasan for the latest updates and episodes
-          <ul className={'nav py-2'} style={{ justifyContent: 'center' }}>
+          <ul className={"nav py-2"} style={{ justifyContent: "center" }}>
             <li>
               <a
-                style={{ paddingRight: '0.5rem' }}
-                href="https://www.youtube.com/@SushasanThePodcast">
+                style={{ paddingRight: "0.5rem" }}
+                href="https://www.youtube.com/@SushasanThePodcast"
+              >
                 <img
-                  className={'sushasan-social-icons'}
+                  className={"sushasan-social-icons"}
                   src={youtubeIconActive}
                 />
               </a>
             </li>
             <li>
               <a
-                style={{ paddingRight: '0.5rem' }}
-                href="https://www.instagram.com/sushasanthepodcast">
+                style={{ paddingRight: "0.5rem" }}
+                href="https://www.instagram.com/sushasanthepodcast"
+              >
                 <img
-                  className={'sushasan-social-icons'}
+                  className={"sushasan-social-icons"}
                   src={instagramIconActive}
                 />
               </a>
             </li>
             <li>
               <a
-                style={{ paddingRight: '0.5rem' }}
-                href="https://www.linkedin.com/showcase/sushasan-the-podcast">
+                style={{ paddingRight: "0.5rem" }}
+                href="https://www.linkedin.com/showcase/sushasan-the-podcast"
+              >
                 <img
-                  className={'sushasan-social-icons'}
+                  className={"sushasan-social-icons"}
                   src={linkedInIconActive}
                 />
               </a>
             </li>
           </ul>
-          <div className="pt-4">
+          <div className="pt-4 f-18">
             <p style={{ marginBottom: 0 }}>We would love to hear from you!</p>
             <p style={{ marginBottom: 0 }}>
-              Share your guest suggestions and feedback with us at:{' '}
+              Share your guest suggestions and feedback with us at:{" "}
               {content?.mail}
             </p>
           </div>

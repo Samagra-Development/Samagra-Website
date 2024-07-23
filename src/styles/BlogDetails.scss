@@ -1,29 +1,4 @@
-@import './variable';
-
-.blog-banner {
-  position: relative;
-
-  .translucent-dark-overlay {
-    background: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    height: 75px !important;
-  }
-
-  .content-section {
-    .title {
-      color: #343434;
-      font-size: 4vw;
-      font-weight: 700;
-      text-align: left;
-      padding-top: 150px;
-      line-height: 4.1vw;
-    }
-  }
-}
+@import "./variable";
 
 .case-study-roll-btn {
   position: absolute;
@@ -33,19 +8,19 @@
   margin: 0 10px;
   pointer-events: auto;
   background: #f3f6f5;
-  color: #F2A93B;
+  color: #f2a93b;
   border: none;
   padding: 10px 50px;
   transition: background-color 0.3s ease-out, color 0.3s ease-out !important;
 }
 
 .case-study-roll-btn:hover {
-  background: #F2A93B !important;
+  background: #f2a93b !important;
   color: #f3f6f5 !important;
 }
 
 .blogs-section {
-  padding: 100px 20px 20px 20px;
+  padding: 60px 20px 20px 20px;
 
   .blog-wrapper {
     position: relative;
@@ -63,7 +38,7 @@
       width: 100%;
       height: 100%;
       transition: transform 0.5s ease-out;
-      border: 2px solid #F2A93B;
+      border: 2px solid #f2a93b;
       border-radius: 23px;
     }
 
@@ -116,28 +91,47 @@
       margin-bottom: 30px;
 
       .heading {
-        font-size: 16px;
+        font-size: 18px;
+        line-height: 120%;
         color: #343434;
       }
 
       .posted-on {
-        font-size: 13px;
-        line-height: 13px;
+        font-size: 15px;
+        line-height: 120%;
         color: #a1a1a1;
         font-style: italic;
+        padding-top: 4px;
       }
 
       .description {
         color: #343434;
-        font-size: 12px;
+        font-size: 14px;
         margin-top: 8px;
       }
 
       .read-more {
-        font-size: 13px;
-        margin-top: 20px;
+        font-size: 15px;
+        margin-top: 12px;
         cursor: pointer;
         color: $primary;
+      }
+      @media screen and (max-width: 769px) {
+        .heading {
+          font-size: 16px;
+        }
+
+        .posted-on {
+          font-size: 13px;
+        }
+
+        .description {
+          font-size: 12px;
+        }
+
+        .read-more {
+          font-size: 13px;
+        }
       }
     }
   }
@@ -163,23 +157,32 @@
 
       .name {
         text-align: left;
-        font-size: 18px;
+        font-size: 24px;
         font-weight: 600;
         color: $theme-text-normal;
       }
 
       .timestamp {
         text-align: left;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 400;
         color: #888888;
+      }
+      @media screen and (max-width: 769px) {
+        .name {
+          font-size: 20px;
+        }
+
+        .timestamp {
+          font-size: 16px;
+        }
       }
     }
   }
 
   .description {
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     color: $theme-text-normal;
     margin: 30px 0;
@@ -191,6 +194,11 @@
         max-width: 90%;
         margin: auto;
       }
+    }
+  }
+  @media screen and (max-width: 769px) {
+    .description {
+      font-size: 16px;
     }
   }
 }
