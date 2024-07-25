@@ -3,8 +3,6 @@ backend:
   branch: master
   publish_mode: editorial_workflow
 
-
-
 editorial_workflow:
   enable: true
   format: git
@@ -12,189 +10,668 @@ editorial_workflow:
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'src/pages/blog'
+  - name: "blog"
+    label: "Blog"
+    folder: "src/pages/blog"
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {
-          label: 'Template Key',
-          name: 'templateKey',
-          widget: 'hidden',
-          default: 'blog-post',
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "blog-post",
         }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Author', name: 'author', widget: 'string' }
-      - { label: 'Project Id', name: 'projectId', widget: 'string' }
-      - { label: 'Author Image', name: 'authorImage', widget: image }
-      - { label: 'Publish Date', name: 'date', widget: 'date' }
-      - { label: 'Description', name: 'description', widget: 'text' }
-      - { label: 'Featured Image', name: 'featuredimage', widget: image }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'casestudy'
-    label: 'Case Study'
-    folder: 'src/pages/amritseries'
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Project Id", name: "projectId", widget: "string" }
+      - { label: "Author Image", name: "authorImage", widget: image }
+      - { label: "Publish Date", name: "date", widget: "date" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Featured Image", name: "featuredimage", widget: image }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "casestudy"
+    label: "Case Study"
+    folder: "src/pages/amritseries"
     create: true
-    slug: '{{slug}}'
+    slug: "{{slug}}"
     fields:
       - {
-          label: 'Template Key',
-          name: 'templateKey',
-          widget: 'hidden',
-          default: 'case-study',
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "case-study",
         }
       - {
-          label: 'Form Type',
-          name: 'formType',
-          widget: 'string',
-          default: 'This is new case study form',
+          label: "Form Type",
+          name: "formType",
+          widget: "string",
+          default: "This is new case study form",
         }
-      - { label: 'Show', name: 'show', widget: 'boolean', default: false }
-      - { label: 'Project ID', name: 'projectId', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Section Sequence', name: 'sectionSequence', widget: 'string', default: '1 2 3 4 5 6', hint: 'Reference for section sequence
-          **1:** Impact Video Section
-          **2:** Motion Graphic 1
-          **3:** Infographic Section
-          **4:** Motion Graphic 2
-          **5:** Impact Section
-          **6:** Link Container Section', required: false}
-      - { label: 'Featured Image', name: 'featuredimage', widget: image }
-      - { label: 'Button Text', name: 'buttonText', widget: 'string' }
-      - { label: 'URL', name: 'title', widget: 'string' }
-      - { label: 'Font Color (hex code)', name: 'fontColor', widget: 'color' }
-      - { label: 'Banner Image', name: 'bannerImage', widget: file }
-      - { label: 'Show Side Navbar', name: 'showSideNavbar', widget: 'boolean', default: false }
-      - { label: 'Show Side Icon 1', name: 'showsideIcon1', widget: 'boolean', default: false  }
-      - { label: 'Side Icon Text 1', name: 'sideIcon1Text', widget: 'string', required: false }
-      - { label: 'Side Icon 1', name: 'sideIcon1', widget: image, required: false }
-      - { label: 'Show Side Icon 2', name: 'showsideIcon2', widget: 'boolean', default: false  }
-      - { label: 'Side Icon Text 2', name: 'sideIcon2Text', widget: 'string', required: false }
-      - { label: 'Side Icon 2', name: 'sideIcon2', widget: image, required: false }
-      - { label: 'Show Side Icon 3', name: 'showsideIcon3', widget: 'boolean', default: false  }
-      - { label: 'Side Icon Text 3', name: 'sideIcon3Text', widget: 'string', required: false }
-      - { label: 'Side Icon 3', name: 'sideIcon3', widget: image, required: false }
-      - { label: 'Title 1', name: 'title1', widget: 'string'}
-      - { label: 'Title 2', name: 'title2', widget: 'string', required: false }
-      - { label: 'Title 3', name: 'title3', widget: 'string', required: false }
-      - { label: 'Impact video embed link', name: 'impactVideoLink', widget: 'string', required: false }
-      - { label: 'Title 4', name: 'title4', widget: 'string', required: false }
-      - { label: 'Motion Graphic 1', name: 'motionGraphic1', widget: file, required: false }
-      - { label: 'Title 5', name: 'title5', widget: 'string', required: false }
+      - { label: "Show", name: "show", widget: "boolean", default: false }
+      - { label: "Project ID", name: "projectId", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Section Sequence",
+          name: "sectionSequence",
+          widget: "string",
+          default: "1 2 3 4 5 6",
+          hint: "Reference for section sequence
+            **1:** Impact Video Section
+            **2:** Motion Graphic 1
+            **3:** Infographic Section
+            **4:** Motion Graphic 2
+            **5:** Impact Section
+            **6:** Link Container Section",
+          required: false,
+        }
+      - { label: "Featured Image", name: "featuredimage", widget: image }
+      - { label: "Button Text", name: "buttonText", widget: "string" }
+      - { label: "URL", name: "title", widget: "string" }
+      - { label: "Font Color (hex code)", name: "fontColor", widget: "color" }
+      - { label: "Banner Image", name: "bannerImage", widget: file }
+      - {
+          label: "Show Side Navbar",
+          name: "showSideNavbar",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Show Side Icon 1",
+          name: "showsideIcon1",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Side Icon Text 1",
+          name: "sideIcon1Text",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Side Icon 1",
+          name: "sideIcon1",
+          widget: image,
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Show Side Icon 2",
+          name: "showsideIcon2",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Side Icon Text 2",
+          name: "sideIcon2Text",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Side Icon 2",
+          name: "sideIcon2",
+          widget: image,
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Show Side Icon 3",
+          name: "showsideIcon3",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Side Icon Text 3",
+          name: "sideIcon3Text",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Side Icon 3",
+          name: "sideIcon3",
+          widget: image,
+          required: false,
+          default: null,
+        }
+      - { label: "Title 1", name: "title1", widget: "string" }
+      - {
+          label: "Title 2",
+          name: "title2",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Title 3",
+          name: "title3",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact video embed link",
+          name: "impactVideoLink",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Title 4",
+          name: "title4",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Motion Graphic 1",
+          name: "motionGraphic1",
+          widget: file,
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Title 5",
+          name: "title5",
+          widget: "string",
+          required: false,
+          default: "",
+        }
       - {
           label: Infographic 1,
           name: infographic1,
           widget: list,
           fields:
             [
-              { label: Image, name: img, widget: image, required: false },
+              {
+                label: Image,
+                name: img,
+                widget: image,
+                required: false,
+                default: null,
+              },
             ],
         }
-      - { label: 'Title 6', name: 'title6', widget: 'string', required: false }
+      - {
+          label: "Title 6",
+          name: "title6",
+          widget: "string",
+          required: false,
+          default: "",
+        }
       - {
           label: Infographic 2,
           name: infographic2,
           widget: list,
           fields:
             [
-              { label: Image, name: img, widget: image, required: false },
+              {
+                label: Image,
+                name: img,
+                widget: image,
+                required: false,
+                default: null,
+              },
             ],
         }
-      - { label: 'Motion Graphic 2', name: 'motionGraphic2', widget: file, required: false }
-      - { label: 'Title 7', name: 'title7', widget: 'string', required: false }
-      - { label: 'Impact icon 1', name: 'icon1', widget: image, required: false }
-      - { label: 'Impact number 1', name: 'impactNumber1', widget: 'number', required: false, value_type: 'float', default: 0 }
-      - { label: 'Impact number 1 Decimals', name: 'impactNumber1Decimal', widget: 'number', required: false, default: 0 }
-      - { label: 'Impact number 1 text', name: 'impactNumber1Text', widget: 'string', required: false }
-      - { label: 'Impact number 1 title', name: 'impactNumber1Title', widget: 'string', required: false }
-      - { label: 'Show Plus Icon 1', name: 'showPlus1', widget: 'boolean', default: false }
-      - { label: 'Impact icon 2', name: 'icon2', widget: image, required: false }
-      - { label: 'Impact number 2', name: 'impactNumber2', widget: 'number', required: false, value_type: 'float', default: 0 }
-      - { label: 'Impact number 2 Decimals', name: 'impactNumber2Decimal', widget: 'number', required: false, default: 0 }
-      - { label: 'Impact number 2 text', name: 'impactNumber2Text', widget: 'string', required: false }
-      - { label: 'Impact number 2 title', name: 'impactNumber2Title', widget: 'string', required: false }
-      - { label: 'Show Plus Icon 2', name: 'showPlus2', widget: 'boolean', default: false  }
-      - { label: 'Impact icon 3', name: 'icon3', widget: image, required: false }
-      - { label: 'Impact number 3', name: 'impactNumber3', widget: 'number', required: false, value_type: 'float', default: 0 }
-      - { label: 'Impact number 3 Decimals', name: 'impactNumber3Decimal', widget: 'number', required: false, default: 0 }
-      - { label: 'Impact number 3 text', name: 'impactNumber3Text', widget: 'string', required: false }
-      - { label: 'Impact number 3 title', name: 'impactNumber3Title', widget: 'string', required: false }
-      - { label: 'Show Plus Icon 3', name: 'showPlus3', widget: 'boolean', default: false  }
-      - { label: 'Impact icon 4', name: 'icon4', widget: image, required: false }
-      - { label: 'Impact number 4', name: 'impactNumber4', widget: 'number', required: false, value_type: 'float', default: 0 }
-      - { label: 'Impact number 4 Decimals', name: 'impactNumber4Decimal', widget: 'number', required: false, default: 0 }
-      - { label: 'Impact number 4 text', name: 'impactNumber4Text', widget: 'string', required: false }
-      - { label: 'Impact number 4 title', name: 'impactNumber4Title', widget: 'string', required: false }
-      - { label: 'Show Plus Icon 4', name: 'showPlus4', widget: 'boolean', default: false  }
-      - { label: 'Impact icon 5', name: 'icon5', widget: image, required: false }
-      - { label: 'Impact number 5', name: 'impactNumber5', widget: 'number', required: false, value_type: 'float', default: 0 }
-      - { label: 'Impact number 5 Decimals', name: 'impactNumber5Decimal', widget: 'number', required: false, default: 0 }
-      - { label: 'Impact number 5 text', name: 'impactNumber5Text', widget: 'string', required: false }
-      - { label: 'Impact number 5 title', name: 'impactNumber5Title', widget: 'string', required: false }
-      - { label: 'Show Plus Icon 5', name: 'showPlus5', widget: 'boolean', default: false  }
-      - { label: 'Infographic Google Drive Link', name: 'infographicGoogleDriveLink', widget: 'string', required: false }
-      - { label: 'Download Infographic button text', name: 'downloadInfographicBtn', widget: 'string', required: false }
-      - { label: 'Title 8', name: 'title8', widget: 'string', required: false }
-      - { label: 'Show Blog', name: 'showBlog', widget: 'boolean', default: false  }
-      - { label: 'Blog Title', name: 'blogTitle', widget: 'string', required: false }
-      - { label: 'Blog Description', name: 'blogDescription', widget: 'string', required: false }
-      - { label: 'Blog Link (starts with /blog/...)', name: 'blogLink', widget: 'string', required: false }
-      - { label: 'Show OpEd', name: 'showOpEd', widget: 'boolean', default: false  }
-      - { label: 'OpEd Title', name: 'opEdTitle', widget: 'string', required: false }
-      - { label: 'OpEd Description', name: 'opEdDescription', widget: 'string', required: false }
-      - { label: 'OpEd Link', name: 'opEdLink', widget: 'string', required: false }
-      - { label: 'Show Webinar', name: 'showWebinar', widget: 'boolean', default: false  }
-      - { label: 'Webinar Title', name: 'webinarTitle', widget: 'string', required: false }
-      - { label: 'Webinar Description', name: 'webinarDescription', widget: 'string', required: false }
-      - { label: 'Webinar Link', name: 'webinarLink', widget: 'string', required: false }
-      - { label: "Blog Section Image", name: "blogSectionImage", widget: image, required: false }
-      - { label: 'Show Testimonials', name: 'showTestimonial', widget: 'boolean', default: false  }
-      - { label: 'Testimonial Text', name: 'testimonialText', widget: 'string', required: false }
-      - { label: 'Testimonial Author', name: 'testimonialAuthor', widget: 'string', required: false }
-      - { label: 'Testimonial Author Designation', name: 'testimonialAuthorDesignation', widget: 'string', required: false }
-      - { label: "Testimonial Image", name: "testimonialImg", widget: image, required: false }
-      - { label: 'Footer Text 1', name: 'footerText1', widget: 'string', required: false }
-      - { label: 'Footer Text 2', name: 'footerText2', widget: 'string', required: false }
-      - { label: 'Success Stories Title', name: 'successStoriesTitle', widget: 'string', required: false }
-      - { label: 'Show Success Stories(Provide title upto 3)', name: 'showSuccessStories', widget: 'string', required: false }
-  - name: 'oldcasestudy'
-    label: 'Old Case Study'
-    folder: 'src/pages/amritseries'
+      - {
+          label: "Motion Graphic 2",
+          name: "motionGraphic2",
+          widget: file,
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Title 7",
+          name: "title7",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact icon 1",
+          name: "icon1",
+          widget: image,
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Impact number 1",
+          name: "impactNumber1",
+          widget: "number",
+          required: false,
+          value_type: "float",
+          default: 0,
+        }
+      - {
+          label: "Impact number 1 Decimals",
+          name: "impactNumber1Decimal",
+          widget: "number",
+          required: false,
+          default: 0,
+        }
+      - {
+          label: "Impact number 1 text",
+          name: "impactNumber1Text",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact number 1 title",
+          name: "impactNumber1Title",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Show Plus Icon 1",
+          name: "showPlus1",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Impact icon 2",
+          name: "icon2",
+          widget: image,
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Impact number 2",
+          name: "impactNumber2",
+          widget: "number",
+          required: false,
+          value_type: "float",
+          default: 0,
+        }
+      - {
+          label: "Impact number 2 Decimals",
+          name: "impactNumber2Decimal",
+          widget: "number",
+          required: false,
+          default: 0,
+        }
+      - {
+          label: "Impact number 2 text",
+          name: "impactNumber2Text",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact number 2 title",
+          name: "impactNumber2Title",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Show Plus Icon 2",
+          name: "showPlus2",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Impact icon 3",
+          name: "icon3",
+          widget: image,
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Impact number 3",
+          name: "impactNumber3",
+          widget: "number",
+          required: false,
+          value_type: "float",
+          default: 0,
+        }
+      - {
+          label: "Impact number 3 Decimals",
+          name: "impactNumber3Decimal",
+          widget: "number",
+          required: false,
+          default: 0,
+        }
+      - {
+          label: "Impact number 3 text",
+          name: "impactNumber3Text",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact number 3 title",
+          name: "impactNumber3Title",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Show Plus Icon 3",
+          name: "showPlus3",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Impact icon 4",
+          name: "icon4",
+          widget: image,
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Impact number 4",
+          name: "impactNumber4",
+          widget: "number",
+          required: false,
+          value_type: "float",
+          default: 0,
+        }
+      - {
+          label: "Impact number 4 Decimals",
+          name: "impactNumber4Decimal",
+          widget: "number",
+          required: false,
+          default: 0,
+        }
+      - {
+          label: "Impact number 4 text",
+          name: "impactNumber4Text",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact number 4 title",
+          name: "impactNumber4Title",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Show Plus Icon 4",
+          name: "showPlus4",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Impact icon 5",
+          name: "icon5",
+          widget: image,
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Impact number 5",
+          name: "impactNumber5",
+          widget: "number",
+          required: false,
+          value_type: "float",
+          default: 0,
+        }
+      - {
+          label: "Impact number 5 Decimals",
+          name: "impactNumber5Decimal",
+          widget: "number",
+          required: false,
+          default: 0,
+        }
+      - {
+          label: "Impact number 5 text",
+          name: "impactNumber5Text",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact number 5 title",
+          name: "impactNumber5Title",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Show Plus Icon 5",
+          name: "showPlus5",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Infographic Google Drive Link",
+          name: "infographicGoogleDriveLink",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Download Infographic button text",
+          name: "downloadInfographicBtn",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Title 8",
+          name: "title8",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Show Blog",
+          name: "showBlog",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Blog Title",
+          name: "blogTitle",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Blog Description",
+          name: "blogDescription",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Blog Link (starts with /blog/...)",
+          name: "blogLink",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Show OpEd",
+          name: "showOpEd",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "OpEd Title",
+          name: "opEdTitle",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "OpEd Description",
+          name: "opEdDescription",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "OpEd Link",
+          name: "opEdLink",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Show Webinar",
+          name: "showWebinar",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Webinar Title",
+          name: "webinarTitle",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Webinar Description",
+          name: "webinarDescription",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Webinar Link",
+          name: "webinarLink",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Blog Section Image",
+          name: "blogSectionImage",
+          widget: image,
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Show Testimonials",
+          name: "showTestimonial",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Testimonial Text",
+          name: "testimonialText",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Testimonial Author",
+          name: "testimonialAuthor",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Testimonial Author Designation",
+          name: "testimonialAuthorDesignation",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Testimonial Image",
+          name: "testimonialImg",
+          widget: image,
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Footer Text 1",
+          name: "footerText1",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Footer Text 2",
+          name: "footerText2",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Success Stories Title",
+          name: "successStoriesTitle",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Show Success Stories(Provide title upto 3)",
+          name: "showSuccessStories",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+  - name: "oldcasestudy"
+    label: "Old Case Study"
+    folder: "src/pages/amritseries"
     create: true
-    slug: '{{slug}}'
+    slug: "{{slug}}"
     fields:
       - {
-          label: 'Template Key',
-          name: 'templateKey',
-          widget: 'hidden',
-          default: 'old-case-study',
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "old-case-study",
         }
       - {
-          label: 'Form Type',
-          name: 'formType',
-          widget: 'string',
-          default: 'This is old case study form',
+          label: "Form Type",
+          name: "formType",
+          widget: "string",
+          default: "This is old case study form",
         }
-      - { label: 'Show', name: 'show', widget: 'boolean', default: false }
-      - { label: 'Project ID', name: 'projectId', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Featured Image', name: 'featuredimage', widget: image }
-      - { label: 'Button Text', name: 'buttonText', widget: 'string' }
-      - { label: 'URL', name: 'title', widget: 'string' }
-      - { label: 'Font Color (hex code)', name: 'fontColor', widget: 'color' }
-      - { label: 'Banner Image', name: 'bannerImage', widget: file }
-      - { label: 'Title 1', name: 'title1', widget: 'string'}
-      - { label: 'Title 2', name: 'title2', widget: 'string', required: false }
-      - { label: 'Title 3', name: 'title3', widget: 'string', required: false }
-      - { label: 'Background Map', name: 'backgroundMap', widget: image, required: false }
+      - { label: "Show", name: "show", widget: "boolean", default: false }
+      - { label: "Project ID", name: "projectId", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Featured Image", name: "featuredimage", widget: image }
+      - { label: "Button Text", name: "buttonText", widget: "string" }
+      - { label: "URL", name: "title", widget: "string" }
+      - { label: "Font Color (hex code)", name: "fontColor", widget: "color" }
+      - { label: "Banner Image", name: "bannerImage", widget: file }
+      - { label: "Title 1", name: "title1", widget: "string" }
+      - {
+          label: "Title 2",
+          name: "title2",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Title 3",
+          name: "title3",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Background Map",
+          name: "backgroundMap",
+          widget: image,
+          required: false,
+          default: null,
+        }
       - {
           label: Infographic 1,
           name: infographic1,
           widget: list,
           fields:
             [
-              { label: Image, name: img, widget: image, required: false },
+              {
+                label: Image,
+                name: img,
+                widget: image,
+                required: false,
+                default: null,
+              },
             ],
         }
       - {
@@ -203,185 +680,676 @@ collections:
           widget: list,
           fields:
             [
-              { label: Image, name: img, widget: image, required: false },
+              {
+                label: Image,
+                name: img,
+                widget: image,
+                required: false,
+                default: null,
+              },
             ],
         }
-      - { label: 'Title 4', name: 'title4', widget: 'string', required: false }
-      - { 
-          label: 'Newsletter Description', 
-          name: 'newsdescription', 
-          widget: list, 
-          fields: 
+      - {
+          label: "Title 4",
+          name: "title4",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Newsletter Description",
+          name: "newsdescription",
+          widget: list,
+          fields:
             [
-              { label: Text, name: text, widget: string, required: false },
-            ] 
+              {
+                label: Text,
+                name: text,
+                widget: string,
+                required: false,
+                default: "",
+              },
+            ],
         }
-      - { label: 'Newsletter button text', name: 'newsletterBtn', widget: 'string', required: false }
-      - { label: 'Motion Graphic', name: 'motionGraphic', widget: file, required: false, default: null }
-      - { label: 'Newsletter Link', name: 'newsletterLink', widget: 'string', required: false }
-      - { label: 'Title 5', name: 'title5', widget: 'string', required: false }
-      - { label: 'Show Impact Video', name: 'showImpactVideo', widget: 'boolean', default: false }
-      - { label: 'Impact video embed link', name: 'impactVideoLink', widget: 'string', required: false }
-      - { label: 'Show Impact Card', name: 'showImpactCard', widget: 'boolean', default: false }
-      - { label: 'Impact Card Font Color (hex code)', name: 'impactCardFontColor', widget: 'color',required: false, default: "#DADADA" }
-      - { label: 'Impact Card 1', name: 'img1', widget: 'image', required: false }
-      - { label: 'Impact Card Title 1', name: 'cardTitle1', widget: 'string', required: false }
-      - { label: 'Impact Card Description 1', name: 'cardDescription1', widget: 'string', required: false }
-      - { label: 'Impact Card Button Text 1', name: 'cardBtn1', widget: 'string', required: false }
-      - { label: 'Impact Card Link 1', name: 'cardLink1', widget: 'string', required: false }
-      - { label: 'Impact Card 2', name: 'img2', widget: 'image', required: false }
-      - { label: 'Impact Card Title 2', name: 'cardTitle2', widget: 'string', required: false }
-      - { label: 'Impact Card Description 2', name: 'cardDescription2', widget: 'string', required: false }
-      - { label: 'Impact Card Button Text 2', name: 'cardBtn2', widget: 'string', required: false }
-      - { label: 'Impact Card Link 2', name: 'cardLink2', widget: 'string', required: false }
-      - { label: 'Impact Card 3', name: 'img3', widget: 'image', required: false }
-      - { label: 'Impact Card Title 3', name: 'cardTitle3', widget: 'string', required: false }
-      - { label: 'Impact Card Description 3', name: 'cardDescription3', widget: 'string', required: false }
-      - { label: 'Impact Card Button Text 3', name: 'cardBtn3', widget: 'string', required: false }
-      - { label: 'Impact Card Link 3', name: 'cardLink3', widget: 'string', required: false }
-      - { label: 'Title 6', name: 'title6', widget: 'string', required: false }
-      - { label: 'Impact icon 1', name: 'icon1', widget: image, required: false }
-      - { label: 'Impact number 1 char', name: 'impactNumber1Char', widget: 'string', required: false }
-      - { label: 'Impact number 1', name: 'impactNumber1', widget: 'number', required: false, value_type: 'float', default: 0 }
-      - { label: 'Impact number 1 Decimals', name: 'impactNumber1Decimal', widget: 'number', required: false, default: 0 }
-      - { label: 'Impact number 1 text', name: 'impactNumber1Text', widget: 'string', required: false }
-      - { label: 'Impact number 1 title', name: 'impactNumber1Title', widget: 'string', required: false }
-      - { label: 'Show Plus Icon 1', name: 'showPlus1', widget: 'boolean', default: false }
-      - { label: 'Impact icon 2', name: 'icon2', widget: image, required: false }
-      - { label: 'Impact number 2 char', name: 'impactNumber2Char', widget: 'string', required: false }
-      - { label: 'Impact number 2', name: 'impactNumber2', widget: 'number', required: false, value_type: 'float', default: 0 }
-      - { label: 'Impact number 2 Decimals', name: 'impactNumber2Decimal', widget: 'number', required: false, default: 0 }
-      - { label: 'Impact number 2 text', name: 'impactNumber2Text', widget: 'string', required: false }
-      - { label: 'Impact number 2 title', name: 'impactNumber2Title', widget: 'string', required: false }
-      - { label: 'Show Plus Icon 2', name: 'showPlus2', widget: 'boolean', default: false  }
-      - { label: 'Impact icon 3', name: 'icon3', widget: image, required: false }
-      - { label: 'Impact number 3 char', name: 'impactNumber3Char', widget: 'string', required: false }
-      - { label: 'Impact number 3', name: 'impactNumber3', widget: 'number', required: false, value_type: 'float', default: 0 }
-      - { label: 'Impact number 3 Decimals', name: 'impactNumber3Decimal', widget: 'number', required: false, default: 0 }
-      - { label: 'Impact number 3 text', name: 'impactNumber3Text', widget: 'string', required: false }
-      - { label: 'Impact number 3 title', name: 'impactNumber3Title', widget: 'string', required: false }
-      - { label: 'Show Plus Icon 3', name: 'showPlus3', widget: 'boolean', default: false  }
-      - { label: 'Impact icon 4', name: 'icon4', widget: image, required: false }
-      - { label: 'Impact number 4 char', name: 'impactNumber4Char', widget: 'string', required: false }
-      - { label: 'Impact number 4', name: 'impactNumber4', widget: 'number', required: false, value_type: 'float', default: 0 }
-      - { label: 'Impact number 4 Decimals', name: 'impactNumber4Decimal', widget: 'number', required: false, default: 0 }
-      - { label: 'Impact number 4 text', name: 'impactNumber4Text', widget: 'string', required: false }
-      - { label: 'Impact number 4 title', name: 'impactNumber4Title', widget: 'string', required: false }
-      - { label: 'Show Plus Icon 4', name: 'showPlus4', widget: 'boolean', default: false  }
-      - { label: 'Impact icon 5', name: 'icon5', widget: image, required: false }
-      - { label: 'Impact number 5 char', name: 'impactNumber5Char', widget: 'string', required: false }
-      - { label: 'Impact number 5', name: 'impactNumber5', widget: 'number', required: false, value_type: 'float', default: 0 }
-      - { label: 'Impact number 5 Decimals', name: 'impactNumber5Decimal', widget: 'number', required: false, default: 0 }
-      - { label: 'Impact number 5 text', name: 'impactNumber5Text', widget: 'string', required: false }
-      - { label: 'Impact number 5 title', name: 'impactNumber5Title', widget: 'string', required: false }
-      - { label: 'Show Plus Icon 5', name: 'showPlus5', widget: 'boolean', default: false  }
-      - { label: 'Infographic Google Drive Link', name: 'infographicGoogleDriveLink', widget: 'string', required: false }
-      - { label: 'Download Infographic button text', name: 'downloadInfographicBtn', widget: 'string', required: false }
-      - { label: 'Title 7', name: 'title7', widget: 'string', required: false }
-      - { label: 'Show Blog', name: 'showBlog', widget: 'boolean', default: false  }
-      - { label: 'Blog Title', name: 'blogTitle', widget: 'string', required: false }
-      - { label: 'Blog Description', name: 'blogDescription', widget: 'string', required: false }
-      - { label: 'Blog Link (starts with /blog/...)', name: 'blogLink', widget: 'string', required: false }
-      - { label: 'Show OpEd', name: 'showOpEd', widget: 'boolean', default: false  }
-      - { label: 'OpEd Title', name: 'opEdTitle', widget: 'string', required: false }
-      - { label: 'OpEd Description', name: 'opEdDescription', widget: 'string', required: false }
-      - { label: 'OpEd Link', name: 'opEdLink', widget: 'string', required: false }
-      - { label: 'Show Webinar', name: 'showWebinar', widget: 'boolean', default: false  }
-      - { label: 'Webinar Title', name: 'webinarTitle', widget: 'string', required: false }
-      - { label: 'Webinar Description', name: 'webinarDescription', widget: 'string', required: false }
-      - { label: 'Webinar Link', name: 'webinarLink', widget: 'string', required: false }
-      - { label: "Blog Section Image", name: "blogSectionImage", widget: image, required: false }
-      - { label: 'Footer Text 1', name: 'footerText1', widget: 'string', required: false }
-      - { label: 'Footer Text 2', name: 'footerText2', widget: 'string', required: false }
-      - { label: 'Success Stories Title', name: 'successStoriesTitle', widget: 'string', required: false }
-      - { label: 'Show Success Stories(Provide title upto 3)', name: 'showSuccessStories', widget: 'string' }
-  - name: 'projectdomain'
-    label: 'Project Domain'
-    folder: 'src/pages/project-domain'
+      - {
+          label: "Newsletter button text",
+          name: "newsletterBtn",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Motion Graphic",
+          name: "motionGraphic",
+          widget: file,
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Newsletter Link",
+          name: "newsletterLink",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Title 5",
+          name: "title5",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Show Impact Video",
+          name: "showImpactVideo",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Impact video embed link",
+          name: "impactVideoLink",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Show Impact Card",
+          name: "showImpactCard",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Impact Card Font Color (hex code)",
+          name: "impactCardFontColor",
+          widget: "color",
+          required: false,
+          default: "#DADADA",
+        }
+      - {
+          label: "Impact Card 1",
+          name: "img1",
+          widget: "image",
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Impact Card Title 1",
+          name: "cardTitle1",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact Card Description 1",
+          name: "cardDescription1",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact Card Button Text 1",
+          name: "cardBtn1",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact Card Link 1",
+          name: "cardLink1",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact Card 2",
+          name: "img2",
+          widget: "image",
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Impact Card Title 2",
+          name: "cardTitle2",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact Card Description 2",
+          name: "cardDescription2",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact Card Button Text 2",
+          name: "cardBtn2",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact Card Link 2",
+          name: "cardLink2",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact Card 3",
+          name: "img3",
+          widget: "image",
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Impact Card Title 3",
+          name: "cardTitle3",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact Card Description 3",
+          name: "cardDescription3",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact Card Button Text 3",
+          name: "cardBtn3",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact Card Link 3",
+          name: "cardLink3",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Title 6",
+          name: "title6",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact icon 1",
+          name: "icon1",
+          widget: image,
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Impact number 1 char",
+          name: "impactNumber1Char",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact number 1",
+          name: "impactNumber1",
+          widget: "number",
+          required: false,
+          value_type: "float",
+          default: 0,
+        }
+      - {
+          label: "Impact number 1 Decimals",
+          name: "impactNumber1Decimal",
+          widget: "number",
+          required: false,
+          default: 0,
+        }
+      - {
+          label: "Impact number 1 text",
+          name: "impactNumber1Text",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact number 1 title",
+          name: "impactNumber1Title",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Show Plus Icon 1",
+          name: "showPlus1",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Impact icon 2",
+          name: "icon2",
+          widget: image,
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Impact number 2 char",
+          name: "impactNumber2Char",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact number 2",
+          name: "impactNumber2",
+          widget: "number",
+          required: false,
+          value_type: "float",
+          default: 0,
+        }
+      - {
+          label: "Impact number 2 Decimals",
+          name: "impactNumber2Decimal",
+          widget: "number",
+          required: false,
+          default: 0,
+        }
+      - {
+          label: "Impact number 2 text",
+          name: "impactNumber2Text",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact number 2 title",
+          name: "impactNumber2Title",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Show Plus Icon 2",
+          name: "showPlus2",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Impact icon 3",
+          name: "icon3",
+          widget: image,
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Impact number 3 char",
+          name: "impactNumber3Char",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact number 3",
+          name: "impactNumber3",
+          widget: "number",
+          required: false,
+          value_type: "float",
+          default: 0,
+        }
+      - {
+          label: "Impact number 3 Decimals",
+          name: "impactNumber3Decimal",
+          widget: "number",
+          required: false,
+          default: 0,
+        }
+      - {
+          label: "Impact number 3 text",
+          name: "impactNumber3Text",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact number 3 title",
+          name: "impactNumber3Title",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Show Plus Icon 3",
+          name: "showPlus3",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Impact icon 4",
+          name: "icon4",
+          widget: image,
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Impact number 4 char",
+          name: "impactNumber4Char",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact number 4",
+          name: "impactNumber4",
+          widget: "number",
+          required: false,
+          value_type: "float",
+          default: 0,
+        }
+      - {
+          label: "Impact number 4 Decimals",
+          name: "impactNumber4Decimal",
+          widget: "number",
+          required: false,
+          default: 0,
+        }
+      - {
+          label: "Impact number 4 text",
+          name: "impactNumber4Text",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact number 4 title",
+          name: "impactNumber4Title",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Show Plus Icon 4",
+          name: "showPlus4",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Impact icon 5",
+          name: "icon5",
+          widget: image,
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Impact number 5 char",
+          name: "impactNumber5Char",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact number 5",
+          name: "impactNumber5",
+          widget: "number",
+          required: false,
+          value_type: "float",
+          default: 0,
+        }
+      - {
+          label: "Impact number 5 Decimals",
+          name: "impactNumber5Decimal",
+          widget: "number",
+          required: false,
+          default: 0,
+        }
+      - {
+          label: "Impact number 5 text",
+          name: "impactNumber5Text",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Impact number 5 title",
+          name: "impactNumber5Title",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Show Plus Icon 5",
+          name: "showPlus5",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Infographic Google Drive Link",
+          name: "infographicGoogleDriveLink",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Download Infographic button text",
+          name: "downloadInfographicBtn",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Title 7",
+          name: "title7",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Show Blog",
+          name: "showBlog",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Blog Title",
+          name: "blogTitle",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Blog Description",
+          name: "blogDescription",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Blog Link (starts with /blog/...)",
+          name: "blogLink",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Show OpEd",
+          name: "showOpEd",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "OpEd Title",
+          name: "opEdTitle",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "OpEd Description",
+          name: "opEdDescription",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "OpEd Link",
+          name: "opEdLink",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Show Webinar",
+          name: "showWebinar",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Webinar Title",
+          name: "webinarTitle",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Webinar Description",
+          name: "webinarDescription",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Webinar Link",
+          name: "webinarLink",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Blog Section Image",
+          name: "blogSectionImage",
+          widget: image,
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Footer Text 1",
+          name: "footerText1",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Footer Text 2",
+          name: "footerText2",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Success Stories Title",
+          name: "successStoriesTitle",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Show Success Stories(Provide title upto 3)",
+          name: "showSuccessStories",
+          widget: "string",
+        }
+  - name: "projectdomain"
+    label: "Project Domain"
+    folder: "src/pages/project-domain"
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {
-          label: 'Template Key',
-          name: 'templateKey',
-          widget: 'hidden',
-          default: 'project-domain-post',
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "project-domain-post",
         }
-      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: "Title", name: "title", widget: "string" }
       - {
-          label: 'Display On Header',
-          name: 'displayOnHeader',
-          widget: 'boolean',
+          label: "Display On Header",
+          name: "displayOnHeader",
+          widget: "boolean",
           default: true,
         }
       - {
-          label: 'Display On Home Slider',
-          name: 'displayOnHomeSlider',
-          widget: 'boolean',
+          label: "Display On Home Slider",
+          name: "displayOnHomeSlider",
+          widget: "boolean",
           default: true,
         }
-      - { label: 'Display Order', name: 'displayOrder', widget: 'string' }
-  - name: 'mediacontent'
-    label: 'Media'
-    folder: 'src/pages/mediacontent'
+      - { label: "Display Order", name: "displayOrder", widget: "string" }
+  - name: "mediacontent"
+    label: "Media"
+    folder: "src/pages/mediacontent"
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {
-          label: 'Template Key',
-          name: 'templateKey',
-          widget: 'hidden',
-          default: 'media-post',
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "media-post",
         }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Media House', name: 'mediaHouse', widget: 'string' }
-      - { label: 'Project Id', name: 'projectId', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'date' }
-      - { label: 'Author', name: 'author', widget: 'string' }
-      - { label: 'Link', name: 'link', widget: 'string' }
-      - { label: 'Tag', name: 'tag', widget: 'string' }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Media House", name: "mediaHouse", widget: "string" }
+      - { label: "Project Id", name: "projectId", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "date" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: "Tag", name: "tag", widget: "string" }
       - {
-          label: 'Display on Home',
-          name: 'displayOnHomePage',
-          widget: 'boolean',
+          label: "Display on Home",
+          name: "displayOnHomePage",
+          widget: "boolean",
           default: false,
           required: false,
         }
-      - { label: 'Image', name: 'image', widget: image }
-      - { label: 'Link Button Text', name: 'linkButtonText', widget: 'string', required: false, default: "" }
-  - name: 'project'
-    label: 'Projects'
-    folder: 'src/pages/project'
+      - { label: "Image", name: "image", widget: image }
+      - {
+          label: "Link Button Text",
+          name: "linkButtonText",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+  - name: "project"
+    label: "Projects"
+    folder: "src/pages/project"
     create: true
-    slug: '{{slug}}'
+    slug: "{{slug}}"
     fields:
       - {
-          label: 'Template Key',
-          name: 'templateKey',
-          widget: 'hidden',
-          default: 'project-post',
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "project-post",
         }
-      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: "Title", name: "title", widget: "string" }
       - {
-          label: 'Domain New',
-          name: 'domainNew',
-          collection: 'projectdomain',
-          displayFields: ['title'],
-          searchFields: ['title'],
+          label: "Domain New",
+          name: "domainNew",
+          collection: "projectdomain",
+          displayFields: ["title"],
+          searchFields: ["title"],
           valueField: title,
           widget: relation,
           required: false,
         }
-      - { label: 'Full Name', name: 'fullName', widget: 'string' }
-      - { label: 'Id', name: 'id', widget: 'string' }
-      - { label: 'Background Cover', name: 'backgroundCover', widget: image }
-      - { label: 'Domain', name: 'domain', widget: 'string' }
-      - { label: 'Sub Title', name: 'subTitle', widget: 'string' }
-      - { label: 'State', name: 'state', widget: 'string' }
-      - { label: 'Tag Line', name: 'tagLine', widget: 'string' }
+      - { label: "Full Name", name: "fullName", widget: "string" }
+      - { label: "Id", name: "id", widget: "string" }
+      - { label: "Background Cover", name: "backgroundCover", widget: image }
+      - { label: "Domain", name: "domain", widget: "string" }
+      - { label: "Sub Title", name: "subTitle", widget: "string" }
+      - { label: "State", name: "state", widget: "string" }
+      - { label: "Tag Line", name: "tagLine", widget: "string" }
       - {
-          label: 'Project Logo with State',
-          name: 'projectLogoWithState',
+          label: "Project Logo with State",
+          name: "projectLogoWithState",
           widget: image,
         }
       - {
@@ -401,8 +1369,8 @@ collections:
             ],
         }
       - {
-          label: 'Center Banner',
-          name: 'projectMiddleBannerImage',
+          label: "Center Banner",
+          name: "projectMiddleBannerImage",
           widget: image,
         }
       - {
@@ -422,8 +1390,8 @@ collections:
               {
                 label: Blog Title,
                 collection: blog,
-                displayFields: ['title', 'author'],
-                searchFields: ['title', 'author'],
+                displayFields: ["title", "author"],
+                searchFields: ["title", "author"],
                 name: blogTitle,
                 valueField: title,
                 widget: relation,
@@ -434,8 +1402,8 @@ collections:
                 label: Media Title,
                 collection: mediacontent,
                 required: false,
-                displayFields: ['title', 'author', 'mediaHouse'],
-                searchFields: ['title', 'author'],
+                displayFields: ["title", "author", "mediaHouse"],
+                searchFields: ["title", "author"],
                 name: mediaTitle,
                 valueField: title,
                 widget: relation,
@@ -454,17 +1422,17 @@ collections:
             ],
         }
       - {
-          label: 'Key Initiative Title',
-          name: 'keyInitiativesTitle',
-          widget: 'string',
+          label: "Key Initiative Title",
+          name: "keyInitiativesTitle",
+          widget: "string",
         }
       - {
-          label: 'Key Initiatives',
+          label: "Key Initiatives",
           name: keyInitiatives,
           widget: list,
           fields:
             [
-              { label: 'Image', name: 'image', widget: image },
+              { label: "Image", name: "image", widget: image },
               { label: Title, name: title, widget: string },
               {
                 label: Description,
@@ -474,21 +1442,21 @@ collections:
               },
             ],
         }
-  - name: 'pages'
-    label: 'Pages'
+  - name: "pages"
+    label: "Pages"
     files:
-      - file: 'src/pages/index.md'
-        label: 'Home Page'
-        name: 'index'
+      - file: "src/pages/index.md"
+        label: "Home Page"
+        name: "index"
         fields:
           - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'index-page',
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "index-page",
             }
-          - { label: 'Title', name: 'title', widget: 'string' } 
-          - { label: 'Description', name: 'description', widget: 'string' }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
           - {
               label: Sticky Banner,
               name: stickyBanner,
@@ -544,87 +1512,21 @@ collections:
               fields:
                 [
                   {
-                    label: 'Title Lines',
-                    name: 'titleLines',
+                    label: "Title Lines",
+                    name: "titleLines",
                     widget: list,
                     fields: [{ label: Text, name: text, widget: string }],
                   },
                 ],
             }
-          - { label: 'Base Banner video', name: 'baseBannerVideo', widget: file }
-          - { 
-              label: 'Our Mission', 
-              name: ourMission, 
-              widget: object,
-              fields:
-                [
-                  { 
-                    label: Title,
-                    name: title, 
-                    widget: string,
-                  },
-                  {
-                    label: Description,
-                    name: description,
-                    widget: string,
-                  },
-                ],      
+          - {
+              label: "Base Banner video",
+              name: "baseBannerVideo",
+              widget: file,
             }
-          - { 
-              label: 'Our Model', 
-              name: ourModel, 
-              widget: object,
-              fields:
-                [
-                  { 
-                    label: Title, 
-                    name: title, 
-                    widget: string,
-                  },
-                  {
-                    label: Description,
-                    name: description,
-                    widget: list,
-                    fields:
-                      [
-                        {
-                          label: Sub Title,
-                          name: subTitle,
-                          widget: string,
-                        },
-                        { 
-                          label: Text, 
-                          name: text, 
-                          widget: text,
-                        },
-                        {
-                          label: Icon,
-                          name: icon,
-                          widget: image,
-                        }
-                      ],
-                  },
-                  { 
-                    label: 'Our Model Video Link', 
-                    name: 'ourModelVideoLink', 
-                    widget: 'string',
-                  },
-                ],
-            }
-          - { 
-              label: 'Our Approach', 
-              name: ourApproach, 
-              widget: object,
-              fields:
-                [
-                  { label: Title, name: title, widget: string },
-                  { label: Description, name: description, widget: string },
-                  { label: 'Approach Video', name: 'approachVideo', widget: file },
-                ],
-            }
-          - { 
-              label: 'Our Work', 
-              name: ourWork, 
+          - {
+              label: "Our Mission",
+              name: ourMission,
               widget: object,
               fields:
                 [
@@ -633,34 +1535,94 @@ collections:
                 ],
             }
           - {
-              label: 'Our Work Card', 
-              name: ourWorkCard, 
+              label: "Our Model",
+              name: ourModel,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  {
+                    label: Description,
+                    name: description,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Sub Title, name: subTitle, widget: string },
+                        { label: Text, name: text, widget: text },
+                        { label: Icon, name: icon, widget: image },
+                      ],
+                  },
+                  {
+                    label: "Our Model Video Link",
+                    name: "ourModelVideoLink",
+                    widget: "string",
+                  },
+                ],
+            }
+          - {
+              label: "Our Approach",
+              name: ourApproach,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Description, name: description, widget: string },
+                  {
+                    label: "Approach Video",
+                    name: "approachVideo",
+                    widget: file,
+                  },
+                ],
+            }
+          - {
+              label: "Our Work",
+              name: ourWork,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Description, name: description, widget: string },
+                ],
+            }
+          - {
+              label: "Our Work Card",
+              name: ourWorkCard,
               widget: list,
               fields:
                 [
                   {
-                    label: 'Title Lines',
-                    name: 'titleLines',
+                    label: "Title Lines",
+                    name: "titleLines",
                     widget: list,
                     fields: [{ label: Text, name: text, widget: string }],
                   },
                   {
-                    label: 'Project Name',
-                    name: 'projectName',
-                    widget: 'list',
-                    fields: [
-                      { label: 'Project', name: project, widget: string },
-                      { label: Learn Button Text, name: learnButtonText, widget: string}],
+                    label: "Project Name",
+                    name: "projectName",
+                    widget: "list",
+                    fields:
+                      [
+                        { label: "Project", name: project, widget: string },
+                        {
+                          label: Learn Button Text,
+                          name: learnButtonText,
+                          widget: string,
+                        },
+                      ],
                   },
                   { label: Description1, name: description1, widget: string },
-                  { label: 'Image', name: image, widget: image },
+                  { label: "Image", name: image, widget: image },
                   {
-                    label: 'Work Logo',
-                    name: 'workLogo',
+                    label: "Work Logo",
+                    name: "workLogo",
                     widget: list,
-                    fields: [{ label: 'Logo', name: logo, widget: image }],
+                    fields: [{ label: "Logo", name: logo, widget: image }],
                   },
-                  { label: 'Background Map', name: 'backgroundMap', widget: image},
+                  {
+                    label: "Background Map",
+                    name: "backgroundMap",
+                    widget: image,
+                  },
                   { label: Description2, name: description2, widget: string },
                 ],
             }
@@ -670,36 +1632,30 @@ collections:
               widget: boolean,
             }
           - {
-              label: 'Our Journey Title', name: 'ourJourneyTitle', widget: 'string' 
+              label: "Our Journey Title",
+              name: "ourJourneyTitle",
+              widget: "string",
             }
           - {
-              label: 'Our Journey', 
-              name: ourJourney, 
+              label: "Our Journey",
+              name: ourJourney,
               widget: list,
               fields:
                 [
-                  {
-                    label: 'Sub Heading',
-                    name: 'subHeading',
-                    widget: string,
-                  },
-                  {
-                    label: 'Description',
-                    name: 'description',
-                    widget: string,
-                  },
-                  { label: 'Image', name: image, widget: image },
+                  { label: "Sub Heading", name: "subHeading", widget: string },
+                  { label: "Description", name: "description", widget: string },
+                  { label: "Image", name: image, widget: image },
                 ],
             }
-      - file: 'src/pages/homeLegacy/index.md'
-        label: 'Home Legacy'
-        name: 'homeLegacy'
+      - file: "src/pages/homeLegacy/index.md"
+        label: "Home Legacy"
+        name: "homeLegacy"
         fields:
           - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'home-legacy',
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "home-legacy",
             }
           - { label: Title, name: title, widget: string }
           - { label: Description, name: description, widget: string }
@@ -759,13 +1715,13 @@ collections:
               fields:
                 [
                   {
-                    label: 'Media',
-                    name: 'mediaItem',
-                    widget: 'relation',
-                    collection: 'mediacontent',
-                    searchFields: ['title'],
-                    displayFields: ['title'],
-                    valueField: 'title',
+                    label: "Media",
+                    name: "mediaItem",
+                    widget: "relation",
+                    collection: "mediacontent",
+                    searchFields: ["title"],
+                    displayFields: ["title"],
+                    valueField: "title",
                     optionsLength: 100,
                   },
                 ],
@@ -777,62 +1733,58 @@ collections:
               fields:
                 [
                   {
-                    label: 'Title Lines',
-                    name: 'titleLines',
+                    label: "Title Lines",
+                    name: "titleLines",
                     widget: list,
                     fields: [{ label: Text, name: text, widget: string }],
                   },
                 ],
             }
           - {
-              label: 'Sub Banners',
+              label: "Sub Banners",
               name: subBanners,
               widget: list,
               fields:
                 [
                   {
-                    label: 'Title Lines',
-                    name: 'titleLines',
+                    label: "Title Lines",
+                    name: "titleLines",
                     widget: list,
                     fields: [{ label: Text, name: text, widget: string }],
                   },
                   {
-                    label: 'Project Name',
-                    name: 'projectName',
-                    widget: 'string',
+                    label: "Project Name",
+                    name: "projectName",
+                    widget: "string",
                   },
                   {
-                    label: 'Project Name 2 (will appear spearated by a &)',
-                    name: 'projectName2',
-                    widget: 'string',
+                    label: "Project Name 2 (will appear spearated by a &)",
+                    name: "projectName2",
+                    widget: "string",
                   },
+                  { label: "Button Color", name: "color", widget: "string" },
                   {
-                    label: 'Button Color',
-                    name: 'color',
-                    widget: 'string',
-                  },
-                  {
-                    label: 'Slides',
-                    name: 'slides',
+                    label: "Slides",
+                    name: "slides",
                     widget: list,
                     fields:
                       [
-                        { label: 'Image', name: image, widget: image },
-                        { label: 'Logo', name: logo, widget: image },
-                        { label: 'Title', name: title, widget: string },
+                        { label: "Image", name: image, widget: image },
+                        { label: "Logo", name: logo, widget: image },
+                        { label: "Title", name: title, widget: string },
                       ],
                   },
                 ],
             }
           - {
-              label: 'Second Section',
+              label: "Second Section",
               name: secondSection,
               widget: object,
               fields:
                 [
                   { label: Title, name: title, widget: string },
                   {
-                    label: 'Our Model',
+                    label: "Our Model",
                     name: ourModel,
                     widget: object,
                     fields:
@@ -856,7 +1808,7 @@ collections:
                       ],
                   },
                   {
-                    label: 'Our Approach',
+                    label: "Our Approach",
                     name: ourApproach,
                     widget: object,
                     fields:
@@ -886,46 +1838,30 @@ collections:
                 ],
             }
           - {
-              label: 'Third Section',
+              label: "Third Section",
               name: thirdSection,
               widget: list,
               fields:
                 [
-                  {
-                    label: 'Image 1',
-                    name: img1,
-                    widget: image,
-                  },
-                  {
-                    label: 'Image 2',
-                    name: img2,
-                    widget: image,
-                  },
-                  {
-                    label: 'Image 3',
-                    name: img3,
-                    widget: image,
-                  },
-                  {
-                    label: 'Image 4',
-                    name: img4,
-                    widget: image,
-                  },
+                  { label: "Image 1", name: img1, widget: image },
+                  { label: "Image 2", name: img2, widget: image },
+                  { label: "Image 3", name: img3, widget: image },
+                  { label: "Image 4", name: img4, widget: image },
                 ],
             }
-      - file: 'src/pages/team/index.md'
-        label: 'Team Page'
-        name: 'team'
+      - file: "src/pages/team/index.md"
+        label: "Team Page"
+        name: "team"
         fields:
           - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'team-page',
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "team-page",
             }
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Banner Image', name: bannerImage, widget: image }
-          - { label: 'Sub Title', name: 'subTitle', widget: 'string' }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Banner Image", name: bannerImage, widget: image }
+          - { label: "Sub Title", name: "subTitle", widget: "string" }
           - {
               label: Team,
               name: team,
@@ -937,45 +1873,45 @@ collections:
                   { label: Project, name: project, widget: text },
                   { label: Bio, name: bio, widget: text },
                   {
-                    label: 'LinkedIn Profile',
+                    label: "LinkedIn Profile",
                     name: linkedInProfile,
                     widget: text,
                   },
                 ],
             }
-      - file: 'src/pages/partners/index.md'
-        label: 'Partners Page'
-        name: 'partner'
+      - file: "src/pages/partners/index.md"
+        label: "Partners Page"
+        name: "partner"
         fields:
           - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'partners-page',
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "partners-page",
             }
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Banner Image', name: bannerImage, widget: image }
-          - { label: 'Sub Title', name: 'subTitle', widget: 'string' }
-          - { label: 'Partners Title', name: 'partnerTitle', widget: text }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Banner Image", name: bannerImage, widget: image }
+          - { label: "Sub Title", name: "subTitle", widget: "string" }
+          - { label: "Partners Title", name: "partnerTitle", widget: text }
           - {
-              label: 'Tag Lines',
+              label: "Tag Lines",
               name: titleLines,
               widget: list,
-              fields: [{ label: 'Text', name: text, widget: 'string' }],
+              fields: [{ label: "Text", name: text, widget: "string" }],
             }
           - {
               label: Videos,
-              name: 'videos',
+              name: "videos",
               widget: list,
               fields:
                 [
-                  { label: 'Video Url', name: videoUrl, widget: 'string' },
+                  { label: "Video Url", name: videoUrl, widget: "string" },
                   {
-                    label: 'Partner Name',
+                    label: "Partner Name",
                     name: partnerName,
-                    widget: 'string',
+                    widget: "string",
                   },
-                  { label: Designation, name: designation, widget: 'string' },
+                  { label: Designation, name: designation, widget: "string" },
                 ],
             }
           - {
@@ -984,42 +1920,42 @@ collections:
               widget: list,
               fields:
                 [
-                  { label: 'Partner Image', name: image, widget: image },
-                  { label: Description, name: description, widget: 'text' },
+                  { label: "Partner Image", name: image, widget: image },
+                  { label: Description, name: description, widget: "text" },
                 ],
             }
-      - file: 'src/pages/careers/index.md'
-        label: 'Careers Page'
-        name: 'careers'
+      - file: "src/pages/careers/index.md"
+        label: "Careers Page"
+        name: "careers"
         fields:
           - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'careers-page',
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "careers-page",
             }
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Banner Image', name: bannerImage, widget: image }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Banner Image", name: bannerImage, widget: image }
           - {
-              label: 'Center Banner Image',
+              label: "Center Banner Image",
               name: centerBanner,
               widget: object,
               fields: [{ label: Image, name: image, widget: image }],
             }
           - {
-              label: 'Main Text',
+              label: "Main Text",
               name: mainContent,
               widget: list,
-              fields: [{ label: 'Text', name: text, widget: string }],
+              fields: [{ label: "Text", name: text, widget: string }],
             }
           - {
-              label: 'Philosophy',
+              label: "Philosophy",
               name: philosophy,
               widget: object,
               fields:
                 [
                   {
-                    label: 'Section One',
+                    label: "Section One",
                     name: sectionOne,
                     widget: object,
                     fields:
@@ -1030,7 +1966,7 @@ collections:
                       ],
                   },
                   {
-                    label: 'Section Two',
+                    label: "Section Two",
                     name: sectionTwo,
                     widget: object,
                     fields:
@@ -1041,7 +1977,7 @@ collections:
                       ],
                   },
                   {
-                    label: 'Section Three',
+                    label: "Section Three",
                     name: sectionThree,
                     widget: object,
                     fields:
@@ -1052,7 +1988,7 @@ collections:
                       ],
                   },
                   {
-                    label: 'Section Four',
+                    label: "Section Four",
                     name: sectionFour,
                     widget: object,
                     fields:
@@ -1065,7 +2001,7 @@ collections:
                 ],
             }
           - {
-              label: 'Slides',
+              label: "Slides",
               name: slides,
               widget: list,
               fields:
@@ -1075,7 +2011,7 @@ collections:
                 ],
             }
           - {
-              label: 'Roles',
+              label: "Roles",
               name: roles,
               widget: object,
               fields:
@@ -1094,7 +2030,7 @@ collections:
                 ],
             }
           - {
-              label: 'FAQ',
+              label: "FAQ",
               name: faq,
               widget: list,
               fields:
@@ -1103,26 +2039,26 @@ collections:
                   { label: Answer, name: answer, widget: text },
                 ],
             }
-      - file: 'src/pages/governanceframeworks/index.md'
-        label: 'Frameworks Page'
-        name: 'frameworks'
+      - file: "src/pages/governanceframeworks/index.md"
+        label: "Frameworks Page"
+        name: "frameworks"
         fields:
           - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'frameworks-page',
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "frameworks-page",
             }
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Banner Image', name: bannerImage, widget: image }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Banner Image", name: bannerImage, widget: image }
           - {
-              label: 'Main Text',
+              label: "Main Text",
               name: mainContent,
               widget: list,
-              fields: [{ label: 'Text', name: text, widget: string }],
+              fields: [{ label: "Text", name: text, widget: string }],
             }
           - {
-              label: 'Frameworks',
+              label: "Frameworks",
               name: frameworks,
               widget: list,
               fields:
@@ -1130,7 +2066,7 @@ collections:
                   { label: Image, name: image, widget: image },
                   { label: Text, name: text, widget: string },
                   {
-                    label: 'Actions',
+                    label: "Actions",
                     name: actions,
                     widget: list,
                     fields:
@@ -1141,292 +2077,264 @@ collections:
                   },
                 ],
             }
-      - file: 'src/pages/c4gt/index.md'
-        label: 'C4GT Page'
-        name: 'c4gt'
+      - file: "src/pages/c4gt/index.md"
+        label: "C4GT Page"
+        name: "c4gt"
         fields:
           - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'c4gt-page',
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "c4gt-page",
             }
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Banner Image', name: bannerImage, widget: image }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Banner Image", name: bannerImage, widget: image }
           - {
-              label: 'Center Banner Image',
+              label: "Center Banner Image",
               name: centerBanner,
               widget: object,
               fields: [{ label: Image, name: image, widget: image }],
             }
           - {
-              label: 'Main Text',
+              label: "Main Text",
               name: mainContent,
               widget: list,
-              fields: [{ label: 'Text', name: text, widget: string }],
+              fields: [{ label: "Text", name: text, widget: string }],
             }
           - {
-              label: 'Text Above Button',
+              label: "Text Above Button",
               name: textAboveButton,
-              widget: 'string',
+              widget: "string",
             }
-          - { label: 'Button Link', name: link, widget: 'string' }
-          - { label: 'Button Text', name: buttonText, widget: 'string' }
-      - file: 'src/pages/tgc/index.md'
-        label: 'TGC Page'
-        name: 'tgc'
+          - { label: "Button Link", name: link, widget: "string" }
+          - { label: "Button Text", name: buttonText, widget: "string" }
+      - file: "src/pages/tgc/index.md"
+        label: "TGC Page"
+        name: "tgc"
         fields:
           - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'tgc-page',
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "tgc-page",
             }
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Banner Image', name: bannerImage, widget: image }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Banner Image", name: bannerImage, widget: image }
           - {
-              label: 'Center Banner Image',
+              label: "Center Banner Image",
               name: centerBanner,
               widget: object,
               fields: [{ label: Image, name: image, widget: image }],
             }
           - {
-              label: 'Main Text',
+              label: "Main Text",
               name: mainContent,
               widget: list,
-              fields: [{ label: 'Text', name: text, widget: string }],
+              fields: [{ label: "Text", name: text, widget: string }],
             }
           # - { label: "Text Above Button", name: textAboveButton, widget: "string" }
-          - { label: 'Button Link', name: link, widget: 'string' }
-          - { label: 'Button Text', name: buttonText, widget: 'string' }
-      - file: 'src/pages/media/index.md'
-        label: 'Media Page'
-        name: 'media'
+          - { label: "Button Link", name: link, widget: "string" }
+          - { label: "Button Text", name: buttonText, widget: "string" }
+      - file: "src/pages/media/index.md"
+        label: "Media Page"
+        name: "media"
         fields:
           - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'media-page',
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "media-page",
             }
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Banner Image', name: bannerImage, widget: image }
-      - file: 'src/pages/footer/index.md'
-        label: 'Footer Page'
-        name: 'footer'
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Banner Image", name: bannerImage, widget: image }
+      - file: "src/pages/footer/index.md"
+        label: "Footer Page"
+        name: "footer"
         fields:
           - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'footer-page',
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "footer-page",
             }
           - {
-              label: 'Bottom Trademark',
-              name: 'bottomTrademark',
-              widget: 'string',
+              label: "Bottom Trademark",
+              name: "bottomTrademark",
+              widget: "string",
             }
           - {
-              label: 'Bottom Trademark Link',
-              name: 'bottomTrademarkLink',
-              widget: 'string',
+              label: "Bottom Trademark Link",
+              name: "bottomTrademarkLink",
+              widget: "string",
             }
-      - file: 'src/pages/sushasan/index.md'
-        label: 'Sushasan Page'
-        name: 'sushasan'
+      - file: "src/pages/sushasan/index.md"
+        label: "Sushasan Page"
+        name: "sushasan"
         fields:
           - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'sushasan-page',
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "sushasan-page",
             }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Banner Image", name: "bannerImage", widget: "image" }
+          - { label: "Logo", name: "logo", widget: "image" }
+          - { label: "Text", name: "text", widget: "string" }
+          - { label: "Mail", name: "mail", widget: "string" }
+          - { label: "Title 1", name: "title1", widget: "string" }
+          - { label: "Title 2", name: "title2", widget: "string" }
           - {
-              label: 'Title',
-              name: 'title',
-              widget: 'string',
+              label: "Podcasts S1",
+              name: "podcastsS1",
+              widget: "list",
+              fields:
+                [
+                  { label: "Link", name: "url", widget: "string" },
+                  { label: "Title", name: "title", widget: "string" },
+                ],
             }
+          - { label: "Title 3", name: "title3", widget: "string" }
+          - { label: "Title 4", name: "title4", widget: "string" }
           - {
-              label: 'Banner Image',
-              name: 'bannerImage',
-              widget: 'image',
+              label: "Podcasts S2",
+              name: "podcastsS2",
+              widget: "list",
+              fields:
+                [
+                  { label: "Link", name: "url", widget: "string" },
+                  { label: "Title", name: "title", widget: "string" },
+                ],
             }
-          - {
-              label: 'Logo',
-              name: 'logo',
-              widget: 'image',
-            }
-          - {
-              label: 'Text',
-              name: 'text',
-              widget: 'string',
-            }
-          - {
-              label: 'Mail',
-              name: 'mail',
-              widget: 'string',
-            }
-          - {
-              label: 'Title 1',
-              name: 'title1',
-              widget: 'string',
-            }
-          - {
-              label: 'Title 2',
-              name: 'title2',
-              widget: 'string',
-            }
-          - {
-              label: 'Podcasts S1',
-              name: 'podcastsS1',
-              widget: 'list',
-              fields: [{ label: 'Link', name: 'url', widget: 'string' }, {label: 'Title', name: 'title', widget: 'string'}],
-            }
-          - {
-              label: 'Title 3',
-              name: 'title3',
-              widget: 'string',
-            }
-          - {
-              label: 'Title 4',
-              name: 'title4',
-              widget: 'string',
-            }
-          - {
-              label: 'Podcasts S2',
-              name: 'podcastsS2',
-              widget: 'list',
-              fields: [{ label: 'Link', name: 'url', widget: 'string' }, {label: 'Title', name: 'title', widget: 'string'}],
-            }
-      - file: 'src/pages/joinus/index.md'
-        label: 'Join Us Page'
-        name: 'joinus'
+      - file: "src/pages/joinus/index.md"
+        label: "Join Us Page"
+        name: "joinus"
         fields:
           - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'media-page',
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "media-page",
             }
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Info Text 1', name: infoText1, widget: 'string' }
-          - { label: 'Info Text 2', name: infoText2, widget: 'string' }
-          - { label: 'Vertical Image', name: verticalImage, widget: image }
-          - { label: 'Horizontal Image', name: horizontalImage, widget: image }
-          - { label: 'Follow Linkedin', name: followLinkedin, widget: image }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Info Text 1", name: infoText1, widget: "string" }
+          - { label: "Info Text 2", name: infoText2, widget: "string" }
+          - { label: "Vertical Image", name: verticalImage, widget: image }
+          - { label: "Horizontal Image", name: horizontalImage, widget: image }
+          - { label: "Follow Linkedin", name: followLinkedin, widget: image }
           - {
-              label: 'Form Fields',
+              label: "Form Fields",
               name: formsElements,
               widget: list,
               fields:
                 [
-                  { label: 'Label', name: 'label', widget: 'markdown' },
+                  { label: "Label", name: "label", widget: "markdown" },
                   {
-                    label: 'Title',
-                    name: 'title',
-                    widget: 'string',
+                    label: "Title",
+                    name: "title",
+                    widget: "string",
                     required: false,
                   },
                   {
-                    label: 'Content Description',
+                    label: "Content Description",
                     required: false,
-                    name: 'contentDescription',
-                    widget: 'string',
+                    name: "contentDescription",
+                    widget: "string",
                   },
                   {
-                    label: 'Required',
-                    name: 'required',
-                    widget: 'boolean',
+                    label: "Required",
+                    name: "required",
+                    widget: "boolean",
                     default: true,
                   },
                   {
-                    label: 'Placeholder',
-                    name: 'placeholder',
-                    widget: 'markdown',
+                    label: "Placeholder",
+                    name: "placeholder",
+                    widget: "markdown",
                   },
                   {
-                    label: 'Input Type',
-                    name: 'type',
-                    widget: 'select',
-                    options: ['text', 'select', 'file', 'radio'],
+                    label: "Input Type",
+                    name: "type",
+                    widget: "select",
+                    options: ["text", "select", "file", "radio"],
                   },
                   {
-                    label: 'Validation',
-                    name: 'validation',
-                    widget: 'select',
+                    label: "Validation",
+                    name: "validation",
+                    widget: "select",
                     options:
                       [
-                        'VALID_TEXT',
-                        'VALID_NUMBER',
-                        'VALID_FILE',
-                        'VALID_LINK',
-                        'VALID_OPTION',
-                        'VALID_CONTACT',
-                        'VALID_EMAIL',
+                        "VALID_TEXT",
+                        "VALID_NUMBER",
+                        "VALID_FILE",
+                        "VALID_LINK",
+                        "VALID_OPTION",
+                        "VALID_CONTACT",
+                        "VALID_EMAIL",
                       ],
                   },
                   {
-                    label: 'Other Option (Only for Select/Radio)',
-                    name: 'otherOptionAvailable',
+                    label: "Other Option (Only for Select/Radio)",
+                    name: "otherOptionAvailable",
                     required: false,
-                    widget: 'object',
+                    widget: "object",
                     fields:
                       [
                         {
-                          label: 'Activation On',
-                          name: 'activateOn',
-                          widget: 'string',
+                          label: "Activation On",
+                          name: "activateOn",
+                          widget: "string",
                           required: false,
                         },
                         {
-                          label: 'Label',
-                          name: 'label',
-                          widget: 'string',
+                          label: "Label",
+                          name: "label",
+                          widget: "string",
                           required: false,
                         },
                         {
-                          label: 'Placeholder',
-                          name: 'placeholder',
-                          widget: 'string',
+                          label: "Placeholder",
+                          name: "placeholder",
+                          widget: "string",
                           required: false,
                         },
                       ],
                   },
                   {
-                    label: 'Options (Only for Select/Radio)',
-                    name: 'options',
+                    label: "Options (Only for Select/Radio)",
+                    name: "options",
                     required: false,
-                    widget: 'list',
-                    fields: [{ label: 'Text', name: 'text', widget: 'string' }],
+                    widget: "list",
+                    fields: [{ label: "Text", name: "text", widget: "string" }],
                   },
                   {
-                    label: 'Action Name (For Files)',
-                    name: 'actionName',
-                    widget: 'string',
+                    label: "Action Name (For Files)",
+                    name: "actionName",
+                    widget: "string",
                     required: false,
                   },
                   {
-                    label: 'Questions (For Files)',
-                    name: 'questions',
-                    widget: 'list',
-                    fields: [{ label: 'Text', name: 'text', widget: 'string' }],
+                    label: "Questions (For Files)",
+                    name: "questions",
+                    widget: "list",
+                    fields: [{ label: "Text", name: "text", widget: "string" }],
                     required: false,
                   },
                 ],
             }
-      - file: 'src/pages/assets/index.md'
-        label: 'Our Assets Page'
-        name: 'assets'
+      - file: "src/pages/assets/index.md"
+        label: "Our Assets Page"
+        name: "assets"
         fields:
           - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'our-assets-page',
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "our-assets-page",
             }
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Banner Image', name: bannerImage, widget: image }
-          - { label: 'Description', name: 'description', widget: 'string' }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Banner Image", name: bannerImage, widget: image }
+          - { label: "Description", name: "description", widget: "string" }
           - {
               label: Asset Card 1,
               name: assetCard1,
@@ -1437,7 +2345,11 @@ collections:
                   { label: Description, name: description, widget: string },
                   { label: Button Link, name: buttonLink, widget: string },
                   { label: Button Text, name: buttonText, widget: string },
-                  { label: Read More Button Active, name: readMoreButtonActive, widget: boolean },
+                  {
+                    label: Read More Button Active,
+                    name: readMoreButtonActive,
+                    widget: boolean,
+                  },
                 ],
             }
           - {
@@ -1450,7 +2362,11 @@ collections:
                   { label: Description, name: description, widget: string },
                   { label: Button Link, name: buttonLink, widget: string },
                   { label: Button Text, name: buttonText, widget: string },
-                  { label: Read More Button Active, name: readMoreButtonActive, widget: boolean },
+                  {
+                    label: Read More Button Active,
+                    name: readMoreButtonActive,
+                    widget: boolean,
+                  },
                 ],
             }
           - {
@@ -1463,7 +2379,11 @@ collections:
                   { label: Description, name: description, widget: string },
                   { label: Button Link, name: buttonLink, widget: string },
                   { label: Button Text, name: buttonText, widget: string },
-                  { label: Read More Button Active, name: readMoreButtonActive, widget: boolean },
+                  {
+                    label: Read More Button Active,
+                    name: readMoreButtonActive,
+                    widget: boolean,
+                  },
                 ],
             }
           - {
@@ -1476,18 +2396,22 @@ collections:
                   { label: Description, name: description, widget: string },
                   { label: Button Link, name: buttonLink, widget: string },
                   { label: Button Text, name: buttonText, widget: string },
-                  { label: Read More Button Active, name: readMoreButtonActive, widget: boolean },
+                  {
+                    label: Read More Button Active,
+                    name: readMoreButtonActive,
+                    widget: boolean,
+                  },
                 ],
             }
-      - file: 'src/pages/decluttered/index.md'
-        label: 'Governance Decluttered Page'
-        name: 'decluttered'
+      - file: "src/pages/decluttered/index.md"
+        label: "Governance Decluttered Page"
+        name: "decluttered"
         fields:
           - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'decluttered-page',
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "decluttered-page",
             }
           - {
               label: Base Banner,
@@ -1496,8 +2420,8 @@ collections:
               fields:
                 [
                   {
-                    label: 'Title Lines',
-                    name: 'titleLines',
+                    label: "Title Lines",
+                    name: "titleLines",
                     widget: list,
                     fields: [{ label: Text, name: text, widget: string }],
                   },
@@ -1511,23 +2435,27 @@ collections:
               fields:
                 [
                   {
-                    label: 'Description Header',
-                    name: 'descriptionHeader',
+                    label: "Description Header",
+                    name: "descriptionHeader",
                     widget: list,
                     fields: [{ label: Header, name: header, widget: string }],
                   },
                   {
-                    label: 'Description Text',
-                    name: 'descriptionText',
+                    label: "Description Text",
+                    name: "descriptionText",
                     widget: list,
                     fields: [{ label: Text, name: text, widget: string }],
                   },
-                  { label: 'Description Video', name: 'descriptionVideo', widget: string}
+                  {
+                    label: "Description Video",
+                    name: "descriptionVideo",
+                    widget: string,
+                  },
                 ],
             }
           - {
-              label: 'Post Categories',
-              name: 'postCategories',
+              label: "Post Categories",
+              name: "postCategories",
               widget: list,
               fields: [{ label: Category, name: category, widget: string }],
             }
@@ -1535,38 +2463,48 @@ collections:
               label: Post Data,
               name: postData,
               widget: list,
-              fields: [{
-                label: Post Card,
-                name: postCard,
-                widget: object,
-                fields:
-                  [
-                    { label: Post Image, name: postImage, widget: image },
-                    {
-                      label: 'Category',
-                      name: 'selectedCategory',
-                      widget: string,
-                    },
-                    { label: UrlLink, name: urlLink, widget: string },
-                  ],
-              }]
+              fields:
+                [
+                  {
+                    label: Post Card,
+                    name: postCard,
+                    widget: object,
+                    fields:
+                      [
+                        { label: Post Image, name: postImage, widget: image },
+                        {
+                          label: "Category",
+                          name: "selectedCategory",
+                          widget: string,
+                        },
+                        { label: UrlLink, name: urlLink, widget: string },
+                      ],
+                  },
+                ],
             }
-          - { label: 'Instagram Link', name: 'instaLink', widget: 'string' }
-          - { label: 'Assets Heading', name: 'assetsHeading', widget: 'string' }
+          - { label: "Instagram Link", name: "instaLink", widget: "string" }
+          - { label: "Assets Heading", name: "assetsHeading", widget: "string" }
           - {
               label: Assets,
               name: assets,
               widget: list,
-              fields: [{
-                label: Asset Card,
-                name: assetCard,
-                widget: object,
-                fields:
-                  [
-                    { label: Asset Image, name: assetImage, widget: image },
-                    { label: Name, name: name, widget: string },
-                    { label: Description, name: description, widget: string },
-                    { label: Link, name: link, widget: string },
-                  ],
-              }]
+              fields:
+                [
+                  {
+                    label: Asset Card,
+                    name: assetCard,
+                    widget: object,
+                    fields:
+                      [
+                        { label: Asset Image, name: assetImage, widget: image },
+                        { label: Name, name: name, widget: string },
+                        {
+                          label: Description,
+                          name: description,
+                          widget: string,
+                        },
+                        { label: Link, name: link, widget: string },
+                      ],
+                  },
+                ],
             }
