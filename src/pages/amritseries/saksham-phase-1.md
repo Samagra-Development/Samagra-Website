@@ -54,11 +54,7 @@ newsletterLink: https://www.linkedin.com/pulse/building-saksham-haryana-samagra-
 title5: Here is how the Haryana government worked in a mission mode to augment
   the system capacity and poltical salience...
 showImpactVideo: false
-impactVideoLink: <iframe width="560" height="315"
-  src="https://www.youtube.com/embed/r9ze1OXsSYw?si=WtyZb0RH0QgyAVZu"
-  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
-  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+impactVideoLink: https://www.youtube.com/embed/r9ze1OXsSYw?si=WtyZb0RH0QgyAVZu
 showImpactCard: true
 impactCardFontColor: "#000000"
 img1: /img/sk_1.png
