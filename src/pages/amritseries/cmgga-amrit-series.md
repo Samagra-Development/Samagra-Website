@@ -58,7 +58,7 @@ newsdescription:
 newsletterBtn: Read Newsletter
 title5: Here is how Haryana worked towards augmenting system capacity
 showImpactVideo: false
-showImpactCard: false
+showImpactCard: true
 impactCardFontColor: "#DADADA"
 img1: /img/cmggaimg.jpg
 cardTitle1: <b>Ownership<br> by CMO</b>
@@ -101,5 +101,5 @@ showPlus5: true
 showBlog: false
 showOpEd: false
 showWebinar: false
-showSuccessStories: hkrn, nlapp
+showSuccessStories: hkrn,nlapp
 ---
