@@ -63,6 +63,7 @@ title5: Here is how Haryana worked towards augmenting system capacity
 motionGraphic: null
 newsletterLink: ""
 showImpactVideo: false
+impactVideoLink: ""
 showImpactCard: true
 impactCardFontColor: "#DADADA"
 img1: /img/cmggaimg.jpg

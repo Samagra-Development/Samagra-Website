@@ -65,15 +65,23 @@ img1: /img/sk_1.png
 cardTitle1: Administrative Streamlining
 cardDescription1: Increasing teacher time in the classroom by streamlining
   transfers, MIS and shifting HR processes online
+cardBtn1: ""
+cardLink1: ""
 img2: /img/sk_2.png
 cardTitle2: Academic Inputs
 cardDescription2: "Delivery of competency-based remediation supported by timely
   textbook delivery and student assessment reforms "
+cardBtn2: ""
+cardLink2: ""
 img3: /img/sk_3.png
 cardTitle3: Cascaded Gamification
 cardDescription3: Building momentum in the system through gamification and
   direct CM involvement to drive bottom-up innovation
+cardBtn3: ""
+cardLink3: ""
+title6: ""
 icon1: /img/sak1.jpg
+impactNumber1Char: ""
 impactNumber1: 85
 impactNumber1Decimal: 0
 impactNumber1Text: "%"
@@ -81,6 +89,7 @@ impactNumber1Title: Number of children made 'Saksham', as per third party
   assessments from the 55% benchmark in 2017
 showPlus1: false
 icon2: /img/sk_picture-2.png
+impactNumber2Char: ""
 impactNumber2: 25
 impactNumber2Decimal: 0
 impactNumber2Text: "%"
@@ -94,11 +103,18 @@ impactNumber3Text: ""
 impactNumber3Title: Haryana in top 5 states (NAS ’21) and the most improved state from NAS 2017-21
 showPlus3: false
 icon4: /img/sak4.jpg
+impactNumber4Char: ""
 impactNumber4: 15
 impactNumber4Decimal: 0
 impactNumber4Text: " Lakh +"
 impactNumber4Title: Students impacted
 showPlus4: false
+icon5: null
+impactNumber5Char: ""
+impactNumber5: 0
+impactNumber5Decimal: 0
+impactNumber5Title: ""
+impactNumber5Text: ""
 showPlus5: false
 infographicGoogleDriveLink: https://drive.google.com/file/d/1SrCsur2-B411Sce9aU62hGXRWqwaeokx/view?usp=sharing
 downloadInfographicBtn: Download Infographic
