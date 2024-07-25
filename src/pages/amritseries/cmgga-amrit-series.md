@@ -27,10 +27,48 @@ infographic1:
   - img: /img/cmggacard3.jpg
   - img: /img/cmggacard4.jpg
 title4: What was the journey of CMGGA in the Governance Matrix?
+newsdescription:
+  - text: "In our view, The Chief Minister’s Good Governance Associates (CMGGA)
+      Programme in Haryana, witnessed a shift from being a ‘Shooting Star’ with
+      high political salience and low system capacity to 'Battle Ready' with
+      high political salience and high system capacity within two years since
+      its inception in 2016. "
+  - text: "The CMGGA Programme assigns one CMGGA (a young professional) to each of
+      Haryana’s 22 districts. It has been the longest running fellowship
+      programme in the country, providing young professionals a platform to
+      closely work with the district administration to catalyze implementation
+      of flagship initiatives of the state. "
+  - text: The initial phase was characterized by high political will but limited
+      system capacity that could leverage CMGGAs effectively as catalysts for
+      governance outcomes. This evolved over the first 2 years as these young
+      professionals were strategically positioned as “insider-outsiders” within
+      the bureaucracy. This allowed the associates to bring in fresh
+      perspectives and innovative solutions while leveraging existing
+      governmental processes, thereby demonstrating the value they added.
+      Further, to ensure the professional development of the CMGGAs, emphasis
+      was placed on integrating a field-to-forum approach in the programme while
+      giving sustained mentorship to the associates. Alongside this a strong
+      programme team was established that ensured strategic positioning and
+      structured support for the fellows placed in districts.
+  - text: "The CMGGA programme’s evolution demonstrates the impact of sustained
+      political will and strategic capacity building. As a result, CMGGAs were
+      able to catalyze transformative and sustainable governance outcomes
+      including Antyodaya Saral, Saksham Ghoshna, eOffice, Beti Bachao Beti
+      Padhao and Amrit Sarovar among others. "
 newsletterBtn: Read Newsletter
+title5: Here is how Haryana worked towards augmenting system capacity
 showImpactVideo: false
 showImpactCard: false
 impactCardFontColor: "#DADADA"
+img1: /img/cmggaimg.jpg
+cardTitle1: <b>Ownership<br> by CMO</b>
+cardDescription1: "Ensuring active involvement and time commitment from CMO "
+img2: /img/cmggaimg.jpg
+cardTitle2: <b>Insider-Outsider Positioning</b>
+cardDescription2: Ensuring fellows are not burdened with daily procedures of governance
+img3: /img/cmggaimg.jpg
+cardTitle3: <b>Strong Programme Team</b>
+cardDescription3: Facilitating strategic positioning & support via a programme office
 impactNumber1: 0
 impactNumber1Decimal: 0
 showPlus1: false
