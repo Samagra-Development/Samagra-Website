@@ -69,21 +69,35 @@ cardDescription2: Ensuring fellows are not burdened with daily procedures of gov
 img3: /img/cmggaimg.jpg
 cardTitle3: <b>Strong Programme Team</b>
 cardDescription3: Facilitating strategic positioning & support via a programme office
-impactNumber1: 0
+icon1: /img/cmggaicon1.jpg
+impactNumber1Char: ""
+impactNumber1: 8
 impactNumber1Decimal: 0
+impactNumber1Text: " Years"
+impactNumber1Title: Longest running state fellowship in the country
 showPlus1: false
-impactNumber2: 0
+icon2: /img/cmggaicon2.jpg
+impactNumber2Char: ""
+impactNumber2: 80
 impactNumber2Decimal: 0
-showPlus2: false
-impactNumber3: 0
+impactNumber2Text: "%"
+impactNumber2Title: CMGGAs chose to continue their career in the impact space
+showPlus2: true
+icon3: /img/cmggaicon3.jpg
+impactNumber3: 550
 impactNumber3Decimal: 0
-showPlus3: false
-impactNumber4: 0
+impactNumber3Title: Schemes made available through Saral Kendra & Saral Portal
+showPlus3: true
+icon4: /img/cmggaicon4.jpg
+impactNumber4: 14000
 impactNumber4Decimal: 0
-showPlus4: false
-impactNumber5: 0
+impactNumber4Title: Students impacted through CMGGA’s work in Saksham Haryana (Education)
+showPlus4: true
+icon5: /img/cmggaicon5.jpg
+impactNumber5: 2100
 impactNumber5Decimal: 0
-showPlus5: false
+impactNumber5Title: Ponds rejuvenated to enhance water capacity & panchayat income
+showPlus5: true
 showBlog: false
 showOpEd: false
 showWebinar: false
