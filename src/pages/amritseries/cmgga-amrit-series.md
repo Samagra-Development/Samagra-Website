@@ -107,7 +107,9 @@ showOpEd: true
 opEdTitle: Unlocking the power of professionals in governance through effective
   fellowships
 opEdLink: https://government.economictimes.indiatimes.com/blog/unlocking-the-power-of-professionals-in-governance-through-effective-fellowships/101060442
-showWebinar: false
+showWebinar: true
+webinarTitle: Khattar lauds CMGGA efforts for running welfare schemes
+webinarLink: https://indianexpress.com/article/cities/chandigarh/manohar-lal-khattar-lauds-cmgga-efforts-for-running-welfare-schemes-8062951/
 blogSectionImage: /img/cmgga-initiative-1.jpg
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
