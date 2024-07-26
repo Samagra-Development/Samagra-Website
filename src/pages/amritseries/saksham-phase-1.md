@@ -56,7 +56,7 @@ title5: Here is how the Haryana government worked in a mission mode to augment
 showImpactVideo: false
 impactVideoLink: https://www.youtube.com/embed/r9ze1OXsSYw?si=WtyZb0RH0QgyAVZu
 showImpactCard: true
-impactCardFontColor: "#000000"
+impactCardFontColor: "#ffffff"
 img1: /img/sk_1.png
 cardTitle1: Administrative Streamlining
 cardDescription1: Increasing teacher time in the classroom by streamlining
@@ -64,7 +64,7 @@ cardDescription1: Increasing teacher time in the classroom by streamlining
 cardBtn1: ""
 cardLink1: ""
 img2: /img/sk_2.png
-cardTitle2: Academic Inputs
+cardTitle2: Academic<br> Inputs
 cardDescription2: "Delivery of competency-based remediation supported by timely
   textbook delivery and student assessment reforms "
 cardBtn2: ""
@@ -115,17 +115,17 @@ showPlus5: false
 infographicGoogleDriveLink: https://drive.google.com/file/d/1SrCsur2-B411Sce9aU62hGXRWqwaeokx/view?usp=sharing
 downloadInfographicBtn: Download Infographic
 title7: Insights from the ground
-showBlog: false
-blogTitle: Blog
-blogDescription: "Oxford Reach Alliance Study: Improving Pedagogy in Government Schools"
+showBlog: true
+blogTitle: "Oxford Reach Alliance Study: Improving Pedagogy in Government Schools"
+blogDescription: ""
 blogLink: https://reachalliance.org/case-study/education-reform-in-haryana-india/
 showOpEd: false
 opEdTitle: ""
 opEdDescription: ""
 opEdLink: ""
-showWebinar: false
-webinarTitle: Webinar
-webinarDescription: "TED Talk: A New Normal for School Education by Gaurav Goel"
+showWebinar: true
+webinarTitle: "TED Talk: A New Normal for School Education by Gaurav Goel"
+webinarDescription: ""
 webinarLink: https://www.ted.com/talks/gaurav_goel_a_new_normal_for_school_education
 blogSectionImage: /img/home-banner-saksham-slide-2.jpg
 footerText1: Partner with us today!
