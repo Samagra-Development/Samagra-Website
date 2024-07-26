@@ -30,22 +30,9 @@ infographic2:
   - img: /img/gosugam-infographic2-img3.png
   - img: /img/gosugam-infographic2-img4.png
 title4: What was the journey of Antyodaya Saral in the Governance Matrix?
-newsdescription: 
-  - text: "Scheme and service delivery in Haryana shifted from being
-  ‘Comatose’ with low ‘political salience’ and low ‘system capacity’ to ‘Battle
-  Ready’ with high ‘political salience’ and high ‘system capacity’. Political
-  salience for transforming scheme and service delivery in Haryana increased
-  from 2017 to 2018 (corresponding to the ‘Shooting Star’ quadrant), leading to
-  the launch of Antyodaya Saral as an initiative. From 2018 to 2019, system
-  capacity was built via transformation of the state machinery on the people,
-  process and infrastructure fronts."
-  - text: "The state’s digital infrastructure was
-  built in the form of an online platform to streamline scheme delivery through
-  a single window on top of physical infrastructure in the form of Saral Kendras
-  as citizen touchpoints. High political salience, galvanized the people and
-  processes in the system to work in a mission-mode driving multi-department
-  coordination for all citizen-centric scheme delivery in an efficient and
-  timely manner."
+newsdescription:
+  - text: "Scheme and service delivery in Haryana shifted from being 'Comatose' with low 'political salience' and low 'system capacity' to 'Battle Ready' with high 'political salience' and high 'system capacity'. Political salience for transforming scheme and service delivery in Haryana increased from 2017 to 2018 (corresponding to the 'Shooting Star' quadrant), leading to the launch of Antyodaya Saral as an initiative. From 2018 to 2019, system capacity was built via transformation of the state machinery on the people, process, and infrastructure fronts."
+  - text: "The state's digital infrastructure was built in the form of an online platform to streamline scheme delivery through a single window on top of physical infrastructure in the form of Saral Kendras as citizen touchpoints. High political salience galvanized the people and processes in the system to work in a mission-mode, driving multi-department coordination for all citizen-centric scheme delivery in an efficient and timely manner."
 newsletterBtn: Read Newsletter
 motionGraphic: /img/01_screen.mp4
 newsletterLink: ""
