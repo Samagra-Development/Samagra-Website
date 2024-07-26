@@ -61,10 +61,10 @@ title5: Here is how Haryana worked towards augmenting system capacity
 showImpactVideo: false
 showImpactCard: true
 impactCardFontColor: ""
-img1: /img/cmggaimg.jpg
+img1: /img/cmgga-img-2.jpg
 cardTitle1: Ownership<br> by CMO
 cardDescription1: "Ensuring active involvement and time commitment from CMO "
-img2: /img/cmggaimg.jpg
+img2: /img/cmgga-img-3.jpg
 cardTitle2: Insider-Outsider Positioning
 cardDescription2: Ensuring fellows are not burdened with daily procedures of governance
 img3: /img/cmggaimg.jpg
