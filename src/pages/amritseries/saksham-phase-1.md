@@ -23,31 +23,9 @@ infographic1:
   - img: /img/sk_card4.jpg
 infographic2: []
 title4: What was the journey of Saksham Education Phase 1 in the Governance Matrix?
-newsdescription: 
-  - text: "In our view, the education system of Haryana, from 2017-2020
-  (pre COVID), witnessed a shift from being ‘Comatose’ with low ‘political
-  salience’ and low ‘system capacity’ to ‘Battle Ready’ with high ‘political
-  salience’ and high ‘system capacity.’  The Saksham Haryana (Education)
-  initiative, spearheaded by the Chief Minister, aimed to make 80% students
-  grade-level competent in the elementary grades in the state. This shift was
-  propelled by increased attention to education, evident in the state's
-  performance in ASER and NAS surveys.  Increased political salience, led to
-  system capacity being built over the 3 year period with reforms on the
-  process, people and infrastructural fronts."
-  - text: "At the process front, key changes
-  included- digitizing all education data, revamping assessments for
-  competency-based learning, delivering competency based remediation support and
-  ensuring timely textbook delivery. This was further complemented by cascaded
-  and data-backed reviews at district and block levels. At the people front,
-  administrative and academic levers were strengthened. Online and transparent
-  teacher recruitment and transfers were implemented, the school mentoring cadre
-  was strengthened and teacher training was enhanced so as to be centered around
-  pedagogy techniques for outcome achievement. At the infrastructure level,
-  learning materials were upgraded and digital infrastructure was developed to
-  aid the aforementioned processes.  Additionally, direct involvement of the
-  Chief Minister through quarterly reviews and gamification strategies like
-  Saksham Goshna fostered accountability and shared vision among stakeholders,
-  making the system Battle Ready."
+newsdescription:
+  - text: "In our view, the education system of Haryana, from 2017-2020 (pre-COVID), witnessed a shift from being 'Comatose' with low 'political salience' and low 'system capacity' to 'Battle Ready' with high 'political salience' and high 'system capacity.' The Saksham Haryana (Education) initiative, spearheaded by the Chief Minister, aimed to make 80% of students grade-level competent in the elementary grades in the state. This shift was propelled by increased attention to education, evident in the state's performance in ASER and NAS surveys. Increased political salience led to system capacity being built over the three-year period with reforms on the process, people, and infrastructural fronts."
+  - text: "At the process front, key changes included digitizing all education data, revamping assessments for competency-based learning, delivering competency-based remediation support, and ensuring timely textbook delivery. This was further complemented by cascaded and data-backed reviews at district and block levels. At the people front, administrative and academic levers were strengthened. Online and transparent teacher recruitment and transfers were implemented, the school mentoring cadre was strengthened, and teacher training was enhanced to be centered around pedagogy techniques for outcome achievement. At the infrastructure level, learning materials were upgraded and digital infrastructure was developed to aid the aforementioned processes. Additionally, the direct involvement of the Chief Minister through quarterly reviews and gamification strategies like Saksham Goshna fostered accountability and shared vision among stakeholders, making the system 'Battle Ready.'"
 newsletterBtn: Read Newsletter
 motionGraphic: /img/sh-education.mp4
 newsletterLink: https://www.linkedin.com/pulse/building-saksham-haryana-samagra-transforming-governance-a8ptc/?trackingId=dfu%2Fb4qhRJilZBxvcF9pHw%3D%3D

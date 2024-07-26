@@ -26,23 +26,9 @@ infographic2:
   - img: /img/officialcard2.jpg
   - img: /img/officialcard3.jpg
 title4: What was the journey of Antyodaya Saral in the Governance Matrix?
-newsdescription: 
-  - text: "In our view, scheme and service delivery in Haryana shifted
-  from being ‘Sleeping Giant’ with low ‘political salience’ and high ‘system
-  capacity’ to ‘Battle Ready’ with high ‘political salience’ and high ‘system
-  capacity’. The system already had decent capacity with a well-oiled NIC with
-  strong leadership and decent work on e-District implementation in the state
-  under which some schemes/services had been made accessible at the
-  district/subdivision/tehsil level in physical centres."
-  - text: "Further investment was
-  made in system capacity especially on technology front by building an online
-  platform that could be used directly and in assisted mode. Further capacity
-  was built on physical infrastructure front where physical centres were
-  revamped - made state of the art & single window. Processes were put in place
-  to run this strengthened system. Political salience for transforming schemes
-  and service delivery in Haryana increased from 2017 to 2018 leading to the
-  launch of Antyodaya Saral as an initiative which further streamlined the
-  scheme-service delivery in Haryana."
+newsdescription:
+  - text: "In our view, scheme and service delivery in Haryana shifted from being a 'Sleeping Giant' with low 'political salience' and high 'system capacity' to 'Battle Ready' with high 'political salience' and high 'system capacity'. The system already had decent capacity with a well-oiled NIC with strong leadership and decent work on e-District implementation in the state under which some schemes/services had been made accessible at the district/subdivision/tehsil level in physical centres."
+  - text: "Further investment was made in system capacity, especially on the technology front, by building an online platform that could be used directly and in assisted mode. Further capacity was built on the physical infrastructure front, where physical centres were revamped and made state-of-the-art, single-window operations. Processes were put in place to run this strengthened system. Political salience for transforming schemes and service delivery in Haryana increased from 2017 to 2018, leading to the launch of Antyodaya Saral as an initiative which further streamlined scheme-service delivery in Haryana."
 newsletterBtn: Read Newsletter
 motionGraphic: /img/ezgif-7-6917833407.mp4
 newsletterLink: https://www.linkedin.com/pulse/welfare-landscape-india-government-schemes-qb0fc/?trackingId=f%2Bhgxv7djo7uZwf9up2gRg%3D%3D
