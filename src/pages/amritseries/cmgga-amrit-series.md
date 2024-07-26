@@ -13,10 +13,10 @@ title1: To catalyse governance with young leaders driving  innovation and impact
   in every district of Haryana.
 title2: Every year 22 - 25 young professionals are recruited as CMGGAs (Chief
   Minister’s Good Governance Associates) and placed, one in each of the 22
-  districts of Haryana, to co-work with DCs and the larger district
-  administrations to catalyze quality implementation of 5-7 flagship initiatives
-  of the Chief Minister. A Program Team (PT) from Samagra, stationed in the CM
-  office, manages the program by coordinating with the CM and his team,
+  districts of Haryana, to co-work with District Commissioners and the larger
+  district administrations to catalyze quality implementation of 5-7 flagship
+  initiatives of the Chief Minister. A Program Team from Samagra, stationed in
+  the CM office, manages the programme by coordinating with the CM and his team,
   collaborating with concerned departments at the state level, and overseeing
   the work and experience of CMGGAs.
 title3: What was life like before CMGGA?
