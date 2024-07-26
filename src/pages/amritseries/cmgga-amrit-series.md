@@ -20,14 +20,12 @@ title2: Every year 22 - 25 young professionals are recruited as CMGGAs (Chief
   collaborating with concerned departments at the state level, and overseeing
   the work and experience of CMGGAs.
 title3: What was life like before CMGGA?
-backgroundMap: null
 infographic1:
   - img: /img/cmggastate.jpg
   - img: /img/cmggacard1.jpg
   - img: /img/cmggacard2.jpg
   - img: /img/cmggacard3.jpg
   - img: /img/cmggacard4.jpg
-infographic2: []
 title4: What was the journey of CMGGA in the Governance Matrix?
 newsdescription:
   - text: "In our view, The Chief Minister’s Good Governance Associates (CMGGA)
@@ -35,8 +33,7 @@ newsdescription:
       high political salience and low system capacity to 'Battle Ready' with
       high political salience and high system capacity within two years since
       its inception in 2016. "
-  - text:
-      "The CMGGA Programme assigns one CMGGA (a young professional) to each of
+  - text: "The CMGGA Programme assigns one CMGGA (a young professional) to each of
       Haryana’s 22 districts. It has been the longest running fellowship
       programme in the country, providing young professionals a platform to
       closely work with the district administration to catalyze implementation
@@ -59,29 +56,20 @@ newsdescription:
       including Antyodaya Saral, Saksham Ghoshna, eOffice, Beti Bachao Beti
       Padhao and Amrit Sarovar among others. "
 newsletterBtn: Read Newsletter
+motionGraphic: /img/pov_graphics-base.mp4
 title5: Here is how Haryana worked towards augmenting system capacity
-motionGraphic: null
-newsletterLink: ""
 showImpactVideo: false
-impactVideoLink: ""
 showImpactCard: true
-impactCardFontColor: "#DADADA"
+impactCardFontColor: ""
 img1: /img/cmggaimg.jpg
-cardTitle1: <b>Ownership<br> by CMO</b>
+cardTitle1: Ownership<br> by CMO
 cardDescription1: "Ensuring active involvement and time commitment from CMO "
-cardBtn1: ""
-cardLink1: ""
 img2: /img/cmggaimg.jpg
-cardTitle2: <b>Insider-Outsider Positioning</b>
+cardTitle2: Insider-Outsider Positioning
 cardDescription2: Ensuring fellows are not burdened with daily procedures of governance
-cardBtn2: ""
-cardLink2: ""
 img3: /img/cmggaimg.jpg
-cardTitle3: <b>Strong Programme Team</b>
+cardTitle3: Strong Programme Team
 cardDescription3: Facilitating strategic positioning & support via a programme office
-cardBtn3: ""
-cardLink3: ""
-title6: ""
 icon1: /img/cmggaicon1.jpg
 impactNumber1Char: ""
 impactNumber1: 8
@@ -97,44 +85,32 @@ impactNumber2Text: "%"
 impactNumber2Title: CMGGAs chose to continue their career in the impact space
 showPlus2: true
 icon3: /img/cmggaicon3.jpg
-impactNumber3Char: ""
 impactNumber3: 550
 impactNumber3Decimal: 0
-impactNumber3Text: ""
 impactNumber3Title: Schemes made available through Saral Kendra & Saral Portal
 showPlus3: true
 icon4: /img/cmggaicon4.jpg
-impactNumber4Char: ""
 impactNumber4: 14000
 impactNumber4Decimal: 0
 impactNumber4Title: Students impacted through CMGGA’s work in Saksham Haryana (Education)
-impactNumber4Text: ""
 showPlus4: true
 icon5: /img/cmggaicon5.jpg
-impactNumber5Char: ""
 impactNumber5: 2100
 impactNumber5Decimal: 0
 impactNumber5Title: Ponds rejuvenated to enhance water capacity & panchayat income
-impactNumber5Text: ""
 showPlus5: true
-infographicGoogleDriveLink: ""
-downloadInfographicBtn: ""
-title7: ""
+infographicGoogleDriveLink: https://drive.google.com/file/d/1_YpEMJiUOMctg18JMebQVGwTz--8QZix/view?usp=sharing
+downloadInfographicBtn: Download Infographic
+title7: Insights from the ground
 showBlog: false
-blogTitle: ""
-blogDescription: ""
-blogLink: ""
-showOpEd: false
-opEdTitle: ""
-opEdDescription: ""
-opEdLink: ""
+showOpEd: true
+opEdTitle: Unlocking the power of professionals in governance through effective
+  fellowships
+opEdLink: https://government.economictimes.indiatimes.com/blog/unlocking-the-power-of-professionals-in-governance-through-effective-fellowships/101060442
 showWebinar: false
-webinarTitle: ""
-webinarDescription: ""
-webinarLink: ""
-blogSectionImage: null
+blogSectionImage: /img/cmgga-initiative-1.jpg
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
-successStoriesTitle: View more <i>Success Stories of Impact</i>
-showSuccessStories: hkrn,nlapp
+successStoriesTitle: <i>View more Success Stories of Impact</i>
+showSuccessStories: hkrn, nlapp, saksham-phase-1
 ---
