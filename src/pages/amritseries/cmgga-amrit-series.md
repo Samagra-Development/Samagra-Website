@@ -114,5 +114,5 @@ blogSectionImage: /img/cmgga-initiative-1.jpg
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
 successStoriesTitle: <i>View more Success Stories of Impact</i>
-showSuccessStories: amritsarovar, nlapp, hkrn
+showSuccessStories: amritsarovar,saksham-education,nlapp
 ---
