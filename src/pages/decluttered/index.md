@@ -23,6 +23,10 @@ postCategories:
   - category: Judiciary
 postData:
   - postCard:
+      postImage: /img/file.png
+      urlLink: https://www.instagram.com/reel/C92NE0my6r4/?igsh=cG9mMDAxdnV2bG4x
+      selectedCategory: Judiciary
+  - postCard:
       postImage: /img/structure-of-judiciary_resize.png
       selectedCategory: Judiciary
       urlLink: https://www.instagram.com/reel/C9RcrIWSkBY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
