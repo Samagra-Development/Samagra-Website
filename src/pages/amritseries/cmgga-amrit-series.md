@@ -99,7 +99,7 @@ impactNumber5: 2100
 impactNumber5Decimal: 0
 impactNumber5Title: Ponds rejuvenated to enhance water capacity & panchayat income
 showPlus5: true
-infographicGoogleDriveLink: https://drive.google.com/file/d/1_YpEMJiUOMctg18JMebQVGwTz--8QZix/view?usp=sharing
+infographicGoogleDriveLink: https://drive.google.com/file/d/1qAsgdQk3BhQBs3sJIVse3TayznDwIwuh/view?usp=sharing
 downloadInfographicBtn: Download Infographic
 title7: Insights from the ground
 showBlog: false
