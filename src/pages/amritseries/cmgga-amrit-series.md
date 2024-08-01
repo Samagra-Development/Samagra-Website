@@ -87,12 +87,12 @@ showPlus2: true
 icon3: /img/cmggaicon3.jpg
 impactNumber3: 550
 impactNumber3Decimal: 0
-impactNumber3Title: Schemes made available through Saral Kendra & Saral Portal
+impactNumber3Title: Schemes’ delivery made accessible & transparent via Saral Kendra & Portal
 showPlus3: true
 icon4: /img/cmggaicon4.jpg
 impactNumber4: 14000
 impactNumber4Decimal: 0
-impactNumber4Title: Students impacted through CMGGA’s work in Saksham Haryana (Education)
+impactNumber4Title: Students impacted through work in Saksham Haryana (Education)
 showPlus4: true
 icon5: /img/cmggaicon5.jpg
 impactNumber5: 2100
