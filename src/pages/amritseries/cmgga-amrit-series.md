@@ -1,7 +1,7 @@
 ---
 templateKey: old-case-study
 formType: This is old case study form
-show: false
+show: true
 projectId: CMGGA
 date: 2024-07-19T12:35:46.443Z
 featuredimage: /img/cmgga-header-bg.jpg
