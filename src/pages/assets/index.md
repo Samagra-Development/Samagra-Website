@@ -6,8 +6,8 @@ description: "We craft impactful content that blends persuasive storytelling
   with credible expertise through a unique framework balancing buzz, impact,
   credibility, & emotional connection. The result is a suite of content assets
   spanning four communication styles: Engage, Inspire, Educate, & Convince.
-  Explore Governance Decluttered, Sushasan, Governance Frameworks & Amrit
-  Series, each strategically designed to resonate with the audience."
+  Explore our content assets, each strategically designed to resonate with the
+  audience."
 assetCard1:
   icon: /img/governance_decluttered.png
   description: "Series of bite-sized videos decoding everyday governance topics "
