@@ -97,11 +97,11 @@ icon5: null
 impactNumber5Text: ""
 impactNumber5Title: ""
 showPlus5: false
-showBlog: false
+showBlog: true
 blogTitle: Blog
-blogDescription: Government of Odisha’s single window portal for digital
-  delivery of agricultural schemes to farmers
-blogLink: /blog/2024-02-01-amrit-series-2-go-sugam/
+blogDescription: "State-wide mission to carry out restoration, build
+  community-driven sustainability & enable monetization of ponds "
+blogLink: /blog/2024-08-06-amrit-series-7-amrit-sarovar/
 showOpEd: true
 opEdTitle: "Turning the Tide: A community-driven approach to rejuvenate ponds,
   resolve the water crisis"
