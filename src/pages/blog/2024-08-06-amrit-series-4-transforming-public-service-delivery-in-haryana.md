@@ -12,7 +12,7 @@ Life event based service delivery focuses on the individual citizen or business.
 
 Haryana is home to 3 crore + citizens and the government of Haryana offers over 550+ schemes and services across 35+ departments, touching the lives of all its citizens. However, this landscape was marred by several challenges:
 
-1. Citizen Challenges: 
+Citizen Challenges: 
 
 * Lack of awareness and clarity on eligibility for schemes/services.       
 * Complex application processes and document requirements with multi-departmental involvement.
@@ -20,7 +20,7 @@ Haryana is home to 3 crore + citizens and the government of Haryana offers over 
 
 ![](/img/as-1.jpg)
 
-2. Government Challenges:
+Government Challenges:
 
 * Applications received through multiple channels with limited visibility.
 * Reduction in efficiency due to significant time spent on public interaction
@@ -116,7 +116,5 @@ Haryana’s SARAL has not only been a state success but has also been recognised
 The long-run success of a programme such as this is highly dependent on the ownership that the state-government showcases towards the solution. In the case of Saral, even in 2023, 10% weightage was given to the Saral score of the district for ranking districts in Haryana for the Good Governance Day Awards. Besides this an auto-appeal system was built on top of the Saral dashboard that has made efficient service delivery a focus in the state. The sustained impact of this intervention on the lives of citizens was also noted in an independent survey conducted by HIPA which showed significant improvement in citizen experience (efficiency, accessibility, perception).
 
 Antyodaya Saral has set a new benchmark in citizen-centric governance, transforming public service delivery in Haryana. By leveraging technology, simplifying processes, and fostering a collaborative environment, Haryana has not only enhanced service delivery but also set a replicable model for other states to emulate. The journey of Antyodaya Saral underscores the power of digital governance in bringing about meaningful change, ensuring that government services are accessible, efficient, and transparent for all citizens.
-
-
 
 *This blog is part of the [Amrit Series](https://www.samagragovernance.in/amritseries), where we bring to you success stories of large scale impact through our work across domains and states. You can learn more about Antyodaya Saral [here](https://samagragovernance.in/amritseries/antyodaya-saral/).*
