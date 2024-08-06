@@ -18,11 +18,7 @@ Haryana is home to 3 crore + citizens and the government of Haryana offers over 
 * Complex application processes and document requirements with multi-departmental involvement.
 * Insufficient visibility on application status and feedback loops
 
-
-
 ![](/img/as-1.jpg)
-
-
 
 2. Government Challenges:
 
@@ -30,13 +26,7 @@ Haryana is home to 3 crore + citizens and the government of Haryana offers over 
 * Reduction in efficiency due to significant time spent on public interaction
 * Difficulty in tracking and holding accountable for application status
 
-
-
-
-
 ![](/img/as-2.jpg)
-
-
 
 ### Conceptualising a ‘Saral’ way of life
 
@@ -54,13 +44,7 @@ To start out, all schemes and services were divided into four levels, what the D
 
 There were multiple schemes and services that had been running online for the last 10 years, five years, and were at a technically advanced stage. These schemes ranked higher. On the other hand certain departments were still offering their schemes and services on paper and had not worked on the system even once, these were ranked lower.
 
-
-
-
-
 ![](/img/as-3.png)
-
-
 
 To ensure interoperability of systems housed in different departments, NIC’s ‘Service Plus’ product was utilised. Leveraging the Service Plus architecture from NIC, made the platform scalable, configurable, and integrable with existing systems. It ensured that citizens can apply, track, and receive updates on their applications online, significantly reducing the need for physical visits to government offices. With ‘Service Plus’, 526 schemes and services were brought online, on this platform, in 10-12 months.
 
@@ -73,11 +57,7 @@ Citizen touch points had to be established which included the government service
 * Service Counters: Dual screens ensure transparency as citizens can see the information being entered.
 * Help Desk: Provides immediate assistance and clarifies queries.
 
-
-
 ![](/img/as-4.png)
-
-
 
 These centres were designed to provide a hassle-free, single-window experience where citizens can access all schemes and services without the need for multiple visits or interactions. 6,000 CSCs were also established in the state to extend the applications and tracking of the same services in a decentralised manner.
 
@@ -102,11 +82,7 @@ The Right to Service (RTS) dashboard became a cornerstone of accountability in t
 
 This data-driven approach ensures that government officials are held accountable, and citizens receive timely services. Government officials would have access to a dashboard highlighting all the applications pending on them as well as weekly SMS summary updates, outlining how many applications are pending in their respective jurisdiction.
 
-
-
 ![](/img/as-5.png)
-
-
 
 Besides this each Kendra would also be assigned a Kendra Dashboard and Kendra Score. Kendra Score would take into account the quality metrics of a Saral Kendra, reflecting the kind of experience a citizen has in the Saral Kendra. Those metrics being:
 
@@ -143,10 +119,4 @@ Antyodaya Saral has set a new benchmark in citizen-centric governance, transform
 
 
 
-
-
-![]()
-
-
-
-![]()
+*This blog is part of the [Amrit Series](https://www.samagragovernance.in/amritseries), where we bring to you success stories of large scale impact through our work across domains and states. You can learn more about Antyodaya Saral [here](https://samagragovernance.in/amritseries/antyodaya-saral/).*
