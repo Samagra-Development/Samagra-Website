@@ -40,6 +40,7 @@
     "react-helmet": "^5.2.0",
     "react-id-swiper": "^2.3.2",
     "react-inline-script": "^1.2.0",
+    "react-mailchimp-subscribe": "^2.1.3",
     "react-responsive-modal": "^6.4.2",
     "react-scroll": "^1.7.14",
     "react-social-media-embed": "^2.5.13",
