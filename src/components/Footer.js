@@ -62,8 +62,8 @@ export const FooterComponent = ({}) => {
                 </Link>
               </div>
               <div>
-                <Link to={"/media"}>
-                  <span className="footer-item">Media</span>
+                <Link to={"/samvaad"}>
+                  <span className="footer-item">Samvaad</span>
                 </Link>
               </div>
               <div>

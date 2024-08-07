@@ -1851,6 +1851,28 @@ collections:
                   { label: "Image 4", name: img4, widget: image },
                 ],
             }
+      - file: "src/pages/samvaad/index.md"
+        label: "Samvaad Page"
+        name: "samvaad"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "samvaad-page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Banner Image", name: "bannerImage", widget: "image" }
+          - { label: "Heading 1", name: "heading1", widget: "string" }
+          - { label: "Sub Title", name: "subTitle", widget: "string" }
+          - { label: "Newsletter Heading", name: "heading2", widget: "string" }
+          - { label: "Newsletter Description", name: "description", widget: "string" }
+          - label: "Cards"
+            name: "cards"
+            widget: "list"
+            fields:
+              [
+               { label: "Category", name: "category", widget: "string" },
+               { label: "Title", name: "title", widget: "string" },
+               { label: "Description", name: "description", widget: "text" },
+               { label: "Image", name: "image", widget: "image" },
+               { label: "Link", name: "link", widget: "string" }
+              ]        
       - file: "src/pages/team/index.md"
         label: "Team Page"
         name: "team"

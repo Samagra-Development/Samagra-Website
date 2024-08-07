@@ -98,6 +98,7 @@ const Navbar = class extends React.Component {
                                 <a className="nav-link" href="https://tech.samagragovernance.in" >SamagraX</a>
                             </li>
                             <MenuDropdown menuIcon={showInverted?menuIconBlack:menuIconWhite} heading={"About Us"} data={[{title:"Team",projectUrl:"/team"},
+                            {title:"Samvaad",projectUrl:"/samvaad"},
                             {title:"Partners",projectUrl:"/partners"},
                             {title:"Media",projectUrl:"/media"},
                             {title:"Blog",projectUrl:"/blog"},
