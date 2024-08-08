@@ -1,7 +1,7 @@
 ---
 templateKey: our-assets-page
 title: Our Assets
-bannerImage: /img/img-20240119-wa0007-2.jpg
+bannerImage: /img/dsc00019.jpg
 description: "We craft impactful content that blends persuasive storytelling
   with credible expertise through a unique framework balancing buzz, impact,
   credibility, & emotional connection. The result is a suite of content assets
