@@ -21,7 +21,7 @@ html {
     position: absolute;
     bottom: 20px;
     right: 40px;
-    z-index: 1000;
+    z-index: 2;
     background: transparent;
     border-radius: 50%;
     border: 0 solid white;
@@ -424,7 +424,7 @@ html {
             margin-top: 1rem;
 
             p {
-                font-weight: 500;
+                font-weight: 600;
                 font-size: 1.5rem;
 
             }
@@ -432,12 +432,12 @@ html {
             .social-icons {
                 display: flex;
                 justify-content: center;
-                gap: 10px;
+                gap: 20px;
 
 
 
                 a {
-                    font-size: 1.5rem;
+                    font-size: 1.2rem;
                     color: white;
                     text-decoration: none;
 
@@ -450,4 +450,32 @@ html {
 
 
     }
+}
+@media (max-width: 480px) {
+    .success-modal{
+    .success-modal-content {
+        padding: 1rem;
+
+        .horizontal-success-popup {
+            width: 95%;
+        }
+
+        h2 {
+            font-size: 1rem;
+        }
+
+        .follow-us {
+            p {
+                font-size: 1rem;
+            }
+
+            .social-icons {
+                gap: 10px;
+
+                a {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }}
 }
