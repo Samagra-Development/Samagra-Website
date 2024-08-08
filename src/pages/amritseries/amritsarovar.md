@@ -54,7 +54,7 @@ testimonialAuthorDesignation: Outreach Team, Samagra
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
 successStoriesTitle: View more <i>Success Stories of Impact</i>
-showSuccessStories: "hkrn,ksk,nl app "
+showSuccessStories: "hkrn,ksk,nlapp "
 sideIcon4Text: Impact Numbers
 formType: This is new case study form
 show: true
