@@ -60,10 +60,10 @@ export const SamvaadPage = ({ data }) => {
         <img
           alt="banner-image"
           src={
-            post.frontmatter.bannerImage &&
-            post.frontmatter.bannerImage.childImageSharp
-              ? post.frontmatter.bannerImage.childImageSharp.fluid.src
-              : post.frontmatter.bannerImage
+            post?.frontmatter?.bannerImage &&
+            post?.frontmatter?.bannerImage?.childImageSharp
+              ? post?.frontmatter?.bannerImage?.childImageSharp?.fluid?.src
+              : post?.frontmatter?.bannerImage
           }
           width="100%"
           className="banner-image"
@@ -79,31 +79,31 @@ export const SamvaadPage = ({ data }) => {
           </a>
         )}
         <div className="slider-content">
-          <div className="title">{post.frontmatter.title}</div>
+          <div className="title">{post?.frontmatter?.title}</div>
         </div>
       </div>
 
       <div className="samvaad-intro" id="samvaad_intro">
-        <h2>{post.frontmatter.heading1}</h2>
-        <p>{post.frontmatter.subTitle}</p>
+        <h2>{post?.frontmatter?.heading1}</h2>
+        <p>{post?.frontmatter?.subTitle}</p>
       </div>
 
       <div className="newletter-container">
-        <h2>{post.frontmatter.heading2}</h2>
-        <p>{post.frontmatter.description}</p>
+        <h2>{post?.frontmatter?.heading2}</h2>
+        <p>{post?.frontmatter?.description}</p>
         <div className="card-container">
-          {post.frontmatter?.cards?.map((card, index) => (
+          {post?.frontmatter?.cards?.map((card, index) => (
             <Card
               key={index}
-              category={card.category}
-              title={card.title}
-              description={card.description}
+              category={card?.category}
+              title={card?.title}
+              description={card?.description}
               imageUrl={
-                card.image && card.image.childImageSharp
-                  ? card.image.childImageSharp.fluid.src
-                  : card.image
+                card?.image && card?.image?.childImageSharp
+                  ? card?.image?.childImageSharp?.fluid?.src
+                  : card?.image
               }
-              link={card.link}
+              link={card?.link}
             />
           ))}
         </div>
