@@ -14,7 +14,7 @@ sideIcon2: /img/icon2-gosugam.png
 showsideIcon3: false
 sideIcon3Text: Use Cases
 sideIcon3: /img/icon3-gosugam.png
-impactVideoLink: https://www.youtube.com/embed/R6BojXYVbRs?si=RUC75zwrAxQ2elRS
+impactVideoLink: https://www.youtube.com/embed/rty4YN-WCrE?si=f6j9YjuIWuR6V1o-
 motionGraphic2: /img/post-amrit-sarovar_2.mp4
 impactNumber1: 2100
 impactNumber1Decimal: 0
@@ -103,9 +103,9 @@ blogDescription: "State-wide mission to carry out restoration, build
   community-driven sustainability & enable monetization of ponds "
 blogLink: /blog/2024-08-06-amrit-series-7-amrit-sarovar/
 showOpEd: true
-opEdTitle: "Turning the Tide: A community-driven approach to rejuvenate ponds,
-  resolve the water crisis"
-opEdDescription: ""
+opEdTitle: Op-Ed
+opEdDescription: "Turning the Tide: A community-driven approach to rejuvenate
+  ponds, resolve the water crisis"
 opEdLink: https://government.economictimes.indiatimes.com/blog/turning-the-tide-a-community-driven-solution-to-water-crisis-in-haryana/111271481?utm_source=top_story&utm_medium=homepage
 webinarDescription: Description of webinar
 blogSectionImage: /img/2023_6-largeimg_2086745234.jpg
