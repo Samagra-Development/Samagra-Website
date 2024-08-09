@@ -6,8 +6,7 @@ import upIcon from '../img/up-icon.png';
 import MailchimpSubscribe from 'react-mailchimp-subscribe';
 import SuccessModal from '../components/SamvaadPageComponents/SuccessModal';
 
-const url =
-  'https://esmagico.us14.list-manage.com/subscribe/post?u=73cb31bbc28f98242c2a62588&amp;id=d839accccf&amp;f_id=00acb1e5f0';
+const mailchimpUrl = process.env.GATSBY_MAILCHIMP_URL || '';
 
 const SamvaadPagePreviewTemplate = ({ data }) => {
   if (
@@ -112,14 +111,14 @@ export const SamvaadPage = ({ data }) => {
       <div className="subscribe-section">
         <div className="subscribe-content">
           <h2>Stay in the loop.</h2>
-          <p>
+          {/* <p>
             Keep up to date with new products, all the goss, and anything else
             you might have missed on Twitter.
-          </p>
+          </p> */}
         </div>
         <div className="subscribe-form">
           <MailchimpSubscribe
-            url={url}
+            url={mailchimpUrl}
             render={({ subscribe, status, message }) => (
               <div className="subscribe-form_div">
                 <div className="buttons_wrap">
