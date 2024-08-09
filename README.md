@@ -31,8 +31,6 @@ $ netlify dev # or ntl dev
 
 This project requires certain environment variables to be set up for development and production. These variables are stored in `.env` files.
 
-### Step 1: Create `.env` Files
-
 In the root of your project, create two files: `.env.development` and `.env.production`.
 
 ### Example `.env.development`:
@@ -40,9 +38,7 @@ In the root of your project, create two files: `.env.development` and `.env.prod
 ```env
 GATSBY_MAILCHIMP_URL=https://example.dev-subscribe-url.com
 
-This uses the new [Netlify Dev](https://www.netlify.com/products/dev/?utm_source=blog&utm_medium=netlifycms&utm_campaign=devex) CLI feature to serve any functions you have in the `lambda` folder.
 
-To test the CMS locally, you'll need run a production build of the site:
 
 ```
 $ npm run build
