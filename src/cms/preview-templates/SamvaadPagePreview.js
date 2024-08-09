@@ -1,11 +1,11 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { SamvaadPage } from "../../templates/samvaad-page";
+import {  SamvaadPagePreviewTemplate } from "../../templates/samvaad-page";
 const SamvaadPagePreview = ({entry, getAsset}) => {
     const data = entry.getIn(['data']).toJS();
     if (data) {
         return (
-            <SamvaadPage content={data}/>
+            <SamvaadPagePreviewTemplate post={data}/>
         )
     } else {
         return <div>Loading...</div>

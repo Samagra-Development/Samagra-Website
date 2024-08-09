@@ -8,26 +8,7 @@ import SuccessModal from '../components/SamvaadPageComponents/SuccessModal';
 
 const mailchimpUrl = process.env.GATSBY_MAILCHIMP_URL || '';
 
-const SamvaadPagePreviewTemplate = ({ data }) => {
-  if (
-    data &&
-    data.markdownRemark &&
-    data.markdownRemark.frontmatter &&
-    data.markdownRemark.frontmatter.team &&
-    data.markdownRemark.frontmatter.team &&
-    data.markdownRemark.frontmatter.team[2].name
-  ) {
-    data.markdownRemark.frontmatter.team.splice(2, 0, {});
-  }
-
-  return (
-    <Layout>
-      <SamvaadPage data={data} />
-    </Layout>
-  );
-};
-
-export const SamvaadPage = ({ data }) => {
+export const SamvaadPagePreviewTemplate = ({ post }) => {
   const [mobile, setMobile] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
 
@@ -48,7 +29,6 @@ export const SamvaadPage = ({ data }) => {
     };
   }, []);
 
-  const { markdownRemark: post } = data;
   if (!post.frontmatter.bannerImage) {
     return '';
   }
@@ -60,7 +40,7 @@ export const SamvaadPage = ({ data }) => {
           alt="banner-image"
           src={
             post?.frontmatter?.bannerImage &&
-            post?.frontmatter?.bannerImage?.childImageSharp
+              post?.frontmatter?.bannerImage?.childImageSharp
               ? post?.frontmatter?.bannerImage?.childImageSharp?.fluid?.src
               : post?.frontmatter?.bannerImage
           }
@@ -162,12 +142,24 @@ export const SamvaadPage = ({ data }) => {
           />
         </div>
       </div>
-      {showSuccess ? <SuccessModal onClose={() => setShowSuccess(false)} />:''}
+      {showSuccess ? <SuccessModal onClose={() => setShowSuccess(false)} /> : ''}
     </div>
   );
 };
 
-export default SamvaadPagePreviewTemplate;
+const SamvaadPage = ({ data }) => {
+  const { markdownRemark: post } = data;
+
+  return (
+    <Layout>
+      <SamvaadPagePreviewTemplate post={post} />
+    </Layout>
+  );
+};
+
+
+
+export default SamvaadPage;
 
 export const samvaadPageQuery = graphql`
   query SamvaadPage($id: String!) {
