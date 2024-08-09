@@ -29,9 +29,6 @@ export const SamvaadPagePreviewTemplate = ({ post }) => {
     };
   }, []);
 
-  if (!post.frontmatter.bannerImage) {
-    return '';
-  }
 
   return (
     <div>
@@ -39,10 +36,10 @@ export const SamvaadPagePreviewTemplate = ({ post }) => {
         <img
           alt="banner-image"
           src={
-            post?.frontmatter?.bannerImage &&
-              post?.frontmatter?.bannerImage?.childImageSharp
-              ? post?.frontmatter?.bannerImage?.childImageSharp?.fluid?.src
-              : post?.frontmatter?.bannerImage
+            post?.bannerImage &&
+              post?.bannerImage?.childImageSharp
+              ? post?.bannerImage?.childImageSharp?.fluid?.src
+              : post?.bannerImage
           }
           width="100%"
           className="banner-image"
@@ -58,20 +55,20 @@ export const SamvaadPagePreviewTemplate = ({ post }) => {
           </a>
         )}
         <div className="slider-content">
-          <div className="title">{post?.frontmatter?.title}</div>
+          <div className="title">{post?.title}</div>
         </div>
       </div>
 
       <div className="samvaad-intro" id="samvaad_intro">
-        <h2>{post?.frontmatter?.heading1}</h2>
-        <p>{post?.frontmatter?.subTitle}</p>
+        <h2>{post?.heading1}</h2>
+        <p>{post?.subTitle}</p>
       </div>
 
       <div className="newletter-container">
-        <h2>{post?.frontmatter?.heading2}</h2>
-        <p>{post?.frontmatter?.description}</p>
+        <h2>{post?.heading2}</h2>
+        <p>{post?.description}</p>
         <div className="card-container">
-          {post?.frontmatter?.cards?.map((card, index) => (
+          {post?.cards?.map((card, index) => (
             <Card
               key={index}
               category={card?.category}
@@ -152,7 +149,7 @@ const SamvaadPage = ({ data }) => {
 
   return (
     <Layout>
-      <SamvaadPagePreviewTemplate post={post} />
+      <SamvaadPagePreviewTemplate post={post.frontmatter} />
     </Layout>
   );
 };
@@ -162,8 +159,8 @@ const SamvaadPage = ({ data }) => {
 export default SamvaadPage;
 
 export const samvaadPageQuery = graphql`
-  query SamvaadPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+  query SamvaadPage {
+    markdownRemark(frontmatter: { templateKey: { eq: "samvaad-page" } }) {
       html
       frontmatter {
         bannerImage {
