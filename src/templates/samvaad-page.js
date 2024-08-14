@@ -1,12 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import { graphql } from 'gatsby';
-import Layout from '../components/Layout';
-import Card from '../components/SamvaadPageComponents/NewsletterCard';
-import upIcon from '../img/up-icon.png';
-import MailchimpSubscribe from 'react-mailchimp-subscribe';
-import SuccessModal from '../components/SamvaadPageComponents/SuccessModal';
+import React, { useEffect, useState } from "react";
+import { graphql } from "gatsby";
+import Layout from "../components/Layout";
+import Card from "../components/SamvaadPageComponents/NewsletterCard";
+import upIcon from "../img/up-icon.png";
+import MailchimpSubscribe from "react-mailchimp-subscribe";
+import SuccessModal from "../components/SamvaadPageComponents/SuccessModal";
 
-const mailchimpUrl = process.env.GATSBY_MAILCHIMP_URL || '';
+// const mailchimpUrl = process.env.GATSBY_MAILCHIMP_URL || "";
+const mailchimpUrl =
+  "https://esmagico.us14.list-manage.com/subscribe/post?u=73cb31bbc28f98242c2a62588&amp;id=d839accccf&amp;f_id=00acb1e5f0";
 
 export const SamvaadPagePreviewTemplate = ({ post }) => {
   const [mobile, setMobile] = useState(false);
@@ -22,13 +24,12 @@ export const SamvaadPagePreviewTemplate = ({ post }) => {
     };
     handleResize();
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
-
 
   return (
     <div>
@@ -36,8 +37,7 @@ export const SamvaadPagePreviewTemplate = ({ post }) => {
         <img
           alt="banner-image"
           src={
-            post?.bannerImage &&
-              post?.bannerImage?.childImageSharp
+            post?.bannerImage && post?.bannerImage?.childImageSharp
               ? post?.bannerImage?.childImageSharp?.fluid?.src
               : post?.bannerImage
           }
@@ -49,7 +49,7 @@ export const SamvaadPagePreviewTemplate = ({ post }) => {
             <img
               src={upIcon}
               alt="Scroll to Samvaad Intro"
-              style={{ cursor: 'pointer' }}
+              style={{ cursor: "pointer" }}
             />
             <p>Scroll Down</p>
           </a>
@@ -88,10 +88,9 @@ export const SamvaadPagePreviewTemplate = ({ post }) => {
       <div className="subscribe-section">
         <div className="subscribe-content">
           <h2>Stay in the loop.</h2>
-          {/* <p>
-            Keep up to date with new products, all the goss, and anything else
-            you might have missed on Twitter.
-          </p> */}
+          <p>
+            Subscribe to <b>Samvaad</b> to stay updated!
+          </p>
         </div>
         <div className="subscribe-form">
           <MailchimpSubscribe
@@ -103,7 +102,7 @@ export const SamvaadPagePreviewTemplate = ({ post }) => {
                     type="email"
                     placeholder="Enter your email"
                     onKeyDown={(e) => {
-                      if (e.key === 'Enter') {
+                      if (e.key === "Enter") {
                         subscribe({ EMAIL: e.target.value });
                       }
                     }}
@@ -120,26 +119,31 @@ export const SamvaadPagePreviewTemplate = ({ post }) => {
                     Sign Up
                   </button>
                 </div>
-                {status === 'sending' && (
-                  <div style={{ color: 'white' }}>sending...</div>
+                {status === "sending" && (
+                  <div className="status">sending...</div>
                 )}
-                {status === 'error' && (
+                {status === "error" && (
                   <div
-                    style={{ color: 'red' }}
-                    dangerouslySetInnerHTML={{ __html: message }}
-                  />
+                    className="status"
+                    // dangerouslySetInnerHTML={{ __html: message }}
+                  >
+                    ERROR: Please enter a valid email address to subscribe
+                  </div>
                 )}
-                {status === 'success' && setShowSuccess(true)}
-                <p className="terms">
-                  By clicking Sign Up you're confirming that you agree with our{' '}
-                  <a href="#">Terms and Conditions</a>.
-                </p>
+                {status === "success" && setShowSuccess(true)}
+                {/* <p className="terms">
+                  By clicking Sign Up you're confirming that you agree with our
+                </p> */}
               </div>
             )}
           />
         </div>
       </div>
-      {showSuccess ? <SuccessModal onClose={() => setShowSuccess(false)} /> : ''}
+      {showSuccess ? (
+        <SuccessModal onClose={() => setShowSuccess(false)} />
+      ) : (
+        ""
+      )}
     </div>
   );
 };
@@ -153,8 +157,6 @@ const SamvaadPage = ({ data }) => {
     </Layout>
   );
 };
-
-
 
 export default SamvaadPage;
 
