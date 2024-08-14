@@ -27,10 +27,18 @@ $ cd [REPO_NAME]
 $ yarn
 $ netlify dev # or ntl dev
 ```
+## Environment Variables Setup
 
-This uses the new [Netlify Dev](https://www.netlify.com/products/dev/?utm_source=blog&utm_medium=netlifycms&utm_campaign=devex) CLI feature to serve any functions you have in the `lambda` folder.
+This project requires certain environment variables to be set up for development and production. These variables are stored in `.env` files.
 
-To test the CMS locally, you'll need run a production build of the site:
+In the root of your project, create two files: `.env.development` and `.env.production`.
+
+### Example `.env.development`:
+
+```env
+GATSBY_MAILCHIMP_URL=https://example.dev-subscribe-url.com
+
+
 
 ```
 $ npm run build

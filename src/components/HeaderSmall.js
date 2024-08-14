@@ -263,6 +263,17 @@ export class HeaderSmall extends React.Component {
                       onClick={() => {
                         this.setState({ popupOpened: "inactive" });
                       }}
+                      href="/samvaad"
+                    >
+                      Samvaad
+                    </a>
+                  </div>
+                  <div className="sub-header-list-item">
+                    <a
+                      className="nav-link"
+                      onClick={() => {
+                        this.setState({ popupOpened: "inactive" });
+                      }}
                       href="/partners"
                     >
                       Partners
