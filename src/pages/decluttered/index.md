@@ -86,6 +86,10 @@ postData:
       postImage: /img/fir_resize.jpg
       selectedCategory: Administration
       urlLink: https://www.instagram.com/reel/Cyk8UwNyJ2w/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+  - postCard:
+      selectedCategory: Judiciary
+      urlLink: https://www.youtube.com/embed/xp1hFoisA94?si=jGbVnRzici7rerW6
+      postImage: /img/copy-of-ig-reel-1-.jpg
 instaLink: https://www.instagram.com/samagragovernance/
 assetsHeading: Explore Our Assets
 assets:
