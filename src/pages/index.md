@@ -18,8 +18,7 @@ baseBanner:
 baseBannerVideo: /img/landing-page-video-option-1-.mp4
 ourMission:
   title: Our Mission
-  description: We are working to improve the quality of life of citizens through
-    better governance
+  description: To improve the quality of life of citizens through better governance
 ourModel:
   title: Our Model
   description:
@@ -111,7 +110,7 @@ ourWorkCard:
 linkedInButtonActive: true
 ourJourneyTitle: Our Journey
 ourJourney:
-  - subHeading: 15+ Programs
+  - subHeading: 25+ Programs
     description: Across geographies and domains
     image: /img/programs.png
   - subHeading: 7 Domains
