@@ -29,7 +29,7 @@ team:
       defining the third pillar of Samagra's problem solving
       approach--leveraging data and technology to create impact at scale. Rahul
       drives the use of technology across all our engagements
-    image: /img/Rahul.jpg
+    image: /img/rahul-kulkarni_edited.jpg
     linkedInProfile: https://www.linkedin.com/in/rahul10100/
     name: Rahul Kulkarni
     project: Chief Technologist
