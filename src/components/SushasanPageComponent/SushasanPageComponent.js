@@ -9,22 +9,34 @@ import AssetsFooter from "../AssetsFooter";
 const SushasanPageComponent = ({ content, mobile }) => {
   const [hoveredIndex, setHoveredIndex] = useState(-1);
   const [selectedSeason, setSelectedSeason] = useState("1");
+  const [showAll, setShowAll] = useState(false);
   const [viewPost, setViewPost] = useState("");
   const [selectedSeasonData, setSelectedSeasonData] = useState(
     content?.postData
   );
   useEffect(() => {
-    setSelectedSeasonData(() => {
-      let postdata = content?.postData?.filter((d, i) => {
-        if (selectedSeason === d?.postCard?.selectedCategory) return d;
+    if (mobile) {
+      setSelectedSeasonData(() => {
+        let postdata = content?.postData
+          ?.filter((d, i) => {
+            if (selectedSeason === d?.postCard?.selectedCategory) return d;
+          })
+          .slice(0, 5);
+        return postdata;
       });
-      return postdata;
-    });
-  }, [selectedSeason]);
+    } else {
+      setSelectedSeasonData(() => {
+        let postdata = content?.postData?.filter((d, i) => {
+          if (selectedSeason === d?.postCard?.selectedCategory) return d;
+        });
+        return postdata;
+      });
+    }
+  }, [selectedSeason, mobile]);
 
   return (
-    <div>
-      <div id="sushasan-page">
+    <div id="sushasan-page">
+      <div>
         <div className="sushasan-logo">
           <img
             src={
@@ -62,6 +74,7 @@ const SushasanPageComponent = ({ content, mobile }) => {
                   className="tab-item"
                   onClick={() => {
                     setSelectedSeason(p.season ?? "");
+                    setShowAll(false);
                   }}
                 >
                   {`Sushasan Season ${p.season}`}
@@ -92,7 +105,7 @@ const SushasanPageComponent = ({ content, mobile }) => {
                   />
                   <img
                     src={youtubeIcon2}
-                    alt="expand"
+                    alt="youtube-icon"
                     className="youtube-icon"
                   />
                 </div>
@@ -104,6 +117,38 @@ const SushasanPageComponent = ({ content, mobile }) => {
             );
           })}
         </div>
+        {mobile && !showAll && (
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              padding: "1.5rem 0",
+            }}
+          >
+            <button
+              style={{
+                padding: "12px 24px",
+                color: "#000000",
+                borderRadius: "5px",
+                border: "1px solid #000000",
+                background: "none",
+              }}
+              onClick={() => {
+                setSelectedSeasonData(() => {
+                  let postdata = content?.postData?.filter((d, i) => {
+                    if (selectedSeason === d?.postCard?.selectedCategory)
+                      return d;
+                  });
+                  return postdata;
+                });
+                setShowAll(true);
+              }}
+            >
+              {"View all"}
+            </button>
+          </div>
+        )}
         <div className="youtube-button-section">
           <div className="button-section-description">
             For the latest updates related to our work
@@ -128,7 +173,7 @@ const SushasanPageComponent = ({ content, mobile }) => {
           setHoveredIndex={setHoveredIndex}
           mobile={mobile}
         />
-        <div className="partner-with-us" style={{ borderRadius: "8px" }}>
+        <div className="partner-with-us partner-box">
           <p className="partner-with-us-main-text">Partner with us today!</p>
           <p className="partner-text">
             Write to us at:{" "}

@@ -91,15 +91,13 @@
     color: #121213;
   }
   .button-style {
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     background: rgba(237, 29, 36, 1);
     display: flex;
     align-items: center;
     padding: 12px 18px;
     gap: 12px;
-    border: none;
     border-radius: 8px;
-    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     border: none;
   }
   .insta-icon {
@@ -151,6 +149,7 @@
   }
   .external-link-button {
     display: flex;
+    align-items: center;
     gap: 1rem;
     font-size: 1rem;
     font-weight: 500;
@@ -171,28 +170,47 @@
     display: flex;
     flex-direction: column;
   }
+  .partner-box {
+    border-radius: 8px !important;
+  }
   @media screen and (max-width: 769px) {
+    .video-view {
+      height: 100vh;
+      padding: 1.2rem;
+    }
+    .external-link-button {
+      gap: 0.5rem;
+      font-size: 10px;
+      border-radius: 21px;
+      padding: 8px 12px;
+      margin: 16px 0;
+      cursor: pointer;
+    }
+    .external-link {
+      width: 1rem;
+      height: 1rem;
+    }
     .logo {
       width: 120px;
     }
     .sushasan-logo {
-      margin: 2rem 0;
+      margin: 3rem 0;
     }
     .sushasan-header {
       flex-direction: column;
-      margin: 2rem;
-      gap: 3rem;
+      margin: 1.5rem;
+      gap: 1.5rem;
     }
     .sushasan-header-text {
       flex: 1;
-      font-size: 16px;
+      font-size: 18px;
     }
     .tab-container {
-      padding: 0px 14px;
-      margin: "0";
+      margin: 0px 24px;
+      border-radius: 15.34px;
     }
     .tab-sub-container {
-      // border-bottom: 0.35px solid #E2E2E2;
+      //   border-bottom: 0.35px solid #e2e2e2;
       border-bottom: none;
     }
     .tab-item {
@@ -201,13 +219,16 @@
     }
     .categories-data {
       grid-template-columns: 1fr;
-      padding: 2rem 2rem;
+      padding: 1rem 1.5rem;
       gap: 2em;
     }
     .category-card {
       border-radius: 15px;
       background-color: #eef7ff;
       box-shadow: 0px 0px 6.8px 0px rgba(0, 0, 0, 0.4);
+    }
+    .postcard {
+      border-radius: 6.32px;
     }
     .card-video {
       height: 30vh;
@@ -224,6 +245,35 @@
     }
     .card-name {
       font-size: 15px;
+    }
+    .button-section-description {
+      font-size: 14px;
+    }
+    .youtube-button-section {
+      gap: 12px;
+      padding: 0px;
+    }
+    .button-style {
+      box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.25);
+      padding: 8px 12px;
+      gap: 7px;
+      border-radius: 5.4px;
+    }
+    .youtube-icon-button {
+      width: 34.68px;
+      height: 22.44px;
+    }
+    .button-text {
+      font-size: 15.31px;
+    }
+    .partner-box {
+      border-radius: 6.77px !important;
+      margin: 0px 0px 3rem 0px !important;
+      padding: 91px 45.5px !important;
+    }
+    .partner-text {
+      font-size: 14px;
+      font-weight: 400;
     }
   }
 }
