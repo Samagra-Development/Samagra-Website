@@ -22,7 +22,7 @@ assets:
         work across domains and states.
       link: /amritseries
   - assetCard:
-      assetImage: /img/governance_decluttered.png
+      assetImage: /img/frame-300.png
       name: Governance Decluttered
       description: Series of bite-sized videos decoding everyday governance topics
       link: /decluttered
