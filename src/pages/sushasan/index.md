@@ -99,31 +99,37 @@ postData:
   - postCard:
       postName: P. Narahari
       selectedCategory: "2"
-      urlLink: https://www.youtube.com/embed/V1yNZUThGoU
+      urlLink: https://www.youtube.com/embed/V1yNZUThGoU?si=9CTPbwJ_VbdN3A4D
       episode: "1"
-      postImage: /img/file.png
+      postImage: /img/s2-ep-01.jpg
   - postCard:
       postName: Amit Mohan Prasad
       selectedCategory: "2"
-      urlLink: https://www.youtube.com/embed/a9niDBhFwcU?si=0F2E92SQsXJmZ7IC
+      urlLink: https://www.youtube.com/embed/a9niDBhFwcU?si=APEWS7gccQjGQ8WH
       episode: "2"
-      postImage: /img/file.png
+      postImage: /img/s2-ep-02.jpg
   - postCard:
       postName: Dr. Indu Bhushan
       selectedCategory: "2"
-      urlLink: https://www.youtube.com/embed/FnMSjEFiSw0?si=pj-4N2N0Mc9yhu8x
+      urlLink: https://www.youtube.com/embed/FnMSjEFiSw0?si=dv2LKhRUYF9HtvB5
       episode: "3"
-      postImage: /img/file.png
+      postImage: /img/s2-ep-03.jpg
   - postCard:
       postName: Dr. Pramod Varma
       selectedCategory: "2"
-      urlLink: https://www.youtube.com/embed/IkYZviYmsQs?si=gh10b2JOhdZeEWpZ
+      urlLink: https://www.youtube.com/embed/IkYZviYmsQs?si=N4Jrv9l74g02geYg
       episode: "4"
-      postImage: /img/file.png
+      postImage: /img/s2-ep-04.jpg
   - postCard:
       postName: Manjari Jaruhar
       selectedCategory: "2"
-      urlLink: https://www.youtube.com/embed/lO45u_E9uVI?si=x9WIkk9cX-CGA5lS
+      urlLink: https://www.youtube.com/embed/lO45u_E9uVI?si=XeA8t93x4xie3q4W
       episode: "5"
-      postImage: /img/file.png
+      postImage: /img/s2-ep-05.jpg
+  - postCard:
+      postName: Sachin Gupta
+      selectedCategory: "3"
+      episode: "1"
+      postImage: /img/s3-ep-01.jpg
+      urlLink: https://www.youtube.com/embed/9arabPsV1BY?si=znTUjUaHuC0-olCY
 ---
