@@ -39,33 +39,33 @@ postData:
   - postCard:
       postName: Anil Swarup
       selectedCategory: "1"
-      urlLink: https://youtu.be/vLrZOL0X81k
+      urlLink: https://www.youtube.com/embed/vLrZOL0X81k?si=l1u-o6I2FBJCAW6w
       episode: "1"
       postImage: /img/s1-ep-01.jpg
   - postCard:
       postName: Anita Karwal
       selectedCategory: "1"
-      urlLink: https://www.youtube.com/embed/zidabJy7ous
+      urlLink: https://www.youtube.com/embed/zidabJy7ous?si=O4eBMZ7cUjxBhyBZ
       episode: "2"
-      postImage: /img/file.png
+      postImage: /img/s1-ep-02.jpg
   - postCard:
       postName: Awanish Awasthi
       selectedCategory: "1"
-      urlLink: https://www.youtube.com/embed/yuV5afr7E9E
+      urlLink: https://www.youtube.com/embed/yuV5afr7E9E?si=ii2m9Ab5K4CbPxnO
       episode: "3"
-      postImage: /img/file.png
+      postImage: /img/s1-ep-03.jpg
   - postCard:
       postName: Dr. R.S. Sharma
       selectedCategory: "1"
-      urlLink: https://www.youtube.com/embed/PwFZMd6SG_E
+      urlLink: https://www.youtube.com/embed/PwFZMd6SG_E?si=ekTEjPBUPRlf4rSg
       episode: "4"
-      postImage: /img/file.png
+      postImage: /img/s1-ep-04.jpg
   - postCard:
       postName: Ashish Dhawan
       selectedCategory: "1"
-      urlLink: https://www.youtube.com/embed/xTiOH-ixAYs?si=NWYKLC3iCuWW2BQT
+      urlLink: https://www.youtube.com/embed/xTiOH-ixAYs?si=E5saGiIAG3Dso07S
       episode: "5"
-      postImage: /img/file.png
+      postImage: /img/s1-ep-05.jpg
   - postCard:
       postName: Jasmine Shah
       selectedCategory: "1"
