@@ -69,33 +69,33 @@ postData:
   - postCard:
       postName: Jasmine Shah
       selectedCategory: "1"
-      urlLink: https://www.youtube.com/embed/iZlZWSMVTXU?si=A1gVJ6a7KAnzwByo
+      urlLink: https://www.youtube.com/embed/iZlZWSMVTXU?si=hwsj1SP9ZDBBxoBH
       episode: "6"
-      postImage: /img/file.png
+      postImage: /img/s1-ep-06.jpg
   - postCard:
       postName: Rajesh Bhushan
       selectedCategory: "1"
-      urlLink: https://www.youtube.com/embed/eLvVvaat5Aw?si=peOpV2Jkvbafc1lk
+      urlLink: https://www.youtube.com/embed/eLvVvaat5Aw?si=8et_LZZ0KrI7CYeG
       episode: "7"
-      postImage: /img/file.png
+      postImage: /img/s1-ep-07.jpg
   - postCard:
       postName: Alok Kumar
       selectedCategory: "1"
-      urlLink: https://www.youtube.com/embed/8QzklM9DPPg?si=P0aneaWuRtvU5nIT
+      urlLink: https://www.youtube.com/embed/8QzklM9DPPg?si=kizlVQPffMCIB7vX
       episode: "8"
-      postImage: /img/file.png
+      postImage: /img/s1-ep-08.jpg
   - postCard:
       postName: Dr. Rakesh Gupta
       selectedCategory: "1"
-      urlLink: https://www.youtube.com/embed/2uZtnYNCRxg?si=fb8XBafE6yeQeY8-
+      urlLink: https://www.youtube.com/embed/2uZtnYNCRxg?si=RfI0zRsTRYfuXo-Y
       episode: "9"
-      postImage: /img/file.png
+      postImage: /img/s1-ep-09.jpg
   - postCard:
       postName: Dr. S.Y. Quraishi
       selectedCategory: "1"
-      urlLink: https://www.youtube.com/embed/oO1S9puUE1M?si=ZEW5wHc2Ub8vbkIN
+      urlLink: https://www.youtube.com/embed/oO1S9puUE1M?si=VKb7TlSmndJHMLem
       episode: "10"
-      postImage: /img/file.png
+      postImage: /img/s1-ep-10.jpg
   - postCard:
       postName: P. Narahari
       selectedCategory: "2"
