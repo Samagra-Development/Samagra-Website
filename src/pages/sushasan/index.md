@@ -3,29 +3,45 @@ templateKey: sushasan-page
 title: Sushasan
 bannerImage: /img/sushasan_banner.png
 logo: /img/sushasan.png
-text: >-
-  Sushasan is India’s first podcast exclusively focused on governance, where we
-  bring you unfiltered conversations with the people behind India’s governance.
-  In this captivating podcast, our Founder & CEO, Gaurav Goel, interviews
-  leaders who work in or with the government to create large-scale impact. The
-  podcast offers listeners a ringside view of the functioning of the Indian
-  state as well as a glimpse into the personal journeys of these leaders. <br>
-  <br>
-  Subscribe now and watch all the latest episodes on Sushasan's YouTube channel for governance behind-the-scenes! <br> <br>
+text: Sushasan is India’s first podcast exclusively focused on governance, where
+  we bring you unfiltered conversations with the people behind India’s
+  governance. In this captivating podcast, our Founder & CEO, Gaurav Goel,
+  interviews leaders who work in or with the government to create large-scale
+  impact. The podcast offers listeners a ringside view of the functioning of the
+  Indian state as well as a glimpse into the personal journeys of these leaders.
+  <br> <br> Subscribe now and watch all the latest episodes on Sushasan's
+  YouTube channel for governance behind-the-scenes! <br> <br>
   <b>#GovernanceBTS</b>
+youtubeLink: https://www.youtube.com/@SushasanThePodcast
+assetsHeading: Explore Our Assets
+assets:
+  - assetCard:
+      assetImage: /img/amrit-series-3-.png
+      name: Amrit Series
+      description: A collection of success stories of large scale impact through our
+        work across domains and states.
+      link: /amritseries
+  - assetCard:
+      assetImage: /img/governance_decluttered.png
+      name: Governance Decluttered
+      description: Series of bite-sized videos decoding everyday governance topics
+      link: /decluttered
+  - assetCard:
+      assetImage: /img/amrit-series-2-.png
+      name: Governance Frameworks
+      description: The Governance Matrix and Panchsutras for Governance Transformation.
+      link: /governanceframeworks
 postCategories:
   - season: "1"
   - season: "2"
   - season: "3"
-  - season: "4"
-  - season: "5"
 postData:
   - postCard:
       postName: Anil Swarup
       selectedCategory: "1"
-      urlLink: https://www.youtube.com/embed/vLrZOL0X81k
+      urlLink: https://youtu.be/vLrZOL0X81k
       episode: "1"
-      postImage: /img/file.png
+      postImage: /img/s1-ep-01.jpg
   - postCard:
       postName: Anita Karwal
       selectedCategory: "1"
@@ -110,24 +126,4 @@ postData:
       urlLink: https://www.youtube.com/embed/lO45u_E9uVI?si=x9WIkk9cX-CGA5lS
       episode: "5"
       postImage: /img/file.png
-youtubeLink: https://www.youtube.com/@SushasanThePodcast
-assetsHeading: Explore Our Assets
-assets:
-  - assetCard:
-      assetImage: /img/amrit-series-3-.png
-      name: Amrit Series
-      description:
-        A collection of success stories of large scale impact through our
-        work across domains and states.
-      link: /amritseries
-  - assetCard:
-      assetImage: /img/amrit-series-1-.png
-      name: Sushasan
-      description: India’s first podcast exclusively focused on governance.
-      link: /sushasan
-  - assetCard:
-      assetImage: /img/amrit-series-2-.png
-      name: Governance Frameworks
-      description: The Governance Matrix and Panchsutras for Governance Transformation.
-      link: /governanceframeworks
 ---
