@@ -18,7 +18,7 @@ baseBanner:
 baseBannerVideo: /img/landing-page-video-option-1-.mp4
 ourMission:
   title: Our Mission
-  description: To improve the quality of life <br> of citizens through better governance
+  description: To improve the quality of life of citizens through better governance
 ourModel:
   title: Our Model
   description:
