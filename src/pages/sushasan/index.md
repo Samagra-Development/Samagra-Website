@@ -12,15 +12,14 @@ text: Sushasan is India’s first podcast exclusively focused on governance, whe
   <br> <br> Subscribe now and watch all the latest episodes on Sushasan's
   YouTube channel for governance behind-the-scenes! <br> <br>
   <b>#GovernanceBTS</b>
-youtubeTrailerLink: https://www.youtube.com/embed/8vYy8lJAfeg?si=yLvGhe5hxMV2OTFZ
-youtubeLink: https://www.youtube.com/embed/8vYy8lJAfeg?si=yLvGhe5hxMV2OTFZ
+youtubeTrailerLink: https://www.youtube.com/embed/hIJaBY_d55E?si=O9Lu0nlfjT0vm6oz
+youtubeLink: https://www.youtube.com/embed/hIJaBY_d55E?si=O9Lu0nlfjT0vm6oz
 assetsHeading: Explore Our Assets
 assets:
   - assetCard:
       assetImage: /img/amrit-series-3-.png
       name: Amrit Series
-      description:
-        A collection of success stories of large scale impact through our
+      description: A collection of success stories of large scale impact through our
         work across domains and states.
       link: /amritseries
   - assetCard:
