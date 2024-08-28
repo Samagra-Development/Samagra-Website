@@ -82,6 +82,7 @@ export const mediaPageQuery = graphql`
           }
         }
         text
+        youtubeTrailerLink
         youtubeLink
         assetsHeading
         assets {

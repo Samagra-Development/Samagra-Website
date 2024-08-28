@@ -51,7 +51,7 @@ const SushasanPageComponent = ({ content, mobile }) => {
         <div className="sushasan-header">
           <iframe
             style={{ borderRadius: "8px", flex: "1" }}
-            src="https://www.youtube.com/embed/evr-R7iC1VM/"
+            src={content?.youtubeTrailerLink}
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
