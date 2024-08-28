@@ -2183,6 +2183,11 @@ collections:
           - { label: "Banner Image", name: "bannerImage", widget: "image" }
           - { label: "Logo", name: "logo", widget: "image" }
           - { label: "Text", name: "text", widget: "string" }
+          - {
+              label: "Youtube Trailer Link",
+              name: "youtubeTrailerLink",
+              widget: "string",
+            }
           - { label: "Youtube Link", name: "youtubeLink", widget: "string" }
           - { label: "Assets Heading", name: "assetsHeading", widget: "string" }
           - {
