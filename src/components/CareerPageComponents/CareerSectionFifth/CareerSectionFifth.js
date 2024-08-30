@@ -77,7 +77,7 @@ const CareerSectionFifth = ({ content }) => {
               })}
             </div>
           </div>
-          <div className="row mt-5 pt-5">
+          <div className="row join-us-btn pt-5">
             <div className="col-12 text-center">
               <PrimaryButton
                 classes={"py-3 text-uppercase"}
