@@ -1314,6 +1314,12 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               className="partner-with-us"
               style={{ marginTop: mobile ? "100px" : "150px" }}
             >
+              {content?.footersubText1 && (
+                <p className="partner-with-us-secondary-text">
+                  {content?.footersubText1}
+                </p>
+                
+              )}
               {content?.footerText1 && (
                 <p className="partner-with-us-main-text">
                   {content?.footerText1}
@@ -1751,8 +1757,10 @@ export const pageQuery = graphql`
             }
           }
         }
+          
         footerText1
         footerText2
+        footersubText1
         successStoriesTitle
         showSuccessStories
       }

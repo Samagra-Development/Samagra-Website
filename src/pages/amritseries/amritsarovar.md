@@ -51,6 +51,8 @@ testimonialText: Lorem ipsum dolor sit amet consectetur adipisicing elit.
   voluptatum aliquam vitae iure.
 testimonialAuthor: Garima Sood
 testimonialAuthorDesignation: Outreach Team, Samagra
+footersubText1: It is a long established fact that a reader will be distracted by the readable [NIPUN Bharat](/project/nipun-bharat-cell/) when looking at its layout.
+
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
 successStoriesTitle: View more <i>Success Stories of Impact</i>

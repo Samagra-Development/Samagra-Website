@@ -3,7 +3,7 @@ backend:
   branch: master
   publish_mode: editorial_workflow
 
-# local_backend: true
+local_backend: true
 
 editorial_workflow:
   enable: true
@@ -584,6 +584,13 @@ collections:
           widget: image,
           required: false,
           default: null,
+        }
+      - {
+          label: "Footer Sub Text 1",
+          name: "footersubText1",
+          widget: "markdown",
+          required: false,
+          default: "",
         }
       - {
           label: "Footer Text 1",
@@ -1233,6 +1240,7 @@ collections:
           required: false,
           default: null,
         }
+        
       - {
           label: "Footer Text 1",
           name: "footerText1",
