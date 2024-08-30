@@ -63,7 +63,7 @@ export class ProductPageSecondSection extends React.Component {
               <div className="objective-card">
                 <div className="title">Overview</div>
                 {project.overview.map((o) => {
-                  return <p style={{ fontSize: "18px" }}>{o.text}</p>;
+                  return <p style={{ fontSize: "18px",textAlign:"justify" }}>{o.text}</p>;
                 })}
               </div>
             </div>
@@ -112,7 +112,7 @@ export class ProductPageSecondSection extends React.Component {
               <div className="approach-card">
                 <div className="title">Approach</div>
                 {project.approach.map((o) => {
-                  return <p style={{ fontSize: "18px" }}>{o.text}</p>;
+                  return <p style={{ fontSize: "18px" ,textAlign:"justify" }}>{o.text}</p>;
                 })}
               </div>
             </div>

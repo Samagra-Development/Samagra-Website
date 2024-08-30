@@ -65,7 +65,7 @@ export const ProductPageKeyInitiatives = ({ project }) => {
                   {kO.title}
                 </div>
 
-                <div className={"description"}>
+                <div className={"description"} style={{textAlign:"justify" }}>
                   {kO.description.text}
                   <div style={{ marginTop: "30px" }}>
                     <CustomPagerButtons

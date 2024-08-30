@@ -84,7 +84,8 @@ export default function CaseStudiesIndexPage() {
               ></iframe>
               <p className="sushasan-channel-trailer-text">
                 <div
-                  className={"py-2 text-left f-18 color-text-primary main-text"}
+                 className={"py-2 sushasan-desc text-sm-start f-18 color-text-primary main-text"}
+
                 >
                   At Samagra, we are on a mission to improve the quality of life
                   of citizens through better governance. <br></br>
