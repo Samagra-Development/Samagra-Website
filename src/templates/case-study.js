@@ -23,6 +23,7 @@ import "react-responsive-modal/styles.css";
 import CountUp from "react-countup";
 import SuccessStoriesSection from "../components/CaseStudyComponents/SuccessStoriesSection";
 import SectionDivider from "../components/CaseStudyComponents/SectionDivider";
+import ReactMarkdown from 'react-markdown';
 
 function FadeInSection(props) {
   const [isVisible, setVisible] = useState(false);
@@ -1308,27 +1309,27 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
         {/* <div className="spacer">
         <img src={spacer} alt="" />
       </div> */}
-        {isFooter && (
-          <FadeInSection>
-            <div
-              className="partner-with-us"
-              style={{ marginTop: mobile ? "100px" : "150px" }}
-            >
-              {content?.footersubText1 && (
-                <p className="partner-with-us-secondary-text">
-                  {content?.footersubText1}
-                </p>
-                
-              )}
-              {content?.footerText1 && (
-                <p className="partner-with-us-main-text">
-                  {content?.footerText1}
-                </p>
-              )}
-              {content?.footerText2 && <p>{content?.footerText2}</p>}
-            </div>
-          </FadeInSection>
-        )}
+      {isFooter && (
+  <FadeInSection>
+    <div
+      className="partner-with-us"
+      style={{ marginTop: mobile ? "100px" : "150px" }}
+    >
+      {content?.footersubText1 && (
+        <div className="partner-with-us-secondary-text">
+          <ReactMarkdown>{content.footersubText1}</ReactMarkdown>
+        </div>
+      )}
+      {content?.footerText1 && (
+        <p className="partner-with-us-main-text">
+          {content.footerText1}
+        </p>
+      )}
+      {content?.footerText2 && <p>{content.footerText2}</p>}
+    </div>
+  </FadeInSection>
+)}
+
       </>
     );
   };
