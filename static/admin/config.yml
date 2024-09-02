@@ -1452,6 +1452,17 @@ collections:
               },
             ],
         }
+      - {
+          label: Partners,
+          name: partners,
+          widget: list,
+          fields:
+            [
+              { label: Name, name: name, widget: string },
+              { label: Logo, name: logo, widget: image },
+            ],
+          required: false,
+        }
   - name: "pages"
     label: "Pages"
     files:

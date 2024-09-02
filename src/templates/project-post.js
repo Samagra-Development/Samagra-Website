@@ -6,25 +6,20 @@ import { ProductPageSecondSection } from "../components/ProductPageComponents/Pr
 import { ProductPageKeyInitiatives } from "../components/ProductPageComponents/ProductPageKeyInitiatives/ProductPageKeyInitiatives";
 import OurPublicationsSection from "../components/ProductPageComponents/OurPublicationsSection/OurPublicationsSection";
 
-const OurPartnersSection = () => {
+const OurPartnersSection = ({ partners }) => {
+  if (!partners || partners?.length === 0) {
+    return null; 
+  }
+
   return (
-      <div className="partners-section">
+    <div className="partners-section">
       <h2 className="partners-heading">Our Partners</h2>
       <div className="partners-container">
-        {[
-          { name: "Teleport", logo: "/img/amritseries.png" },
-          { name: "homebot", logo: "/img/amritseries.png" },
-          { name: "stedi", logo: "/img/amritseries.png" },
-          { name: "Flatfile", logo: "/img/amritseries.png" },
-          { name: "IIElevenLabs", logo: "/img/amritseries.png" },
-           { name: "Teleport", logo: "/img/amritseries.png" },
-          { name: "homebot", logo: "/img/amritseries.png" },
-          { name: "stedi", logo: "/img/amritseries.png" },
-        ].map((partner, index) => (
+        {partners?.map((partner, index) => (
           <div key={index} className="partner-item">
             <img
-              src={partner.logo}
-              alt={partner.name}
+              src={partner?.logo}
+              alt={partner?.name}
               className="partner-logo"
             />
           </div>
@@ -43,8 +38,7 @@ export const ProjectPostTemplate = ({ project }) => {
         <ProductPageKeyInitiatives project={project} />
       ) : null}
 
-      {/* Our Partners Section */}
-      <OurPartnersSection />
+      <OurPartnersSection partners={project.partners} />
 
       <OurPublicationsSection
         readMore={project.readMore}
@@ -130,6 +124,10 @@ export const pageQuery = graphql`
           description {
             text
           }
+        }
+        partners {
+          name
+          logo
         }
       }
     }
