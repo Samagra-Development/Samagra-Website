@@ -675,6 +675,40 @@ p {
 .join-us-btn{
   margin-top:6rem
 }
+.partners-section {
+  background-color: #fdf7ed;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.partners-heading {
+  font-size: 38px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.partners-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.partner-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 20%;
+  min-width: 150px;
+  margin: 0.5rem 0;
+}
+
+.partner-logo {
+  height: 3rem;
+  width: auto;
+}
+
 
 // For mobile view
 @media only screen and (max-width: 768px) {

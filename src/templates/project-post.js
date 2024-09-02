@@ -1,11 +1,38 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-// import Content from '../components/Content'
 import ProductBannerImage from "../components/ProductPageComponents/ProductBannerImage/ProductBannerImage";
 import { ProductPageSecondSection } from "../components/ProductPageComponents/ProductPageSecondSection/ProductPageSecondSection";
 import { ProductPageKeyInitiatives } from "../components/ProductPageComponents/ProductPageKeyInitiatives/ProductPageKeyInitiatives";
 import OurPublicationsSection from "../components/ProductPageComponents/OurPublicationsSection/OurPublicationsSection";
+
+const OurPartnersSection = () => {
+  return (
+      <div className="partners-section">
+      <h2 className="partners-heading">Our Partners</h2>
+      <div className="partners-container">
+        {[
+          { name: "Teleport", logo: "/img/amritseries.png" },
+          { name: "homebot", logo: "/img/amritseries.png" },
+          { name: "stedi", logo: "/img/amritseries.png" },
+          { name: "Flatfile", logo: "/img/amritseries.png" },
+          { name: "IIElevenLabs", logo: "/img/amritseries.png" },
+           { name: "Teleport", logo: "/img/amritseries.png" },
+          { name: "homebot", logo: "/img/amritseries.png" },
+          { name: "stedi", logo: "/img/amritseries.png" },
+        ].map((partner, index) => (
+          <div key={index} className="partner-item">
+            <img
+              src={partner.logo}
+              alt={partner.name}
+              className="partner-logo"
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
 
 export const ProjectPostTemplate = ({ project }) => {
   return (
@@ -16,6 +43,9 @@ export const ProjectPostTemplate = ({ project }) => {
         <ProductPageKeyInitiatives project={project} />
       ) : null}
 
+      {/* Our Partners Section */}
+      <OurPartnersSection />
+
       <OurPublicationsSection
         readMore={project.readMore}
         projectId={project.id}
@@ -23,6 +53,7 @@ export const ProjectPostTemplate = ({ project }) => {
     </section>
   );
 };
+
 const ProjectPost = ({ data }) => {
   const { markdownRemark: item } = data;
   const project = item.frontmatter;
@@ -104,10 +135,3 @@ export const pageQuery = graphql`
     }
   }
 `;
-// centerBanner {
-//     childImageSharp {
-//         fluid(maxWidth: 240, quality: 64) {
-//         ...GatsbyImageSharpFluid
-//         }
-//     }
-// }
