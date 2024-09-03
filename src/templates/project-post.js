@@ -6,28 +6,28 @@ import { ProductPageSecondSection } from "../components/ProductPageComponents/Pr
 import { ProductPageKeyInitiatives } from "../components/ProductPageComponents/ProductPageKeyInitiatives/ProductPageKeyInitiatives";
 import OurPublicationsSection from "../components/ProductPageComponents/OurPublicationsSection/OurPublicationsSection";
 
-const OurPartnersSection = ({ partners }) => {
-  if (!partners || partners?.length === 0) {
-    return null; 
-  }
+// const OurPartnersSection = ({ partners }) => {
+//   if (!partners || partners?.length === 0) {
+//     return null; 
+//   }
 
-  return (
-    <div className="partners-section">
-      <h2 className="partners-heading">Our Partners</h2>
-      <div className="partners-container">
-        {partners?.map((partner, index) => (
-          <div key={index} className="partner-item">
-            <img
-              src={partner?.logo}
-              alt={partner?.name}
-              className="partner-logo"
-            />
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
+//   return (
+//     <div className="partners-section">
+//       <h2 className="partners-heading">Our Partners</h2>
+//       <div className="partners-container">
+//         {partners?.map((partner, index) => (
+//           <div key={index} className="partner-item">
+//             <img
+//               src={partner?.logo}
+//               alt={partner?.name}
+//               className="partner-logo"
+//             />
+//           </div>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// };
 
 export const ProjectPostTemplate = ({ project }) => {
   return (
@@ -38,8 +38,12 @@ export const ProjectPostTemplate = ({ project }) => {
         <ProductPageKeyInitiatives project={project} />
       ) : null}
 
-      <OurPartnersSection partners={project.partners} />
+     {/* {
 
+     ( project?.partners && project?.partners?.length !== 0) && (
+      <OurPartnersSection partners={project?.partners} />
+    )
+      } */}
       <OurPublicationsSection
         readMore={project.readMore}
         projectId={project.id}
@@ -124,10 +128,6 @@ export const pageQuery = graphql`
           description {
             text
           }
-        }
-        partners {
-          name
-          logo
         }
       }
     }
