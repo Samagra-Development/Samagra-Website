@@ -133,4 +133,10 @@ postData:
       episode: "1"
       postImage: /img/s3-ep-01.jpg
       urlLink: https://www.youtube.com/embed/9arabPsV1BY?si=znTUjUaHuC0-olCY
+  - postCard:
+      postName: "3"
+      episode: "2"
+      urlLink: https://www.youtube.com/embed/d2ZoSvFuLzc?si=4FNFFzymsSuw9_CF
+      selectedCategory: Suhas L. Yathiraj
+      postImage: /img/journey-to-gold-ep3-td-v2.png
 ---
