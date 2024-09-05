@@ -128,7 +128,7 @@ postData:
       episode: "5"
       postImage: /img/s2-ep-05.jpg
   - postCard:
-      postName: Sachin Gupta
+      postName: Dr. Sachin Gupta
       selectedCategory: "3"
       episode: "1"
       postImage: /img/s3-ep-01.jpg
