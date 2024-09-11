@@ -71,7 +71,7 @@ title5: ""
 showImpactVideo: false
 impactVideoLink: ""
 showImpactCard: true
-impactCardFontColor: "#DADADA"
+impactCardFontColor: "#ffffff"
 img1: /img/ttd_img_1.jpg
 cardTitle1: REVAMPING DEMAND COLLECTION
 cardDescription1: Tech driven, centralised demand collection process introduced
