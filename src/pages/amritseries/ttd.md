@@ -78,12 +78,12 @@ cardDescription1: Tech driven, centralised demand collection process introduced
 cardBtn1: ""
 cardLink1: ""
 img2: /img/ttd_img_2.jpg
-cardTitle2: PRIORITIZING TENDERS
+cardTitle2: PRIORITIZING <br> TENDER <br> PROCESS
 cardDescription2: Initiating the tender process for printing of textbooks early on
 cardBtn2: ""
 cardLink2: ""
 img3: /img/ttd_img_3.jpg
-cardTitle3: OPTIMISING FOR DELIVERY
+cardTitle3: OPTIMISING <br> FOR <br> DELIVERY
 cardDescription3: Shift from multiple distributors being mapped to one school
 cardBtn3: ""
 cardLink3: ""
