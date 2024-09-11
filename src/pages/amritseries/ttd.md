@@ -26,7 +26,8 @@ infographic2:
   - img: /img/ttd_dept_card1.jpg
   - img: /img/ttd_dept_card2.jpg
   - img: /img/ttd_dept_card2-1.jpg
-title4: ""
+title4: Here is how the Haryana government worked in a mission mode to augment
+  the 'political salience' and 'system capacity'
 newsdescription:
   - text: ""
   - text: In our view, the timely textbook delivery under the  Samarth Programme of
@@ -66,7 +67,7 @@ newsdescription:
 newsletterBtn: ""
 motionGraphic: /img/pov_graphics-base-2-.mp4
 newsletterLink: ""
-title5: Here is how the Haryana government worked in a mission mode to augment the...
+title5: ""
 showImpactVideo: false
 impactVideoLink: ""
 showImpactCard: false
