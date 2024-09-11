@@ -141,5 +141,5 @@ blogSectionImage: /img/samarth-header-bg.jpg
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.i"
 successStoriesTitle: View more Success Stories of Impact
-showSuccessStories: nlapp, hkrn, saksham-education
+showSuccessStories: hkrn,amritsarovar,nlapp
 ---
