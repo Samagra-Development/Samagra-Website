@@ -88,29 +88,33 @@ cardDescription3: Shift from multiple distributors being mapped to one school
 cardBtn3: ""
 cardLink3: ""
 title6: ""
-impactNumber1Char: ""
-impactNumber1: 0
+icon1: /img/icon_1_ttd.jpg
+impactNumber1Char: "#"
+impactNumber1: 1
 impactNumber1Decimal: 0
 impactNumber1Text: ""
-impactNumber1Title: ""
+impactNumber1Title: Himachal Pradesh ranks first in the country to deliver textbooks timely
 showPlus1: false
+icon2: /img/icon_2_ttd.jpg
 impactNumber2Char: ""
-impactNumber2: 0
+impactNumber2: 55
 impactNumber2Decimal: 0
-impactNumber2Text: ""
-impactNumber2Title: ""
-showPlus2: false
+impactNumber2Text: " Lakh"
+impactNumber2Title: Textbooks delivered prior to commencement of new academic session
+showPlus2: true
+icon3: /img/icon_3_ttd.jpg
 impactNumber3Char: ""
-impactNumber3: 0
+impactNumber3: 6
 impactNumber3Decimal: 0
-impactNumber3Text: ""
-impactNumber3Title: ""
-showPlus3: false
+impactNumber3Text: " Lakh"
+impactNumber3Title: Students across 15k+ government schools impacted
+showPlus3: true
+icon4: /img/icon_4_ttd.jpg
 impactNumber4Char: ""
-impactNumber4: 0
-impactNumber4Decimal: 0
-impactNumber4Text: ""
-impactNumber4Title: ""
+impactNumber4: 2.5
+impactNumber4Decimal: 1
+impactNumber4Text: " Months"
+impactNumber4Title: delay bridged by strengthening supply chain operations
 showPlus4: false
 impactNumber5Char: ""
 impactNumber5: 0
@@ -118,13 +122,13 @@ impactNumber5Decimal: 0
 impactNumber5Text: ""
 impactNumber5Title: ""
 showPlus5: false
-infographicGoogleDriveLink: ""
-downloadInfographicBtn: ""
-title7: ""
-showBlog: false
-blogTitle: ""
+infographicGoogleDriveLink: https://drive.google.com/file/d/12JlJ5R3S83fXd2dxnktaiFoYBsa6ezQm/view?usp=sharing
+downloadInfographicBtn: Download Infographic
+title7: Insights from the ground
+showBlog: true
+blogTitle: Himachal Pradesh sets example by giving school textbooks in advance
 blogDescription: ""
-blogLink: ""
+blogLink: https://drive.google.com/file/d/12JlJ5R3S83fXd2dxnktaiFoYBsa6ezQm/view?usp=sharing
 showOpEd: false
 opEdTitle: ""
 opEdDescription: ""
@@ -133,8 +137,9 @@ showWebinar: false
 webinarTitle: ""
 webinarDescription: ""
 webinarLink: ""
-footerText1: ""
-footerText2: ""
-successStoriesTitle: ""
+blogSectionImage: /img/samarth-header-bg.jpg
+footerText1: Partner with us today!
+footerText2: "Write to us at: outreach@samagragovernance.i"
+successStoriesTitle: View more Success Stories of Impact
 showSuccessStories: nlapp, hkrn, saksham-education
 ---
