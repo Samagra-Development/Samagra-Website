@@ -70,7 +70,7 @@ newsletterLink: ""
 title5: ""
 showImpactVideo: false
 impactVideoLink: ""
-showImpactCard: false
+showImpactCard: true
 impactCardFontColor: "#DADADA"
 img1: /img/ttd_img_1.jpg
 cardTitle1: REVAMPING DEMAND COLLECTION
