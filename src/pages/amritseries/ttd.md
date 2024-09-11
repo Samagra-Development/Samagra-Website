@@ -1,7 +1,7 @@
 ---
 templateKey: old-case-study
 formType: This is old case study form
-show: false
+show: true
 projectId: TTD
 date: 2024-08-28T08:59:29.742Z
 featuredimage: /img/samarth-initiative-1.jpeg
