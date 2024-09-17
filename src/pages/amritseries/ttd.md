@@ -2,7 +2,7 @@
 templateKey: old-case-study
 formType: This is old case study form
 show: true
-projectId: TTD
+projectId: TIMELY TEXTBOOK DELIVERY
 date: 2024-08-28T08:59:29.742Z
 featuredimage: /img/samarth-initiative-1.jpeg
 buttonText: Learn More
@@ -20,7 +20,7 @@ infographic1:
   - img: /img/ttd_teacher.jpg
   - img: /img/ttd_teacher_card1.jpg
   - img: /img/ttd_teacher_card2.jpg
-  - img: /img/ttd_teacher_card2-1.jpg
+  - img: /img/ttd_teacher_card_3.jpg
 infographic2:
   - img: /img/ttd_dept.jpg
   - img: /img/ttd_dept_card1.jpg
