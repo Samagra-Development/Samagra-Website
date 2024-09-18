@@ -106,6 +106,7 @@ blogDescription: "State-wide mission to carry out restoration, build
 blogLink: /blog/2024-08-06-amrit-series-7-amrit-sarovar/
 showOpEd: true
 opEdTitle: Op-Ed
+opEdAuthorDate: Lorem Ipsum | 25th August,2024
 opEdDescription: "Turning the Tide: A community-driven approach to rejuvenate
   ponds, resolve the water crisis"
 opEdLink: https://government.economictimes.indiatimes.com/blog/turning-the-tide-a-community-driven-solution-to-water-crisis-in-haryana/111271481?utm_source=top_story&utm_medium=homepage

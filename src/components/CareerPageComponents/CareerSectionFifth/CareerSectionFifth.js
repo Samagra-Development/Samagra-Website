@@ -31,6 +31,7 @@ const CareerSectionFifth = ({ content }) => {
             <div className="col-md-6 col-sm-12 text-center">
               <iframe
                 width="100%"
+                object-fit="cover"
                 height="320px"
                 src={content.roles.youtubeLink}
                 frameBorder="0"
@@ -66,7 +67,7 @@ const CareerSectionFifth = ({ content }) => {
                     </div>
 
                     {selectedRoleIndex === index ? (
-                      <div className={"role-description"}>
+                      <div className={"role-description text-justify"}>
                         {item.description}
                       </div>
                     ) : (

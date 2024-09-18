@@ -395,7 +395,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                     src={
                       content?.infographic1?.[0]?.img?.childImageSharp
                         ? content?.infographic1?.[0]?.img?.childImageSharp
-                            ?.fluid?.src
+                          ?.fluid?.src
                         : content?.infographic1?.[0]?.img
                     }
                     alt=""
@@ -501,7 +501,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                     src={
                       content?.infographic2?.[0]?.img?.childImageSharp
                         ? content?.infographic2?.[0]?.img?.childImageSharp
-                            ?.fluid?.src
+                          ?.fluid?.src
                         : content?.infographic2?.[0]?.img
                     }
                     alt=""
@@ -1132,6 +1132,17 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                             textAlign: "left",
                             marginBottom: "0",
                             paddingBottom: "0",
+                            fontStyle: "italic"
+                          }}
+                        >
+                          {content?.opEdAuthorDate}
+                        </p>
+                        <p
+                          className="textCaseStudy"
+                          style={{
+                            textAlign: "left",
+                            marginBottom: "0",
+                            paddingBottom: "0",
                             fontSize: mobile ? "16px" : "18px",
                           }}
                         >
@@ -1236,7 +1247,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                       src={
                         content?.blogSectionImage?.childImageSharp
                           ? content?.blogSectionImage?.childImageSharp?.fluid
-                              ?.src
+                            ?.src
                           : content?.blogSectionImage
                       }
                       width={mobile ? "100%" : "80%"}
@@ -1309,26 +1320,26 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
         {/* <div className="spacer">
         <img src={spacer} alt="" />
       </div> */}
-      {isFooter && (
-  <FadeInSection>
-    <div
-      className="partner-with-us"
-      style={{ marginTop: mobile ? "100px" : "150px" }}
-    >
-      {content?.footersubText1 && (
-        <div className="partner-with-us-secondary-text">
-          <ReactMarkdown>{content.footersubText1}</ReactMarkdown>
-        </div>
-      )}
-      {content?.footerText1 && (
-        <p className="partner-with-us-main-text">
-          {content.footerText1}
-        </p>
-      )}
-      {content?.footerText2 && <p>{content.footerText2}</p>}
-    </div>
-  </FadeInSection>
-)}
+        {isFooter && (
+          <FadeInSection>
+            <div
+              className="partner-with-us"
+              style={{ marginTop: mobile ? "100px" : "150px" }}
+            >
+              {content?.footersubText1 && (
+                <div className="partner-with-us-secondary-text">
+                  <ReactMarkdown>{content.footersubText1}</ReactMarkdown>
+                </div>
+              )}
+              {content?.footerText1 && (
+                <p className="partner-with-us-main-text">
+                  {content.footerText1}
+                </p>
+              )}
+              {content?.footerText2 && <p>{content.footerText2}</p>}
+            </div>
+          </FadeInSection>
+        )}
 
       </>
     );

@@ -3,7 +3,7 @@ backend:
   branch: master
   publish_mode: editorial_workflow
 
-local_backend: true
+# local_backend: true
 
 editorial_workflow:
   enable: true
@@ -499,6 +499,13 @@ collections:
       - {
           label: "OpEd Title",
           name: "opEdTitle",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+        - {
+          label: "OpEd Author | Date",
+          name: "opEdAuthorDate",
           widget: "string",
           required: false,
           default: "",
@@ -1458,10 +1465,11 @@ collections:
           widget: list,
           fields:
             [
-              { label: Name, name: name, widget: string },
-              { label: Logo, name: logo, widget: image },
-            ],
+              { label: Name, name: name, widget: string,required: false,},  
+              { label: Logo, name: logo, widget: image, required: false, },
           required: false,
+
+            ],
         }
   - name: "pages"
     label: "Pages"

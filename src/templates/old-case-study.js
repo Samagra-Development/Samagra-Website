@@ -173,7 +173,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
             >
               {content?.newsdescription?.map((n, i) => {
                 return (
-                  <div key={i} style={{ fontSize: mobile ? "15px" : "18px" }}>
+                  <div key={i} style={{ fontSize: mobile ? "15px" : "18px" , textAlign:"justify"}}>
                     {n?.text}
                   </div>
                 );

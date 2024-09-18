@@ -58,21 +58,21 @@ approach:
       eligible for and not availing. The Family Welfare index is an internal
       department facing measurement index.
 impact:
-  - count: .
+  - count: 
     label: >-
       Saturation of top 50 department schemes through near 100% beneficiary
       coverage
-  - count: .
+  - count: 
     label: Proactive delivery mechanism activated for Top 50 schemes and services
-  - count: .
+  - count: 
     label: >-
       Family passbook and welfare index being leveraged by citizens and govt
       representatives for shortlisted use cases
-  - count: .
+  - count: 
     label: >-
       No duplication of beneficiaries across 150 schemes; hence saving state
       budgets
-  - count: .
+  - count: 
     label: 5 lakh additional jobs provided through job/skilling/credit linkages
 keyInitiativesTitle: .
 ---

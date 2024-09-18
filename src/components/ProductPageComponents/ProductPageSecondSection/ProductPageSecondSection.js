@@ -121,10 +121,10 @@ export class ProductPageSecondSection extends React.Component {
             <div className="impact-wrapper col-md-6 col-sm-12">
               <div className="background" />
               <div className="impact-card">
-                <div className="list">
+                <div className="list" >
                   {project.impact.map((s) => {
                     return (
-                      <div className="list-item">
+                      <div className="list-item" style={{listStyle:'none'}}>
                         <div className="count">{s.count}</div>
                         <div className={"description"}>{s.label}</div>
                       </div>
