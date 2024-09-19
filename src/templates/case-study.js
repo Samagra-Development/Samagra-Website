@@ -1661,7 +1661,7 @@ export const pageQuery = graphql`
         opEdTitle
         opEdLink
         opEdDescription
-
+        opEdAuthorDate
         title8
         blogTitle
         blogLink

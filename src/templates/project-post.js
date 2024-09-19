@@ -5,6 +5,7 @@ import ProductBannerImage from "../components/ProductPageComponents/ProductBanne
 import { ProductPageSecondSection } from "../components/ProductPageComponents/ProductPageSecondSection/ProductPageSecondSection";
 import { ProductPageKeyInitiatives } from "../components/ProductPageComponents/ProductPageKeyInitiatives/ProductPageKeyInitiatives";
 import OurPublicationsSection from "../components/ProductPageComponents/OurPublicationsSection/OurPublicationsSection";
+import OurImpactSection from "../components/ProductPageComponents/OurImpactSection/OurImpactSection";
 
 const OurPartnersSection = ({ partners }) => {
   if (!partners || partners?.length === 0) {
@@ -37,7 +38,10 @@ export const ProjectPostTemplate = ({ project }) => {
       {project.keyInitiatives && project.keyInitiatives.length !== 0 ? (
         <ProductPageKeyInitiatives project={project} />
       ) : null}
-
+ <OurImpactSection
+        readMore={project.readMore}
+        projectId={project.id}
+      />
      {
 
      ( project?.partners && project?.partners?.length !== 0) && (
