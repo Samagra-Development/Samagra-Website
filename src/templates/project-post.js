@@ -18,8 +18,8 @@ const OurPartnersSection = ({ partners }) => {
         {partners?.map((partner, index) => (
           <div key={index} className="partner-item">
             <img
-              src={partner?.logo}
-              alt={partner?.name}
+              src={partner?.logo?.childImageSharp?.fluid?.src}
+              alt={"partner-logo"}
               className="partner-logo"
             />
           </div>
@@ -84,6 +84,15 @@ export const pageQuery = graphql`
           childImageSharp {
             fluid(maxWidth: 1024, quality: 64) {
               ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        partners {
+          logo {
+            childImageSharp {
+              fluid(maxWidth: 240, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }

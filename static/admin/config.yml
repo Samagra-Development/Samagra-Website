@@ -503,7 +503,7 @@ collections:
           required: false,
           default: "",
         }
-        - {
+      - {
           label: "OpEd Author | Date",
           name: "opEdAuthorDate",
           widget: "string",
@@ -1464,10 +1464,9 @@ collections:
           name: partners,
           widget: list,
           fields:
-            [
-              { label: Name, name: name, widget: string,required: false,},  
+            [ 
               { label: Logo, name: logo, widget: image, required: false, },
-          required: false,
+         
 
             ],
         }
