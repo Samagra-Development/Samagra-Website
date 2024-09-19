@@ -336,7 +336,10 @@
 }
 
 @media only screen and (max-width: 980px) {
-  .cards-section .card-wrapper-case-study {
+.cards-section {
+  width: 100vw;
+}
+.cards-section .card-wrapper-case-study {
     max-width: 300px;
   }
   .first-spacer {

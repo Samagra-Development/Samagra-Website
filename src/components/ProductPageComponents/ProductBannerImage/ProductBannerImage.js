@@ -6,7 +6,7 @@ export const ProductBannerImage = ({ project }) => {
     <div
       className={"product-page-banner project-banner"}
       style={{
-        height: "600px",
+        height: "100vh",
         overflow: "hidden",
         maxHeight: "100vh",
         backgroundImage: `url(${
