@@ -1470,6 +1470,20 @@ collections:
 
             ],
         }
+      - {
+          label: Our Impact,
+          name: ourImpact,
+          widget: list,
+          fields:
+            [ 
+              { label: Image, name: image, widget: image, required: false, },
+              { label: Description, name: description, widget: string, required: false, },
+              { label: SubTitle, name: subTitle, widget: string, required: false, },       
+              { label: Link, name: link, widget: string, required: false, },        
+
+
+            ],
+        }
   - name: "pages"
     label: "Pages"
     files:

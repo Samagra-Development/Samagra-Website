@@ -5,11 +5,11 @@ import ProductBannerImage from "../components/ProductPageComponents/ProductBanne
 import { ProductPageSecondSection } from "../components/ProductPageComponents/ProductPageSecondSection/ProductPageSecondSection";
 import { ProductPageKeyInitiatives } from "../components/ProductPageComponents/ProductPageKeyInitiatives/ProductPageKeyInitiatives";
 import OurPublicationsSection from "../components/ProductPageComponents/OurPublicationsSection/OurPublicationsSection";
-import OurImpactSection from "../components/ProductPageComponents/OurImpactSection/OurImpactSection";
+import { OurImpactSection } from "../components/ProductPageComponents/OurImpactSection/OurImpactSection";
 
 const OurPartnersSection = ({ partners }) => {
   if (!partners || partners?.length === 0) {
-    return null; 
+    return null;
   }
 
   return (
@@ -38,15 +38,14 @@ export const ProjectPostTemplate = ({ project }) => {
       {project.keyInitiatives && project.keyInitiatives.length !== 0 ? (
         <ProductPageKeyInitiatives project={project} />
       ) : null}
- <OurImpactSection
-        readMore={project.readMore}
-        projectId={project.id}
-      />
-     {
+       {project.ourImpact && project.ourImpact.length !== 0 ? (
+        <OurImpactSection data={project.ourImpact} />
+      ) : null}
+      {
 
-     ( project?.partners && project?.partners?.length !== 0) && (
-      <OurPartnersSection partners={project?.partners} />
-    )
+        (project?.partners && project?.partners?.length !== 0) && (
+          <OurPartnersSection partners={project?.partners} />
+        )
       }
       <OurPublicationsSection
         readMore={project.readMore}
@@ -90,6 +89,18 @@ export const pageQuery = graphql`
               ...GatsbyImageSharpFluid
             }
           }
+        }
+        ourImpact {
+          image {
+            childImageSharp {
+              fluid(maxWidth: 640, quality: 64) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          description 
+          subTitle
+          link
         }
         partners {
           logo {
