@@ -40,5 +40,23 @@ frameworks:
       The Panchsutras for Governance Transformation are the five key principles
       for carrying out a successful governance transformation at the national,
       state or local government level.
+assetsHeading: Explore Our Assets
+assets:
+  - assetCard:
+      assetImage: /img/amrit-series-3-.png
+      name: Amrit Series
+      description: A collection of success stories of large scale impact through our
+        work across domains and states.
+      link: /amritseries
+  - assetCard:
+      assetImage: /img/amrit-series-1-.png
+      name: Sushasan
+      description: India’s first podcast exclusively focused on governance.
+      link: /sushasan
+  - assetCard:
+      assetImage: /img/frame-300-1-.png
+      name: Governance Decluttered
+      description: Series of bite-sized videos decoding everyday governance topics
+      link: /decluttered
 ---
 
