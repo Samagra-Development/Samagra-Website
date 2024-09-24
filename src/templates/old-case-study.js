@@ -121,13 +121,13 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
               {content?.title4}
             </div>
           )}
-          <div
+        {mobile? <div
             style={{
               display: "flex",
               flexDirection: mobile ? "column" : "row",
               alignItems: "center",
               justifyContent: "center",
-              padding: "32px 64px",
+              padding: "16px 40px",
               gap: "48px",
             }}
           >
@@ -137,6 +137,8 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                   display: "flex",
                   justifyContent: "center",
                   flex: 1,
+                  height: "24vh",
+                  aspectRatio: "16/9",
                   marginTop: !mobile ? "10px" : "",
                 }}
               >
@@ -162,49 +164,100 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                 </video>
               </div>
             )}
-            <div
+           
+          </div>:""}
+
+
+
+         <div
+  style={{
+    flex: 1,
+    display: "flex",
+    flexDirection: "column",
+    fontSize: "18px",
+    gap: "8px",
+    padding: mobile ? "20px 5%" : "30px 10%",
+  }}
+>
+  {content?.newsdescription?.map((n, i) => {
+    return (
+      <React.Fragment key={i}>
+        {/* Render the first paragraph */}
+        <div
+          style={{
+            fontSize: mobile ? "15px" : "18px",
+            textAlign: "justify",
+          }}
+        >
+          {n?.text}
+        </div>
+
+        {!mobile && i === 0 && content?.motionGraphic && (
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              flex: 1,
+              marginTop: "10px",
+            }}
+          >
+            <video
+              autoPlay
+              loop
+              muted
               style={{
                 flex: 1,
-                display: "flex",
-                flexDirection: "column",
-                fontSize: "18px",
-                gap: "8px",
+                width: "100%",
+                height: "54vh",
+                objectFit: "contain", 
+                aspectRatio: "16/9",
+                margin: "2% auto",
               }}
             >
-              {content?.newsdescription?.map((n, i) => {
-                return (
-                  <div key={i} style={{ fontSize: mobile ? "15px" : "18px" , textAlign:"justify"}}>
-                    {n?.text}
-                  </div>
-                );
-              })}
-              {content?.newsletterBtn && (
-                <div className="casestudy-btn-container">
-                  <button
-                    style={{
-                      cursor: "pointer",
-                      background: content?.fontColor,
-                      padding: "4px 30px",
-                      color: "white",
-                      border: "none",
-                      borderRadius: "8px",
-                      transition: "transform 0.2s ease",
-                    }}
-                    onClick={() => {
-                      const link = document.createElement("a");
-                      link.href = content?.newsletterLink;
-                      link.target = "_blank";
-                      document.body.appendChild(link);
-                      link.click();
-                      document.body.removeChild(link);
-                    }}
-                  >
-                    {content?.newsletterBtn}
-                  </button>
-                </div>
-              )}
-            </div>
+              <source
+                src={
+                  content?.motionGraphic?.publicURL
+                    ? content?.motionGraphic?.publicURL
+                    : content?.motionGraphic
+                }
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
           </div>
+        )}
+      </React.Fragment>
+    );
+  })}
+
+  {content?.newsletterBtn && (
+    <div className="casestudy-btn-container">
+      <button
+        style={{
+          cursor: "pointer",
+          background: content?.fontColor,
+          padding: "4px 30px",
+          color: "white",
+          border: "none",
+          borderRadius: "8px",
+          transition: "transform 0.2s ease",
+        }}
+        onClick={() => {
+          const link = document.createElement("a");
+          link.href = content?.newsletterLink;
+          link.target = "_blank";
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+        }}
+      >
+        {content?.newsletterBtn}
+      </button>
+    </div>
+  )}
+</div>
+
+
         </FadeInSection>
         <SectionDivider color={content?.fontColor} />
       </>
