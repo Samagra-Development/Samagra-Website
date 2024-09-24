@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const PartnersSectionSecond = ({ content }) => {
+  const [mobile, setMobile] = useState(false);
+ useEffect(() => {
+     if (window.innerWidth < 768) {
+       setMobile(true);
+     } else {
+       setMobile(false);
+     }
+   
+ }, []);
   if (!content || !content.partnerTitle) {
     return "";
   }
@@ -66,6 +75,21 @@ const PartnersSectionSecond = ({ content }) => {
             </div>
           </div>
         </div>
+      </div>
+      <div
+        className="partner-with-us"
+        style={{ marginTop: mobile ? "0px" : "25px" }}
+      >
+        <p className="partner-with-us-main-text">Partner with us today!</p>
+        <p>
+          Write to us at:{" "}
+          <a
+            href="mailto:outreach@samagragovernance.in"
+            className="partner-with-us-anchor-text"
+          >
+            outreach@samagragovernance.in
+          </a>
+        </p>
       </div>
     </div>
   );
