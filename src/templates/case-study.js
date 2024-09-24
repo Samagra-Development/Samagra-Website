@@ -172,7 +172,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   style={{
                     textAlign: "center",
                     color: content?.fontColor,
-                    paddingBottom: "35px",
+                    paddingBottom: mobile ? "18px" : "36px",
                     paddingTop: !mobile ? "5px" : "24px",
                     fontSize: mobile ? "18px" : "36px",
                   }}
@@ -184,7 +184,8 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 <div
                   className="textCaseStudy"
                   style={{
-                    textAlign: "center",
+                                        textAlign:  mobile ? "justify" : "center",
+
                     // color: content?.fontColor,
                     // paddingBottom: '25px',
                     paddingTop: !mobile ? "5px" : "50px",
@@ -629,7 +630,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 className="headingCaseStudy"
                 id="impact-numbers-section"
                 style={{
-                  textAlign: "center",
+                  textAlign: mobile ? "justify" : "center",
                   color: content?.fontColor,
                   // paddingBottom: '25px',
                   width: "80%",
@@ -1430,7 +1431,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   color: "",
                   fontSize: mobile ? "5px" : "9px",
                   fontWeight: "bold",
-                  textAlign: "center",
+                  textAlign: mobile ? "justify" : "center",
                 }}
               >
                 {content?.sideIcon2Text}
