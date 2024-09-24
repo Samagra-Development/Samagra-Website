@@ -42,29 +42,7 @@ showImpactVideo: true
 impactVideoLink: https://youtube/PIGCFr1So8U?si=XBMLem4l0z7WXSqP
 showImpactCard: true
 impactCardFontColor: "#DADADA"
-img1: /img/ImpactCard.png
-cardTitle1: Antyodaya Saral online Portal
-cardDescription1: "The online platform leverages the modular Service Plus
-  architecture of National Informatics Centre (NIC), Government of India. The
-  implementation has been done by NIC Haryana State Unit without any external
-  vendors, to drive ownership of departments and long-term sustainability. "
-cardBtn1: Learn more
-cardLink1: ""
-img2: /img/ImpactCard.png
-cardTitle2: Citizen Touch Points
-cardDescription2: 115 Saral Kendras at District Headquarter, Subdivision and
-  Tehsils act as a single-point interface for citizens to avail all government
-  schemes and services. Each Kendra has a standardised citizen-centric layout
-  adhering to 60+ quality parameters such as token system, adequate waiting
-  area, clean washrooms etc.
-cardBtn2: Learn more
-cardLink2: ""
-img3: /img/ImpactCard.png
-cardTitle3: Enablers
-cardDescription3: A helpline number for grievance addressal and data dashboards
-  for regular monitoring and tracking of applications.
-cardBtn3: Learn more
-cardLink3: ""
+
 title6: Antyodaya Saral transformed the lives of millions of citizens and
   department officials with SARAL portal and SARAL Kendras enabling
   citizen-centric governance in Haryana
@@ -123,4 +101,22 @@ footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
 successStoriesTitle: View more <i>Success Stories of Impact</i>
 showSuccessStories: antyodaya-saral,go-sugam,hkrn
+impactCards:
+  - img: /img/ImpactCard.png
+    cardTitle: Antyodaya Saral online Portal
+    cardDescription: "The online platform leverages the modular Service Plus
+  architecture of National Informatics Centre (NIC), Government of India. The
+  implementation has been done by NIC Haryana State Unit without any external
+  vendors, to drive ownership of departments and long-term sustainability."   
+  - img: /img/ImpactCard.png
+    cardTitle: Citizen Touch Points
+    cardDescription: 115 Saral Kendras at District Headquarter, Subdivision and
+  Tehsils act as a single-point interface for citizens to avail all government
+  schemes and services. Each Kendra has a standardised citizen-centric layout
+  adhering to 60+ quality parameters such as token system, adequate waiting
+  area, clean washrooms etc.
+  - img: /img/ImpactCard.png
+    cardTitle: Enablers
+    cardDescription: A helpline number for grievance addressal and data dashboards
+  for regular monitoring and tracking of applications.
 ---

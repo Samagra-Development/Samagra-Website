@@ -34,23 +34,9 @@ newsletterLink: ""
 title5: Here is how the Haryana government worked in a mission mode to augment the...
 showImpactVideo: false
 impactVideoLink: ""
-showImpactCard: false
+
 impactCardFontColor: "#DADADA"
-img1: /img/ttd_img_1.jpg
-cardTitle1: REVAMPING DEMAND COLLECTION
-cardDescription1: Tech driven, centralised demand collection process introduced
-cardBtn1: ""
-cardLink1: ""
-img2: /img/ttd_img_2.jpg
-cardTitle2: PRIORITIZING TENDERS
-cardDescription2: Initiating the tender process for printing of textbooks early on
-cardBtn2: ""
-cardLink2: ""
-img3: /img/ttd_img_3.jpg
-cardTitle3: OPTIMISING FOR DELIVERY
-cardDescription3: Shift from multiple distributors being mapped to one school
-cardBtn3: ""
-cardLink3: ""
+
 title6: ""
 impactNumber1Char: ""
 impactNumber1: 0
@@ -101,4 +87,16 @@ footerText1: ""
 footerText2: ""
 successStoriesTitle: ""
 showSuccessStories: nlapp, hkrn, saksham-education
+showImpactCard: false
+
+impactCards:
+  - img: /img/ttd_img_1.jpg
+    cardTitle:  REVAMPING DEMAND COLLECTION
+    cardDescription: "Tech driven, centralised demand collection process introduced"   
+  - img: /img/ttd_img_2.jpg
+    cardTitle: PRIORITIZING TENDERS
+    cardDescription: Initiating the tender process for printing of textbooks early on
+  - img: /img/ttd_img_3.jpg
+    cardTitle:  OPTIMISING FOR DELIVERY
+    cardDescription: Shift from multiple distributors being mapped to one school
 ---

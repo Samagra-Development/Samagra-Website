@@ -781,111 +781,15 @@ collections:
           required: false,
           default: "#DADADA",
         }
-      - {
-          label: "Impact Card 1",
-          name: "img1",
-          widget: "image",
-          required: false,
-          default: null,
-        }
-      - {
-          label: "Impact Card Title 1",
-          name: "cardTitle1",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card Description 1",
-          name: "cardDescription1",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card Button Text 1",
-          name: "cardBtn1",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card Link 1",
-          name: "cardLink1",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card 2",
-          name: "img2",
-          widget: "image",
-          required: false,
-          default: null,
-        }
-      - {
-          label: "Impact Card Title 2",
-          name: "cardTitle2",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card Description 2",
-          name: "cardDescription2",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card Button Text 2",
-          name: "cardBtn2",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card Link 2",
-          name: "cardLink2",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card 3",
-          name: "img3",
-          widget: "image",
-          required: false,
-          default: null,
-        }
-      - {
-          label: "Impact Card Title 3",
-          name: "cardTitle3",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card Description 3",
-          name: "cardDescription3",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card Button Text 3",
-          name: "cardBtn3",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card Link 3",
-          name: "cardLink3",
-          widget: "string",
-          required: false,
-          default: "",
-        }
+     
+      - label: "Impact Cards"
+        name: "impactCards"
+        widget: "list"
+        fields:
+          - { label: "Impact Card Image", name: "img", widget: "image", required: false, default: null }
+          - { label: "Impact Card Title", name: "cardTitle", widget: "string", required: false, default: "" }
+          - { label: "Impact Card Description", name: "cardDescription", widget: "string", required: false, default: "" }
+
       - {
           label: "Title 6",
           name: "title6",

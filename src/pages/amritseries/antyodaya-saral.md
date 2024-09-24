@@ -36,23 +36,10 @@ title5: Here is how the Haryana government worked in a mission mode to augment
   the system capacity...
 showImpactVideo: true
 impactVideoLink: https://www.youtube.com/embed/PIGCFr1So8U?si=ioCsvEzrvSxBHr2X
-showImpactCard: true
+
 impactCardFontColor: "#DADADA"
 img1: /img/card1.png
-cardTitle1: ""
-cardDescription1: ""
-cardBtn1: ""
-cardLink1: ""
-img2: /img/card2.png
-cardTitle2: ""
-cardDescription2: ""
-cardBtn2: ""
-cardLink2: ""
-img3: /img/card3.png
-cardTitle3: ""
-cardDescription3: ""
-cardBtn3: ""
-cardLink3: ""
+
 title6: Antyodaya Saral transformed the lives of millions of citizens and
   department officials with SARAL portal and SARAL Kendras enabling
   citizen-centric governance in Haryana
