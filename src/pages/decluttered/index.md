@@ -25,7 +25,7 @@ postData:
   - postCard:
       selectedCategory: Judiciary
       urlLink: https://www.instagram.com/reel/C_qUIctSNT1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
-      postImage: /img/copy-of-ig-reel-2-1-.png
+      postImage: /img/copy-of-ig-reel-2-1-1-.png
   - postCard:
       urlLink: https://www.instagram.com/reel/C_GK98RSE5q/?igsh=MXQxbDc3ZGE2cjdoZA==
       selectedCategory: Judiciary
