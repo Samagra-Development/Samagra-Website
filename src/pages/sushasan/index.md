@@ -139,4 +139,10 @@ postData:
       urlLink: https://www.youtube.com/embed/d2ZoSvFuLzc?si=4FNFFzymsSuw9_CF
       selectedCategory: "3"
       postImage: /img/journey-to-gold-ep3-td-v2.png
+  - postCard:
+      postName: Shakti Avasthy
+      selectedCategory: "3"
+      episode: "3"
+      postImage: /img/5000-cr-gst-fraud-uncovered.png
+      urlLink: https://www.youtube.com/embed/aqiscGzvUKw?si=-56OBiB8KyjAUBZx
 ---
