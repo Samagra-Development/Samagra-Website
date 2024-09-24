@@ -138,7 +138,7 @@ postData:
       episode: "2"
       urlLink: https://www.youtube.com/embed/d2ZoSvFuLzc?si=4FNFFzymsSuw9_CF
       selectedCategory: "3"
-      postImage: /img/journey-to-gold-ep3-td-v2.png
+      postImage: /img/1-2-.png
   - postCard:
       postName: Shakti Avasthy
       selectedCategory: "3"
