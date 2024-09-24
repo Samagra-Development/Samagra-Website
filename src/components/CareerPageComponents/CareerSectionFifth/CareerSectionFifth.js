@@ -1,7 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { PrimaryButton } from "../../PrimaryButton/PrimaryButton";
 
 const CareerSectionFifth = ({ content }) => {
+  const [mobile, setMobile] = useState(false);
+ useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        setMobile(() => true);
+      } else {
+        setMobile(() => false);
+      }
+    };
+    handleResize();
+  }, []);
   const headings = [
     {
       title: "Associate & Senior Associate",
@@ -32,7 +43,7 @@ const CareerSectionFifth = ({ content }) => {
               <iframe
                 width="100%"
                 object-fit="cover"
-                height="320px"
+                height={mobile?"220px":"320px"}
                 src={content.roles.youtubeLink}
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
