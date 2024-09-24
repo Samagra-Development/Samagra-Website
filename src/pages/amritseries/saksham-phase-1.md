@@ -124,6 +124,5 @@ impactCards:
     cardDescription: Delivery of competency-based remediation supported by timely textbook delivery and student assessment reforms 
   - img: /img/sk_3.png
     cardTitle: Cascaded Gamification
-    cardDescription: Building momentum in the system through gamification and
-  direct CM involvement to drive bottom-up innovation
+    cardDescription: Building momentum in the system through gamification and direct CM involvement to drive bottom-up innovation
 ---
