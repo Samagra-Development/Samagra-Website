@@ -104,17 +104,10 @@ showSuccessStories: antyodaya-saral,go-sugam,hkrn
 impactCards:
   - img: /img/ImpactCard.png
     cardTitle: Antyodaya Saral online Portal
-    cardDescription: "The online platform leverages the modular Service Plus
-  architecture of National Informatics Centre (NIC), Government of India. The
-  implementation has been done by NIC Haryana State Unit without any external
-  vendors, to drive ownership of departments and long-term sustainability."   
+    cardDescription: "The online platform leverages the modular Service Plus architecture of National Informatics Centre (NIC), Government of India. The implementation has been done by NIC Haryana State Unit without any external vendors, to drive ownership of departments and long-term sustainability."   
   - img: /img/ImpactCard.png
     cardTitle: Citizen Touch Points
-    cardDescription: 115 Saral Kendras at District Headquarter, Subdivision and
-  Tehsils act as a single-point interface for citizens to avail all government
-  schemes and services. Each Kendra has a standardised citizen-centric layout
-  adhering to 60+ quality parameters such as token system, adequate waiting
-  area, clean washrooms etc.
+    cardDescription: 115 Saral Kendras at District Headquarter, Subdivision and Tehsils act as a single-point interface for citizens to avail all government schemes and services. Each Kendra has a standardised citizen-centric layout adhering to 60+ quality parameters such as token system, adequate waiting area, clean washrooms etc.
   - img: /img/ImpactCard.png
     cardTitle: Enablers
     cardDescription: A helpline number for grievance addressal and data dashboards

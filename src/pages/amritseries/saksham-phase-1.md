@@ -118,12 +118,10 @@ showSuccessStories: nlapp,antyodaya-saral,hkrn
 impactCards:
   - img: /img/sk_1.png
     cardTitle: Administrative Streamlining
-    cardDescription: "Increasing teacher time in the classroom by streamlining
-  transfers, MIS and shifting HR processes online"   
+    cardDescription: "Increasing teacher time in the classroom by streamlining transfers, MIS and shifting HR processes online"   
   - img: /img/sk_2.png
     cardTitle: Academic<br> Inputs
-    cardDescription: Delivery of competency-based remediation supported by timely
-  textbook delivery and student assessment reforms 
+    cardDescription: Delivery of competency-based remediation supported by timely textbook delivery and student assessment reforms 
   - img: /img/sk_3.png
     cardTitle: Cascaded Gamification
     cardDescription: Building momentum in the system through gamification and
