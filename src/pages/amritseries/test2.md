@@ -110,6 +110,5 @@ impactCards:
     cardDescription: 115 Saral Kendras at District Headquarter, Subdivision and Tehsils act as a single-point interface for citizens to avail all government schemes and services. Each Kendra has a standardised citizen-centric layout adhering to 60+ quality parameters such as token system, adequate waiting area, clean washrooms etc.
   - img: /img/ImpactCard.png
     cardTitle: Enablers
-    cardDescription: A helpline number for grievance addressal and data dashboards
-  for regular monitoring and tracking of applications.
+    cardDescription: A helpline number for grievance addressal and data dashboards for regular monitoring and tracking of applications.
 ---
