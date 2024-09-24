@@ -1527,8 +1527,8 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
       )}
       {/* <div className="spacer">
         <img src={spacer} alt="" />
-      </div> */}
-      <SectionDivider color={content?.fontColor} />
+        </div> */}
+        <SectionDivider color={content?.fontColor} />
       {arr.map((option, index) => (
         <React.Fragment key={index}>{renderSection(option)}</React.Fragment>
       ))}
@@ -1538,13 +1538,16 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
           dangerouslySetInnerHTML={{ __html: content?.successStoriesTitle }}
           style={{
             color: content?.fontColor,
-            margin: "auto",
+            marginTop: mobile ? "100px" : "85px",
+
+            // margin: "auto",
             fontSize: mobile ? "20px" : "28px",
           }}
         ></div>
         <div
           style={{
-            marginTop: "125px",
+                        marginTop: mobile ? "0" : "30px",
+
             marginBottom: "150px",
             display: "flex",
             justifyContent: mobile ? "" : "space-evenly",

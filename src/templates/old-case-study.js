@@ -1440,7 +1440,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
             {content?.title1}
           </div>
           <div
-            className={"old-case-study-sub-heading"}
+            className={"old-case-study-sub-heading text-justify"}
             style={{ fontSize: mobile ? "18px" : "24px" }}
           >
             {content?.title2}
