@@ -21,7 +21,7 @@ import OldCaseStudyPreview from "./preview-templates/OldCaseStudyPreview";
 import HomeLegacyPreview from "./preview-templates/HomeLegacyPreview";
 import AssetPagePreview from "./preview-templates/AssetPagePreview";
 import DeclutteredPagePreview from "./preview-templates/DeclutteredPagePreview";
-import OurTeamPagePreview from "./preview-templates/OurTeamPagePreview";
+// import OurTeamPagePreview from "./preview-templates/OurTeamPagePreview";
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
