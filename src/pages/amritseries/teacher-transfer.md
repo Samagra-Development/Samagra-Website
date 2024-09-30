@@ -31,7 +31,7 @@ newsdescription:
       Education programme of the Government of Haryana witnessed a shift from
       being ‘Comatose’ with low ‘political salience’ and low ‘system capacity’
       to ‘Battle Ready’ with high ‘political salience’ and high ‘system
-      capacity.
+      capacity’.
   - text: The online teacher transfer initiative aimed to streamline the teacher
       transfer process in the state of Haryana to make it transparent,
       merit-driven and demand-based.
@@ -42,10 +42,11 @@ newsdescription:
       the Chief Minister, building top-down political will on enabling online
       teacher transfers.
   - text: System capacity –that is, people, process and infrastructure– grew almost
-      hand-in-hand with political salience. On the people front, a special legal
-      team was set up headed by the district attorney to manage litigation
-      action against the department and ensure strong ensure its strong
-      representation. On the process front data collection, cleaning, and
+      hand-in-hand with political salience. On the people front there was a
+      robust bureaucratic and administrative cadre already in place.
+      Additionally, a special legal team was set up headed by the district
+      attorney to manage litigation action against the department and ensure its
+      strong representation. On the process front data collection, cleaning, and
       updation exercises were conducted at the student, school and employee
       levels to create a point system that enabled data-backed decision-making
       which accounted for teacher preferences. Furthermore, reviews were enabled
@@ -57,7 +58,8 @@ newsdescription:
   - text: With this, the state of Haryana was able to significantly curb the vacancy
       of teachers in historically vacant zones, with 94% of science stream
       schools being fully staffed, and reduced the time taken to conduct the
-      whole exercise by 67%.
+      whole exercise by 67% which allowed over 90,000 transfers being enabled
+      over 3 years.
 newsletterBtn: ""
 motionGraphic: /img/tt_pov.mp4
 newsletterLink: ""
