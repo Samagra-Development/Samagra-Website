@@ -1,7 +1,7 @@
 ---
 templateKey: old-case-study
 formType: This is old case study form
-show: false
+show: true
 projectId: Online Teacher Transfer
 date: 2024-09-30T12:43:41.872Z
 featuredimage: /img/cover_online-teacher-transfer.jpg
