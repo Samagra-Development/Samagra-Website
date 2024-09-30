@@ -121,8 +121,8 @@ impactNumber5Decimal: 0
 impactNumber5Text: "%"
 impactNumber5Title: Science stream schools staffed, reducing vacancy across zones
 showPlus5: false
-infographicGoogleDriveLink: ""
-downloadInfographicBtn: ""
+infographicGoogleDriveLink: https://drive.google.com/file/d/1zBNOi4V18oLUg6ZUbq_glxPnF7suUV0I/view?usp=sharing
+downloadInfographicBtn: Download Infographic
 title7: Insights from the ground
 showBlog: true
 blogTitle: Haryana starts online process to transfer school teachers
