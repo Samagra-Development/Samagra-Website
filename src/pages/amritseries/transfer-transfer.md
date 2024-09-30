@@ -6,7 +6,7 @@ projectId: Online Teacher Transfer
 date: 2024-09-30T10:05:36.531Z
 featuredimage: /img/cover_online-teacher-transfer.jpg
 buttonText: Learn More
-title: transfer-transfer
+title: teacher-transfer
 fontColor: "#294294"
 bannerImage: /img/header_online-teacher-transfer.mp4
 title1: "Streamline the teacher transfer process in the state of Haryana to make
