@@ -128,9 +128,21 @@ postData:
       episode: "5"
       postImage: /img/s2-ep-05.jpg
   - postCard:
-      postName: Sachin Gupta
+      postName: Dr. Sachin Gupta
       selectedCategory: "3"
       episode: "1"
       postImage: /img/s3-ep-01.jpg
       urlLink: https://www.youtube.com/embed/9arabPsV1BY?si=znTUjUaHuC0-olCY
+  - postCard:
+      postName: Suhas L. Yathiraj
+      episode: "2"
+      urlLink: https://www.youtube.com/embed/d2ZoSvFuLzc?si=4FNFFzymsSuw9_CF
+      selectedCategory: "3"
+      postImage: /img/1-2-.png
+  - postCard:
+      postName: Shakti Avasthy
+      selectedCategory: "3"
+      episode: "3"
+      postImage: /img/5000-cr-gst-fraud-uncovered.png
+      urlLink: https://www.youtube.com/embed/aqiscGzvUKw?si=-56OBiB8KyjAUBZx
 ---
