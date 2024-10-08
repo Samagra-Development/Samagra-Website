@@ -120,12 +120,8 @@ opEdLink: ""
 showWebinar: false
 webinarTitle: ""
 webinarDescription: ""
-webinarLink: ""
 
-footerText1: ""
-footerText2: ""
-successStoriesTitle: ""
-showSuccessStories: nlapp, hkrn, saksham-education
+
 showImpactCard: false
 
 impactCards:
