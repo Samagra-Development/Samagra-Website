@@ -1825,6 +1825,71 @@ collections:
                   },
                 ],
             }
+      - file: "src/pages/our-team/index.md"
+        label: "Our Team Page"
+        name: "our-team"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "our-team" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Banner Image", name: "bannerImage", widget: "image" }
+          - { label: "Sub Title", name: "subTitle", widget: "markdown" }
+          - {
+              label: Achievements,
+              name: achievements,
+              widget: list,
+              fields:
+                [
+                  { label: Value, name: value, widget: number },
+                  { label: Name, name: suffix, widget: string },
+                  { label: Project, name: description, widget: string }
+                ],
+            }
+          - {
+              label: Partners,
+              name: partnersList,
+              widget: list,
+              fields:
+                [
+                  { label: Image, name: image, widget: image },
+                  { label: Name, name: name, widget: text },
+                  { label: Project, name: project, widget: text },
+                  { label: Bio, name: bio, widget: text },
+                  { label: "LinkedIn Profile", name: linkedInProfile, widget: text }
+                ]
+            }
+          - {
+              label: Leaderships,
+              name: leadershipsList,
+              widget: list,
+              fields:
+                [
+                  { label: Image, name: image, widget: image },
+                  { label: Name, name: name, widget: text },
+                  { label: Project, name: project, widget: text },
+                  { label: Bio, name: bio, widget: text },
+                  { label: "LinkedIn Profile", name: linkedInProfile, widget: text }
+                ]
+            }
+          - {
+              label: Managers,
+              name: managersList,
+              widget: list,
+              fields:
+                [
+                  { label: Image, name: image, widget: image },
+                  { label: Name, name: name, widget: text },
+                  { label: Project, name: project, widget: text },
+                  { label: Bio, name: bio, widget: text },
+                  { label: "LinkedIn Profile", name: linkedInProfile, widget: text }
+                ]
+            }
+          - label: "Team Footer"
+            name: "teamFooter"
+            widget: "object"
+            fields:
+              - { label: "Footer Title", name: "footerTitle", widget: "string" }
+              - { label: "Button Text", name: "buttonText", widget: "string" }
+              - { label: "Button Link", name: "buttonLink", widget: "string" }
       - file: "src/pages/partners/index.md"
         label: "Partners Page"
         name: "partner"
@@ -2048,7 +2113,6 @@ collections:
                   },
                 ],
             }
-
       - file: "src/pages/c4gt/index.md"
         label: "C4GT Page"
         name: "c4gt"

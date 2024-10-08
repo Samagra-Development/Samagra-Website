@@ -22,16 +22,19 @@
   margin: 0 auto;
 }
 
+/* Default styling for desktop: 4 cards per row */
 .team-card {
   text-align: center;
-  flex: 1 1 calc(50% - 30px);
-  max-width: 260px;
+  flex: 1 1 calc(25% - 30px); /* Four cards per row */
+  max-width: 25%;
 }
 
+/* Adjust for larger devices */
+
 .team-image-wrapper {
-  width: 100%;
-  height: 260px;
-  border-radius: 50%;
+  width: 260px; /* Set a fixed width */
+  height: 260px; /* Set a fixed height, same as width for a perfect circle */
+  border-radius: 50%; /* Make the container circular */
   overflow: hidden;
   margin: 0 auto;
   transition: transform 0.3s ease-in-out;
@@ -42,38 +45,55 @@
 }
 
 .team-image {
-  width: 100%;
-  height: 100%;
+  width: 100%; /* Ensure the image covers the full width */
+  height: 100%; /* Ensure the image covers the full height */
+  object-fit: cover; /* Ensure the image maintains its aspect ratio and covers the container */
   background-position: center;
+  border-radius: 50%; /* This makes sure the image itself is circular */
+  background-repeat: no-repeat;
   background-size: cover;
+  cursor: pointer;
 }
+
 
 .team-info {
   margin-top: 10px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .team-info_footer_1 {
   display: flex;
   flex-direction: column;
-  align-self: start;
+  align-self: center;
 }
 
 .name {
   font-weight: bold;
   font-size: 18px;
+  text-align: center;
 }
 
 .social-icon {
   display: flex;
-  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 24px;
+  height: 24px;
 }
 
 .social-icon img {
   width: 24px;
   height: 24px;
+}
+.social-icon-link a {
+  color: white; /* Default icon color */
+  display: inline-block;
+}
+
+.social-icon-link a:hover {
+  color: #0A66C2; /* LinkedIn blue color on hover */
 }
 
 /* Popup Section */
@@ -145,6 +165,7 @@
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
+  background-repeat: no-repeat;
 }
 
 .popup-details {
@@ -175,8 +196,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 15%;
-  background: #1982A3;
+  // border-radius: 15%;
+  // background: #1982A3;
   padding: 8px;
 }
 
@@ -206,7 +227,7 @@
 }
 
 .achievement-value {
-  font-size: 48px;
+  font-size: 75px;
   font-weight: bold;
   color: #050038;
 }
@@ -241,7 +262,9 @@
   border-radius: 5px;
   text-decoration: none;
 }
-
+.markdown-content{
+  font-size: 48px;
+}
 /* Mobile Specific Styling */
 @media (max-width: 768px) {
   .container_subTitle {
@@ -269,8 +292,9 @@
   }
 
   .team-image-wrapper {
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
+    cursor: pointer;
   }
 
   .footer-section {
@@ -328,5 +352,24 @@
 
   .footer-btn {
     padding: 10px 40px;
+  }
+}
+@media (min-width: 1024px) {
+  .team-card {
+    flex: 1 1 calc(25% - 30px); /* Four cards per row */
+    max-width: 25%;
+  }
+}
+
+/* Mobile view: 2 cards per row */
+@media (max-width: 768px) {
+  .team-card {
+    flex: 1 1 calc(50% - 30px); /* Two cards per row */
+    max-width: 50%;
+  }
+
+  .team-image-wrapper {
+    width: 180px;
+    height: 180px;
   }
 }
