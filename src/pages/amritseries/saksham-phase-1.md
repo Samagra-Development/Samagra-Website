@@ -57,25 +57,6 @@ showImpactVideo: false
 impactVideoLink: https://www.youtube.com/embed/r9ze1OXsSYw?si=WtyZb0RH0QgyAVZu
 showImpactCard: true
 impactCardFontColor: "#ffffff"
-img1: /img/sk_1.png
-cardTitle1: Administrative Streamlining
-cardDescription1: Increasing teacher time in the classroom by streamlining
-  transfers, MIS and shifting HR processes online
-cardBtn1: ""
-cardLink1: ""
-img2: /img/sk_2.png
-cardTitle2: Academic<br> Inputs
-cardDescription2: "Delivery of competency-based remediation supported by timely
-  textbook delivery and student assessment reforms "
-cardBtn2: ""
-cardLink2: ""
-img3: /img/sk_3.png
-cardTitle3: Cascaded Gamification
-cardDescription3: Building momentum in the system through gamification and
-  direct CM involvement to drive bottom-up innovation
-cardBtn3: ""
-cardLink3: ""
-title6: ""
 icon1: /img/sak1.jpg
 impactNumber1Char: ""
 impactNumber1: 85
@@ -132,4 +113,16 @@ footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
 successStoriesTitle: View more <i> Success Stories of Impact </i>
 showSuccessStories: nlapp,antyodaya-saral,hkrn
+
+
+impactCards:
+  - img: /img/sk_1.png
+    cardTitle: Administrative Streamlining
+    cardDescription: "Increasing teacher time in the classroom by streamlining transfers, MIS and shifting HR processes online"   
+  - img: /img/sk_2.png
+    cardTitle: Academic<br> Inputs
+    cardDescription: Delivery of competency-based remediation supported by timely textbook delivery and student assessment reforms 
+  - img: /img/sk_3.png
+    cardTitle: Cascaded Gamification
+    cardDescription: Building momentum in the system through gamification and direct CM involvement to drive bottom-up innovation
 ---

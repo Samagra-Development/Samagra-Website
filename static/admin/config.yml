@@ -504,6 +504,13 @@ collections:
           default: "",
         }
       - {
+          label: "OpEd Author | Date",
+          name: "opEdAuthorDate",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
           label: "OpEd Description",
           name: "opEdDescription",
           widget: "string",
@@ -584,6 +591,13 @@ collections:
           widget: image,
           required: false,
           default: null,
+        }
+      - {
+          label: "Footer Sub Text 1",
+          name: "footersubText1",
+          widget: "markdown",
+          required: false,
+          default: "",
         }
       - {
           label: "Footer Text 1",
@@ -767,111 +781,15 @@ collections:
           required: false,
           default: "#DADADA",
         }
-      - {
-          label: "Impact Card 1",
-          name: "img1",
-          widget: "image",
-          required: false,
-          default: null,
-        }
-      - {
-          label: "Impact Card Title 1",
-          name: "cardTitle1",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card Description 1",
-          name: "cardDescription1",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card Button Text 1",
-          name: "cardBtn1",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card Link 1",
-          name: "cardLink1",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card 2",
-          name: "img2",
-          widget: "image",
-          required: false,
-          default: null,
-        }
-      - {
-          label: "Impact Card Title 2",
-          name: "cardTitle2",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card Description 2",
-          name: "cardDescription2",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card Button Text 2",
-          name: "cardBtn2",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card Link 2",
-          name: "cardLink2",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card 3",
-          name: "img3",
-          widget: "image",
-          required: false,
-          default: null,
-        }
-      - {
-          label: "Impact Card Title 3",
-          name: "cardTitle3",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card Description 3",
-          name: "cardDescription3",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card Button Text 3",
-          name: "cardBtn3",
-          widget: "string",
-          required: false,
-          default: "",
-        }
-      - {
-          label: "Impact Card Link 3",
-          name: "cardLink3",
-          widget: "string",
-          required: false,
-          default: "",
-        }
+     
+      - label: "Impact Cards"
+        name: "impactCards"
+        widget: "list"
+        fields:
+          - { label: "Impact Card Image", name: "img", widget: "image", required: false, default: null }
+          - { label: "Impact Card Title", name: "cardTitle", widget: "string", required: false, default: "" }
+          - { label: "Impact Card Description", name: "cardDescription", widget: "string", required: false, default: "" }
+
       - {
           label: "Title 6",
           name: "title6",
@@ -1233,6 +1151,7 @@ collections:
           required: false,
           default: null,
         }
+        
       - {
           label: "Footer Text 1",
           name: "footerText1",
@@ -1444,6 +1363,31 @@ collections:
               },
             ],
         }
+      - {
+          label: Partners,
+          name: partners,
+          widget: list,
+          fields:
+            [ 
+              { label: Logo, name: logo, widget: image, required: false, },
+         
+
+            ],
+        }
+      - {
+          label: Our Impact,
+          name: ourImpact,
+          widget: list,
+          fields:
+            [ 
+              { label: Image, name: image, widget: image, required: false, },
+              { label: Description, name: description, widget: string, required: false, },
+              { label: SubTitle, name: subTitle, widget: string, required: false, },       
+              { label: Link, name: link, widget: string, required: false, },        
+
+
+            ],
+        }
   - name: "pages"
     label: "Pages"
     files:
@@ -1533,7 +1477,7 @@ collections:
               fields:
                 [
                   { label: Title, name: title, widget: string },
-                  { label: Description, name: description, widget: string },
+                  { label: Description, name: description, widget: text },
                 ],
             }
           - {
@@ -1881,6 +1825,71 @@ collections:
                   },
                 ],
             }
+      - file: "src/pages/our-team/index.md"
+        label: "Our Team Page"
+        name: "our-team"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "our-team" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Banner Image", name: "bannerImage", widget: "image" }
+          - { label: "Sub Title", name: "subTitle", widget: "markdown" }
+          - {
+              label: Achievements,
+              name: achievements,
+              widget: list,
+              fields:
+                [
+                  { label: Value, name: value, widget: number },
+                  { label: Name, name: suffix, widget: string },
+                  { label: Project, name: description, widget: string }
+                ],
+            }
+          - {
+              label: Partners,
+              name: partnersList,
+              widget: list,
+              fields:
+                [
+                  { label: Image, name: image, widget: image },
+                  { label: Name, name: name, widget: text },
+                  { label: Project, name: project, widget: text },
+                  { label: Bio, name: bio, widget: text },
+                  { label: "LinkedIn Profile", name: linkedInProfile, widget: text }
+                ]
+            }
+          - {
+              label: Leaderships,
+              name: leadershipsList,
+              widget: list,
+              fields:
+                [
+                  { label: Image, name: image, widget: image },
+                  { label: Name, name: name, widget: text },
+                  { label: Project, name: project, widget: text },
+                  { label: Bio, name: bio, widget: text },
+                  { label: "LinkedIn Profile", name: linkedInProfile, widget: text }
+                ]
+            }
+          - {
+              label: Managers,
+              name: managersList,
+              widget: list,
+              fields:
+                [
+                  { label: Image, name: image, widget: image },
+                  { label: Name, name: name, widget: text },
+                  { label: Project, name: project, widget: text },
+                  { label: Bio, name: bio, widget: text },
+                  { label: "LinkedIn Profile", name: linkedInProfile, widget: text }
+                ]
+            }
+          - label: "Team Footer"
+            name: "teamFooter"
+            widget: "object"
+            fields:
+              - { label: "Footer Title", name: "footerTitle", widget: "string" }
+              - { label: "Button Text", name: "buttonText", widget: "string" }
+              - { label: "Button Link", name: "buttonLink", widget: "string" }
       - file: "src/pages/partners/index.md"
         label: "Partners Page"
         name: "partner"
@@ -2075,6 +2084,31 @@ collections:
                       [
                         { label: Text, name: link, widget: string },
                         { label: Text, name: text, widget: string },
+                      ],
+                  },
+                ],
+            }
+          - { label: "Assets Heading", name: "assetsHeading", widget: "string" }
+          - {
+              label: Assets,
+              name: assets,
+              widget: list,
+              fields:
+                [
+                  {
+                    label: Asset Card,
+                    name: assetCard,
+                    widget: object,
+                    fields:
+                      [
+                        { label: Asset Image, name: assetImage, widget: image },
+                        { label: Name, name: name, widget: string },
+                        {
+                          label: Description,
+                          name: description,
+                          widget: string,
+                        },
+                        { label: Link, name: link, widget: string },
                       ],
                   },
                 ],

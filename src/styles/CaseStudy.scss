@@ -234,6 +234,7 @@
   color: white;
   width: 90%;
   padding: 50px;
+  gap: 20px;
   margin: 50px auto;
   background: #a97f2b;
   display: flex;
@@ -244,6 +245,14 @@
     margin: 0;
     font-size: 18px;
     font-weight: 700;
+  }
+  .partner-with-us-secondary-text{
+    font-size:18px;
+    font-weight: 200;
+  }
+  .partner-with-us-secondary-text a{
+    color:white;
+    text-decoration: underline;
   }
   .partner-with-us-main-text {
     font-size: 36px;
@@ -327,7 +336,10 @@
 }
 
 @media only screen and (max-width: 980px) {
-  .cards-section .card-wrapper-case-study {
+.cards-section {
+  width: 100vw;
+}
+.cards-section .card-wrapper-case-study {
     max-width: 300px;
   }
   .first-spacer {

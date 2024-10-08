@@ -125,7 +125,7 @@ export const DeclutteredPageTemplate = ({ data }) => {
                 allowFullScreen
               ></iframe>
             </div>
-            <div className="description-text">
+            <div className="description-text text-justify">
               {data?.declutteredDescription?.descriptionHeader?.map((d, i) => {
                 return (
                   <div key={i}>

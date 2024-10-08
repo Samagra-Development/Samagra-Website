@@ -23,6 +23,7 @@ import "react-responsive-modal/styles.css";
 import CountUp from "react-countup";
 import SuccessStoriesSection from "../components/CaseStudyComponents/SuccessStoriesSection";
 import SectionDivider from "../components/CaseStudyComponents/SectionDivider";
+import ReactMarkdown from 'react-markdown';
 
 function FadeInSection(props) {
   const [isVisible, setVisible] = useState(false);
@@ -171,7 +172,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   style={{
                     textAlign: "center",
                     color: content?.fontColor,
-                    paddingBottom: "35px",
+                    paddingBottom: mobile ? "18px" : "36px",
                     paddingTop: !mobile ? "5px" : "24px",
                     fontSize: mobile ? "18px" : "36px",
                   }}
@@ -183,7 +184,8 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 <div
                   className="textCaseStudy"
                   style={{
-                    textAlign: "center",
+                                        textAlign:  mobile ? "justify" : "center",
+
                     // color: content?.fontColor,
                     // paddingBottom: '25px',
                     paddingTop: !mobile ? "5px" : "50px",
@@ -394,7 +396,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                     src={
                       content?.infographic1?.[0]?.img?.childImageSharp
                         ? content?.infographic1?.[0]?.img?.childImageSharp
-                            ?.fluid?.src
+                          ?.fluid?.src
                         : content?.infographic1?.[0]?.img
                     }
                     alt=""
@@ -500,7 +502,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                     src={
                       content?.infographic2?.[0]?.img?.childImageSharp
                         ? content?.infographic2?.[0]?.img?.childImageSharp
-                            ?.fluid?.src
+                          ?.fluid?.src
                         : content?.infographic2?.[0]?.img
                     }
                     alt=""
@@ -628,7 +630,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 className="headingCaseStudy"
                 id="impact-numbers-section"
                 style={{
-                  textAlign: "center",
+                  textAlign: mobile ? "justify" : "center",
                   color: content?.fontColor,
                   // paddingBottom: '25px',
                   width: "80%",
@@ -1131,6 +1133,17 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                             textAlign: "left",
                             marginBottom: "0",
                             paddingBottom: "0",
+                            fontStyle: "italic"
+                          }}
+                        >
+                          {content?.opEdAuthorDate}
+                        </p>
+                        <p
+                          className="textCaseStudy"
+                          style={{
+                            textAlign: "left",
+                            marginBottom: "0",
+                            paddingBottom: "0",
                             fontSize: mobile ? "16px" : "18px",
                           }}
                         >
@@ -1235,7 +1248,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                       src={
                         content?.blogSectionImage?.childImageSharp
                           ? content?.blogSectionImage?.childImageSharp?.fluid
-                              ?.src
+                            ?.src
                           : content?.blogSectionImage
                       }
                       width={mobile ? "100%" : "80%"}
@@ -1314,15 +1327,21 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               className="partner-with-us"
               style={{ marginTop: mobile ? "100px" : "150px" }}
             >
+              {content?.footersubText1 && (
+                <div className="partner-with-us-secondary-text">
+                  <ReactMarkdown>{content.footersubText1}</ReactMarkdown>
+                </div>
+              )}
               {content?.footerText1 && (
                 <p className="partner-with-us-main-text">
-                  {content?.footerText1}
+                  {content.footerText1}
                 </p>
               )}
-              {content?.footerText2 && <p>{content?.footerText2}</p>}
+              {content?.footerText2 && <p>{content.footerText2}</p>}
             </div>
           </FadeInSection>
         )}
+
       </>
     );
   };
@@ -1412,7 +1431,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   color: "",
                   fontSize: mobile ? "5px" : "9px",
                   fontWeight: "bold",
-                  textAlign: "center",
+                  textAlign: mobile ? "justify" : "center",
                 }}
               >
                 {content?.sideIcon2Text}
@@ -1509,8 +1528,8 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
       )}
       {/* <div className="spacer">
         <img src={spacer} alt="" />
-      </div> */}
-      <SectionDivider color={content?.fontColor} />
+        </div> */}
+        <SectionDivider color={content?.fontColor} />
       {arr.map((option, index) => (
         <React.Fragment key={index}>{renderSection(option)}</React.Fragment>
       ))}
@@ -1520,13 +1539,16 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
           dangerouslySetInnerHTML={{ __html: content?.successStoriesTitle }}
           style={{
             color: content?.fontColor,
-            margin: "auto",
+            marginTop: mobile ? "100px" : "85px",
+
+            // margin: "auto",
             fontSize: mobile ? "20px" : "28px",
           }}
         ></div>
         <div
           style={{
-            marginTop: "125px",
+                        marginTop: mobile ? "0" : "30px",
+
             marginBottom: "150px",
             display: "flex",
             justifyContent: mobile ? "" : "space-evenly",
@@ -1643,7 +1665,7 @@ export const pageQuery = graphql`
         opEdTitle
         opEdLink
         opEdDescription
-
+        opEdAuthorDate
         title8
         blogTitle
         blogLink
@@ -1751,8 +1773,10 @@ export const pageQuery = graphql`
             }
           }
         }
+          
         footerText1
         footerText2
+        footersubText1
         successStoriesTitle
         showSuccessStories
       }

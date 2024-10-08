@@ -123,7 +123,7 @@
   display: flex;
   gap: 32px;
   flex: 1;
-  text-align: start;
+  text-align: justify;
 }
 .model-video {
   padding: 0 16vw;
@@ -273,6 +273,9 @@
   gap: 12px;
   height: 80px;
 }
+.sushasan-desc{
+  text-align: start;
+}
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
   .home-top-gif {
@@ -289,6 +292,9 @@
 @media screen and (max-width: 769px) {
   .home-top-gif {
     height: auto;
+  }
+  .sushasan-desc{
+    text-align: center;
   }
   .news-heading {
     flex: 3.2;
