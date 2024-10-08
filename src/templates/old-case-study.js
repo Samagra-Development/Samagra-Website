@@ -121,13 +121,13 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
               {content?.title4}
             </div>
           )}
-          <div
+        {mobile? <div
             style={{
               display: "flex",
               flexDirection: mobile ? "column" : "row",
               alignItems: "center",
               justifyContent: "center",
-              padding: "32px 64px",
+              padding: "16px 40px",
               gap: "48px",
             }}
           >
@@ -137,6 +137,8 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                   display: "flex",
                   justifyContent: "center",
                   flex: 1,
+                  height: "24vh",
+                  aspectRatio: "16/9",
                   marginTop: !mobile ? "10px" : "",
                 }}
               >
@@ -162,49 +164,100 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                 </video>
               </div>
             )}
-            <div
+           
+          </div>:""}
+
+
+
+         <div
+  style={{
+    flex: 1,
+    display: "flex",
+    flexDirection: "column",
+    fontSize: "18px",
+    gap: "8px",
+    padding: mobile ? "20px 5%" : "30px 10%",
+  }}
+>
+  {content?.newsdescription?.map((n, i) => {
+    return (
+      <React.Fragment key={i}>
+        {/* Render the first paragraph */}
+        <div
+          style={{
+            fontSize: mobile ? "15px" : "18px",
+            textAlign: "justify",
+          }}
+        >
+          {n?.text}
+        </div>
+
+        {!mobile && i === 0 && content?.motionGraphic && (
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              flex: 1,
+              marginTop: "10px",
+            }}
+          >
+            <video
+              autoPlay
+              loop
+              muted
               style={{
                 flex: 1,
-                display: "flex",
-                flexDirection: "column",
-                fontSize: "18px",
-                gap: "8px",
+                width: "100%",
+                height: "54vh",
+                objectFit: "contain", 
+                aspectRatio: "16/9",
+                margin: "2% auto",
               }}
             >
-              {content?.newsdescription?.map((n, i) => {
-                return (
-                  <div key={i} style={{ fontSize: mobile ? "15px" : "18px" }}>
-                    {n?.text}
-                  </div>
-                );
-              })}
-              {content?.newsletterBtn && (
-                <div className="casestudy-btn-container">
-                  <button
-                    style={{
-                      cursor: "pointer",
-                      background: content?.fontColor,
-                      padding: "4px 30px",
-                      color: "white",
-                      border: "none",
-                      borderRadius: "8px",
-                      transition: "transform 0.2s ease",
-                    }}
-                    onClick={() => {
-                      const link = document.createElement("a");
-                      link.href = content?.newsletterLink;
-                      link.target = "_blank";
-                      document.body.appendChild(link);
-                      link.click();
-                      document.body.removeChild(link);
-                    }}
-                  >
-                    {content?.newsletterBtn}
-                  </button>
-                </div>
-              )}
-            </div>
+              <source
+                src={
+                  content?.motionGraphic?.publicURL
+                    ? content?.motionGraphic?.publicURL
+                    : content?.motionGraphic
+                }
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
           </div>
+        )}
+      </React.Fragment>
+    );
+  })}
+
+  {content?.newsletterBtn && (
+    <div className="casestudy-btn-container">
+      <button
+        style={{
+          cursor: "pointer",
+          background: content?.fontColor,
+          padding: "4px 30px",
+          color: "white",
+          border: "none",
+          borderRadius: "8px",
+          transition: "transform 0.2s ease",
+        }}
+        onClick={() => {
+          const link = document.createElement("a");
+          link.href = content?.newsletterLink;
+          link.target = "_blank";
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+        }}
+      >
+        {content?.newsletterBtn}
+      </button>
+    </div>
+  )}
+</div>
+
+
         </FadeInSection>
         <SectionDivider color={content?.fontColor} />
       </>
@@ -598,141 +651,45 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
                   </div>
                 </>
               )}
-              {content?.showImpactCard && (
-                <div
-                  style={{
-                    display: "flex",
-                    flexWrap: "wrap",
-                    gap: "32px",
-                    justifyContent: "center",
-                    margin: "60px 0",
-                  }}
-                >
-                  <div class="case-study-impact-card">
-                    <img
-                      src={
-                        content?.img1?.childImageSharp
-                          ? content?.img1?.childImageSharp?.fluid?.src
-                          : content?.img1
-                      }
-                      alt="Card background image"
-                    />
-                    <div
-                      class="impact-card-content"
-                      style={{ color: content?.impactCardFontColor }}
-                    >
-                      <div
-                        style={{ fontWeight: "600", fontSize: "25px" }}
-                        dangerouslySetInnerHTML={{
-                          __html: content?.cardTitle1,
-                        }}
-                      ></div>
-                      <div
-                        style={{ fontWeight: "400", fontSize: "18" }}
-                        dangerouslySetInnerHTML={{
-                          __html: content?.cardDescription1,
-                        }}
-                      ></div>
-                      {content?.cardBtn1 && (
-                        <p
-                          style={{
-                            paddingTop: "15px",
-                            cursor: "pointer",
-                            textDecoration: "underline",
-                          }}
-                          onClick={() => {
-                            window.location.href = content?.cardLink1;
-                          }}
-                        >
-                          {content?.cardBtn1} <InfoIcon />
-                        </p>
-                      )}
-                    </div>
-                  </div>
-                  <div class="case-study-impact-card">
-                    <img
-                      src={
-                        content?.img2?.childImageSharp
-                          ? content?.img2?.childImageSharp?.fluid?.src
-                          : content?.img2
-                      }
-                      alt="Card background image"
-                    />
-                    <div
-                      class="impact-card-content"
-                      style={{ color: content?.impactCardFontColor }}
-                    >
-                      <div
-                        style={{ fontWeight: "600", fontSize: "25px" }}
-                        dangerouslySetInnerHTML={{
-                          __html: content?.cardTitle2,
-                        }}
-                      ></div>
-                      <div
-                        style={{ fontWeight: "400", fontSize: "18" }}
-                        dangerouslySetInnerHTML={{
-                          __html: content?.cardDescription2,
-                        }}
-                      ></div>
-                      {content?.cardBtn2 && (
-                        <p
-                          style={{
-                            paddingTop: "15px",
-                            cursor: "pointer",
-                            textDecoration: "underline",
-                          }}
-                          onClick={() => {
-                            window.location.href = content?.cardLink2;
-                          }}
-                        >
-                          {content?.cardBtn2} <InfoIcon />
-                        </p>
-                      )}
-                    </div>
-                  </div>
-                  <div class="case-study-impact-card">
-                    <img
-                      src={
-                        content?.img3?.childImageSharp
-                          ? content?.img3?.childImageSharp?.fluid?.src
-                          : content?.img3
-                      }
-                      alt="Card background image"
-                    />
-                    <div
-                      class="impact-card-content"
-                      style={{ color: content?.impactCardFontColor }}
-                    >
-                      <div
-                        style={{ fontWeight: "600", fontSize: "25px" }}
-                        dangerouslySetInnerHTML={{
-                          __html: content?.cardTitle3,
-                        }}
-                      ></div>
-                      <div
-                        style={{ fontWeight: "400", fontSize: "18" }}
-                        dangerouslySetInnerHTML={{
-                          __html: content?.cardDescription3,
-                        }}
-                      ></div>
-                      {content?.cardBtn3 && (
-                        <p
-                          style={{
-                            paddingTop: "15px",
-                            cursor: "pointer",
-                            textDecoration: "underline",
-                          }}
-                          onClick={() => {
-                            window.location.href = content?.cardLink3;
-                          }}
-                        >
-                          {content?.cardBtn3} <InfoIcon />
-                        </p>
-                      )}
-                    </div>
-                  </div>
-                </div>
-              )}
+               {((content?.impactCards?.length > 0) && content?.showImpactCard ) && (
+  <div
+    style={{
+      display: "flex",
+      flexWrap: "wrap",
+      gap: "32px",
+      justifyContent: "center",
+      margin: "60px 0",
+    }}
+  >
+    {content?.impactCards?.map((card, index) => (
+      <div key={index} className="case-study-impact-card">
+        <img
+          src={
+            card?.img?.childImageSharp
+              ? card?.img?.childImageSharp?.fluid?.src
+              : card?.img
+          }
+          alt="Card background image"
+        />
+        <div
+          className="impact-card-content"
+          style={{ color: content?.impactCardFontColor }}
+        >
+          <div
+            style={{ fontWeight: "600", fontSize: "25px" }}
+            dangerouslySetInnerHTML={{ __html: card.cardTitle }}
+          ></div>
+          <div
+            style={{ fontWeight: "400", fontSize: "18px" }}
+            dangerouslySetInnerHTML={{ __html: card.cardDescription }}
+          ></div>
+          
+        </div>
+      </div>
+    ))}
+  </div>
+)}
+
             </div>
           </div>
         </FadeInSection>
@@ -1440,7 +1397,7 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
             {content?.title1}
           </div>
           <div
-            className={"old-case-study-sub-heading"}
+            className={"old-case-study-sub-heading text-justify"}
             style={{ fontSize: mobile ? "18px" : "24px" }}
           >
             {content?.title2}
@@ -1565,7 +1522,6 @@ export const pageQuery = graphql`
         title3
         impactVideoLink
         showImpactVideo
-        showImpactCard
         impactCardFontColor
         img1 {
           childImageSharp {
@@ -1574,41 +1530,19 @@ export const pageQuery = graphql`
             }
           }
         }
-        cardTitle1
-        cardDescription1
-        cardBtn1
-        cardLink1
-        img2 {
-          childImageSharp {
-            fluid(maxWidth: 1280, quality: 62) {
-              ...GatsbyImageSharpFluid
+        impactCards {
+          img {
+            childImageSharp {
+              fluid(maxWidth: 1280, quality: 62) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
+          cardTitle
+          cardDescription
         }
-        cardTitle2
-        cardDescription2
-        cardBtn2
-        cardLink2
-        img3 {
-          childImageSharp {
-            fluid(maxWidth: 1280, quality: 62) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        cardTitle3
-        cardDescription3
-        cardBtn3
-        cardLink3
-
-        backgroundMap {
-          childImageSharp {
-            fluid(maxWidth: 1280, quality: 62) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-
+        showImpactCard
+       
         title4
         title5
         title6

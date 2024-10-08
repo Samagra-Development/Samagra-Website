@@ -9,7 +9,7 @@ domain: "Agriculture "
 subTitle: Samagra
 state: Odisha
 tagLine: "Increasing farmer income via commodity-specific interventions in the
-  livestock sector \v"
+  livestock sector"
 projectLogoWithState: /img/leap.png
 overview:
   - text: " Samagra has been working with the Departments of Agriculture and

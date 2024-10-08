@@ -334,7 +334,7 @@ export const KSKTemplate = ({ content, helmet }) => {
             style={{
               width: "80%",
               margin: "50px auto",
-              display: "flex",
+              display: "flex",              
               justifyContent: "space-evenly",
               flexDirection: mobile ? "column" : "row",
             }}

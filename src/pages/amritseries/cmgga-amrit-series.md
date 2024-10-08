@@ -59,18 +59,7 @@ newsletterBtn: Read Newsletter
 motionGraphic: /img/pov_graphics-base.mp4
 title5: Here is how Haryana worked towards augmenting system capacity
 showImpactVideo: false
-showImpactCard: true
-impactCardFontColor: ""
-img1: /img/cmgga-img-2.jpg
-cardTitle1: Ownership<br> by CMO
-cardDescription1: "Ensuring active involvement and time commitment from CMO "
-img2: /img/cmgga-img-3.jpg
-cardTitle2: Insider-Outsider Positioning
-cardDescription2: Ensuring fellows are not burdened with daily procedures of governance
-img3: /img/cmggaimg.jpg
-cardTitle3: Strong Programme Team
-cardDescription3: Facilitating strategic positioning & support via a programme office
-icon1: /img/cmggaicon1.jpg
+
 impactNumber1Char: ""
 impactNumber1: 8
 impactNumber1Decimal: 0
@@ -115,4 +104,18 @@ footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
 successStoriesTitle: <i>View more Success Stories of Impact</i>
 showSuccessStories: amritsarovar,saksham-education,nlapp
+showImpactCard: true
+
+impactCards:
+  - img: /img/cmgga-img-2.jpg
+    cardTitle: Ownership<br> by CMO
+    cardDescription: "Ensuring active involvement and time commitment from CMO"   
+  - img: /img/cmgga-img-3.jpg
+    cardTitle: Insider-Outsider Positioning
+    cardDescription: Ensuring fellows are not burdened with daily procedures of governance
+  - img: /img/cmggaimg.jpg
+    cardTitle: Strong Programme Team
+    cardDescription: Facilitating strategic positioning & support via a programme office 
+    
+
 ---

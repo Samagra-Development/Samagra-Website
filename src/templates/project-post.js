@@ -1,11 +1,34 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-// import Content from '../components/Content'
 import ProductBannerImage from "../components/ProductPageComponents/ProductBannerImage/ProductBannerImage";
 import { ProductPageSecondSection } from "../components/ProductPageComponents/ProductPageSecondSection/ProductPageSecondSection";
 import { ProductPageKeyInitiatives } from "../components/ProductPageComponents/ProductPageKeyInitiatives/ProductPageKeyInitiatives";
 import OurPublicationsSection from "../components/ProductPageComponents/OurPublicationsSection/OurPublicationsSection";
+import { OurImpactSection } from "../components/ProductPageComponents/OurImpactSection/OurImpactSection";
+
+const OurPartnersSection = ({ partners }) => {
+  if (!partners || partners?.length === 0) {
+    return null;
+  }
+
+  return (
+    <div className="partners-section">
+      <h2 className="partners-heading">Our Partners</h2>
+      <div className="partners-container">
+        {partners?.map((partner, index) => (
+          <div key={index} className="partner-item">
+            <img
+              src={partner?.logo?.childImageSharp?.fluid?.src}
+              alt={"partner-logo"}
+              className="partner-logo"
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
 
 export const ProjectPostTemplate = ({ project }) => {
   return (
@@ -15,7 +38,15 @@ export const ProjectPostTemplate = ({ project }) => {
       {project.keyInitiatives && project.keyInitiatives.length !== 0 ? (
         <ProductPageKeyInitiatives project={project} />
       ) : null}
+       {project.ourImpact && project.ourImpact.length !== 0 ? (
+        <OurImpactSection data={project.ourImpact} />
+      ) : null}
+      {
 
+        (project?.partners && project?.partners?.length !== 0) && (
+          <OurPartnersSection partners={project?.partners} />
+        )
+      }
       <OurPublicationsSection
         readMore={project.readMore}
         projectId={project.id}
@@ -23,6 +54,7 @@ export const ProjectPostTemplate = ({ project }) => {
     </section>
   );
 };
+
 const ProjectPost = ({ data }) => {
   const { markdownRemark: item } = data;
   const project = item.frontmatter;
@@ -58,6 +90,27 @@ export const pageQuery = graphql`
             }
           }
         }
+        ourImpact {
+          image {
+            childImageSharp {
+              fluid(maxWidth: 640, quality: 64) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          description 
+          subTitle
+          link
+        }
+        partners {
+          logo {
+            childImageSharp {
+              fluid(maxWidth: 240, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
         projectLogoWithState {
           childImageSharp {
             fluid(maxWidth: 240, quality: 100) {
@@ -68,7 +121,7 @@ export const pageQuery = graphql`
         approach {
           text
         }
-
+        
         overview {
           text
         }
@@ -80,6 +133,7 @@ export const pageQuery = graphql`
           count
           label
         }
+        
         projectMiddleBannerImage {
           childImageSharp {
             fluid(maxWidth: 1440, quality: 100) {
@@ -104,10 +158,3 @@ export const pageQuery = graphql`
     }
   }
 `;
-// centerBanner {
-//     childImageSharp {
-//         fluid(maxWidth: 240, quality: 64) {
-//         ...GatsbyImageSharpFluid
-//         }
-//     }
-// }

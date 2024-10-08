@@ -35,8 +35,10 @@ const OurMissionSection = ({ data }) => {
         <div className="section-heading text-center blue-text">
           {data?.ourMission?.title}
         </div>
-        <div className="section-description text-center blact-text-1">
-          {data?.ourMission?.description}
+        <div className="section-description text-center blact-text-1" dangerouslySetInnerHTML={{
+                        __html: data?.ourMission?.description,
+                      }} >
+          
         </div>
       </div>
     </>

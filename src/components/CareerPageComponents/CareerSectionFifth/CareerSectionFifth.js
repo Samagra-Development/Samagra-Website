@@ -1,7 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { PrimaryButton } from "../../PrimaryButton/PrimaryButton";
 
 const CareerSectionFifth = ({ content }) => {
+  const [mobile, setMobile] = useState(false);
+ useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        setMobile(() => true);
+      } else {
+        setMobile(() => false);
+      }
+    };
+    handleResize();
+  }, []);
   const headings = [
     {
       title: "Associate & Senior Associate",
@@ -31,7 +42,8 @@ const CareerSectionFifth = ({ content }) => {
             <div className="col-md-6 col-sm-12 text-center">
               <iframe
                 width="100%"
-                height="320px"
+                object-fit="cover"
+                height={mobile?"220px":"320px"}
                 src={content.roles.youtubeLink}
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -66,7 +78,7 @@ const CareerSectionFifth = ({ content }) => {
                     </div>
 
                     {selectedRoleIndex === index ? (
-                      <div className={"role-description"}>
+                      <div className={"role-description text-justify"}>
                         {item.description}
                       </div>
                     ) : (
@@ -77,7 +89,7 @@ const CareerSectionFifth = ({ content }) => {
               })}
             </div>
           </div>
-          <div className="row mt-5 pt-5">
+          <div className="row join-us-btn pt-5">
             <div className="col-12 text-center">
               <PrimaryButton
                 classes={"py-3 text-uppercase"}

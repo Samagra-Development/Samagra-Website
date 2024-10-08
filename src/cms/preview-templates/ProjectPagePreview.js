@@ -23,7 +23,7 @@ const ProjectPagePreview = ({ entry, getAsset }) => {
     return (
       <React.Fragment>
         <ProjectPostTemplate project={data} />
-        <HomeThirdSectionContent previewData={previewData} />
+        {/* <HomeThirdSectionContent previewData={previewData} /> */}
       </React.Fragment>
     );
   } else {

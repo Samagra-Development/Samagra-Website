@@ -11,8 +11,7 @@ state: Haryana
 tagLine: Increasing the income of farmers in Odisha by improving their productivity
 projectLogoWithState: /img/adapt-for-website.png
 overview:
-  - text: >-
-      ADAPT is a partnership between the Government of Odisha, Bill & Melinda
+  - text: ADAPT is a partnership between the Government of Odisha, Bill & Melinda
       Gates Foundation and Samagra aimed at increasing the agricultural output
       of the state and improving the income of farmers. The vision for the
       project is empowering the state government to make data-backed policy
@@ -24,16 +23,15 @@ overview:
       and implement the state’s flagship KALIA scheme that provides livelihood
       assistance to small and marginal farmers across the state.
 scale:
-  - count: '314'
+  - count: "314"
     label: Blocks
-  - count: '8,000'
+  - count: 8,000
     label: Government Officials
-  - count: '65,00,000'
+  - count: 65,00,000
     label: Farmers
 projectMiddleBannerImage: /img/adapt-cover.jpg
 approach:
-  - text: >-
-      Our approach to improving agricultural productivity in Odisha is centred
+  - text: Our approach to improving agricultural productivity in Odisha is centred
       on leveraging data and technology to arm the state government and farmers
       with timely information that can translate into informed choices. This
       vision is being realized through a Decision Support System or ADAPT
@@ -46,35 +44,30 @@ approach:
       disseminated to farmers.
 readMore:
   - text: Lessons in direct income support from Odisha
-  - text: >-
-      India’s agriculture departments are complex. But Odisha is using data to
+  - text: India’s agriculture departments are complex. But Odisha is using data to
       fix it
-  - text: >-
-      This State’s Solutions May Be The Answer Farmers Across India Are Looking
+  - text: This State’s Solutions May Be The Answer Farmers Across India Are Looking
       For
 impact:
   - count: 40+
     label: Scheme Monthly Progress Reports digitised
   - count: 90%
     label: reduction in crop loss due to Customised Pest Advisory
-  - count: '51,00,000'
+  - count: 51,00,000
     label: KALIA beneficiaries identified within 4 months
 keyInitiativesTitle: Key Initiatives
 keyInitiatives:
   - description:
-      text: >-
-        The ADAPT Dashboard provides the Department of Agriculture all
-        historical information needed to plan, execute, and monitor
-        implementation of government schemes. Through the Dashboard the
-        government can track the progress and view relevant information on a
-        particular scheme, season, soil variety or crop. Farmers can use the
-        Dashboard to access data to assess seasonal variations, soil health, and
-        inputs needed.
+      text: The ADAPT Dashboard provides the Department of Agriculture all historical
+        information needed to plan, execute, and monitor implementation of
+        government schemes. Through the Dashboard the government can track the
+        progress and view relevant information on a particular scheme, season,
+        soil variety or crop. Farmers can use the Dashboard to access data to
+        assess seasonal variations, soil health, and inputs needed.
     image: /img/adapt-initiative-1.png
     title: Decision Support System
   - description:
-      text: >-
-        To support farmers against pest attacks, the ADAPT team has worked with
+      text: To support farmers against pest attacks, the ADAPT team has worked with
         the Government of Odisha to develop a pest surveillance app. Using this
         app, farmers can raise pest-related queries in real time. To receive
         customized solutions from agricultural experts, they just click a
@@ -82,8 +75,7 @@ keyInitiatives:
     image: /img/adapt-initiative-2.jpg
     title: Pest Surveillance App
   - description:
-      text: >-
-        In order to strengthen its extension workforce, the Government of Odisha
+      text: In order to strengthen its extension workforce, the Government of Odisha
         launched a first-of-its-kind internship programme for 3rd and 4th year
         students from 3 agricultural universities. These student associates work
         as representatives of the Department of Agriculture to solve the
@@ -94,5 +86,14 @@ keyInitiatives:
         farmers to create farmer profiles.
     image: /img/adapt-initiative-3.jpg
     title: Agriculture Internship Programme
+partners:
+  - logo: /img/adapt-for-website.png
+  - logo: /img/adapt-for-website.png
+  - logo: /img/group.png
+ourImpact:
+  - image: /img/adapt-cover.jpg
+    description: information asymmetry that exists between the state and farmers. They
+          work with block level officials and go on the ground to
+    subTitle: this is a subtitle
+    link: /#
 ---
-

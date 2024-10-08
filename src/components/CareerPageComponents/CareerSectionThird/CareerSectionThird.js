@@ -45,7 +45,7 @@ const CareerSectionThird = ({ content }) => {
           Graduate Study Support Program
         </div>
         <div
-          className="py-3 text-center f-18 color-text-primary main-text mx-auto"
+          className="py-3 text-justify f-18 color-text-primary main-text mx-auto"
           style={{ maxWidth: "850px" }}
         >
           <p>

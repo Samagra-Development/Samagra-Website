@@ -56,7 +56,7 @@ const SushasanPageComponent = ({ content, mobile }) => {
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
-          <p className="sushasan-header-text">
+          <p className="sushasan-header-text text-justify">
             <div dangerouslySetInnerHTML={{ __html: content?.text }} />
           </p>
         </div>

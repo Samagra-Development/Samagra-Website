@@ -4,8 +4,44 @@ import CaseStudiesRoll from "../../components/CaseStudiesRoll";
 import backgroundImage from "../../../static/img/amrit-series-top-banner.jpg";
 import amritSeriesLogo from "../../../static/img/amrit-series-logo.png";
 import amritSeriesDoodle from "../../../static/img/amrit-series-text-doodle.svg";
+import AssetsFooter from "../../components/AssetsFooter"; // Import your AssetsFooter component
+
 export default function CaseStudiesIndexPage() {
   const [mobile, setMobile] = useState(false);
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
+  const content = {
+    assetsHeading: "Explore Our Assets",
+    assets: [
+      {
+        assetCard: {
+          assetImage: "/img/frame-300-1-.png",
+          name: "Governance Decluttered",
+          description:
+            "Series of bite-sized videos decoding everyday governance topics",
+          link: "/decluttered",
+        },
+      },
+      {
+        assetCard: {
+          assetImage: "/img/amrit-series-1-.png",
+          name: "Sushasan",
+          description: "India’s first podcast exclusively focused on governance.",
+          link: "/sushasan",
+        },
+      },
+      {
+        assetCard: {
+          assetImage: "/img/amrit-series-2-.png",
+          name: "Governance Frameworks",
+          description:
+            "The Governance Matrix and Panchsutras for Governance Transformation.",
+          link: "/governanceframeworks",
+        },
+      },
+    ],
+  };
+
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 768) {
@@ -28,7 +64,6 @@ export default function CaseStudiesIndexPage() {
   }, []);
 
   return (
-    // <></>
     <Layout>
       <div className={"base-banner-image"}>
         <img
@@ -58,9 +93,6 @@ export default function CaseStudiesIndexPage() {
       >
         <div className="row">
           <div className="mx-auto">
-            {/* <div style={{ textAlign: 'center', marginTop: '4rem' }}>
-              <img src={spacer} alt="" />
-            </div> */}
             <div style={{ textAlign: "center", marginBottom: "50px" }}>
               <img
                 src={amritSeriesLogo}
@@ -84,7 +116,9 @@ export default function CaseStudiesIndexPage() {
               ></iframe>
               <p className="sushasan-channel-trailer-text">
                 <div
-                  className={"py-2 text-left f-18 color-text-primary main-text"}
+                  className={
+                    "py-2 sushasan-desc text-justify f-18 color-text-primary main-text"
+                  }
                 >
                   At Samagra, we are on a mission to improve the quality of life
                   of citizens through better governance. <br></br>
@@ -138,6 +172,16 @@ export default function CaseStudiesIndexPage() {
           </div>
         </div>
       </section>
+
+      {/* Adding AssetsFooter component here */}
+      <AssetsFooter
+        data={content?.assets}
+        assetsHeading={content?.assetsHeading}
+        hoveredIndex={hoveredIndex}
+        setHoveredIndex={setHoveredIndex}
+        mobile={mobile}
+      />
+
       <div
         className="partner-with-us"
         style={{ marginTop: mobile ? "0px" : "25px" }}

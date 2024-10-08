@@ -6,7 +6,7 @@ export const ProductBannerImage = ({ project }) => {
     <div
       className={"product-page-banner project-banner"}
       style={{
-        height: "600px",
+        height: "100vh",
         overflow: "hidden",
         maxHeight: "100vh",
         backgroundImage: `url(${
@@ -20,7 +20,7 @@ export const ProductBannerImage = ({ project }) => {
       <div className="translucent-dark-overlay">
         <div className="banner-text">
           <div className={`project-name`}>
-            <div className="text">{project.title} &nbsp;&nbsp;|</div>
+            <div className="text">{project.title}</div>
           </div>
           <div className="project-tag-line">
             <div className="text">{project.tagLine || ""}</div>

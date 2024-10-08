@@ -8,7 +8,7 @@ const CareerSectionSecond = ({ content, fromC4GT }) => {
         <div className="col-11 mx-auto">
           <div
             className={
-              "mt-4 py-4 text-center f-18 color-text-primary main-text"
+              "mt-4 py-4 text-justify f-18 color-text-primary main-text"
             }
           >
             {content.mainContent.map((c) => {

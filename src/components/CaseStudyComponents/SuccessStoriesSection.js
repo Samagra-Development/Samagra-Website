@@ -47,7 +47,7 @@ export const SuccessStoriesSection = ({ data, successStories }) => {
                 hoveredIndex === index ? "hovered" : ""
               } `}
               style={{
-                margin: mobile ? "50px auto" : "",
+                margin: mobile ? "70px auto" : "",
                 height: mobile ? "200px" : "250px",
                 width: mobile ? "275px" : "350px",
               }}
@@ -68,7 +68,7 @@ export const SuccessStoriesSection = ({ data, successStories }) => {
                 style={{
                   background: "#F5F7FA",
                   borderRadius: "10px",
-                  height: mobile ? "150px" : "150px",
+                  height: mobile ? "auto" : "150px",
                   width: mobile ? "230px" : "300px",
                   position: "relative",
                   top: "-80px",

@@ -30,7 +30,7 @@ const FrameworkSectionThird = ({ content }) => {
               />
               <div className="details">
                 <div style={{ flex: 1 }}>
-                  <p className="f-18">{c.text}</p>
+                  <p className="f-18 text-justify">{c.text}</p>
                 </div>
                 <div className="actions">
                   {c.actions.map((a) => {
