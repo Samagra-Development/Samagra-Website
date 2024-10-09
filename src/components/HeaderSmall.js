@@ -405,7 +405,7 @@ export class HeaderSmall extends React.Component {
                       onClick={() => {
                         this.setState({ popupOpened: "inactive" });
                       }}
-                      href="/tgc"
+                      href="https://www.thegovernancechallenge.in/"
                     >
                       {"The Governance Challenge (TGC)"}
                     </a>
