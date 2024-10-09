@@ -108,7 +108,7 @@ const Navbar = class extends React.Component {
                             {title:"Governance Decluttered",projectUrl:"/decluttered"}
                             ]}/>
                             <MenuDropdown menuIcon={showInverted?menuIconBlack:menuIconWhite} heading={"Ecosystem Initiatives"} data={[{title:"Code for GovTech (C4GT)",projectUrl:"/c4gt"},
-                            {title:"The Governance Challenge (TGC)",projectUrl:"/tgc"}]}/>
+                            {title:"The Governance Challenge (TGC)",projectUrl:"https://www.thegovernancechallenge.in/"}]}/>
                             {/* <li className='nav-dropdown-menu'>
                                 <a className="nav-link" href="#" onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} style={{display:"flex",alignItems:"center",gap:"4px",position:"relative"}}>
                                 <span>About Us</span><img src={showInverted?menuIconBlack:menuIconWhite}/>

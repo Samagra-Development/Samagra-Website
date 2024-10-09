@@ -115,7 +115,7 @@ export const FooterComponent = ({}) => {
                   </Link>
                 </div>
                 <div>
-                  <Link to={"/tgc"}>
+                  <Link to={"https://www.thegovernancechallenge.in/"}>
                     <span className="footer-item">
                       The Governance Challenge (TGC)
                     </span>
