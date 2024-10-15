@@ -122,7 +122,7 @@ webinarTitle: ""
 webinarDescription: ""
 
 
-showImpactCard: false
+showImpactCard: true
 
 impactCards:
   - img: /img/ttd_img_1.jpg
