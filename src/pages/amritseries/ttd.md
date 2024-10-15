@@ -70,7 +70,17 @@ newsletterLink: ""
 title5: ""
 showImpactVideo: false
 impactVideoLink: ""
-
+showImpactCard: true
+impactCards:
+  - img: /img/ttd_img_1.jpg
+    cardTitle: REVAMPING DEMAND COLLECTION
+    cardDescription: Tech driven, centralised demand collection process introduced
+  - img: /img/ttd_img_2.jpg
+    cardTitle: PRIORITIZING TENDERS
+    cardDescription: Initiating the tender process for printing of textbooks early on
+  - img: /img/ttd_img_3.jpg
+    cardTitle: OPTIMISING FOR DELIVERY
+    cardDescription: Shift from multiple distributors being mapped to one school
 title6: ""
 icon1: /img/icon_1_ttd.jpg
 impactNumber1Char: "#"
@@ -120,25 +130,9 @@ opEdLink: ""
 showWebinar: false
 webinarTitle: ""
 webinarDescription: ""
-
-
-showImpactCard: false
-
-impactCards:
-  - img: /img/ttd_img_1.jpg
-    cardTitle:  REVAMPING DEMAND COLLECTION
-    cardDescription: "Tech driven, centralised demand collection process introduced"   
-  - img: /img/ttd_img_2.jpg
-    cardTitle: PRIORITIZING TENDERS
-    cardDescription: Initiating the tender process for printing of textbooks early on
-  - img: /img/ttd_img_3.jpg
-    cardTitle:  OPTIMISING FOR DELIVERY
-    cardDescription: Shift from multiple distributors being mapped to one school
-
 blogSectionImage: /img/samarth-header-bg.jpg
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.i"
 successStoriesTitle: View more Success Stories of Impact
 showSuccessStories: amritsarovar,nlapp,hkrn
-
 ---
