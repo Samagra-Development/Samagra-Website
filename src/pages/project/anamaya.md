@@ -51,6 +51,8 @@ approach:
       nutrition outcomes. The target for 2025 will be to demonstrate the
       effectiveness of QLI as a system enabler by increasing the state-level QLI
       by 1 point.
+readMore:
+  - {}
 impact:
   - label: "Establishment of Digital infrastructure in form of Tribal Database and
       Quality of Life Index for reliable measurement and effective delivery of
@@ -62,4 +64,6 @@ impact:
       of health seeking behaviors "
     count: " "
 keyInitiativesTitle: " "
+partners:
+  - logo: /img/piramal-foundation.png
 ---
