@@ -35,22 +35,26 @@ export const ProjectPostTemplate = ({ project }) => {
     <section>
       <ProductBannerImage project={project} />
       <ProductPageSecondSection project={project} />
-      {project.keyInitiatives && project.keyInitiatives.length !== 0 ? (
+      {project.keyInitiatives && project.keyInitiatives.length > 0 ? (
         <ProductPageKeyInitiatives project={project} />
       ) : null}
-       {project.ourImpact && project.ourImpact.length !== 0 ? (
+      {project.ourImpact && project.ourImpact.length > 0 ? (
         <OurImpactSection data={project.ourImpact} />
       ) : null}
       {
 
-        (project?.partners && project?.partners?.length !== 0) && (
+        (project?.partners && project?.partners?.length > 0) && (
           <OurPartnersSection partners={project?.partners} />
         )
       }
-      <OurPublicationsSection
-        readMore={project.readMore}
-        projectId={project.id}
-      />
+      {
+
+        (project?.readMore && project?.readMore?.length > 0) && (
+          <OurPublicationsSection
+            readMore={project.readMore}
+            projectId={project.id}
+          />)
+      }
     </section>
   );
 };

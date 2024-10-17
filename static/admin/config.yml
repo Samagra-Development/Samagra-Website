@@ -1306,6 +1306,7 @@ collections:
           widget: list,
           max: 200,
           min: 1,
+          required: false,
           fields:
             [
               {
