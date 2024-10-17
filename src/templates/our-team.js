@@ -20,6 +20,10 @@ export const OurTeamPage = ({ data }) => {
   const managers = post.frontmatter.managersList || [];
   const achievements = post.frontmatter.achievements || [];
   const teamFooter = post.frontmatter.teamFooter || {};
+  const title1 = post.frontmatter.title1 || '';
+  const title2 = post.frontmatter.title2 || '';
+  const title3 = post.frontmatter.title3 || '';
+
 
   const [hoveredMember, setHoveredMember] = useState(-1);
   const [showPopup, setShowPopup] = useState({ index: -1, list: null });
@@ -134,9 +138,9 @@ export const OurTeamPage = ({ data }) => {
         </div>
 
         {/* Team Sections */}
-        {renderTeamSection(partners, "Partners", "partners")}
-        {renderTeamSection(leaderships, "Leadership", "leaderships")}
-        {renderTeamSection(managers, "Managers", "managers")}
+        {renderTeamSection(partners, title1, "partners")}
+        {renderTeamSection(leaderships, title2, "leaderships")}
+        {renderTeamSection(managers, title3, "managers")}
 
         {/* Popup Section */}
         {popupMember && (
@@ -244,6 +248,9 @@ export const ourTeamPageQuery = graphql`
           suffix
           description
         }
+        title1
+        title2
+        title3
         partnersList {
           image {
             childImageSharp {

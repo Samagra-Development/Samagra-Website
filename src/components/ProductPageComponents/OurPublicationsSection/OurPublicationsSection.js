@@ -19,10 +19,10 @@ export const OurPublicationsSection = ({data, projectId, readMore}) => {
 
     const filteredPublications = [];
     readMoreTitles.forEach((rMT) => {
-        const filteredPublication = allPublications.filter(function (item) {
-            return rMT.indexOf(item.node.frontmatter.title) > -1;
+        const filteredPublication = allPublications?.filter(function (item) {
+            return rMT?.indexOf(item.node.frontmatter?.title) > -1;
         });
-        if (filteredPublication && filteredPublication.length) {
+        if (filteredPublication && filteredPublication?.length) {
             filteredPublications.push(filteredPublication[0]);
         }
     });
