@@ -17,6 +17,9 @@ teamFooter:
   footerTitle: Come join us in this journey and commit yourself to nation building
   buttonText: Join Us
   buttonLink: /#
+title1: Partners
+title2: Leadership
+title3: Managers
 partnersList:
   - bio: Gaurav is the Founder & CEO of Samagra. Gaurav holds a dual degree in
       Computer Science & Engineering from IIT Delhi and an MBA from IIM

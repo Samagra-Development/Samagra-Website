@@ -1845,6 +1845,8 @@ collections:
                   { label: Project, name: description, widget: string }
                 ],
             }
+          - { label: "List 1 Title", name: "title1", widget: "string" }
+
           - {
               label: Partners,
               name: partnersList,
@@ -1858,6 +1860,8 @@ collections:
                   { label: "LinkedIn Profile", name: linkedInProfile, widget: text }
                 ]
             }
+          - { label: "List 2 Title", name: "title2", widget: "string" }
+          
           - {
               label: Leaderships,
               name: leadershipsList,
@@ -1871,6 +1875,8 @@ collections:
                   { label: "LinkedIn Profile", name: linkedInProfile, widget: text }
                 ]
             }
+          - { label: "List 3 Title", name: "title3", widget: "string" }
+          
           - {
               label: Managers,
               name: managersList,
