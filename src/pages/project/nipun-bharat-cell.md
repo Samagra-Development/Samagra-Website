@@ -69,4 +69,5 @@ ourImpact:
     description: Easy-to-use app for quick, accurate and standardized assessment of
       student learning levels at scale
     subTitle: NIPUN LAKSHYA APP
+    image: /img/_agn7920.jpg
 ---
