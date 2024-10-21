@@ -49,4 +49,6 @@ impact:
   - label: Effective assistance to farmers & officers backed by data
     count: " "
 keyInitiativesTitle: " "
+partners:
+  - logo: /img/BMGF_Logo.jpg
 ---
