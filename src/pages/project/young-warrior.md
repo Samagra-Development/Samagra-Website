@@ -11,8 +11,7 @@ state: India
 tagLine: Delivering foundational life skills to youth at scale
 projectLogoWithState: /img/logo-for-website.png
 overview:
-  - text: >-
-      The Young Warrior NXT program aims to equip 14-18 year-old students with
+  - text: The Young Warrior NXT program aims to equip 14-18 year-old students with
       foundational life skills for future readiness and emotional well-being.
       Along with serving students and helping them build skills for the future,
       this program also enables the identification of scalable implementation
@@ -26,13 +25,12 @@ scale:
   - count: 32 crore
     label: Children and youth facing school closures
   - count: 1 crore
-    label: 'School dropouts '
+    label: "School dropouts "
   - count: 12 crore
     label: In the 14-18 age bracket
 projectMiddleBannerImage: /img/whatsapp-image-2021-09-23-at-2.34.59-pm.jpeg
 approach:
-  - text: >-
-      The Young Warrior NXT program aims to help young people gain life skills
+  - text: The Young Warrior NXT program aims to help young people gain life skills
       for better academic, workplace and life outcomes. A two-pronged approach
       is being taken to achieve this goal. Through 11 tasks across 5 life skills
       on the Young Warrior NXT Bot, which was launched in August 2021, we are
@@ -45,6 +43,7 @@ impact:
     label: Youth to be engaged
   - count: 5 lakh
     label: Learners to be reached in one year
-keyInitiativesTitle: ' '
+keyInitiativesTitle: " "
+partners:
+  - logo: /img/MSDF.jpg
 ---
-
