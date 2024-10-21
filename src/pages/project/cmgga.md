@@ -95,4 +95,17 @@ keyInitiatives:
         complaints, resulting in an increased grievance disposal rate of 70-80%.
     image: /img/cmgga-initiative-3.jpeg
     title: Grievance Redressal
+partners:
+  - logo: /img/Ashoka.jpg
+ourImpact:
+  - subTitle: CMGGA
+    description: To catalyse governance with young leaders driving innovation and
+      impact in every district of Haryana.
+    link: https://samagragovernance.in/amritseries/cmgga-amrit-series/
+    image: /img/cm-meeting_cmgga-dec-23-.jpeg
+  - description: State-wide mission to restore, build community-driven
+      sustainability & enable monetization of ponds
+    subTitle: AMRIT SAROVAR
+    link: https://samagragovernance.in/amritseries/amritsarovar/
+    image: /img/visit-with-acs-vineet-garg-ias-and-dc-mandeep-kaur-ias1.jpg
 ---
