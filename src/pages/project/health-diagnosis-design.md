@@ -11,8 +11,7 @@ state: Gujarat & Odisha
 tagLine: Creating a roadmap for improving public healthcare delivery
 projectLogoWithState: /img/health-logo2.png
 overview:
-  - text: >-
-      Samagra is conducting a 6-month diagnosis & design exercise in Gujarat and
+  - text: Samagra is conducting a 6-month diagnosis & design exercise in Gujarat and
       Odisha with the aim of improving accessibility, quality and speed of care
       in the public healthcare facilities. This is part of the “Tribal Health
       Collaborative'' formed by Bill & Melinda Gates Foundation and Piramal
@@ -24,16 +23,15 @@ overview:
       public healthcare service delivery system in these six states using a
       state-driven systemic approach.
 scale:
-  - count: '2'
+  - count: "2"
     label: States
-  - count: '1,70,000'
+  - count: 1,70,000
     label: Healthcare workers
   - count: 10 crore
     label: Citizens
 projectMiddleBannerImage: /img/health-banner-2.jpg
 approach:
-  - text: >-
-      To identify key areas of intervention, the team is using the “Means,
+  - text: To identify key areas of intervention, the team is using the “Means,
       Motives and Opportunities” (MMO) approach which is based on the philosophy
       that a system can deliver on its intended outcomes only if each actor in
       the system has the required means, motives and opportunities to perform
@@ -47,14 +45,16 @@ approach:
       and Diagnostics, HR Management, Robust IT systems, Partnerships and
       Financing reforms.
 impact:
-  - count: '  '
+  - count: "  "
     label: Improving system processes through policy changes & tech enablement
-  - count: '  '
-    label: 'Enhancing accountability through monitoring & incentivisation '
-  - count: ' '
-    label: >-
-      Facilitating continuum of care from time of diagnosis to completion of
+  - count: "  "
+    label: "Enhancing accountability through monitoring & incentivisation "
+  - count: " "
+    label: Facilitating continuum of care from time of diagnosis to completion of
       treatment
-keyInitiativesTitle: '  '
+keyInitiativesTitle: "  "
+partners:
+  - logo: /img/BMGF_Logo.jpg
+  - logo: /img/piramal-foundation.png
+  - logo: /img/Kaivalya Education Foundation.jpg
 ---
-
