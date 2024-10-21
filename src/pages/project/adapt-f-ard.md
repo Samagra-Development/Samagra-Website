@@ -11,8 +11,7 @@ state: Odisha
 tagLine: Improving productivity from livestock & fisheries to raise farmer income
 projectLogoWithState: /img/fard-for-website.png
 overview:
-  - text: >-
-      ADAPT-F&ARD is a partnership between the Government of Odisha, Bill &
+  - text: ADAPT-F&ARD is a partnership between the Government of Odisha, Bill &
       Melinda Gates Foundation and Samagra with the objective of increasing the
       income of farmers from Fisheries and Animal Husbandry. The project aims to
       empower the state to make data-backed policy decisions and improve the
@@ -23,16 +22,15 @@ overview:
       working with International Livestock Research Institute (ILRI) for
       creation of a 5-year and 15-year livestock masterplan for the state.
 scale:
-  - count: '314 '
-    label: 'Blocks '
-  - count: '5,000'
+  - count: "314 "
+    label: "Blocks "
+  - count: 5,000
     label: Government Officials
-  - count: '30,00,000'
+  - count: 30,00,000
     label: Households
 projectMiddleBannerImage: /img/fard_central-banner.jpg
 approach:
-  - text: >-
-      Our approach to increasing the income of the farmers via fisheries and
+  - text: "Our approach to increasing the income of the farmers via fisheries and
       animal husbandry is focused on extensive use of data and technology to
       enable the state government to make informed decisions. A Decision Support
       System has been envisioned to integrate all livestock and
@@ -40,14 +38,15 @@ approach:
       single online portal for officials. This enables the state department to
       make evidence-based policy decisions, ensure transparency in scheme
       delivery and effectively support farmers during the Fisheries and Animal
-      Husbandry lifecycle. 
+      Husbandry lifecycle. "
 impact:
-  - count: ' '
+  - count: " "
     label: Setting up a Decision Support System for data-backed policymaking
-  - count: ' '
+  - count: " "
     label: Working with ILRI to create a masterplan for livestock
-  - count: ' '
-    label: 'Supporting the state in implementing ‘Samrudhi’, its agriculture policy'
-keyInitiativesTitle: ' '
+  - count: " "
+    label: Supporting the state in implementing ‘Samrudhi’, its agriculture policy
+keyInitiativesTitle: " "
+partners:
+  - logo: /img/BMGF_Logo.jpg
 ---
-
