@@ -51,8 +51,6 @@ testimonialText: Lorem ipsum dolor sit amet consectetur adipisicing elit.
   voluptatum aliquam vitae iure.
 testimonialAuthor: Garima Sood
 testimonialAuthorDesignation: Outreach Team, Samagra
-footersubText1: It is a long established fact that a reader will be distracted by the readable [NIPUN Bharat](/project/nipun-bharat-cell/) when looking at its layout.
-
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
 successStoriesTitle: View more <i>Success Stories of Impact</i>
@@ -112,4 +110,5 @@ opEdDescription: "Turning the Tide: A community-driven approach to rejuvenate
 opEdLink: https://government.economictimes.indiatimes.com/blog/turning-the-tide-a-community-driven-solution-to-water-crisis-in-haryana/111271481?utm_source=top_story&utm_medium=homepage
 webinarDescription: Description of webinar
 blogSectionImage: /img/2023_6-largeimg_2086745234.jpg
+footersubText1: ""
 ---
