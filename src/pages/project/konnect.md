@@ -43,4 +43,17 @@ impact:
       services
 keyInitiativesTitle: " "
 keyInitiatives: []
+partners:
+  - logo: /img/BMGF_Logo.jpg
+ourImpact:
+  - subTitle: KRUSHI SAMIKSHA KENDRA
+    description: India’s 1st Centralized Monitoring System in Agriculture to enhance
+      Governance
+    link: https://samagragovernance.in/amritseries/ksk/
+    image: /img/KSK-landing-page.png
+  - subTitle: GO-SUGAM
+    description: Government of Odisha's single window portal for digital delivery of
+      agricultural schemes to farmers
+    link: https://samagragovernance.in/amritseries/go-sugam/
+    image: /img/GO-SUGAM-landing-page.jpg
 ---
