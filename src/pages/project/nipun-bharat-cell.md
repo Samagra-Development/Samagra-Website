@@ -60,4 +60,13 @@ impact:
     label: Developing a tech tool to measure progress made by students on key
       academic metrics
 keyInitiativesTitle: "  "
+partners:
+  - logo: /img/csf-logo.png
+  - logo: /img/llf-logo.png
+  - logo: /img/vikramshila-photo.png
+ourImpact:
+  - link: https://samagragovernance.in/amritseries/nlapp/
+    description: Easy-to-use app for quick, accurate and standardized assessment of
+      student learning levels at scale
+    subTitle: NIPUN LAKSHYA APP
 ---
