@@ -108,4 +108,6 @@ keyInitiatives:
         helpline receives more than 1 lakh calls per month.
     image: /img/saral-initiative-4.jpg
     title: Service Delivery Helpline
+partners:
+  - logo: /img/hero-logo.png
 ---
