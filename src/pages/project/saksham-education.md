@@ -65,6 +65,11 @@ keyInitiatives: []
 partners:
   - logo: /img/MSDF.jpg
 ourImpact:
+  - subTitle: SAKSHAM EDUCATION
+    description: To make more than 80% government elementary school students
+      grade-level competent in Haryana
+    image: /img/home-banner-saksham-slide-2.jpg
+    link: https://samagragovernance.in/amritseries/saksham-phase-1/
   - link: https://samagragovernance.in/amritseries/teacher-transfer/
     description: Streamline the teacher transfer process in the state of Haryana to
       make it transparent, merit-driven and demand-based
