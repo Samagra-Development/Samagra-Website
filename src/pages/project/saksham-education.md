@@ -6,13 +6,12 @@ fullName: Saksham Haryana - Education
 id: SAKSHAM_EDUCATION
 backgroundCover: /img/saksham-header-b-1.jpg
 domain: Education
-subTitle: 'Facilitating attainment of grade-level competency in Haryana '
+subTitle: "Facilitating attainment of grade-level competency in Haryana "
 state: Haryana
-tagLine: 'Facilitating attainment of grade-level competency in Haryana '
+tagLine: "Facilitating attainment of grade-level competency in Haryana "
 projectLogoWithState: /img/saksham-logo.png
 overview:
-  - text: >-
-      How does a state go about transforming its entire education system? This
+  - text: How does a state go about transforming its entire education system? This
       was precisely the goal the Government of Haryana set for itself in 2017,
       when it launched Saksham Haryana, its flagship programme aimed at
       improving the quality of education in the state and making 80% students in
@@ -30,16 +29,15 @@ overview:
       learning program which is also India’s largest Ed-Tech program in govt
       schools.
 scale:
-  - count: '14,000'
+  - count: 14,000
     label: Schools
-  - count: '1,00,000'
+  - count: 1,00,000
     label: Teachers
-  - count: '24,00,000'
+  - count: 24,00,000
     label: Students
 projectMiddleBannerImage: /img/cm-launch-11.jpeg
 approach:
-  - text: >-
-      Samagra’s approach to transforming school education combines both academic
+  - text: Samagra’s approach to transforming school education combines both academic
       and administrative reforms. This means we focus as much on improving the
       quality of classroom interactions between students and teachers (through
       remedial classes, assessment reforms, shifting focus from syllabus
@@ -52,17 +50,24 @@ approach:
       monitoring mechanisms and third-party assessments, to keep track of
       progress and carry out timely corrective action.
 readMore:
-  - text: 'E-Adhigam: Pedagogy lessons from Haryana for India'
+  - text: "E-Adhigam: Pedagogy lessons from Haryana for India"
   - text: What the NAS results tell us about school education in India
   - text: How Haryana made government school education a political priority
 impact:
-  - count: '14'
+  - count: "14"
     label: of 22 districts grade-competent
   - count: 86%
-    label: 'students in Grades 3, 5 and 7 grade-competent'
-  - count: '107'
+    label: students in Grades 3, 5 and 7 grade-competent
+  - count: "107"
     label: of 119 blocks grade-competent
-keyInitiativesTitle: ' '
+keyInitiativesTitle: " "
 keyInitiatives: []
+partners:
+  - logo: /img/MSDF.jpg
+ourImpact:
+  - link: https://samagragovernance.in/amritseries/teacher-transfer/
+    description: Streamline the teacher transfer process in the state of Haryana to
+      make it transparent, merit-driven and demand-based
+    subTitle: Online Teacher Transfer
+    image: /img/cover_online-teacher-transfer.jpg
 ---
-
