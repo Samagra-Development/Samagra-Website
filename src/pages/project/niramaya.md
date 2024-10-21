@@ -11,8 +11,7 @@ state: Uttar Pradesh
 tagLine: Improving the quality of human resources in healthcare in Uttar Pradesh
 projectLogoWithState: /img/niramaya.png
 overview:
-  - text: >-
-      Samagra, with support from the Bill & Melinda Gates Foundation, is working
+  - text: Samagra, with support from the Bill & Melinda Gates Foundation, is working
       with the Government of Uttar Pradesh to reform nursing and paramedical
       training in the state. UP has over 4.4 lakh registered medical
       professionals. These include 1.1 lakh doctors, 0.25 lakh dentists, 2.29
@@ -24,16 +23,15 @@ overview:
       education with a focus on creating a cadre of better skilled nursing and
       paramedical graduates.
 scale:
-  - count: '800'
+  - count: "800"
     label: Institutes
-  - count: '70,000'
+  - count: 70,000
     label: Students
-  - count: '1,00,000'
+  - count: 1,00,000
     label: Nurses
 projectMiddleBannerImage: /img/up-niramaya_samagragovernance3.jpeg
 approach:
-  - text: >-
-      Samagra’s approach to improving the quality of medical education for
+  - text: Samagra’s approach to improving the quality of medical education for
       nurses and paramedics is to push for five core administrative and
       technical reforms. These are accreditation of medical training
       institutions, institution of centralized admissions, introduction of
@@ -44,14 +42,16 @@ approach:
       efficiency in the functioning of training institutes, Human Resources in
       Health regulator, and greatly benefit the students.
 impact:
-  - count: ' '
+  - count: " "
     label: Public accreditation of all government and private institutes
-  - count: ' '
+  - count: " "
     label: Fair and competency-based exams conducted for all students
-  - count: ' '
-    label: >-
-      Ayushman Bharat Digital Mission-compliant platform developed for Uttar
+  - count: " "
+    label: Ayushman Bharat Digital Mission-compliant platform developed for Uttar
       Pradesh
-keyInitiativesTitle: ' '
+keyInitiativesTitle: " "
+partners:
+  - logo: /img/BMGF_Logo.jpg
+  - logo: /img/up-tsu-logo.png
+  - logo: /img/jhpiego-logo.png
 ---
-
