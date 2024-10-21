@@ -8,11 +8,10 @@ backgroundCover: /img/saksham-header-bg.jpg
 domain: Skills & Employment
 subTitle: Samagra
 state: Haryana
-tagLine: 'Linking youth to employment opportunities '
+tagLine: "Linking youth to employment opportunities "
 projectLogoWithState: /img/saksham-logo.png
 overview:
-  - text: >-
-      One of the biggest challenges facing our country is generating employment
+  - text: One of the biggest challenges facing our country is generating employment
       for its burgeoning workforce. To make its youth job-ready and able
       contributors to the economy, the Government of Haryana launched the
       Saksham Haryana-Skills and Employment programme to increase employment
@@ -21,22 +20,20 @@ overview:
       of Employment and Department of Skill Development and Industrial Training
       to systemically transform the state’s employment and skilling domain.
 scale:
-  - count: '55'
+  - count: "55"
     label: Employment Exchanges
-  - count: '5,00,000'
+  - count: 5,00,000
     label: Youth entering the state's workforce annually
-  - count: '167'
+  - count: "167"
     label: Industrial Training Institutes
 projectMiddleBannerImage: /img/saksham-employment-cover.jpg
 approach:
-  - text: >-
-      Unemployment is a concern across states. In general, it manifests in three
+  - text: Unemployment is a concern across states. In general, it manifests in three
       ways. First, there is no skilled manpower for the existing jobs in the
       market; second, both skilled manpower and jobs are available, but there
       are no linkages between the unemployed and job provider; and third, there
       is skilled manpower but no jobs in the market.
-  - text: >-
-      The government often intervenes in the third scenario by enabling
+  - text: The government often intervenes in the third scenario by enabling
       investments from private sector. Saksham Haryana-Skills and Employment
       focuses on the first and second scenario. Through multiple initiatives
       cutting across the public and private sectors, the Saksham team is working
@@ -46,20 +43,19 @@ approach:
       also have lesser financial implications for the government.
 readMore:
   - text: How rethinking vocational training can help in economic recovery
-  - text: 'This is how Haryana govt gave jobs to 45,000 people in 18 months'
+  - text: This is how Haryana govt gave jobs to 45,000 people in 18 months
   - text: CM to launch skill development initiatives
 impact:
   - count: 1st
     label: in the country in terms of apprencticeships
-  - count: '55,000'
+  - count: 55,000
     label: youth on boarded by Ola and Uber
-  - count: '60,000'
+  - count: 60,000
     label: government job appointments made within 2 years
 keyInitiativesTitle: Key Initiatives
 keyInitiatives:
   - description:
-      text: >-
-        Between 2017 and 2019, public sector recruitment has increased
+      text: Between 2017 and 2019, public sector recruitment has increased
         significantly in Haryana with over 60,000 appointments. No government in
         the state in the last two decades has been able to link as many people
         to public sector jobs. This is a noteworthy achievement not just because
@@ -74,9 +70,8 @@ keyInitiatives:
     image: /img/saksham-initiative-1.jpg
     title: Government Recruitment
   - description:
-      text: >-
-        To link youth to jobs, the Government of Haryana has entered into a
-        unique collaborative partnership with cab aggregators, Ola and Uber. The
+      text: To link youth to jobs, the Government of Haryana has entered into a unique
+        collaborative partnership with cab aggregators, Ola and Uber. The
         essence of this partnership is that the government and private sector
         can collectively generate employment under a framework that ensures
         mutual benefit and no risk. In this case, the government wanted to
@@ -93,8 +88,7 @@ keyInitiatives:
     image: /img/saksham-initiative-2.jpg
     title: Partnering with Aggregators
   - description:
-      text: >-
-        The Apprenticeship Act legislated in 1961 by the Union Government is
+      text: The Apprenticeship Act legislated in 1961 by the Union Government is
         largely underutilized by states. The Act mandates the appointment of
         apprentices in all establishments (government and private) with more
         than 40 employees. Haryana became the first state to put together a
@@ -105,5 +99,12 @@ keyInitiatives:
         stands at over 270 and continues to rise.
     image: /img/saksham-initiative-3.jpg
     title: Apprenticeships
+partners:
+  - logo: /img/MSDF.jpg
+ourImpact:
+  - link: https://samagragovernance.in/amritseries/hkrn/
+    subTitle: HKRN
+    description: Tech-enabled streamlining of hiring and benefits disbursal for
+      contractual government employees
+    image: /img/hkrn_featured.jpg
 ---
-
