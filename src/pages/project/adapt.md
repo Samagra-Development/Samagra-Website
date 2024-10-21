@@ -87,13 +87,6 @@ keyInitiatives:
     image: /img/adapt-initiative-3.jpg
     title: Agriculture Internship Programme
 partners:
-  - logo: /img/adapt-for-website.png
-  - logo: /img/adapt-for-website.png
-  - logo: /img/group.png
-ourImpact:
-  - image: /img/adapt-cover.jpg
-    description: information asymmetry that exists between the state and farmers. They
-          work with block level officials and go on the ground to
-    subTitle: this is a subtitle
-    link: /#
+  - logo: /img/BMGF_Logo.jpg
+ourImpact: []
 ---
