@@ -110,4 +110,12 @@ keyInitiatives:
     title: Service Delivery Helpline
 partners:
   - logo: /img/hero-logo.png
+  - logo: /img/NIC.jpg
+  - logo: /img/csc-logo.png
+ourImpact:
+  - subTitle: ANTYODAYA SARAL
+    description: Transforming scheme and service delivery for citizens in the state
+      of Haryana
+    link: https://samagragovernance.in/amritseries/antyodaya-saral/
+    image: /img/saral-header-bg.jpg
 ---
