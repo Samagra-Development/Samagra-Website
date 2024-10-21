@@ -8,8 +8,8 @@ backgroundCover: /img/whatsapp-image-2023-02-27-at-1.20.23-pm.jpeg
 domain: "Agriculture "
 subTitle: Samagra
 state: Odisha
-tagLine: "Increasing farmer income via commodity-specific interventions in the
-  livestock sector"
+tagLine: Increasing farmer income via commodity-specific interventions in the
+  livestock sector
 projectLogoWithState: /img/leap.png
 overview:
   - text: " Samagra has been working with the Departments of Agriculture and
@@ -50,4 +50,6 @@ impact:
   - count: " "
     label: "Livestock best practice adoption by farmers "
 keyInitiativesTitle: "  "
+partners:
+  - logo: /img/BMGF_Logo.jpg
 ---
