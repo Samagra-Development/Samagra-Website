@@ -11,8 +11,7 @@ state: Himachal Pradesh
 tagLine: Transforming the government school system in Himachal Pradesh
 projectLogoWithState: /img/samarth-logo.png
 overview:
-  - text: >-
-      Samarth is the Government of Himachal Pradesh’s flagship programme focused
+  - text: Samarth is the Government of Himachal Pradesh’s flagship programme focused
       on improving the learning levels of students in government schools by
       systemically transforming the state’s education system. The Samarth
       engagement aspires to improve learning levels of students by 8-10
@@ -20,16 +19,15 @@ overview:
       grades grade-level competent and establishing Himachal as one of the top 3
       states in the National Achievement Survey.
 scale:
-  - count: '15,000'
+  - count: 15,000
     label: Schools
-  - count: '67,000'
+  - count: 67,000
     label: Teachers
-  - count: '8,00,000'
+  - count: 8,00,000
     label: Students
 projectMiddleBannerImage: /img/samarth-cover.jpeg
 approach:
-  - text: >-
-      Samagra’s approach to transforming school education combines both academic
+  - text: Samagra’s approach to transforming school education combines both academic
       and administrative reforms. This means we focus as much on improving the
       quality of classroom interactions between students and teachers (shifting
       focus from syllabus completion to competency-based teaching, encouraging
@@ -40,42 +38,39 @@ approach:
 readMore:
   - text: Bridging the digital divide in education
   - text: How Himachal Pradesh improved 2020 board exam results
-  - text: >-
-      ‘Har Ghar Pathshala’: How Himachal Govt Made Online Classrooms Accessible
-      as Schools Shut
+  - text: "‘Har Ghar Pathshala’: How Himachal Govt Made Online Classrooms Accessible
+      as Schools Shut"
 impact:
   - count: 1st
     label: state to ensure timely delivery of textbooks in 2016
   - count: 80%
     label: students in Grades 1 to 5 grade-competent
-  - count: '3,000+'
+  - count: 3,000+
     label: state officials use a mobile app for monitoring schools
 keyInitiativesTitle: Key Initiatives
 keyInitiatives:
   - description:
-      text: >-
-        Previously, government schools in Himachal Pradesh experienced an
-        average delay of up to 137 days in the delivery of textbooks. This
-        resulted in loss of teaching time, thereby adversely affecting the
-        learning process. There were multiple administrative issues resulting in
-        delayed textbook delivery such as logistical gaps, slow communication
-        channels, unclear roles and responsibilities and consequently lack of
-        accountability for unmet deadlines. In 2016, the Department of
-        Elementary Education (DEE), Himachal Pradesh embarked on a mission to
-        ensure timely delivery of textbooks across the state to eliminate loss
-        of teaching time due to delays. By leveraging technology, streamlining
-        the supply chain and fixing deadlines and accountability at every step,
-        the Department of Elementary Education and the Himachal Pradesh Board of
-        School Education have successfully delivered over 60 lakh textbooks
-        across 2,100 education clusters to over 6 lakh students in 15,000
-        schools before the commencement of the academic year in 2016. This
-        initiative has been successful in each academic year since then and
-        delivery of textbooks on time has become the norm in the Department.
+      text: Previously, government schools in Himachal Pradesh experienced an average
+        delay of up to 137 days in the delivery of textbooks. This resulted in
+        loss of teaching time, thereby adversely affecting the learning process.
+        There were multiple administrative issues resulting in delayed textbook
+        delivery such as logistical gaps, slow communication channels, unclear
+        roles and responsibilities and consequently lack of accountability for
+        unmet deadlines. In 2016, the Department of Elementary Education (DEE),
+        Himachal Pradesh embarked on a mission to ensure timely delivery of
+        textbooks across the state to eliminate loss of teaching time due to
+        delays. By leveraging technology, streamlining the supply chain and
+        fixing deadlines and accountability at every step, the Department of
+        Elementary Education and the Himachal Pradesh Board of School Education
+        have successfully delivered over 60 lakh textbooks across 2,100
+        education clusters to over 6 lakh students in 15,000 schools before the
+        commencement of the academic year in 2016. This initiative has been
+        successful in each academic year since then and delivery of textbooks on
+        time has become the norm in the Department.
     image: /img/samarth-initiative-1.jpeg
     title: Timely Textbook delivery
   - description:
-      text: >-
-        More than 45,000 elementary school teachers in Himachal Pradesh are
+      text: More than 45,000 elementary school teachers in Himachal Pradesh are
         trained every year by Samagra Shiksha. Because of the large number of
         teachers, the government follows a cascaded model of training, delivered
         manually by master trainers. However, due to sheer scale and size, this
@@ -96,8 +91,7 @@ keyInitiatives:
     image: /img/samarth-initiative-2.jpeg
     title: Teacher Training
   - description:
-      text: >-
-        Khaas Shiksha is an initiative to reward and recognize teachers on a
+      text: Khaas Shiksha is an initiative to reward and recognize teachers on a
         monthly basis for undertaking diverse, exceptional initiatives of their
         own accord to make students learn better. This is a nomination-based
         process to identify and give due credit to well-performing teachers and
@@ -110,8 +104,7 @@ keyInitiatives:
     image: /img/samarth-initiative-3.jpg
     title: Teacher Recognition
   - description:
-      text: >-
-        The Samarth team working with the Department of Education, Government of
+      text: The Samarth team working with the Department of Education, Government of
         Himachal Pradesh developed and rolled out three technology products that
         will significantly change the way the state's education system operates.
         Developed exclusively for the Department of Education, these tech
@@ -130,5 +123,16 @@ keyInitiatives:
         officials to schools.
     image: /img/samarth-initiative-4.jpg
     title: Open Source Technology
+partners:
+  - logo: /img/MSDF.jpg
+  - logo: /img/Pratham.jpg
+  - logo: /img/ipe-global-logo.jpg
+  - logo: /img/convegenius-insights-logo.jfif
+  - logo: /img/avanti-fellows-logo.jfif
+ourImpact:
+  - description: Deliver textbooks to all government school students before the next
+      academic session
+    subTitle: TIMELY TEXTBOOK DELIVERY
+    link: https://samagragovernance.in/amritseries/ttd/
+    image: /img/SamagraGovernance-Aneesh-Textbook.jpeg
 ---
-
