@@ -117,5 +117,5 @@ ourImpact:
     description: Transforming scheme and service delivery for citizens in the state
       of Haryana
     link: https://samagragovernance.in/amritseries/antyodaya-saral/
-    image: /img/saral-header-bg.jpg
+    image: /img/saral-kendra.jpg
 ---
