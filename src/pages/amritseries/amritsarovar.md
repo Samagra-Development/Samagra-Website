@@ -110,5 +110,7 @@ opEdDescription: "Turning the Tide: A community-driven approach to rejuvenate
 opEdLink: https://government.economictimes.indiatimes.com/blog/turning-the-tide-a-community-driven-solution-to-water-crisis-in-haryana/111271481?utm_source=top_story&utm_medium=homepage
 webinarDescription: Description of webinar
 blogSectionImage: /img/2023_6-largeimg_2086745234.jpg
-footersubText1: ""
+footersubText1: T﻿his work has been done under
+  [CMGGA](https://samagragovernance.in/project/cmgga/) program with the support
+  of Government of Haryana and Ashoka University.
 ---
