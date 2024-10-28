@@ -21,9 +21,18 @@ postCategories:
   - category: Elections
   - category: Policy
   - category: Judiciary
+  - category: DPG
 postData:
   - postCard:
-      selectedCategory: Digital Governance
+      postImage: /img/cropped-image-2-.png
+      selectedCategory: DPG
+      urlLink: https://www.instagram.com/reel/DBO8tCFydP5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+  - postCard:
+      urlLink: https://www.instagram.com/reel/DAq5GgdSHMo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+      selectedCategory: DPG
+      postImage: /img/cropped-image-1-.png
+  - postCard:
+      selectedCategory: DPG
       urlLink: https://www.instagram.com/reel/DAEbVaZyjSZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
       postImage: /img/ig_thumbnail_cowin-1-.png
   - postCard:
