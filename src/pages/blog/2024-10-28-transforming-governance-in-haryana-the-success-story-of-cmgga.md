@@ -5,8 +5,9 @@ author: CMGGA Team
 projectId: CMGGA
 authorImage: /img/person-vector.jpeg
 date: 2024-10-28T17:18:32.508Z
-description: "Transforming Governance in Haryana: The Success Story of CMGGA"
-featuredimage: /img/cmgga-logo.png
+description: "Amrit Series #8: Transforming Governance in Haryana: The Success
+  Story of CMGGA"
+featuredimage: /img/cmgga-blog-banner.jpg
 ---
 <!--StartFragment-->
 
