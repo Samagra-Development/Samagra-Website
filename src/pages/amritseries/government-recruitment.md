@@ -11,7 +11,9 @@ fontColor: "#294294"
 bannerImage: /img/govt.-recruitment.mp4
 title1: Streamlining recruitment of Group D employees in government departments
   of Haryana to enhance efficiency and transparency
-title2: Lorem ipsum dolor
+title2: Ensuring the availability of staff for Group D government recruitment in
+  Haryana is a complex challenge where enhancing 'System Capacity' is essential
+  for creating long-lasting impact.
 title3: What was life like before Group D recruitment interventions?
 infographic1:
   - img: /img/gr_citizen.jpg
@@ -25,13 +27,47 @@ infographic2:
   - img: /img/gr_gov_card3.jpg
 title4: ""
 newsdescription:
-  - text: ""
+  - text: In our view, the government recruitment initiative under the Saksham
+      Skills & Employment programme of the Government of Haryana witnessed a
+      shift from being ‘Shooting Star’ with high ‘political salience’ and low
+      ‘system capacity’ to ‘Battle Ready’ with high ‘political salience’ and
+      high ‘system capacity’.
+  - text: The government recruitment initiative aimed to streamline the recruitment
+      of Group D employees in government departments of Haryana to enhance
+      efficiency and transparency.
+  - text: On the political salience front, ensuring the integrity and fairness of
+      the government recruitment process was a high political priority for the
+      Chief Minister from the beginning. The CM’s messaging, throughout,
+      maintained that the government would ensure recruitment is carried out in
+      a “Bina Kharchi, Bina Parchi” manner, reflecting the high political
+      salience on the subject.
+  - text: System capacity – that is, people, process and infrastructure– was built
+      within a year owing to high political salience. On the people front, the
+      Haryana Staff Selection Commission (HSSC) was restructured with a new post
+      for the Controller of Exams being sanctioned who was responsible for
+      logistics, scheduling, centre management and security for examinations.
+      The legal cell was also strengthened to ensure the process doesn’t get
+      marred by lawsuits. On the process front, a new policy was passed in the
+      Haryana legislative assembly that introduced uniform service rules for all
+      Group D posts and scraped interviews in Group C & Group D. Aside from
+      that, daily scrum meetings were organised  to keep every stakeholder on
+      the same page and tightly manage every single thread of the exercise.
+      Additionally,  document verification was made mandatory only for selected
+      candidates. This collectively allowed the government to reduce the time
+      taken to complete the recruitment exercise. On the infrastructure front,
+      technological infrastructure was built to move HSSC’s processes online
+      from physical formats which included scrutiny of candidates’ documents,
+      managing requisition requests from various departments and tracking
+      progress on all court cases related to HSSC.
+  - text: "With this, the state of Haryana was able to cater to 18 Lakh applicants
+      for Group D jobs in 2018 and fill over 45,000 positions in 18 months, as
+      opposed to the 75,000 positions filled by the state in 18 years. "
 newsletterBtn: ""
 newsletterLink: ""
 title5: ""
 showImpactVideo: false
 impactVideoLink: ""
-showImpactCard: false
+showImpactCard: true
 impactCardFontColor: "#DADADA"
 impactCards:
   - cardTitle: POLICY  MEASURES
@@ -87,20 +123,22 @@ showPlus5: false
 infographicGoogleDriveLink: ""
 downloadInfographicBtn: ""
 title7: ""
-showBlog: false
-blogTitle: ""
+showBlog: true
+blogTitle: 18k posts, 17 lakh in Haryana on move
 blogDescription: ""
-blogLink: ""
-showOpEd: false
-opEdTitle: ""
+blogLink: https://www.tribuneindia.com/news/archive/haryana/18k-posts-17-lakh-in-haryana-on-move-681356/
+showOpEd: true
+opEdTitle: "Employment to Agriculture: Meet the Startup Helping States
+  Revolutionise Governance"
 opEdDescription: ""
-opEdLink: ""
+opEdLink: https://thebetterindia.com/173957/startup-governance-farmers-job-haryana-odisha/
 showWebinar: false
 webinarTitle: ""
 webinarDescription: ""
 webinarLink: ""
-footerText1: ""
-footerText2: ""
-successStoriesTitle: ""
-showSuccessStories: hkrn,nlapp
+blogSectionImage: /img/gr_fi.jpg
+footerText1: Partner with us today!
+footerText2: "Write to us at: outreach@samagragovernance.in"
+successStoriesTitle: View more <i>Success Stories of Impact</i>
+showSuccessStories: teacher-transfer,ttd,cmgga-amrit-series
 ---
