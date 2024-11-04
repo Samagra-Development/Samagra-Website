@@ -49,31 +49,35 @@ impactCards:
       communicating staffing needs to the HSSC and an online counseling process
       for post allocations
     img: /img/gr_impcard3.png
-title6: ""
+title6: The Government Recruitment initiative unlocked Group D hiring in Haryana
+icon1: /img/gr_impicon.png-1.png
 impactNumber1Char: ""
-impactNumber1: 0
+impactNumber1: 74
 impactNumber1Decimal: 0
 impactNumber1Text: ""
-impactNumber1Title: ""
+impactNumber1Title: Participating Government departments
 showPlus1: false
+icon2: /img/gr_impicon.png-2.png
 impactNumber2Char: ""
-impactNumber2: 0
+impactNumber2: 18
 impactNumber2Decimal: 0
-impactNumber2Text: ""
-impactNumber2Title: ""
-showPlus2: false
+impactNumber2Text: " Lakh"
+impactNumber2Title: Applicants for  Group D jobs in  Haryana in 2018
+showPlus2: true
+icon3: /img/gr_impicon.png-4.png
 impactNumber3Char: ""
-impactNumber3: 0
+impactNumber3: 45000
 impactNumber3Decimal: 0
 impactNumber3Text: ""
-impactNumber3Title: ""
-showPlus3: false
+impactNumber3Title: People recruited in 18 months, as opposed to 75,000 in 18 years
+showPlus3: true
+icon4: /img/gr_impicon.png-3.png
 impactNumber4Char: ""
-impactNumber4: 0
+impactNumber4: 18000
 impactNumber4Decimal: 0
 impactNumber4Text: ""
-impactNumber4Title: ""
-showPlus4: false
+impactNumber4Title: Positions filled successfully through a single exam
+showPlus4: true
 impactNumber5Char: ""
 impactNumber5: 0
 impactNumber5Decimal: 0
