@@ -63,27 +63,28 @@ newsdescription:
       for Group D jobs in 2018 and fill over 45,000 positions in 18 months, as
       opposed to the 75,000 positions filled by the state in 18 years. "
 newsletterBtn: ""
+motionGraphic: /img/gr_pov.mp4
 newsletterLink: ""
 title5: ""
 showImpactVideo: false
 impactVideoLink: ""
 showImpactCard: true
-impactCardFontColor: "#DADADA"
+impactCardFontColor: "#ffffff"
 impactCards:
-  - cardTitle: POLICY  MEASURES
-    cardDescription: Group D Act introduced by the Government of Haryana, in 2018,
-      which included scrapping of interviews and introduced standardised
-      parameters of qualification
+  - cardTitle: <font size="3"><b>POLICY  MEASURES</b></font>
+    cardDescription: <font size="2">Group D Act introduced by the Government of
+      Haryana, in 2018, which included scrapping of interviews and introduced
+      standardised parameters of qualification</font>
     img: /img/gr_impcard1.png
-  - cardTitle: ORGANIZATIONAL MEASURES
-    cardDescription: Organizational restructuring  of the Haryana Staff  Selection
-      Commission (HSSC) and strengthening of the Legal Cell to tackle litigative
-      action
+  - cardTitle: <font size="3"><b>ORGANIZATIONAL MEASURES</b></font>
+    cardDescription: <font size="2">Organizational restructuring  of the Haryana
+      Staff  Selection Commission (HSSC) and strengthening of the Legal Cell to
+      tackle litigative action</font>
     img: /img/gr_impcard2.png
-  - cardTitle: "TECHNOLOGICAL INTERVENTIONS "
-    cardDescription: Implementation of an online requisition system for
-      communicating staffing needs to the HSSC and an online counseling process
-      for post allocations
+  - cardTitle: <font size="3"><b>TECHNOLOGICAL INTERVENTIONS</b></font>
+    cardDescription: <font size="2">Implementation of an online requisition system
+      for communicating staffing needs to the HSSC and an online counseling
+      process for post allocations</font>
     img: /img/gr_impcard3.png
 title6: The Government Recruitment initiative unlocked Group D hiring in Haryana
 icon1: /img/gr_impicon.png-1.png
