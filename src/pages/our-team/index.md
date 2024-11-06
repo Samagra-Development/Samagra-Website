@@ -2,24 +2,10 @@
 templateKey: our-team
 title: Our Team
 bannerImage: /img/team_image_website.jpg
-subTitle: Meet the team on a mission when it comes to **Governance** **and** **Technology**, we are the experts
-achievements:
-  - value: 125
-    suffix: +
-    description: professionals
-  - value: 15
-    suffix: +
-    description: states represented
-  - value: 25
-    suffix: +
-    description: languages spoken
-teamFooter:
-  footerTitle: Come join us in this journey and commit yourself to nation building
-  buttonText: Join Us
-  buttonLink: /#
+subTitle: Meet the team on a mission when it comes to **Governance** **and**
+  **Technology**, we are the experts
+achievements: []
 title1: Partners
-title2: Leadership
-title3: Managers
 partnersList:
   - bio: Gaurav is the Founder & CEO of Samagra. Gaurav holds a dual degree in
       Computer Science & Engineering from IIT Delhi and an MBA from IIM
@@ -61,7 +47,7 @@ partnersList:
     linkedInProfile: https://www.linkedin.com/in/aashutosh-saini-1aa86b143/
     name: Aashutosh Saini
     project: SamagraX
-
+title2: Leadership
 leadershipsList:
   - bio: Gaurav is the Founder & CEO of Samagra. Gaurav holds a dual degree in
       Computer Science & Engineering from IIT Delhi and an MBA from IIM
@@ -117,6 +103,7 @@ leadershipsList:
     linkedInProfile: https://www.linkedin.com/in/rahul10100/
     name: Rahul Kulkarni
     project: Chief Technologist
+title3: Managers
 managersList:
   - bio: Gaurav is the Founder & CEO of Samagra. Gaurav holds a dual degree in
       Computer Science & Engineering from IIT Delhi and an MBA from IIM
@@ -226,4 +213,8 @@ managersList:
     linkedInProfile: https://www.linkedin.com/in/rahul10100/
     name: Rahul Kulkarni
     project: Chief Technologist
+teamFooter:
+  footerTitle: Come join us in this journey and commit yourself to nation building
+  buttonText: Join Us
+  buttonLink: /#
 ---
