@@ -1834,10 +1834,11 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Banner Image", name: "bannerImage", widget: "image" }
           - { label: "Sub Title", name: "subTitle", widget: "markdown" }
+          - { label: "Show achievements", name: "showAchievements", widget: "boolean" }
           - {
               label: Achievements,
               name: achievements,
-              widget: list,
+              widget: list,              
               fields:
                 [
                   { label: Value, name: value, widget: number },
