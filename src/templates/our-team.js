@@ -15,14 +15,16 @@ const OurTeamPagePreviewTemplate = ({ data }) => {
 
 export const OurTeamPage = ({ data }) => {
   const { markdownRemark: post } = data;
-  const partners = post.frontmatter.partnersList || [];
-  const leaderships = post.frontmatter.leadershipsList || [];
-  const managers = post.frontmatter.managersList || [];
-  const achievements = post.frontmatter.achievements || [];
-  const teamFooter = post.frontmatter.teamFooter || {};
-  const title1 = post.frontmatter.title1 || '';
-  const title2 = post.frontmatter.title2 || '';
-  const title3 = post.frontmatter.title3 || '';
+  const partners = post.frontmatter?.partnersList || [];
+  const leaderships = post.frontmatter?.leadershipsList || [];
+  const managers = post.frontmatter?.managersList || [];
+  const achievements = post.frontmatter?.achievements || [];
+  const showAchievements = post.frontmatter?.showAchievements || false;
+
+  const teamFooter = post.frontmatter?.teamFooter || {};
+  const title1 = post.frontmatter?.title1 || '';
+  const title2 = post.frontmatter?.title2 || '';
+  const title3 = post.frontmatter?.title3 || '';
 
 
   const [hoveredMember, setHoveredMember] = useState(-1);
@@ -124,18 +126,19 @@ export const OurTeamPage = ({ data }) => {
 
 
         {/* Achievements Section */}
-        <div className="achievements-section">
-          <div className="achievements-grid">
-            {achievements?.map((achievement, index) => (
-              <AnimatedNumber
-                key={index}
-                value={achievement.value}
-                suffix={achievement.suffix}
-                description={achievement.description}
-              />
-            ))}
-          </div>
-        </div>
+        {showAchievements &&
+          <div className="achievements-section">
+            <div className="achievements-grid">
+              {achievements?.map((achievement, index) => (
+                <AnimatedNumber
+                  key={index}
+                  value={achievement.value}
+                  suffix={achievement.suffix}
+                  description={achievement.description}
+                />
+              ))}
+            </div>
+          </div>}
 
         {/* Team Sections */}
         {renderTeamSection(partners, title1, "partners")}
@@ -236,6 +239,7 @@ export const ourTeamPageQuery = graphql`
             }
           }
         }
+        showAchievements
         title
         subTitle
         teamFooter {

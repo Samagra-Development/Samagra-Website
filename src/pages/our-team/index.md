@@ -4,7 +4,11 @@ title: Our Team
 bannerImage: /img/team_image_website.jpg
 subTitle: Meet the team on a mission when it comes to **Governance** **and**
   **Technology**, we are the experts
-achievements: []
+showAchievements: false
+achievements: 
+  - value: 1
+    suffix: +
+    description: random data
 title1: Partners
 partnersList:
   - bio: Gaurav is the Founder & CEO of Samagra. Gaurav holds a dual degree in
