@@ -24,6 +24,10 @@ postCategories:
   - category: DPG
 postData:
   - postCard:
+      urlLink: https://www.instagram.com/reel/DBwYm7royX6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+      selectedCategory: DPG
+      postImage: /img/cropped-image-3-.png
+  - postCard:
       postImage: /img/cropped-image-2-.png
       selectedCategory: DPG
       urlLink: https://www.instagram.com/reel/DBO8tCFydP5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
