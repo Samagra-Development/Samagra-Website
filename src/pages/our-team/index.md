@@ -388,6 +388,133 @@ managersList:
 
       A strong motivation to transform lives of citizens, brings Parth to Samagra. He plans to leverage his experience in strategic roles and academic grounding to create #ImpactAtScale. 
     linkedInProfile: https://www.linkedin.com/in/shuklaparth/
+  - name: Prerna Bhandari
+    image: /img/prerna_7860.jpg
+    project: Senior Consultant
+    bio: >
+      Prerna holds a Bachelor's degree in Philosophy from Lady Shri Ram College
+      for Women, University of Delhi.  She has also interned as a policy
+      researcher with the Deputy Chief Minister's Office, Government of Delhi,
+      where she undertook the process of streamlining and monitoring the MLALAD
+      funds of 11 revenue districts of Delhi and recommended policy level
+      interventions for improved functioning of the Delhi Urban Development
+      Authority. An opportunity to employ her problem-solving skills to create
+      sustainable impact brought her to Samagra.
+    linkedInProfile: https://www.linkedin.com/in/prerna-bhandari-112298141
+  - name: Raghav Katyal
+    project: Senior Consultant
+    image: /img/raghav_7533.jpg
+    bio: >-
+      Raghav holds a Bachelor's degree in Political Science and Economics from
+      Ashoka University. Before joining Samagra, he was working as a Legislative
+      Assistant to a Lok Sabha Member of Parliament, supporting multiple
+      development initiatives in the MP's constituency.
+
+
+      An opportunity to transform governance by combining consulting skills and the power of technology brought him to Samagra.
+    linkedInProfile: https://www.linkedin.com/in/raghav-katyal-2a3250120/
+  - name: Rajanya Dey
+    project: Senior Consultant
+    bio: >-
+      Rajanya has a PGP in Management from the Indian School of Business,
+      Hyderabad and a BE in Chemical Engineering from Jadavpur University
+      Kolkata. He started his career as an Oil & Gas Consultant with Honeywell
+      UOP, solving some of the most challenging technological problems for Big
+      Oil clients in the Middle-East and South East Asia, before switching gears
+      and joining I-PAC as a Political Consultant for the 2021 West Bengal State
+      Assembly elections. Rajanya has also briefly worked with multiple NGOs in
+      Kolkata, helping 5₹3’ sort out their strategic and operational issues. 
+
+
+      A strong desire to positively impact the citizens is what brought him to Samagra.
+    linkedInProfile: https://www.linkedin.com/in/rajanyadey/
+    image: /img/rajanya.jpg
+  - name: Shitiz Singhal
+    project: Product Manager
+    image: /img/shitiz.png
+    bio: Shitiz Singhal holds a Bachelor of Technology (B.Tech) degree from the
+      Indian Institute of Technology, Roorkee. Prior to joining Samagra, Shitiz
+      gained significant experience in product management, having worked at
+      companies like Zomato, where he contributed to scaling key digital
+      products. His expertise spans across technology, management, and driving
+      social impact through innovative product solutions. Shitiz is passionate
+      about leveraging technology to solve public sector challenges.
+    linkedInProfile: https://www.linkedin.com/in/shitiz-s/
+  - name: Shivesh Kumar
+    image: /img/shivesh.jpg
+    bio: Shivesh holds a Post Graduate Program in Management from the Indian School
+      of Business (ISB) with a specialization in Finance & Operations
+      Management, and a Bachelor's degree in Mechanical Engineering from NIT
+      Warangal. Before joining Samagra, Shivesh worked as an Assistant Manager
+      at Bharat Petroleum Corporation Limited (BPCL), where he managed
+      large-scale infrastructure projects and operations. A strong desire to
+      leverage strategic governance solutions for impactful change led him to
+      Samagra.
+    linkedInProfile: https://www.linkedin.com/in/shivesh-kumar-37a8a9214/
+    project: Senior Consultant
+  - name: Shraya Sapru
+    project: Senior Consultant
+    bio: >-
+      Shraya holds a Bachelor's degree in Chemical Engineering from National
+      Institute of Technology Karnataka, Surathkal. Before joining Samagra, she
+      was working as a Customer & Application Development Engineer, South Asia
+      in the Chemicals division at ExxonMobil. Shraya has also been a fellow as
+      part of the Policy in Action Program with Young Leaders for Active
+      Citizenship (YLAC) and has also been a Global Governance Initiative (GGI)
+      Impact Scholar.
+
+
+      The penchant for problem solving while translating ideas on paper into reality, brought her to Samagra. 
+    linkedInProfile: https://www.linkedin.com/in/shraya-sapru/
+    image: /img/shraya.jpg
+  - name: Simran Bagga
+    project: Senior Consultant
+    image: /img/edited_simran-1-.jpg
+    bio: >-
+      Simran holds a Master's degree in Economics from the Delhi School of
+      Economics and a Bachelor's degree in the same from Lady Shri Ram College
+      for Women, University of Delhi. Before joining Samagra, she worked as an
+      Account Manager in Procter & Gamble's sales function.
+
+
+      Her passion to bridge the gap between the haves and have nots, and belief in governance as a lever of change brought her to Samagra.
+    linkedInProfile: https://www.linkedin.com/in/baggasimran/
+  - name: Utsav Thapliyal
+    image: /img/utsav.png
+    project: Senior Consultant
+    bio: >-
+      Utsav holds an MBA and a Bachelor’s degree in Foundations of Management
+      from IIM Indore. Before joining Samagra, he was working as a Senior
+      Consultant with the TSE consulting practice at EY-Parthenon, primarily
+      working on M&A, large scale transformation and change management projects.
+
+
+      A strong motivation to bring about positive change in the lives of citizens through governance as a lever of change, brought Utsav to Samagra. He intends to leverage his academic grounding and hands-on experience with large scale change management to deliver impact at scale.
+    linkedInProfile: https://www.linkedin.com/in/utsavthapliyal/
+  - name: Venkatesh Chaturvedi
+    project: Senior Consultant
+    bio: Venkatesh holds an MBA from Indian School of Business, Hyderabad, and a
+      Bachelor's degree in Technology from Indian Institute of Technology,
+      Patna. Before joining Samagra, he was working as a Marketing
+      Communications Manager with Brane Enterprises. He also worked with
+      Unacademy as an Educator and Category manager for 5 years before joining
+      ISB. He has a keen interest in music and sports. The motivation to create
+      impact at scale and make the lives of people better brought him to
+      Samagra.
+    linkedInProfile: https://www.linkedin.com/in/venkateshchaturvedi/
+    image: /img/venkatesh.png
+  - image: /img/vijeeth-website.jpg
+    name: Vijeeth Srinivas
+    bio: >-
+      Vijeeth holds a Bachelor's degree in Commerce from Kirori Mal College,
+      University of Delhi. Before joining Samagra, he was leading a team at the
+      Jitin Chawla Centre for Career Development focused on expanding access to
+      foreign education and skill development in South Asian Markets.
+
+
+      A strong motivation to drive impact at the grassroots across a comprehensive range of development markers, combined with a deep-rooted interest for first-principle based problem solving, brought him to Samagra. 
+    project: Senior Consultant
+    linkedInProfile: https://www.linkedin.com/in/vijeeth-srinivas-756873148/
 teamFooter:
   footerTitle: Come join us in this journey and commit yourself to nation building
   buttonText: Join Us
