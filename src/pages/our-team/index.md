@@ -258,20 +258,136 @@ leadershipsList:
     image: /img/utkarsh_7885-1-.jpg
 title3: Managers
 managersList:
-  - bio: Gaurav is the Founder & CEO of Samagra. Gaurav holds a dual degree in
-      Computer Science & Engineering from IIT Delhi and an MBA from IIM
-      Calcutta. After graduating from IIM Calcutta, he joined McKinsey & Co. as
-      a Management Consultant where he worked across sectors and geographies,
-      solving diverse corporate problem statements. While he was enjoying his
-      stint at McKinsey, he knew that eventually he wanted to work towards
-      improving the lives of citizens by engaging with the governance process.
-      In 2012, he set up Samagra so that he could translate his passion into
-      reality and create impact at scale. He has shaped Samagra's values and
-      approach to impact, and continues to steer it into the future.
-    image: /img/gaurav_7534.jpg
-    linkedInProfile: https://www.linkedin.com/in/gaurav-goel-07374680/
-    name: Gaurav Goel
-    project: Founder & CEO
+  - bio: >-
+      Aayush holds a Master's degree in Economics from Delhi School of
+      Economics, University of Delhi and a Bachelor's degree in the same
+      discipline from Delhi College of Arts and Commerce, University of Delhi.
+      Before joining Samagra, he was working as a Market Risk Manager at ICICI
+      Bank, primarily responsible for maintaining the investment policy for
+      proprietary trades of the bank in forex and derivative products and for
+      carrying out extensive research on the economic outlook for domestic and
+      global markets. 
+
+
+      An opportunity to work with governments to create impact that reaches the last mile and help society inch towards a more equitable and inclusive future, brought him to Samagra. 
+    image: /img/aayush-malik.jpg
+    linkedInProfile: https://www.linkedin.com/in/aayush-malik/
+    name: Aayush Malik
+    project: Consultant, Outreach
+  - image: /img/abhay_7665.jpg
+    bio: "Abhay holds an MBA from Indian Institute of Management Ahmedabad and a
+      dual degree in Mechanical Engineering from Indian Institute of Technology,
+      Kanpur. Before joining Samagra, he was working with IBM as a strategy and
+      operations consultant, where he got hands-on experience in shaping the
+      digital strategies for several leading Indian corporates. Through his
+      professional and educational experience he has worked on projects ranging
+      from strategy development to implementation, while consistently focusing
+      on the end-user. An opportunity to improve the lives of citizens by
+      creating impact at scale brought him to Samagra. "
+    name: Abhay Kumar Singh
+    project: Product Manager
+    linkedInProfile: https://www.linkedin.com/in/abhay-kumar-singh-y9010/
+  - bio: >-
+      Abhinav holds an MBA from the Indian Institute of Management Bangalore and
+      a Bachelor's degree in Mechanical Engineering from the Indian Institute of
+      Technology Bombay. 
+
+
+      Before joining Samagra, Abhinav worked with Vedanta Resources, driving high-impact strategic and process-improvement projects. He is passionate about driving impact by blending first-principle thinking, technological innovations, and a deep understanding of the end user.
+    project: Emerging Leader 2
+    name: Abhinav Banka
+    image: /img/abhinav-banka.jpg
+    linkedInProfile: https://www.linkedin.com/in/abhinav-banka/
+  - name: Abhishek Rao
+    image: /img/abhishekrao.jpg
+    project: Consultant
+    bio: >-
+      Abhishek holds a Bachelor's degree in Law from the National Law School of
+      India University, Bangalore. Before joining Samagra, he worked as an
+      Associate with the General Corporate team at Khaitan & Co., primarily
+      assisting with the Mergers & Acquisitions, Regulatory, and Gaming practice
+      areas.
+
+
+      An opportunity to partner with government stakeholders to develop efficient service delivery systems and improve the lives of citizens brought him to Samagra. 
+    linkedInProfile: https://www.linkedin.com/in/abhishek-rao-479047159/
+  - name: Aditya Singh Rana
+    image: /img/aditya-rana.jpg
+    project: Senior Consultant
+    bio: >-
+      Aditya holds an MBA from IE Business School, Madrid and a Bachelor's
+      degree in IT Engineering from Dr. A.P.J. Abdul Kalam Technical University,
+      Lucknow. Before joining Samagra, he was working as an internal consultant
+      for the Government of India on the Clean India Mission to make India open
+      defecation free.
+
+
+      A strong motivation to work on complex social issues & drive real change on ground through better governance, brings Aditya to Samagra. 
+    linkedInProfile: https://www.linkedin.com/in/adityasinghrana94/
+  - name: Aman Gupta
+    image: /img/aman.png
+    bio: >-
+      Aman holds an MBA from IIM Kozhikode and a Bachelor's degree in Electrical
+      & Electronics Engineering from BITS Pilani. Before joining Samagra, he was
+      working as a Product and Sales Manager for the Indian marketplace at
+      Amazon. In his spare time, Aman enjoys painting, sketching, playing the
+      Piano and listening to podcasts. 
+
+
+      A strong motivation to enable society and state to co-create good governance using technology, brought him to Samagra. 
+    project: Senior Consultant
+    linkedInProfile: https://www.linkedin.com/in/amangup/
+  - name: Ashana Shukla
+    image: /img/ashana-shukla.jpg
+    project: Senior Consultant
+    bio: >-
+      Ashana holds an MBA from IIM Kozhikode and a Bachelor’s degree in
+      Electrical Engineering from Sardar Patel College of Engineering, Mumbai.
+      Before joining Samagra, she was working as an Area Sales Manager for the
+      personal products division at Hindustan Unilever Limited. 
+
+
+      A strong motivation to bring positive change in the lives of citizens brings Ashana to Samagra. She intends to leverage her academic grounding and hands-on experience in sales to deliver impact at scale. 
+    linkedInProfile: https://www.linkedin.com/in/ashana-shukla/
+  - name: Karan Trehan
+    image: /img/karan-trehan.jpg
+    project: Senior Engineering Manager
+    bio: >-
+      Karan holds a Bachelor’s degree in Information Technology from University
+      of Mumbai. Karan has more than 10 years of experience in software
+      development. Before joining Samagra, he was working as an Engineering
+      Manager at Gojek.
+
+
+      An opportunity to contribute towards nation building and deliver solutions to create impact at scale, brings Karan to Samagra.
+    linkedInProfile: https://www.linkedin.com/in/karntrehan/
+  - name: Kishan Agarwal
+    image: /img/kishan.jpg
+    bio: >-
+      Kishan Agarwal holds an MBA degree from the Indian Institute of Management
+      Bangalore  and a B.Tech. degree in Civil Engineering from the NIT,
+      Arunachal Pradesh. Prior to joining Samagra, Kishan worked at Power Grid
+      Corporation of India Limited, where he played a crucial role in providing
+      consistent energy to 60,000 families in North East India, primarily
+      Assam. 
+
+
+      A strong motivation to work on complex social issues and drive real change on ground through better governance, brings Kishan to Samagra. 
+    project: Senior Consultant
+    linkedInProfile: https://www.linkedin.com/in/kishan-agarwal/
+  - name: Parth Shukla
+    image: /img/parth.jpg
+    project: Consultant
+    bio: >-
+      Parth holds a Master's degree in Business Administration from Indian
+      Institute of Management, Indore and a Bachelor's degree in Metallurgical
+      Engineering from IIT (BHU), Varanasi. Before joining Samagra, he was
+      working as a Corporate Banking and Strategy Manager with ICICI Bank. Also,
+      he gave two attempts at UPSC before joining Samagra.
+
+
+      A strong motivation to transform lives of citizens, brings Parth to Samagra. He plans to leverage his experience in strategic roles and academic grounding to create #ImpactAtScale. 
+    linkedInProfile: https://www.linkedin.com/in/shuklaparth/
 teamFooter:
   footerTitle: Come join us in this journey and commit yourself to nation building
   buttonText: Join Us
