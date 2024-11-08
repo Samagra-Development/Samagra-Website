@@ -2,18 +2,16 @@
 templateKey: our-team
 title: Our Team
 bannerImage: /img/team_image_website.jpg
-subTitle: Meet the team on a mission when it comes to **Governance** **and**
-  **Technology**, we are the experts
+subTitle: We are a growing team of 125+ professionals. Our consultants come from
+  diverse backgrounds, united in their commitment to creating impact at scale.
 showAchievements: false
-showPartners: false
-showLeadership: true
-showManagers: true
 achievements:
   - value: 1
     suffix: +
     description: random data
 title1: Partners
-partnersList: 
+showPartners: false
+partnersList:
   - bio: Gaurav is the Founder & CEO of Samagra. Gaurav holds a dual degree in
       Computer Science & Engineering from IIT Delhi and an MBA from IIM
       Calcutta. After graduating from IIM Calcutta, he joined McKinsey & Co. as
@@ -29,6 +27,7 @@ partnersList:
     name: Gaurav Goel
     project: Founder & CEO
 title2: Leadership
+showLeadership: true
 leadershipsList:
   - bio: Gaurav is the Founder & CEO of Samagra. Gaurav holds a dual degree in
       Computer Science & Engineering from IIT Delhi and an MBA from IIM
@@ -274,6 +273,7 @@ leadershipsList:
     name: Utkarsh Vijay
     image: /img/utkarsh_7885-1-.jpg
 title3: Managers
+showManagers: true
 managersList:
   - bio: >-
       Aayush holds a Master's degree in Economics from Delhi School of
