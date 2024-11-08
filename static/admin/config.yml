@@ -1847,6 +1847,7 @@ collections:
                 ],
             }
           - { label: "List 1 Title", name: "title1", widget: "string" }
+          - { label: "Show Partners", name: "showPartners", widget: "boolean" }
 
           - {
               label: Partners,
@@ -1862,7 +1863,7 @@ collections:
                 ]
             }
           - { label: "List 2 Title", name: "title2", widget: "string" }
-          
+          - { label: "Show Leadership", name: "showLeadership", widget: "boolean" }          
           - {
               label: Leaderships,
               name: leadershipsList,
@@ -1877,6 +1878,7 @@ collections:
                 ]
             }
           - { label: "List 3 Title", name: "title3", widget: "string" }
+          - { label: "Show Managers", name: "showManagers", widget: "boolean" }
           
           - {
               label: Managers,
