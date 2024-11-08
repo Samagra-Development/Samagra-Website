@@ -20,6 +20,10 @@ export const OurTeamPage = ({ data }) => {
   const managers = post.frontmatter?.managersList || [];
   const achievements = post.frontmatter?.achievements || [];
   const showAchievements = post.frontmatter?.showAchievements || false;
+  const showPartners = post.frontmatter?.showPartners || false;
+  const showLeadership = post.frontmatter?.showLeadership || false;
+  const showManagers = post.frontmatter?.showManagers || false;
+
 
   const teamFooter = post.frontmatter?.teamFooter || {};
   const title1 = post.frontmatter?.title1 || '';
@@ -141,9 +145,9 @@ export const OurTeamPage = ({ data }) => {
           </div>}
 
         {/* Team Sections */}
-        {renderTeamSection(partners, title1, "partners")}
-        {renderTeamSection(leaderships, title2, "leaderships")}
-        {renderTeamSection(managers, title3, "managers")}
+        {showPartners && renderTeamSection(partners, title1, "partners")}
+        {showLeadership && renderTeamSection(leaderships, title2, "leaderships")}
+        {showManagers && renderTeamSection(managers, title3, "managers")}
 
         {/* Popup Section */}
         {popupMember && (
@@ -239,7 +243,10 @@ export const ourTeamPageQuery = graphql`
             }
           }
         }
+        showPartners
         showAchievements
+        showLeadership
+        showManagers
         title
         subTitle
         teamFooter {
