@@ -49,7 +49,7 @@ class CaseStudiesRoll extends React.Component {
               return (
                 <div
                   style={{
-                    minHeight: "350px",
+                    minHeight: "375px",
                     minWidth: mobile ? "200px" : "350px",
                     margin: mobile ? "15px 0" : "0 15px",
                   }}
@@ -62,7 +62,7 @@ class CaseStudiesRoll extends React.Component {
                   >
                     <div
                       style={{
-                        minHeight: "350px",
+                        minHeight: "375px",
                         minWidth: mobile ? "200px" : "350px",
                       }}
                       className="flip-card"
@@ -85,7 +85,7 @@ class CaseStudiesRoll extends React.Component {
                               transition: "background 0.5s ease-out",
                               display: "flex",
                               alignItems: "center",
-                              height: "150px",
+                              height: "160px",
                               minWidth: "250px",
                               borderRadius: "20px 20px 0 0",
                               overflow: "hidden",
