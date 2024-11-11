@@ -542,5 +542,5 @@ managersList:
 teamFooter:
   footerTitle: Come join us in this journey and commit yourself to nation building
   buttonText: Join Us
-  buttonLink: /#
+  buttonLink: https://samagragovernance.in/careers/
 ---
