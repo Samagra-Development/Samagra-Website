@@ -1860,6 +1860,8 @@ collections:
                   { label: Project, name: project, widget: text },
                   { label: Bio, name: bio, widget: text },
                   { label: "LinkedIn Profile", name: linkedInProfile, widget: text }
+                  { label: Part-time, name: partTime, widget: boolean, default: false },
+
                 ]
             }
           - { label: "List 2 Title", name: "title2", widget: "string" }
@@ -1875,6 +1877,8 @@ collections:
                   { label: Project, name: project, widget: text },
                   { label: Bio, name: bio, widget: text },
                   { label: "LinkedIn Profile", name: linkedInProfile, widget: text }
+                  { label: Part-time, name: partTime, widget: boolean, default: false },
+
                 ]
             }
           - { label: "List 3 Title", name: "title3", widget: "string" }
@@ -1891,6 +1895,8 @@ collections:
                   { label: Project, name: project, widget: text },
                   { label: Bio, name: bio, widget: text },
                   { label: "LinkedIn Profile", name: linkedInProfile, widget: text }
+                  { label: Part-time, name: partTime, widget: boolean, default: false },
+
                 ]
             }
           - label: "Team Footer"

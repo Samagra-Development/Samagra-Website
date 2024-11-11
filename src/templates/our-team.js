@@ -68,10 +68,13 @@ export const OurTeamPage = ({ data }) => {
               </div>
               <div className="team-info">
                 <div className="team-info_footer_1">
-                  <div className="name text-center">{member.name}</div>
+                  <div className="name text-center">{member?.name}</div>
                   <div className="designation text-center " style={{ color: '#1982A3' }}>
-                    {member.project !== "NA" ? member.project : ""}
+                    {member?.project !== "NA" ? member?.project : ""}
                   </div>
+                  {member?.partTime && <div className=" text-center " style={{ color: '#1982A3',fontStyle:'italic' }}>
+                    Part-time
+                  </div>}
                   {member.linkedInProfile && <SocialIcon member={member} />}
                 </div>
               </div>
@@ -274,6 +277,7 @@ export const ourTeamPageQuery = graphql`
           bio
           project
           linkedInProfile
+          partTime
         }
         leadershipsList {
           image {
@@ -287,6 +291,7 @@ export const ourTeamPageQuery = graphql`
           bio
           project
           linkedInProfile
+          partTime
         }
         managersList {
           image {
@@ -300,6 +305,7 @@ export const ourTeamPageQuery = graphql`
           bio
           project
           linkedInProfile
+          partTime
         }
       }
     }
