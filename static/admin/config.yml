@@ -1337,6 +1337,8 @@ collections:
           label: Impact,
           name: impact,
           widget: list,
+          required: false,
+
           fields:
             [
               { label: Count, name: count, widget: string },
@@ -1347,11 +1349,15 @@ collections:
           label: "Key Initiative Title",
           name: "keyInitiativesTitle",
           widget: "string",
+          required: false,
+
         }
       - {
           label: "Key Initiatives",
           name: keyInitiatives,
           widget: list,
+          required: false,
+
           fields:
             [
               { label: "Image", name: "image", widget: image },
@@ -1368,6 +1374,8 @@ collections:
           label: Partners,
           name: partners,
           widget: list,
+          required: false,
+
           fields:
             [ 
               { label: Logo, name: logo, widget: image, required: false, },
@@ -1379,6 +1387,7 @@ collections:
           label: Our Impact,
           name: ourImpact,
           widget: list,
+          required: false,
           fields:
             [ 
               { label: Image, name: image, widget: image, required: false, },
