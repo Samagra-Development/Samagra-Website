@@ -296,7 +296,7 @@ managersList:
     linkedInProfile: https://www.linkedin.com/in/aayush-malik/
     name: Aayush Malik
     project: Consultant, Outreach
-    partTime: true
+    partTime: false
 
   - image: /img/abhay_7665.jpg
     bio: "Abhay holds an MBA from Indian Institute of Management Ahmedabad and a
