@@ -3,7 +3,7 @@ backend:
   branch: master
   publish_mode: editorial_workflow
 
-# local_backend: true
+local_backend: true
 
 editorial_workflow:
   enable: true
@@ -1859,8 +1859,8 @@ collections:
                   { label: Name, name: name, widget: text },
                   { label: Project, name: project, widget: text },
                   { label: Bio, name: bio, widget: text },
-                  { label: "LinkedIn Profile", name: linkedInProfile, widget: text }
-                  { label: Part-time, name: partTime, widget: boolean, default: false },
+                  { label: "LinkedIn Profile", name: linkedInProfile, widget: text },
+                  { label: Part time, name: partTime, widget: boolean, default: false },
 
                 ]
             }
