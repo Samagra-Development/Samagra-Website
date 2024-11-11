@@ -13,20 +13,21 @@ const OurPartnersSection = ({ partners }) => {
   }
 
   return (
-    <div className="partners-section">
-      <h2 className="partners-heading">Our Partners</h2>
-      <div className="partners-container">
-        {partners?.map((partner, index) => (
-          <div key={index} className="partner-item">
-            <img
-              src={partner?.logo?.childImageSharp?.fluid?.src}
-              alt={"partner-logo"}
-              className="partner-logo"
-            />
-          </div>
-        ))}
+   <div className="partners-section">
+  <h2 className="partners-heading">Our Partners</h2>
+  <div className="partners-container">
+    {partners?.map((partner, index) => (
+      <div key={index} className="partner-item">
+        <img
+          src={partner?.logo?.childImageSharp?.fluid?.src}
+          alt={"partner-logo"}
+          className="partner-logo"
+        />
       </div>
-    </div>
+    ))}
+  </div>
+</div>
+
   );
 };
 
