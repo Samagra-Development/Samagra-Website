@@ -45,7 +45,6 @@ leadershipsList:
     name: Gaurav Goel
     project: Founder & CEO
     partTime: false
-
   - bio: Rahul is Chief Technologist at Samagra. He holds a Master's degree in
       Engineering from Georgia Tech. Previously, he worked as a Product Manager
       at National Instruments and was the first Product Manager at Google India.
@@ -60,6 +59,7 @@ leadershipsList:
     linkedInProfile: https://www.linkedin.com/in/rahul10100/
     name: Rahul Kulkarni
     project: Chief Technologist
+    partTime: true
   - bio: Debleena has over two decades of experience in Finance and Strategy across
       Investment Management in companies such as Fidelity, Lazard, JP Morgan,
       Prudential and in Impact Venture Capital in Unitus Ventures and Gray
@@ -72,6 +72,7 @@ leadershipsList:
     linkedInProfile: https://www.linkedin.com/in/debleena-majumdar-766978/
     name: Debleena Majumdar
     project: Advisor - Outreach
+    partTime: true
   - name: Aditi Phadnis
     project: Senior Consultant
     bio: >-
@@ -91,7 +92,6 @@ leadershipsList:
     linkedInProfile: https://www.linkedin.com/in/aditi-phadnis93/
     image: /img/aditi_7685.jpg
     partTime: false
-
   - image: /img/akshata-malhotra.jpg
     name: Akshata Malhotra
     project: Vice President, Design
@@ -297,7 +297,6 @@ managersList:
     name: Aayush Malik
     project: Consultant, Outreach
     partTime: false
-
   - image: /img/abhay_7665.jpg
     bio: "Abhay holds an MBA from Indian Institute of Management Ahmedabad and a
       dual degree in Mechanical Engineering from Indian Institute of Technology,
@@ -386,7 +385,6 @@ managersList:
       An opportunity to contribute towards nation building and deliver solutions to create impact at scale, brings Karan to Samagra.
     linkedInProfile: https://www.linkedin.com/in/karntrehan/
     partTime: false
-
   - name: Kishan Agarwal
     image: /img/kishan.jpg
     bio: >-
