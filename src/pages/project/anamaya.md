@@ -66,7 +66,7 @@ impact:
 keyInitiativesTitle: " "
 partners:
   - logo: /img/piramal-foundation.png
-  - logo: /img/vasundhara-logo.jfif
-  - logo: /img/fes-logo.jfif
+  - logo: /img/vasundhara-logo.jpg
+  - logo: /img/fes-logo.jpg
   - logo: /img/pradan-logo.png
 ---
