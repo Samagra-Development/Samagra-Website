@@ -52,9 +52,9 @@ leadershipsList:
       currently a co-founder and partner at DoNew, a social startup that uses
       technology to bring disruptive people and product innovation to
       individuals, startups & governments. Rahul has been instrumental in
-      defining the third pillar of Samagra's problem solving
-      approach--leveraging data and technology to create impact at scale. Rahul
-      drives the use of technology across all our engagements
+      defining the third pillar of Samagra's problem solving approach-leveraging
+      data and technology to create impact at scale. Rahul drives the use of
+      technology across all our engagements
     image: /img/rahul-kulkarni_edited.jpg
     linkedInProfile: https://www.linkedin.com/in/rahul10100/
     name: Rahul Kulkarni
@@ -65,9 +65,9 @@ leadershipsList:
       Prudential and in Impact Venture Capital in Unitus Ventures and Gray
       Matters Capital. She is the cofounder of Kahaniyah where she helps
       companies to simplify strategy with data storytelling. She is a published
-      author of 4 books on Finance and History. Debleena is a part time advisor
-      at Samagra, helping the Outreach team in building the narrative of the
-      company.
+      author of four books on Finance and History. Debleena is a part time
+      advisor at Samagra, helping the Outreach team in building the narrative of
+      the company.
     image: /img/debleena-profile-photo.jpg
     linkedInProfile: https://www.linkedin.com/in/debleena-majumdar-766978/
     name: Debleena Majumdar
@@ -97,11 +97,11 @@ leadershipsList:
     project: Vice President, Design
     bio: >-
       Akshata is a human centered designer and researcher with an experience of
-      over 10 years spanning across US and India. She holds a Masters in Design
+      over ten years spanning across US and India. She holds a Masters in Design
       for Social Innovation from School of Visual Arts, New York. Additionally,
       she also holds a Masters in Strategic Design Management from National
-      Institute of Design, Ahmedabad.  Before joining Samagra, she was working
-      as Senior Manager, Design at the Peterson Center on Healthcare, New York,
+      Institute of Design, Ahmedabad. Before joining Samagra, she was working as
+      Senior Manager, Design at the Peterson Center on Healthcare, New York,
       where she had designed the design function for the organization and was
       leading the design team. 
 
@@ -109,7 +109,7 @@ leadershipsList:
       Akshata is passionate about pushing the envelope on using design to create social impact at scale, especially for the underprivileged. Samagra offers a unique opportunity that is well aligned with that purpose. She's excited about working alongside smart and young colleagues to serve the mission of making life of citizens better. 
 
 
-      Akshata is a mom of two little girls, a foodie and a published children’s book author/illustrator. And she love board games— her favorite is the Settlers of Catan (for which she got a chance to work too!).
+      Akshata is a mom of two little girls, a foodie and a published children’s book author/illustrator. And she love board games — her favorite is the Settlers of Catan (for which she got a chance to work too!).
     linkedInProfile: https://www.linkedin.com/in/akshata-malhotra-b072a13b/
   - name: Anay Gogate
     project: Senior Consultant
@@ -156,12 +156,12 @@ leadershipsList:
     linkedInProfile: https://www.linkedin.com/in/nikhil-nadiger/
     bio: >-
       Nikhil is an alum of Samagra who has rejoined us after an entrepreneurial
-      stint as co-founder of @ARTh. He joined Samagra back in 2016 and worked on
+      stint as co-founder of ARTh. He joined Samagra back in 2016 and worked on
       programmes across three states and central govt. Before Samagra, he was a
-      fellow at @TeachforIndia where he taught 3rd & 4th grade kids. He was also
-      a founding team member of India's first professional radical mime team,
-      PunchTantraa. Nikhil holds a Bachelor's degree in Information Science from
-      Jain University.
+      fellow at Teach for India where he taught 3rd & 4th grade kids. He was
+      also a founding team member of India's first professional radical mime
+      team, PunchTantraa. Nikhil holds a Bachelor's degree in Information
+      Science from Jain University.
 
 
       A passion to create large scale impact through governance and working with driven and like-minded people brings him back to Samagra. He plans to leverage his experience as an entrepreneur to creatively solve complex governance challenges.
@@ -186,14 +186,14 @@ leadershipsList:
   - name: Nitin Kashyap
     project: Senior Vice President
     bio: >-
-      Nitin is ""Dreamer . Thinker . Doer"" passionate about making the benefits
+      Nitin is a dreamer, thinker and doer, passionate about making the benefits
       of technology reach the ones who stand to gain the most for their
       betterment & progress.  Having graduated as a Computer Science Engineer
-      from PEC Chandigarh & completed his MBA from ISB Hyderabad Nitin's career
-      has spanned almost equal ~7 year phases of ""Building things right"" as an
-      Engineer with Adobe Systems & Texas Instruments, ""Figuring out the right
-      solution"" as a Management Consultant with McKinsey London, and
-      ""Identifying the right problem to solve, and solving it end to end"" as a
+      from PEC Chandigarh & completed his MBA from ISB Hyderabad, Nitin's career
+      has spanned almost seven equal year phases of 'Building things right' as
+      an Engineer with Adobe Systems & Texas Instruments, 'Figuring out the
+      right solution' as a Management Consultant with McKinsey London, and
+      'Identifying the right problem to solve, and solving it end to end' as a
       Product Management leader at Google; where most recently he was leading
       Google's efforts on Foundational literacy with Google Read Along and parts
       of Google Classroom!
@@ -224,7 +224,10 @@ leadershipsList:
       University. 
 
 
-      Prior to Samagra, Shailiza closely worked with the District Administration in Karnal as part of the Chief Minister’s Office in Haryana on flagship projects like Swachh Bharat Mission, Beti Bachao Beti Padhao, Police Mitra Kaksh, One Stop Centre and many more. Before her stint at the CM’s office, she worked with the Member of Parliament Office in the East Delhi constituency on reviving rainwater harvesting in urban areas. She has also founded an artisanal jewellery brand called ARTh focusing on reviving the forgotten art forms across India and bringing out the history that dates back centuries.
+      Prior to Samagra, Shailiza closely worked with the District Administration in Karnal as part of the Chief Minister’s Office in Haryana on flagship projects like Swachh Bharat Mission, Beti Bachao Beti Padhao, Police Mitra Kaksh, One Stop Centre and many more. Before her stint at the CM’s office, she worked with the Member of Parliament Office in the East Delhi constituency on reviving rainwater harvesting in urban areas. 
+
+
+      She also founded an artisanal jewellery brand called ARTh focusing on reviving the forgotten art forms across India and bringing out the history that dates back centuries.
     image: /img/shailiza.jpg
     project: Senior Manager
     linkedInProfile: https://in.linkedin.com/in/shailiza-mayal-97a48279
@@ -237,17 +240,17 @@ leadershipsList:
       University, Noida.
 
 
-      Prior to Samagra, Shifali worked with Bank of America and Evaluserve before transitioning to the social impact space as a Fellow at Teach For India where she taught 3rd & 4th grade students. Post fellowship she continued with TFI's Delhi team as Partnerships Manager, focusing on fundraising, alumni management and govt relations for 4 years. In 2019 Shifali joined Samagra to work on large-scale transformation with the government. After a brief hiatus in 2021 to explore the broader impact ecosystem through work with The Education Alliance and Sattva on projects spanning education, health, and urban local bodies—she rejoined Samagra in 2022 to continue her mission-driven work.
+      Prior to Samagra, Shifali worked with Bank of America and Evaluserve before transitioning to the social impact space as a Fellow at Teach For India where she taught 3rd & 4th grade students. Post fellowship she continued with TFI's Delhi team as Partnerships Manager, focusing on fundraising, alumni management and government relations for four years. In 2019, Shifali joined Samagra to work on large-scale transformation with the government. After a brief hiatus in 2021 to explore the broader impact ecosystem through work with The Education Alliance and Sattva on projects spanning education, health, and urban local bodies, she rejoined Samagra in 2022 to continue her mission-driven work.
     image: /img/shifali.jpg
   - name: Suresh Unnikrishnan
     project: Vice President, Engineering
     linkedInProfile: https://www.linkedin.com/in/sureshunnikrishnan/
     bio: >-
-      Suresh completed his Masters in Systems Management and has more than 25
-      years experience in Information Systems Management. He was the Head the
-      Engineering at Fourthlion Technologies and lead engineering teams at IBM
-      and Sterling Commerce prior to that. He is an ardent music lover, enjoys
-      reading and trekking. 
+      Suresh completed his Masters in Systems Management and has more than
+      twenty-five years experience in Information Systems Management. He was the
+      Head the Engineering at Fourthlion Technologies and lead engineering teams
+      at IBM and Sterling Commerce prior to that. He is an ardent music lover,
+      enjoys reading and trekking. 
 
 
       An opportunity to be part of change leaders who helps to make societal impact by solving complex governance challenges to provide citizen services, is what brings Suresh to Samagra.
@@ -339,10 +342,10 @@ managersList:
     project: Senior Consultant
     bio: >-
       Aditya holds an MBA from IE Business School, Madrid and a Bachelor's
-      degree in IT Engineering from Dr. A.P.J. Abdul Kalam Technical University,
-      Lucknow. Before joining Samagra, he was working as an internal consultant
-      for the Government of India on the Clean India Mission to make India open
-      defecation free.
+      degree in IT Engineering from Dr. A. P. J. Abdul Kalam Technical
+      University, Lucknow. Before joining Samagra, he was working as an internal
+      consultant for the Government of India on the Clean India Mission to make
+      India open defecation free.
 
 
       A strong motivation to work on complex social issues & drive real change on ground through better governance, brings Aditya to Samagra. 
@@ -352,9 +355,9 @@ managersList:
     bio: >-
       Aman holds an MBA from IIM Kozhikode and a Bachelor's degree in Electrical
       & Electronics Engineering from BITS Pilani. Before joining Samagra, he was
-      working as a Product and Sales Manager for the Indian marketplace at
+      working as a product and sales manager for the Indian marketplace at
       Amazon. In his spare time, Aman enjoys painting, sketching, playing the
-      Piano and listening to podcasts. 
+      piano and listening to podcasts. 
 
 
       A strong motivation to enable society and state to co-create good governance using technology, brought him to Samagra. 
@@ -366,7 +369,7 @@ managersList:
     bio: >-
       Ashana holds an MBA from IIM Kozhikode and a Bachelor’s degree in
       Electrical Engineering from Sardar Patel College of Engineering, Mumbai.
-      Before joining Samagra, she was working as an Area Sales Manager for the
+      Before joining Samagra, she was working as an area sales manager for the
       personal products division at Hindustan Unilever Limited. 
 
 
@@ -389,10 +392,10 @@ managersList:
     image: /img/kishan.jpg
     bio: >-
       Kishan Agarwal holds an MBA degree from the Indian Institute of Management
-      Bangalore  and a B.Tech. degree in Civil Engineering from the NIT,
+      Bangalore and a B.Tech. degree in Civil Engineering from the NIT,
       Arunachal Pradesh. Prior to joining Samagra, Kishan worked at Power Grid
       Corporation of India Limited, where he played a crucial role in providing
-      consistent energy to 60,000 families in North East India, primarily
+      consistent energy to 60,000 families in north-east India, primarily
       Assam. 
 
 
@@ -406,7 +409,7 @@ managersList:
       Parth holds a Master's degree in Business Administration from Indian
       Institute of Management, Indore and a Bachelor's degree in Metallurgical
       Engineering from IIT (BHU), Varanasi. Before joining Samagra, he was
-      working as a Corporate Banking and Strategy Manager with ICICI Bank. Also,
+      working as a corporate banking and strategy manager with ICICI Bank. Also,
       he gave two attempts at UPSC before joining Samagra.
 
 
@@ -417,7 +420,7 @@ managersList:
     project: Senior Consultant
     bio: >
       Prerna holds a Bachelor's degree in Philosophy from Lady Shri Ram College
-      for Women, University of Delhi.  She has also interned as a policy
+      for Women, University of Delhi. She has also interned as a policy
       researcher with the Deputy Chief Minister's Office, Government of Delhi,
       where she undertook the process of streamlining and monitoring the MLALAD
       funds of 11 revenue districts of Delhi and recommended policy level
@@ -447,7 +450,7 @@ managersList:
       Oil clients in the Middle-East and South East Asia, before switching gears
       and joining I-PAC as a Political Consultant for the 2021 West Bengal State
       Assembly elections. Rajanya has also briefly worked with multiple NGOs in
-      Kolkata, helping 5₹3’ sort out their strategic and operational issues. 
+      Kolkata, helping them sort out their strategic and operational issues. 
 
 
       A strong desire to positively impact the citizens is what brought him to Samagra.
@@ -456,7 +459,7 @@ managersList:
   - name: Shitiz Singhal
     project: Product Manager
     image: /img/shitiz.png
-    bio: Shitiz Singhal holds a Bachelor of Technology (B.Tech) degree from the
+    bio: Shitiz Singhal holds a Bachelor of Technology (B. Tech) degree from the
       Indian Institute of Technology, Roorkee. Prior to joining Samagra, Shitiz
       gained significant experience in product management, having worked at
       companies like Zomato, where he contributed to scaling key digital
@@ -481,11 +484,11 @@ managersList:
     bio: >-
       Shraya holds a Bachelor's degree in Chemical Engineering from National
       Institute of Technology Karnataka, Surathkal. Before joining Samagra, she
-      was working as a Customer & Application Development Engineer, South Asia
-      in the Chemicals division at ExxonMobil. Shraya has also been a fellow as
-      part of the Policy in Action Program with Young Leaders for Active
-      Citizenship (YLAC) and has also been a Global Governance Initiative (GGI)
-      Impact Scholar.
+      worked as a customer & application development engineer, South Asia in the
+      chemicals division at ExxonMobil. Shraya has also been a fellow as part of
+      the 'Policy in Action Program' with Young Leaders for Active Citizenship
+      (YLAC) and has also been a Global Governance Initiative (GGI) Impact
+      Scholar.
 
 
       The penchant for problem solving while translating ideas on paper into reality, brought her to Samagra. 
@@ -498,7 +501,7 @@ managersList:
       Simran holds a Master's degree in Economics from the Delhi School of
       Economics and a Bachelor's degree in the same from Lady Shri Ram College
       for Women, University of Delhi. Before joining Samagra, she worked as an
-      Account Manager in Procter & Gamble's sales function.
+      account manager in Procter & Gamble's sales function.
 
 
       Her passion to bridge the gap between the haves and have nots, and belief in governance as a lever of change brought her to Samagra.
@@ -508,8 +511,8 @@ managersList:
     project: Senior Consultant
     bio: >-
       Utsav holds an MBA and a Bachelor’s degree in Foundations of Management
-      from IIM Indore. Before joining Samagra, he was working as a Senior
-      Consultant with the TSE consulting practice at EY-Parthenon, primarily
+      from IIM Indore. Before joining Samagra, he was working as a senior
+      consultant with the TSE consulting practice at EY-Parthenon, primarily
       working on M&A, large scale transformation and change management projects.
 
 
@@ -519,9 +522,9 @@ managersList:
     project: Senior Consultant
     bio: Venkatesh holds an MBA from Indian School of Business, Hyderabad, and a
       Bachelor's degree in Technology from Indian Institute of Technology,
-      Patna. Before joining Samagra, he was working as a Marketing
-      Communications Manager with Brane Enterprises. He also worked with
-      Unacademy as an Educator and Category manager for 5 years before joining
+      Patna. Before joining Samagra, he was working as a marketing
+      communications Manager with Brane Enterprises. He also worked with
+      Unacademy as an educator and category manager for 5 years before joining
       ISB. He has a keen interest in music and sports. The motivation to create
       impact at scale and make the lives of people better brought him to
       Samagra.
@@ -533,7 +536,7 @@ managersList:
       Vijeeth holds a Bachelor's degree in Commerce from Kirori Mal College,
       University of Delhi. Before joining Samagra, he was leading a team at the
       Jitin Chawla Centre for Career Development focused on expanding access to
-      foreign education and skill development in South Asian Markets.
+      foreign education and skill development in south-asian markets.
 
 
       A strong motivation to drive impact at the grassroots across a comprehensive range of development markers, combined with a deep-rooted interest for first-principle based problem solving, brought him to Samagra. 
