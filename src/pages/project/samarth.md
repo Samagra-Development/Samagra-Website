@@ -127,7 +127,7 @@ partners:
   - logo: /img/MSDF.jpg
   - logo: /img/Pratham.jpg
   - logo: /img/ipe-global-logo.jpg
-  - logo: /img/convegenius-insights-logo.jfif
+  - logo: /img/convegenius-insights-logo.jpg
   - logo: /img/avanti-fellows-logo.jpg
 ourImpact:
   - description: Deliver textbooks to all government school students before the next
