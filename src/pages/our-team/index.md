@@ -68,7 +68,7 @@ leadershipsList:
       author of four books on Finance and History. Debleena is a part time
       advisor at Samagra, helping the Outreach team in building the narrative of
       the company.
-    image: /img/debleena-profile-photo.jpg
+    image: /img/dableena.jpg
     linkedInProfile: https://www.linkedin.com/in/debleena-majumdar-766978/
     name: Debleena Majumdar
     project: Advisor - Outreach
@@ -204,7 +204,7 @@ leadershipsList:
 
       Nitin stays in Hyderabad with his wife & 2 daughters and in his free time loves to travel, sketch, listen to music and amateur photography!
     linkedInProfile: https://www.linkedin.com/in/nitin-kashyap-7573181/
-    image: /img/nitin-kashyap-1.jpeg
+    image: /img/nitin.jpg
   - name: Pragya Mathur
     project: Manager
     linkedInProfile: https://www.linkedin.com/in/pragya-mathur-678779126
@@ -458,7 +458,7 @@ managersList:
     image: /img/rajanya.jpg
   - name: Shitiz Singhal
     project: Product Manager
-    image: /img/shitiz.png
+    image: /img/shitiz.jpg
     bio: Shitiz Singhal holds a Bachelor of Technology (B. Tech) degree from the
       Indian Institute of Technology, Roorkee. Prior to joining Samagra, Shitiz
       gained significant experience in product management, having worked at
