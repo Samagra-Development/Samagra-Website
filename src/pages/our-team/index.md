@@ -232,7 +232,7 @@ leadershipsList:
     project: Senior Manager
     linkedInProfile: https://in.linkedin.com/in/shailiza-mayal-97a48279
   - name: Shifali Thakkur
-    project: Chief of Staff
+    project: Senior Manager
     linkedInProfile: https://www.linkedin.com/in/shifali-thakkur-942948b9/
     bio: >-
       Shifali holds a Master's Degree in Education from TISS, Mumbai and a
@@ -240,7 +240,7 @@ leadershipsList:
       University, Noida.
 
 
-      Prior to Samagra, Shifali worked with Bank of America and Evaluserve before transitioning to the social impact space as a Fellow at Teach For India where she taught 3rd & 4th grade students. Post fellowship she continued with TFI's Delhi team as Partnerships Manager, focusing on fundraising, alumni management and government relations for four years. In 2019, Shifali joined Samagra to work on large-scale transformation with the government. After a brief hiatus in 2021 to explore the broader impact ecosystem through work with The Education Alliance and Sattva on projects spanning education, health, and urban local bodies, she rejoined Samagra in 2022 to continue her mission-driven work.
+      Prior to Samagra, Shifali worked with Bank of America and Evaluserve before transitioning to the social impact space as a Fellow at Teach For India where she taught 3rd & 4th grade students. Post fellowship she continued with TFI's Delhi team as Partnerships Manager, focusing on fundraising, alumni management and government relations for four years. In 2019, Shifali joined Samagra to work on large-scale transformation with the government. After a brief hiatus in 2021 to explore the broader impact ecosystem through work with The Education Alliance and Sattva on projects spanning education, health, and urban local bodies, she rejoined Samagra in 2022 to continue her mission-driven work. She is currently the Chief of Staff. 
     image: /img/shifali.jpg
   - name: Suresh Unnikrishnan
     project: Vice President, Engineering
