@@ -375,6 +375,21 @@ managersList:
 
       A strong motivation to bring positive change in the lives of citizens brings Ashana to Samagra. She intends to leverage her academic grounding and hands-on experience in sales to deliver impact at scale. 
     linkedInProfile: https://www.linkedin.com/in/ashana-shukla/
+  - partTime: false
+    name: Chakshu Gautam
+    image: /img/chakshu_7676.jpg
+    bio: >-
+      Chakshu holds a Bachelor's degree in Civil Engineering from Galgotias
+      College of Engineering and Technology and an MTech in Structural
+      Engineering (Civil) from the IIT, Delhi. Prior to Samagra, he was working
+      with an IoT start up, CarSense, as a Senior Software Developer. Before
+      that he held the position of Assistant Professor at Amity University,
+      Gurugram where he taught Civil and Structural Engineering.
+
+
+      His belief that employing technological tools can lead to better governance and improve the lives of citizens brought him to Samagra. Currently, he is part of the SamagraX team.
+    linkedInProfile: https://www.linkedin.com/in/chakshu-gautam-6918736b/
+    project: Senior Staff Engineer
   - name: Karan Trehan
     image: /img/karan-trehan.jpg
     project: Senior Engineering Manager
