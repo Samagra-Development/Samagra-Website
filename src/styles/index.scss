@@ -758,8 +758,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 140px; /* Set a consistent width for the container */
-  height: 90px; /* Set a consistent height for the container */
+  max-width: 200px;
+  height: 120px; /* Set a consistent height for the container */
   overflow: hidden;
 }
 

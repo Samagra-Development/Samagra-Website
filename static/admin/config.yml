@@ -1341,8 +1341,8 @@ collections:
 
           fields:
             [
-              { label: Count, name: count, widget: string },
-              { label: Label, name: label, widget: string },
+              { label: Count, name: count, widget: string,required: false },
+              { label: Label, name: label, widget: string,required: false },
             ],
         }
       - {
