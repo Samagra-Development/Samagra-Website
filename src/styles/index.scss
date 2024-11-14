@@ -829,7 +829,34 @@ p {
 
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .filter-container {
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    margin: 0 auto 76px auto;
+    align-items: flex-start;
+  }
 
+  .dropdown {
+    width: 100%;
+  }
+
+  .selected-option {
+    font-size: 18px;
+  }
+
+
+  .dropdown select {
+    font-size: 18px;
+    padding: 6px;
+  }
+
+  .no-results {
+    font-size: 1em;
+    padding: 20px;
+  }
+}
 
 
 // For mobile view
