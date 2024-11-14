@@ -766,7 +766,7 @@ p {
 .partner-logo {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* Ensures the logo fits without distortion */
+  object-fit: contain;
 }
 
 .filter-container {
@@ -774,7 +774,7 @@ p {
   gap: 3%;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   width: 100%;
   flex-wrap: wrap;
 }
@@ -798,7 +798,15 @@ p {
 .dropdown select:focus {
   outline: none;
 }
-
+.no-results{
+   text-align: center;
+    padding: 40px;
+    width: 100%;
+    color: #666;
+    font-size: 1.2em;
+    border-radius: 8px;
+    margin-top: 30px;
+}
 .selected-option {
   display: flex;
   align-items: center;
