@@ -48,6 +48,7 @@ collections:
           label: "Form Type",
           name: "formType",
           widget: "string",
+          required: false,
           default: "This is new case study form",
         }
       - { label: "Show", name: "show", widget: "boolean", default: false }
@@ -643,6 +644,7 @@ collections:
           label: "Form Type",
           name: "formType",
           widget: "string",
+          required: false,
           default: "This is old case study form",
         }
       - { label: "Show", name: "show", widget: "boolean", default: false }
