@@ -15,6 +15,7 @@ import "react-responsive-modal/styles.css";
 import CountUp from "react-countup";
 import SuccessStoriesSection from "../components/CaseStudyComponents/SuccessStoriesSection";
 import SectionDivider from "../components/CaseStudyComponents/SectionDivider";
+import ReactMarkdown from 'react-markdown';
 
 function FadeInSection(props) {
   const [isVisible, setVisible] = useState(false);
@@ -1323,19 +1324,24 @@ export const OldCaseStudyTemplate = ({ content, helmet }) => {
             )}
           </div>
         </FadeInSection>
-        <FadeInSection>
-          <div
-            className="partner-with-us"
-            style={{ marginTop: mobile ? "100px" : "150px" }}
-          >
-            {content?.footerText1 && (
-              <p className="partner-with-us-main-text">
-                {content?.footerText1}
-              </p>
-            )}
-            {content?.footerText2 && <p>{content?.footerText2}</p>}
-          </div>
-        </FadeInSection>
+         <FadeInSection>
+            <div
+              className="partner-with-us"
+              style={{ marginTop: mobile ? "100px" : "150px" }}
+            >
+              {content?.footersubText1 && (
+                <div className="partner-with-us-secondary-text">
+                  <ReactMarkdown>{content.footersubText1}</ReactMarkdown>
+                </div>
+              )}
+              {content?.footerText1 && (
+                <p className="partner-with-us-main-text">
+                  {content.footerText1}
+                </p>
+              )}
+              {content?.footerText2 && <p>{content.footerText2}</p>}
+            </div>
+          </FadeInSection>
       </>
     );
   };
@@ -1633,6 +1639,7 @@ export const pageQuery = graphql`
           publicURL
         }
         footerText1
+        footersubText1
         footerText2
         successStoriesTitle
         showSuccessStories

@@ -48,6 +48,7 @@ collections:
           label: "Form Type",
           name: "formType",
           widget: "string",
+          required: false,
           default: "This is new case study form",
         }
       - { label: "Show", name: "show", widget: "boolean", default: false }
@@ -643,6 +644,7 @@ collections:
           label: "Form Type",
           name: "formType",
           widget: "string",
+          required: false,
           default: "This is old case study form",
         }
       - { label: "Show", name: "show", widget: "boolean", default: false }
@@ -1151,7 +1153,13 @@ collections:
           required: false,
           default: null,
         }
-        
+      - {
+          label: "Footer Sub Text 1",
+          name: "footersubText1",
+          widget: "markdown",
+          required: false,
+          default: "",
+        }  
       - {
           label: "Footer Text 1",
           name: "footerText1",
@@ -1341,8 +1349,8 @@ collections:
 
           fields:
             [
-              { label: Count, name: count, widget: string },
-              { label: Label, name: label, widget: string },
+              { label: Count, name: count, widget: string,required: false },
+              { label: Label, name: label, widget: string,required: false },
             ],
         }
       - {
@@ -2210,6 +2218,10 @@ collections:
             }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Banner Image", name: bannerImage, widget: image }
+          - { label: "Show Media House Filter", name: mediaHouseFilter, widget: boolean }
+          - { label: "Show Program Filter", name: programFilter, widget: boolean }
+          - { label: "Show Domain Filter", name: domainFilter, widget: boolean }
+          - { label: "Show Sorting by date", name: sorting, widget: boolean }
       - file: "src/pages/footer/index.md"
         label: "Footer Page"
         name: "footer"

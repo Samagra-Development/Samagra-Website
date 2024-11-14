@@ -54,8 +54,8 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
   const [showUpIcon, setShowUpIcon] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
   const [modalImage, setModalImage] = useState(null);
-  const arr = content?.sectionSequence.trim()
-    ? content.sectionSequence.trim().split(" ")
+  const arr = content?.sectionSequence?.trim()
+    ? content?.sectionSequence?.trim()?.split(" ")
     : ["1", "2", "3", "4", "5", "6"];
   const isShowImpactIcon =
     content?.icon1 ||

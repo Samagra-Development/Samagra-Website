@@ -1,8 +1,8 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import MediaRoll from "../components/MediaRoll";
 import backgroundImage from "../img/media-header-1.jpg";
+import MediaRoll from "../components/MediaRoll";
 
 export const MediaPagePreviewTemplate = ({ mediaPageContent }) => {
   return (
