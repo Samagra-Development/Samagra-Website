@@ -39,7 +39,7 @@ showOpEd: true
 opEdTitle: UP to take lessons on transparency in teachers’ transfers from Haryana
 opEdDescription: ""
 opEdLink: https://www.hindustantimes.com/india-news/up-to-take-lessons-on-transparency-in-teachers-transfers-from-haryana/story-JEXVCO9ulgIM4zmqGo6TjJ.html
-webinarLink: ""
+webinarLink: https://indianexpress.com/article/india/taking-the-officer-out-of-transfers-haryana-cleans-up-its-schools-5915592/
 cardBtn1: ""
 impactNumber4: 90
 cardDescription1: Data collection, cleaning, and updation exercises conducted at
@@ -100,7 +100,7 @@ featuredimage: /img/cover_online-teacher-transfer.jpg
 impactNumber3Decimal: 0
 impactNumber4Decimal: 0
 impactNumber5Decimal: 0
-showWebinar: false
+showWebinar: true
 showSuccessStories: nlapp,antyodaya-saral,hkrn
 img1: /img/tt_card3.jpg
 projectId: Online Teacher Transfer
@@ -129,7 +129,7 @@ impactNumber3Title: Teachers receive a posting from their top 10 preferences
 impactNumber4Title: Teacher grievances  resolved within  30 days
 impactNumber5Text: "%"
 blogTitle: Haryana starts online process to transfer school teachers
-webinarTitle: ""
+webinarTitle: Taking the officer out of transfers, Haryana cleans up its schools
 img2: /img/sk_2.png
 bannerImage: /img/header_online-teacher-transfer.mp4
 impactNumber1Decimal: 0
