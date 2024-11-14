@@ -6,10 +6,10 @@ const MediaFilter = ({
   programs,
   domains,
   onFilterChange,
-  sorting,
-  mediaHouseFilter,
-  programFilter,
-  domainFilter,
+  sorting = true, // Default to true if not passed
+  mediaHouseFilter = true, // Default to true if not passed
+  programFilter = true, // Default to true if not passed
+  domainFilter = true, // Default to true if not passed
 }) => {
   const [mediaHouse, setMediaHouse] = useState("");
   const [program, setProgram] = useState("");
