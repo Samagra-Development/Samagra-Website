@@ -98,4 +98,7 @@ footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
 successStoriesTitle: View more <i>Success Stories of Impact</i>
 showSuccessStories: go-sugam,hkrn,ksk
+footersubText1: T﻿his work has been done under
+  [KONNECT](https://samagragovernance.in/project/konnect/) with the support from
+  Government of Odisha and Bill and Melinda Gates Foundation.
 ---

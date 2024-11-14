@@ -1153,7 +1153,13 @@ collections:
           required: false,
           default: null,
         }
-        
+      - {
+          label: "Footer Sub Text 1",
+          name: "footersubText1",
+          widget: "markdown",
+          required: false,
+          default: "",
+        }  
       - {
           label: "Footer Text 1",
           name: "footerText1",
