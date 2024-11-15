@@ -57,6 +57,19 @@ showImpactVideo: false
 impactVideoLink: https://www.youtube.com/embed/r9ze1OXsSYw?si=WtyZb0RH0QgyAVZu
 showImpactCard: true
 impactCardFontColor: "#ffffff"
+impactCards:
+  - img: /img/sk_1.png
+    cardTitle: Administrative Streamlining
+    cardDescription: Increasing teacher time in the classroom by streamlining
+      transfers, MIS and shifting HR processes online
+  - img: /img/sk_2.png
+    cardTitle: Academic<br> Inputs
+    cardDescription: Delivery of competency-based remediation supported by timely
+      textbook delivery and student assessment reforms
+  - img: /img/sk_3.png
+    cardTitle: Cascaded Gamification
+    cardDescription: Building momentum in the system through gamification and direct
+      CM involvement to drive bottom-up innovation
 icon1: /img/sak1.jpg
 impactNumber1Char: ""
 impactNumber1: 85
@@ -109,20 +122,11 @@ webinarTitle: "TED Talk: A New Normal for School Education by Gaurav Goel"
 webinarDescription: ""
 webinarLink: https://www.ted.com/talks/gaurav_goel_a_new_normal_for_school_education
 blogSectionImage: /img/home-banner-saksham-slide-2.jpg
+footersubText1: T﻿his work has been done under [Saksham Haryana -
+  Education](https://samagragovernance.in/project/saksham-education/)[](https://samagragovernance.in/project/nipun-bharat-cell/) program
+  with the support from Government of Uttar Pradesh.
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
 successStoriesTitle: View more <i> Success Stories of Impact </i>
 showSuccessStories: nlapp,antyodaya-saral,hkrn
-
-
-impactCards:
-  - img: /img/sk_1.png
-    cardTitle: Administrative Streamlining
-    cardDescription: "Increasing teacher time in the classroom by streamlining transfers, MIS and shifting HR processes online"   
-  - img: /img/sk_2.png
-    cardTitle: Academic<br> Inputs
-    cardDescription: Delivery of competency-based remediation supported by timely textbook delivery and student assessment reforms 
-  - img: /img/sk_3.png
-    cardTitle: Cascaded Gamification
-    cardDescription: Building momentum in the system through gamification and direct CM involvement to drive bottom-up innovation
 ---
