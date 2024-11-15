@@ -111,6 +111,7 @@ opEdTitle: Op-Ed
 opEdDescription: Haryana wins Digital India awards 2020 for e-governance
 opEdLink: https://government.economictimes.indiatimes.com/news/digital-india/haryana-wins-digital-india-awards-2020-for-e-governance/79852044
 blogSectionImage: /img/segment-1.1.jpg
-footersubText1: T﻿his work has been done under Antyodaya Saral program with the
+footersubText1: T﻿his work has been done under [Antyodaya
+  Saral](https://samagragovernance.in/project/antyodaya-saral/) program with the
   support from Government of Haryana.
 ---
