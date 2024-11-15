@@ -59,7 +59,17 @@ newsletterBtn: Read Newsletter
 motionGraphic: /img/pov_graphics-base.mp4
 title5: Here is how Haryana worked towards augmenting system capacity
 showImpactVideo: false
-
+showImpactCard: true
+impactCards:
+  - img: /img/cmgga-img-2.jpg
+    cardTitle: Ownership<br> by CMO
+    cardDescription: Ensuring active involvement and time commitment from CMO
+  - img: /img/cmgga-img-3.jpg
+    cardTitle: Insider-Outsider Positioning
+    cardDescription: Ensuring fellows are not burdened with daily procedures of governance
+  - img: /img/cmggaimg.jpg
+    cardTitle: Strong Programme Team
+    cardDescription: Facilitating strategic positioning & support via a programme office
 impactNumber1Char: ""
 impactNumber1: 8
 impactNumber1Decimal: 0
@@ -100,22 +110,11 @@ showWebinar: true
 webinarTitle: Khattar lauds CMGGA efforts for running welfare schemes
 webinarLink: https://indianexpress.com/article/cities/chandigarh/manohar-lal-khattar-lauds-cmgga-efforts-for-running-welfare-schemes-8062951/
 blogSectionImage: /img/cmgga-initiative-1.jpg
+footersubText1: T﻿his work has been done
+  under [CMGGA](https://samagragovernance.in/project/cmgga/) program with the
+  support of Government of Haryana and Ashoka University.
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
 successStoriesTitle: <i>View more Success Stories of Impact</i>
 showSuccessStories: amritsarovar,saksham-education,nlapp
-showImpactCard: true
-
-impactCards:
-  - img: /img/cmgga-img-2.jpg
-    cardTitle: Ownership<br> by CMO
-    cardDescription: "Ensuring active involvement and time commitment from CMO"   
-  - img: /img/cmgga-img-3.jpg
-    cardTitle: Insider-Outsider Positioning
-    cardDescription: Ensuring fellows are not burdened with daily procedures of governance
-  - img: /img/cmggaimg.jpg
-    cardTitle: Strong Programme Team
-    cardDescription: Facilitating strategic positioning & support via a programme office 
-    
-
 ---
