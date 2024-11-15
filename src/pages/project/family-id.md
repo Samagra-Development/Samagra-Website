@@ -8,11 +8,10 @@ backgroundCover: /img/beneficiaries-family-id.png
 domain: Service Delivery
 subTitle: Samagra
 state: Uttar Pradesh
-tagLine: ' Ensuring a proactive scheme & service delivery mechanism '
+tagLine: " Ensuring a proactive scheme & service delivery mechanism "
 projectLogoWithState: /img/family-id-1-.png
 overview:
-  - text: >-
-      Family ID is envisioned as a database of all families residing in the
+  - text: Family ID is envisioned as a database of all families residing in the
       state of Uttar Pradesh which will be linked to all citizen facing schemes
       & services provided by the government. The objective of Family ID is
       three-fold - 1. Activating proactive delivery of services 2. Ensuring
@@ -26,16 +25,15 @@ overview:
       schemes a family is eligible for vs which schemes they are already
       availing
 scale:
-  - count: '38+ '
-    label: 'Departments '
-  - count: '180+ and 20+  '
+  - count: "38+ "
+    label: "Departments "
+  - count: "180+ and 20+  "
     label: Schemes and Services
   - count: 22 Cr+
     label: Citizens of the country residing in UP
 projectMiddleBannerImage: /img/govt-family-id.jpg
 approach:
-  - text: >-
-      The approach we are taking to solve the problem statement can be explained
+  - text: The approach we are taking to solve the problem statement can be explained
       through our implementation framework consisting of 3 components -
       Enablers, Tools and Outcomes a. Enablers 1) Family Onboarding - Though
       Aadhaar has been a game changer in identifying and removing ghost
@@ -58,22 +56,20 @@ approach:
       eligible for and not availing. The Family Welfare index is an internal
       department facing measurement index.
 impact:
-  - count: 
-    label: >-
-      Saturation of top 50 department schemes through near 100% beneficiary
+  - count: null
+    label: Saturation of top 50 department schemes through near 100% beneficiary
       coverage
-  - count: 
+  - count: null
     label: Proactive delivery mechanism activated for Top 50 schemes and services
-  - count: 
-    label: >-
-      Family passbook and welfare index being leveraged by citizens and govt
+  - count: null
+    label: Family passbook and welfare index being leveraged by citizens and govt
       representatives for shortlisted use cases
-  - count: 
-    label: >-
-      No duplication of beneficiaries across 150 schemes; hence saving state
+  - count: null
+    label: No duplication of beneficiaries across 150 schemes; hence saving state
       budgets
-  - count: 
+  - count: null
     label: 5 lakh additional jobs provided through job/skilling/credit linkages
 keyInitiativesTitle: .
+partners:
+  - logo: /img/BMGF_Logo.jpg
 ---
-
