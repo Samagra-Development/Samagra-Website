@@ -145,5 +145,5 @@ webinarDescription: ""
 blogSectionImage: /img/SamagraGovernance-Aishwarya-GovernanceConsulting.JPG
 footersubText1: T﻿his work has been done under [Saksham Haryana -
   Education](https://samagragovernance.in/project/saksham-education/) program
-  with the support from Government of Uttar Pradesh.
+  with the support from Government of Haryana.
 ---
