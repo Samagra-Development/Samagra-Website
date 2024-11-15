@@ -138,6 +138,9 @@ webinarTitle: ""
 webinarDescription: ""
 webinarLink: ""
 blogSectionImage: /img/gr_fi.jpg
+footersubText1: T﻿his work has been done under [Saksham Haryana - Skills &
+  Employment](https://samagragovernance.in/project/saksham-employment/) program
+  with the support of Government of Haryana
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
 successStoriesTitle: View more <i>Success Stories of Impact</i>
