@@ -133,7 +133,7 @@ webinarDescription: ""
 blogSectionImage: /img/samarth-header-bg.jpg
 footersubText1: T﻿his work has been done under
   [Samarth](https://samagragovernance.in/project/samarth/) program with the
-  support of Government of Haryana and Ashoka University.
+  support of Government of Hi﻿machal Pradesh.
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.i"
 successStoriesTitle: View more Success Stories of Impact
