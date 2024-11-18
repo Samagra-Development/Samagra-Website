@@ -145,4 +145,28 @@ postData:
       episode: "3"
       postImage: /img/5000-cr-gst-fraud-uncovered.png
       urlLink: https://www.youtube.com/embed/aqiscGzvUKw?si=-56OBiB8KyjAUBZx
+  - postCard:
+      postName: Arushi Mishra
+      selectedCategory: "3"
+      episode: "4"
+      urlLink: https://youtu.be/vzDDFkw9EbA?feature=shared
+      postImage: /img/4-3-.png
+  - postCard:
+      postName: Vineet Dwivedi
+      selectedCategory: "3"
+      episode: "5"
+      urlLink: https://youtu.be/uSnulq0gJPI?feature=shared
+      postImage: /img/2-4-.png
+  - postCard:
+      postName: Inderjeet Singh
+      selectedCategory: "3"
+      episode: "6"
+      urlLink: https://youtu.be/KSzrQJ-_PQM?feature=shared
+      postImage: /img/4-1-.png
+  - postCard:
+      postName: Avinash Sandhilya
+      selectedCategory: "3"
+      urlLink: https://youtu.be/Gh_lX45s7kM?feature=shared
+      episode: "7"
+      postImage: /img/2-3-.png
 ---
