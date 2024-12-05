@@ -24,6 +24,10 @@ postCategories:
   - category: DPG
 postData:
   - postCard:
+      urlLink: https://www.instagram.com/reel/DCWdwGAymhv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+      selectedCategory: DPG
+      postImage: /img/cropped-image-4-.png
+  - postCard:
       urlLink: https://www.instagram.com/reel/DBwYm7royX6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
       selectedCategory: DPG
       postImage: /img/cropped-image-3-.png
@@ -115,10 +119,6 @@ postData:
       postImage: /img/fir_resize.jpg
       selectedCategory: Administration
       urlLink: https://www.instagram.com/reel/Cyk8UwNyJ2w/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
-  - postCard:
-      urlLink: https://www.instagram.com/reel/DCWdwGAymhv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
-      selectedCategory: DPG
-      postImage: /img/cropped-image-4-.png
 instaLink: https://www.instagram.com/samagragovernance/
 assetsHeading: Explore Our Assets
 assets:
