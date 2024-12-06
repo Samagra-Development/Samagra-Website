@@ -3,7 +3,7 @@ backend:
   branch: master
   publish_mode: editorial_workflow
 
-# local_backend: true
+local_backend: true
 
 editorial_workflow:
   enable: true
@@ -73,6 +73,7 @@ collections:
       - { label: "URL", name: "title", widget: "string" }
       - { label: "Font Color (hex code)", name: "fontColor", widget: "color" }
       - { label: "Banner Image", name: "bannerImage", widget: file }
+      - { label: "Is Video", name: "isVideo", widget: "boolean", default: true }
       - {
           label: "Show Side Navbar",
           name: "showSideNavbar",
@@ -148,8 +149,29 @@ collections:
           default: "",
         }
       - {
+          label: "Title 2 Image",
+          name: "title2Image",
+          widget: image,
+          required: false,
+          default: null,
+        }
+      - {
           label: "Title 3",
           name: "title3",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Title 3 Image",
+          name: "title3Image",
+          widget: image,
+          required: false,
+          default: null,
+        }
+      - {
+          label: "Impact Video Title",
+          name: "videoTitle",
           widget: "string",
           required: false,
           default: "",
@@ -160,6 +182,13 @@ collections:
           widget: "string",
           required: false,
           default: "",
+        }
+      - {
+          label: "Motion gif",
+          name: "motionGif1",
+          widget: image,
+          required: false,
+          default: null,
         }
       - {
           label: "Title 4",
@@ -670,6 +699,7 @@ collections:
           required: false,
           default: "",
         }
+      - { label: "title 3 Image", name: "title3Image", widget: file }
       - {
           label: "Background Map",
           name: "backgroundMap",
@@ -762,6 +792,13 @@ collections:
           name: "showImpactVideo",
           widget: "boolean",
           default: false,
+        }
+      - {
+          label: "Title for embed video",
+          name: "videoTitle",
+          widget: "string",
+          required: false,
+          default: "",
         }
       - {
           label: "Impact video embed link",

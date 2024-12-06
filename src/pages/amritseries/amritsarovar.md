@@ -4,6 +4,7 @@ date: 2024-07-15T12:00:29.953Z
 sectionSequence: 1 2 3 4 5 6
 featuredimage: /img/visit-with-acs-vineet-garg-ias-and-dc-mandeep-kaur-ias1.jpg
 bannerImage: /img/amrit-sarovar_header-1-.mp4
+isVideo: true
 showSideNavbar: false
 showsideIcon1: false
 sideIcon1Text: Need / Challenges

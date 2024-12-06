@@ -11,6 +11,7 @@ import upIcon from "../img/up-arrow-png-20.png";
 import apostrophe_start from "../img/apostrophe_start.svg";
 import apostrophe_end from "../img/apostrophe_end.svg";
 import spacer from "../img/spacer.png";
+
 import amritSeriesDoodle from "../../static/img/amrit-series-text-doodle.svg";
 import amritSeriesBubble from "../../static/img/amrit-series-text-bubble.svg";
 import gosugamImpactImg from "../../static/img/gosugam-impact.jpg";
@@ -50,6 +51,7 @@ function FadeInSection(props) {
 }
 
 export const CaseStudyTemplate = ({ content, helmet }) => {
+
   const [mobile, setMobile] = useState(false);
   const [showUpIcon, setShowUpIcon] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
@@ -71,7 +73,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
   const isFooter = content?.footerText1 || content?.footerText2;
   const isSectionOne =
     content?.title2 || content?.title3 || content?.impactVideoLink;
-  const isSectionTwo = content?.title4 || content?.motionGraphic1;
+  const isSectionTwo = content?.title4 || content?.motionGraphic1 ||content?.motionGif1 ;
   const isSectionThree =
     content?.title5 ||
     content?.title6 ||
@@ -103,7 +105,8 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
   };
 
   useEffect(() => {
-    console.log("hello", content, arr);
+    console.log("hello", content, arr,content?.isVideo);
+    
     const handleResize = () => {
       if (window.innerWidth < 768) {
         setMobile(true);
@@ -180,6 +183,32 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   {content?.title2}
                 </div>
               )}
+              {/* { content.title2Image &&  <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  marginTop: "50px",
+                }}
+              >
+                <div
+                  id="img1"
+                  style={{
+                    backgroundImage: `url(${content?.title2Image?.childImageSharp
+                      ? content?.title2Image?.childImageSharp?.fluid
+                        ?.src
+                      : content?.title2Image})`,
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "contain",
+                    border: "3px solid #A97F2B",
+                    borderRadius: "10px",
+                  }}
+                 
+                ></div>
+               
+              </div>
+              } */}
+              
               {content?.title3 && (
                 <div
                   className="textCaseStudy"
@@ -191,10 +220,36 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                     paddingTop: !mobile ? "5px" : "50px",
                     fontSize: mobile ? "18px" : "24px",
                   }}
+                  dangerouslySetInnerHTML={{__html:content?.title3}}
                 >
-                  {content?.title3}
+                
                 </div>
               )}
+                { content.title3Image &&  <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  marginTop: "50px",
+                }}
+              >
+                <div
+                  id="img1"
+                  style={{
+                    backgroundImage: `url(${content?.title3Image?.childImageSharp
+                      ? content?.title3Image?.childImageSharp?.fluid
+                        ?.src
+                      : content?.title3Image})`,
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "contain",
+                    border: "3px solid #A97F2B",
+                    borderRadius: "10px",
+                  }}
+                 
+                ></div>
+               
+              </div>
+              }
               {content?.impactVideoLink && (
                 <>
                   <div
@@ -205,6 +260,19 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                       margin: "auto",
                     }}
                   >
+                     {content?.videoTitle && <div
+              className="headingCaseStudy"
+              style={{
+                textAlign: "center",
+                color: `${content.fontColor}`,
+                // paddingBottom: '25px',
+                paddingTop: !mobile ? "5px" : "50px",
+                fontSize: mobile ? "20px" : "24px",
+              }}
+            >
+              {content?.videoTitle}
+             
+            </div>}
                     <img
                       src={amritSeriesDoodle}
                       alt=""
@@ -215,12 +283,15 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                       }}
                     />
                   </div>
+
                   <div
                     style={{
                       textAlign: "center",
                       // width: '100vw',
                     }}
                   >
+                   
+                      
                     <div className="impact-video">
                       <iframe
                         style={{
@@ -230,6 +301,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                           width: "60vw",
                           padding: "10px",
                           borderWidth: "1px",
+                       
                           borderImage:
                             "linear-gradient(to right, #418F37, #FFE81D) 1",
                           borderImageSlice: 1,
@@ -264,7 +336,9 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                           transform: "scaleX(-1) scaleY(-1)",
                         }}
                       />
+                      
                     </div>
+                   
                     {/* <div>
                 <img
                 src={amritSeriesBubble}
@@ -289,8 +363,11 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               basis responsiveness of stakeholders
             </div> */}
             </div>
+          
+      
           </div>
         </FadeInSection>
+
         <SectionDivider color={content?.fontColor} />
       </>
     );
@@ -300,6 +377,30 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
     return (
       <>
         <FadeInSection>
+        { content.motionGif1 &&  <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  marginTop: "50px",
+                }}
+              >
+                <div
+                  id="img1"
+                  style={{
+                    backgroundImage: `url(${content?.motionGif1?.childImageSharp
+                      ? content?.motionGif1?.childImageSharp?.fluid
+                        ?.src
+                      : content?.motionGif1})`,
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "contain",
+                    border: "3px solid #A97F2B",
+                    borderRadius: "10px",
+                  }}
+                 
+                ></div>
+               
+              </div>}
           {content?.title4 && (
             <div
               className="textCaseStudy"
@@ -1244,7 +1345,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 backgroundPosition: 'center',
                 borderRadius: '10px',
               }}></div> */}
-                    <img
+                    {/* <img
                       src={
                         content?.blogSectionImage?.childImageSharp
                           ? content?.blogSectionImage?.childImageSharp?.fluid
@@ -1254,7 +1355,21 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                       width={mobile ? "100%" : "80%"}
                       height={"auto"}
                       style={{ borderRadius: "10px" }}
-                    />
+                    /> */}
+                    <div
+            id="case-study-links-image"
+            style={{
+              backgroundImage: `url(${ content?.blogSectionImage?.childImageSharp
+                ? content?.blogSectionImage?.childImageSharp?.fluid
+                  ?.src
+                : content?.blogSectionImage})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              border: "3px solid #A97F2B",
+              borderRadius: "10px",
+            }}
+          ></div>
                     {/* <div
               style={{
                 position: 'relative',
@@ -1270,6 +1385,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 borderRadius: '10px',
               }}></div> */}
                   </div>
+                  
                 )}
               </div>
             </FadeInSection>
@@ -1353,7 +1469,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
     <section className="section">
       {helmet || ""}
       <div className="media-page-banner">
-        <video
+        {content?.isVideo &&<video
           autoPlay
           loop
           muted
@@ -1372,7 +1488,19 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
             type="video/mp4"
           />
           Your browser does not support the video tag.
-        </video>
+        </video>}
+        
+        {!content?.isVideo &&  <img
+          src={content?.bannerImage?.publicURL
+            ? content?.bannerImage?.publicURL
+            : content?.bannerImage}
+          style={{
+            width: "100vw",
+            height: "auto",
+          }}
+        />}
+      
+        
         <div className="case-study-translucent-dark-overlay" />
       </div>
       {!mobile && showUpIcon && (
@@ -1387,7 +1515,8 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
               style={{ textAlign: "center" }}
               onClick={() => {
                 const ref = document.getElementById("needs-section");
-                ref.scrollIntoView({ behavior: "smooth", block: "center" });
+                ref.scrollIntoView({ behavior: 
+                "smooth", block: "center" });
               }}
             >
               <img
@@ -1510,8 +1639,9 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
             margin: "auto",
             marginTop: "100px",
           }}
+        dangerouslySetInnerHTML={{__html:content?.title1}}
         >
-          {content?.title1}
+      
         </div>
       </FadeInSection>
       {/* Show modal only in mobile */}
@@ -1640,12 +1770,27 @@ export const pageQuery = graphql`
         title1
         title2
         title3
+        motionGif1 {
+          childImageSharp {
+               fluid(maxWidth: 1280, quality: 62) {
+               ...GatsbyImageSharpFluid
+             }
+            }
+         }
+        title3Image {
+          childImageSharp {
+               fluid(maxWidth: 1280, quality: 62) {
+               ...GatsbyImageSharpFluid
+             }
+            }
+         }
+        videoTitle
         impactVideoLink
         title4
         title5
         title6
         title7
-
+        
         blogSectionImage {
           childImageSharp {
             fluid(maxWidth: 1280, quality: 62) {
@@ -1756,6 +1901,7 @@ export const pageQuery = graphql`
         bannerImage {
           publicURL
         }
+        isVideo
         motionGraphic1 {
           publicURL
         }
