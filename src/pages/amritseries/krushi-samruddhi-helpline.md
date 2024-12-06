@@ -38,28 +38,32 @@ title7: ""
 icon1: /img/ksh_imp1.jpg
 impactNumber1: 69
 impactNumber1Decimal: 0
-impactNumber1Text: Lakh
-impactNumber1Title: ""
+impactNumber1Text: " Lakh"
+impactNumber1Title: Farmers onboarded on the Krushi Samruddhi database till-date
 showPlus1: true
-impactNumber2: 0
-impactNumber2Decimal: 0
-impactNumber2Text: ""
-impactNumber2Title: ""
-showPlus2: false
-impactNumber3: 0
-impactNumber3Decimal: 0
+icon2: /img/ksh_imp2.jpg
+impactNumber2: 2.9
+impactNumber2Decimal: 1
+impactNumber2Text: " Crore"
+impactNumber2Title: Advisory messages sent  to  farmers monthly
+showPlus2: true
+icon3: /img/ksh_imp3.jpg
+impactNumber3: 4.26
+impactNumber3Decimal: 2
 impactNumber3Text: ""
-impactNumber3Title: ""
+impactNumber3Title: Average rating of advisory by farmers (Rating out of 5)
 showPlus3: false
-impactNumber4: 0
+icon4: /img/ksh_imp4.jpg
+impactNumber4: 27
 impactNumber4Decimal: 0
-impactNumber4Text: ""
-impactNumber4Title: ""
+impactNumber4Text: "%"
+impactNumber4Title: Reduction in crop loss due to pest incidence or weather calamities
 showPlus4: false
-impactNumber5: 0
-impactNumber5Decimal: 0
-impactNumber5Text: ""
-impactNumber5Title: ""
+icon5: /img/ksh_imp5.jpg
+impactNumber5: 8.2
+impactNumber5Decimal: 1
+impactNumber5Text: "%"
+impactNumber5Title: Increase in  profits for farmers from Krushi Samruddhi
 showPlus5: false
 infographicGoogleDriveLink: ""
 downloadInfographicBtn: ""
