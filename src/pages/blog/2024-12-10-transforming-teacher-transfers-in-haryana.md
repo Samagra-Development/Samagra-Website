@@ -97,8 +97,6 @@ There are multiple enablers and professional tools that have helped in the succe
    ![](/img/teacher-transfer-5.png)
 
    *Progress trackers for scrum meetings*
-
-
 4. **Inter-Branch Collaboration**: An IT-cell was established between the Department of Elementary Education and Department of Secondary Education to coordinate efforts.
 
    ![](/img/teacher-transfer-6.png)
@@ -174,4 +172,8 @@ While challenges remain, such as continuously refining the system and addressing
 
 As Haryana builds on this momentum, the lessons learned from this initiative provide valuable insights for other states and sectors. The journey of reform in Haryana’s teacher transfer system serves as a reminder that even deeply rooted administrative challenges can be addressed with thoughtful and inclusive solutions.
 
-This blog is part of the [Amrit Series](https://www.samagragovernance.in/amritseries), where we bring to you success stories of large scale impact through our work across domains and states. You can learn more about Amrit Sarovar [here](https://samagragovernance.in/blog/2024-08-06-amrit-series-7-amrit-sarovar/samagragovernance.in/amritseries/amritsarovar).
+<!--StartFragment-->
+
+**This blog is part of the [Amrit Series](https://www.samagragovernance.in/amritseries), where we bring to you success stories of large scale impact through our work across domains and states. You can learn more about Online Teacher Transfer [here](https://samagragovernance.in/amritseries/teacher-transfer/).**
+
+<!--EndFragment-->
