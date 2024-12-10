@@ -72,8 +72,6 @@ The transfer process was broken down into a systematic nine-step methodology to 
 8. **Provisional and Final Allocation**: Once preferences were submitted, a provisional allocation list was generated and published, allowing teachers to raise objections or concerns. These objections were reviewed and resolved by a joint team of the IT Cell and the directorate. The final allocations were then made, with merit lists determining priority.
 9. **Online Order Generation**: After the final allocations were completed, the system generated transfer orders online, which teachers could download directly. This eliminated the need for physical visits to headquarters, making the process efficient and hassle-free.
 
-
-
 ![](/img/teacher-transfer-2.png)
 
 <!--StartFragment-->
@@ -89,54 +87,68 @@ There are multiple enablers and professional tools that have helped in the succe
    ![](/img/teacher-transfer-3.png)
 
    *Data points collected through data entry drives*
-
-
 2. **Review and Monitoring through VCs**: Reviews were leveraged to ensure stakeholder alignment at all levels and quick turnaround of data entry drives.
 
    ![](/img/teacher-transfer-4.png)
 
    *Data collected for reviews of districts*
-
-
 3. **Daily Scrum Meetings**: 30+ scrum meetings were conducted to ensure swift resolution of operational issues faced by stakeholders.
+
+   ![](/img/teacher-transfer-5.png)
+
+   *Progress trackers for scrum meetings*
 
 
 4. **Inter-Branch Collaboration**: An IT-cell was established between the Department of Elementary Education and Department of Secondary Education to coordinate efforts.
 
+   ![](/img/teacher-transfer-6.png)
 
+   *Structure of DEE and DSE with respect to the established IT cell*
 5. **CM Meetings**: Policy issues were resolved directly with the CM through 10+ meetings over 1.5 months.
 
+   ![](/img/teacher-transfer-7.png)
 
+   *Summary of 2016 teacher transfers*
 6. **Stream Mergers**: Unequal number of physics, chemistry and biology teachers in the state leading to high percentage of science stream schools with incomplete sets of teachers. Merging streams allowed for an optimised set of schools.
 
+   ![](/img/teacher-transfer-8.png)
 
+   *Government Order outlining the schools that were merged*
 7. **Union Management**: Teacher unions were consistently taken into consultation to tweak the process and make it more user-centric.
 
+   ![](/img/teacher-transfer-9.png)
 
+   *Government officials addressing teacher unions’ concerns*
 8. **Grievance Redressal**: Special grievance redressal committee set up for both directorates, with 90% of complaints being resolved within 30 days.
 
+   ![](/img/teacher-transfer-10.png)
 
+   *Grievance redressal portal established for quick resolution*
 9. **Litigation Management**: A special legal team was set-up for both departments headed by the district attorney to preempt challenges and prepare replies in advance so the process doesn’t get marred by legal challenges.
 
+   ![](/img/teacher-transfer-11.png)
 
+   *Outline of the litigation management team for the department*
 
 ### The Impact: Systemic Improvements
 
 The Online Teacher Transfer system has brought about significant and measurable improvements in Haryana’s education governance.
 
-
-
 #### Efficiency Gains
 
 The transfer process, which previously took months, now requires only a fraction of that time. The introduction of automated systems and data-driven processes has reduced the time required for transfer drives by 67%. Teachers no longer need to navigate bureaucratic hurdles or travel to headquarters, allowing them to focus on their primary responsibility: teaching.
 
+![](/img/teacher-transfer-12.png)
 
+*Outcome data on efficiency gains before and after the drive*
 
 #### Improved Teacher Satisfaction
 
 The system’s transparency and fairness have fostered trust among educators. Over 60% of teachers received one of their top ten station preferences, reflecting the system’s ability to accommodate personal and professional needs. Voluntary participation rates reached 60%, underscoring the system’s acceptance among the teaching community.
 
-<!--StartFragment-->
+![](/img/teacher-transfer-13.png)
+
+*Teacher satisfaction data before and after the drive*
 
 #### Equitable Distribution
 
@@ -150,7 +162,9 @@ The publication of vacancies and merit lists online has removed the opacity that
 
 The success of Haryana’s Online Teacher Transfer system has inspired other states and departments to explore similar reforms. The Prime Minister’s Office has recognized the initiative as a model for governance innovation, and the system has been scaled to other sectors within Haryana, including healthcare and social welfare.
 
-<!--StartFragment-->
+![](/img/teacher-transfer-14.png)
+
+*Media coverage on the success of the teacher transfer intervention*
 
 ### Conclusion: A Step Toward Better Governance
 
