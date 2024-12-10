@@ -118,4 +118,4 @@ The success of Haryana’s Group D recruitment reforms is a testament to the pow
 
 These reforms not only addressed the immediate challenges but also set the stage for a more efficient, transparent, and citizen-centric governance system. As Haryana continues to innovate, the Group D recruitment story stands as a beacon of what is possible when determination meets strategy—a story of systemic transformation that has unlocked opportunities for thousands and reshaped the future of public recruitment in India.
 
-This blog is part of the [Amrit Series](https://www.samagragovernance.in/amritseries), where we bring to you success stories of large scale impact through our work across domains and states. You can learn more about Group D Government Recruitment [here](https://samagragovernance.in/amritseries/government-recruitment/).
+**This blog is part of the [Amrit Series](https://www.samagragovernance.in/amritseries), where we bring to you success stories of large scale impact through our work across domains and states. You can learn more about Group D Government Recruitment [here](https://samagragovernance.in/amritseries/government-recruitment/).**
