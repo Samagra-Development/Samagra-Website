@@ -87,9 +87,11 @@ showTestimonial: false
 testimonialText: ""
 testimonialAuthor: ""
 testimonialAuthorDesignation: ""
-footersubText1: ""
-footerText1: ""
-footerText2: ""
-successStoriesTitle: ""
-showSuccessStories: ""
+footersubText1: T﻿his work has been done under
+  [KONNECT](https://samagragovernance.in/project/konnect/) program with the
+  support of Government of Odisha and Bill & Melinda Gates Foundation.
+footerText1: Partner with us today!
+footerText2: "Write to us at: outreach@samagragovernance.in"
+successStoriesTitle: View more <i>Success Stories of Impact</i>
+showSuccessStories: "amritsarovar,ksk,nlapp "
 ---
