@@ -26,6 +26,7 @@ title3: Extension is critical in improving productivity & farmers’ income.
 impactVideoLink: ""
 title4: With a extension worker to farmer ratio of 1:2500, there were several
   challenges in disseminating critical advisory timely
+motionGraphic1: /img/ksh_sec-1_animation.mp4
 title5: As a result, farmers of Odisha primarily faced four challenges
 infographic1:
   - img: /img/ksh_farmer.jpg
@@ -34,6 +35,7 @@ infographic1:
   - img: /img/ksh_card3.jpg
   - img: /img/ksh_card4.jpg
 title6: ""
+motionGraphic2: /img/ksh_sec-2_animation.mp4
 title7: ""
 icon1: /img/ksh_imp1.jpg
 impactNumber1: 69
