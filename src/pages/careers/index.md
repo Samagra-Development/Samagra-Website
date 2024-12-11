@@ -91,7 +91,7 @@ roles:
         mentor 20-25 team members and nurture leaders within the organisation.
         They take proactive ownership of the organisational journey.
       title: Vice President & Senior Vice President
-  youtubeLink: https://www.youtube.com/embed/tXBOtxGGwog
+  youtubeLink: https://www.youtube.com/embed/Y-iHVVfSHRg?si=J6kiwFLGZDmiNLtk
 faq:
   - answer: We follow a common selection procedure for associate and consultant
       roles. If selected, you will be informed of your designation after your
