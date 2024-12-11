@@ -1,7 +1,7 @@
 ---
 templateKey: careers-page
 title: Careers
-bannerImage: /img/career-header-bg.jpg
+bannerImage: /img/whatsapp-image-2024-12-11-at-1.49.09-pm.jpeg
 centerBanner:
   image: /img/diverse.jpg
 mainContent:
@@ -35,7 +35,7 @@ philosophy:
 slides:
   - image: /img/life-1.jpg
     text: We cowork with the government
-  - image: /img/life-2.png
+  - image: /img/whatsapp-image-2024-12-11-at-1.54.11-pm.jpeg
     text: We work out of government offices
   - image: /img/whatsapp-image-2024-12-11-at-1.18.05-pm.jpeg
     text: We meet every month for Townhalls
