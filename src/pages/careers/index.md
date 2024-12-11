@@ -37,15 +37,15 @@ slides:
     text: We cowork with the government
   - image: /img/life-2.png
     text: We work out of government offices
-  - image: /img/life-3.jpg
+  - image: /img/whatsapp-image-2024-12-11-at-1.18.05-pm.jpeg
     text: We meet every month for Townhalls
-  - image: /img/life-4.jpeg
+  - image: /img/whatsapp-image-2024-12-11-at-1.18.04-pm.jpeg
     text: We have regular skill-building sessions
-  - image: /img/life-5.jpg
+  - image: /img/whatsapp-image-2024-12-11-at-1.18.03-pm.jpeg
     text: We are constantly learning from the best
-  - image: /img/life-6.jpg
+  - image: /img/whatsapp-image-2024-12-11-at-1.25.03-pm.jpeg
     text: We believe in collaboration
-  - image: /img/life-7.jpg
+  - image: /img/whatsapp-image-2024-12-11-at-1.18.05-pm-1-.jpeg
     text: We are a fun bunch
 roles:
   items:
