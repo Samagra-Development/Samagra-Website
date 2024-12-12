@@ -22,6 +22,7 @@ postCategories:
   - category: Policy
   - category: Judiciary
   - category: DPG
+  - category: India as a Welfare State
 postData:
   - postCard:
       postImage: /img/cropped-image-5-.png
