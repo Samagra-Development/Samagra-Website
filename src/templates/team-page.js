@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 
 import linkedInSvg from "../img/social/LinkedIn.svg";
 import linkedInSvgSelected from "../img/social/LinkedIn-selected.svg";
-
+// testing
 const TeamPagePreviewTemplate = ({ data }) => {
   if (
     data &&
