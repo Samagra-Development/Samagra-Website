@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import { PrimaryButton } from "../../PrimaryButton/PrimaryButton";
-import { FormData } from "formdata-node";
 import axios from "axios";
 // import ImageRecruitment from '../../../img/slides/Recruitment_vff_image.pptx.png';
 import Slide1 from "../../../img/slides/Slide1.jpg";
@@ -21,7 +20,13 @@ export const JoinUsFormSection = ({
   ShowForm
 }) => {
   // const reachingOptions = [];
-  const formDataRef = useRef(new FormData()); // Ref to store FormData object
+  const formDataRef = useRef(null) // Ref to store FormData object
+  useEffect(() => {
+    // Check if we're in the browser
+    if (typeof window !== "undefined") {
+      formDataRef.current = new FormData();
+    }
+  }, []);
   const camelCase = (str) => {
     if (!str) {
       return "";
