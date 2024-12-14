@@ -1995,11 +1995,24 @@ collections:
               fields: [{ label: "Text", name: text, widget: string }],
             }
           - {
+              label: "Main Text 2",
+              name: mainContent2,
+              widget: object,
+              fields: [{ label: "Title", name: title, widget: string },{ label: "Text", name: text, widget: string }],
+            }
+          - {
+              label: "Apply",
+              name: apply,
+              widget: object,
+              fields: [{ label: Apply Link, name: applyLink, widget: string },{ label: "Show", name: show, widget: boolean }],
+            }
+          - {
               label: "Philosophy",
               name: philosophy,
               widget: object,
               fields:
                 [
+                  { label: Title, name: title, widget: string }, 
                   {
                     label: "Section One",
                     name: sectionOne,
@@ -2062,7 +2075,9 @@ collections:
               widget: object,
               fields:
                 [
+                  { label: Title, name: title, widget: string },
                   { label: Youtube Link, name: youtubeLink, widget: string },
+                  { label: Youtube Link 2, name: youtubeLink2, widget: string },
                   {
                     label: Responsibilities,
                     name: items,
@@ -2073,6 +2088,12 @@ collections:
                         { label: Description, name: description, widget: text },
                       ],
                   },
+                  {
+              label: "Join us",
+              name: joinus, 
+              widget: object,
+              fields: [{ label: Join us Link, name: joinUsLink, widget: string },{ label: "Show", name: show, widget: boolean }],
+            }
                 ],
             }
           - {
@@ -2331,6 +2352,8 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Info Text 1", name: infoText1, widget: "string" }
           - { label: "Info Text 2", name: infoText2, widget: "string" }
+          - { label: "Form Acceptance", name: formAcceptance, widget: "string" }
+          - { label: "Show form", name: showForm, widget: "boolean", default: true}
           - { label: "Vertical Image", name: verticalImage, widget: image }
           - { label: "Horizontal Image", name: horizontalImage, widget: image }
           - { label: "Follow Linkedin", name: followLinkedin, widget: image }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {graphql} from 'gatsby'
 import Layout from '../components/Layout'
 import {MediaRoll} from "../components/MediaRoll";
@@ -10,6 +10,7 @@ import PaginationSlider from "../components/CareerPageComponents/PaginationSlide
 import CareerSectionFifth from "../components/CareerPageComponents/CareerSectionFifth/CareerSectionFifth";
 
 export const CareerPagePreviewTemplate = ({careerPageContent}) => {
+    
     return (
         <React.Fragment>
             <CareerBannerImage bannerContent={careerPageContent}/>
@@ -58,7 +59,16 @@ export const mediaPageQuery = graphql`
         mainContent {
             text
         }
+        mainContent2 {
+            title
+            text
+        }
+        apply {
+            applyLink
+            show
+        }
         philosophy {
+            title
             sectionOne {
                 image {
                     childImageSharp {
@@ -109,7 +119,13 @@ export const mediaPageQuery = graphql`
             answer
         }
         roles {
+            title
             youtubeLink
+            youtubeLink2
+            joinus {
+               joinUsLink
+               show
+            }
             items {
                 title
                 description

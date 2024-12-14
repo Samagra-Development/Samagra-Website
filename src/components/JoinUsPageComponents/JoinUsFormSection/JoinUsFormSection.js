@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { PrimaryButton } from "../../PrimaryButton/PrimaryButton";
 import axios from "axios";
 // import ImageRecruitment from '../../../img/slides/Recruitment_vff_image.pptx.png';
@@ -16,8 +16,11 @@ export const JoinUsFormSection = ({
   joinUsPageContent,
   infoText1,
   infoText2,
+  formAcceptance,
+  ShowForm
 }) => {
   // const reachingOptions = [];
+  const formDataRef = useRef(new FormData()); // Ref to store FormData object
   const camelCase = (str) => {
     if (!str) {
       return "";
@@ -28,6 +31,7 @@ export const JoinUsFormSection = ({
       })
       .replace(/\s+/g, "");
   };
+  
   const [showForm, setShowForm] = useState(true);
   const slides = {
     default: Slide1,
@@ -40,12 +44,14 @@ export const JoinUsFormSection = ({
   const [videoProgress, setVideoProgress] = useState(0);
   const [formObject, setFormObject] = useState({});
   const [submitted, setSubmitted] = useState(false);
+  const [submissionError,setSubmissionError] = useState(false)
   const [activeOption, setActiveOption] = useState(-1);
   const [activeHoverIndex, setActiveHoverIndex] = useState(-1);
   const [loaderKey, setLoaderKey] = useState({});
   const formsElements = joinUsPageContent.formsElements || [];
+
   formsElements.forEach((fE) => {
-    fE["key"] = camelCase(fE.label);
+    fE["key"] = fE.label;
     fE["fileKeyName"] = camelCase(fE.label) + "FileName";
     if (fE["otherOptionAvailable"]) {
       fE["otherOptionAvailable"].key = camelCase(
@@ -89,7 +95,7 @@ export const JoinUsFormSection = ({
           },
         ],
         actionName: null,
-        key: camelCase(newKey),
+        key: newKey,
         fileKeyName: camelCase(newKey) + "FileName",
       });
     }
@@ -109,10 +115,23 @@ export const JoinUsFormSection = ({
       const formObjectTemp = {
         ...formObject,
       };
-      formObjectTemp[camelCase(newKey)] = "";
+      formObjectTemp[newKey] = "";
       setFormObject(formObjectTemp);
     }
   }
+  const handleFileChange = (e, element) => {
+    const files = e.target.files;
+    if (files.length > 0) {
+      const file = files[0];
+      AddFile(file,element)
+      const updatedFormObject = {
+        ...formObject,
+        [element.key]: file, // Store the file object.
+        [element.fileKeyName]: file.name, // Store the file name.
+      };
+      setFormObject(updatedFormObject);
+    }
+  };
   const VALID_TEXT = (element) => {
     if (!element.required) {
       return true;
@@ -157,14 +176,26 @@ export const JoinUsFormSection = ({
       )
     );
   };
-  const VALID_FILE = (element) => {
-    if (!element.required) {
-      return true;
-    }
-    formObject[element.fileErrorKey] =
-      element && formObject && !formObject[element.key];
-    return element && formObject && formObject[element.key];
-  };
+  
+   const VALID_FILE = (element) => {
+  if (!element.required) return true; // Skip validation if not required.
+
+  const file = formObject[element.key]; // Access the file object.
+  if (!file) {
+    formObject[element.fileErrorKey] = true; // Mark an error.
+    return false; // Validation fails if no file is selected.
+  }
+
+  // File validation: type and size
+  const isPDF = file.type === "application/pdf";
+  const isWithinSizeLimit = file.size <= 1 * 1024 * 1024; // 1 MB limit.
+
+  formObject[element.fileErrorKey] = !(isPDF && isWithinSizeLimit); // Update error state.
+
+  return isPDF && isWithinSizeLimit; // Return validation result.
+};
+  
+
   const VALID_OPTION = (element) => {
     if (!element.required) {
       return true;
@@ -209,6 +240,9 @@ export const JoinUsFormSection = ({
 
   const [statementOfPurpose, setStatementOfPurpose] = useState("");
   const [introVideo, setIntroVideo] = useState("");
+ useEffect(()=>{
+
+ },[submissionError])
   const renderInput = (element) => {
     switch (element.type) {
       case "text":
@@ -384,51 +418,7 @@ export const JoinUsFormSection = ({
                   type="file"
                   className={"file-input"}
                   accept={".pdf"}
-                  onChange={(e) => {
-                    const files = Array.from(e.target.files);
-                    const formData = new FormData();
-                    const formObjectTemp = {
-                      ...formObject,
-                    };
-                    formData.append("file", files[0]);
-                    loaderKey[element.key] = true;
-                    setLoaderKey(JSON.parse(JSON.stringify(loaderKey)));
-                    fetch(fileUploadURL, {
-                      method: "POST",
-                      body: formData,
-                    })
-                      .then((res) => {
-                        if (!res) {
-                          formObjectTemp[element.fileErrorKey] = true;
-                          setFormObject(formObjectTemp);
-                          throw Error("File size Exceeded");
-                        } else {
-                          console.log(res.status);
-                          console.log("res.status");
-                          formObjectTemp[element.fileErrorKey] = false;
-                          return res.json();
-                        }
-                      })
-
-                      .then((image) => {
-                        formObjectTemp[element.key] = image.fileName;
-                        formObjectTemp[element.fileKeyName] = image.name;
-                        setFormObject(formObjectTemp);
-                        setTimeout(() => {
-                          const lK = JSON.parse(JSON.stringify(loaderKey));
-                          lK[element.key] = false;
-                          setLoaderKey(lK);
-                        }, 200);
-                      })
-                      .catch((e) => {
-                        console.error(e);
-                        setTimeout(() => {
-                          const lK = JSON.parse(JSON.stringify(loaderKey));
-                          lK[element.key] = false;
-                          setLoaderKey(lK);
-                        }, 200);
-                      });
-                  }}
+                  onChange={(e) => handleFileChange(e, element)}
                 />
                 <div className="input-group-append">
                   <span
@@ -527,6 +517,111 @@ export const JoinUsFormSection = ({
         );
     }
   };
+  // const Post = async (e) => {
+  //   try {
+  //     Object.keys(formObject).forEach((key) => {
+  //       if (!key.startsWith("file") && formObject[key] !== null) {
+  //         formDataToSend.append(key, formObject[key]);
+  //       }
+  //     });
+  //     const response = await fetch(
+  //       "https://script.google.com/macros/s/AKfycbzAvyix7zw7lyrxf6xEa1gehrZoQwVLeGCzVwxYd1Fdg-x9QSgwbu6x3D_T8XgrPKiG/exec",
+  //       {
+  //         method: "POST",
+  //         body: formDataToSend,
+  //       }
+  //     );
+  //   } catch {}
+  // };
+  // const AddFile = async (file, element) => {
+  //   try {
+  //     if (file) {
+  //       // Read file as base64
+  //       const base64File = await new Promise((resolve) => {
+  //         const reader = new FileReader();
+  //         reader.onload = (e) => resolve(e.target.result.split(",")[1]);
+  //         reader.readAsDataURL(file);
+  //       });
+
+  //       // Append file details
+  //       formDataToSend.append(`${element.label}fileName`, file.name);
+  //       formDataToSend.append(`${element.label}Mimetype`, file.type);
+  //       formDataToSend.append(`${element.label}fileBlob`, base64File);
+  //     }
+  //   } catch {}
+  // };
+  const Post = async (e) => {
+    try {
+      // Append form data (non-file fields)
+      Object.keys(formObject).forEach((key) => {
+        if (!key.startsWith("file") && formObject[key] !== null) {
+          formDataRef.current.append(key, formObject[key]);
+        }
+      });
+
+      // Post the form data
+      const response = await fetch(
+        "https://script.google.com/macros/s/AKfycbxgLhAuV7rn41K7FY4FGS38vuWH1_gpBddoGA_j3GiC5SDr7yJyNR9wyv_R9dvYoQCV/exec",
+        {
+          method: "POST",
+          body: formDataRef.current,
+        }
+      );
+
+      if (response.ok) {
+        console.log("Form submitted successfully!");
+        setShowForm(false)
+        setSubmissionError((prev)=>{
+            return false
+        })
+        setTimeout(() => {
+              const lK = JSON.parse(JSON.stringify(loaderKey));
+              lK["formSubmit"] = false;
+              setLoaderKey(lK);
+            }, 200)
+      } else {
+        setSubmissionError((prev)=>{
+          return true
+      })
+        console.error("Form submission failed.");
+        setTimeout(() => {
+          const lK = JSON.parse(JSON.stringify(loaderKey));
+          lK["formSubmit"] = false;
+          setLoaderKey(lK);
+        }, 200)
+      }
+      
+    } catch (error) {
+      console.error("Error during form submission:", error);
+      setSubmissionError(true);
+  
+      setTimeout(() => {
+        const lK = JSON.parse(JSON.stringify(loaderKey));
+        lK["formSubmit"] = false;
+        setLoaderKey(lK);
+      }, 200);
+    }
+  };
+
+  const AddFile = async (file, element) => {
+    try {
+      if (file) {
+        // Read file as base64
+        const base64File = await new Promise((resolve) => {
+          const reader = new FileReader();
+          reader.onload = (e) => resolve(e.target.result.split(",")[1]);
+          reader.readAsDataURL(file);
+        });
+
+        // Append file details to FormData
+        formDataRef.current.append(`${element.label}fileName`, file.name);
+        formDataRef.current.append(`${element.label}Mimetype`, file.type);
+        formDataRef.current.append(`${element.label}fileBlob`, base64File);
+      }
+    } catch (error) {
+      console.error("Error during file processing:", error);
+    }
+  };
   return (
     <div style={{ paddingTop: "100px" }} className={"join-us-page-wrapper"}>
       <div className="container-fluid">
@@ -618,17 +713,13 @@ export const JoinUsFormSection = ({
         ) : null}
       </div>
 
-      <div className="follow-linkedin f-18" style={{ padding: "16px 0" }}>
-        We are no longer accepting applications, follow us on &nbsp;
-        <a
-          target={"_blank"}
-          href="https://www.linkedin.com/company/samagra-transforming-governance/mycompany/"
-        >
-          LinkedIn
-        </a>{" "}
-        to be updated of new roles when we announce them
+      <div className="follow-linkedin f-18" style={{ padding: "16px 0" }} dangerouslySetInnerHTML={{__html: formAcceptance}}>
+        
+        
       </div>
-      <div className={"join-us-form"}>
+      <div 
+       style={{display:`${ShowForm?"block":"none"}`}}
+       className={"join-us-form"}>
         <div className="container">
           {showForm ? (
             <div className="row">
@@ -636,7 +727,7 @@ export const JoinUsFormSection = ({
                 if (index === formsElements.length - 2) {
                   return (
                     <>
-                      <div className="col-12" style={{ padding: "0 15px" }}>
+                      {/* <div className="col-12" style={{ padding: "0 15px" }}>
                         <fieldset className={"form-group"}>
                           <label>
                             {" "}
@@ -755,7 +846,7 @@ export const JoinUsFormSection = ({
                             {videoError}
                           </span>
                         </fieldset>
-                      </div>
+                      </div> */}
                       {renderInput(fE)}
                     </>
                   );
@@ -796,23 +887,49 @@ export const JoinUsFormSection = ({
                 <PrimaryButton
                   click={() => {
                     setSubmitted(true);
+                    
                     let validForm = true;
                     formsElements.forEach((element) => {
                       if (!customValidation(element)) {
                         validForm = false;
                       }
                     });
-                    if (!statementOfPurpose) {
-                      setVideoError("Field Required!");
-                      validForm = false;
-                    }
+                    
                     let reqObject = JSON.parse(JSON.stringify(formObject));
+                    // axios
+                    // .post(
+                    //   `https://script.google.com/macros/s/AKfycbzAvyix7zw7lyrxf6xEa1gehrZoQwVLeGCzVwxYd1Fdg-x9QSgwbu6x3D_T8XgrPKiG/exec`,
+                    //   {
+                    //     reqObject,
+                    //   },
+                    //   { headers: { "Content-Type": "application/json" } }
+                    // )
+                    // .then(function(response) {
+                    //   setShowForm(false);
+                    //   setTimeout(() => {
+                    //     const lK = JSON.parse(JSON.stringify(loaderKey));
+                    //     lK["formSubmit"] = false;
+                    //     setLoaderKey(lK);
+                    //   }, 200);
+                    // })
+                    // .catch(function(error) {
+                    //   setTimeout(() => {
+                    //     const lK = JSON.parse(JSON.stringify(loaderKey));
+                    //     lK["formSubmit"] = false;
+                    //     setLoaderKey(lK);
+                    //   }, 200);
+                    // });
                     if (!validForm) {
                       return;
                     }
-                    if (videoProgress !== 100) {
-                      return;
-                    }
+                    Post();
+                   
+                    
+                   
+                    
+                    // if (videoProgress !== 100) {
+                    //   return;
+                    // }
                     formsElements.forEach((element) => {
                       if (
                         element.type === "select" &&
@@ -825,33 +942,9 @@ export const JoinUsFormSection = ({
                           reqObject[element.otherOptionAvailable.key];
                       }
                     });
-
+                    
                     loaderKey["formSubmit"] = true;
                     setLoaderKey(JSON.parse(JSON.stringify(loaderKey)));
-                    axios
-                      .post(
-                        `https://recruitment-uploader.samagra.io/forms/form-submit`,
-                        {
-                          ...reqObject,
-                          statementOfPurpose,
-                        },
-                        { headers: { "Content-Type": "application/json" } }
-                      )
-                      .then(function(response) {
-                        setShowForm(false);
-                        setTimeout(() => {
-                          const lK = JSON.parse(JSON.stringify(loaderKey));
-                          lK["formSubmit"] = false;
-                          setLoaderKey(lK);
-                        }, 200);
-                      })
-                      .catch(function(error) {
-                        setTimeout(() => {
-                          const lK = JSON.parse(JSON.stringify(loaderKey));
-                          lK["formSubmit"] = false;
-                          setLoaderKey(lK);
-                        }, 200);
-                      });
                   }}
                   text={"Submit"}
                 >
@@ -859,6 +952,21 @@ export const JoinUsFormSection = ({
                     <div className="samagra-loader"></div>
                   ) : null}
                 </PrimaryButton>
+                <div style={{ marginTop: "25px" }}>
+                {submissionError  && <span
+                    style={{
+                      cursor: "pointer",
+                      color: "#ec672c",
+                      fontSize: "24px",
+                      width: "100%",
+                      textAlign: "center",
+                    }}
+                  >
+                    Submission failed, Try again
+                  </span>}
+                  
+               
+              </div>
                 <div style={{ marginTop: "25px" }}>
                   <a
                     style={{
@@ -880,7 +988,9 @@ export const JoinUsFormSection = ({
                     </span>
                   </a>
                 </div>
+               
               </div>
+              
             </div>
           ) : (
             <div className={"thank-you-message"}>

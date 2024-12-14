@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { PrimaryButton } from "../../PrimaryButton/PrimaryButton";
 
 const CareerSectionFifth = ({ content }) => {
+  
   const [mobile, setMobile] = useState(false);
  useEffect(() => {
     const handleResize = () => {
@@ -34,7 +35,7 @@ const CareerSectionFifth = ({ content }) => {
     <div className={"container-fluid"}>
       <div className="row">
         <div className={"col-12 my-5 py-4 fw-600 faq-title text-center"}>
-          Roles @ Samagra
+        {content.roles.title}
         </div>
 
         <div className="container mx-auto">
@@ -49,7 +50,19 @@ const CareerSectionFifth = ({ content }) => {
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
+               <iframe
+                width="100%"
+                object-fit="cover"
+                height={mobile?"220px":"320px"}
+                src={content.roles.youtubeLink2}
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
+            {/* <div className="col-md-6 col-sm-12 text-center">
+             
+            </div> */}
             <div className="col-md-6 col-sm-12 roles-section">
               {content.roles.items.map((item, index) => {
                 if (selectedRoleIndex > -1 && index !== selectedRoleIndex)
@@ -91,13 +104,18 @@ const CareerSectionFifth = ({ content }) => {
           </div>
           <div className="row join-us-btn pt-5">
             <div className="col-12 text-center">
-              <PrimaryButton
+              {
+                content?.roles?.joinus?.show &&
+                <PrimaryButton
+    
                 classes={"py-3 text-uppercase"}
                 click={() => {
-                  window.location.href = "/joinus";
+                  window.location.href = `${content?.roles?.joinus?.joinUsLink}`
                 }}
                 text={"Join Us"}
               />
+              }
+             
             </div>
             <div className="col-12 text-center my-5 py-4 faq-title">
               Frequently Asked Questions

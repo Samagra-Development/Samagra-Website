@@ -11,7 +11,14 @@ mainContent:
       India and work with the best in the social impact sector. Samagra offers
       its consultants a steep professional learning curve and an opportunity to
       create real impact on the ground.
+mainContent2:
+    title: Graduate Study Support Program
+    text: Samagra is committed to the personal and professional growth of its team members. To this end, Samagra supports team members who want to pursue higher education and continue their professional journey with the firm. All Samagra team members who have spent at least a year in the firm and meet a pre-defined performance criteria are eligible for financial support to pursue a graduate level study program. This includes, but is not limited to MBA, MPA, MPP, MS, MA degrees across disciplines. Team members receive monthly financial support for the complete duration of their study program and return to Samagra post its completion.
+apply:
+  applyLink : /joinus
+  show : true
 philosophy:
+  title: People Philosophy
   sectionFour:
     description: High degree of ownership on responsibilities irrespective of the
       role at which you start your Samagra journey
@@ -48,6 +55,9 @@ slides:
   - image: /img/life-7.jpg
     text: We are a fun bunch
 roles:
+  joinus:
+    joinUsLink : /joinus
+    show : true
   items:
     - description: Associates and Senior Associates take ownership of 3-5 workstreams
         (mini projects within a large program) and manage them end-to-end. They
@@ -92,6 +102,8 @@ roles:
         They take proactive ownership of the organisational journey.
       title: Vice President & Senior Vice President
   youtubeLink: https://www.youtube.com/embed/tXBOtxGGwog
+  youtubeLink2: https://www.youtube.com/embed/tXBOtxGGwog
+  title : Roles @ Samagra
 faq:
   - answer: We follow a common selection procedure for associate and consultant
       roles. If selected, you will be informed of your designation after your

@@ -42,23 +42,14 @@ const CareerSectionThird = ({ content }) => {
       </div>
       <div style={{ marginTop: "100px" }}>
         <div className="fw-600 philosophy-title text-center">
-          Graduate Study Support Program
+          {content?.mainContent2?.title}
         </div>
         <div
           className="py-3 text-justify f-18 color-text-primary main-text mx-auto"
           style={{ maxWidth: "850px" }}
         >
           <p>
-            Samagra is committed to the personal and professional growth of its
-            team members. To this end, Samagra supports team members who want to
-            pursue higher education and continue their professional journey with
-            the firm. All Samagra team members who have spent at least a year in
-            the firm and meet a pre-defined performance criteria are eligible
-            for financial support to pursue a graduate level study program. This
-            includes, but is not limited to MBA, MPA, MPP, MS, MA degrees across
-            disciplines. Team members receive monthly financial support for the
-            complete duration of their study program and return to Samagra post
-            its completion.
+          {content?.mainContent2?.text}
           </p>
         </div>
       </div>

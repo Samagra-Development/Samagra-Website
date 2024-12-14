@@ -30,19 +30,22 @@ const CareerSectionSecond = ({ content, fromC4GT }) => {
             </div>
           ) : (
             <div className={"text-center mt-4"}>
+              {content?.apply?.show && 
               <PrimaryButton
-                classes={"py-3 text-uppercase"}
-                click={() => {
-                  window.location.href = "/joinus";
-                }}
-                text={"Apply"}
-              />
+             
+              classes={"py-3 text-uppercase"}
+              click={() => {
+                window.location.href = `${content?.apply?.applyLink}`;
+              }}
+              text={"Apply"}
+            />}
+              
             </div>
           )}
 
           {
             <div className={"fw-600 philosophy-title text-center my-5"}>
-              {!fromC4GT ? "People Philosophy" : " "}
+              {!fromC4GT ? `${content.philosophy.title}`: " "}
             </div>
           }
         </div>
