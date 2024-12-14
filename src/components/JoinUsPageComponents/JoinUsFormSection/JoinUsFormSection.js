@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { PrimaryButton } from "../../PrimaryButton/PrimaryButton";
+import { FormData } from "formdata-node";
 import axios from "axios";
 // import ImageRecruitment from '../../../img/slides/Recruitment_vff_image.pptx.png';
 import Slide1 from "../../../img/slides/Slide1.jpg";
