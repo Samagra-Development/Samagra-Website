@@ -2,9 +2,12 @@
 templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
-infoText2: " "
-formAcceptance: ""
-showForm: true
+infoText2: ""
+formAcceptance: We are no longer accepting applications, follow us on &nbsp; <a
+  target={"_blank"}
+  href="https://www.linkedin.com/company/samagra-transforming-governance/mycompany/"
+  > LinkedIn </a> to be updated of new roles when we announce them
+showForm: false
 verticalImage: /img/recruitment-diagram_jan22_v1.jpg
 horizontalImage: /img/whatsapp-image-2022-01-19-at-5.53.08-pm.jpeg
 followLinkedin: /img/follow-linkedin.jpg
