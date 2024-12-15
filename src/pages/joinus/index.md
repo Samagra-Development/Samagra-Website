@@ -40,46 +40,67 @@ formAcceptance: We are no longer accepting applications, follow us on &nbsp;
         </a>
         to be updated of new roles when we announce them
 showForm : true
+
 verticalImage: /img/recruitment-diagram_jan22_v1.jpg
 horizontalImage: /img/whatsapp-image-2022-01-19-at-5.53.08-pm.jpeg
 followLinkedin: /img/follow-linkedin.jpg
+postSubInfo:
+  heading: Thank you
+  subHeading: "While we evaluate your application, you should go through the
+    following links for increasing your chances in the stages ahead:"
+  line1text: About Samagra video
+  line2text: How to prepare for Samagra Interviews
+  line3text: Life at Samagra Video
+  line4text: About Samagra Brochure
+  subHeading2: In case you'd like to get regular updates on our work,
+    please                 follow us
+    on                  <a                   target={"_blank"}                   href="https://www.linkedin.com/company/samagra-transforming-governance/"                 >                   LinkedIn                 </a>                  and                 <a                   target={"_blank"}                   href="https://www.facebook.com/SamagraGovernance"                 >                   Facebook                 </a>.
+  line1link: https://www.youtube.com/watch?v=Y-iHVVfSHRg&ab_channel=Samagra-TransformingGovernance
+  line2link: https://drive.google.com/drive/folders/1cOYspNY75hwJu-m_lEfM9t27qXaiSlHH
+  line3link: https://drive.google.com/file/d/1e7b_6l7H_mt1hOkWsIZPpumHk8ksRFr-/view?usp=sharing
+  line4link: https://heyzine.com/flip-book/041fd974bf.html
+  youtubeLink: "
+    https://www.youtube.com/embed/videoseries?list=PLqeXOsUG-6BtvH-0GgwRGX9Z2uO\
+    89l-nB"
+  videoTitle: Learn more about Samagra
+  show: true
 formsElements:
-  - contentDescription: ' '
+  - contentDescription: " "
     label: Full Name
     placeholder: Enter your full name
     required: true
     type: text
     validation: VALID_TEXT
-  - contentDescription: '   '
+  - contentDescription: "   "
     label: Contact Number
     placeholder: Enter your contact number
     required: true
     type: text
     validation: VALID_TEXT
-  - contentDescription: ' '
+  - contentDescription: " "
     label: Email
     placeholder: Enter your email
     required: true
     type: text
     validation: VALID_TEXT
-  - contentDescription: '  '
+  - contentDescription: "  "
     label: Current Location
     placeholder: Enter current location
     required: true
     type: text
     validation: VALID_TEXT
-  - contentDescription: '   '
+  - contentDescription: "   "
     label: Undergraduate Institute
     options: []
     otherOptionAvailable:
-      activateOn: ''
-      label: ''
-      placeholder: ''
+      activateOn: ""
+      label: ""
+      placeholder: ""
     placeholder: Enter Institute
     required: true
     type: text
     validation: VALID_TEXT
-  - contentDescription: '  '
+  - contentDescription: "  "
     label: Post Graduate Institute
     options:
       - text: Not Applicable
@@ -120,7 +141,7 @@ formsElements:
     required: true
     type: select
     validation: VALID_OPTION
-  - contentDescription: ' '
+  - contentDescription: " "
     label: Last Employer
     placeholder: Enter Organization
     required: true
@@ -132,7 +153,7 @@ formsElements:
     required: true
     type: number
     validation: VALID_NUMBER
-  - contentDescription: ' Notice Period'
+  - contentDescription: " Notice Period"
     label: Notice Period
     options:
       - text: 1 month
@@ -146,40 +167,40 @@ formsElements:
   - contentDescription: Possibility of early exit from current organisation
     label: Possibility of early exit from current organisation
     options:
-      - text: 'Yes'
-      - text: 'No'
+      - text: Yes
+      - text: No
       - text: Not Applicable
     placeholder: Select Option
     required: true
     type: select
     validation: VALID_OPTION
-  - contentDescription: ' '
+  - contentDescription: " "
     label: LinkedIn Profile
     placeholder: Enter your linkedin profile link
     required: false
     type: text
     validation: VALID_LINK
-  - contentDescription: ' '
+  - contentDescription: " "
     label: Blogs/Reference Links
     placeholder: Enter your any blog/reference links
     required: false
     type: text
     validation: VALID_LINK
-  - contentDescription: ' '
+  - contentDescription: " "
     label: Current CTC (Fixed + Variable)
     placeholder: Enter your current ctc p.a.
     required: true
     type: text
     validation: VALID_TEXT
   - actionName: Upload
-    contentDescription: ' '
+    contentDescription: " "
     label: Upload Resume
-    placeholder: 'Please upload ONLY SINGLE PAGE PDF. (Filename: Resume_Firstname Lastname)'
+    placeholder: "Please upload ONLY SINGLE PAGE PDF. (Filename: Resume_Firstname Lastname)"
     questions: []
     required: true
     type: file
     validation: VALID_FILE
-  - contentDescription: ' '
+  - contentDescription: " "
     label: If shortlisted, when can you take round 2? (Concept note round)
     options:
       - text: 5th January
@@ -189,7 +210,7 @@ formsElements:
     required: true
     type: select
     validation: VALID_OPTION
-  - contentDescription: ' '
+  - contentDescription: " "
     label: Where did you hear about Samagra?
     options:
       - text: Word of Mouth
@@ -203,11 +224,9 @@ formsElements:
       activateOn: Other
       label: Other
       placeholder: Other
-    placeholder: >-
-      Upload a PDF containing separate answers to the following two questions
-      (Filename: SOP_Firstname Lastname):
+    placeholder: "Upload a PDF containing separate answers to the following two
+      questions (Filename: SOP_Firstname Lastname):"
     required: true
     type: radio
     validation: VALID_OPTION
 ---
-

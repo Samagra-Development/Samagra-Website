@@ -2,14 +2,14 @@
 templateKey: case-study
 formType: This is new case study form
 show: false
-projectId: KRUSHI SAMRUDDHI HELPLINE
+projectId: KRUSHI SAMRUDDHI ADVISORY SYSTEM
 date: 2024-12-06T06:20:16.078Z
 sectionSequence: 1 2 3 4 5 6
 featuredimage: /img/ksh_banner_image.jpg
 buttonText: Learn More
-title: krushi-samruddhi-helpline
+title: krushi-samruddhi-advisory
 fontColor: "#568e43"
-bannerImage: /img/ksh_header.mp4
+bannerImage: /img/ksh_header_2.mp4
 showSideNavbar: false
 showsideIcon1: false
 sideIcon1Text: ""
@@ -26,6 +26,7 @@ title3: Extension is critical in improving productivity & farmers’ income.
 impactVideoLink: ""
 title4: With a extension worker to farmer ratio of 1:2500, there were several
   challenges in disseminating critical advisory timely
+motionGraphic1: /img/ksh_sec-1_animation.mp4
 title5: As a result, farmers of Odisha primarily faced four challenges
 infographic1:
   - img: /img/ksh_farmer.jpg
@@ -34,6 +35,7 @@ infographic1:
   - img: /img/ksh_card3.jpg
   - img: /img/ksh_card4.jpg
 title6: ""
+motionGraphic2: /img/ksh_sec-2_animation.mp4
 title7: ""
 icon1: /img/ksh_imp1.jpg
 impactNumber1: 69
@@ -85,9 +87,11 @@ showTestimonial: false
 testimonialText: ""
 testimonialAuthor: ""
 testimonialAuthorDesignation: ""
-footersubText1: ""
-footerText1: ""
-footerText2: ""
-successStoriesTitle: ""
-showSuccessStories: ""
+footersubText1: T﻿his work has been done under
+  [KONNECT](https://samagragovernance.in/project/konnect/) program with the
+  support of Government of Odisha and Bill & Melinda Gates Foundation.
+footerText1: Partner with us today!
+footerText2: "Write to us at: outreach@samagragovernance.in"
+successStoriesTitle: View more <i>Success Stories of Impact</i>
+showSuccessStories: "amritsarovar,ksk,nlapp "
 ---

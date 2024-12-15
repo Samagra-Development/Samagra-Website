@@ -1,7 +1,7 @@
 ---
 templateKey: careers-page
 title: Careers
-bannerImage: /img/career-header-bg.jpg
+bannerImage: /img/whatsapp-image-2024-12-11-at-1.49.09-pm.jpeg
 centerBanner:
   image: /img/diverse.jpg
 mainContent:
@@ -39,20 +39,21 @@ philosophy:
       skills required to be an effective governance professional
     image: /img/development.jpg
     title: Professional Development
+  title: People Philosophy
 slides:
   - image: /img/life-1.jpg
     text: We cowork with the government
-  - image: /img/life-2.png
+  - image: /img/whatsapp-image-2024-12-11-at-1.54.11-pm.jpeg
     text: We work out of government offices
-  - image: /img/life-3.jpg
+  - image: /img/whatsapp-image-2024-12-11-at-1.18.05-pm.jpeg
     text: We meet every month for Townhalls
-  - image: /img/life-4.jpeg
+  - image: /img/whatsapp-image-2024-12-11-at-1.18.04-pm.jpeg
     text: We have regular skill-building sessions
-  - image: /img/life-5.jpg
+  - image: /img/whatsapp-image-2024-12-11-at-1.18.03-pm.jpeg
     text: We are constantly learning from the best
-  - image: /img/life-6.jpg
+  - image: /img/whatsapp-image-2024-12-11-at-1.25.03-pm.jpeg
     text: We believe in collaboration
-  - image: /img/life-7.jpg
+  - image: /img/whatsapp-image-2024-12-11-at-1.18.05-pm-1-.jpeg
     text: We are a fun bunch
 roles:
   joinus:
@@ -101,13 +102,16 @@ roles:
         mentor 20-25 team members and nurture leaders within the organisation.
         They take proactive ownership of the organisational journey.
       title: Vice President & Senior Vice President
+  youtubeLink: https://www.youtube.com/embed/Y-iHVVfSHRg?si=J6kiwFLGZDmiNLtk
+  joinus:
+    joinUsLink: /joinus
+    show: true
   youtube1:
-     link: https://www.youtube.com/embed/tXBOtxGGwog
-     show : true
+    link: https://www.youtube.com/embed/tXBOtxGGwog
+    show: true
   youtube2:
-     link: https://www.youtube.com/embed/tXBOtxGGwog
-     show : false
-  title : Roles @ Samagra
+    link: https://www.youtube.com/embed/tXBOtxGGwog
+  title: Roles @ Samagra
 faq:
   - answer: We follow a common selection procedure for associate and consultant
       roles. If selected, you will be informed of your designation after your
@@ -124,35 +128,36 @@ faq:
   - answer: No. We have a common recruitment procedure for all projects. Projects
       are allotted after recruitment based on fit and openings.
     question: 3. Can I apply to a role for a specific project or state?
-  - answer: The in-person interviews will be conducted by the Samagra Leadership.
-      This includes case interviews and motivation and fit interviews.
-    question: 4. What is the format of the in-person interview?
+  - answer: >
+      The interviews will be conducted by the Samagra Leadership and include
+      case interview and motivation and fit interviews.
+    question: 4. What is the format of the interview process?
   - answer: In the case interview, you will be presented with a real governance
       scenario/problem from one of our projects that you will be asked to
       investigate and/or solve. You will be tested on your logical reasoning and
       problem-solving abilities and your communication skills.
     question: 5. What happens in the case interview? What competencies will I be
       tested on?
-  - answer: The entire recruitment process takes upto 4 weeks. In person interviews
-      are conducted at our Delhi office once a month. We attempt to ensure that
-      the time between the intimation of final interview results and the
-      in-person interview does not exceed 10 days.
+  - answer: The entire recruitment process takes up to 8 weeks. Most other
+      interviews will happen in a virtual mode. In person interviews may be
+      conducted at our Delhi office for those who stay in the NCR region.
     question: 6. How long does the selection process take?
   - answer: No, any expenses incurred by the candidate as a part of the process will
       be borne by the candidate himself/herself.
     question: 7. Will Samagra bear travel costs to Delhi for my in-person interview?
   - answer: Your compensation depends on multiple factors such as past experience,
       educational background, the role you are being considered for etc. We will
-      discuss this with each candidate before making the final offer. Our
-      compensation levels are roughly 70% of the compensation levels of
-      corporate firms.
+      discuss this with each candidate before making the final offer.
     question: 8. What is the compensation structure at Samagra?
-  - answer: We believe that learning on the job is the best way to train oneself for
-      a role. We have a detailed onboarding plan for all new joinees which
-      provides an in depth understanding about Samagra as an organization, its
-      various projects. The new joinee also receives ample mentorship from
-      his/her manager and the Samagra leadership.
-    question: 9. What kind of training will I be provided if I get selected?
+  - question: |
+      9. What kind of programs does the firm take up? 
+    answer: >
+      The firm is domain agnostic and takes up programs that satisfy the
+      following conditions: 
+
+      - Strong pull from government leadership
+
+      - Nebulous problem statement with potential of impact at scale
   - answer: Most teams comprise of 3-5 Associates and Consultants led by a Senior
       Manager/Manager and supervised by a Senior Vice President/Vice President.
     question: 10. What is a typical team structure for a Samagra programme?
@@ -170,4 +175,87 @@ faq:
       and bureaucratic leadership, with field visits as and when required.
     question: 12. How much time will I spend in office and on ground? How much
       travel can I expect?
+  - question: >
+      13. How do you prepare for the case interview- both manager as well as the
+      partner round? 
+    answer: >
+      Case interviews will involve a real life governance problem (can be from
+      one of our existing projects) to be solved. The real test here is of-
+      logical reasoning, problem-solving abilities and your communication
+      skills. Some best practices here can be- 
+
+
+
+      - If you have not done a case interview before, it is important to familiarize yourself with the basic format of case interviews 
+
+      - Resources like preplounge and Victor Cheng’s channel on YouTube provide basic information about approaching case interviews
+
+      - Try and understand the basics of opening a case, peeling layers of analysis and closing a case with the interviewer
+
+      - Practicing 2-3 business cases will help you understand this 
+
+      - Generally advisable to practice case solving in pairs with a friend or colleague
+
+      - Do not forget that this is mostly to learn approach and structure, you will have to apply this to a governance problem 
+  - question: |
+      14. How does the firm support new associates? 
+    answer: >+
+      The firm has a dedicated focus on well rounded professional development of
+      all team members: 
+
+
+      Immediately after joining: 
+
+
+      - Week long orientation plan: Detailed plan for all new joinees which provides an in-depth understanding about Samagra as an organization as well as its various projects. 
+
+
+      - Joining an engagement: While entering a pre-existing project, associates are given a detailed handover of their work streams lasting anywhere between 1-2 weeks.
+
+
+      Ongoing:
+
+
+      - Professional development framework: Pre-defined framework of competencies relevant for becoming better governance consultants. Regular catch ups with managers/ program owners to work upon these competencies with ample opportunities created to do the same. There are Gurukuls, Leadership sessions conducted regularly for upskilling.
+
+
+      - Leveraging the team: There’s a strong culture of leveraging and relying upon one's team to seek inputs and collectively problem solve for the best strategies. 
+
+  - question: "15. What does a work day in the life of a Samagra Associate look like? "
+    answer: >
+      Depending upon the stage the engagement is in, the day could look a little
+      different, however a typical day will have a combination of the following
+      activities: 
+
+
+      - Internal team meeting: beginning/ end of the week for weekly planning to set the course of work for the week 
+
+
+      - Reaching the Govt. department: teams are expected to work out of the department to engage with the government stakeholders 
+
+
+      - Stakeholder meetings with junior/ senior govt stakeholders: Important touch points to seek information from them, align them on solution and strategies, seek feedback on created design etc
+       
+      - Creating outputs: Depending upon the work scoped out for the week, creating relevant outputs that could range from presentations, excel sheets, infographics etc.
+       
+      - Partner calls: Often on workstreams, work is conducted with multiple technical partners or experts, calls and discussions with them to better inform strategy also forms a core part of the day 
+
+
+      - Team problem solving to support each other in coming up with solutions
+
+
+      - Travel to the field (twice a month) to gather feedback around existing solutions, conduct diagnosis for a new workstream 
+  - question: "16. What does growth at Samagra look like for an associate? "
+    answer: >-
+      - Growth trajectory at the firm - Associate > Senior Associate >
+      Consultant > Senior Consultant > Manager > Senior Manager > Vice President
+
+
+      - People enter in the firm at different levels basis relevant work experience
+
+
+      - Promotion: A function of performance and readiness for the next designation
+
+
+      - 2 promotion cycles in the firm in a year- March and September
 ---

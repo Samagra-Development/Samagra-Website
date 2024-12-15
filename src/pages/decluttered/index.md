@@ -22,7 +22,12 @@ postCategories:
   - category: Policy
   - category: Judiciary
   - category: DPG
+  - category: India as a Welfare State
 postData:
+  - postCard:
+      postImage: /img/cropped-image-5-.png
+      urlLink: https://www.instagram.com/reel/DDehAeptA43/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+      selectedCategory: India as a Welfare State
   - postCard:
       urlLink: https://www.instagram.com/reel/DCWdwGAymhv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
       selectedCategory: DPG
