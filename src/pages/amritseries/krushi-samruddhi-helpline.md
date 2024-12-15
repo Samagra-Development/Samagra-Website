@@ -5,9 +5,9 @@ show: false
 projectId: KRUSHI SAMRUDDHI ADVISORY SYSTEM
 date: 2024-12-06T06:20:16.078Z
 sectionSequence: 1 2 3 4 5 6
-featuredimage: /img/ksh_banner_image.jpg
+featuredimage: /img/0_img-20210309-wa0040-1-.jpg
 buttonText: Learn More
-title: krushi-samruddhi-advisory
+title: krushi-samruddhi-helpline
 fontColor: "#568e43"
 bannerImage: /img/ksh_header_2.mp4
 showSideNavbar: false
