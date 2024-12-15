@@ -2,11 +2,45 @@
 templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
-infoText2: " "
-formAcceptance: We are no longer accepting applications, follow us on
-  &nbsp;         <a           target={"_blank"}           href="https://www.linkedin.com/company/samagra-transforming-governance/mycompany/"         >           LinkedIn         </a>         to
-  be updated of new roles when we announce them
-showForm: true
+infoText2: ' '
+postSubInfo:
+   heading: Thank you
+   line1text: About Samagra video
+   line2text: How to prepare for Samagra Interviews
+   line3text: Life at Samagra Video
+   line4text: About Samagra Brochure
+   line1link: https://www.youtube.com/watch?v=Y-iHVVfSHRg&ab_channel=Samagra-TransformingGovernance
+   line2link: https://drive.google.com/drive/folders/1cOYspNY75hwJu-m_lEfM9t27qXaiSlHH
+   line3link: https://drive.google.com/file/d/1e7b_6l7H_mt1hOkWsIZPpumHk8ksRFr-/view?usp=sharing
+   line4link: https://heyzine.com/flip-book/041fd974bf.html
+   subHeading: 'While we evaluate your application, you should go through the following links for increasing your chances in the stages ahead:'
+   subHeading2:  In case you'd like to get regular updates on our work, please
+                follow us on 
+                <a
+                  target={"_blank"}
+                  href="https://www.linkedin.com/company/samagra-transforming-governance/"
+                >
+                  LinkedIn
+                </a> 
+                and
+                <a
+                  target={"_blank"}
+                  href="https://www.facebook.com/SamagraGovernance"
+                >
+                  Facebook
+                </a>.
+   videoTitle: Learn more about Samagra
+   youtubeLink: https://www.youtube.com/embed/videoseries?list=PLqeXOsUG-6BtvH-0GgwRGX9Z2uO89l-nB
+formAcceptance: We are no longer accepting applications, follow us on &nbsp;
+        <a
+          target={"_blank"}
+          href="https://www.linkedin.com/company/samagra-transforming-governance/mycompany/"
+        >
+          LinkedIn
+        </a>
+        to be updated of new roles when we announce them
+showForm : true
+
 verticalImage: /img/recruitment-diagram_jan22_v1.jpg
 horizontalImage: /img/whatsapp-image-2022-01-19-at-5.53.08-pm.jpeg
 followLinkedin: /img/follow-linkedin.jpg

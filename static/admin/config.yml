@@ -1995,11 +1995,24 @@ collections:
               fields: [{ label: "Text", name: text, widget: string }],
             }
           - {
+              label: "Main Text 2",
+              name: mainContent2,
+              widget: object,
+              fields: [{ label: "Title", name: title, widget: string },{ label: "Text", name: text, widget: string }],
+            }
+          - {
+              label: "Apply",
+              name: apply,
+              widget: object,
+              fields: [{ label: Apply Link, name: applyLink, widget: string },{ label: "Show", name: show, widget: boolean }],
+            }
+          - {
               label: "Philosophy",
               name: philosophy,
               widget: object,
               fields:
                 [
+                  { label: Title, name: title, widget: string }, 
                   {
                     label: "Section One",
                     name: sectionOne,
@@ -2062,7 +2075,11 @@ collections:
               widget: object,
               fields:
                 [
-                  { label: Youtube Link, name: youtubeLink, widget: string },
+                  { label: Title, name: title, widget: string },
+                  { label: Youtube Video, name: youtube1, widget: object,
+                    fields: [{ label: Link, name: link, widget: string,required: false  },{ label: "Show", name: show, widget: boolean ,default : false ,required: false }] },
+                  { label: Youtube video 2, name: youtube2, widget: object,
+                    fields: [{ label: Link, name: link, widget: string , required: false  },{ label: "Show", name: show, widget: boolean, default : false, required: false  }] },
                   {
                     label: Responsibilities,
                     name: items,
@@ -2073,6 +2090,12 @@ collections:
                         { label: Description, name: description, widget: text },
                       ],
                   },
+                  {
+              label: "Join us",
+              name: joinus, 
+              widget: object,
+              fields: [{ label: Join us Link, name: joinUsLink, widget: string },{ label: "Show", name: show, widget: boolean }],
+            }
                 ],
             }
           - {
@@ -2330,10 +2353,18 @@ collections:
             }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Info Text 1", name: infoText1, widget: "string" }
-          - { label: "Info Text 2", name: infoText2, widget: "string" }
+          - { label: "Info Text 2", name: infoText2, widget: "string", required: false }
+          - { label: "Form Acceptance", name: formAcceptance, widget: "string",required: false }
+          - { label: "Show form", name: showForm, widget: "boolean", default: true}
           - { label: "Vertical Image", name: verticalImage, widget: image }
           - { label: "Horizontal Image", name: horizontalImage, widget: image }
           - { label: "Follow Linkedin", name: followLinkedin, widget: image }
+          - {
+              label: "After submission info",
+              name: postSubInfo, 
+              widget: object,
+              fields: [{ label: Headimg, name: heading, widget: string },{ label: Line 1 text, name: line1text, widget: string },{ label: Line 1 link, name: line1link, widget: string },{ label: Line 2 text, name: line2text, widget: string },{ label: Line 2 link, name: line2link, widget: string },{ label: Line 3 text, name: line3text, widget: string },{ label: Line 3 link, name: line3link, widget: string },{ label: Line 4 text, name: line4text, widget: string },{ label: Line 4 link, name: line4link, widget: string },{ label: Sub Heading, name: subHeading, widget: string }, { label: Sub Heading 2, name: subHeading2, widget: string },{ label: Video Title, name: videoTitle, widget: string },{ label: Youtube Link, name: youtubeLink, widget: string },{ label: "Show", name: show, widget: boolean }],
+            }
           - {
               label: "Form Fields",
               name: formsElements,
