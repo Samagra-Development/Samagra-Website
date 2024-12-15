@@ -120,8 +120,14 @@ export const mediaPageQuery = graphql`
         }
         roles {
             title
-            youtubeLink
-            youtubeLink2
+            youtube1 {
+            link
+            show
+            }
+            youtube2 {
+            link
+            show
+            }
             joinus {
                joinUsLink
                show

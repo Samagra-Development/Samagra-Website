@@ -41,24 +41,25 @@ const CareerSectionFifth = ({ content }) => {
         <div className="container mx-auto">
           <div className="row">
             <div className="col-md-6 col-sm-12 text-center">
-              <iframe
+             {content.roles.youtube1.show &&   <iframe
                 width="100%"
                 object-fit="cover"
                 height={mobile?"220px":"320px"}
-                src={content.roles.youtubeLink}
+                src={content.roles.youtube1.link}
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-              ></iframe>
-               <iframe
+              ></iframe>}
+              {content.roles.youtube2.show && <iframe
                 width="100%"
                 object-fit="cover"
                 height={mobile?"220px":"320px"}
-                src={content.roles.youtubeLink2}
+                src={content.roles.youtube2.link}
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-              ></iframe>
+              ></iframe>} 
+               
             </div>
             {/* <div className="col-md-6 col-sm-12 text-center">
              

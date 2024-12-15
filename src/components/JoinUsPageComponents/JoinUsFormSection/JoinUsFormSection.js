@@ -17,7 +17,8 @@ export const JoinUsFormSection = ({
   infoText1,
   infoText2,
   formAcceptance,
-  ShowForm
+  ShowForm,
+  postSubInfo
 }) => {
   // const reachingOptions = [];
   const formDataRef = useRef(null) // Ref to store FormData object
@@ -194,7 +195,7 @@ export const JoinUsFormSection = ({
 
   // File validation: type and size
   const isPDF = file.type === "application/pdf";
-  const isWithinSizeLimit = file.size <= 1 * 1024 * 1024; // 1 MB limit.
+  const isWithinSizeLimit = file.size <= 3 * 1024 * 1024; // 1 MB limit.
 
   formObject[element.fileErrorKey] = !(isPDF && isWithinSizeLimit); // Update error state.
 
@@ -400,7 +401,7 @@ export const JoinUsFormSection = ({
                     formObject[element.fileErrorKey] ? "invalid-size" : ""
                   }`}
                 >
-                  (pdf only, max size 1mb){" "}
+                  (pdf only, max size 3mb){" "}
                 </span>
                 <span className={"required-mark"}>*</span>
               </label>
@@ -711,18 +712,20 @@ export const JoinUsFormSection = ({
                 fontWeight: "600",
                 color: "#444444",
               }}
+              dangerouslySetInnerHTML={{__html: infoText2}}
             >
-              {" "}
-              {infoText2}
+              
             </p>
           </div>
         ) : null}
       </div>
-
-      <div className="follow-linkedin f-18" style={{ padding: "16px 0" }} dangerouslySetInnerHTML={{__html: formAcceptance}}>
+{formAcceptance && <div className="follow-linkedin f-18" style={{ padding: "16px 0" }} dangerouslySetInnerHTML={{__html: formAcceptance}}> 
+  
+  </div>}
+      
         
         
-      </div>
+      
       <div 
        style={{display:`${ShowForm?"block":"none"}`}}
        className={"join-us-form"}>
@@ -866,7 +869,7 @@ export const JoinUsFormSection = ({
                   alignItems: "center",
                 }}
               >
-                <span
+                {/* <span
                   style={{
                     color: "red",
                     fontWeight: "600",
@@ -874,14 +877,14 @@ export const JoinUsFormSection = ({
                   }}
                 >
                   *
-                </span>
+                </span> */}
                 <p
                   style={{
                     color: "white",
                     fontWeight: "600",
                     margin: "16px 0",
                   }}
-                >
+                >  
                   Please note - The designation offered would be determined
                   based on your profile and the interviews going forward.
                 </p>
@@ -1000,10 +1003,9 @@ export const JoinUsFormSection = ({
             </div>
           ) : (
             <div className={"thank-you-message"}>
-              Thank you
+              {postSubInfo.heading}
               <div className="sub-title">
-                While we evaluate your application, you should go through the
-                following links for increasing your chances in the stages ahead:
+              {postSubInfo.subHeading}
               </div>
               <ol
                 style={{
@@ -1014,48 +1016,33 @@ export const JoinUsFormSection = ({
                 }}
               >
                 <li>
-                  <a href="https://www.youtube.com/watch?v=Y-iHVVfSHRg&ab_channel=Samagra-TransformingGovernance">
-                    About Samagra video
+                  <a href= {`${postSubInfo.line1link}`}>
+                  {postSubInfo.line1text}
                   </a>
                 </li>
                 <li>
-                  <a href="https://drive.google.com/drive/folders/1cOYspNY75hwJu-m_lEfM9t27qXaiSlHH">
-                    How to prepare for Samagra Interviews
+                  <a href= {`${postSubInfo.line2link}`}>
+                  {postSubInfo.line2text}
                   </a>
                 </li>
                 <li>
-                  <a href="https://drive.google.com/file/d/1e7b_6l7H_mt1hOkWsIZPpumHk8ksRFr-/view?usp=sharing">
-                    Life at Samagra Video
+                  <a href=  {`${postSubInfo.line3link}`}>
+                  {postSubInfo.line3text}
                   </a>
                 </li>
                 <li>
-                  <a href="https://heyzine.com/flip-book/041fd974bf.html">
-                    About Samagra Brochure
+                  <a href= {`${postSubInfo.line4link}`}>
+                  {postSubInfo.line4text}
                   </a>
                 </li>
               </ol>
-              <div className="sub-title">
-                In case you'd like to get regular updates on our work, please
-                follow us on{" "}
-                <a
-                  target={"_blank"}
-                  href="https://www.linkedin.com/company/samagra-transforming-governance/"
-                >
-                  LinkedIn
-                </a>{" "}
-                and{" "}
-                <a
-                  target={"_blank"}
-                  href="https://www.facebook.com/SamagraGovernance"
-                >
-                  Facebook
-                </a>
-                .
+              <div className="sub-title" dangerouslySetInnerHTML={{__html:postSubInfo.subHeading2}}>
+             
               </div>
               <div className={"video"}>
-                <div className="title">Learn more about Samagra</div>
+                <div className="title">{postSubInfo.videoTitle}</div>
                 <iframe
-                  src="https://www.youtube.com/embed/videoseries?list=PLqeXOsUG-6BtvH-0GgwRGX9Z2uO89l-nB"
+                  src={`${postSubInfo.youtubeLink}`}
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen

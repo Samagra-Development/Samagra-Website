@@ -101,8 +101,12 @@ roles:
         mentor 20-25 team members and nurture leaders within the organisation.
         They take proactive ownership of the organisational journey.
       title: Vice President & Senior Vice President
-  youtubeLink: https://www.youtube.com/embed/tXBOtxGGwog
-  youtubeLink2: https://www.youtube.com/embed/tXBOtxGGwog
+  youtube1:
+     link: https://www.youtube.com/embed/tXBOtxGGwog
+     show : true
+  youtube2:
+     link: https://www.youtube.com/embed/tXBOtxGGwog
+     show : false
   title : Roles @ Samagra
 faq:
   - answer: We follow a common selection procedure for associate and consultant
