@@ -39,7 +39,6 @@ philosophy:
       skills required to be an effective governance professional
     image: /img/development.jpg
     title: Professional Development
-  title: People Philosophy
 slides:
   - image: /img/life-1.jpg
     text: We cowork with the government
