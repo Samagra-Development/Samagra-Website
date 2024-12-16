@@ -177,12 +177,9 @@ formsElements:
     required: false
     type: text
     validation: VALID_LINK
-  - contentDescription: " "
-    label: >-
-      Please select your availability for Round 2, if shortlisted. 
-
-
-      (T﻿his includes an online Concept Note Submission + Organizational Fit MCQ Test.)
+  - contentDescription: T﻿his includes an online Concept Note Submission +
+      Organizational Fit MCQ Test.
+    label: Please select your availability for Round 2, if shortlisted
     options:
       - text: 11th Jan' 25 (7:00 PM - 10:00 PM)
       - text: 12th Jan' 25 (7:00 PM - 10:00 PM)
@@ -192,10 +189,7 @@ formsElements:
     type: select
     validation: VALID_OPTION
   - required: true
-    label: |-
-      Please select your availability for Round 3, if shortlisted
-
-      (This is a 60 min 1:1 Online Governance Case Interview)
+    label: Please select your availability for Round 3, if shortlisted
     type: select
     validation: VALID_OPTION
     placeholder: S﻿elect option
@@ -205,6 +199,7 @@ formsElements:
       - text: 25th Jan' 25
       - text: 27th Jan' 25
       - text: Available on both days
+    contentDescription: (This is a 60 min 1:1 Online Governance Case Interview)
   - contentDescription: " "
     label: Where did you hear about Samagra?
     options:
