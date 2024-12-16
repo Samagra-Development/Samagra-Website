@@ -19,17 +19,19 @@ postSubInfo:
   heading: Thank you
   subHeading: "While we evaluate your application, you should go through the
     following links for increasing your chances in the stages ahead:"
-  line1text: About Samagra video
-  line2text: How to prepare for Samagra Interviews
-  line3text: Life at Samagra Video
-  line4text: About Samagra Brochure
-  subHeading2: In case you'd like to get regular updates on our work,
+  line1text: Samagra Video
+  line2text: Samagra Masterclass
+  line3text: Amrit Series | Success Stories of Impact
+  line4text: Governance Consulting Case Booklet
+  subHeading2: "In case you'd like to get regular updates on our work,
     please                 follow us
-    on                  <a                   target={"_blank"}                   href="https://www.linkedin.com/company/samagra-transforming-governance/"                 >                   LinkedIn                 </a>                  and                 <a                   target={"_blank"}                   href="https://www.facebook.com/SamagraGovernance"                 >                   Facebook                 </a>.
-  line1link: https://www.youtube.com/watch?v=Y-iHVVfSHRg&ab_channel=Samagra-TransformingGovernance
-  line2link: https://drive.google.com/drive/folders/1cOYspNY75hwJu-m_lEfM9t27qXaiSlHH
-  line3link: https://drive.google.com/file/d/1e7b_6l7H_mt1hOkWsIZPpumHk8ksRFr-/view?usp=sharing
-  line4link: https://heyzine.com/flip-book/041fd974bf.html
+    on                  <a                   target={\"_blank\"}                   \
+    href=\"https://www.linkedin.com/company/samagra-transforming-governance/\"                 \
+    >                   LinkedIn                 </a>   "
+  line1link: https://www.youtube.com/watch?v=8vYy8lJAfeg
+  line2link: https://www.youtube.com/watch?v=Y-iHVVfSHRg&t=325s
+  line3link: https://samagragovernance.in/amritseries
+  line4link: https://drive.google.com/file/d/1hZT30cY45bStl9DzgjQTyEmGr2kCNnWg/view
   youtubeLink: "
     https://www.youtube.com/embed/videoseries?list=PLqeXOsUG-6BtvH-0GgwRGX9Z2uO\
     89l-nB"
