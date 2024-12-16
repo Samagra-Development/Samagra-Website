@@ -220,8 +220,7 @@ formsElements:
   - actionName: Upload
     contentDescription: " "
     label: Upload Resume
-    placeholder: "Please upload ONLY **ONE PAGE** PDF. (Filename: Resume_Firstname
-      Lastname)"
+    placeholder: "Please upload ONLY ONE PAGE PDF. (Filename: Resume_Firstname Lastname)"
     questions: []
     required: true
     type: file
