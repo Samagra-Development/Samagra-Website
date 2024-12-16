@@ -7,8 +7,8 @@ infoText2: "Disclaimer: If you are shortlisted, our team will contact you via
   feedback on profiles or interview rounds. Rejection emails will be sent in
   February, after the entire process is completed."
 formAcceptance: Click here to download the  <a target={"_blank"}
-  href="https://drive.google.com/file/d/1n4tda-bo_mHYuvvTM-ga4hXYhxN-hYTp/view"
-  > Job Description </a> <p> Register <a target={"_blank"}
+  href="https://bit.ly/JD_OpenDrive" > Job Description </a> <p> Register <a
+  target={"_blank"}
   href="https://us06web.zoom.us/meeting/register/tZ0rduChrTovGdXbdXEqiK3DuIAtQBBUdoqv#/registration"
   > here </a> for the AMA session on December 23, 2024 at 8:00 PM
 showForm: false
