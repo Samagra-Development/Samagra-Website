@@ -1,7 +1,7 @@
 ---
 templateKey: careers-page
 title: Careers
-bannerImage: /img/whatsapp-image-2024-12-11-at-1.49.09-pm.jpeg
+bannerImage: /img/whatsapp-image-2024-12-16-at-11.38.06-am.jpeg
 centerBanner:
   image: /img/diverse.jpg
 mainContent:
@@ -12,11 +12,19 @@ mainContent:
       its consultants a steep professional learning curve and an opportunity to
       create real impact on the ground.
 mainContent2:
-    title: Graduate Study Support Program
-    text: Samagra is committed to the personal and professional growth of its team members. To this end, Samagra supports team members who want to pursue higher education and continue their professional journey with the firm. All Samagra team members who have spent at least a year in the firm and meet a pre-defined performance criteria are eligible for financial support to pursue a graduate level study program. This includes, but is not limited to MBA, MPA, MPP, MS, MA degrees across disciplines. Team members receive monthly financial support for the complete duration of their study program and return to Samagra post its completion.
+  title: Graduate Study Support Program
+  text: Samagra is committed to the personal and professional growth of its team
+    members. To this end, Samagra supports team members who want to pursue
+    higher education and continue their professional journey with the firm. All
+    Samagra team members who have spent at least a year in the firm and meet a
+    pre-defined performance criteria are eligible for financial support to
+    pursue a graduate level study program. This includes, but is not limited to
+    MBA, MPA, MPP, MS, MA degrees across disciplines. Team members receive
+    monthly financial support for the complete duration of their study program
+    and return to Samagra post its completion.
 apply:
-  applyLink : /joinus
-  show : true
+  applyLink: /joinus
+  show: true
 philosophy:
   title: People Philosophy
   sectionFour:
@@ -42,9 +50,9 @@ philosophy:
 slides:
   - image: /img/life-1.jpg
     text: We cowork with the government
-  - image: /img/whatsapp-image-2024-12-11-at-1.54.11-pm.jpeg
+  - image: /img/whatsapp-image-2024-12-11-at-1.54.11-pm-1-.jpeg
     text: We work out of government offices
-  - image: /img/whatsapp-image-2024-12-11-at-1.18.05-pm.jpeg
+  - image: /img/townhall-1-.jpg
     text: We meet every month for Townhalls
   - image: /img/whatsapp-image-2024-12-11-at-1.18.04-pm.jpeg
     text: We have regular skill-building sessions
@@ -52,12 +60,12 @@ slides:
     text: We are constantly learning from the best
   - image: /img/whatsapp-image-2024-12-11-at-1.25.03-pm.jpeg
     text: We believe in collaboration
-  - image: /img/whatsapp-image-2024-12-11-at-1.18.05-pm-1-.jpeg
+  - image: /img/whatsapp-image-2024-12-16-at-12.29.49-pm.jpeg
     text: We are a fun bunch
 roles:
   joinus:
-    joinUsLink : /joinus
-    show : true
+    joinUsLink: /joinus
+    show: true
   items:
     - description: Associates and Senior Associates take ownership of 3-5 workstreams
         (mini projects within a large program) and manage them end-to-end. They
@@ -102,12 +110,12 @@ roles:
         They take proactive ownership of the organisational journey.
       title: Vice President & Senior Vice President
   youtube1:
-     link: https://www.youtube.com/embed/Y-iHVVfSHRg?si=J6kiwFLGZDmiNLtk
-     show : true
+    link: https://www.youtube.com/embed/Y-iHVVfSHRg?si=J6kiwFLGZDmiNLtk
+    show: true
   youtube2:
-     link: https://www.youtube.com/embed/Y-iHVVfSHRg?si=J6kiwFLGZDmiNLtk
-     show : false
-  title : Roles @ Samagra
+    link: https://www.youtube.com/embed/Y-iHVVfSHRg?si=J6kiwFLGZDmiNLtk
+    show: false
+  title: Roles @ Samagra
 faq:
   - answer: We follow a common selection procedure for associate and consultant
       roles. If selected, you will be informed of your designation after your
@@ -121,7 +129,7 @@ faq:
       communication skills.
     question: 2. Is there an ideal profile? Is prior experience in consulting or the
       development sector mandatory?
-  - answer: No. We have a common recruitment procedure for all projects. Projects
+  - answer: No. We have a common recruitment procedure for all programs. Programs
       are allotted after recruitment based on fit and openings.
     question: 3. Can I apply to a role for a specific project or state?
   - answer: >
@@ -148,110 +156,79 @@ faq:
   - question: |
       9. What kind of programs does the firm take up? 
     answer: >
-      The firm is domain agnostic and takes up programs that satisfy the
-      following conditions: 
-
-      - Strong pull from government leadership
-
-      - Nebulous problem statement with potential of impact at scale
+      The firm is domain-agnostic, taking up programs with strong pull from
+      government leadership and nebulous problem statements that offer potential
+      for impact at scale.
   - answer: Most teams comprise of 3-5 Associates and Consultants led by a Senior
       Manager/Manager and supervised by a Senior Vice President/Vice President.
-    question: 10. What is a typical team structure for a Samagra programme?
-  - answer: An individual is typically staffed on a programme for 9-12 months. Team
+    question: 10. What is a typical team structure for a Samagra program?
+  - answer: An individual is typically staffed on a program for 9-12 months. Team
       members are then staffed on different projects to enable diverse
       experiences and variety of work across domains.
-    question: 11. How long do consultants typically stay on a programme?
-  - answer: Delhi is the base location for all programmes. Through the week, teams
-      are stationed at the client location with frequent travel to Delhi for
-      review meetings and problem solving sessions. The time spent on ground
-      varies based on the engagement lifecycle. During the diagnosis phase, the
-      team spends a lot of time on ground to gain a bottom up understanding of
-      the problem statement and understand ground situation. In more mature
-      stages of the programme, teams work at the state office to align political
-      and bureaucratic leadership, with field visits as and when required.
+    question: 11. How long do consultants typically stay on a program?
+  - answer: Delhi is the base location for all programs. Through the week, teams are
+      stationed at the client location with frequent travel to Delhi for review
+      meetings and problem solving sessions. The time spent on ground varies
+      based on the engagement lifecycle. During the diagnosis phase, the team
+      spends a lot of time on ground to gain a bottom up understanding of the
+      problem statement and understand ground situation. In more mature stages
+      of the program, teams work at the state office to align political and
+      bureaucratic leadership, with field visits as and when required.
     question: 12. How much time will I spend in office and on ground? How much
       travel can I expect?
   - question: >
       13. How do you prepare for the case interview- both manager as well as the
       partner round? 
-    answer: >
-      Case interviews will involve a real life governance problem (can be from
-      one of our existing projects) to be solved. The real test here is of-
-      logical reasoning, problem-solving abilities and your communication
-      skills. Some best practices here can be- 
-
-
-
-      - If you have not done a case interview before, it is important to familiarize yourself with the basic format of case interviews 
-
-      - Resources like preplounge and Victor Cheng’s channel on YouTube provide basic information about approaching case interviews
-
-      - Try and understand the basics of opening a case, peeling layers of analysis and closing a case with the interviewer
-
-      - Practicing 2-3 business cases will help you understand this 
-
-      - Generally advisable to practice case solving in pairs with a friend or colleague
-
-      - Do not forget that this is mostly to learn approach and structure, you will have to apply this to a governance problem 
+    answer: Case interviews involve solving a real-life governance problem, often
+      drawn from one of our existing projects. These interviews primarily test
+      your logical reasoning, problem-solving abilities, and communication
+      skills. To prepare effectively, familiarize yourself with the basic format
+      of case interviews if you haven’t done one before. Resources like
+      PrepLounge and Victor Cheng’s YouTube channel provide valuable insights
+      into approaching case interviews. Focus on understanding the key
+      steps—opening a case, peeling back layers of analysis, and closing it
+      effectively with the interviewer. Practicing 2-3 business cases will help
+      you grasp the structure and flow of the process. It is generally advisable
+      to practice solving cases in pairs with a friend or colleague for better
+      feedback and improvement. Remember, the goal is to learn the approach and
+      structure, which you will then need to adapt and apply to
+      governance-specific problems.
   - question: |
       14. How does the firm support new associates? 
-    answer: >+
-      The firm has a dedicated focus on well rounded professional development of
-      all team members: 
-
-
-      Immediately after joining: 
-
-
-      - Week long orientation plan: Detailed plan for all new joinees which provides an in-depth understanding about Samagra as an organization as well as its various projects. 
-
-
-      - Joining an engagement: While entering a pre-existing project, associates are given a detailed handover of their work streams lasting anywhere between 1-2 weeks.
-
-
-      Ongoing:
-
-
-      - Professional development framework: Pre-defined framework of competencies relevant for becoming better governance consultants. Regular catch ups with managers/ program owners to work upon these competencies with ample opportunities created to do the same. There are Gurukuls, Leadership sessions conducted regularly for upskilling.
-
-
-      - Leveraging the team: There’s a strong culture of leveraging and relying upon one's team to seek inputs and collectively problem solve for the best strategies. 
-
-  - question: "15. What does a work day in the life of a Samagra Associate look like? "
     answer: >
-      Depending upon the stage the engagement is in, the day could look a little
-      different, however a typical day will have a combination of the following
-      activities: 
-
-
-      - Internal team meeting: beginning/ end of the week for weekly planning to set the course of work for the week 
-
-
-      - Reaching the Govt. department: teams are expected to work out of the department to engage with the government stakeholders 
-
-
-      - Stakeholder meetings with junior/ senior govt stakeholders: Important touch points to seek information from them, align them on solution and strategies, seek feedback on created design etc
-       
-      - Creating outputs: Depending upon the work scoped out for the week, creating relevant outputs that could range from presentations, excel sheets, infographics etc.
-       
-      - Partner calls: Often on workstreams, work is conducted with multiple technical partners or experts, calls and discussions with them to better inform strategy also forms a core part of the day 
-
-
-      - Team problem solving to support each other in coming up with solutions
-
-
-      - Travel to the field (twice a month) to gather feedback around existing solutions, conduct diagnosis for a new workstream 
+      The firm places a strong emphasis on the well-rounded professional
+      development of all team members. Upon joining, new associates undergo a
+      week-long orientation program designed to provide an in-depth
+      understanding of Samagra as an organization and its various projects.
+      Then, on joining an engagement, a detailed handover of work streams,
+      lasting 1-2 weeks, ensures a smooth transition. Professional development
+      is sustained through a well-defined competency framework tailored to help
+      team members grow as governance consultants. Regular catch-ups with
+      managers and program owners, along with initiatives like Gurukuls and
+      leadership sessions, provide ample opportunities for upskilling.
+      Additionally, the firm fosters a collaborative culture where team members
+      actively seek inputs from one another to collectively problem-solve and
+      develop effective strategies.
+  - question: "15. What does a work day in the life of a Samagra Associate look like? "
+    answer: A typical day at Samagra varies depending on the stage of the engagement
+      but usually includes a combination of key activities. The day often begins
+      or ends with an internal team meeting to plan and set the course of work
+      for the week. Teams work out of government departments to engage directly
+      with stakeholders, holding meetings with junior or senior officials to
+      gather information, align on solutions and strategies, and seek feedback
+      on designs. Core tasks involve creating outputs such as presentations,
+      Excel models, or infographics, tailored to the week’s priorities. Partner
+      calls with technical experts or collaborators are common to refine
+      strategies. Additionally, team problem-solving sessions are integral to
+      developing effective solutions. Twice a month, teams travel to the field
+      to gather feedback on implemented solutions or conduct diagnostic studies
+      for new workstreams, ensuring interventions remain grounded and impactful.
   - question: "16. What does growth at Samagra look like for an associate? "
-    answer: >-
-      - Growth trajectory at the firm - Associate > Senior Associate >
-      Consultant > Senior Consultant > Manager > Senior Manager > Vice President
-
-
-      - People enter in the firm at different levels basis relevant work experience
-
-
-      - Promotion: A function of performance and readiness for the next designation
-
-
-      - 2 promotion cycles in the firm in a year- March and September
+    answer: "Growth at Samagra is structured along a clear trajectory: Associate >
+      Senior Associate > Consultant > Senior Consultant > Manager > Senior
+      Manager > Vice President. Entry levels within the firm vary based on an
+      individual’s relevant work experience. Promotions are merit-based and
+      depend on both performance and readiness for the next role. With two
+      promotion cycles held annually, in March and September, team members have
+      regular opportunities to advance in their careers."
 ---
