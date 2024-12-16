@@ -12,8 +12,8 @@ formAcceptance: Click here to download the  <a target={"_blank"}
   href="https://us06web.zoom.us/meeting/register/tZ0rduChrTovGdXbdXEqiK3DuIAtQBBUdoqv#/registration"
   > here </a> for the AMA session on December 23, 2024 at 8:00 PM
 showForm: true
-verticalImage: /img/website-graphic.png
-horizontalImage: /img/website-graphic.png
+verticalImage: /img/header_page-0001.jpg
+horizontalImage: /img/header_page-0001.jpg
 followLinkedin: /img/follow-linkedin.jpg
 postSubInfo:
   heading: Thank you
