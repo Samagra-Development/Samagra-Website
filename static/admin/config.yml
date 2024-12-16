@@ -2092,7 +2092,7 @@ collections:
                   },
                   {
               label: "Join us",
-              name: joinus, 
+              name: joinus,
               widget: object,
               fields: [{ label: Join us Link, name: joinUsLink, widget: string },{ label: "Show", name: show, widget: boolean }],
             }
@@ -2382,6 +2382,12 @@ collections:
                     label: "Content Description",
                     required: false,
                     name: "contentDescription",
+                    widget: "string",
+                  },
+                  {
+                    label: "Hint",
+                    required: false,
+                    name: "hint",
                     widget: "string",
                   },
                   {

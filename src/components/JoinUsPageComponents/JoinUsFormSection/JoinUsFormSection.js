@@ -281,6 +281,8 @@ export const JoinUsFormSection = ({
                   (excluding internships and fellowships)
                 </span>
               )}
+              {element.hint &&<span className={"hint"}>{element.hint}</span>}
+              
             </fieldset>
           </div>
         );
