@@ -3,7 +3,7 @@ backend:
   branch: master
   publish_mode: editorial_workflow
 
-# local_backend: true
+local_backend: true
 
 editorial_workflow:
   enable: true
