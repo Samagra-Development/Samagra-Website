@@ -2,8 +2,8 @@
 templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
-infoText2: "Disclaimer:  <p> If you are shortlisted, our team will contact you
-  via email and/or phone. Please note, we will not be able to provide individual
+infoText2: "Disclaimer: If you are shortlisted, our team will contact you via
+  email and/or phone. Please note, we will not be able to provide individual
   feedback on profiles or interview rounds. Rejection emails will be sent in
   February, after the entire process is completed."
 formAcceptance: Click here to download the  <a target={"_blank"}
@@ -162,8 +162,8 @@ formsElements:
     required: true
     type: text
     validation: VALID_TEXT
-  - contentDescription: Possibility of early exit from current organisation
-    label: Possibility of early exit from current organisation
+  - contentDescription: Possibility of early exit from current org
+    label: Possibility of early exit from current org
     options:
       - text: Yes
       - text: No
@@ -177,40 +177,12 @@ formsElements:
     required: false
     type: text
     validation: VALID_LINK
-  - actionName: Upload
-    contentDescription: " "
-    label: Upload Resume
-    placeholder: "Please upload ONLY **ONE PAGE** PDF. (Filename: Resume_Firstname
-      Lastname)"
-    questions: []
-    required: true
-    type: file
-    validation: VALID_FILE
-  - required: true
-    label: >-
-      90 Second Video Submission (Paste the link of the video uploaded as an
-      Unlisted YouTube Video)
-
-
-      You should share 1 experience where you have demonstrated ‘drive’.\
-
-      *Drive is when you have consistently worked towards achieving a goal for an extended period of time (at least for a few months). Feel free to elaborate on the efforts you made and the hurdles you overcame in the process. This experience may be in the academic, co-curricular, extra-curricular or professional spheres.*\
-
-      **Note:** This should be a video of self (candidate's face should be visible in the recording) shot via a phone, camera or laptop.
-
-
-      [How to Upload Unlisted Videos to YouTube](https://www.youtube.com/watch?v=jaftEW9WI3U)
-    placeholder: P﻿aste unlisted YT link
-    validation: VALID_LINK
-    type: text
   - contentDescription: " "
     label: >-
       Please select your availability for Round 2, if shortlisted. 
 
 
-
-
-      *Round 2 of the process includes an online Concept Note Submission, along with an Organizational Fit MCQ Test.*
+      (T﻿his includes an online Concept Note Submission + Organizational Fit MCQ Test.)
     options:
       - text: 11th Jan' 25 (7:00 PM - 10:00 PM)
       - text: 12th Jan' 25 (7:00 PM - 10:00 PM)
@@ -223,7 +195,7 @@ formsElements:
     label: |-
       Please select your availability for Round 3, if shortlisted
 
-      *Round 3 of the process is a 60 min 1:1 Online Governance Case Interview*
+      (This is a 60 min 1:1 Online Governance Case Interview)
     type: select
     validation: VALID_OPTION
     placeholder: S﻿elect option
@@ -250,4 +222,22 @@ formsElements:
     required: true
     type: select
     validation: VALID_OPTION
+  - actionName: Upload
+    contentDescription: " "
+    label: Upload Resume
+    placeholder: "Please upload ONLY **ONE PAGE** PDF. (Filename: Resume_Firstname
+      Lastname)"
+    questions: []
+    required: true
+    type: file
+    validation: VALID_FILE
+  - required: true
+    label: >-
+      90 Second Video Submission 
+
+
+      (﻿Share 1 experience where you have demonstrated ‘drive’. Drive is when you have consistently worked towards achieving a goal for an extended period of time (at least for a few months). Feel free to elaborate on the efforts you made and the hurdles you overcame in the process. This experience may be in the academic, co-curricular, extra-curricular or professional spheres.)
+    placeholder: P﻿aste unlisted YouTube Link
+    validation: VALID_LINK
+    type: text
 ---
