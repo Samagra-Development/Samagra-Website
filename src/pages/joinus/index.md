@@ -248,6 +248,6 @@ formsElements:
       placeholder: ""
     placeholder: S﻿elect option
     required: true
-    type: radio
+    type: select
     validation: VALID_OPTION
 ---
