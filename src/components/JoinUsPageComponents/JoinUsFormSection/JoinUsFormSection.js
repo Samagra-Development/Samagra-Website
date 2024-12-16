@@ -281,6 +281,8 @@ export const JoinUsFormSection = ({
                   (excluding internships and fellowships)
                 </span>
               )}
+              {element.hint &&<span className={"hint"}>{element.hint}</span>}
+              
             </fieldset>
           </div>
         );
@@ -568,7 +570,7 @@ export const JoinUsFormSection = ({
 
       // Post the form data
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbxgLhAuV7rn41K7FY4FGS38vuWH1_gpBddoGA_j3GiC5SDr7yJyNR9wyv_R9dvYoQCV/exec",
+        "https://script.google.com/macros/s/AKfycbzAvyix7zw7lyrxf6xEa1gehrZoQwVLeGCzVwxYd1Fdg-x9QSgwbu6x3D_T8XgrPKiG/exec",
         {
           method: "POST",
           body: formDataRef.current,

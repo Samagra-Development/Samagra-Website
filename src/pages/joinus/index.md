@@ -56,8 +56,9 @@ formsElements:
     required: true
     type: text
     validation: VALID_TEXT
-  - required: true
-    label: G﻿ender
+  - contentDescription: " "
+    required: true
+    label: Gender
     placeholder: S﻿elect
     type: select
     validation: VALID_OPTION
@@ -84,7 +85,7 @@ formsElements:
     validation: VALID_TEXT
   - required: true
     label: Undergraduate %/CGPA
-    placeholder: E﻿nter %/CGPA
+    placeholder: Enter %/CGPA
     type: text
     validation: VALID_TEXT
   - contentDescription: "  "
@@ -129,7 +130,7 @@ formsElements:
     type: text
     validation: VALID_TEXT
   - required: false
-    label: P﻿ostgraduate %/CGPA
+    label: Postgraduate %/CGPA
     placeholder: E﻿nter %/CGPA
     type: text
     validation: VALID_TEXT
@@ -177,7 +178,7 @@ formsElements:
     required: false
     type: text
     validation: VALID_LINK
-  - contentDescription: T﻿his includes an online Concept Note Submission +
+  - contentDescription: This includes an online Concept Note Submission +
       Organizational Fit MCQ Test.
     label: Please select your availability for Round 2, if shortlisted
     options:
@@ -226,11 +227,8 @@ formsElements:
     type: file
     validation: VALID_FILE
   - required: true
-    label: >-
-      90 Second Video Submission 
-
-
-      (﻿Share 1 experience where you have demonstrated ‘drive’. Drive is when you have consistently worked towards achieving a goal for an extended period of time (at least for a few months). Feel free to elaborate on the efforts you made and the hurdles you overcame in the process. This experience may be in the academic, co-curricular, extra-curricular or professional spheres.)
+    label: 90 Second Video Submission
+    hint:  (Share 1 experience where you have demonstrated ‘drive’. Drive is when you have consistently worked towards achieving a goal for an extended period of time (at least for a few months). Feel free to elaborate on the efforts you made and the hurdles you overcame in the process. This experience may be in the academic, co-curricular, extra-curricular or professional spheres.) 
     placeholder: P﻿aste unlisted YouTube Link
     validation: VALID_LINK
     type: text

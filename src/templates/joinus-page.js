@@ -80,6 +80,7 @@ export const JoinUsPageQuery = graphql`
             required
             placeholder
             type
+            hint
             validation
             otherOptionAvailable {
                 activateOn
