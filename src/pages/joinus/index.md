@@ -202,31 +202,49 @@ formsElements:
     validation: VALID_LINK
     type: text
   - contentDescription: " "
-    label: If shortlisted, when can you take round 2? (Concept note round)
+    label: >-
+      Please select your availability for Round 2, if shortlisted. 
+
+
+
+
+      *Round 2 of the process includes an online Concept Note Submission, along with an Organizational Fit MCQ Test.*
     options:
-      - text: 5th January
-      - text: 6th January
-      - text: 7th January
+      - text: 11th Jan' 25 (7:00 PM - 10:00 PM)
+      - text: 12th Jan' 25 (7:00 PM - 10:00 PM)
+      - text: 13th Jan' 25 (7:00 PM - 10:00 PM)
     placeholder: Select Option
     required: true
     type: select
     validation: VALID_OPTION
+  - required: true
+    label: |-
+      Please select your availability for Round 3, if shortlisted
+
+      *Round 3 of the process is a 60 min 1:1 Online Governance Case Interview*
+    type: select
+    validation: VALID_OPTION
+    placeholder: S﻿elect option
+    otherOptionAvailable:
+      activateOn: ""
+    options:
+      - text: 25th Jan' 25
+      - text: 27th Jan' 25
+      - text: Available on both days
   - contentDescription: " "
     label: Where did you hear about Samagra?
     options:
       - text: Word of Mouth
       - text: Samagra Team Member
-      - text: LinkedIn
+      - text: Social Media
       - text: Samagra Website
-      - text: Campus Placements
+      - text: Campus Engagement
       - text: Recruitment Agency
-      - text: Facebook
     otherOptionAvailable:
-      activateOn: Other
-      label: Other
-      placeholder: Other
-    placeholder: "Upload a PDF containing separate answers to the following two
-      questions (Filename: SOP_Firstname Lastname):"
+      activateOn: ""
+      label: ""
+      placeholder: ""
+    placeholder: S﻿elect option
     required: true
     type: radio
     validation: VALID_OPTION
