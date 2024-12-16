@@ -44,7 +44,7 @@ formsElements:
     validation: VALID_TEXT
   - contentDescription: "   "
     label: Contact Number
-    placeholder: Enter your contact number
+    placeholder: Number with country code
     required: true
     type: text
     validation: VALID_TEXT
@@ -54,6 +54,15 @@ formsElements:
     required: true
     type: text
     validation: VALID_TEXT
+  - required: true
+    label: G﻿ender
+    placeholder: S﻿elect
+    type: select
+    validation: VALID_OPTION
+    options:
+      - text: Male
+      - text: Female
+      - text: Others
   - contentDescription: "  "
     label: Current Location
     placeholder: Enter current location
@@ -71,8 +80,13 @@ formsElements:
     required: true
     type: text
     validation: VALID_TEXT
+  - required: true
+    label: Undergraduation %/CGPA
+    placeholder: E﻿nter %/CGPA
+    type: text
+    validation: VALID_TEXT
   - contentDescription: "  "
-    label: Post Graduate Institute
+    label: Postgraduate Institute
     options:
       - text: Not Applicable
       - text: Ashoka University
@@ -109,38 +123,48 @@ formsElements:
       label: PG Institute Name
       placeholder: Institute Name
     placeholder: Select Institute
-    required: true
-    type: select
-    validation: VALID_OPTION
+    required: false
+    type: text
+    validation: VALID_TEXT
+  - required: false
+    label: P﻿ostgraduate %/CGPA
+    placeholder: E﻿nter %/CGPA
+    type: text
+    validation: VALID_TEXT
   - contentDescription: " "
-    label: Last Employer
+    label: Current/Previous Employer
     placeholder: Enter Organization
     required: true
     type: text
     validation: VALID_TEXT
   - contentDescription: (excluding internships and fellowships)
-    label: Total Professional Experience in months
+    label: Total Professional Experience (in months)
     placeholder: Enter Number of Months
     required: true
     type: number
     validation: VALID_NUMBER
   - contentDescription: " Notice Period"
-    label: Notice Period
+    label: Notice Period (in days)
     options:
+      - text: Immediate Joining
       - text: 1 month
       - text: 2 months
       - text: 3 months
-      - text: Not Applicable
     placeholder: Select Duration
     required: true
-    type: select
-    validation: VALID_OPTION
+    type: text
+    validation: VALID_NUMBER
+  - contentDescription: " "
+    label: Current CTC (Fixed + Variable)
+    placeholder: Enter your current CTC (p.a.)
+    required: true
+    type: text
+    validation: VALID_TEXT
   - contentDescription: Possibility of early exit from current organisation
     label: Possibility of early exit from current organisation
     options:
       - text: Yes
       - text: No
-      - text: Not Applicable
     placeholder: Select Option
     required: true
     type: select
@@ -151,26 +175,32 @@ formsElements:
     required: false
     type: text
     validation: VALID_LINK
-  - contentDescription: " "
-    label: Blogs/Reference Links
-    placeholder: Enter your any blog/reference links
-    required: false
-    type: text
-    validation: VALID_LINK
-  - contentDescription: " "
-    label: Current CTC (Fixed + Variable)
-    placeholder: Enter your current ctc p.a.
-    required: true
-    type: text
-    validation: VALID_TEXT
   - actionName: Upload
     contentDescription: " "
     label: Upload Resume
-    placeholder: "Please upload ONLY SINGLE PAGE PDF. (Filename: Resume_Firstname Lastname)"
+    placeholder: "Please upload ONLY **ONE PAGE** PDF. (Filename: Resume_Firstname
+      Lastname)"
     questions: []
     required: true
     type: file
     validation: VALID_FILE
+  - required: true
+    label: >-
+      90 Second Video Submission (Paste the link of the video uploaded as an
+      Unlisted YouTube Video)
+
+
+      You should share 1 experience where you have demonstrated ‘drive’.\
+
+      *Drive is when you have consistently worked towards achieving a goal for an extended period of time (at least for a few months). Feel free to elaborate on the efforts you made and the hurdles you overcame in the process. This experience may be in the academic, co-curricular, extra-curricular or professional spheres.*\
+
+      **Note:** This should be a video of self (candidate's face should be visible in the recording) shot via a phone, camera or laptop.
+
+
+      [How to Upload Unlisted Videos to YouTube](https://www.youtube.com/watch?v=jaftEW9WI3U)
+    placeholder: P﻿aste unlisted YT link
+    validation: VALID_LINK
+    type: text
   - contentDescription: " "
     label: If shortlisted, when can you take round 2? (Concept note round)
     options:
