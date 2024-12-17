@@ -11,7 +11,7 @@ formAcceptance: Click here to download the  <a target={"_blank"}
   target={"_blank"}
   href="https://us06web.zoom.us/meeting/register/tZ0rduChrTovGdXbdXEqiK3DuIAtQBBUdoqv#/registration"
   > here </a> for the AMA session on December 23, 2024 at 8:00 PM
-showForm: false
+showForm: true
 verticalImage: /img/header_page-0001.jpg
 horizontalImage: /img/header_page-0001.jpg
 followLinkedin: /img/follow-linkedin.jpg
@@ -36,7 +36,7 @@ postSubInfo:
     https://www.youtube.com/embed/videoseries?list=PLqeXOsUG-6BtvH-0GgwRGX9Z2uO\
     89l-nB"
   videoTitle: Learn more about Samagra
-  show: false
+  show: true
 formsElements:
   - contentDescription: " "
     label: Full Name
