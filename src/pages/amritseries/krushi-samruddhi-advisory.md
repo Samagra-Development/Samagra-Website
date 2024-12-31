@@ -19,10 +19,8 @@ showsideIcon3: false
 sideIcon3Text: ""
 title1: "Providing push-based agricultural advisory through IVRS calls to all
   farmers of Odisha "
-title2: Impact Video
-title3: Extension is critical in improving productivity & farmers’ income.
-  Traditional extension has limited potential to create impact. Witness how
-  Krushi Samruddhi Helpline enabled population-scale quality extension.
+title2: ""
+title3: ""
 impactVideoLink: ""
 title4: With a extension worker to farmer ratio of 1:2500, there were several
   challenges in disseminating critical advisory timely
