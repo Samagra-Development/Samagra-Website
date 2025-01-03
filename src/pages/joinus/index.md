@@ -6,11 +6,8 @@ infoText2: "Disclaimer: If you are shortlisted, our team will contact you via
   email and/or phone. Please note, we will not be able to provide individual
   feedback on profiles or interview rounds. Rejection emails will be sent in
   February, after the entire process is completed."
-formAcceptance: Click here to download the  <a target={"_blank"}
-  href="https://bit.ly/JD_OpenDrive" > Job Description </a> <p> Register <a
-  target={"_blank"}
-  href="https://us06web.zoom.us/meeting/register/tZ0rduChrTovGdXbdXEqiK3DuIAtQBBUdoqv#/registration"
-  > here </a> for the AMA session on December 23, 2024 at 8:00 PM
+formAcceptance: 'Click here to download the  <a target={"_blank"}
+  href="https://bit.ly/JD_OpenDrive" > Job Description </a> <p> '
 showForm: true
 verticalImage: /img/header_page-0001.jpg
 horizontalImage: /img/header_page-0001.jpg
