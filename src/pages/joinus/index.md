@@ -6,9 +6,8 @@ infoText2: "Disclaimer: If you are shortlisted, our team will contact you via
   email and/or phone. Please note, we will not be able to provide individual
   feedback on profiles or interview rounds. Rejection emails will be sent in
   February, after the entire process is completed."
-formAcceptance: 'Click here to download the  <a target={"_blank"}
-  href="https://bit.ly/JD_OpenDrive" > Job Description </a> <p> '
-showForm: true
+formAcceptance: ""
+showForm: false
 verticalImage: /img/header_page-0001.jpg
 horizontalImage: /img/header_page-0001.jpg
 followLinkedin: /img/follow-linkedin.jpg
