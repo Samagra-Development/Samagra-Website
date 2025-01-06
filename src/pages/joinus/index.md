@@ -6,7 +6,9 @@ infoText2: "Disclaimer: If you are shortlisted, our team will contact you via
   email and/or phone. Please note, we will not be able to provide individual
   feedback on profiles or interview rounds. Rejection emails will be sent in
   February, after the entire process is completed."
-formAcceptance: ""
+formAcceptance: Follow us on <a target={"_blank"}
+  href="www.linkedin.com/company/samagra-transforming-governance/" > LinkedIn
+  </a> and stay tuned for further updates! <p>
 showForm: false
 verticalImage: /img/header_page-0001.jpg
 horizontalImage: /img/header_page-0001.jpg
