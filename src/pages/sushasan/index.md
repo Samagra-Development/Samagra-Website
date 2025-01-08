@@ -164,7 +164,7 @@ postData:
       urlLink: https://youtu.be/KSzrQJ-_PQM?feature=shared
       postImage: /img/4-1-.png
   - postCard:
-      postName: Avinash Sandhilya
+      postName: Avinash Shandilya
       selectedCategory: "3"
       urlLink: https://youtu.be/Gh_lX45s7kM?feature=shared
       episode: "7"
