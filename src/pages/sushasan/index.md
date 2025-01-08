@@ -38,24 +38,6 @@ postCategories:
   - season: "3"
 postData:
   - postCard:
-      postName: Sandeep Dabur
-      selectedCategory: "3"
-      urlLink: https://youtu.be/atdO3wv4Y_k
-      episode: "10"
-      postImage: /img/3-2-.png
-  - postCard:
-      postName: Kavinder Singh Negi
-      urlLink: https://youtu.be/p057xFlB0sk
-      selectedCategory: "3"
-      episode: "9"
-      postImage: /img/2-6-.png
-  - postCard:
-      urlLink: https://youtu.be/Cr7gVbYh4w0
-      postName: Ministhy S.
-      selectedCategory: "3"
-      episode: "8"
-      postImage: /img/4-4-.png
-  - postCard:
       postName: Anil Swarup
       selectedCategory: "1"
       urlLink: https://www.youtube.com/embed/vLrZOL0X81k?si=l1u-o6I2FBJCAW6w
@@ -187,4 +169,22 @@ postData:
       urlLink: https://youtu.be/Gh_lX45s7kM?feature=shared
       episode: "7"
       postImage: /img/2-3-.png
+  - postCard:
+      urlLink: https://youtu.be/Cr7gVbYh4w0
+      postName: Ministhy S.
+      selectedCategory: "3"
+      episode: "8"
+      postImage: /img/4-4-.png
+  - postCard:
+      postName: Kavinder Singh Negi
+      urlLink: https://youtu.be/p057xFlB0sk
+      selectedCategory: "3"
+      episode: "9"
+      postImage: /img/2-6-.png
+  - postCard:
+      postName: Sandeep Dabur
+      selectedCategory: "3"
+      urlLink: https://youtu.be/atdO3wv4Y_k
+      episode: "10"
+      postImage: /img/3-2-.png
 ---
