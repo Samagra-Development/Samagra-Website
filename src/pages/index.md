@@ -3,7 +3,7 @@ templateKey: index-page
 title: Samagra | Transforming Governance
 description: Samagra | Transforming Governance
 stickyBanner:
-  stickyBannerActive: false
+  stickyBannerActive: true
   stickyBannerButtonColor: orange
   stickyBannerButtonLink: https://www.samagragovernance.in/amritseries
   stickyBannerButtonTextColor: white
