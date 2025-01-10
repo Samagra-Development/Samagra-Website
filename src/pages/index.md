@@ -3,13 +3,14 @@ templateKey: index-page
 title: Samagra | Transforming Governance
 description: Samagra | Transforming Governance
 stickyBanner:
-  stickyBannerActive: false
+  stickyBannerActive: true
   stickyBannerButtonColor: orange
-  stickyBannerButtonLink: https://www.samagragovernance.in/amritseries
+  stickyBannerButtonLink: https://chatbot.kumbh.up.gov.in/
   stickyBannerButtonTextColor: white
   stickyBannerButtonTitle: here
   stickyBannerColor: white
-  stickyBannerTitle: Check out our newly launched Amrit Series
+  stickyBannerTitle: Click to explore Kumbh Sah'AI'yak - Mahakumbh 2025's
+    AI-powered digital assistant powered by Samagra
   stickyBannerTitleColor: black
 baseBanner:
   titleLines:
