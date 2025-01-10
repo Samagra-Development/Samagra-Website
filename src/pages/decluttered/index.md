@@ -25,20 +25,16 @@ postCategories:
   - category: India as a Welfare State
 postData:
   - postCard:
-      selectedCategory: India as a Welfare State
-      urlLink: https://www.instagram.com/reel/DEnBrT6PtlG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
-      postImage: /img/cropped-image-6-.png
-  - postCard:
       postImage: /img/cropped-image-6-.png
       selectedCategory: India as a Welfare State
       urlLink: https://www.instagram.com/reel/DECyZ3PoZIJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
-      postImage: /img/cropped-image-5-.png
+      postImage: /img/cropped-image-7-.png
       urlLink: https://www.instagram.com/reel/DDehAeptA43/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
       selectedCategory: India as a Welfare State
   - postCard:
       urlLink: https://www.instagram.com/reel/DCWdwGAymhv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
-      selectedCategory: DPG
+      selectedCategory: India as a Welfare State
       postImage: /img/cropped-image-4-.png
   - postCard:
       urlLink: https://www.instagram.com/reel/DBwYm7royX6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
