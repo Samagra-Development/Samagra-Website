@@ -152,21 +152,6 @@ leadershipsList:
       Samagra. "
     project: Senior Consultant
     image: /img/manisha.jpg
-  - name: Nikhil Nadiger
-    linkedInProfile: https://www.linkedin.com/in/nikhil-nadiger/
-    bio: >-
-      Nikhil is an alum of Samagra who has rejoined us after an entrepreneurial
-      stint as co-founder of ARTh. He joined Samagra back in 2016 and worked on
-      programmes across three states and central govt. Before Samagra, he was a
-      fellow at Teach for India where he taught 3rd & 4th grade kids. He was
-      also a founding team member of India's first professional radical mime
-      team, PunchTantraa. Nikhil holds a Bachelor's degree in Information
-      Science from Jain University.
-
-
-      A passion to create large scale impact through governance and working with driven and like-minded people brings him back to Samagra. He plans to leverage his experience as an entrepreneur to creatively solve complex governance challenges.
-    project: Vice President
-    image: /img/nikhil-nadiger.jpg
   - name: Nikhil Srivastava
     project: Senior Consultant
     image: /img/nikhil-s.jpg
@@ -265,21 +250,6 @@ leadershipsList:
       scale through good governance brought her to Samagra.
     linkedInProfile: https://www.linkedin.com/in/ujjwal-relan-981b814a
     image: /img/ujjwal_7644.jpg
-  - bio: "Utkarsh holds a Bachelor's degree in Computer Science Engineering from
-      NIT, Jalandhar. Previously, he has worked as Technology Consultant with
-      Indus Valley Partners and Boston Consulting Group. During his stint with
-      IVP and BCG, he was extensively involved in solving some complex business
-      problems through technology in the Finance and Industrial Goods sector.
-      After leaving BCG, he co-founded Indian Lawyers Forum with a Supreme Court
-      Lawyer to solve the problem of information asymmetry in the Indian
-      judiciary by disseminating information from courts to lawyers at a large
-      scale. An opportunity to solve complex governance problems by using his
-      technology, consulting and entrepreneurial skills brought him to Samagra.
-      "
-    linkedInProfile: https://www.linkedin.com/in/uvijay
-    project: Vice President
-    name: Utkarsh Vijay
-    image: /img/utkarsh_7885-1-.jpg
 title3: Managers
 showManagers: true
 managersList:
@@ -300,19 +270,6 @@ managersList:
     name: Aayush Malik
     project: Consultant, Outreach
     partTime: false
-  - image: /img/abhay_7665.jpg
-    bio: "Abhay holds an MBA from Indian Institute of Management Ahmedabad and a
-      dual degree in Mechanical Engineering from Indian Institute of Technology,
-      Kanpur. Before joining Samagra, he was working with IBM as a strategy and
-      operations consultant, where he got hands-on experience in shaping the
-      digital strategies for several leading Indian corporates. Through his
-      professional and educational experience he has worked on projects ranging
-      from strategy development to implementation, while consistently focusing
-      on the end-user. An opportunity to improve the lives of citizens by
-      creating impact at scale brought him to Samagra. "
-    name: Abhay Kumar Singh
-    project: Product Manager
-    linkedInProfile: https://www.linkedin.com/in/abhay-kumar-singh-y9010/
   - bio: >-
       Abhinav holds an MBA from the Indian Institute of Management Bangalore and
       a Bachelor's degree in Mechanical Engineering from the Indian Institute of
@@ -337,19 +294,6 @@ managersList:
 
       An opportunity to partner with government stakeholders to develop efficient service delivery systems and improve the lives of citizens brought him to Samagra. 
     linkedInProfile: https://www.linkedin.com/in/abhishek-rao-479047159/
-  - name: Aditya Singh Rana
-    image: /img/aditya-rana.jpg
-    project: Senior Consultant
-    bio: >-
-      Aditya holds an MBA from IE Business School, Madrid and a Bachelor's
-      degree in IT Engineering from Dr. A. P. J. Abdul Kalam Technical
-      University, Lucknow. Before joining Samagra, he was working as an internal
-      consultant for the Government of India on the Clean India Mission to make
-      India open defecation free.
-
-
-      A strong motivation to work on complex social issues & drive real change on ground through better governance, brings Aditya to Samagra. 
-    linkedInProfile: https://www.linkedin.com/in/adityasinghrana94/
   - name: Aman Gupta
     image: /img/aman.png
     bio: >-
@@ -390,19 +334,6 @@ managersList:
       His belief that employing technological tools can lead to better governance and improve the lives of citizens brought him to Samagra. Currently, he is part of the SamagraX team.
     linkedInProfile: https://www.linkedin.com/in/chakshu-gautam-6918736b/
     project: Senior Staff Engineer
-  - name: Karan Trehan
-    image: /img/karan-trehan.jpg
-    project: Senior Engineering Manager
-    bio: >-
-      Karan holds a Bachelor’s degree in Information Technology from University
-      of Mumbai. Karan has more than 10 years of experience in software
-      development. Before joining Samagra, he was working as an Engineering
-      Manager at Gojek.
-
-
-      An opportunity to contribute towards nation building and deliver solutions to create impact at scale, brings Karan to Samagra.
-    linkedInProfile: https://www.linkedin.com/in/karntrehan/
-    partTime: false
   - name: Kishan Agarwal
     image: /img/kishan.jpg
     bio: >-
@@ -521,18 +452,6 @@ managersList:
 
       Her passion to bridge the gap between the haves and have nots, and belief in governance as a lever of change brought her to Samagra.
     linkedInProfile: https://www.linkedin.com/in/baggasimran/
-  - name: Utsav Thapliyal
-    image: /img/utsav.png
-    project: Senior Consultant
-    bio: >-
-      Utsav holds an MBA and a Bachelor’s degree in Foundations of Management
-      from IIM Indore. Before joining Samagra, he was working as a senior
-      consultant with the TSE consulting practice at EY-Parthenon, primarily
-      working on M&A, large scale transformation and change management projects.
-
-
-      A strong motivation to bring about positive change in the lives of citizens through governance as a lever of change, brought Utsav to Samagra. He intends to leverage his academic grounding and hands-on experience with large scale change management to deliver impact at scale.
-    linkedInProfile: https://www.linkedin.com/in/utsavthapliyal/
   - name: Venkatesh Chaturvedi
     project: Senior Consultant
     bio: Venkatesh holds an MBA from Indian School of Business, Hyderabad, and a
