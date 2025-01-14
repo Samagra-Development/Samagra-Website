@@ -168,28 +168,6 @@ leadershipsList:
 
       An opportunity to converge technology and good governance practices to create a meaningful impact in the lives of citizens, brought him to Samagra. He intends to leverage his professional and academic experiences to create impact at scale.
     linkedInProfile: https://www.linkedin.com/in/nikhilsrivastava1991/
-  - name: Nitin Kashyap
-    project: Senior Vice President
-    bio: >-
-      Nitin is a dreamer, thinker and doer, passionate about making the benefits
-      of technology reach the ones who stand to gain the most for their
-      betterment & progress.  Having graduated as a Computer Science Engineer
-      from PEC Chandigarh & completed his MBA from ISB Hyderabad, Nitin's career
-      has spanned almost seven equal year phases of 'Building things right' as
-      an Engineer with Adobe Systems & Texas Instruments, 'Figuring out the
-      right solution' as a Management Consultant with McKinsey London, and
-      'Identifying the right problem to solve, and solving it end to end' as a
-      Product Management leader at Google; where most recently he was leading
-      Google's efforts on Foundational literacy with Google Read Along and parts
-      of Google Classroom!
-
-
-      What brings him to Samagra is it's mission & the impact it has already had on millions of citizen's lives, it's phenomenal people & their passion and finally all the recent advances in GovTech in India as well as the immense potential opportunity still to be realised for the country.  At Samagra, as the SVP & Head of Product at Samagra he is looking forward to work with the team to help make Govtech & DataGov product expertise a core & differentiating strength of Samagra as well as a key enabler for helping amplify, accelerate, extend and embed Samgra's mission & impact even more!
-
-
-      Nitin stays in Hyderabad with his wife & 2 daughters and in his free time loves to travel, sketch, listen to music and amateur photography!
-    linkedInProfile: https://www.linkedin.com/in/nitin-kashyap-7573181/
-    image: /img/nitin.jpg
   - name: Pragya Mathur
     project: Manager
     linkedInProfile: https://www.linkedin.com/in/pragya-mathur-678779126
@@ -227,19 +205,6 @@ leadershipsList:
 
       Prior to Samagra, Shifali worked with Bank of America and Evaluserve before transitioning to the social impact space as a Fellow at Teach For India where she taught 3rd & 4th grade students. Post fellowship she continued with TFI's Delhi team as Partnerships Manager, focusing on fundraising, alumni management and government relations for four years. In 2019, Shifali joined Samagra to work on large-scale transformation with the government. After a brief hiatus in 2021 to explore the broader impact ecosystem through work with The Education Alliance and Sattva on projects spanning education, health, and urban local bodies, she rejoined Samagra in 2022 to continue her mission-driven work. 
     image: /img/shifali.jpg
-  - name: Suresh Unnikrishnan
-    project: Vice President, Engineering
-    linkedInProfile: https://www.linkedin.com/in/sureshunnikrishnan/
-    bio: >-
-      Suresh completed his Masters in Systems Management and has more than
-      twenty-five years experience in Information Systems Management. He was the
-      Head the Engineering at Fourthlion Technologies and lead engineering teams
-      at IBM and Sterling Commerce prior to that. He is an ardent music lover,
-      enjoys reading and trekking. 
-
-
-      An opportunity to be part of change leaders who helps to make societal impact by solving complex governance challenges to provide citizen services, is what brings Suresh to Samagra.
-    image: /img/suresh-u.jpg
   - name: Ujjwal Relan
     project: Vice President
     bio: Ujjwal holds a Bachelor's degree in Computer Engineering from Netaji Subhas
