@@ -1,7 +1,7 @@
 ---
 templateKey: case-study
 formType: This is new case study form
-show: false
+show: true
 projectId: KRUSHI SAMRUDDHI ADVISORY SYSTEM
 date: 2024-12-12T09:27:56.991Z
 sectionSequence: 1 2 3 4 5 6
