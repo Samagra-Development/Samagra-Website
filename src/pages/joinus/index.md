@@ -2,10 +2,9 @@
 templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
-infoText2: "Disclaimer: If you are shortlisted, our team will contact you via
-  email and/or phone. Please note, we will not be able to provide individual
-  feedback on profiles or interview rounds. Rejection emails will be sent in
-  February, after the entire process is completed."
+infoText2: "Update: Candidates shortlisted for Round 3 will be informed January
+  20, 2025 onwards.  Rejection emails will be sent in February, after the entire
+  process is completed."
 formAcceptance: Follow us on <a target={"_blank"}
   href="www.linkedin.com/company/samagra-transforming-governance/" > LinkedIn
   </a> and stay tuned for further updates! <p>
