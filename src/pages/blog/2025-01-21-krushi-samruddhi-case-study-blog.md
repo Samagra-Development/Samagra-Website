@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Krushi Samruddhi Case Study Blog
+title: Transforming Agricultural Extension in Odisha
 author: KONNECT Team
 projectId: KONNECT
 authorImage: /img/person-vector.jpeg
