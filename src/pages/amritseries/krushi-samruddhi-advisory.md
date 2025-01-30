@@ -81,6 +81,7 @@ showWebinar: false
 webinarTitle: ""
 webinarDescription: ""
 webinarLink: ""
+blogSectionImage: /img/1-ksa.png
 showTestimonial: false
 testimonialText: ""
 testimonialAuthor: ""
