@@ -68,10 +68,10 @@ showPlus5: false
 infographicGoogleDriveLink: ""
 downloadInfographicBtn: ""
 title8: ""
-showBlog: false
-blogTitle: ""
-blogDescription: ""
-blogLink: ""
+showBlog: true
+blogTitle: Blog
+blogDescription: Transforming Agricultural Extension in Odisha
+blogLink: https://samagragovernance.in/blog/2025-01-21-krushi-samruddhi-case-study-blog/
 showOpEd: false
 opEdTitle: ""
 opEdAuthorDate: ""
