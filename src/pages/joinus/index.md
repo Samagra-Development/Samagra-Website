@@ -6,7 +6,7 @@ infoText2: ""
 formAcceptance: Follow us on <a target={"_blank"}
   href="www.linkedin.com/company/samagra-transforming-governance/" > LinkedIn
   </a> and stay tuned for further updates! <p>
-showForm: true
+showForm: false
 verticalImage: /img/header_page-0001.jpg
 horizontalImage: /img/header_page-0001.jpg
 followLinkedin: /img/follow-linkedin.jpg
