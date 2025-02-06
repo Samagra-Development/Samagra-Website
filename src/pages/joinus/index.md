@@ -2,9 +2,7 @@
 templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
-infoText2: "Update: Candidates shortlisted for Round 3 will be informed January
-  20, 2025 onwards.  Rejection emails will be sent in February, after the entire
-  process is completed."
+infoText2: ""
 formAcceptance: Follow us on <a target={"_blank"}
   href="www.linkedin.com/company/samagra-transforming-governance/" > LinkedIn
   </a> and stay tuned for further updates! <p>
@@ -85,52 +83,6 @@ formsElements:
     placeholder: Enter %/CGPA
     type: text
     validation: VALID_TEXT
-  - contentDescription: "  "
-    label: Postgraduate Institute
-    options:
-      - text: Not Applicable
-      - text: Ashoka University
-      - text: Birla Institute of Technology and Science
-      - text: College of Business Studies
-      - text: Columbia University
-      - text: Delhi College of Engineering
-      - text: Faculty of Management Studies
-      - text: Harvard Kennedy School
-      - text: IIIT Hyderabad
-      - text: IIM Ahemdabad
-      - text: IIM Bangalore
-      - text: IIM Calcutta
-      - text: IIT Bombay
-      - text: IIT Delhi
-      - text: IIT Kanpur
-      - text: IIT Kharagpur
-      - text: IIT Madras
-      - text: IIT Roorkee
-      - text: IIT(ISM) Dhanbad
-      - text: Indian School of Business
-      - text: Lady Shri Ram College
-      - text: Lee Kuan Yew School of Public Policy
-      - text: London School of Economics & Political Science (LSE)
-      - text: National Law School of India University
-      - text: National University of Juridical Sciences
-      - text: Princeton University
-      - text: Shri Ram College of Commerce
-      - text: University of Cambridge
-      - text: University of Oxford
-      - text: Yale University
-    otherOptionAvailable:
-      activateOn: Others
-      label: PG Institute Name
-      placeholder: Institute Name
-    placeholder: Select Institute
-    required: false
-    type: text
-    validation: VALID_TEXT
-  - required: false
-    label: Postgraduate %/CGPA
-    placeholder: E﻿nter %/CGPA
-    type: text
-    validation: VALID_TEXT
   - contentDescription: " "
     label: Current/Previous Employer
     placeholder: Enter Organization
@@ -179,25 +131,12 @@ formsElements:
       Organizational Fit MCQ Test.
     label: Please select your availability for Round 2, if shortlisted
     options:
-      - text: 11th Jan' 25 (7:00 PM - 10:00 PM)
-      - text: 12th Jan' 25 (7:00 PM - 10:00 PM)
-      - text: 13th Jan' 25 (7:00 PM - 10:00 PM)
+      - text: 14th Mar' 25 (7:00 PM - 10:00 PM)
+      - text: 15th Mar' 25 (7:00 PM - 10:00 PM)
     placeholder: Select Option
     required: true
     type: select
     validation: VALID_OPTION
-  - required: true
-    label: Please select your availability for Round 3, if shortlisted
-    type: select
-    validation: VALID_OPTION
-    placeholder: S﻿elect option
-    otherOptionAvailable:
-      activateOn: ""
-    options:
-      - text: 25th Jan' 25
-      - text: 27th Jan' 25
-      - text: Available on both days
-    contentDescription: (This is a 60 min 1:1 Online Governance Case Interview)
   - contentDescription: " "
     label: Where did you hear about Samagra?
     options:
