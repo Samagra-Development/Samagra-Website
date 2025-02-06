@@ -25,6 +25,10 @@ postCategories:
   - category: India as a Welfare State
 postData:
   - postCard:
+      urlLink: https://www.instagram.com/reel/DFuywR8giqi/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+      selectedCategory: India as a Welfare State
+      postImage: /img/cropped-image-10-.png
+  - postCard:
       selectedCategory: India as a Welfare State
       urlLink: https://www.instagram.com/reel/DFLDXtEMH9F/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
       postImage: /img/cropped-image-8-.png
