@@ -10,7 +10,7 @@ subTitle: Samagra
 state: Pan India
 tagLine: "AI-powered, multilingual, conversational chatbot to assist Mahakumbh
   2025 pilgrims with their information and navigation needs "
-projectLogoWithState: /img/untitled-design-2-.png
+projectLogoWithState: /img/mahakumbh.png
 overview:
   - text: "A flagship initiative under Digital Kumbh, Kumbh Sah’AI’yak is an
       AI-powered, voice-enabled, multilingual bot designed to assist millions of
