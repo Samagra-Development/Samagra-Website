@@ -40,7 +40,7 @@ scale:
     label: Total Sessions
   - count: 84%
     label: users rated the bot 3+ in a 1-4 rating scale
-projectMiddleBannerImage: /img/pwa-screen.jpeg
+projectMiddleBannerImage: /img/whatsapp-image-2025-02-07-at-5.30.52-pm.jpeg
 approach:
   - text: "Information Collection : To address the unique sensitivities surrounding
       the Mahakumbh Mela, Kumbh Sah'AI'yak had to navigate religious nuances,
