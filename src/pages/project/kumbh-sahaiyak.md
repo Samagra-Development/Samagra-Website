@@ -34,7 +34,7 @@ overview:
       navigation to nearby attractions and facilities. Additionally, users can
       also receive shareable, customized pictures featuring the Kumbh backdrop."
 scale:
-  - count: 2 lakh+
+  - count: 2 Lakh+
     label: Total Users
   - count: 4 Lakh+
     label: Total Sessions
