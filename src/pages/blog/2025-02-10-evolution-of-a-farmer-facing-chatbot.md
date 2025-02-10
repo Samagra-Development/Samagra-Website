@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Evolution of a farmer-facing chatbot
-author: Tanisk Verma
+author: Tanishk Verma
 projectId: Samagra X
 authorImage: /img/person-vector.jpeg
 date: 2025-02-10T07:17:28.061Z
