@@ -56,4 +56,9 @@ ourImpact:
       agricultural schemes to farmers
     link: https://samagragovernance.in/amritseries/go-sugam/
     image: /img/GO-SUGAM-landing-page.jpg
+  - link: https://samagragovernance.in/amritseries/krushi-samruddhi-advisory/
+    subTitle: KRUSHI SAMRUDDHI ADVISORY SYSTEM
+    description: Providing push-based agricultural advisory through IVRS calls to
+      all farmers of Odisha
+    image: /img/krushi-samruddhi-advisory-system.png
 ---
