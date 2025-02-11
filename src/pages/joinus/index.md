@@ -2,12 +2,12 @@
 templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
-infoText2: Refer to the <a target={"_blank"}
+infoText2: Refer to the Job Description <a target={"_blank"}
   href="https://drive.google.com/file/d/1y0-OxgFLlZTiTKaLtKKSFcetYyaMeAT3/view?usp=sharing"
-  > Job Description </a> for the role of Associate <p>
+  > here </a> <p>
 formAcceptance: Register for <a target={"_blank"}
-  href="http://bit.ly/samagra_ug_ama/" > AMA Session </a> to be held on 24th Feb
-  7 PM ! <p>
+  href="http://bit.ly/samagra_ug_ama/" > AMA Session </a> to be held on 24th
+  Feb, 7 PM  <p>
 showForm: false
 verticalImage: /img/ug-drive-timelines.jpg
 horizontalImage: /img/ug-drive-timelines.jpg
