@@ -9,8 +9,8 @@ formAcceptance: Register for <a target={"_blank"}
   href="http://bit.ly/samagra_ug_ama" > AMA Session </a> to be held on 24th Feb,
   7 PM  <p>
 showForm: false
-verticalImage: /img/ug-drive-timelines-1-.jpg
-horizontalImage: /img/ug-drive-timelines-1-.jpg
+verticalImage: /img/ug-drive-timelines-1-1-.jpg
+horizontalImage: /img/ug-drive-timelines-1-1-.jpg
 followLinkedin: /img/follow-linkedin.jpg
 postSubInfo:
   heading: Thank you
