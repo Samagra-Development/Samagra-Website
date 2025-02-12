@@ -8,7 +8,7 @@ infoText2: Refer to the Job Description <a target={"_blank"}
 formAcceptance: Register for <a target={"_blank"}
   href="http://bit.ly/samagra_ug_ama" > AMA Session </a> to be held on 24th Feb,
   7 PM  <p>
-showForm: false
+showForm: true
 verticalImage: /img/ug-drive-timelines-1-1-.jpg
 horizontalImage: /img/ug-drive-timelines-1-1-.jpg
 followLinkedin: /img/follow-linkedin.jpg
@@ -85,6 +85,14 @@ formsElements:
     placeholder: Enter %/CGPA
     type: text
     validation: VALID_TEXT
+  - required: true
+    label: Year of Graduation
+    options:
+      - text: "2024"
+      - text: "2025"
+    type: text
+    validation: VALID_TEXT
+    placeholder: S﻿elect year of graduation
   - contentDescription: " "
     label: Current/Previous Employer
     placeholder: Enter Organization
