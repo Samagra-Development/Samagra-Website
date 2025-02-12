@@ -5,10 +5,12 @@ infoText1: Join Us
 infoText2: Refer to the Job Description <a target={"_blank"}
   href="https://drive.google.com/file/d/1y0-OxgFLlZTiTKaLtKKSFcetYyaMeAT3/view?usp=sharing"
   > here </a> <p>
-formAcceptance: Register for <a target={"_blank"}
+formAcceptance: 'Register for <a target={"_blank"}
   href="http://bit.ly/samagra_ug_ama" > AMA Session </a> to be held on 24th Feb,
-  7 PM  <p>
-showForm: true
+  7 PM  <p> <p> Disclaimer: Case Interviews of applicants from Delhi-NCR will be
+  held in-person at our <a target={"_blank"}
+  href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office</a> <p>'
+showForm: false
 verticalImage: /img/ug-drive-timelines-1-1-.jpg
 horizontalImage: /img/ug-drive-timelines-1-1-.jpg
 followLinkedin: /img/follow-linkedin.jpg
@@ -91,7 +93,7 @@ formsElements:
       - text: "2024"
       - text: "2025"
     type: text
-    validation: VALID_TEXT
+    validation: VALID_NUMBER
     placeholder: S﻿elect year of graduation
   - contentDescription: " "
     label: Current/Previous Employer
