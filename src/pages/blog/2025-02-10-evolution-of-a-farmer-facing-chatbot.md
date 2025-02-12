@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Evolution of a farmer-facing chatbot
 author: Tanishk Verma
 projectId: Samagra X
-authorImage: /img/person-vector.jpeg
+authorImage: /img/tanishk.jpg
 date: 2025-02-10T07:17:28.061Z
 description: Govind, a farmer from Barabanki, Uttar Pradesh, navigates a series
   of decisions every season- choosing the right paddy variety, correctly spacing
