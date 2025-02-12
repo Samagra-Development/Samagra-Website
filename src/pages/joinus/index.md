@@ -92,8 +92,8 @@ formsElements:
     options:
       - text: "2024"
       - text: "2025"
-    type: text
-    validation: VALID_NUMBER
+    type: select
+    validation: VALID_OPTION
     placeholder: S﻿elect year of graduation
   - contentDescription: " "
     label: Current/Previous Employer
@@ -114,7 +114,7 @@ formsElements:
       - text: 1 month
       - text: 2 months
       - text: 3 months
-    placeholder: Select Duration
+    placeholder: Mention Duration
     required: true
     type: text
     validation: VALID_NUMBER
