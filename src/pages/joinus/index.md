@@ -10,7 +10,7 @@ formAcceptance: 'Register for <a target={"_blank"}
   7 PM  <p> <p> Disclaimer: Case Interviews of applicants from Delhi-NCR will be
   held in-person at our <a target={"_blank"}
   href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office</a> <p>'
-showForm: true
+showForm: false
 verticalImage: /img/ug-drive-timelines-1-1-.jpg
 horizontalImage: /img/ug-drive-timelines-1-1-.jpg
 followLinkedin: /img/follow-linkedin.jpg
