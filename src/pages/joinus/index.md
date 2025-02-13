@@ -11,8 +11,8 @@ formAcceptance: 'Register for <a target={"_blank"}
   held in-person at our <a target={"_blank"}
   href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office</a> <p>'
 showForm: false
-verticalImage: /img/ug-drive-timelines-1-1-.jpg
-horizontalImage: /img/ug-drive-timelines-1-1-.jpg
+verticalImage: /img/ug-drive-timelines-new.jpeg
+horizontalImage: /img/ug-drive-timelines-new.jpeg
 followLinkedin: /img/follow-linkedin.jpg
 postSubInfo:
   heading: Thank you
