@@ -11,8 +11,8 @@ formAcceptance: 'Register for <a target={"_blank"}
   in-person at our <a target={"_blank"}
   href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office</a> <p>'
 showForm: false
-verticalImage: /img/ug-drive-timelines-new.jpeg
-horizontalImage: /img/ug-drive-timelines-new.jpeg
+verticalImage: /img/whatsapp-image-2025-02-14-at-11.56.33-am.jpeg
+horizontalImage: /img/whatsapp-image-2025-02-14-at-11.56.33-am.jpeg
 followLinkedin: /img/follow-linkedin.jpg
 postSubInfo:
   heading: Thank you
@@ -176,12 +176,7 @@ formsElements:
     validation: VALID_FILE
   - required: true
     label: 90 Second Video Submission
-    hint: Share 1 experience where you have demonstrated ‘drive’. Drive is when you
-      have consistently worked towards achieving a goal for an extended period
-      of time (at least for a few months). Feel free to elaborate on the efforts
-      you made and the hurdles you overcame in the process. This experience may
-      be in the academic, co-curricular, extra-curricular or professional
-      spheres.
+    hint: Why do you think you are a good fit for Samagra?
     placeholder: P﻿aste Unlisted YouTube Link
     validation: VALID_LINK
     type: text
