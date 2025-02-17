@@ -880,7 +880,7 @@ export const JoinUsFormSection = ({
                 >
                   *
                 </span> */}
-                <p
+                {/* <p
                   style={{
                     color: "white",
                     fontWeight: "600",
@@ -889,7 +889,7 @@ export const JoinUsFormSection = ({
                 >  
                   Please note - The designation offered would be determined
                   based on your profile and the interviews going forward.
-                </p>
+                </p> */}
               </div>
               <div
                 className="col-12 "
