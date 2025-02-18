@@ -1,65 +1,60 @@
 ---
 templateKey: project-post
-title: Saksham Haryana - Education
+title: Kushal Haryana
 domainNew: Education
-fullName: Saksham Haryana - Education
-id: SAKSHAM_EDUCATION
-backgroundCover: /img/saksham-header-b-1.jpg
+fullName: Kushal Haryana
+id: Kushal_Education
+backgroundCover: /img/dsc_1304.jpg
 domain: Education
-subTitle: "Facilitating attainment of grade-level competency in Haryana "
+subTitle: Establishing systemic enablers for grade-level competency & pioneering
+  a model of 21st century skills
 state: Haryana
 tagLine: "Facilitating attainment of grade-level competency in Haryana "
 projectLogoWithState: /img/saksham-logo.png
 overview:
-  - text: How does a state go about transforming its entire education system? This
-      was precisely the goal the Government of Haryana set for itself in 2017,
-      when it launched Saksham Haryana, its flagship programme aimed at
-      improving the quality of education in the state and making 80% students in
-      classes 1-8 grade-level competent, or Saksham in all government schools in
-      the state. Currently, Samagra’s Saksham Haryana-Education team, with
-      support from the Michael & Susan Dell Foundation, works with the Chief
-      Minister’s Office and the Department of Education to design and implement
-      state-wide interventions to facilitate attainment of grade-level
-      competency in the state to enable the National Education Policy (NEP) 2020
-      in Haryana. The first phase of this engagement concluded in May 2019, with
-      86% of students in classes 3,5 and 7 declared grade-level competent in
-      Hindi and Math. Currently, for elementary grades, the team is working on
-      post COVID remediation and overhauling of state conducted assessments. In
-      secondary grades, the team’s focus is on e-Adhigam, Haryana’s tablet based
-      learning program which is also India’s largest Ed-Tech program in govt
-      schools.
+  - text: Saksham Haryana, launched in 2017, successfully transformed learning
+      outcomes in government schools, with 80% of students in classes 1-8
+      achieving grade-level competency, or becoming 'Saksham'. Building on this
+      success, the aim has now shifted to making students future-ready or
+      'Kushal' through systemic reforms to ensure students in classes 6-12
+      achieve grade-level competency and acquire 21st-century skills essential
+      for higher education, careers, and entrepreneurship. This is being done in
+      collaboration with the Department of Education, Haryana and with support
+      from the Michael and Susan Dell Foundation. With a strong focus on
+      institutionalizing interventions for long-term impact, for elementary
+      grades the focus of Kushal Haryana is on improving classroom practices
+      through assessment reforms and enabling a robust teaching learning cycle.
+      For secondary grades, Kushal Haryana is working across board exam reforms,
+      vocational education, and entrepreneurship enablement.
 scale:
-  - count: 14,000
+  - count: 6,000
     label: Schools
-  - count: 1,00,000
+  - count: 55,000
     label: Teachers
-  - count: 24,00,000
+  - count: 13,50,000
     label: Students
-projectMiddleBannerImage: /img/cm-launch-11.jpeg
+projectMiddleBannerImage: /img/dsc_1450.jpg
 approach:
-  - text: Samagra’s approach to transforming school education combines both academic
-      and administrative reforms. This means we focus as much on improving the
-      quality of classroom interactions between students and teachers (through
-      remedial classes, assessment reforms, shifting focus from syllabus
-      completion to competency-based teaching, tech-based assessments,
-      large-scale tablets program), as on making the education system
-      administratively more efficient (by ensuring optimum teacher availability
-      in schools, robust review and monitoring mechanisms, ongoing mentoring and
-      training support for teachers). These academic and administrative reforms
-      are combined with accountability initiatives such as cascaded review and
-      monitoring mechanisms and third-party assessments, to keep track of
-      progress and carry out timely corrective action.
+  - text: '"Samagra’s approach to transforming education in Haryana under Kushal
+      Haryana is holistic, integrating academic and administrative reforms with
+      the key focus on long-term institutionalization. On the academic front,
+      the program shifts focus from rote-based learning to competency-based
+      education, ensuring students achieve grade-level competency through
+      assessment reforms, teaching-learning cycle, and subject-specific
+      remediation. Simultaneously, administrative reforms ensure effective
+      teacher competency testing & certification, structured mentoring and
+      training, and data-driven monitoring mechanisms to sustain interventions
+      at scale. Beyond academics, the program focuses on equipping students with
+      21st-century skills, with a strong emphasis on career counselling,
+      entrepreneurial mindset development, and vocational education.   A core
+      principle of our approach is institutionalization for long-term
+      impact—embedding interventions within government systems to ensure
+      sustainability and scalability. "'
 readMore:
   - text: "E-Adhigam: Pedagogy lessons from Haryana for India"
   - text: What the NAS results tell us about school education in India
   - text: How Haryana made government school education a political priority
-impact:
-  - count: "14"
-    label: of 22 districts grade-competent
-  - count: 86%
-    label: students in Grades 3, 5 and 7 grade-competent
-  - count: "107"
-    label: of 119 blocks grade-competent
+impact: []
 keyInitiativesTitle: " "
 keyInitiatives: []
 partners:
