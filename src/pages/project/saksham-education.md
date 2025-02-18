@@ -3,7 +3,7 @@ templateKey: project-post
 title: Kushal Haryana
 domainNew: Education
 fullName: Kushal Haryana
-id: Kushal_Education
+id: kushal_education
 backgroundCover: /img/dsc_1304.jpg
 domain: Education
 subTitle: Establishing systemic enablers for grade-level competency & pioneering
