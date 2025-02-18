@@ -35,7 +35,7 @@ scale:
     label: Students
 projectMiddleBannerImage: /img/dsc_1450.jpg
 approach:
-  - text: '"Samagra’s approach to transforming education in Haryana under Kushal
+  - text: Samagra’s approach to transforming education in Haryana under Kushal
       Haryana is holistic, integrating academic and administrative reforms with
       the key focus on long-term institutionalization. On the academic front,
       the program shifts focus from rote-based learning to competency-based
@@ -49,7 +49,7 @@ approach:
       entrepreneurial mindset development, and vocational education.   A core
       principle of our approach is institutionalization for long-term
       impact—embedding interventions within government systems to ensure
-      sustainability and scalability. "'
+      sustainability and scalability.
 readMore:
   - text: "E-Adhigam: Pedagogy lessons from Haryana for India"
   - text: What the NAS results tell us about school education in India
