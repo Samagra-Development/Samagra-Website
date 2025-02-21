@@ -9,7 +9,8 @@ domain: Education
 subTitle: Establishing systemic enablers for grade-level competency & pioneering
   a model of 21st century skills
 state: Haryana
-tagLine: "Facilitating attainment of grade-level competency in Haryana "
+tagLine: Establishing systemic enablers for grade-level competency & pioneering
+  a model of 21st century skills
 projectLogoWithState: /img/kushal-haryana_website.png
 overview:
   - text: Saksham Haryana, launched in 2017, successfully transformed learning
