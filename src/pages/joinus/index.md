@@ -5,11 +5,12 @@ infoText1: Join Us
 infoText2: Refer to the Job Description <a target={"_blank"}
   href="https://drive.google.com/file/d/1y0-OxgFLlZTiTKaLtKKSFcetYyaMeAT3/view?usp=sharing"
   > here </a> <p>
-formAcceptance: 'Register for <a target={"_blank"}
-  href="http://bit.ly/samagra_ug_ama" > AMA Session </a> to be held on 24th Feb,
-  7 PM  <p> <p> Disclaimer: Interviews of applicants from Delhi-NCR will be held
-  in-person at our <a target={"_blank"}
-  href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office</a> <p>'
+formAcceptance: 'Refer the <a target={"_blank"}
+  href="https://drive.google.com/file/d/1hZT30cY45bStl9DzgjQTyEmGr2kCNnWg/view?usp=sharing"
+  > Governance consulting case book </a> to prepare for interviews.  <p> <p>
+  Disclaimer: Interviews of applicants from Delhi-NCR will be held in-person at
+  our <a target={"_blank"} href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" >
+  Delhi office</a> <p>'
 showForm: true
 verticalImage: /img/whatsapp-image-2025-02-14-at-11.56.33-am.jpeg
 horizontalImage: /img/whatsapp-image-2025-02-14-at-11.56.33-am.jpeg
