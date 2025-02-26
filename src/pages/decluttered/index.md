@@ -23,7 +23,12 @@ postCategories:
   - category: Judiciary
   - category: DPG
   - category: India as a Welfare State
+  - category: Civil Services
 postData:
+  - postCard:
+      selectedCategory: Civil Services
+      postImage: /img/cropped-image.png
+      urlLink: https://www.instagram.com/reel/DGin_4cS8BH/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
       urlLink: https://www.instagram.com/reel/DFuywR8giqi/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
       selectedCategory: India as a Welfare State
