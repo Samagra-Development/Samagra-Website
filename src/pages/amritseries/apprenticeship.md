@@ -53,22 +53,24 @@ title6: These interventions enabled better skilling opportunities for citizens
   in Haryana
 icon1: /img/apprenticeship_picture-1.jpg
 impactNumber1Char: ""
-impactNumber1: 0
+impactNumber1: 1
 impactNumber1Decimal: 0
-impactNumber1Text: ""
-impactNumber1Title: ""
-showPlus1: false
+impactNumber1Text: " Lakh"
+impactNumber1Title: Apprentices appointed
+showPlus1: true
+icon2: /img/apprenticeship_picture-2.jpg
 impactNumber2Char: ""
-impactNumber2: 0
+impactNumber2: 11500
 impactNumber2Decimal: 0
 impactNumber2Text: ""
-impactNumber2Title: ""
-showPlus2: false
-impactNumber3Char: ""
-impactNumber3: 0
+impactNumber2Title: Establishments engaged
+showPlus2: true
+icon3: /img/apprenticeship_picture-3.jpg
+impactNumber3Char: "#"
+impactNumber3: 1
 impactNumber3Decimal: 0
 impactNumber3Text: ""
-impactNumber3Title: ""
+impactNumber3Title: Rank of Haryana in apprentices per lakh population
 showPlus3: false
 impactNumber4Char: ""
 impactNumber4: 0
