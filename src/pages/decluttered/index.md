@@ -17,7 +17,6 @@ declutteredDescription:
   descriptionVideo: https://www.youtube.com/embed/zBRlux1sOZc?si=Wxt3VZk_my6ulh8K
 postCategories:
   - category: Administration
-  - category: Digital Governance
   - category: Elections
   - category: Policy
   - category: Judiciary
@@ -127,11 +126,11 @@ postData:
       urlLink: https://www.instagram.com/reel/C5JqJOlS31G/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
       postImage: /img/indiastack_resized.png
-      selectedCategory: Digital Governance
+      selectedCategory: DPG
       urlLink: https://www.instagram.com/reel/C4gn1mISBW7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
       postImage: /img/dpg_resize.jpg
-      selectedCategory: Digital Governance
+      selectedCategory: DPG
       urlLink: https://www.instagram.com/reel/C3YgDKvSG_f/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
       postImage: /img/file_resized.jpg
