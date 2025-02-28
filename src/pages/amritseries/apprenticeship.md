@@ -31,7 +31,7 @@ title5: Here is how the Haryana government worked towards making Apprenticeship
   a success
 showImpactVideo: false
 impactVideoLink: ""
-showImpactCard: false
+showImpactCard: true
 impactCardFontColor: "#DADADA"
 impactCards:
   - cardTitle: COMMUNICATION & AWARENESS
