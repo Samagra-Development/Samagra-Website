@@ -1,7 +1,7 @@
 ---
 templateKey: old-case-study
 formType: This is old case study form
-show: false
+show: true
 projectId: APPRENTICESHIP
 date: 2025-02-26T13:02:43.817Z
 featuredimage: /img/apprenticeship-workshop-4-.jpg
