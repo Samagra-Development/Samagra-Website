@@ -235,17 +235,6 @@ managersList:
     name: Aayush Malik
     project: Consultant, Outreach
     partTime: false
-  - bio: >-
-      Abhinav holds an MBA from the Indian Institute of Management Bangalore and
-      a Bachelor's degree in Mechanical Engineering from the Indian Institute of
-      Technology Bombay. 
-
-
-      Before joining Samagra, Abhinav worked with Vedanta Resources, driving high-impact strategic and process-improvement projects. He is passionate about driving impact by blending first-principle thinking, technological innovations, and a deep understanding of the end user.
-    project: Emerging Leader 2
-    name: Abhinav Banka
-    image: /img/abhinav-banka.jpg
-    linkedInProfile: https://www.linkedin.com/in/abhinav-banka/
   - name: Abhishek Rao
     image: /img/abhishekrao.jpg
     project: Consultant
@@ -367,17 +356,6 @@ managersList:
       A strong desire to positively impact the citizens is what brought him to Samagra.
     linkedInProfile: https://www.linkedin.com/in/rajanyadey/
     image: /img/rajanya.jpg
-  - name: Shitiz Singhal
-    project: Product Manager
-    image: /img/shitiz.jpg
-    bio: Shitiz Singhal holds a Bachelor of Technology (B. Tech) degree from the
-      Indian Institute of Technology, Roorkee. Prior to joining Samagra, Shitiz
-      gained significant experience in product management, having worked at
-      companies like Zomato, where he contributed to scaling key digital
-      products. His expertise spans across technology, management, and driving
-      social impact through innovative product solutions. Shitiz is passionate
-      about leveraging technology to solve public sector challenges.
-    linkedInProfile: https://www.linkedin.com/in/shitiz-s/
   - name: Shivesh Kumar
     image: /img/shivesh.jpg
     bio: Shivesh holds a Post Graduate Program in Management from the Indian School
