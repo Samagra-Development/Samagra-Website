@@ -11,7 +11,7 @@ formAcceptance: 'Refer the <a target={"_blank"}
   Disclaimer: Interviews of applicants from Delhi-NCR will be held in-person at
   our <a target={"_blank"} href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" >
   Delhi office</a> <p>'
-showForm: false
+showForm: true
 verticalImage: /img/whatsapp-image-2025-02-14-at-11.56.33-am.jpeg
 horizontalImage: /img/whatsapp-image-2025-02-14-at-11.56.33-am.jpeg
 followLinkedin: /img/follow-linkedin.jpg
