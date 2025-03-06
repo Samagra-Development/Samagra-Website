@@ -4,7 +4,7 @@ title: "Kumbh Sah'AI'yak: Bringing AI to the Common (Wo)man at the World’s
   Largest Congregation"
 author: Simran Bagga and Amit Gupta
 projectId: Kumbh Sah'AI'yak
-authorImage: /img/blog-feature.png
+authorImage: /img/person-vector.jpeg
 date: 2025-03-06T07:03:20.652Z
 description: Artificial Intelligence (AI) has emerged as the defining disruptor
   of our times — lowering costs, scaling solutions, and transforming industries
