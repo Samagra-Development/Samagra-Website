@@ -5,7 +5,7 @@ title: "Ensuring Learning for All: Himachal Pradesh’s Timely Textbook Delivery
 author: Samarth Team
 projectId: Samarth
 authorImage: /img/person-vector.jpeg
-date: 2025-03-07T10:12:58.682Z
+date: 2024-11-27T10:12:58.682Z
 description: "In the picturesque yet challenging terrain of Himachal Pradesh,
   ensuring access to education is no easy task. Among the challenges faced by
   the state's education system consisting of 15,000+ government schools catering
