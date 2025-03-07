@@ -23,7 +23,7 @@ Samagra had already pioneered [Bharat Sah'AI'yak](https://www.youtube.com/watch?
 
 With the Kumbh Mela in sight, Samagra, with support from the Gates Foundation, brought together leading ecosystem players to co-create Kumbh Sah'AI'yak by leveraging the best of the ecosystem. The Prayagraj Mela Authority, responsible for conducting the Mela, and UPDESCO, UP’s nodal agency for IT and ITeS services, collaborated to shape the chatbot’s deployment. Ola Group’s Krutrim provided hosted Large Language Model (LLM) infrastructure for open-source models, while the Government of India’s Bhashini enhanced multilingual capabilities. This strategic convergence ensured a robust, scalable chatbot tailored to the diverse needs of Kumbh pilgrims.
 
-Building for the Kumbh
+### Building for the Kumbh
 
 The Kumbh Mela hosted more than 65 crore visitors from India and around the world. While this presented an unparalleled opportunity to use AI for the benefit of the common citizen, it also posed significant challenges. The chatbot needed to be religiously sensitive, ensuring all responses were respectful and aligned with the sentiments of the pilgrims. Accuracy was paramount—any misinformation could lead to confusion or even disruptions in the event’s operations. Hence, developing an AI chatbot for Kumbh Mela wasn’t just about repurposing existing models. It required deep customization to address these unique challenges.
 
@@ -57,7 +57,7 @@ By leveraging this comprehensive dataset, the chatbot was able to answer queries
 
 To further enhance accuracy and mitigate AI hallucinations, all information in the knowledge repository was structured as Q&A pairs, ensuring that the chatbot strictly responded within the predefined FAQ framework. This ring-fencing approach prevented misinformation and maintained high response reliability. Additionally, an automated test bed was developed to facilitate iterative testing and quality improvements, allowing for continuous refinement of responses based on real-world interactions.
 
-Profanity Safeguards
+### Profanity Safeguards
 
 Profanity checks were put in place to guard the chatbot against profane and socially or religiously insensitive queries. 
 
@@ -90,7 +90,7 @@ Post the launch, extensive branding campaigns were undertaken to make pilgrims a
 
 ![](/img/kumbh-p6.png)
 
-Fig: Diverse digital & physical channels mediums used for the promotion of the chatbot
+*Fig: Diverse digital & physical channels mediums used for the promotion of the chatbot*
 
 As a result, Kumbh Sah'AI'yak was used by more than 3 Lakh pilgrims before and during the Mela. 
 
@@ -100,7 +100,7 @@ Travel and stay came out as the largest used use case and English and Hindi foll
 
 ![](/img/kumbh-p8.png)
 
-Fig: Share of users based on (a) Use Case Wise (b) Language Wise
+*Fig: Share of users based on (a) Use Case Wise (b) Language Wise*
 
 ### Learnings from Kumbh Sah'AI'yak
 
