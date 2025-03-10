@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: "Unlocking Opportunities: Transforming Group D Recruitment in Haryana"
+title: "Amrit Series #11: Unlocking Opportunities - Transforming Group D
+  Recruitment in Haryana"
 author: Saksham Haryana Skills and Employment Program
 projectId: Saksham Haryana Skills and Employment Program
 authorImage: /img/person-vector.jpeg
