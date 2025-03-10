@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Transforming Agricultural Extension in Odisha
+title: "Amrit Series #12: Transforming Agricultural Extension in Odisha"
 author: KONNECT Team
 projectId: KONNECT
 authorImage: /img/person-vector.jpeg
@@ -8,7 +8,7 @@ date: 2025-01-18T15:40:33.447Z
 description: Odisha is home to over 80 lakh farmers, with more than 90% of them
   having small or marginal landholdings. Whilst the average income of farmers in
   Odisha is low at INR 9,200/month, it is growing at a healthy CAGR of 17%.
-featuredimage: /img/5-ksa.png
+featuredimage: /img/ksas.png
 ---
 <!--StartFragment-->
 
