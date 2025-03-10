@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
-title: "Ensuring Learning for All: Himachal Pradesh’s Timely Textbook Delivery
-  Transformation  "
+title: "Amrit Series #9: Ensuring Learning for All: Himachal Pradesh’s Timely
+  Textbook Delivery Transformation  "
 author: Samarth Team
 projectId: Samarth
 authorImage: /img/person-vector.jpeg
