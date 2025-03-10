@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Transforming Teacher Transfers in Haryana
+title: "Amrit Series #10: Transforming Teacher Transfers in Haryana"
 author: Saksham Haryana Education Team
 projectId: Saksham Haryana Education Programme
 authorImage: /img/person-vector.jpeg
