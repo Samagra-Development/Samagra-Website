@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: "Transforming Governance in Haryana: The Success Story of CMGGA"
+title: "Amrit Series #8: Transforming Governance in Haryana - The Success Story
+  of CMGGA"
 author: CMGGA Team
 projectId: CMGGA
 authorImage: /img/person-vector.jpeg
