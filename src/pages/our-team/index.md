@@ -233,7 +233,7 @@ managersList:
     image: /img/aayush-malik.jpg
     linkedInProfile: https://www.linkedin.com/in/aayush-malik/
     name: Aayush Malik
-    project: Consultant, Outreach
+    project: Consultant
     partTime: false
   - name: Abhishek Rao
     image: /img/abhishekrao.jpg
