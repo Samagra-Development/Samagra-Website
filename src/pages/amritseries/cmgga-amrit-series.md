@@ -89,8 +89,9 @@ impactNumber3Decimal: 0
 impactNumber3Title: Schemes’ delivery made accessible & transparent via Saral Kendra & Portal
 showPlus3: true
 icon4: /img/cmggaicon4.jpg
-impactNumber4: 14000
+impactNumber4: 14
 impactNumber4Decimal: 0
+impactNumber4Text: " Lakh"
 impactNumber4Title: Students impacted through work in Saksham Haryana (Education)
 showPlus4: true
 icon5: /img/cmggaicon5.jpg
