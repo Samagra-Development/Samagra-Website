@@ -1,7 +1,7 @@
 ---
 templateKey: old-case-study
 formType: This is old case study form
-show: false
+show: true
 projectId: KALIA
 date: 2025-03-25T05:42:13.471Z
 featuredimage: /img/1-ksa.png
