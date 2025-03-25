@@ -8,7 +8,7 @@ featuredimage: /img/1-ksa.png
 buttonText: Learn More
 title: KALIA
 fontColor: "#206d19"
-bannerImage: /img/02_screen.mp4
+bannerImage: /img/kalia_header-animation.mp4
 title1: India's first program for income augmentation for cultivators  and
   landless agriculture labourers
 title2: KALIA scheme aims to provide direct support to small and marginal
