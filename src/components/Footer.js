@@ -57,7 +57,7 @@ export const FooterComponent = ({}) => {
             >
               <div className="footer-heading">About Us</div>
               <div>
-                <Link to={"/team"}>
+                <Link to={"/our-team"}>
                   <span className="footer-item">Team</span>
                 </Link>
               </div>
