@@ -252,7 +252,7 @@ export class HeaderSmall extends React.Component {
                       onClick={() => {
                         this.setState({ popupOpened: "inactive" });
                       }}
-                      href="/team"
+                      href="/our-team"
                     >
                       Team
                     </a>
