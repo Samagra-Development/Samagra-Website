@@ -159,7 +159,7 @@ export const OurTeamPage = ({ data }) => {
               className="overlay"
               onClick={() => setShowPopup({ index: -1, list: null })}
             />
-            <div className="popup-content-section-new">
+            <div className="popup-content-section-new overflow-hidden">
               <div
                 className="cross-button"
                 onClick={() => setShowPopup({ index: -1, list: null })}
@@ -198,8 +198,8 @@ export const OurTeamPage = ({ data }) => {
                       </div>
                     )}
                   </div>
-                  <div className="popup-description">
-                    <p className="f-16">{popupMember.bio}</p>
+                  <div className="popup-description ">
+                    <p className="f-16 ">{popupMember.bio}</p>
                   </div>
                 </div>
               </div>
