@@ -12,7 +12,7 @@ mainContent:
       its consultants a steep professional learning curve and an opportunity to
       create real impact on the ground.
 solutions_built:
-  - image: /img/20240228_mm_c1-420.jpg
+  - image: /img/agriculture2.png
     text: Agriculture
     subText: Our work in this domain has impacted the lives of 3 Cr+ farmers across
       the states of Odisha and Uttar Pradesh
