@@ -83,6 +83,7 @@ const JourneySoFar = ({ journeyData }) => {
     timelineImageContainer: {
       width: '50%',
       padding: '0 20px',
+      boxShadow: "4px 4px white",
       display: 'flex',
       justifyContent: 'center',
     },
@@ -154,6 +155,7 @@ const JourneySoFar = ({ journeyData }) => {
     timelineImageContainerMobile: {
       width: '100%',
       marginBottom: '20px',
+      boxShadow: "4px 4px white",
     },
     timelineContentMobile: {
       width: '100%',
