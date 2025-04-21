@@ -2107,7 +2107,7 @@ collections:
                   { label: Answer, name: answer, widget: text },
                 ],
             }
-      - file: "src/pages/careers2/index.md"
+      - file: "src/pages/samagrax/index.md"
         label: "SamagraX Page"
         name: "samagrax"
         fields:
