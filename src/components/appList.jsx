@@ -52,13 +52,16 @@ justifyContent:"space-around"
                 border:"1px solid #CCCCCC",
                 padding: "25px",
                 maxWidth: "586px",
+                flexDirection: "column",
+                display: "flex",
+                alignItems: "center",
               }}
             >
               <img 
                 src={item.image.childImageSharp.fluid.src} 
                 alt={item.text}
                 style={{
-                  width: "267.13px",
+                  height: "115.13px",
                   borderRadius: "8px",
                   marginBottom: "15px"
                 }}

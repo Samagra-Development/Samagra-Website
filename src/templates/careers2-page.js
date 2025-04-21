@@ -2,11 +2,7 @@ import React from 'react'
 import {graphql} from 'gatsby'
 import Layout from '../components/Layout'
 import CareerBannerImage from "../components/CareerPageComponents/CareerBannerImage/CareerBanner";
-import CareerSectionSecond from "../components/CareerPageComponents/CareerSectionSecond/CareerSectionSecond";
-import CareerSectionThird from "../components/CareerPageComponents/CareerSectionThird/CareerSectionThird";
-import TestimonialSlider from "../components/CareerPageComponents/TestimonialSlider/TestimonialSlider";
-import PaginationSlider from "../components/CareerPageComponents/PaginationSlider/PaginationSlider";
-import CareerSectionFifth from "../components/CareerPageComponents/CareerSectionFifth/CareerSectionFifth";
+
 import JourneySoFar from '../components/journeySofar';
 import SolutionsBuilt from '../components/solutionsBuilt';
 import AppList from '../components/appList';
