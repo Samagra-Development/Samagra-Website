@@ -1346,7 +1346,6 @@ collections:
           name: impact,
           widget: list,
           required: false,
-
           fields:
             [
               { label: Count, name: count, widget: string,required: false },
@@ -2108,6 +2107,79 @@ collections:
                   { label: Answer, name: answer, widget: text },
                 ],
             }
+      - file: "src/pages/careers2/index.md"
+        label: "SamagraX Page"
+        name: "careers2"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "careers2-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Banner Image", name: bannerImage, widget: image }
+          - {
+              label: "Center Banner Image",
+              name: centerBanner,
+              widget: object,
+              fields: [{ label: Image, name: image, widget: image }],
+            }
+          - {
+              label: "Main Text",
+              name: mainContent,
+              widget: list,
+              fields: 
+                [
+                  { label: "Text", name: text, widget: string }
+                ],
+            }
+          - {
+              label: "Solutions Built",
+              name: solutions_built,
+              widget: list,
+              required: true ,
+              fields:
+                [
+                  { label: Image, name: image, widget: image ,required: true },
+                  { label: Text, name: text, widget: string ,required: true },
+                  { label: SubText, name: subText, widget: string ,required: true },
+                  { label: "Know More Link", name: knowMoreLink, widget: string,required: true }
+                ],
+            }
+          - {
+              label: "Section 3",
+              name: section3,
+              widget: object,
+              fields:
+                [
+                 { label: Description, name: description, widget: string ,required: true },
+                 { label: "App List",
+                    name: appList,
+                    widget: list,
+                    required: true ,
+                   fields: 
+                    [
+                     { label: Image, name: image, widget: image, required: true  },
+                     { label: Text, name: text, widget: string , required: true },
+                     { label: SubText, name: subText, widget: string , required: true },
+                     { label: "App link", name: applink, widget: string, required: true }
+                    ],
+                  }
+               ],
+            }
+          - {
+              label: "Journey so far",
+              name: journeySoFar,
+              widget: list,
+              required: true ,
+              fields:
+                [
+                  { label: Image, name: image, widget: image, required: true  },
+                  { label: Text, name: text, widget: string, required: true  },
+                  { label: SubText, name: subText, widget: string, required: true  },
+                ],
+             }
       - file: "src/pages/governanceframeworks/index.md"
         label: "Frameworks Page"
         name: "frameworks"
