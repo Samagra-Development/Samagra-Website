@@ -2108,7 +2108,7 @@ collections:
                 ],
             }
       - file: "src/pages/careers2/index.md"
-        label: "Careers2 Page"
+        label: "SamagraX Page"
         name: "careers2"
         fields:
           - {
@@ -2129,7 +2129,10 @@ collections:
               label: "Main Text",
               name: mainContent,
               widget: list,
-              fields: [{ label: "Text", name: text, widget: string }],
+              fields: 
+                [
+                  { label: "Text", name: text, widget: string }
+                ],
             }
           - {
               label: "Solutions Built",
@@ -2143,12 +2146,11 @@ collections:
                   { label: SubText, name: subText, widget: string ,required: true },
                   { label: "Know More Link", name: knowMoreLink, widget: string,required: true }
                 ],
-             }
-           - {
+            }
+          - {
               label: "Section 3",
               name: section3,
               widget: object,
-              required: true ,
               fields:
                 [
                  { label: Description, name: description, widget: string ,required: true },
@@ -2156,13 +2158,15 @@ collections:
                     name: appList,
                     widget: list,
                     required: true ,
-                   fields: [
-                  { label: Image, name: image, widget: image, required: true  },
-                  { label: Text, name: text, widget: string , required: true },
-                  { label: SubText, name: subText, widget: string , required: true },
-                  { label: "App link", name: applink, widget: string, required: true }
-                ],}
-                ],
+                   fields: 
+                    [
+                     { label: Image, name: image, widget: image, required: true  },
+                     { label: Text, name: text, widget: string , required: true },
+                     { label: SubText, name: subText, widget: string , required: true },
+                     { label: "App link", name: applink, widget: string, required: true }
+                    ],
+                  }
+               ],
             }
           - {
               label: "Journey so far",
