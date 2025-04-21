@@ -128,6 +128,7 @@ const JourneySoFar = ({ journeyData }) => {
       color: 'white',
       textAlign: 'justify',
     },
+    
     timelineItemMobile: {
       display: 'flex',
       flexDirection: 'column',
