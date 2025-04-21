@@ -42,7 +42,7 @@ CMS.registerPreviewTemplate("joinus", JoinUsPreview);
 CMS.registerPreviewTemplate("mediacontent", MediaPostPreview);
 CMS.registerPreviewTemplate("partner", PartnerPagePreview);
 CMS.registerPreviewTemplate("careers", CareerPagePreview);
-CMS.registerPreviewTemplate("careers2", Career2PagePreview);
+CMS.registerPreviewTemplate("samagrax", Career2PagePreview);
 CMS.registerPreviewTemplate("casestudy", CaseStudyPreview);
 CMS.registerPreviewTemplate("oldcasestudy", OldCaseStudyPreview);
 CMS.registerPreviewTemplate("ksk", KSKPreview);
