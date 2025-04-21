@@ -9,7 +9,7 @@ const SolutionsBuilt = ({ solutions }) => {
     <div className="solutions-built-container" style={{ 
       display: "flex", 
       flexDirection: "column", 
-      gap: "69px", 
+      gap: "35px", 
       backgroundColor: "#880163",
       padding: "40px 20px"
     }}>
