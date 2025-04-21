@@ -2109,7 +2109,7 @@ collections:
             }
       - file: "src/pages/careers2/index.md"
         label: "SamagraX Page"
-        name: "careers2"
+        name: "samagrax"
         fields:
           - {
               label: "Template Key",
