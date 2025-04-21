@@ -128,7 +128,7 @@ const JourneySoFar = ({ journeyData }) => {
       color: 'white',
       textAlign: 'justify',
     },
-    
+
     timelineItemMobile: {
       display: 'flex',
       flexDirection: 'column',
@@ -219,7 +219,7 @@ const JourneySoFar = ({ journeyData }) => {
         
         <div style={styles.timelineImageContainerMobile}>
           <img 
-            src={item.image === 'string' ? item.image : item.image.childImageSharp.fluid.src} 
+            src={item.image === 'string' ? item?.image : item.image?.childImageSharp?.fluid?.src } 
             alt={`Journey ${item.text}`} 
             style={styles.timelineImage}
           />
@@ -247,7 +247,7 @@ const JourneySoFar = ({ journeyData }) => {
       >
         <div style={styles.timelineImageContainer}>
           <img 
-            src={item.image === 'string' ? item.image : item.image.childImageSharp.fluid.src} 
+            src={item.image === 'string' ? item.image : item.image?.childImageSharp?.fluid?.src} 
             alt={`Journey ${item.text}`} 
             style={styles.timelineImage}
           />

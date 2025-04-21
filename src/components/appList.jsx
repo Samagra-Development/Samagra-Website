@@ -58,7 +58,7 @@ justifyContent:"space-around"
               }}
             >
               <img 
-                src={item.image.childImageSharp.fluid.src} 
+                src={item.image?.childImageSharp?.fluid?.src || ''} 
                 alt={item.text}
                 style={{
                   height: "115.13px",

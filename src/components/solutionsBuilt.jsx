@@ -40,7 +40,7 @@ const SolutionsBuilt = ({ solutions }) => {
           >
             <img 
               style={{ width: "100%" }} 
-              src={item.image.childImageSharp.fluid.src} 
+              src={item.image?.childImageSharp?.fluid?.src || ''} 
               alt="Solutions Built" 
             />
             <h2 style={{ 
