@@ -229,7 +229,7 @@ export class HeaderSmall extends React.Component {
             </div>
             <div className={"header-list-item"}>
               <a
-                href={"https://tech.samagragovernance.in"}
+                href={"/samagrax"}
                 className="nav-link"
               >
                 SamagraX
