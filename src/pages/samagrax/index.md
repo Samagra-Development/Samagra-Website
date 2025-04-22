@@ -53,8 +53,8 @@ section3:
     - image: /img/app3.png
       text: Kisan Mitra AI
       subText: AI-driven Agri-bot that processes complex queries and generates
-        precise, context-aware recommendations, empowering farmers of UP with
-        actionable insights to improve productivity
+        precise, context-aware recommendations, empowering farmers of Uttar
+        Pradesh with actionable insights to improve productivity
       applink: /
     - image: /img/app4.png
       text: AMA Krushi AI
