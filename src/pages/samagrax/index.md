@@ -67,10 +67,10 @@ journeySoFar:
     text: "2016: Laying the Foundation"
     subText: In the early months, SamagraX fostered a strong MVP culture, developing
       several prototypes for state governments. This included Meri Yojana, a
-      scheme eligibility app in Haryana, and Samarth, an education
-      transformation platform in Himachal Pradesh. During this phase, we
-      realized the importance of understanding the factors that affect how these
-      products are implemented within the governance ecosystem.
+      scheme eligibility app in Haryana, and an education transformation
+      platform in Himachal Pradesh for the Samarth Program. During this phase,
+      we realized the importance of understanding the factors that affect how
+      these products are implemented within the governance ecosystem.
   - image: /img/journey2.jpeg
     text: "2017-18: Creating Initial Impact"
     subText: In this phase, SamagraX began implementing large-scale tech projects
