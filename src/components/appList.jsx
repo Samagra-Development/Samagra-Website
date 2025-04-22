@@ -82,7 +82,7 @@ justifyContent:"space-around"
               }}>
                 {item.subText}
               </p>
-              {item.applink && (
+              {/* {item.applink && (
                 <a 
                   href={item.applink}
                   style={{
@@ -95,7 +95,7 @@ justifyContent:"space-around"
                 >
                   Know More
                 </a>
-              )}
+              )} */}
             </div>
           ))}
         </div>
