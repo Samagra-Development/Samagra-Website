@@ -14,23 +14,23 @@ mainContent:
 solutions_built:
   - image: /img/agriculture2.png
     text: Agriculture
-    subText: Our work in this domain has impacted the lives of 3 Cr+ farmers across
-      the states of Odisha and Uttar Pradesh
+    subText: Lives of 3 Cr+ farmers positively impacted through our work across the
+      states of Odisha and Uttar Pradesh
     knowMoreLink: http://samagrax.samagragovernance.in/agriculture/
   - image: /img/servicedelivery.png
     text: Service Delivery
-    subText: Our work in this domain has impacted the lives of 2.7 Cr+ citizens in
-      the states of Haryana and Odisha
+    subText: Lives of 2.7 Cr+ citizens positively impacted through our work in the
+      states of Haryana and Odisha
     knowMoreLink: http://samagrax.samagragovernance.in/service-delivery/
   - image: /img/education6.png
     text: Education
-    subText: Our work in this domain has impacted the lives of 1 Cr+ students across
+    subText: Lives of 1 Cr+ students positively impacted through our work across
       Haryana and Uttar Pradesh
     knowMoreLink: http://samagrax.samagragovernance.in/education/
   - image: /img/dpgs.png
     text: DPGs
-    subText: Development & adoption of open-source digital solutions to be freely
-      accessed, reused, scaled for public benefit.
+    subText: Open-source digital solutions developed and adopted for free access,
+      reuse, and scaling for public benefit
     knowMoreLink: http://samagrax.samagragovernance.in/dpgs/
 section3:
   description: As a firm well-placed at the intersection of technology and
