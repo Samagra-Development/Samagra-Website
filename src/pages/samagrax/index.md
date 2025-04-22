@@ -91,7 +91,7 @@ journeySoFar:
       deployable solutions integrated with government systems, such as e-Samwad,
       an SMS-based teacher-parent app.
   - image: /img/journey4.jpeg
-    text: "2022 - Present: Exploring AI in Governance + Future Plans"
+    text: "2022 - Present: Exploring AI in Governance"
     subText: After years of leveraging technology to strengthen governance across
       states and sectors, SamagraX took a significant leap in 2022 with the
       launch of the Gov.AI Mission—an initiative to harness AI for governance.
