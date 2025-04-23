@@ -34,7 +34,7 @@ postData:
       urlLink: https://www.instagram.com/reel/DHBVOZNNbXx/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
       selectedCategory: Civil Services
-      postImage: /img/decluttered_cs_1.png
+      postImage: /img/screenshot-2025-04-23-at-2.17.31 pm.png
       urlLink: https://www.instagram.com/reel/DGin_4cS8BH/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
       urlLink: https://www.instagram.com/reel/DFuywR8giqi/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
