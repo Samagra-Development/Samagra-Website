@@ -25,6 +25,10 @@ postCategories:
   - category: Civil Services
 postData:
   - postCard:
+      urlLink: https://www.instagram.com/reel/DILsToLvGGw/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D
+      selectedCategory: Civil Services
+      postImage: /img/screenshot-2025-04-24-at-2.32.57 pm.png
+  - postCard:
       selectedCategory: Civil Services
       urlLink: https://www.instagram.com/reel/DHlBZdpAwIF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
       postImage: /img/cropped-image.png
