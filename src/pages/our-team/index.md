@@ -261,18 +261,6 @@ managersList:
       A strong motivation to enable society and state to co-create good governance using technology, brought him to Samagra. 
     project: Senior Consultant
     linkedInProfile: https://www.linkedin.com/in/amangup/
-  - name: Ashana Shukla
-    image: /img/ashana-shukla.jpg
-    project: Senior Consultant
-    bio: >-
-      Ashana holds an MBA from IIM Kozhikode and a Bachelor’s degree in
-      Electrical Engineering from Sardar Patel College of Engineering, Mumbai.
-      Before joining Samagra, she was working as an area sales manager for the
-      personal products division at Hindustan Unilever Limited. 
-
-
-      A strong motivation to bring positive change in the lives of citizens brings Ashana to Samagra. She intends to leverage her academic grounding and hands-on experience in sales to deliver impact at scale. 
-    linkedInProfile: https://www.linkedin.com/in/ashana-shukla/
   - name: Kishan Agarwal
     image: /img/kishan.jpg
     bio: >-
@@ -300,19 +288,6 @@ managersList:
 
       A strong motivation to transform lives of citizens, brings Parth to Samagra. He plans to leverage his experience in strategic roles and academic grounding to create #ImpactAtScale. 
     linkedInProfile: https://www.linkedin.com/in/shuklaparth/
-  - name: Prerna Bhandari
-    image: /img/prerna_7860.jpg
-    project: Senior Consultant
-    bio: >
-      Prerna holds a Bachelor's degree in Philosophy from Lady Shri Ram College
-      for Women, University of Delhi. She has also interned as a policy
-      researcher with the Deputy Chief Minister's Office, Government of Delhi,
-      where she undertook the process of streamlining and monitoring the MLALAD
-      funds of 11 revenue districts of Delhi and recommended policy level
-      interventions for improved functioning of the Delhi Urban Development
-      Authority. An opportunity to employ her problem-solving skills to create
-      sustainable impact brought her to Samagra.
-    linkedInProfile: https://www.linkedin.com/in/prerna-bhandari-112298141
   - name: Raghav Katyal
     project: Senior Consultant
     image: /img/raghav_7533.jpg
