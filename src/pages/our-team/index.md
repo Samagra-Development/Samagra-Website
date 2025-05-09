@@ -261,6 +261,15 @@ managersList:
       A strong motivation to enable society and state to co-create good governance using technology, brought him to Samagra. 
     project: Senior Consultant
     linkedInProfile: https://www.linkedin.com/in/amangup/
+  - partTime: false
+    image: /img/deepanshu.jpg
+    name: Deepanshu Singal
+    project: Consultant
+    bio: Deepanshu holds a Bachelor's degree in Economics, Politics, Philosophy, and
+      International Relations from Ashoka University. He joined Samagra
+      immediately after graduation and has steadily grown into a managerial role
+      over time.
+    linkedInProfile: https://www.linkedin.com/in/deepanshu-singal/
   - name: Kishan Agarwal
     image: /img/kishan.jpg
     bio: >-
