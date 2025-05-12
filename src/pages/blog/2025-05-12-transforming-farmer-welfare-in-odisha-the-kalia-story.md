@@ -45,11 +45,7 @@ At the heart of KALIA lies the challenge of identifying the eligible beneficiari
 **Green Forms and Red Forms:**\
 The process began with the rollout of Green Forms, a self-nomination mechanism through which farmers could enroll themselves as eligible for the scheme. In a display of scale and efficiency, over 96 lakh green forms were digitized, providing a real-time snapshot of potential beneficiaries across rural Odisha. Complementing this was the introduction of Red Forms, which allowed individuals who were not eligible—due to factors such as being large farmers, government employees, or urban applicants—to voluntarily remove their names from the list. This dual-form strategy ensured that the database was not only comprehensive, targeting the segments of the population that the welfare scheme intended to serve.
 
-
-
 ![](/img/kalia-2.png)
-
-
 
 ![](/img/kalia-3.png)
 
@@ -60,8 +56,16 @@ To further enhance the integrity of the beneficiary list, KALIA implemented a ro
 * Block Level: The process then moved to a broader scrutiny at the Block level, where designated nodal officers re-verified the data submitted by the Gram Panchayats. This redundant layer of verification was critical in eliminating duplications and potential errors.
 * District Level: Finally, at the District level, the data underwent a final round of validation before being fed into the central KALIA database. This hierarchical method of verification ensured that only truly eligible farmers and agricultural laborers were captured in the scheme’s records.
 
+
+
+![](/img/kalia-4.png)
+
 **Integration of Multiple Government Databases:**\
 A pivotal element that set KALIA apart was its ability to integrate data from over 20 government databases. These databases, including Aadhaar, land records, bank account verifications, teacher and police records, among others, were unified to create a comprehensive and reliable farmer database. The data unification process involved a meticulous cross-referencing of records to match entries even when discrepancies—such as differences in name spellings, inconsistent reporting of exclusion criteria fields—were present. This integration not only streamlined the beneficiary identification process but also played a key role in excluding ineligible applicants, such as government employees or high-income tax payees, thereby minimizing the risk of funds being misallocated.
+
+![](/img/kalia-5.png)
+
+![](/img/kalia-6.png)
 
 \
 **Direct Benefit Transfer (DBT) – A Paradigm Shift in Disbursal**
