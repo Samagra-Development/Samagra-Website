@@ -46,7 +46,7 @@ Farmers who require Artificial Insemination service for their cattle can book it
 
 Through this service, the state aims to build a robust AI service system to ensure efficient tracking and monitoring, systemic transparency and hence provide high quality and timely delivery of AI services to dairy farmers. 
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdct8RiFfhMgVKMB3EH33N_wrcOUmHNd-qktIiojP064InZEkCsQhcEGY-T8F2bZSlXZ0k8EA3bTQGs2PGae4MFS-pqH2j-6lBXYAsvLkWylifnFrMIvGaDaVuAqJ9WXYnouh8PSQ?key=as35gVRpMXq_BtCSFuTad76p)
+![](/img/screenshot-2025-05-13-at-11.45.55 am.png)
 
 
 
