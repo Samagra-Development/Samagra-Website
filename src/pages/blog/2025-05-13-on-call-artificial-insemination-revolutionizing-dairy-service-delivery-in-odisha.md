@@ -34,7 +34,9 @@ It is in this landscape that the On-Call AI service was introduced in Fisheries 
 
 ![](/img/screenshot-2025-05-13-at-11.20.31 am.png)
 
-**\*Figure 1:** Farmer books On-Call AI service by calling Krushi Samruddhi Helpline 155333; verified AI Technician delivers service at doorstep*
+
+
+**Figure 1:** Farmer books On-Call AI service by calling Krushi Samruddhi Helpline 155333; verified AI Technician delivers service at doorstep*
 
 **On-Call AI Service**
 
@@ -46,7 +48,9 @@ Through this service, the state aims to build a robust AI service system to ensu
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdct8RiFfhMgVKMB3EH33N_wrcOUmHNd-qktIiojP064InZEkCsQhcEGY-T8F2bZSlXZ0k8EA3bTQGs2PGae4MFS-pqH2j-6lBXYAsvLkWylifnFrMIvGaDaVuAqJ9WXYnouh8PSQ?key=as35gVRpMXq_BtCSFuTad76p)
 
-**\*Figure 2:** Process flow for service delivery of On-Call AI service for dairy farmers in Odisha*
+
+
+**Figure 2:** Process flow for service delivery of On-Call AI service for dairy farmers in Odisha*
 
 **\
 Pilot and Scale up Strategy for Implementation of On-Call AI Service**
@@ -63,7 +67,9 @@ As the platform continues to evolve, the F&ARD Department aims to scale up On-Ca
 
 ![](/img/screenshot-2025-05-13-at-11.21.46 am.png)
 
-**\*Figure 3:** Awareness of On-Call AI service spread through various media channels including newspapers, IVRS, Twitter, Instagram, etc*
+
+
+**Figure 3:** Awareness of On-Call AI service spread through various media channels including newspapers, IVRS, Twitter, Instagram, etc*
 
 **Learnings from On-Call AI**
 
