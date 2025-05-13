@@ -32,7 +32,9 @@ Earlier, the administration of AI on cattle was being managed in a decentralized
 
 It is in this landscape that the On-Call AI service was introduced in Fisheries and Animal Resource Development (F&ARD) Department by Samagra, with support from Gates Foundation — not as a high-tech overhaul, but as a farmer-first redesign of service delivery while enabling centralised service implementation and live monitoring by many officials like Dr. Soumyendra Dhal. What began as a simple helpline-based intervention in one district can now offer valuable insights for transforming dairy service delivery across the state through efficient usage of technology.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdKdGQ8Io3zS9V0avicIGzpnC_Rm_cz_0e0TcX4ttgEigfKYTdxA2w8fNuxR62wEz8lyUMZ7PZ5lZufXKNN-yA0EzOhTBCjyqkQPYzKkFkTU_8FgF-iqQLH4M0m18U36u8I1auwhA?key=as35gVRpMXq_BtCSFuTad76p)![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf6Hm0quKvee-j8mbZitI8mm3TwQlpGvDMUA10EK014xrxZtHtT-F3xEXXl5bHz9U6sp_gsQlg9hNBxOvafTT8KAmdgehYGoNz6ljpu1x6T4M8-Eo4V50FuVx2LjfQGJBU-vEVh7g?key=as35gVRpMXq_BtCSFuTad76p)***Figure 1:** Farmer books On-Call AI service by calling Krushi Samruddhi Helpline 155333; verified AI Technician delivers service at doorstep*
+![](/img/screenshot-2025-05-13-at-11.20.31 am.png)
+
+**\*Figure 1:** Farmer books On-Call AI service by calling Krushi Samruddhi Helpline 155333; verified AI Technician delivers service at doorstep*
 
 **On-Call AI Service**
 
@@ -44,7 +46,7 @@ Through this service, the state aims to build a robust AI service system to ensu
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdct8RiFfhMgVKMB3EH33N_wrcOUmHNd-qktIiojP064InZEkCsQhcEGY-T8F2bZSlXZ0k8EA3bTQGs2PGae4MFS-pqH2j-6lBXYAsvLkWylifnFrMIvGaDaVuAqJ9WXYnouh8PSQ?key=as35gVRpMXq_BtCSFuTad76p)
 
-***Figure 2:** Process flow for service delivery of On-Call AI service for dairy farmers in Odisha*
+**\*Figure 2:** Process flow for service delivery of On-Call AI service for dairy farmers in Odisha*
 
 **\
 Pilot and Scale up Strategy for Implementation of On-Call AI Service**
@@ -55,9 +57,13 @@ Phase 1 of the pilot was launched in Puri district in July 2023, and within six 
 
 Additionally, in order to provide motivation to AITs to get onboarded on On-Call AI service, AI related incentive mechanism was also streamlined. Under this initiative, all AITs delivering AI through On-Call AI were provided their incentives on a monthly basis instead of the earlier annual frequency, leading to incentivisation of the AITs. 
 
-As the platform continues to evolve, the F&ARD Department aims to scale up On-Call AI service to all 30 districts in Odisha through GO-SUGAM portal, a single platform for all dairy farmers to avail any dairy related schemes and services. 
+As the platform continues to evolve, the F&ARD Department aims to scale up On-Call AI service to all 30 districts in Odisha through GO-SUGAM portal, a single platform for all dairy farmers to avail any dairy related schemes and services.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfxtcuZDV4M_Iwa35Prnvut4V5mhINJMQqyiEknCMm5fzhnMxtWWVIWyemTduF8ajXmMGUYjJzAyEgPmtoBkTXLa51WoFBHaqtMZs3I7hGDTE8Erw3bEveGHCznjZNcWLh9xsZg?key=as35gVRpMXq_BtCSFuTad76p)***Figure 3:** Awareness of On-Call AI service spread through various media channels including newspapers, IVRS, Twitter, Instagram, etc*
+
+
+![](/img/screenshot-2025-05-13-at-11.21.46 am.png)
+
+**\*Figure 3:** Awareness of On-Call AI service spread through various media channels including newspapers, IVRS, Twitter, Instagram, etc*
 
 **Learnings from On-Call AI**
 
