@@ -15,7 +15,7 @@ description: >
   KALIA initiative, short for Krushak Assistance for Livelihood and Income
   Augmentation, is a model of direct, data-driven, and inclusive support
   designed to enhance transparency and efficiency in public service delivery.
-featuredimage: /img/kalia-1.png
+featuredimage: /img/screenshot-2025-05-13-at-9.32.34 am.png
 ---
 <!--StartFragment-->
 
@@ -56,8 +56,6 @@ To further enhance the integrity of the beneficiary list, KALIA implemented a ro
 * Block Level: The process then moved to a broader scrutiny at the Block level, where designated nodal officers re-verified the data submitted by the Gram Panchayats. This redundant layer of verification was critical in eliminating duplications and potential errors.
 * District Level: Finally, at the District level, the data underwent a final round of validation before being fed into the central KALIA database. This hierarchical method of verification ensured that only truly eligible farmers and agricultural laborers were captured in the scheme’s records.
 
-
-
 ![](/img/kalia-4.png)
 
 **Integration of Multiple Government Databases:**\
@@ -81,10 +79,16 @@ The DBT model was underpinned by a robust technological infrastructure. SBI’s 
 **Cost and Time Efficiency:**\
 The direct transfer model significantly reduced the costs associated with traditional cheque-based systems by eliminating the need for printing, transporting, and distributing cheques. The efficiency gains meant that a larger portion of the allocated funds was channeled directly to the beneficiaries, optimizing the overall impact of the scheme.
 
+![](/img/kalia-7.png)
+
 \
 **Grievance Redressal – Ensuring No One Is Left Behind**
 
 Acknowledging that any large-scale welfare initiative may encounter operational challenges, the KALIA scheme incorporated a comprehensive grievance redressal system designed to promptly address beneficiary concerns.
+
+
+
+![](/img/kalia-8.png)
 
 **The KALIA Portal:**\
 At the center of this mechanism was the KALIA Portal, a dedicated platform serving as the primary entry point for registering grievances. Beneficiaries could report issues related to incorrect data, payment delays, or other discrepancies directly through the portal. The platform was designed to be accessible, even to users with limited digital proficiency.
@@ -99,6 +103,10 @@ Every step in the grievance resolution process was systematically logged and mon
 
 Effective communication is critical to the success of any public initiative. For KALIA, an extensive IEC campaign was launched to ensure that all eligible farmers understood both the benefits of the scheme and the methods to access them.
 
+
+
+![](/img/kalia-9.png)
+
 **Diverse Media Outreach:**\
 The IEC strategy incorporated a mix of traditional and digital media channels to reach a broad audience. Advertisements on public transport served as mobile announcements, while full-page advertisements in leading newspapers conveyed detailed information about the scheme. In addition, community radio programs and television spots were instrumental in informing farmers who might not regularly access print or online media.
 
@@ -111,6 +119,10 @@ To ensure effective dissemination of information at the grassroots level, local 
 ### Coordinated Oversight and Continuous Process Improvement
 
 Beyond the technological and communication components, KALIA’s operational framework included coordinated oversight and a system for continuous process improvement.
+
+
+
+![](/img/kalia-10.png)
 
 **Real-Time Monitoring and Coordination:**\
 The initiative leveraged real-time data monitoring systems to track the progression of green and red form entries, fund transfers, and grievance resolutions. Dedicated communication channels, such as WhatsApp groups among officials, enabled rapid troubleshooting and immediate sharing of information. This real-time coordination was critical in managing the large volume of data and ensuring that administrative issues were swiftly resolved.
@@ -126,6 +138,12 @@ Recognizing that an effective system is supported by knowledgeable personnel, co
 The KALIA scheme distinguishes itself through its holistic and integrated approach. By combining advanced technology with rigorous process design and extensive community outreach, the initiative has created a streamlined, efficient system for delivering welfare support. The integration of multiple government databases allowed for precise beneficiary targeting, while the DBT model ensured prompt fund transfers. The multi-tier verification and grievance redressal mechanisms provided an additional layer of accountability and transparency, reinforcing the trust of stakeholders at every level.
 
 Furthermore, the extensive IEC campaign played a crucial role in bridging the awareness gap, ensuring that even remote communities were well-informed about the scheme’s processes and benefits. The result is a comprehensive public service model that effectively addresses the challenges of traditional welfare systems, sets new standards for transparency, and demonstrates a replicable blueprint for modern governance.
+
+**Impact**
+
+
+
+![](/img/kalia-11.png)
 
 Within five months of its launch, the KALIA initiative disbursed over ₹2,500 crores directly to the bank accounts of approximately 51 lakh farmers. The efficiency gains attributed to the DBT system and the rigorous verification processes were evident in these results. Data indicates that more than 96 lakh green forms and over 5 lakh red forms were processed accurately, ensuring that the financial support reached the intended beneficiaries.
 
