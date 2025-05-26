@@ -1918,8 +1918,8 @@ collections:
                 ]
             }
           - { label: "List 4 Title", name: "title4", widget: "string" }
-          - { label: "Show Employees", name: "showEmpoyees", widget: "boolean" }
-          - {
+          - { label: "Show Employees", name: "showEmployees", widget: "boolean" }
+          - { 
               label: Employees,
               name: employeesList,
               widget: list,

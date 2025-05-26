@@ -268,6 +268,8 @@ export const ourTeamPageQuery = graphql`
         title1
         title2
         title3
+        title4
+        showEmployees
         partnersList {
           image {
             childImageSharp {
