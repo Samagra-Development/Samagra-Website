@@ -18,18 +18,19 @@ export const OurTeamPage = ({ data }) => {
   const partners = post.frontmatter?.partnersList || [];
   const leaderships = post.frontmatter?.leadershipsList || [];
   const managers = post.frontmatter?.managersList || [];
+  const employees = post.frontmatter?.employeesList || [];
   const achievements = post.frontmatter?.achievements || [];
   const showAchievements = post.frontmatter?.showAchievements || false;
   const showPartners = post.frontmatter?.showPartners || false;
   const showLeadership = post.frontmatter?.showLeadership || false;
   const showManagers = post.frontmatter?.showManagers || false;
-
+  const showEmployees = post.frontmatter?.showEmployees || false;
 
   const teamFooter = post.frontmatter?.teamFooter || {};
   const title1 = post.frontmatter?.title1 || '';
   const title2 = post.frontmatter?.title2 || '';
   const title3 = post.frontmatter?.title3 || '';
-
+  const title4 = post.frontmatter?.title4 || ''; 
 
   const [hoveredMember, setHoveredMember] = useState(-1);
   const [showPopup, setShowPopup] = useState({ index: -1, list: null });
@@ -151,7 +152,9 @@ export const OurTeamPage = ({ data }) => {
         {showPartners && renderTeamSection(partners, title1, "partners")}
         {showLeadership && renderTeamSection(leaderships, title2, "leaderships")}
         {showManagers && renderTeamSection(managers, title3, "managers")}
+        {showEmployees && renderTeamSection(employees, title4, "employees")}
 
+        {/* Team Description Section */}
         {/* Popup Section */}
         {popupMember && (
           <div className="popup" id="team-popup">
@@ -294,6 +297,20 @@ export const ourTeamPageQuery = graphql`
           partTime
         }
         managersList {
+          image {
+            childImageSharp {
+              fluid(maxWidth: 240, quality: 64) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          name
+          bio
+          project
+          linkedInProfile
+          partTime
+        }
+        employeesList {
           image {
             childImageSharp {
               fluid(maxWidth: 240, quality: 64) {
