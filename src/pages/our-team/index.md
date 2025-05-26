@@ -421,7 +421,7 @@ employeesList:
       An opportunity to work with governments to create impact that reaches the last mile and help society inch towards a more equitable and inclusive future, brought him to Samagra. 
     image: /img/aayush-malik.jpg
     linkedInProfile: https://www.linkedin.com/in/aayush-malik/
-    name: Aayush Malik
+    name: Aayush
     project: Consultant
     partTime: false
   - name: Abhishek Rao
