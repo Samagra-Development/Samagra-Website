@@ -93,7 +93,7 @@ export const OurTeamPage = ({ data }) => {
         ? partners[showPopup.index]
         : showPopup.list === "leaderships"
           ? leaderships[showPopup.index]
-          : managers[showPopup.index]
+          : showPopup.list === "managers" ?managers[showPopup.index] : employees[showPopup.index]
       : null;
 
   return (
