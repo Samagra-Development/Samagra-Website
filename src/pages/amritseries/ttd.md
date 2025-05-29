@@ -88,7 +88,7 @@ title2: With more than 15 thousand government schools in Himachal Pradesh,
   supply chain problem of delivering textbooks to all students before the
   beginning of the academic year.
 title3: What was life like before?
-title4: Here is how the Himachal PRadesh government worked in a mission mode to
+title4: Here is how the Himachal Pradesh government worked in a mission mode to
   augment the 'political salience' and 'system capacity'
 infographic1:
   - img: /img/ttd_teacher.jpg
