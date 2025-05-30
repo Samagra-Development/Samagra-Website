@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import ReactMarkdown from "react-markdown";
@@ -37,6 +37,18 @@ export const OurTeamPage = ({ data }) => {
 
   const handlePopupOpen = (index, listName) => {
     setShowPopup({ index, list: listName });
+  };
+
+  // Create refs for each section
+  const partnersRef = useRef(null);
+  const leadershipsRef = useRef(null);
+  const managersRef = useRef(null);
+  const employeesRef = useRef(null);
+
+  const handleTabClick = (ref) => {
+    if (ref && ref.current) {
+      ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   };
 
   const renderTeamSection = (teamList, sectionTitle, listName) => {
@@ -132,6 +144,29 @@ export const OurTeamPage = ({ data }) => {
           </ReactMarkdown>
         </div>
 
+        {/* Tab Navigation */}
+        <div className="team-tabs" style={{ display: "flex", justifyContent: "center", gap: "16px", marginBottom: "32px" }}>
+          {partners.length > 0 && (
+            <button className="team-tab-btn" onClick={() => handleTabClick(partnersRef)}>
+              {title1 || "Partners"}
+            </button>
+          )}
+          {leaderships.length > 0 && (
+            <button className="team-tab-btn" onClick={() => handleTabClick(leadershipsRef)}>
+              {title2 || "Leadership"}
+            </button>
+          )}
+          {managers.length > 0 && (
+            <button className="team-tab-btn" onClick={() => handleTabClick(managersRef)}>
+              {title3 || "Managers"}
+            </button>
+          )}
+          {employees.length > 0 && (
+            <button className="team-tab-btn" onClick={() => handleTabClick(employeesRef)}>
+              {title4 || "Employees"}
+            </button>
+          )}
+        </div>
 
         {/* Achievements Section */}
         {showAchievements &&
@@ -149,10 +184,26 @@ export const OurTeamPage = ({ data }) => {
           </div>}
 
         {/* Team Sections */}
-        {showPartners && renderTeamSection(partners, title1, "partners")}
-        {showLeadership && renderTeamSection(leaderships, title2, "leaderships")}
-        {showManagers && renderTeamSection(managers, title3, "managers")}
-        {showEmployees && renderTeamSection(employees, title4, "employees")}
+        {partners.length > 0 && (
+          <div ref={partnersRef}>
+            {renderTeamSection(partners, title1, "partners")}
+          </div>
+        )}
+        {leaderships.length > 0 && (
+          <div ref={leadershipsRef}>
+            {renderTeamSection(leaderships, title2, "leaderships")}
+          </div>
+        )}
+        {managers.length > 0 && (
+          <div ref={managersRef}>
+            {renderTeamSection(managers, title3, "managers")}
+          </div>
+        )}
+        {employees.length > 0 && (
+          <div ref={employeesRef}>
+            {renderTeamSection(employees, title4, "employees")}
+          </div>
+        )}
 
         {/* Team Description Section */}
         {/* Popup Section */}

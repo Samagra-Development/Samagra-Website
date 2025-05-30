@@ -458,6 +458,20 @@ collections:
           default: "",
         }
       - {
+          label: "Infographic Google Drive Link 2",
+          name: "infographicGoogleDriveLink2",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Download Infographic button text 2",
+          name: "downloadInfographicBtn2",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
           label: "Title 8",
           name: "title8",
           widget: "string",
@@ -1054,6 +1068,20 @@ collections:
       - {
           label: "Download Infographic button text",
           name: "downloadInfographicBtn",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Infographic Google Drive Link 2",
+          name: "infographicGoogleDriveLink2",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Download Infographic button text 2",
+          name: "downloadInfographicBtn2",
           widget: "string",
           required: false,
           default: "",

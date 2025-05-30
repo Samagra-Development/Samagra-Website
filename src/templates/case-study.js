@@ -1024,7 +1024,7 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 </button>
               </div>
             )}
-            {content?.downloadInfographicBtn && (
+            {content?.downloadInfographicBtn2 && (
               <div
                 className="casestudy-btn-container"
                 style={{
@@ -1047,14 +1047,14 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                   }}
                   onClick={() => {
                     const link = document.createElement("a");
-                    link.href = content?.infographicGoogleDriveLink;
+                    link.href = content?.infographicGoogleDriveLink2;
                     link.target = "_blank";
                     document.body.appendChild(link);
                     link.click();
                     document.body.removeChild(link);
                   }}
                 >
-                  {content?.downloadInfographicBtn}
+                  {content?.downloadInfographicBtn2}
                 </button>
               </div>
             )}
@@ -1689,7 +1689,8 @@ export const pageQuery = graphql`
         }
         infographicGoogleDriveLink
         downloadInfographicBtn
-
+        infographicGoogleDriveLink2
+        downloadInfographicBtn2
         showWebinar
         webinarTitle
         webinarLink
