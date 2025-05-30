@@ -101,6 +101,8 @@ impactNumber5Title: Ponds rejuvenated to enhance water capacity & panchayat inco
 showPlus5: true
 infographicGoogleDriveLink: https://drive.google.com/file/d/1qAsgdQk3BhQBs3sJIVse3TayznDwIwuh/view?usp=sharing
 downloadInfographicBtn: Download Infographic
+downloadInfographicBtn2: ""
+infographicGoogleDriveLink2: ""
 title7: Insights from the ground
 showBlog: false
 showOpEd: true

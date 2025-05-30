@@ -28,6 +28,8 @@ cardDescription3: Online HR management system set-up to enable teacher
   preference  collection and implement  rule-based assignment  across the state
 impactVideoLink: ""
 downloadInfographicBtn: Download Infographic
+downloadInfographicBtn2: ""
+infographicGoogleDriveLink2: ""
 footerText2: "Write to us at: outreach@samagragovernance.in"
 successStoriesTitle: View more <i> Success Stories of Impact </i>
 cardLink2: ""

@@ -118,6 +118,8 @@ impactNumber5Title: ""
 showPlus5: false
 infographicGoogleDriveLink: https://drive.google.com/file/d/12JlJ5R3S83fXd2dxnktaiFoYBsa6ezQm/view?usp=sharing
 downloadInfographicBtn: Download Infographic
+downloadInfographicBtn2: ""
+infographicGoogleDriveLink2: ""
 title7: Insights from the ground
 showBlog: true
 blogTitle: Himachal Pradesh sets example by giving school textbooks in advance

@@ -114,6 +114,8 @@ impactNumber5Title: Reduction in delivery time of applications across schemes an
 showPlus5: true
 infographicGoogleDriveLink: https://drive.google.com/file/d/1qux_0xs5JyS6hE_0-IhBPwb5J-my5KoH/view?usp=drive_link
 downloadInfographicBtn: Download Infographic
+downloadInfographicBtn2: ""
+infographicGoogleDriveLink2: ""
 title7: In Media
 showBlog: false
 blogTitle: Blog

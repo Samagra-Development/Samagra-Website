@@ -73,6 +73,8 @@ impactNumber4: 0
 showsideIcon4: false
 impactNumber5Decimal: 0
 downloadInfographicBtn: Download Infographic
+downloadInfographicBtn2: ""
+infographicGoogleDriveLink2: ""
 testimonialText: Lorem ipsum dolor sit amet consectetur adipisicing elit.
   Consectetur repellat cumque similique, sapiente ipsa alias nisi enim nesciunt
   officiis, quo ex autem magni, necessitatibus in nostrum cupiditate fugit

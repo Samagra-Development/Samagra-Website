@@ -28,6 +28,8 @@ impactNumber3Text: ""
 impactNumber4: 44
 impactNumber5: 99
 downloadInfographicBtn: Download Infographic
+downloadInfographicBtn2: ""
+infographicGoogleDriveLink2: ""
 title8: Insights from the ground
 webinarLink: /blog/2023-12-25-amrit-series-1-krushi-samiksha-kendra/
 showTestimonial: false
