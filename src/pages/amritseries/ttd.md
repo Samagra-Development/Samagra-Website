@@ -141,7 +141,8 @@ impactCards:
     cardDescription: Initiating the tender process for printing of textbooks early on
   - img: /img/ttd_img_3.jpg
     cardTitle: OPTIMISING FOR DELIVERY
-    cardDescription: Shift from multiple distributors being mapped to one schoolfootersubText1: T﻿his work has been done under
-  [Samarth](https://samagragovernance.in/project/samarth/) program with the
+    cardDescription: Shift from multiple distributors being mapped to one school
+footersubText1: T﻿his work has been done under
+    [Samarth](https://samagragovernance.in/project/samarth/) program with the
   support of Government of Hi﻿machal Pradesh.
 ---
