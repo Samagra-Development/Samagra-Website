@@ -145,28 +145,7 @@ export const OurTeamPage = ({ data }) => {
         </div>
 
         {/* Tab Navigation */}
-        <div className="team-tabs" style={{ display: "flex", justifyContent: "center", gap: "16px", marginBottom: "32px" }}>
-          {partners.length > 0 && (
-            <button className="team-tab-btn" onClick={() => handleTabClick(partnersRef)}>
-              {title1 || "Partners"}
-            </button>
-          )}
-          {leaderships.length > 0 && (
-            <button className="team-tab-btn" onClick={() => handleTabClick(leadershipsRef)}>
-              {title2 || "Leadership"}
-            </button>
-          )}
-          {managers.length > 0 && (
-            <button className="team-tab-btn" onClick={() => handleTabClick(managersRef)}>
-              {title3 || "Managers"}
-            </button>
-          )}
-          {employees.length > 0 && (
-            <button className="team-tab-btn" onClick={() => handleTabClick(employeesRef)}>
-              {title4 || "Employees"}
-            </button>
-          )}
-        </div>
+      
 
         {/* Achievements Section */}
         {showAchievements &&
@@ -182,24 +161,45 @@ export const OurTeamPage = ({ data }) => {
               ))}
             </div>
           </div>}
-
+  <div className="team-tabs" style={{ display: "flex", justifyContent: "center", gap: "16px", marginBottom: "32px" }}>
+          {(partners.length > 0 && showPartners)&& (
+            <button className="team-tab-btn" onClick={() => handleTabClick(partnersRef)}>
+              {title1 || "Partners"}
+            </button>
+          )}
+          {(leaderships.length > 0 && showLeadership)&& (
+            <button className="team-tab-btn" onClick={() => handleTabClick(leadershipsRef)}>
+              {title2 || "Leadership"}
+            </button>
+          )}
+          {(managers.length > 0 && showManagers)&& (
+            <button className="team-tab-btn" onClick={() => handleTabClick(managersRef)}>
+              {title3 || "Managers"}
+            </button>
+          )}
+          {(employees.length > 0 && showEmployees)&& (
+            <button className="team-tab-btn" onClick={() => handleTabClick(employeesRef)}>
+              {title4 || "Employees"}
+            </button>
+          )}
+        </div>
         {/* Team Sections */}
-        {partners.length > 0 && (
+        {(partners.length > 0 && showPartners)&& (
           <div ref={partnersRef}>
             {renderTeamSection(partners, title1, "partners")}
           </div>
         )}
-        {leaderships.length > 0 && (
+        {(leaderships.length > 0 && showLeadership)&&  (
           <div ref={leadershipsRef}>
             {renderTeamSection(leaderships, title2, "leaderships")}
           </div>
         )}
-        {managers.length > 0 && (
+        {(managers.length > 0 && showManagers)&& (
           <div ref={managersRef}>
             {renderTeamSection(managers, title3, "managers")}
           </div>
         )}
-        {employees.length > 0 && (
+        {(employees.length > 0 && showEmployees)&& (
           <div ref={employeesRef}>
             {renderTeamSection(employees, title4, "employees")}
           </div>
