@@ -9,7 +9,7 @@ date: 2025-03-06T07:03:20.652Z
 description: Artificial Intelligence (AI) has emerged as the defining disruptor
   of our times — lowering costs, scaling solutions, and transforming industries
   worldwide.
-featuredimage: /img/blog-feature.png
+featuredimage: /img/kumbh.png
 ---
 Artificial Intelligence (AI) has emerged as the defining disruptor of our times — lowering costs, scaling solutions, and transforming industries worldwide. AI adoption is skyrocketing across healthcare, finance, and public services with reduction in operational costs for businesses and AI-powered customer service bots handling a significant chunk of interactions without human intervention. For example, an [IBM report](https://www.ibm.com/think/topics/chatbot-use-cases#:~:text=The%20wide%20array%20of%20chatbots,and%20improving%20response%20times%20significantly.) shares a case study on how businesses have been able to deploy chatbots which can resolve up to 80% of routine customer inquiries, significantly improving efficiency. Countries are integrating AI into governance, education, and citizen services, demonstrating its far-reaching impact. From real-time language translation to autonomous operations, the use cases continue to expand. 
 

@@ -23,18 +23,27 @@ postCategories:
   - category: DPG
   - category: India as a Welfare State
   - category: Civil Services
+  - category: Education
 postData:
+  - postCard:
+      urlLink: https://www.instagram.com/reel/DItiS-IS99f/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+      selectedCategory: Civil Services
+      postImage: /img/screenshot-2025-04-24-at-4.25.21 pm.png
+  - postCard:
+      urlLink: https://www.instagram.com/reel/DILsToLvGGw/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D
+      selectedCategory: Civil Services
+      postImage: /img/screenshot-2025-04-24-at-2.32.57 pm.png
   - postCard:
       selectedCategory: Civil Services
       urlLink: https://www.instagram.com/reel/DHlBZdpAwIF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
       postImage: /img/cropped-image.png
   - postCard:
-      postImage: /img/cropped-image.png
+      postImage: /img/screenshot-2025-04-23-at-2.16.19 pm.png
       selectedCategory: Civil Services
       urlLink: https://www.instagram.com/reel/DHBVOZNNbXx/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
       selectedCategory: Civil Services
-      postImage: /img/cropped-image.png
+      postImage: /img/screenshot-2025-04-23-at-2.17.31 pm.png
       urlLink: https://www.instagram.com/reel/DGin_4cS8BH/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   - postCard:
       urlLink: https://www.instagram.com/reel/DFuywR8giqi/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
@@ -152,6 +161,10 @@ postData:
       postImage: /img/fir_resize.jpg
       selectedCategory: Administration
       urlLink: https://www.instagram.com/reel/Cyk8UwNyJ2w/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+  - postCard:
+      selectedCategory: Education
+      urlLink: https://www.instagram.com/reel/DJ1IJQwS2Zi/?igsh=ZGxjMnZndjV4dWR5
+      postImage: /img/screenshot-2025-05-19-at-3.01.21 pm.png
 instaLink: https://www.instagram.com/samagragovernance/
 assetsHeading: Explore Our Assets
 assets:

@@ -14,23 +14,23 @@ mainContent:
 solutions_built:
   - image: /img/agriculture2.png
     text: Agriculture
-    subText: Our work in this domain has impacted the lives of 3 Cr+ farmers across
-      the states of Odisha and Uttar Pradesh
+    subText: Lives of 3 Cr+ farmers positively impacted through our work across the
+      states of Odisha and Uttar Pradesh
     knowMoreLink: http://samagrax.samagragovernance.in/agriculture/
   - image: /img/servicedelivery.png
     text: Service Delivery
-    subText: Our work in this domain has impacted the lives of 2.7 Cr+ citizens in
-      the states of Haryana and Odisha
+    subText: Lives of 2.7 Cr+ citizens positively impacted through our work in the
+      states of Haryana and Odisha
     knowMoreLink: http://samagrax.samagragovernance.in/service-delivery/
   - image: /img/education6.png
     text: Education
-    subText: Our work in this domain has impacted the lives of 1 Cr+ students across
+    subText: Lives of 1 Cr+ students positively impacted through our work across
       Haryana and Uttar Pradesh
     knowMoreLink: http://samagrax.samagragovernance.in/education/
   - image: /img/dpgs.png
     text: DPGs
-    subText: Development & adoption of open-source digital solutions to be freely
-      accessed, reused, scaled for public benefit.
+    subText: Open-source digital solutions developed and adopted for free access,
+      reuse, and scaling for public benefit
     knowMoreLink: http://samagrax.samagragovernance.in/dpgs/
 section3:
   description: As a firm well-placed at the intersection of technology and
@@ -53,8 +53,8 @@ section3:
     - image: /img/app3.png
       text: Kisan Mitra AI
       subText: AI-driven Agri-bot that processes complex queries and generates
-        precise, context-aware recommendations, empowering farmers of UP with
-        actionable insights to improve productivity
+        precise, context-aware recommendations, empowering farmers of Uttar
+        Pradesh with actionable insights to improve productivity
       applink: /
     - image: /img/app4.png
       text: AMA Krushi AI
@@ -67,10 +67,10 @@ journeySoFar:
     text: "2016: Laying the Foundation"
     subText: In the early months, SamagraX fostered a strong MVP culture, developing
       several prototypes for state governments. This included Meri Yojana, a
-      scheme eligibility app in Haryana, and Samarth, an education
-      transformation platform in Himachal Pradesh. During this phase, we
-      realized the importance of understanding the factors that affect how these
-      products are implemented within the governance ecosystem.
+      scheme eligibility app in Haryana, and an education transformation
+      platform in Himachal Pradesh for the Samarth Program. During this phase,
+      we realized the importance of understanding the factors that affect how
+      these products are implemented within the governance ecosystem.
   - image: /img/journey2.jpeg
     text: "2017-18: Creating Initial Impact"
     subText: In this phase, SamagraX began implementing large-scale tech projects
@@ -91,7 +91,7 @@ journeySoFar:
       deployable solutions integrated with government systems, such as e-Samwad,
       an SMS-based teacher-parent app.
   - image: /img/journey4.jpeg
-    text: "2022 - Present: Exploring AI in Governance + Future Plans"
+    text: "2022 - Present: Exploring AI in Governance"
     subText: After years of leveraging technology to strengthen governance across
       states and sectors, SamagraX took a significant leap in 2022 with the
       launch of the Gov.AI Mission—an initiative to harness AI for governance.
