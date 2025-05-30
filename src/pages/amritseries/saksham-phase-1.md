@@ -32,6 +32,8 @@ showTestimonial: false
 newsletterBtn: Read Newsletter
 impactNumber5Decimal: 0
 downloadInfographicBtn: Download Infographic
+downloadInfographicBtn2: ""
+infographicGoogleDriveLink2: ""
 showWebinar: true
 webinarTitle: "TED Talk: A New Normal for School Education by Gaurav Goel"
 webinarDescription: ""

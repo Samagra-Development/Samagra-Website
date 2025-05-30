@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import ReactMarkdown from "react-markdown";
@@ -18,24 +18,37 @@ export const OurTeamPage = ({ data }) => {
   const partners = post.frontmatter?.partnersList || [];
   const leaderships = post.frontmatter?.leadershipsList || [];
   const managers = post.frontmatter?.managersList || [];
+  const employees = post.frontmatter?.employeesList || [];
   const achievements = post.frontmatter?.achievements || [];
   const showAchievements = post.frontmatter?.showAchievements || false;
   const showPartners = post.frontmatter?.showPartners || false;
   const showLeadership = post.frontmatter?.showLeadership || false;
   const showManagers = post.frontmatter?.showManagers || false;
-
+  const showEmployees = post.frontmatter?.showEmployees || false;
 
   const teamFooter = post.frontmatter?.teamFooter || {};
   const title1 = post.frontmatter?.title1 || '';
   const title2 = post.frontmatter?.title2 || '';
   const title3 = post.frontmatter?.title3 || '';
-
+  const title4 = post.frontmatter?.title4 || ''; 
 
   const [hoveredMember, setHoveredMember] = useState(-1);
   const [showPopup, setShowPopup] = useState({ index: -1, list: null });
 
   const handlePopupOpen = (index, listName) => {
     setShowPopup({ index, list: listName });
+  };
+
+  // Create refs for each section
+  const partnersRef = useRef(null);
+  const leadershipsRef = useRef(null);
+  const managersRef = useRef(null);
+  const employeesRef = useRef(null);
+
+  const handleTabClick = (ref) => {
+    if (ref && ref.current) {
+      ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   };
 
   const renderTeamSection = (teamList, sectionTitle, listName) => {
@@ -92,7 +105,7 @@ export const OurTeamPage = ({ data }) => {
         ? partners[showPopup.index]
         : showPopup.list === "leaderships"
           ? leaderships[showPopup.index]
-          : managers[showPopup.index]
+          : showPopup.list === "managers" ?managers[showPopup.index] : employees[showPopup.index]
       : null;
 
   return (
@@ -131,6 +144,8 @@ export const OurTeamPage = ({ data }) => {
           </ReactMarkdown>
         </div>
 
+        {/* Tab Navigation */}
+      
 
         {/* Achievements Section */}
         {showAchievements &&
@@ -146,12 +161,51 @@ export const OurTeamPage = ({ data }) => {
               ))}
             </div>
           </div>}
-
+  <div className="team-tabs" style={{ display: "flex", justifyContent: "center", gap: "16px", marginBottom: "32px" }}>
+          {(partners.length > 0 && showPartners)&& (
+            <button className="team-tab-btn" onClick={() => handleTabClick(partnersRef)}>
+              {title1 || "Partners"}
+            </button>
+          )}
+          {(leaderships.length > 0 && showLeadership)&& (
+            <button className="team-tab-btn" onClick={() => handleTabClick(leadershipsRef)}>
+              {title2 || "Leadership"}
+            </button>
+          )}
+          {(managers.length > 0 && showManagers)&& (
+            <button className="team-tab-btn" onClick={() => handleTabClick(managersRef)}>
+              {title3 || "Managers"}
+            </button>
+          )}
+          {(employees.length > 0 && showEmployees)&& (
+            <button className="team-tab-btn" onClick={() => handleTabClick(employeesRef)}>
+              {title4 || "Employees"}
+            </button>
+          )}
+        </div>
         {/* Team Sections */}
-        {showPartners && renderTeamSection(partners, title1, "partners")}
-        {showLeadership && renderTeamSection(leaderships, title2, "leaderships")}
-        {showManagers && renderTeamSection(managers, title3, "managers")}
+        {(partners.length > 0 && showPartners)&& (
+          <div ref={partnersRef}>
+            {renderTeamSection(partners, title1, "partners")}
+          </div>
+        )}
+        {(leaderships.length > 0 && showLeadership)&&  (
+          <div ref={leadershipsRef}>
+            {renderTeamSection(leaderships, title2, "leaderships")}
+          </div>
+        )}
+        {(managers.length > 0 && showManagers)&& (
+          <div ref={managersRef}>
+            {renderTeamSection(managers, title3, "managers")}
+          </div>
+        )}
+        {(employees.length > 0 && showEmployees)&& (
+          <div ref={employeesRef}>
+            {renderTeamSection(employees, title4, "employees")}
+          </div>
+        )}
 
+        {/* Team Description Section */}
         {/* Popup Section */}
         {popupMember && (
           <div className="popup" id="team-popup">
@@ -265,6 +319,8 @@ export const ourTeamPageQuery = graphql`
         title1
         title2
         title3
+        title4
+        showEmployees
         partnersList {
           image {
             childImageSharp {
@@ -294,6 +350,20 @@ export const ourTeamPageQuery = graphql`
           partTime
         }
         managersList {
+          image {
+            childImageSharp {
+              fluid(maxWidth: 240, quality: 64) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          name
+          bio
+          project
+          linkedInProfile
+          partTime
+        }
+        employeesList {
           image {
             childImageSharp {
               fluid(maxWidth: 240, quality: 64) {

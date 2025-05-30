@@ -123,6 +123,8 @@ impactNumber5Title: ""
 showPlus5: false
 infographicGoogleDriveLink: https://drive.google.com/file/d/1SitsRVpPV9JhWVsEoQoMfDIgW6ovs1Nm/view?usp=sharing
 downloadInfographicBtn: Download Infographic
+downloadInfographicBtn2: ""
+infographicGoogleDriveLink2: ""
 title7: ""
 showBlog: true
 blogTitle: 18k posts, 17 lakh in Haryana on move

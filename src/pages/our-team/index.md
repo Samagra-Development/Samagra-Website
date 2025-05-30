@@ -388,6 +388,26 @@ managersList:
       A strong motivation to drive impact at the grassroots across a comprehensive range of development markers, combined with a deep-rooted interest for first-principle based problem solving, brought him to Samagra. 
     project: Senior Consultant
     linkedInProfile: https://www.linkedin.com/in/vijeeth-srinivas-756873148/
+title4: Employees
+showEmployees: true
+employeesList:
+  - bio: >-
+      Aayush holds a Master's degree in Economics from Delhi School of
+      Economics, University of Delhi and a Bachelor's degree in the same
+      discipline from Delhi College of Arts and Commerce, University of Delhi.
+      Before joining Samagra, he was working as a Market Risk Manager at ICICI
+      Bank, primarily responsible for maintaining the investment policy for
+      proprietary trades of the bank in forex and derivative products and for
+      carrying out extensive research on the economic outlook for domestic and
+      global markets. 
+
+
+      An opportunity to work with governments to create impact that reaches the last mile and help society inch towards a more equitable and inclusive future, brought him to Samagra. 
+    image: /img/aayush-malik.jpg
+    linkedInProfile: https://www.linkedin.com/in/aayush-malik/
+    name: Aayush
+    project: Consultant
+    partTime: false
 teamFooter:
   footerTitle: Come join us in this journey and commit yourself to nation building
   buttonText: Join Us

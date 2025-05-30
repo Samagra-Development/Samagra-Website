@@ -95,6 +95,8 @@ impactNumber5Title: ""
 showPlus5: false
 infographicGoogleDriveLink: https://drive.google.com/file/d/1F1Yd7MPAayf-AMdr77rC8jIBsE6cylss/view?usp=share_link
 downloadInfographicBtn: Download Infographic
+downloadInfographicBtn2: ""
+infographicGoogleDriveLink2: ""
 title7: ""
 showBlog: true
 blogTitle: "Universal basic income: How Odisha’s KALIA took off in less than 6 weeks"

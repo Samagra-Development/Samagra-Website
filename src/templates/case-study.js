@@ -1024,6 +1024,40 @@ export const CaseStudyTemplate = ({ content, helmet }) => {
                 </button>
               </div>
             )}
+            {content?.downloadInfographicBtn2 && (
+              <div
+                className="casestudy-btn-container"
+                style={{
+                  width: "100%",
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <button
+                  className="casestudy-btn"
+                  style={{
+                    marginTop: "20px",
+                    cursor: "pointer",
+                    marginBottom: "50px",
+                    maxWidth: "270px",
+                    background: content?.fontColor,
+                    padding: "10px 50px",
+                  }}
+                  onClick={() => {
+                    const link = document.createElement("a");
+                    link.href = content?.infographicGoogleDriveLink2;
+                    link.target = "_blank";
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                  }}
+                >
+                  {content?.downloadInfographicBtn2}
+                </button>
+              </div>
+            )}
           </div>
         </FadeInSection>
         <SectionDivider color={content?.fontColor} />
@@ -1655,7 +1689,8 @@ export const pageQuery = graphql`
         }
         infographicGoogleDriveLink
         downloadInfographicBtn
-
+        infographicGoogleDriveLink2
+        downloadInfographicBtn2
         showWebinar
         webinarTitle
         webinarLink

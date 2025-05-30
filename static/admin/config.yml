@@ -458,6 +458,20 @@ collections:
           default: "",
         }
       - {
+          label: "Infographic Google Drive Link 2",
+          name: "infographicGoogleDriveLink2",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Download Infographic button text 2",
+          name: "downloadInfographicBtn2",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
           label: "Title 8",
           name: "title8",
           widget: "string",
@@ -1054,6 +1068,20 @@ collections:
       - {
           label: "Download Infographic button text",
           name: "downloadInfographicBtn",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Infographic Google Drive Link 2",
+          name: "infographicGoogleDriveLink2",
+          widget: "string",
+          required: false,
+          default: "",
+        }
+      - {
+          label: "Download Infographic button text 2",
+          name: "downloadInfographicBtn2",
           widget: "string",
           required: false,
           default: "",
@@ -1917,6 +1945,24 @@ collections:
 
                 ]
             }
+          - { label: "List 4 Title", name: "title4", widget: "string" }
+          - { label: "Show Employees", name: "showEmployees", widget: "boolean" }
+          - { 
+              label: Employees,
+              name: employeesList,
+              widget: list,
+              fields:
+                [
+                  { label: Image, name: image, widget: image },
+                  { label: Name, name: name, widget: text },
+                  { label: Project, name: project, widget: text },
+                  { label: Bio, name: bio, widget: text },
+                  { label: "LinkedIn Profile", name: linkedInProfile, widget: text },
+                  { label: Part time, name: partTime, widget: boolean, default: false,required: false },
+
+
+                ]
+            }   
           - label: "Team Footer"
             name: "teamFooter"
             widget: "object"

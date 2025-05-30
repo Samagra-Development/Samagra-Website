@@ -22,6 +22,8 @@ impactNumber4Decimal: 1
 impactNumber4Title: delay bridged by strengthening supply chain operations
 impactNumber5Decimal: 0
 downloadInfographicBtn: Download Infographic
+downloadInfographicBtn2: ""
+infographicGoogleDriveLink2: ""
 showTestimonial: false
 newsletterBtn: ""
 impactNumber3: 6
@@ -139,8 +141,7 @@ impactCards:
     cardDescription: Initiating the tender process for printing of textbooks early on
   - img: /img/ttd_img_3.jpg
     cardTitle: OPTIMISING FOR DELIVERY
-    cardDescription: Shift from multiple distributors being mapped to one school
-footersubText1: T﻿his work has been done under
+    cardDescription: Shift from multiple distributors being mapped to one schoolfootersubText1: T﻿his work has been done under
   [Samarth](https://samagragovernance.in/project/samarth/) program with the
   support of Government of Hi﻿machal Pradesh.
 ---

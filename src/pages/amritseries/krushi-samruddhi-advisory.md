@@ -67,6 +67,8 @@ impactNumber5Title: Increase in  profits for farmers from Krushi Samruddhi
 showPlus5: false
 infographicGoogleDriveLink: https://drive.google.com/file/d/1_GvBdMmLizgwQJ5n3YxsU2RNcMBVCgAg/view?usp=sharing
 downloadInfographicBtn: Download Infographic
+downloadInfographicBtn2: ""
+infographicGoogleDriveLink2: ""
 title8: ""
 showBlog: true
 blogTitle: Blog

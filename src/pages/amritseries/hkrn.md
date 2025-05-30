@@ -28,6 +28,8 @@ impactNumber3Text: "%"
 impactNumber4: 84
 impactNumber5: 67
 downloadInfographicBtn: Download Infographic
+downloadInfographicBtn2: ""
+infographicGoogleDriveLink2: ""
 title8: Insights from the ground
 webinarLink: ""
 showTestimonial: false
