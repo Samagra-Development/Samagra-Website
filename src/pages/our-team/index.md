@@ -388,8 +388,8 @@ managersList:
       A strong motivation to drive impact at the grassroots across a comprehensive range of development markers, combined with a deep-rooted interest for first-principle based problem solving, brought him to Samagra. 
     project: Senior Consultant
     linkedInProfile: https://www.linkedin.com/in/vijeeth-srinivas-756873148/
-title4: Employees
-showEmployees: true
+title4: Team Members
+showEmployees: false
 employeesList:
   - bio: >-
       Aayush holds a Master's degree in Economics from Delhi School of
