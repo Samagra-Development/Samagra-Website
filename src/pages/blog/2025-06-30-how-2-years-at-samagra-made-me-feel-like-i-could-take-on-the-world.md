@@ -3,7 +3,7 @@ templateKey: blog-post
 title: How 2 years at Samagra made me feel like I could take on the world
 author: Abhimanyu Timbadia
 projectId: How 2 years at Samagra made me feel like I could take on the world
-authorImage: /img/abhi.heic
+authorImage: /img/screenshot-2025-06-30-at-12.36.18 pm.png
 date: 2025-06-30T06:47:38.436Z
 description: >
   For much of my early life, I lived in a bubble. Born and raised in Mumbai, my
