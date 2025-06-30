@@ -15,7 +15,7 @@ description: >
   be. That’s where this “bug for impact” was planted in me. I immersed myself in
   academia, convinced that my pathway to creating real impact lay somewhere
   between lectures, research papers, and possibly, a PhD.
-featuredimage: /img/abhu.png
+featuredimage: /img/abb.png
 ---
 For much of my early life, I lived in a bubble. Born and raised in Mumbai, my world was a 20-kilometre radius that was bounded by the sea, local trains, and the self-assured certainty that everything I needed to know could be found in scientific books or debates. Ashoka University was my first real step outside this orbit. It placed me in the middle of Sonipat, Haryana and exposed me to ideas of social justice that very much shaped the kind of person I wanted to be. That’s where this “bug for impact” was planted in me. I immersed myself in academia, convinced that my pathway to creating real impact lay somewhere between lectures, research papers, and possibly, a PhD.
 
