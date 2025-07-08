@@ -26,6 +26,18 @@ postCategories:
   - category: India as a Welfare State
 postData:
   - postCard:
+      urlLink: https://www.instagram.com/reel/DL1aMG3yLam/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+      selectedCategory: Education
+      postImage: /img/ig-reel-copy-4.png
+  - postCard:
+      urlLink: https://www.instagram.com/reel/DLjQLtGS5La/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+      selectedCategory: Education
+      postImage: /img/es4.png
+  - postCard:
+      urlLink: https://www.instagram.com/reel/DK9PvDdSKNs/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+      selectedCategory: Education
+      postImage: /img/es3.png
+  - postCard:
       urlLink: https://www.instagram.com/reel/DKZuFCZSeA4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
       selectedCategory: Education
       postImage: /img/es2.png
