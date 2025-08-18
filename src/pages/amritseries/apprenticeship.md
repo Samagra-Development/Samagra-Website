@@ -86,8 +86,8 @@ impactNumber5Title: ""
 showPlus5: false
 infographicGoogleDriveLink: https://drive.google.com/file/d/1cUqi2Nr5RsO0dI98m5uIi8Rt5EEm0RuX/view?usp=share_link
 downloadInfographicBtn: Download Infographic
-downloadInfographicBtn2: ""
-infographicGoogleDriveLink2: ""
+infographicGoogleDriveLink2: https://docs.google.com/document/d/1NsT-hvPZyfMb-7gXIjK0oUO_UdtF0bFsq-Q9vNpA670/edit?usp=sharing
+downloadInfographicBtn2: Download One-Pager
 title7: ""
 showBlog: false
 blogTitle: ""
