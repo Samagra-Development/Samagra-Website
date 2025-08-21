@@ -372,6 +372,17 @@ export class HeaderSmall extends React.Component {
                       Governance Decluttered
                     </a>
                   </div>
+                   <div className="sub-header-list-item">
+                    <a
+                      className="nav-link"
+                      onClick={() => {
+                        this.setState({ popupOpened: "inactive" });
+                      }}
+                      href="/decodingcitizen"
+                    >
+                      Decoding Citizen
+                    </a>
+                  </div>
                 </div>
               ) : (
                 <span />

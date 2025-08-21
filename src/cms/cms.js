@@ -23,6 +23,7 @@ import AssetPagePreview from "./preview-templates/AssetPagePreview";
 import DeclutteredPagePreview from "./preview-templates/DeclutteredPagePreview";
 import OurTeamPagePreview from "./preview-templates/OurTeamPagePreview";
 import Career2PagePreview from "./preview-templates/Careers2PagePreview";
+import DecodingcitizenPagePreview from "./preview-templates/DecodingcitizenPagePreview";
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
@@ -48,5 +49,6 @@ CMS.registerPreviewTemplate("oldcasestudy", OldCaseStudyPreview);
 CMS.registerPreviewTemplate("ksk", KSKPreview);
 CMS.registerPreviewTemplate("assets", AssetPagePreview);
 CMS.registerPreviewTemplate("decluttered", DeclutteredPagePreview);
+CMS.registerPreviewTemplate("decodingcitizen", DecodingcitizenPagePreview);
 CMS.registerPreviewTemplate("our-team", OurTeamPagePreview);
 
