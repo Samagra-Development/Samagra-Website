@@ -108,7 +108,13 @@ export const mediaPageQuery = graphql`
             selectedCategory
             urlLink
             episode
-            postImage
+            postImage {
+              childImageSharp {
+                fluid(maxWidth: 1024, quality: 60) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }

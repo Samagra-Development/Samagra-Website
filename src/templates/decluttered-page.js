@@ -337,7 +337,13 @@ export const declutteredPageQuery = graphql`
         }
         postData {
           postCard {
-            postImage 
+            postImage {
+              childImageSharp {
+                fluid(maxWidth: 1024, quality: 60) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             selectedCategory
             urlLink
           }
