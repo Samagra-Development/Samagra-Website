@@ -3,6 +3,7 @@ templateKey: old-case-study
 formType: This is old case study form
 show: true
 projectId: ANTYODAYA SARAL
+date: 2024-04-11T08:23:21.972Z
 featuredimage: /img/slide1-2-.jpeg
 buttonText: Learn More
 title: antyodaya-saral
@@ -12,7 +13,7 @@ title1: Transforming scheme and service delivery for citizens in the state of Ha
 title2: Each citizen needs access to government schemes and services like
   Aadhaar, Birth Certificate, etc as part of our everyday lives. But, there are
   many complexities that make this process difficult...
-title3: What was life like before Antyodaya Saral?
+backgroundMap: null
 infographic1:
   - img: /img/citizen.jpg
   - img: /img/citizencard1-1-.jpg
@@ -63,9 +64,9 @@ showPlus1: false
 icon2: /img/icon-2.png
 impactNumber2Char: "> "
 impactNumber2: 85
+impactNumber2Decimal: 0
 impactNumber2Text: "%"
 impactNumber2Title: Applications closed within Right to Service timelines
-showPlus2: false
 icon3: /img/icon-3.png
 impactNumber3Char: ""
 impactNumber3: 1.2
@@ -74,7 +75,6 @@ impactNumber3Text: " crore"
 impactNumber3Title: "Applications recorded in the Antyodaya Saral system every year "
 showPlus3: true
 icon4: /img/icon-4.png
-impactNumber4Char: ""
 impactNumber4: 31
 impactNumber4Decimal: 0
 impactNumber4Text: "%"
@@ -89,8 +89,8 @@ impactNumber5Title: "Increase in annual applications across schemes and services
 showPlus5: false
 infographicGoogleDriveLink: https://drive.google.com/file/d/1EctYtjg5T6nCTsfzL1UwTNgcGUu1dXxC/view?usp=sharing
 downloadInfographicBtn: Download Infographic
-downloadInfographicBtn2: ""
-infographicGoogleDriveLink2: ""
+infographicGoogleDriveLink2: https://docs.google.com/document/d/1RKyENTC4eLUKQv1t_2CZGPK1-fA8EAA-d2jUjyOmz48/edit
+downloadInfographicBtn2: Download One-Pager
 title7: Insights from the ground
 showBlog: false
 blogTitle: Blog
@@ -101,6 +101,7 @@ opEdTitle: Op-Ed
 opEdDescription: Haryana wins Digital India awards 2020 for e-governance
 opEdLink: https://government.economictimes.indiatimes.com/news/digital-india/haryana-wins-digital-india-awards-2020-for-e-governance/79852044
 showWebinar: false
+webinarTitle: Webinar
 webinarDescription: Title of webinar
 webinarLink: ""
 blogSectionImage: /img/segment-1.1.jpg
@@ -112,8 +113,7 @@ footerText2: "Write to us at: outreach@samagragovernance.in"
 successStoriesTitle: View more <i>Success Stories of Impact</i>
 showSuccessStories: go-sugam,hkrn,ksk
 img1: /img/card1.png
-date: 2024-04-11T08:23:21.972Z
-backgroundMap: null
-impactNumber2Decimal: 0
-webinarTitle: Webinar
+title3: What was life like before Antyodaya Saral?
+showPlus2: false
+impactNumber4Char: ""
 ---

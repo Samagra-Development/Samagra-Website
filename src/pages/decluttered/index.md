@@ -16,15 +16,35 @@ declutteredDescription:
         terms through references from history and real-life experiences.
   descriptionVideo: https://www.youtube.com/embed/zBRlux1sOZc?si=Wxt3VZk_my6ulh8K
 postCategories:
+  - category: Education
+  - category: Civil Services
   - category: Administration
   - category: Elections
   - category: Policy
   - category: Judiciary
   - category: DPG
   - category: India as a Welfare State
-  - category: Civil Services
-  - category: Education
 postData:
+  - postCard:
+      urlLink: https://www.instagram.com/reel/DL1aMG3yLam/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+      selectedCategory: Education
+      postImage: /img/ig-reel-copy-4.png
+  - postCard:
+      urlLink: https://www.instagram.com/reel/DLjQLtGS5La/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+      selectedCategory: Education
+      postImage: /img/es4.png
+  - postCard:
+      urlLink: https://www.instagram.com/reel/DK9PvDdSKNs/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+      selectedCategory: Education
+      postImage: /img/es3.png
+  - postCard:
+      urlLink: https://www.instagram.com/reel/DKZuFCZSeA4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+      selectedCategory: Education
+      postImage: /img/es2.png
+  - postCard:
+      urlLink: https://www.instagram.com/reel/DJ1IJQwS2Zi/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+      selectedCategory: Education
+      postImage: /img/es1.png
   - postCard:
       urlLink: https://www.instagram.com/reel/DItiS-IS99f/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
       selectedCategory: Civil Services

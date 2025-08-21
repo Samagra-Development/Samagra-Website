@@ -168,18 +168,6 @@ leadershipsList:
 
       An opportunity to converge technology and good governance practices to create a meaningful impact in the lives of citizens, brought him to Samagra. He intends to leverage his professional and academic experiences to create impact at scale.
     linkedInProfile: https://www.linkedin.com/in/nikhilsrivastava1991/
-  - name: Pragya Mathur
-    project: Manager
-    linkedInProfile: https://www.linkedin.com/in/pragya-mathur-678779126
-    bio: "Pragya hold a Bachelor's degree in Economics from Miranda House,
-      University of Delhi. She has previously interned at CollarFolk, a start up
-      in Gurgaon and conceptualized a self-guided social entrepreneurship
-      project called 'Pravah', on stopping the use of plastic straws. Pragya
-      also completed a course on 'Re-thinking the Obvious: Rhetoric of
-      Development' at Miranda House in collaboration with The George Washington
-      University. An opportunity to create positive impact in the lives of
-      people and an interest in public policy brought her to Samagra. "
-    image: /img/pragya_7691.jpg
   - name: Shailiza Mayal
     bio: >-
       Shailiza Mayal holds a Bachelor of Electronics Engineering degree from
@@ -215,6 +203,19 @@ leadershipsList:
       scale through good governance brought her to Samagra.
     linkedInProfile: https://www.linkedin.com/in/ujjwal-relan-981b814a
     image: /img/ujjwal_7644.jpg
+  - partTime: false
+    image: /img/vijeeth-website.jpg
+    name: Vijeeth Srinivas
+    project: Senior Consultant
+    linkedInProfile: https://www.linkedin.com/in/vijeeth-srinivas-756873148/
+    bio: >-
+      Vijeeth holds a Bachelor's degree in Commerce from Kirori Mal College,
+      University of Delhi. Before joining Samagra, he was leading a team at the
+      Jitin Chawla Centre for Career Development focused on expanding access to
+      foreign education and skill development in south-asian markets.
+
+
+      A strong motivation to drive impact at the grassroots across a comprehensive range of development markers, combined with a deep-rooted interest for first-principle based problem solving, brought him to Samagra. 
 title3: Managers
 showManagers: true
 managersList:
@@ -248,19 +249,6 @@ managersList:
 
       An opportunity to partner with government stakeholders to develop efficient service delivery systems and improve the lives of citizens brought him to Samagra. 
     linkedInProfile: https://www.linkedin.com/in/abhishek-rao-479047159/
-  - name: Aman Gupta
-    image: /img/aman.png
-    bio: >-
-      Aman holds an MBA from IIM Kozhikode and a Bachelor's degree in Electrical
-      & Electronics Engineering from BITS Pilani. Before joining Samagra, he was
-      working as a product and sales manager for the Indian marketplace at
-      Amazon. In his spare time, Aman enjoys painting, sketching, playing the
-      piano and listening to podcasts. 
-
-
-      A strong motivation to enable society and state to co-create good governance using technology, brought him to Samagra. 
-    project: Senior Consultant
-    linkedInProfile: https://www.linkedin.com/in/amangup/
   - partTime: false
     image: /img/deepanshu.jpg
     name: Deepanshu Singal
@@ -297,18 +285,6 @@ managersList:
 
       A strong motivation to transform lives of citizens, brings Parth to Samagra. He plans to leverage his experience in strategic roles and academic grounding to create #ImpactAtScale. 
     linkedInProfile: https://www.linkedin.com/in/shuklaparth/
-  - name: Raghav Katyal
-    project: Senior Consultant
-    image: /img/raghav_7533.jpg
-    bio: >-
-      Raghav holds a Bachelor's degree in Political Science and Economics from
-      Ashoka University. Before joining Samagra, he was working as a Legislative
-      Assistant to a Lok Sabha Member of Parliament, supporting multiple
-      development initiatives in the MP's constituency.
-
-
-      An opportunity to transform governance by combining consulting skills and the power of technology brought him to Samagra.
-    linkedInProfile: https://www.linkedin.com/in/raghav-katyal-2a3250120/
   - name: Rajanya Dey
     project: Senior Consultant
     bio: >-
@@ -337,21 +313,6 @@ managersList:
       Samagra.
     linkedInProfile: https://www.linkedin.com/in/shivesh-kumar-37a8a9214/
     project: Senior Consultant
-  - name: Shraya Sapru
-    project: Senior Consultant
-    bio: >-
-      Shraya holds a Bachelor's degree in Chemical Engineering from National
-      Institute of Technology Karnataka, Surathkal. Before joining Samagra, she
-      worked as a customer & application development engineer, South Asia in the
-      chemicals division at ExxonMobil. Shraya has also been a fellow as part of
-      the 'Policy in Action Program' with Young Leaders for Active Citizenship
-      (YLAC) and has also been a Global Governance Initiative (GGI) Impact
-      Scholar.
-
-
-      The penchant for problem solving while translating ideas on paper into reality, brought her to Samagra. 
-    linkedInProfile: https://www.linkedin.com/in/shraya-sapru/
-    image: /img/shraya.jpg
   - name: Simran Bagga
     project: Senior Consultant
     image: /img/edited_simran-1-.jpg
@@ -376,20 +337,8 @@ managersList:
       Samagra.
     linkedInProfile: https://www.linkedin.com/in/venkateshchaturvedi/
     image: /img/venkatesh.png
-  - image: /img/vijeeth-website.jpg
-    name: Vijeeth Srinivas
-    bio: >-
-      Vijeeth holds a Bachelor's degree in Commerce from Kirori Mal College,
-      University of Delhi. Before joining Samagra, he was leading a team at the
-      Jitin Chawla Centre for Career Development focused on expanding access to
-      foreign education and skill development in south-asian markets.
-
-
-      A strong motivation to drive impact at the grassroots across a comprehensive range of development markers, combined with a deep-rooted interest for first-principle based problem solving, brought him to Samagra. 
-    project: Senior Consultant
-    linkedInProfile: https://www.linkedin.com/in/vijeeth-srinivas-756873148/
-title4: Employees
-showEmployees: true
+title4: Team Members
+showEmployees: false
 employeesList:
   - bio: >-
       Aayush holds a Master's degree in Economics from Delhi School of
