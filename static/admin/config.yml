@@ -2776,8 +2776,8 @@ collections:
                 ],
             }
       - file: "src/pages/decodingcitizen/index.md"
-        label: "Governance Decluttered Page"
-        name: "decluttered"
+        label: "Decoding Citizen Page"
+        name: "decodingcitizen"
         fields:
           - {
               label: "Template Key",
