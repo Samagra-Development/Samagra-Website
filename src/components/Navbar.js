@@ -108,7 +108,8 @@ const Navbar = class extends React.Component {
                             <MenuDropdown menuIcon={showInverted?menuIconBlack:menuIconWhite} href='/assets' heading={"Our Assets"} data={[{title:"Amrit Series",projectUrl:"/amritseries"},
                             {title:"Governance Frameworks",projectUrl:"/governanceframeworks"},
                             {title:"Sushasan",projectUrl:"/sushasan"},
-                            {title:"Governance Decluttered",projectUrl:"/decluttered"}
+                            {title:"Governance Decluttered",projectUrl:"/decluttered"},
+                             {title:"Decoding citizen",projectUrl:"/decodingcitizen"}
                             ]}/>
                             <MenuDropdown menuIcon={showInverted?menuIconBlack:menuIconWhite} heading={"Ecosystem Initiatives"} data={[{title:"Code for GovTech (C4GT)",projectUrl:"/c4gt"},
                             {title:"The Governance Challenge (TGC)",projectUrl:"https://www.thegovernancechallenge.in/"}]}/>
