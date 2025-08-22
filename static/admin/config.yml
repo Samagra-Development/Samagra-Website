@@ -2222,6 +2222,7 @@ collections:
               fields:
                 [
                   { label: Image, name: image, widget: image, required: true  },
+                  { label: Year, name: year, widget: string, required: true  },
                   { label: Text, name: text, widget: string, required: true  },
                   { label: SubText, name: subText, widget: string, required: true  },
                 ],

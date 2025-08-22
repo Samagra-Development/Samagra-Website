@@ -111,6 +111,7 @@ export const mediaPageQuery = graphql`
         }
         journeySoFar {
             text
+            year
             subText
             image {
                 childImageSharp {
