@@ -338,7 +338,7 @@ managersList:
     linkedInProfile: https://www.linkedin.com/in/venkateshchaturvedi/
     image: /img/venkatesh.png
 title4: Team Members
-showEmployees: false
+showEmployees: true
 employeesList:
   - bio: >-
       Aayush holds a Master's degree in Economics from Delhi School of
