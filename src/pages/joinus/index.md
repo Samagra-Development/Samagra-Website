@@ -73,7 +73,7 @@ formsElements:
     type: text
     validation: VALID_TEXT
   - contentDescription: "   "
-    label: Undergraduate Institute
+    label: Postgrad Institute
     options: []
     otherOptionAvailable:
       activateOn: ""
