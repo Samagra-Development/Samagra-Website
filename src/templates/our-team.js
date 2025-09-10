@@ -169,6 +169,17 @@ export const OurTeamPage = ({ data }) => {
           : showPopup.list === "managers" ?managers[showPopup.index] : employees[showPopup.index]
       : null;
 
+  if (loading) {
+    return (
+      <div className="text-center" style={{ padding: '40px' }}>
+        <div className="spinner-border text-primary" role="status">
+          <span className="visually-hidden">Loading...</span>
+        </div>
+        <p style={{ marginTop: '20px' }}>Loading team data...</p>
+      </div>
+    );
+  }
+
   return (
     <div>
       <div className="base-banner-image">
@@ -188,12 +199,6 @@ export const OurTeamPage = ({ data }) => {
       </div>
 
       <div className="container-team">
-        {loading && (
-          <div className="text-center" style={{ padding: '20px' }}>
-            <p>Loading team data...</p>
-          </div>
-        )}
-
         {/* Subtitle rendered using ReactMarkdown */}
         <div className="text-center f-24 container_subTitle">
           <ReactMarkdown
