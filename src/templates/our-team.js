@@ -169,7 +169,7 @@ export const OurTeamPage = ({ data }) => {
           : showPopup.list === "managers" ?managers[showPopup.index] : employees[showPopup.index]
       : null;
 
-  if (loading) {
+ if (loading) {
   return (
     <div style={{
       position: 'fixed',
@@ -185,7 +185,7 @@ export const OurTeamPage = ({ data }) => {
       zIndex: 9999,
       fontFamily: 'Arial, sans-serif'
     }}>
-      {/* Animated Logo/Icon Area */}
+      {/* Animated Logo/Icon */}
       <div style={{
         width: '80px',
         height: '80px',
@@ -223,49 +223,15 @@ export const OurTeamPage = ({ data }) => {
       <p style={{
         color: '#666666',
         fontSize: '16px',
-        margin: '0 0 40px 0',
+        margin: '0',
         textAlign: 'center',
         maxWidth: '400px',
         lineHeight: '1.5'
       }}>
-        We're gathering information about our amazing team members. This will just take a moment...
+        Please wait while we gather our team information...
       </p>
 
-      {/* Animated Progress Dots */}
-      <div style={{ display: 'flex', gap: '8px', marginBottom: '30px' }}>
-        {[0, 1, 2].map((i) => (
-          <div
-            key={i}
-            style={{
-              width: '12px',
-              height: '12px',
-              borderRadius: '50%',
-              backgroundColor: '#294294',
-              animation: `dotPulse 1.4s infinite ease-in-out`,
-              animationDelay: `${i * 0.16}s`
-            }}
-          ></div>
-        ))}
-      </div>
-
-      {/* Loading Bar */}
-      <div style={{
-        width: '300px',
-        height: '4px',
-        backgroundColor: '#f0f0f0',
-        borderRadius: '2px',
-        overflow: 'hidden',
-        position: 'relative'
-      }}>
-        <div style={{
-          height: '100%',
-          background: 'linear-gradient(90deg, #294294, #1982A3)',
-          borderRadius: '2px',
-          animation: 'loadingBar 2s ease-in-out infinite'
-        }}></div>
-      </div>
-
-      {/* Add the CSS animations */}
+      {/* CSS Animations */}
       <style dangerouslySetInnerHTML={{
         __html: `
           @keyframes spin {
@@ -282,32 +248,6 @@ export const OurTeamPage = ({ data }) => {
             }
             60% {
               transform: translateY(-5px);
-            }
-          }
-          
-          @keyframes dotPulse {
-            0%, 80%, 100% {
-              transform: scale(0.8);
-              opacity: 0.5;
-            }
-            40% {
-              transform: scale(1.2);
-              opacity: 1;
-            }
-          }
-          
-          @keyframes loadingBar {
-            0% {
-              width: 0%;
-              margin-left: 0%;
-            }
-            50% {
-              width: 75%;
-              margin-left: 12.5%;
-            }
-            100% {
-              width: 0%;
-              margin-left: 100%;
             }
           }
         `
