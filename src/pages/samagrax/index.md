@@ -64,7 +64,8 @@ section3:
       applink: /
 journeySoFar:
   - image: /img/journey1.jpeg
-    text: "2016: Laying the Foundation"
+    year: "2016:"
+    text: "Laying the Foundation"
     subText: In the early months, SamagraX fostered a strong MVP culture, developing
       several prototypes for state governments. This included Meri Yojana, a
       scheme eligibility app in Haryana, and an education transformation
@@ -72,7 +73,8 @@ journeySoFar:
       we realized the importance of understanding the factors that affect how
       these products are implemented within the governance ecosystem.
   - image: /img/journey2.jpeg
-    text: "2017-18: Creating Initial Impact"
+    year: "2017-18"
+    text: "Creating Initial Impact"
     subText: In this phase, SamagraX began implementing large-scale tech projects
       across states—supporting the Government of Haryana on Antyodaya Saral to
       enhance scheme delivery and Odisha’s Decision Support System to enable
@@ -81,7 +83,8 @@ journeySoFar:
       focus on building scalable, reusable, and user-friendly solutions that
       officials can manage independently.
   - image: /img/journey3.jpeg
-    text: "2019-22: Making a Mark"
+    year: "2019-22:"
+    text: "Making a Mark"
     subText: While scaling the Samarth program, SamagraX developed Shiksha Saathi,
       Himachal Pradesh’s first school monitoring product, later adapted in
       Haryana as Saksham Samiksha. These tools supported 24,000+ school visits
@@ -91,7 +94,8 @@ journeySoFar:
       deployable solutions integrated with government systems, such as e-Samwad,
       an SMS-based teacher-parent app.
   - image: /img/journey4.jpeg
-    text: "2022 - Present: Exploring AI in Governance"
+    year: "2022-Present"
+    text: "Exploring AI in Governance"
     subText: After years of leveraging technology to strengthen governance across
       states and sectors, SamagraX took a significant leap in 2022 with the
       launch of the Gov.AI Mission—an initiative to harness AI for governance.

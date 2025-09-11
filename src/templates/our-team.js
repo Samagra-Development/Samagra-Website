@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import ReactMarkdown from "react-markdown";
@@ -15,10 +15,60 @@ const OurTeamPagePreviewTemplate = ({ data }) => {
 
 export const OurTeamPage = ({ data }) => {
   const { markdownRemark: post } = data;
-  const partners = post.frontmatter?.partnersList || [];
-  const leaderships = post.frontmatter?.leadershipsList || [];
-  const managers = post.frontmatter?.managersList || [];
-  const employees = post.frontmatter?.employeesList || [];
+  
+  // API data state
+  const [apiTeamData, setApiTeamData] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  // Fetch team data from API
+  useEffect(() => {
+    const fetchTeamData = async () => {
+      try {
+        setLoading(true);
+        // Your Google Apps Script API endpoint
+        const response = await fetch('https://script.googleusercontent.com/a/macros/esmagico.in/echo?user_content_key=AehSKLg83-_9Vjl4TMdvQW4fc2fTwfyGvYD_9CDbnRR0qluBvpEek00SPcaSjlpHpocj8LkGFHf4gyYh8qExigWK8C0MN70FhmeqJsgm7GLsZTRb6fDATZe0NG_nDQY7rp64CZRGkOBXLTIgzKnQ8cte7wHhf30Nij4go4RfOOiElWkFspMqs7WZzlgtGUaZFZcPggzHbNXEkJ5MQWAALR7BC_pI1jSiR0jw-jVJ-xyqevcEOMlmEo-6QSGi8mq010cGmu35sMKYPQvVZjtzFRhgvL4OxpT8Hr9PFHxUt0HEfNzzZawF_1w&lib=MnX535NAwlQqTTmK8rRb1UHigX9cjdZoX');
+        if (!response.ok) {
+          throw new Error('Failed to fetch team data');
+        }
+        const data = await response.json();
+        setApiTeamData(data);
+      } catch (err) {
+        console.error('Error fetching team data:', err);
+        setApiTeamData([]); // Fallback to empty array
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchTeamData();
+  }, []);
+
+  // Convert API data to match the original structure and filter by type
+  const partners = apiTeamData.filter(member => member.type === 'Partners').map(member => ({
+    ...member,
+    project: member.designation,
+    partTime: member.parttime
+  }));
+
+  const leaderships = apiTeamData.filter(member => member.type === 'Leadership').map(member => ({
+    ...member,
+    project: member.designation,
+    partTime: member.parttime
+  }));
+
+  const managers = apiTeamData.filter(member => member.type === 'Manager').map(member => ({
+    ...member,
+    project: member.designation,
+    partTime: member.parttime
+  }));
+
+  const employees = apiTeamData.filter(member => member.type === 'Team Member').map(member => ({
+    ...member,
+    project: member.designation,
+    partTime: member.parttime
+  }));
+
+  // Keep all original configurations from markdown
   const achievements = post.frontmatter?.achievements || [];
   const showAchievements = post.frontmatter?.showAchievements || false;
   const showPartners = post.frontmatter?.showPartners || false;
@@ -51,6 +101,16 @@ export const OurTeamPage = ({ data }) => {
     }
   };
 
+  // Convert Google Drive share link to direct image URL
+  const getDirectImageUrl = (driveUrl) => {
+    if (!driveUrl) return '';
+    const fileIdMatch = driveUrl.match(/\/d\/([a-zA-Z0-9-_]+)/);
+    if (fileIdMatch) {
+      return `https://drive.google.com/uc?export=view&id=${fileIdMatch[1]}`;
+    }
+    return driveUrl;
+  };
+
   const renderTeamSection = (teamList, sectionTitle, listName) => {
     return (
       <div className="team-section-container">
@@ -65,17 +125,18 @@ export const OurTeamPage = ({ data }) => {
             <div key={index} className="team-card">
               <div
                 className="team-image-wrapper"
-                onClick={() => handlePopupOpen(index, listName)}
+                onClick={() => {if(sectionTitle!="Team Members"){handlePopupOpen(index, listName)}}}
                 onMouseLeave={() => setHoveredMember(-1)}
                 onMouseEnter={() => setHoveredMember(index)}
               >
                 <div
                   className="team-image"
                   style={{
-                    backgroundImage: `url(${!!(member.image && member.image.childImageSharp)
-                      ? member.image.childImageSharp.fluid.src
-                      : member.image
-                      })`,
+                    backgroundImage: `url(${
+                      member.image && member.image.childImageSharp
+                        ? member.image.childImageSharp.fluid.src
+                        : getDirectImageUrl(member.image)
+                    })`,
                   }}
                 ></div>
               </div>
@@ -107,6 +168,93 @@ export const OurTeamPage = ({ data }) => {
           ? leaderships[showPopup.index]
           : showPopup.list === "managers" ?managers[showPopup.index] : employees[showPopup.index]
       : null;
+
+ if (loading) {
+  return (
+    <div style={{
+      position: 'fixed',
+      top: 0,
+      left: 0,
+      width: '100%',
+      height: '100vh',
+      backgroundColor: '#ffffff',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      zIndex: 9999,
+      fontFamily: 'Arial, sans-serif'
+    }}>
+      {/* Animated Logo/Icon */}
+      <div style={{
+        width: '80px',
+        height: '80px',
+        borderRadius: '50%',
+        background: 'linear-gradient(45deg, #294294, #1982A3)',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginBottom: '30px',
+        animation: 'bounce 2s infinite',
+        boxShadow: '0 10px 30px rgba(41, 66, 148, 0.3)'
+      }}>
+        <div style={{
+          width: '40px',
+          height: '40px',
+          border: '3px solid rgba(255,255,255,0.3)',
+          borderTop: '3px solid #ffffff',
+          borderRadius: '50%',
+          animation: 'spin 1s linear infinite'
+        }}></div>
+      </div>
+
+      {/* Loading Text */}
+      <h2 style={{
+        color: '#294294',
+        fontSize: '28px',
+        fontWeight: '700',
+        margin: '0 0 15px 0',
+        textAlign: 'center',
+        letterSpacing: '-0.5px'
+      }}>
+        Loading Our Team
+      </h2>
+
+      <p style={{
+        color: '#666666',
+        fontSize: '16px',
+        margin: '0',
+        textAlign: 'center',
+        maxWidth: '400px',
+        lineHeight: '1.5'
+      }}>
+        Please wait while we gather our team information...
+      </p>
+
+      {/* CSS Animations */}
+      <style dangerouslySetInnerHTML={{
+        __html: `
+          @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+          }
+          
+          @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+              transform: translateY(0);
+            }
+            40% {
+              transform: translateY(-10px);
+            }
+            60% {
+              transform: translateY(-5px);
+            }
+          }
+        `
+      }} />
+    </div>
+  );
+}
 
   return (
     <div>
@@ -145,7 +293,7 @@ export const OurTeamPage = ({ data }) => {
         </div>
 
         {/* Tab Navigation */}
-      
+        
 
         {/* Achievements Section */}
         {showAchievements &&
@@ -179,7 +327,7 @@ export const OurTeamPage = ({ data }) => {
           )}
           {(employees.length > 0 && showEmployees)&& (
             <button className="team-tab-btn" onClick={() => handleTabClick(employeesRef)}>
-              {title4 || "Employees"}
+              {title4 || "Team Member"}
             </button>
           )}
         </div>
@@ -226,7 +374,7 @@ export const OurTeamPage = ({ data }) => {
                     src={
                       popupMember.image?.childImageSharp
                         ? popupMember.image.childImageSharp.fluid.src
-                        : popupMember.image
+                        : getDirectImageUrl(popupMember.image)
                     }
                     alt="popup-member"
                   />
@@ -321,62 +469,6 @@ export const ourTeamPageQuery = graphql`
         title3
         title4
         showEmployees
-        partnersList {
-          image {
-            childImageSharp {
-              fluid(maxWidth: 240, quality: 64) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          name
-          bio
-          project
-          linkedInProfile
-          partTime
-        }
-        leadershipsList {
-          image {
-            childImageSharp {
-              fluid(maxWidth: 240, quality: 64) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          name
-          bio
-          project
-          linkedInProfile
-          partTime
-        }
-        managersList {
-          image {
-            childImageSharp {
-              fluid(maxWidth: 240, quality: 64) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          name
-          bio
-          project
-          linkedInProfile
-          partTime
-        }
-        employeesList {
-          image {
-            childImageSharp {
-              fluid(maxWidth: 240, quality: 64) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          name
-          bio
-          project
-          linkedInProfile
-          partTime
-        }
       }
     }
   }

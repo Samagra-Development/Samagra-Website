@@ -8,15 +8,13 @@ const JourneySoFar = ({ journeyData }) => {
   // Component styles defined within the component
   const styles = {
     journeyOuterSection: {
-       
-     backgroundColor:"#880163"
-        
-      },
+      backgroundColor: "#880163"
+    },
     journeySection: {
       padding: '60px 20px',
       margin: '0 auto',
       maxWidth: '1200px',
-      
+      position: 'relative'
     },
     journeyHeader: {
       marginBottom: '50px',
@@ -26,7 +24,7 @@ const JourneySoFar = ({ journeyData }) => {
       fontSize: '2.5rem',
       marginBottom: '15px',
       fontWeight: "700",
-      fontSize:"44.48px",
+      fontSize: "44.48px",
       lineHeight: "100%",
       color: 'white',
       letterSpacing: "0%",
@@ -50,85 +48,109 @@ const JourneySoFar = ({ journeyData }) => {
     timelineContainer: {
       position: 'relative',
       marginTop: '60px',
+      paddingLeft: '80px'
     },
     timelineLine: {
       position: 'absolute',
-      top: '0',
-      left: '50%',
-      height: '100%',
+      left: '39px',
+      top: '60px',
+      bottom: '0',
       width: '2px',
-      borderLeft: '2px dotted white',
-      transform: 'translateX(-50%)',
+      background: 'linear-gradient(to bottom, white 0%, white 50%, transparent 50%, transparent 100%)',
+      backgroundSize: '2px 20px',
+      zIndex: 0
     },
     timelineItemDesktop: {
-      display: 'flex',
-      alignItems: 'center',
-      marginBottom: '80px',
       position: 'relative',
+      marginBottom: '80px',
+      display: 'flex',
+      alignItems: 'flex-start',
       opacity: '0',
       transform: 'translateY(30px)',
       transition: 'opacity 0.8s ease, transform 0.8s ease',
-      minHeight: '300px',
     },
     timelineItemShow: {
       opacity: '1',
       transform: 'translateY(0)',
     },
-    timelineItemEven: {
-      flexDirection: 'row',
+    dateBox: {
+      position: 'absolute',
+      left: '-100px',
+      top: '20px',
+      backgroundColor: '#880163',
+      padding: '12px 16px',
+      border: "1px dashed #ffffff",
+      borderRadius: '8px',
+      zIndex: 100,
+      display: "flex", 
+flexDirection: "column",
+alignItems: "center",
+gap:"7px",
+      width: '120px',
+      textAlign: 'center'
     },
-    timelineItemOdd: {
-      flexDirection: 'row-reverse',
+    dateText: {
+      color: '#ffffff',
+      fontSize: '1.5rem',
+      fontWeight: '700',
+      lineHeight: '1.2',
+      margin: '0'
+    },
+    contentCard: {
+      backgroundColor: 'transparent',
+      borderRadius: '12px',
+      overflow: 'hidden',
+      display: 'flex',
+      flexDirection: 'row',
+      marginLeft: '20px',
+      width: '100%'
     },
     timelineImageContainer: {
-      width: '50%',
-      padding: '0 20px',
-    
+      width: '320px',
+      height: '210px',
+      overflow: 'hidden',
+      borderRadius: '8px',
+      margin: '20px 20px 20px 0',
+      flexShrink: 0,
       display: 'flex',
       justifyContent: 'center',
     },
     timelineImage: {
-      width: '90%',
-      height: '300px',
+      width: '100%',
+      height: '100%',
       objectFit: 'cover',
-      borderRadius: '10px',
-      boxShadow: "4px 4px white",
-    },
-    timelineCenterDot: {
-      position: 'absolute',
-      left: '50%',
-      transform: 'translateX(-50%)',
-      width: '15px',
-      height: '15px',
-      backgroundColor: 'white',
-      borderRadius: '50%',
-      zIndex: '2',
+      borderRadius: '8px',
+      transition: 'transform 0.3s ease'
     },
     timelineContent: {
-      width: '50%',
-      padding: '0 20px',
+      flex: 1,
+      padding: '20px',
       display: 'flex',
-      alignItems: 'center',
+      flexDirection: 'column',
+      justifyContent: 'center',
     },
     timelineCard: {
-   
-      padding: '25px',
-     
-      width: '90%',
+      padding: '0',
+      width: '100%',
     },
     timelineYear: {
-      fontSize: '1.5rem',
+      fontSize: '32px',
       fontWeight: '700',
       color: 'white',
-      marginBottom: '15px',
+      marginBottom: '12px',
+      lineHeight: '1.3'
     },
     timelineDescription: {
-      fontSize: '1rem',
+      fontSize: '0.95rem',
       lineHeight: '1.6',
-      color: 'white',
+      color: 'rgba(255, 255, 255, 0.9)',
       textAlign: 'justify',
     },
 
+    // Mobile styles
+    mobileContainer: {
+      paddingLeft: '0'
+    },
     timelineItemMobile: {
       display: 'flex',
       flexDirection: 'column',
@@ -143,24 +165,37 @@ const JourneySoFar = ({ journeyData }) => {
       marginBottom: '15px',
     },
     timelineDottedLine: {
-      height: '50px',
+      height: '30px',
       width: '0',
-      borderLeft: '2px dotted white',
+      background: 'linear-gradient(to bottom, white 0%, white 50%, transparent 50%, transparent 100%)',
+      backgroundSize: '2px 10px',
+      zIndex: 1,
+      borderLeft: '2px solid transparent',
     },
-    timelineDot: {
-      width: '17px',
-      height: '17px',
-      backgroundColor: 'white',
-      borderRadius: '50%',
+    mobileDateBox: {
+      backgroundColor: '#880163',
+      padding: '12px 16px',
+      borderRadius: '8px',
+      border: "1px dashed #ffffff",
+      marginBottom: '20px',
+      width:"125px",
+      display: "flex", 
+flexDirection: "column",
+alignItems: "center",
+gap:"3px",
+      textAlign: 'center'
     },
     timelineImageContainerMobile: {
       width: '100%',
+      height: '250px',
       marginBottom: '20px',
-      
+      borderRadius: '8px',
+      overflow: 'hidden'
     },
     timelineContentMobile: {
       width: '100%',
       textAlign: 'left',
+      padding: '0 20px'
     }
   };
 
@@ -208,14 +243,16 @@ const JourneySoFar = ({ journeyData }) => {
   const renderMobileTimelineItem = (item, index) => {
     return (
       <div key={index} style={styles.timelineItemMobile}>
-        {index > 0 && (
+        <div style={styles.mobileDateBox}>
+          <div style={{ width: '15px', height: '15px', backgroundColor: 'white', borderRadius: '50%' }}></div>
+          <div style={styles.dateText}>{item.year}</div>
+        </div>
+        
+        {/* {index < journeyData.length - 1 && ( */}
           <div style={styles.timelineConnectorMobile}>
-
-            <div style={styles.timelineDottedLine}></div>
-            <div style={styles.timelineDot}></div>
             <div style={styles.timelineDottedLine}></div>
           </div>
-        )}
+        {/* )} */}
         
         <div style={styles.timelineImageContainerMobile}>
           <img 
@@ -234,31 +271,31 @@ const JourneySoFar = ({ journeyData }) => {
   };
 
   const renderDesktopTimelineItem = (item, index) => {
-    const isEven = index % 2 === 0;
-    
     return (
       <div 
         key={index} 
         ref={(el) => (elementsRef.current[index] = el)}
-        style={{
-          ...styles.timelineItemDesktop,
-          ...(isEven ? styles.timelineItemEven : styles.timelineItemOdd)
-        }}
+        style={styles.timelineItemDesktop}
       >
-        <div style={styles.timelineImageContainer}>
-          <img 
-            src={item.image === 'string' ? item.image : item.image?.childImageSharp?.fluid?.src} 
-            alt={`Journey ${item.text}`} 
-            style={styles.timelineImage}
-          />
+        <div style={styles.dateBox}>
+          <div style={{ width: '15px', height: '15px', backgroundColor: 'white', borderRadius: '50%' }}></div>
+          <div style={styles.dateText}>{item.year}</div>
         </div>
         
-        <div style={styles.timelineCenterDot}></div>
-        
-        <div style={styles.timelineContent}>
-          <div style={styles.timelineCard}>
-            <h3 style={styles.timelineYear}>{item.text}</h3>
-            <p style={styles.timelineDescription}>{item.subText}</p>
+        <div style={styles.contentCard}>
+          <div style={styles.timelineContent}>
+            <div style={styles.timelineCard}>
+              <h3 style={styles.timelineYear}>{item.text}</h3>
+              <p style={styles.timelineDescription}>{item.subText}</p>
+            </div>
+          </div>
+          
+          <div style={styles.timelineImageContainer}>
+            <img 
+              src={item.image === 'string' ? item.image : item.image?.childImageSharp?.fluid?.src} 
+              alt={`Journey ${item.text}`} 
+              style={styles.timelineImage}
+            />
           </div>
         </div>
       </div>
@@ -266,28 +303,25 @@ const JourneySoFar = ({ journeyData }) => {
   };
 
   return (
-    <div  style={styles.journeyOuterSection    }>
- <section style={styles.journeySection}>
-      <div style={styles.journeyHeader}>
-        <h2 style={styles.journeyTitle}>
-          Journey So Far
-        </h2>
-        
-      </div>
+    <div style={styles.journeyOuterSection}>
+      <section style={styles.journeySection}>
+        <div style={styles.journeyHeader}>
+          <h2 style={styles.journeyTitle}>
+            Journey So Far
+          </h2>
+        </div>
 
-      <div style={styles.timelineContainer}>
-        {!isSmallScreen && <div style={styles.timelineLine}></div>}
-        
-        {journeyData.map((item, index) => (
-          isSmallScreen 
-            ? renderMobileTimelineItem(item, index)
-            : renderDesktopTimelineItem(item, index)
-        ))}
-      </div>
-    </section>
-
+        <div style={isSmallScreen ? styles.mobileContainer : styles.timelineContainer}>
+          {!isSmallScreen && <div style={styles.timelineLine}></div>}
+          
+          {journeyData.map((item, index) => (
+            isSmallScreen 
+              ? renderMobileTimelineItem(item, index)
+              : renderDesktopTimelineItem(item, index)
+          ))}
+        </div>
+      </section>
     </div>
-   
   );
 };
 
