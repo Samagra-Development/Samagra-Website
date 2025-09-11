@@ -109,7 +109,7 @@ const Navbar = class extends React.Component {
                             {title:"Governance Frameworks",projectUrl:"/governanceframeworks"},
                             {title:"Sushasan",projectUrl:"/sushasan"},
                             {title:"Governance Decluttered",projectUrl:"/decluttered"},
-                             {title:"Decoding citizen",projectUrl:"/decodingcitizen"}
+                             {title:"Decoding Citizens",projectUrl:"/decodingcitizen"}
                             ]}/>
                             <MenuDropdown menuIcon={showInverted?menuIconBlack:menuIconWhite} heading={"Ecosystem Initiatives"} data={[{title:"Code for GovTech (C4GT)",projectUrl:"/c4gt"},
                             {title:"The Governance Challenge (TGC)",projectUrl:"https://www.thegovernancechallenge.in/"}]}/>
