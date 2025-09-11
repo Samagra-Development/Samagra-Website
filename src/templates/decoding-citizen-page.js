@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
@@ -11,7 +11,32 @@ import crossIcon from "../img/cross-icon.svg";
 import rightArrow from "../img/right-arrow-icon.svg";
 import { animateScroll as scroll } from "react-scroll";
 import AssetsFooter from "../components/AssetsFooter";
+import SuccessStoriesSection from "../components/CaseStudyComponents/SuccessStoriesSection";
+import { debounce } from "lodash";
 
+function FadeInSection(props) {
+  const [isVisible, setVisible] = useState(false);
+  const domRef = useRef();
+
+  useEffect(() => {
+    const handleIntersection = debounce((entries) => {
+      entries.forEach((entry) =>
+        entry.isIntersecting ? setVisible(entry.isIntersecting) : null
+      );
+    }, 200);
+    const observer = new IntersectionObserver(handleIntersection);
+    observer.observe(domRef.current);
+    return () => observer.unobserve(domRef.current);
+  }, []);
+  return (
+    <div
+      className={`fade-in-section ${isVisible ? "is-visible" : ""}`}
+      ref={domRef}
+    >
+      {props.children}
+    </div>
+  );
+}
 export const DecodingCitizenPage = ({ data }) => {
   const [mobile, setMobile] = useState(false);
   const [showUpIcon, setShowUpIcon] = useState(false);
@@ -208,7 +233,7 @@ export const DecodingCitizenPage = ({ data }) => {
 )}
 
 {/* ---------- TEXT + IMAGES LIST SECTION ---------- */}
-{data?.textImagesListSection && (
+{/* {data?.textImagesListSection && (
   <div style={{ margin: "60px auto", textAlign: "center", maxWidth: "1200px", padding: "0 20px" }}>
     <h2 style={{ fontSize: "24px", fontWeight: 600, marginBottom: "30px" }}>
       {data?.textImagesListSection?.text}
@@ -240,10 +265,40 @@ export const DecodingCitizenPage = ({ data }) => {
       ))}
     </div>
   </div>
-)}
+)} */}
 
 
+            <FadeInSection>
+                 <div
+                   
+                   dangerouslySetInnerHTML={{ __html: data?.successStoriesTitle }}
+                   style={{
+                    
+                     marginTop: mobile ? "100px" : "85px",
+                     
+                    color: "#343434",
+
+                      fontWeight: "700",
+                      textAlign: "center",
+                      lineHeight:"1.2",
+
+                     // margin: "auto",
+                     fontSize: mobile ? "20px" : "28px",
+                   }}
+                 ></div>
+                 <div
+                   style={{
+                                 marginTop: mobile ? "0" : "30px",
          
+                     marginBottom: "150px",
+                     display: "flex",
+                     justifyContent: mobile ? "" : "space-evenly",
+                     flexDirection: mobile ? "column" : "row",
+                   }}
+                 >
+                   <SuccessStoriesSection successStories={data?.showSuccessStories} />
+                 </div>
+               </FadeInSection>
       
          
         
@@ -288,47 +343,6 @@ export const decodingcitizenPageQuery = graphql`
             }
           }
         }
-        declutteredDescription {
-          descriptionHeader {
-            header
-          }
-          descriptionText {
-            text
-          }
-          descriptionVideo
-        }
-        postCategories {
-          category
-        }
-        postData {
-          postCard {
-            postImage {
-              childImageSharp {
-                fluid(maxWidth: 1024, quality: 60) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            selectedCategory
-            urlLink
-          }
-        }
-        instaLink
-        assetsHeading
-        assets {
-          assetCard {
-            assetImage {
-              childImageSharp {
-                fluid(maxWidth: 1024, quality: 60) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            name
-            description
-            link
-          }
-        }
         textImageSection {
           text
           image {
@@ -367,6 +381,8 @@ export const decodingcitizenPageQuery = graphql`
             }
           }
         }
+        successStoriesTitle
+        showSuccessStories
       }
     }
   }

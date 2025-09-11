@@ -33,4 +33,11 @@ assetCard4:
   buttonLink: /amritseries
   buttonText: Read more
   readMoreButtonActive: true
+assetCard5:
+  icon: /img/amritseries.png
+  description: A collection of success stories of large scale impact through our
+    work across domains and states
+  buttonLink: /amritseries
+  buttonText: Read more
+  readMoreButtonActive: true
 ---

@@ -51,6 +51,10 @@ export const AssetPageTemplate = ({ data }) => {
               data={data?.assetCard4}
               style={{ borderBottomRightRadius: "6px" }}
             />
+             <AssetCard
+              data={data?.assetCard5}
+              style={{ borderBottomRightRadius: "6px" }}
+            />
           </div>
         </div>
       </div>
@@ -127,6 +131,19 @@ export const assetsPageQuery = graphql`
           readMoreButtonActive
         }
         assetCard4 {
+          buttonLink
+          buttonText
+          icon {
+            childImageSharp {
+              fluid(maxWidth: 1024, quality: 60) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          description
+          readMoreButtonActive
+        }
+        assetCard5 {
           buttonLink
           buttonText
           icon {
