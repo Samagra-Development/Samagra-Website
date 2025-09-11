@@ -12,8 +12,31 @@ import rightArrow from "../img/right-arrow-icon.svg";
 import { animateScroll as scroll } from "react-scroll";
 import AssetsFooter from "../components/AssetsFooter";
 import { SuccessStoriesSection } from "../components/CaseStudyComponents/SuccessStoriesSection";
+import { debounce } from "lodash";
 
+function FadeInSection(props) {
+  const [isVisible, setVisible] = useState(false);
+  const domRef = useRef();
 
+  useEffect(() => {
+    const handleIntersection = debounce((entries) => {
+      entries.forEach((entry) =>
+        entry.isIntersecting ? setVisible(entry.isIntersecting) : null
+      );
+    }, 200);
+    const observer = new IntersectionObserver(handleIntersection);
+    observer.observe(domRef.current);
+    return () => observer.unobserve(domRef.current);
+  }, []);
+  return (
+    <div
+      className={`fade-in-section ${isVisible ? "is-visible" : ""}`}
+      ref={domRef}
+    >
+      {props.children}
+    </div>
+  );
+}
 export const DecodingCitizenPage = ({ data }) => {
   const [mobile, setMobile] = useState(false);
   const [showUpIcon, setShowUpIcon] = useState(false);
