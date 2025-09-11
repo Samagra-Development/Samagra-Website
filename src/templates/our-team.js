@@ -170,15 +170,151 @@ export const OurTeamPage = ({ data }) => {
       : null;
 
   if (loading) {
-    return (
-      <div className="text-center" style={{ padding: '40px' }}>
-        <div className="spinner-border text-primary" role="status">
-          <span className="visually-hidden">Loading...</span>
-        </div>
-        <p style={{ marginTop: '20px' }}>Loading team data...</p>
+  return (
+    <div style={{
+      position: 'fixed',
+      top: 0,
+      left: 0,
+      width: '100%',
+      height: '100vh',
+      backgroundColor: '#ffffff',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      zIndex: 9999,
+      fontFamily: 'Arial, sans-serif'
+    }}>
+      {/* Animated Logo/Icon Area */}
+      <div style={{
+        width: '80px',
+        height: '80px',
+        borderRadius: '50%',
+        background: 'linear-gradient(45deg, #294294, #1982A3)',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginBottom: '30px',
+        animation: 'bounce 2s infinite',
+        boxShadow: '0 10px 30px rgba(41, 66, 148, 0.3)'
+      }}>
+        <div style={{
+          width: '40px',
+          height: '40px',
+          border: '3px solid rgba(255,255,255,0.3)',
+          borderTop: '3px solid #ffffff',
+          borderRadius: '50%',
+          animation: 'spin 1s linear infinite'
+        }}></div>
       </div>
-    );
-  }
+
+      {/* Loading Text */}
+      <h2 style={{
+        color: '#294294',
+        fontSize: '28px',
+        fontWeight: '700',
+        margin: '0 0 15px 0',
+        textAlign: 'center',
+        letterSpacing: '-0.5px'
+      }}>
+        Loading Our Team
+      </h2>
+
+      <p style={{
+        color: '#666666',
+        fontSize: '16px',
+        margin: '0 0 40px 0',
+        textAlign: 'center',
+        maxWidth: '400px',
+        lineHeight: '1.5'
+      }}>
+        We're gathering information about our amazing team members. This will just take a moment...
+      </p>
+
+      {/* Animated Progress Dots */}
+      <div style={{ display: 'flex', gap: '8px', marginBottom: '30px' }}>
+        {[0, 1, 2].map((i) => (
+          <div
+            key={i}
+            style={{
+              width: '12px',
+              height: '12px',
+              borderRadius: '50%',
+              backgroundColor: '#294294',
+              animation: `dotPulse 1.4s infinite ease-in-out`,
+              animationDelay: `${i * 0.16}s`
+            }}
+          ></div>
+        ))}
+      </div>
+
+      {/* Loading Bar */}
+      <div style={{
+        width: '300px',
+        height: '4px',
+        backgroundColor: '#f0f0f0',
+        borderRadius: '2px',
+        overflow: 'hidden',
+        position: 'relative'
+      }}>
+        <div style={{
+          height: '100%',
+          background: 'linear-gradient(90deg, #294294, #1982A3)',
+          borderRadius: '2px',
+          animation: 'loadingBar 2s ease-in-out infinite'
+        }}></div>
+      </div>
+
+      {/* Add the CSS animations */}
+      <style dangerouslySetInnerHTML={{
+        __html: `
+          @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+          }
+          
+          @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+              transform: translateY(0);
+            }
+            40% {
+              transform: translateY(-10px);
+            }
+            60% {
+              transform: translateY(-5px);
+            }
+          }
+          
+          @keyframes dotPulse {
+            0%, 80%, 100% {
+              transform: scale(0.8);
+              opacity: 0.5;
+            }
+            40% {
+              transform: scale(1.2);
+              opacity: 1;
+            }
+          }
+          
+          @keyframes loadingBar {
+            0% {
+              width: 0%;
+              margin-left: 0%;
+            }
+            50% {
+              width: 75%;
+              margin-left: 12.5%;
+            }
+            100% {
+              width: 0%;
+              margin-left: 100%;
+            }
+          }
+        `
+      }} />
+    </div>
+  );
+}
 
   return (
     <div>
