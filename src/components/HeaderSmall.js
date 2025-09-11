@@ -380,7 +380,7 @@ export class HeaderSmall extends React.Component {
                       }}
                       href="/decodingcitizen"
                     >
-                      Decoding Citizen
+                      Decoding Citizens
                     </a>
                   </div>
                 </div>
