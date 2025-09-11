@@ -34,10 +34,9 @@ assetCard4:
   buttonText: Read more
   readMoreButtonActive: true
 assetCard5:
-  icon: /img/amritseries.png
-  description: A collection of success stories of large scale impact through our
-    work across domains and states
-  buttonLink: /amritseries
+  icon: /img/screenshot-2025-09-11-at-12.25.44 pm.png
+  description: Creating representative archetypes to drive citizen-centered solutions
+  buttonLink: /decodingcitizen
   buttonText: Read more
   readMoreButtonActive: true
 ---
