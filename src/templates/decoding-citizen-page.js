@@ -11,7 +11,7 @@ import crossIcon from "../img/cross-icon.svg";
 import rightArrow from "../img/right-arrow-icon.svg";
 import { animateScroll as scroll } from "react-scroll";
 import AssetsFooter from "../components/AssetsFooter";
-import { SuccessStoriesSection } from "../components/CaseStudyComponents/SuccessStoriesSection";
+import SuccessStoriesSection from "../components/CaseStudyComponents/SuccessStoriesSection";
 import { debounce } from "lodash";
 
 function FadeInSection(props) {
