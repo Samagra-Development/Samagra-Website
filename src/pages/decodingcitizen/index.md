@@ -219,4 +219,9 @@ assets:
       name: Governance Frameworks
       description: The Governance Matrix and Panchsutras for Governance Transformation.
       link: /governanceframeworks
+  - assetCard:
+      assetImage: /img/screenshot-2025-09-11-at-12.25.44 pm.png
+      name: Decoding Citizens
+      description: Creating representative archetypes to drive citizen-centred solutions
+      link: /decodingcitizen
 ---
