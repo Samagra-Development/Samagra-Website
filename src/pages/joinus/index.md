@@ -74,7 +74,17 @@ formsElements:
     validation: VALID_TEXT
   - contentDescription: "   "
     label: Postgrad Institute
-    options: []
+    options:
+      - text: Department of Management Studies, IITD
+      - text: Faculty of management Studies, DU
+      - text: IIM Calcutta
+      - text: IIM Indore
+      - text: IIM Kozhikode
+      - text: IIM Shillong
+      - text: IIM Tiruchirappalli
+      - text: IIM Udaipur
+      - text: SPJIMR
+      - text: XLRI
     otherOptionAvailable:
       activateOn: ""
       label: ""
