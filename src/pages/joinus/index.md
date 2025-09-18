@@ -36,7 +36,7 @@ postSubInfo:
     https://www.youtube.com/embed/videoseries?list=PLqeXOsUG-6BtvH-0GgwRGX9Z2uO\
     89l-nB"
   videoTitle: Learn more about Samagra
-  show: false
+  show: true
 formsElements:
   - contentDescription: " "
     label: Full Name
