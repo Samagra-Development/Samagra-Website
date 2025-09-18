@@ -11,7 +11,7 @@ formAcceptance: 'Refer the <a target={"_blank"}
   Disclaimer: Interviews of applicants from Delhi-NCR will be held in-person at
   our <a target={"_blank"} href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" >
   Delhi office</a> <p>'
-showForm: false
+showForm: true
 verticalImage: /img/screenshot-2025-09-18-at-12.58.16 pm.png
 horizontalImage: /img/screenshot-2025-09-18-at-12.58.16 pm.png
 followLinkedin: /img/follow-linkedin.jpg
@@ -101,8 +101,8 @@ formsElements:
   - required: true
     label: Year of Graduation
     options:
-      - text: "2024"
       - text: "2025"
+      - text: "2026"
     type: select
     validation: VALID_OPTION
     placeholder: S﻿elect year of graduation
