@@ -3,7 +3,7 @@ templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
 infoText2: Refer to the Job Description <a target={"_blank"}
-  href="https://drive.google.com/file/d/1y0-OxgFLlZTiTKaLtKKSFcetYyaMeAT3/view?usp=sharing"
+  href="https://drive.google.com/file/d/10rjdgXVfHk1-dBpEPcaHevvWD5tK3qdT/view"
   > here </a> <p>
 formAcceptance: 'Refer the <a target={"_blank"}
   href="https://drive.google.com/file/d/1hZT30cY45bStl9DzgjQTyEmGr2kCNnWg/view?usp=sharing"
