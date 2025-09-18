@@ -91,8 +91,8 @@ formsElements:
       placeholder: ""
     placeholder: Enter Institute
     required: true
-    type: text
-    validation: VALID_TEXT
+    type: select
+    validation: VALID_OPTION
   - required: true
     label: Postgrad %/CGPA
     placeholder: Enter %/CGPA
