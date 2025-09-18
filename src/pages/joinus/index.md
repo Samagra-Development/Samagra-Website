@@ -12,8 +12,8 @@ formAcceptance: 'Refer the <a target={"_blank"}
   our <a target={"_blank"} href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" >
   Delhi office</a> <p>'
 showForm: false
-verticalImage: /img/whatsapp-image-2025-02-14-at-11.56.33-am.jpeg
-horizontalImage: /img/whatsapp-image-2025-02-14-at-11.56.33-am.jpeg
+verticalImage: /img/screenshot-2025-09-18-at-12.58.16 pm.png
+horizontalImage: /img/screenshot-2025-09-18-at-12.58.16 pm.png
 followLinkedin: /img/follow-linkedin.jpg
 postSubInfo:
   heading: Thank you
