@@ -84,7 +84,7 @@ formsElements:
     type: text
     validation: VALID_TEXT
   - required: true
-    label: Undergraduate %/CGPA
+    label: Postgrad %/CGPA
     placeholder: Enter %/CGPA
     type: text
     validation: VALID_TEXT
