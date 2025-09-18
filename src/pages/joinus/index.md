@@ -75,8 +75,8 @@ formsElements:
   - contentDescription: "   "
     label: Postgrad Institute
     options:
-      - text: Department of Management Studies, IITD
-      - text: Faculty of management Studies, DU
+      - text: DMS, IITD
+      - text: FMS, DU
       - text: IIM Calcutta
       - text: IIM Indore
       - text: IIM Kozhikode
