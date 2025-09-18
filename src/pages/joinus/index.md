@@ -144,8 +144,8 @@ formsElements:
       Organizational Fit MCQ Test.
     label: Please select your availability for Round 2, if shortlisted
     options:
-      - text: 14th Mar' 25 (7:00 PM - 10:00 PM)
-      - text: 15th Mar' 25 (7:00 PM - 10:00 PM)
+      - text: 11th Oct' 25 (7:00 PM - 10:00 PM)
+      - text: 12th Oct' 25 (7:00 PM - 10:00 PM)
     placeholder: Select Option
     required: true
     type: select
