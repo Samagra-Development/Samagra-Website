@@ -5,7 +5,8 @@ infoText1: Join Us
 infoText2: Refer to the Job Description <a target={"_blank"}
   href="https://drive.google.com/file/d/10rjdgXVfHk1-dBpEPcaHevvWD5tK3qdT/view"
   > here </a> <p>
-formAcceptance: 'Register for Samagra Recrutiment Talk <a target={"_blank"}
+formAcceptance: 'Register for Samagra Recrutiment Talk (30th Sep, 7 PM) <a
+  target={"_blank"}
   href="https://us06web.zoom.us/meeting/register/1euzEGc8SUmhMBGZwBLFhQ#/registration"
   > via this link </a> know more about the role. Not eligible this time? You can
   apply again in the December open drive. <p> <p> Disclaimer: Interviews of
