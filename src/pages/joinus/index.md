@@ -7,10 +7,11 @@ infoText2: Refer to the Job Description <a target={"_blank"}
   > here </a> <p>
 formAcceptance: 'Refer the <a target={"_blank"}
   href="https://drive.google.com/file/d/1hZT30cY45bStl9DzgjQTyEmGr2kCNnWg/view?usp=sharing"
-  > Governance consulting case book </a> to prepare for interviews.  <p> <p>
-  Disclaimer: Interviews of applicants from Delhi-NCR will be held in-person at
-  our <a target={"_blank"} href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" >
-  Delhi office</a> <p>'
+  > Governance consulting case book </a> to prepare for interviews. Not eligible
+  this time? You can apply again in the December open drive. <p> <p> Disclaimer:
+  Interviews of applicants from Delhi-NCR will be held in-person at our <a
+  target={"_blank"} href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi
+  office</a> <p>'
 showForm: true
 verticalImage: /img/screenshot-2025-09-18-at-3.10.06 pm.png
 horizontalImage: /img/screenshot-2025-09-18-at-3.10.06 pm.png
