@@ -54,5 +54,6 @@ approach:
       the process of availing welfare benefits by using clear exclusion criteria
       and automated revenue-certificate workflows, while progressively shifting
       toward an income-based vulnerability algorithm.
-partners: []
+partners:
+  - logo: /img/ap-gov-logo.png
 ---
