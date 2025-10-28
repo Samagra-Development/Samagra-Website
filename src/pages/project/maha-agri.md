@@ -8,8 +8,8 @@ backgroundCover: /img/maha-agri.jpg
 domain: Agriculture
 subTitle: Samagra
 state: Maharashtra
-tagLine: Enhancing scheme and service delivery systems and streamline the
-  state’s digital advisory ecosystem
+tagLine: Enhancing agricultural scheme and service delivery systems and
+  streamline the state’s digital advisory ecosystem
 projectLogoWithState: /img/maha-agri-ribbon.png
 overview:
   - text: Having developed a comprehensive playbook for agricultural transformation
