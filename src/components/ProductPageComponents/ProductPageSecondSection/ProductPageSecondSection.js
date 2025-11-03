@@ -106,18 +106,50 @@ export class ProductPageSecondSection extends React.Component {
             thirdSectionAnimation ? "visible" : ""
           }`}
         >
-          {project.approach && (
-            <div className="approach-wrapper col-md-6 col-sm-12">
-              <div className="background" />
+            {project.approach && !project.impact && (
+            
+            <div  className="approach-wrapper col-md-12 col-sm-12">
+              <div className="background-middle" />
               <div className="approach-card">
                 <div className="title">Approach</div>
                 {project.approach.map((o) => {
                   return <p style={{ fontSize: "18px" ,textAlign:"justify" }}>{o.text}</p>;
                 })}
+                
               </div>
             </div>
           )}
-          {project.impact ? (
+          {project.approach &&project.impact && (
+            
+            <div className="approach-wrapper col-md-6 col-sm-12">
+              <div  className="background" />
+              <div className="approach-card">
+                <div className="title">Approach</div>
+                {project.approach.map((o) => {
+                  return <p style={{ fontSize: "18px" ,textAlign:"justify" }}>{o.text}</p>;
+                })}
+                
+              </div>
+            </div>
+          )}
+          {!project.approach &&project.impact? (
+            <div className="impact-wrapper col-md-6 col-sm-12">
+              <div className="background" />
+              <div className="impact-card">
+                <div className="list" >
+                  {project.impact.map((s) => {
+                    return (
+                      <div className="list-item" style={{listStyle:'none'}}>
+                        <div className="count">{s.count}</div>
+                        <div className={"description"}>{s.label}</div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          ) : null}
+          {project.approach &&project.impact? (
             <div className="impact-wrapper col-md-6 col-sm-12">
               <div className="background" />
               <div className="impact-card">
