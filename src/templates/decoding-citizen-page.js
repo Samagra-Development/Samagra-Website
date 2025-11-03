@@ -110,7 +110,7 @@ export const DecodingCitizenPage = ({ data }) => {
       <Helmet>
         <link
           rel="prefetch"
-          href={data?.baseBanner?.bannerImage?.publicURL}
+          href={data?.baseBanner?.bannerImage?.childImageSharp?.fluid?.src}
         />
       </Helmet>
       <div>
@@ -118,7 +118,11 @@ export const DecodingCitizenPage = ({ data }) => {
           <div className={"base-banner-image"}>
             <img
               alt="banner-image"
-              src={data?.baseBanner?.bannerImage?.publicURL}
+              src={
+                data?.baseBanner?.bannerImage?.childImageSharp
+                  ? data?.baseBanner?.bannerImage?.childImageSharp?.fluid?.src
+                  : data?.baseBanner?.bannerImage
+              }
               width={"100%"}
               className="banner-image"
             />
@@ -137,7 +141,11 @@ export const DecodingCitizenPage = ({ data }) => {
   <div style={{ margin: "60px auto", textAlign: "center", maxWidth: "1200px", padding: "0 20px" }}>
      <div style={{ display: "flex", justifyContent: "center" }}>
       <img
-        src={data?.textImageSection?.image?.publicURL || data?.textImageSection?.image}
+        src={
+          data?.textImageSection?.image?.childImageSharp
+            ? data?.textImageSection?.image?.childImageSharp?.fluid?.src
+            : data?.textImageSection?.image
+        }
         alt="textImageSection"
         style={{
           maxWidth: "170px",
@@ -183,7 +191,9 @@ export const DecodingCitizenPage = ({ data }) => {
             gap: "4px",
           }}
         >
-            <img src={card?.image?.publicURL || card?.image}
+            <img src ={ card?.image?.childImageSharp
+            ? card?.image?.childImageSharp?.fluid?.src
+            : card?.image}
             style={{width:"100%"          }}
             ></img>
             <div style ={{padding :"16px"}}>
@@ -326,12 +336,22 @@ export const decodingcitizenPageQuery = graphql`
             text
           }
           bannerImage {
-            publicURL
+            childImageSharp {
+              fluid(maxWidth: 1024, quality: 60) {
+                ...GatsbyImageSharpFluid
+              }
+            }
           }
         }
         textImageSection {
           text
-          image
+          image {
+            childImageSharp {
+              fluid(maxWidth: 1024, quality: 60) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
         textCardsSection {
           text
@@ -340,14 +360,24 @@ export const decodingcitizenPageQuery = graphql`
             title
             description
             readMoreLink
-            image
+            image {
+              childImageSharp {
+                fluid(maxWidth: 1024, quality: 60) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
         textImagesListSection {
           text
           images {
             image {
-              publicURL
+              childImageSharp {
+                fluid(maxWidth: 1024, quality: 60) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
             }
           }
         }
