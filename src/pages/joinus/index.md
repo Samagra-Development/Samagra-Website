@@ -3,17 +3,19 @@ templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
 infoText2: Refer to the Job Description <a target={"_blank"}
-  href="https://drive.google.com/file/d/1y0-OxgFLlZTiTKaLtKKSFcetYyaMeAT3/view?usp=sharing"
+  href="https://drive.google.com/file/d/10rjdgXVfHk1-dBpEPcaHevvWD5tK3qdT/view"
   > here </a> <p>
-formAcceptance: 'Refer the <a target={"_blank"}
-  href="https://drive.google.com/file/d/1hZT30cY45bStl9DzgjQTyEmGr2kCNnWg/view?usp=sharing"
-  > Governance consulting case book </a> to prepare for interviews.  <p> <p>
-  Disclaimer: Interviews of applicants from Delhi-NCR will be held in-person at
-  our <a target={"_blank"} href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" >
-  Delhi office</a> <p>'
+formAcceptance: 'Register for Samagra Recruitment Talk (30th Sep, 7 PM) <a
+  target={"_blank"}
+  href="https://us06web.zoom.us/meeting/register/1euzEGc8SUmhMBGZwBLFhQ#/registration"
+  > via this link </a> know more about the role. <p> <p> Not eligible this time?
+  You can apply again in the December open drive. <p> <p> Disclaimer: Interviews
+  of applicants from Delhi-NCR will be held in-person at our <a
+  target={"_blank"} href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi
+  office</a> <p>'
 showForm: false
-verticalImage: /img/whatsapp-image-2025-02-14-at-11.56.33-am.jpeg
-horizontalImage: /img/whatsapp-image-2025-02-14-at-11.56.33-am.jpeg
+verticalImage: /img/screenshot-2025-09-18-at-3.10.06 pm.png
+horizontalImage: /img/screenshot-2025-09-18-at-3.10.06 pm.png
 followLinkedin: /img/follow-linkedin.jpg
 postSubInfo:
   heading: Thank you
@@ -74,25 +76,35 @@ formsElements:
     validation: VALID_TEXT
   - contentDescription: "   "
     label: Postgrad Institute
-    options: []
+    options:
+      - text: DMS, IITD
+      - text: FMS, DU
+      - text: IIM Calcutta
+      - text: IIM Indore
+      - text: IIM Kozhikode
+      - text: IIM Shillong
+      - text: IIM Tiruchirappalli
+      - text: IIM Udaipur
+      - text: SPJIMR
+      - text: XLRI
     otherOptionAvailable:
       activateOn: ""
       label: ""
       placeholder: ""
     placeholder: Enter Institute
     required: true
-    type: text
-    validation: VALID_TEXT
+    type: select
+    validation: VALID_OPTION
   - required: true
-    label: Undergraduate %/CGPA
+    label: Postgrad %/CGPA
     placeholder: Enter %/CGPA
     type: text
     validation: VALID_TEXT
   - required: true
     label: Year of Graduation
     options:
-      - text: "2024"
       - text: "2025"
+      - text: "2026"
     type: select
     validation: VALID_OPTION
     placeholder: S﻿elect year of graduation
@@ -144,8 +156,8 @@ formsElements:
       Organizational Fit MCQ Test.
     label: Please select your availability for Round 2, if shortlisted
     options:
-      - text: 14th Mar' 25 (7:00 PM - 10:00 PM)
-      - text: 15th Mar' 25 (7:00 PM - 10:00 PM)
+      - text: 11th Oct' 25 (7:00 PM - 10:00 PM)
+      - text: 12th Oct' 25 (7:00 PM - 10:00 PM)
     placeholder: Select Option
     required: true
     type: select

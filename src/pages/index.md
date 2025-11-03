@@ -16,7 +16,7 @@ baseBanner:
   titleLines:
     - text: Transforming
     - text: Governance
-baseBannerVideo: /img/landing-page-video-option-1-.mp4
+baseBannerVideo: /img/for-landing-page_17-oct.mp4
 ourMission:
   title: Our Mission
   description: To improve the quality of life of citizens<br> through better governance
