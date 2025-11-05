@@ -39,12 +39,12 @@ export const BlogPostTemplate = ({
               <div
                 className="image"
                 style={{
-                  backgroundImage: `url(${
-                    !!content.authorImage &&
-                    !!content.authorImage.childImageSharp
-                      ? content.authorImage.childImageSharp.fluid.src
-                      : content.authorImage
-                  })`,
+                  // backgroundImage: `url(${
+                  //   !!content.authorImage &&
+                  //   !!content.authorImage.childImageSharp
+                  //     ? content.authorImage.childImageSharp.fluid.src
+                  //     : content.authorImage
+                  // })`,
                   backgroundPosition: "center",
                   backgroundSize: "cover",
                 }}
@@ -123,20 +123,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         author
-        authorImage {
-          childImageSharp {
-            fluid(maxWidth: 640, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        featuredimage {
-          childImageSharp {
-            fluid(maxWidth: 1280, quality: 62) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
+       
         description
       }
     }
