@@ -1,4 +1,5 @@
 [[headers]]
-for = "/static/*"
+for = "/*"
 [headers.values]
-Cache-Control = "public, max-age=360000"
+Content-Security-Policy = "frame-ancestors 'self' https://www.youtube.com https://www.youtube-nocookie.com"
+X-Frame-Options = "ALLOWALL"
