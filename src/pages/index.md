@@ -35,7 +35,7 @@ ourModel:
         same. Our solutions are rooted in the realities of governance in India.
         We leverage tech & data to enable systemic transformations.
       icon: /img/what-we-do.png
-  ourModelVideoLink: https://www.youtube.com/embed/8vYy8lJAfeg?origin=https://yourdomain.com
+  ourModelVideoLink: https://www.youtube-nocookie.com/embed/8vYy8lJAfeg
 ourApproach:
   title: Our Approach
   description: We combine a top-down management consulting approach for problem
