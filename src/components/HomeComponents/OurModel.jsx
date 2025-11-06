@@ -23,7 +23,8 @@ const OurModelSection = ({ homeContent }) => {
             </div>
           </div>
         </div>
-        <div className={'model-video'}>
+        {homeContent?.ourModel?.ourModelVideoLink && 
+         <div className={'model-video'}>
           <div className="model-border">
             <iframe
               className={'our-model-video'}
@@ -33,6 +34,8 @@ const OurModelSection = ({ homeContent }) => {
               allowFullScreen></iframe>
           </div>
         </div>
+        }
+               
       </div>
     </div>
   );
