@@ -23,19 +23,19 @@ const OurModelSection = ({ homeContent }) => {
             </div>
           </div>
         </div>
-        {/* {homeContent?.ourModel?.ourModelVideoLink && 
+        {homeContent?.ourModel?.ourModelVideoLink && 
          <div className={'model-video'}>
           <div className="model-border">
             <iframe
               className={'our-model-video'}
               src={homeContent?.ourModel?.ourModelVideoLink}
               frameBorder="0"
-              referrerPolicy="strict-origin-when-cross-origin"
+              referrerpolicy="strict-origin-when-cross-origin"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen></iframe>
           </div>
         </div>
-        } */}
+        }
                
       </div>
     </div>

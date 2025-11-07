@@ -246,6 +246,7 @@ export const KSKTemplate = ({ content, helmet }) => {
                   src="https://www.youtube.com/embed/UQ3-w5oupEw?si=RZfhlLldgF8-MraH"
                   // title="YouTube video player"
                   frameborder="0"
+                  referrerpolicy="strict-origin-when-cross-origin"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
                   allowfullscreen
                 ></iframe>
@@ -828,6 +829,7 @@ export const KSKTemplate = ({ content, helmet }) => {
                 src="https://www.youtube.com/embed/videoseries?si=9o9q8gRD6tTb-gKS&amp;list=PLmutx0xcPi1NsSyDkUHYCzk4HeYIoHhEa"
                 // title="YouTube video player"
                 frameborder="0"
+                referrerpolicy="strict-origin-when-cross-origin"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
             </div>

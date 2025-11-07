@@ -1046,6 +1046,7 @@ export const JoinUsFormSection = ({
                 <iframe
                   src={`${postSubInfo.youtubeLink}`}
                   frameBorder="0"
+                  referrerpolicy="strict-origin-when-cross-origin"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>

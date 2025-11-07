@@ -121,6 +121,7 @@ export const DeclutteredPageTemplate = ({ data }) => {
                 }}
                 src={data?.declutteredDescription?.descriptionVideo}
                 frameborder="0"
+                referrerpolicy="strict-origin-when-cross-origin"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
                 allowFullScreen
               ></iframe>

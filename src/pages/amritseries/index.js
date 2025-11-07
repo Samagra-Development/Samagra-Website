@@ -111,6 +111,7 @@ export default function CaseStudiesIndexPage() {
                 className={"sushasan-channel-trailer"}
                 src="https://www.youtube.com/embed/r0gQp1zQLoM"
                 frameBorder="0"
+                referrerpolicy="strict-origin-when-cross-origin"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>

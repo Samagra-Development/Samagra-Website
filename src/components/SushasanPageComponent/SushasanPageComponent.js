@@ -53,6 +53,7 @@ const SushasanPageComponent = ({ content, mobile }) => {
             style={{ borderRadius: "8px", flex: "1" }}
             src={content?.youtubeTrailerLink}
             frameBorder="0"
+            referrerpolicy="strict-origin-when-cross-origin"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
@@ -219,6 +220,7 @@ const SushasanPageComponent = ({ content, mobile }) => {
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
+              referrerpolicy="strict-origin-when-cross-origin"
               style={{ width: "100%", height: "40vw" }}
             ></iframe>
           </div>
