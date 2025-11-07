@@ -48,6 +48,7 @@ const CareerSectionFifth = ({ content }) => {
                 src={content.roles.youtube1.link}
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                referrerpolicy="strict-origin-when-cross-origin"
                 allowFullScreen
               ></iframe>}
               {content.roles.youtube2.show && <iframe
@@ -56,6 +57,7 @@ const CareerSectionFifth = ({ content }) => {
                 height={mobile?"220px":"320px"}
                 src={content.roles.youtube2.link}
                 frameBorder="0"
+                referrerpolicy="strict-origin-when-cross-origin"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>} 
