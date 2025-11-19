@@ -84,7 +84,7 @@ formsElements:
       placeholder: ""
     placeholder: Enter Institute
     required: true
-    type: select
+    type: text
     validation: VALID_TEXT
   - required: true
     label: Undergrad %/CGPA
@@ -94,7 +94,7 @@ formsElements:
   - required: true
     label: Postgrad Institute
     options: []
-    type: select
+    type: text
     validation: VALID_TEXT
     placeholder: S﻿elect year of graduation
   - contentDescription: " "
