@@ -7,13 +7,7 @@ infoText2: 'Refer to the Job Descriptions: <a target={"_blank"}
   > Sr. Associate/Consultant </a>|<a target={"_blank"}
   href="https://drive.google.com/file/d/1brzGfcYPaR1Cvgw9CVz9rxJEBkdsJvP6/view"
   > Emerging Leader </a> <p>'
-formAcceptance: 'Register for Samagra Recruitment Talk (30th Sep, 7 PM) <a
-  target={"_blank"}
-  href="https://us06web.zoom.us/meeting/register/1euzEGc8SUmhMBGZwBLFhQ#/registration"
-  > via this link </a> know more about the role. <p> <p> Disclaimer: Interviews
-  of applicants from Delhi-NCR will be held in-person at our <a
-  target={"_blank"} href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi
-  office</a> <p>'
+formAcceptance: ""
 showForm: true
 verticalImage: /img/screenshot-2025-11-19-at-11.57.06 am.png
 horizontalImage: /img/screenshot-2025-11-19-at-11.57.06 am.png
