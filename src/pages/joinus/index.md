@@ -3,9 +3,9 @@ templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
 infoText2: 'Refer to the Job Descriptions: <a target={"_blank"}
-  href="https://drive.google.com/file/d/10rjdgXVfHk1-dBpEPcaHevvWD5tK3qdT/view"
+  href="https://drive.google.com/file/d/19MfOuedc_55Km_1fc2-k1DeJWsET8zlk/view"
   > Sr. Associate/Consultant </a><a target={"_blank"}
-  href="https://drive.google.com/file/d/10rjdgXVfHk1-dBpEPcaHevvWD5tK3qdT/view"
+  href="https://drive.google.com/file/d/1brzGfcYPaR1Cvgw9CVz9rxJEBkdsJvP6/view"
   >| Emerging Leader </a> <p>'
 formAcceptance: 'Register for Samagra Recruitment Talk (30th Sep, 7 PM) <a
   target={"_blank"}
