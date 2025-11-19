@@ -8,7 +8,7 @@ infoText2: 'Refer to the Job Descriptions: <a target={"_blank"}
   href="https://drive.google.com/file/d/1brzGfcYPaR1Cvgw9CVz9rxJEBkdsJvP6/view"
   > Emerging Leader </a> <p>'
 formAcceptance: ""
-showForm: true
+showForm: false
 verticalImage: /img/screenshot-2025-11-19-at-11.57.06 am.png
 horizontalImage: /img/screenshot-2025-11-19-at-11.57.06 am.png
 followLinkedin: /img/follow-linkedin.jpg
