@@ -92,12 +92,10 @@ formsElements:
     type: text
     validation: VALID_TEXT
   - required: true
-    label: Year of Graduation
-    options:
-      - text: "2025"
-      - text: "2026"
+    label: Postgrad Institute
+    options: []
     type: select
-    validation: VALID_OPTION
+    validation: VALID_TEXT
     placeholder: S﻿elect year of graduation
   - contentDescription: " "
     label: Current/Previous Employer
