@@ -77,17 +77,7 @@ formsElements:
     validation: VALID_TEXT
   - contentDescription: "   "
     label: Undergrad Institute
-    options:
-      - text: DMS, IITD
-      - text: FMS, DU
-      - text: IIM Calcutta
-      - text: IIM Indore
-      - text: IIM Kozhikode
-      - text: IIM Shillong
-      - text: IIM Tiruchirappalli
-      - text: IIM Udaipur
-      - text: SPJIMR
-      - text: XLRI
+    options: []
     otherOptionAvailable:
       activateOn: ""
       label: ""
@@ -95,9 +85,9 @@ formsElements:
     placeholder: Enter Institute
     required: true
     type: select
-    validation: VALID_OPTION
+    validation: VALID_TEXT
   - required: true
-    label: Postgrad %/CGPA
+    label: Undergrad %/CGPA
     placeholder: Enter %/CGPA
     type: text
     validation: VALID_TEXT
@@ -157,8 +147,8 @@ formsElements:
       Organizational Fit MCQ Test.
     label: Please select your availability for Round 2, if shortlisted
     options:
-      - text: 11th Oct' 25 (7:00 PM - 10:00 PM)
-      - text: 12th Oct' 25 (7:00 PM - 10:00 PM)
+      - text: 13th Dec' 25 (7:00 PM - 10:00 PM)
+      - text: 14th Dec' 25 (7:00 PM - 10:00 PM)
     placeholder: Select Option
     required: true
     type: select
