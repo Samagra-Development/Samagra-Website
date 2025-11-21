@@ -90,7 +90,7 @@ formsElements:
     placeholder: Enter %/CGPA
     type: text
     validation: VALID_TEXT
-  - required: true
+  - required: false
     label: Postgrad Institute
     options: []
     type: text
