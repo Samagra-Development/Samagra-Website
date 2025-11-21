@@ -14,8 +14,8 @@ formAcceptance: 'Register for Samagra Recruitment Talk (1st Dec, 7 PM) <a
   applicants from Delhi-NCR will be held in-person at our <a target={"_blank"}
   href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office</a> <p>'
 showForm: true
-verticalImage: /img/screenshot-2025-11-19-at-11.57.06 am.png
-horizontalImage: /img/screenshot-2025-11-19-at-11.57.06 am.png
+verticalImage: /img/screenshot-2025-11-21-at-2.21.38 pm.png
+horizontalImage: /img/screenshot-2025-11-21-at-2.21.38 pm.png
 followLinkedin: /img/follow-linkedin.jpg
 postSubInfo:
   heading: Thank you
