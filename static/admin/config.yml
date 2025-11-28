@@ -1297,141 +1297,99 @@ collections:
           widget: relation,
           required: false,
         }
-      - { label: "Full Name", name: "fullName", widget: "string" }
-      - { label: "Id", name: "id", widget: "string" }
-      - { label: "Background Cover", name: "backgroundCover", widget: image }
-      - { label: "Domain", name: "domain", widget: "string" }
-      - { label: "Sub Title", name: "subTitle", widget: "string" }
-      - { label: "State", name: "state", widget: "string" }
-      - { label: "Tag Line", name: "tagLine", widget: "string" }
+      - { label: "Project Id", name: "id", widget: "string" }
       - {
-          label: "Project Logo with State",
-          name: "projectLogoWithState",
-          widget: image,
-        }
-      - {
-          label: Overview,
-          name: overview,
-          widget: list,
-          fields: [{ label: Text, name: text, widget: string }],
-        }
-      - {
-          label: Scale,
-          name: scale,
-          widget: list,
-          fields:
-            [
-              { label: Count, name: count, widget: string },
-              { label: Label, name: label, widget: string },
-            ],
-        }
-      - {
-          label: "Center Banner",
-          name: "projectMiddleBannerImage",
-          widget: image,
-        }
-      - {
-          label: Approach,
-          name: approach,
-          widget: list,
-          fields: [{ label: Text, name: text, widget: string }],
-        }
-      - {
-          label: Read More,
-          name: readMore,
-          widget: list,
-          max: 200,
-          min: 1,
+          label: "Read More",
+          name: "readMore",
+          widget: "list",
           required: false,
-          fields:
-            [
-              {
-                label: Blog Title,
-                collection: blog,
-                displayFields: ["title", "author"],
-                searchFields: ["title", "author"],
-                name: blogTitle,
-                valueField: title,
-                widget: relation,
-                required: false,
-                optionsLength: 100,
-              },
-              {
-                label: Media Title,
-                collection: mediacontent,
-                required: false,
-                displayFields: ["title", "author", "mediaHouse"],
-                searchFields: ["title", "author"],
-                name: mediaTitle,
-                valueField: title,
-                widget: relation,
-                optionsLength: 100,
-              },
-            ],
+          fields: [{label: "Text", name: "text", widget: "string"}]
         }
       - {
-          label: Impact,
-          name: impact,
-          widget: list,
-          required: false,
-          fields:
-            [
-              { label: Count, name: count, widget: string,required: false },
-              { label: Label, name: label, widget: string,required: false },
-            ],
+          label: "Hero Section",
+          name: "heroSection",
+          widget: "object",
+          fields: [
+            {label: "Title", name: "title", widget: "string"},
+            {label: "Subtitle", name: "subtitle", widget: "string"},
+            {label: "Description", name: "description", widget: "text"},
+            {label: "Categories", name: "categories", widget: "list"},
+            {label: "Background Image", name: "backgroundImage", widget: "image"},
+            {label: "Is Visible", name: "isVisible", widget: "boolean", default: true}
+          ]
         }
       - {
-          label: "Key Initiative Title",
-          name: "keyInitiativesTitle",
-          widget: "string",
-          required: false,
-
+           label: "Why Important Section",
+           name: "whyImportantSection",
+           widget: "object",
+           fields: [
+             {label: "Title", name: "title", widget: "string"},
+             {label: "Background Image", name: "backgroundImage", widget: "image"},
+             {label: "Is Visible", name: "isVisible", widget: "boolean", default: true},
+             {
+               label: "Info Card", 
+               name: "infoCard", 
+               widget: "object", 
+               fields: [
+                 {label: "Title", name: "title", widget: "string"},
+                 {label: "Description", name: "description", widget: "text", required: false}
+               ]
+             },
+             {label: "Items", name: "items", widget: "list", fields: [
+               {label: "Title", name: "title", widget: "string"},
+               {label: "Image", name: "image", widget: "image"}
+             ]}
+           ]
         }
       - {
-          label: "Key Initiatives",
-          name: keyInitiatives,
-          widget: list,
-          required: false,
-
-          fields:
-            [
-              { label: "Image", name: "image", widget: image },
-              { label: Title, name: title, widget: string },
-              {
-                label: Description,
-                name: description,
-                widget: object,
-                fields: [{ label: Text, name: text, widget: string }],
-              },
-            ],
+          label: "Program Highlights Section",
+          name: "programHighlightsSection",
+          widget: "object",
+          fields: [
+            {label: "Title", name: "title", widget: "string"},
+            {label: "Description", name: "description", widget: "text"},
+            {label: "Background Image", name: "backgroundImage", widget: "image"},
+            {label: "Is Visible", name: "isVisible", widget: "boolean", default: true},
+            {label: "Highlights", name: "highlights", widget: "list", fields: [
+              {label: "Title", name: "title", widget: "string"},
+              {label: "Description", name: "description", widget: "text"},
+              {label: "Image", name: "image", widget: "image"}
+            ]}
+          ]
         }
       - {
-          label: Partners,
-          name: partners,
-          widget: list,
-          required: false,
-
-          fields:
-            [ 
-              { label: Logo, name: logo, widget: image, required: false, },
-         
-
-            ],
+          label: "Impact Section",
+          name: "impactSection",
+          widget: "object",
+          fields: [
+            {label: "Title", name: "title", widget: "string"},
+            {label: "Background Image", name: "backgroundImage", widget: "image"},
+            {label: "Is Visible", name: "isVisible", widget: "boolean", default: true},
+            {label: "Stats", name: "stats", widget: "list", fields: [
+              {label: "Value", name: "value", widget: "string"},
+              {label: "Label", name: "label", widget: "string"},
+              {label: "Image", name: "image", widget: "image"}
+            ]},
+            {label: "Testimonials", name: "testimonials", widget: "list", fields: [
+              {label: "Quote", name: "quote", widget: "text"},
+              {label: "Name", name: "name", widget: "string"},
+              {label: "Title", name: "title", widget: "string"},
+              {label: "Image", name: "image", widget: "image"}
+            ]}
+          ]
         }
       - {
-          label: Our Impact,
-          name: ourImpact,
-          widget: list,
-          required: false,
-          fields:
-            [ 
-              { label: Image, name: image, widget: image, required: false, },
-              { label: Description, name: description, widget: string, required: false, },
-              { label: SubTitle, name: subTitle, widget: string, required: false, },       
-              { label: Link, name: link, widget: string, required: false, },        
-
-
-            ],
+          label: "Partners Section",
+          name: "partnersSection",
+          widget: "object",
+          fields: [
+            {label: "Title", name: "title", widget: "string"},
+            {label: "Is Visible", name: "isVisible", widget: "boolean", default: true},
+            {label: "Partners", name: "partners", widget: "list", fields: [
+              {label: "Name", name: "name", widget: "string"},
+              {label: "Logo", name: "logo", widget: "image"}
+            ]}
+          ]
         }
   - name: "pages"
     label: "Pages"

@@ -115,7 +115,6 @@ export default ({domains,menuIcon}) => (
               frontmatter {
                 title
                 templateKey
-                domain
                 domainNew
               }
             }

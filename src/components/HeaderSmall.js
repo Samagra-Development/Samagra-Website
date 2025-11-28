@@ -451,7 +451,6 @@ export default () => (
               frontmatter {
                 title
                 templateKey
-                domain
                 domainNew
               }
             }

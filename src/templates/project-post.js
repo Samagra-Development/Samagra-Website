@@ -1,61 +1,23 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import ProductBannerImage from "../components/ProductPageComponents/ProductBannerImage/ProductBannerImage";
-import { ProductPageSecondSection } from "../components/ProductPageComponents/ProductPageSecondSection/ProductPageSecondSection";
-import { ProductPageKeyInitiatives } from "../components/ProductPageComponents/ProductPageKeyInitiatives/ProductPageKeyInitiatives";
+import { HeroSection, WhyImportantSection, ProgramHighlightsSection, ImpactSection, PartnersSection } from "../components/ProductPageComponents/newComp/newComp";
 import OurPublicationsSection from "../components/ProductPageComponents/OurPublicationsSection/OurPublicationsSection";
-import { OurImpactSection } from "../components/ProductPageComponents/OurImpactSection/OurImpactSection";
-
-const OurPartnersSection = ({ partners }) => {
-  if (!partners || partners?.length === 0) {
-    return null;
-  }
-
-  return (
-   <div className="partners-section">
-  <h2 className="partners-heading">Our Partners</h2>
-  <div className="partners-container">
-    {partners?.map((partner, index) => (
-      <div key={index} className="partner-item">
-        <img
-          src={partner?.logo?.childImageSharp?.fluid?.src}
-          alt={"partner-logo"}
-          className="partner-logo"
-        />
-      </div>
-    ))}
-  </div>
-</div>
-
-  );
-};
 
 export const ProjectPostTemplate = ({ project }) => {
   return (
     <section>
-      <ProductBannerImage project={project} />
-      <ProductPageSecondSection project={project} />
-      {project.keyInitiatives && project.keyInitiatives.length > 0 ? (
-        <ProductPageKeyInitiatives project={project} />
-      ) : null}
-      {project.ourImpact && project.ourImpact.length > 0 ? (
-        <OurImpactSection data={project.ourImpact} />
-      ) : null}
-      {
-
-        (project?.partners && project?.partners?.length > 0) && (
-          <OurPartnersSection partners={project?.partners} />
-        )
-      }
-      {
-
-        (project?.readMore && project?.readMore?.length > 0) && (
-          <OurPublicationsSection
-            readMore={project.readMore}
-            projectId={project.id}
-          />)
-      }
+     {project.heroSection && project.heroSection.isVisible && <HeroSection {...project.heroSection} />}
+     {project.whyImportantSection && project.whyImportantSection.isVisible && <WhyImportantSection {...project.whyImportantSection} />}
+     {project.programHighlightsSection && project.programHighlightsSection.isVisible && <ProgramHighlightsSection {...project.programHighlightsSection} />}
+     {project.impactSection && project.impactSection.isVisible && <ImpactSection {...project.impactSection} />}
+     {project.partnersSection && project.partnersSection.isVisible && <PartnersSection {...project.partnersSection} />}
+     {/* {project?.readMore && project?.readMore?.length > 0 && (
+       <OurPublicationsSection
+         readMore={project.readMore}
+         projectId={project.id}
+       />
+     )} */}
     </section>
   );
 };
@@ -78,85 +40,128 @@ export const pageQuery = graphql`
   query ProductPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
+        domainNew
         title
-        domain
-        subTitle
-        state
-        tagLine
         id
         readMore {
           text
         }
-        keyInitiativesTitle
-        backgroundCover {
-          childImageSharp {
-            fluid(maxWidth: 1024, quality: 64) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        ourImpact {
-          image {
-            childImageSharp {
-              fluid(maxWidth: 640, quality: 64) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          description 
-          subTitle
-          link
-        }
-        partners {
-          logo {
-            childImageSharp {
-              fluid(maxWidth: 240, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-        }
-        projectLogoWithState {
-          childImageSharp {
-            fluid(maxWidth: 240, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        approach {
-          text
-        }
-        
-        overview {
-          text
-        }
-        scale {
-          count
-          label
-        }
-        impact {
-          count
-          label
-        }
-        
-        projectMiddleBannerImage {
-          childImageSharp {
-            fluid(maxWidth: 1440, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        keyInitiatives {
-          image {
-            childImageSharp {
-              fluid(maxWidth: 640, quality: 64) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
+        heroSection {
           title
-          description {
-            text
+          subtitle
+          description
+          categories
+          backgroundImage {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+            publicURL
+          }
+          isVisible
+        }
+        whyImportantSection {
+          title
+          backgroundImage {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+            publicURL
+          }
+          isVisible
+          infoCard {
+            title
+            description
+          }
+          items {
+            title
+            image {
+              childImageSharp {
+                fluid(maxWidth: 640, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+              publicURL
+            }
+          }
+        }
+        programHighlightsSection {
+          title
+          backgroundImage {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+            publicURL
+          }
+          isVisible
+          highlights {
+            title
+            description
+            image {
+              childImageSharp {
+                fluid(maxWidth: 640, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+              publicURL
+            }
+          }
+        }
+        impactSection {
+          title
+          backgroundImage {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+            publicURL
+          }
+          isVisible
+          stats {
+            value
+            label
+            image {
+              childImageSharp {
+                fluid(maxWidth: 200, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+              publicURL
+            }
+          }
+          testimonials {
+            quote
+            name
+            title
+            image {
+              childImageSharp {
+                fluid(maxWidth: 200, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+              publicURL
+            }
+          }
+        }
+        partnersSection {
+          title
+          isVisible
+          partners {
+            name
+            logo {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+              publicURL
+            }
           }
         }
       }
