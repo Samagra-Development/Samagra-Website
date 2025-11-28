@@ -9,13 +9,13 @@ export const AssetPageTemplate = ({ data }) => {
   return (
     <div>
       <Helmet>
-        {/* <link
+        <link
           rel="prefetch"
           href={data?.bannerImage?.childImageSharp?.fluid?.src}
-        /> */}
+        />
       </Helmet>
       <div id="our-assets">
-        {/* <div className={"base-banner-image"}>
+        <div className={"base-banner-image"}>
           <img
             src={
               data?.bannerImage?.childImageSharp
@@ -56,7 +56,7 @@ export const AssetPageTemplate = ({ data }) => {
               style={{ borderBottomRightRadius: "6px" }}
             />
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
@@ -96,33 +96,63 @@ export const assetsPageQuery = graphql`
           buttonLink
           buttonText
           readMoreButtonActive
-         
+          icon {
+            childImageSharp {
+              fluid(maxWidth: 1024, quality: 60) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
         assetCard2 {
           buttonLink
           buttonText
-          
+          icon {
+            childImageSharp {
+              fluid(maxWidth: 1024, quality: 60) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           description
           readMoreButtonActive
         }
         assetCard3 {
           buttonLink
           buttonText
-          
+          icon {
+            childImageSharp {
+              fluid(maxWidth: 1024, quality: 60) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           description
           readMoreButtonActive
         }
         assetCard4 {
           buttonLink
           buttonText
-          
+          icon {
+            childImageSharp {
+              fluid(maxWidth: 1024, quality: 60) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           description
           readMoreButtonActive
         }
         assetCard5 {
           buttonLink
           buttonText
-         
+          icon {
+            childImageSharp {
+              fluid(maxWidth: 1024, quality: 60) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           description
           readMoreButtonActive
         }
