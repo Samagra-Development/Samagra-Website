@@ -12,9 +12,9 @@ import JoinUsFormSection from "../components/JoinUsPageComponents/JoinUsFormSect
 export const JoinUsPreviewTemplate = ({joinUsPageContent}) => {
     return (
         <React.Fragment>
-            {/* <JoinUsBannerImage/>
+            <JoinUsBannerImage/>
             <JoinUsFormSection joinUsPageContent={joinUsPageContent} infoText1={joinUsPageContent.infoText1} infoText2={joinUsPageContent.infoText2} formAcceptance={joinUsPageContent.formAcceptance} ShowForm={joinUsPageContent.showForm} verticleImage={joinUsPageContent.verticalImage}
-                               horizontalImage={joinUsPageContent?.horizontalImage} followLinkedin={joinUsPageContent.followLinkedin} postSubInfo={joinUsPageContent.postSubInfo}/> */}
+                               horizontalImage={joinUsPageContent.horizontalImage} followLinkedin={joinUsPageContent.followLinkedin} postSubInfo={joinUsPageContent.postSubInfo}/>
         </React.Fragment>
     )
 };
@@ -54,7 +54,20 @@ export const JoinUsPageQuery = graphql`
            videoTitle
            youtubeLink
         }
-
+        verticalImage {
+             childImageSharp {
+                fluid(maxWidth: 768, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+        }
+        horizontalImage {
+             childImageSharp {
+                fluid(maxWidth: 768, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+        }
         followLinkedin {
              childImageSharp {
                 fluid(maxWidth: 768, quality: 100) {
