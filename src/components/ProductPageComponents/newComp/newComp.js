@@ -520,7 +520,7 @@ export class ProgramHighlightsSection extends React.Component {
                   }} />
                   <div style={{
                     borderRadius: '12px',
-                    padding: '16px 32px'
+                    padding: '16px 8px'
                   }}>
                     <h3 style={{ 
                       fontSize: '24px', 
