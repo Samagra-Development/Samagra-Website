@@ -306,7 +306,7 @@ export class WhyImportantSection extends React.Component {
                   }}
                   >
                     <h3 style={{ 
-                      fontSize: '24px', 
+                      fontSize: '22px', 
                       fontWeight: 500, 
                       color: '#fff',
                       textTransform: 'capitalize'
