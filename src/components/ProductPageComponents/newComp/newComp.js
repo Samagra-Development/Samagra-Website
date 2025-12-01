@@ -768,12 +768,13 @@ export class ImpactSection extends React.Component {
     super(props);
     this.state = {
       currentTestimonial: 0,
-      isMobile: window.innerWidth < 768,
-      isTablet: window.innerWidth >= 768 && window.innerWidth < 1024,
+      isMobile: false,
+      isTablet: false,
     };
   }
 
   componentDidMount() {
+    this.handleResize();
     window.addEventListener('resize', this.handleResize);
   }
 
@@ -782,10 +783,12 @@ export class ImpactSection extends React.Component {
   }
 
   handleResize = () => {
-    this.setState({
-      isMobile: window.innerWidth < 768,
-      isTablet: window.innerWidth >= 768 && window.innerWidth < 1024,
-    });
+    if (typeof window !== 'undefined') {
+      this.setState({
+        isMobile: window.innerWidth < 768,
+        isTablet: window.innerWidth >= 768 && window.innerWidth < 1024,
+      });
+    }
   };
 
   handlePrevTestimonial = () => {
