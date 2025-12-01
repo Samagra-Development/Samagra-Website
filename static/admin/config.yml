@@ -1299,13 +1299,6 @@ collections:
         }
       - { label: "Project Id", name: "id", widget: "string" }
       - {
-          label: "Read More",
-          name: "readMore",
-          widget: "list",
-          required: false,
-          fields: [{label: "Text", name: "text", widget: "string"}]
-        }
-      - {
           label: "Hero Section",
           name: "heroSection",
           widget: "object",
@@ -1365,17 +1358,33 @@ collections:
             {label: "Title", name: "title", widget: "string"},
             {label: "Background Image", name: "backgroundImage", widget: "image"},
             {label: "Is Visible", name: "isVisible", widget: "boolean", default: true},
-            {label: "Stats", name: "stats", widget: "list", fields: [
-              {label: "Value", name: "value", widget: "string"},
-              {label: "Label", name: "label", widget: "string"},
-              {label: "Image", name: "image", widget: "image"}
-            ]},
-            {label: "Testimonials", name: "testimonials", widget: "list", fields: [
-              {label: "Quote", name: "quote", widget: "text"},
-              {label: "Name", name: "name", widget: "string"},
-              {label: "Title", name: "title", widget: "string"},
-              {label: "Image", name: "image", widget: "image"}
-            ]}
+            {
+              label: "Stats",
+              name: "stats",
+              widget: "object",
+              fields: [
+                {label: "Is Visible", name: "isVisible", widget: "boolean", default: true},
+                {label: "Items", name: "items", widget: "list", fields: [
+                  {label: "Value", name: "value", widget: "string"},
+                  {label: "Label", name: "label", widget: "string"},
+                  {label: "Image", name: "image", widget: "image"}
+                ]}
+              ]
+            },
+            {
+              label: "Testimonials",
+              name: "testimonials",
+              widget: "object",
+              fields: [
+                {label: "Is Visible", name: "isVisible", widget: "boolean", default: true},
+                {label: "Items", name: "items", widget: "list", fields: [
+                  {label: "Quote", name: "quote", widget: "text"},
+                  {label: "Name", name: "name", widget: "string"},
+                  {label: "Title", name: "title", widget: "string"},
+                  {label: "Image", name: "image", widget: "image"}
+                ]}
+              ]
+            }
           ]
         }
       - {

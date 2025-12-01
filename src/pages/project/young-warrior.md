@@ -3,9 +3,6 @@ templateKey: project-post
 title: Young Warrior
 id: Young Warrior
 domainNew: Current Programs
-readMore:
-  - text: "Read our full impact report"
-  - text: "Learn more about dairy farming in Odisha"
 heroSection:
   title: LEAP
   subtitle: Livestock Expansion and Advancement Program
@@ -51,23 +48,27 @@ impactSection:
   backgroundImage: /img/dsc00019.jpg
   isVisible: true
   stats:
-    - value: "₹1,423 cr"
-      image: /img/dsc00019.jpg
-      label: five-year budgetary outlay under Mukhyamantri Kamdhenu Yojana
-    - value: 15.2L+
-      image: /img/dsc00019.jpg
-      label: cattle farmers in Odisha
-    - value: 3.5L/day
-      image: /img/dsc00019.jpg
-      label: average milk yield per animal
-    - value: 51%
-      image: /img/dsc00019.jpg
-      label: lower than national average
+    isVisible: true
+    items:
+      - value: "₹1,423 cr"
+        image: /img/dsc00019.jpg
+        label: five-year budgetary outlay under Mukhyamantri Kamdhenu Yojana
+      - value: 15.2L+
+        image: /img/dsc00019.jpg
+        label: cattle farmers in Odisha
+      - value: 3.5L/day
+        image: /img/dsc00019.jpg
+        label: average milk yield per animal
+      - value: 51%
+        image: /img/dsc00019.jpg
+        label: lower than national average
   testimonials:
-    - quote: The LEAP program has transformed our dairy farming operations. We now have access to better breeding facilities and veterinary services that have significantly improved our milk production.
-      name: Ramesh Kumar
-      title: Dairy Farmer, Cuttack District
-      image: /img/dsc00019.jpg
+    isVisible: true
+    items:
+      - quote: The LEAP program has transformed our dairy farming operations. We now have access to better breeding facilities and veterinary services that have significantly improved our milk production.
+        name: Ramesh Kumar
+        title: Dairy Farmer, Cuttack District
+        image: /img/dsc00019.jpg
 partnersSection:
   title: Our Partners
   isVisible: true

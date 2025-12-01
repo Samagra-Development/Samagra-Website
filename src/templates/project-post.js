@@ -10,7 +10,12 @@ export const ProjectPostTemplate = ({ project }) => {
      {project.heroSection && project.heroSection.isVisible && <HeroSection {...project.heroSection} />}
      {project.whyImportantSection && project.whyImportantSection.isVisible && <WhyImportantSection {...project.whyImportantSection} />}
      {project.programHighlightsSection && project.programHighlightsSection.isVisible && <ProgramHighlightsSection {...project.programHighlightsSection} />}
-     {project.impactSection && project.impactSection.isVisible && <ImpactSection {...project.impactSection} />}
+     <ImpactSection 
+  title={project.impactSection.title}
+  backgroundImage={project.impactSection.backgroundImage}
+stats={project.impactSection.stats?.isVisible ? project.impactSection.stats.items : []}
+testimonials={project.impactSection.testimonials?.isVisible ? project.impactSection.testimonials.items : []}
+/>
      {project.partnersSection && project.partnersSection.isVisible && <PartnersSection {...project.partnersSection} />}
      {/* {project?.readMore && project?.readMore?.length > 0 && (
        <OurPublicationsSection
@@ -43,9 +48,6 @@ export const pageQuery = graphql`
         domainNew
         title
         id
-        readMore {
-          text
-        }
         heroSection {
           title
           subtitle
@@ -124,28 +126,34 @@ export const pageQuery = graphql`
           }
           isVisible
           stats {
-            value
-            label
-            image {
-              childImageSharp {
-                fluid(maxWidth: 200, quality: 100) {
-                  ...GatsbyImageSharpFluid
+            isVisible
+            items {
+              value
+              label
+              image {
+                childImageSharp {
+                  fluid(maxWidth: 200, quality: 100) {
+                    ...GatsbyImageSharpFluid
+                  }
                 }
+                publicURL
               }
-              publicURL
             }
           }
           testimonials {
-            quote
-            name
-            title
-            image {
-              childImageSharp {
-                fluid(maxWidth: 200, quality: 100) {
-                  ...GatsbyImageSharpFluid
+            isVisible
+            items {
+              quote
+              name
+              title
+              image {
+                childImageSharp {
+                  fluid(maxWidth: 200, quality: 100) {
+                    ...GatsbyImageSharpFluid
+                  }
                 }
+                publicURL
               }
-              publicURL
             }
           }
         }

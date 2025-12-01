@@ -1,5 +1,5 @@
 import React from "react";
-import  quotes  from "../../../img/qoutes.png"
+import quotes from "../../../img/qoutes.png";
 
 // Helper function to get image URL with proper fallbacks
 const getImageUrl = (image) => {
@@ -7,15 +7,12 @@ const getImageUrl = (image) => {
   return image?.childImageSharp?.fluid?.src || image?.publicURL || image;
 };
 
-// Hero Section Component (MacBook Air - 21)
-
-
+// Hero Section Component
 export class HeroSection extends React.Component {
   render() {
     const { title, subtitle, description, categories, backgroundImage } = this.props;
     const bgImageUrl = getImageUrl(backgroundImage);
     
-    // Parse categories array - expecting format like ["Agriculture", "Odisha"]
     const categoryItems = categories || [];
     
     return (
@@ -88,7 +85,6 @@ export class HeroSection extends React.Component {
             style={{ 
               width: '1px', 
               height: '32px', 
-           
               background: 'rgba(255,255,255,0.5)' 
             }} 
           />
@@ -135,7 +131,7 @@ export class HeroSection extends React.Component {
               backdropFilter: 'blur(8px)',
               width: '100%',
               display: 'flex',
-                 marginTop: "70px",
+              marginTop: "70px",
               flexDirection: 'column',
               alignItems: 'center',
               gap: '16px'
@@ -169,7 +165,8 @@ export class HeroSection extends React.Component {
     );
   }
 }
-// Why Important Section Component (MacBook Air - 22 & 54)
+
+// Why Important Section Component
 export class WhyImportantSection extends React.Component {
   constructor(props) {
     super(props);
@@ -260,7 +257,7 @@ export class WhyImportantSection extends React.Component {
             {title || "Why is it important?"}
           </h2>
           
-          <div className="row" style={{ display: 'flex', gap: '44px' }}>
+          <div className="row" style={{ display: 'flex', gap: '44px', flexWrap: 'wrap' }}>
             {items?.map((item, index) => {
               const itemImageUrl = getImageUrl(item.image);
               return (
@@ -272,7 +269,8 @@ export class WhyImportantSection extends React.Component {
                     flexDirection: 'column', 
                     gap: '20px',
                     position: 'relative',
-                    flex: 1
+                    flex: 1,
+                    minWidth: '250px'
                   }}
                 >
                   <div style={{
@@ -322,46 +320,7 @@ export class WhyImportantSection extends React.Component {
           </div>
         </div>
         
-        {/* Toggle Arrow Button - Always Visible */}
-        {/* <button 
-          onClick={this.toggleSidebar}
-          style={{
-            position: 'fixed',
-            left: isSidebarOpen ? '535px' : '0',
-            top: '50%',
-            transform: 'translateY(-50%)',
-            width: '48px',
-            height: '96px',
-            background: 'rgba(255, 255, 255, 0.9)',
-            backdropFilter: 'blur(10px)',
-            borderRadius: '0 24px 24px 0',
-            border: 'none',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            boxShadow: '4px 4px 24px rgba(0, 0, 0, 0.2)',
-            zIndex: 31,
-            cursor: 'pointer',
-            transition: 'all 0.5s ease-in-out'
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.background = 'rgba(255, 255, 255, 1)';
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.background = 'rgba(255, 255, 255, 0.9)';
-          }}
-        >
-          <span style={{ 
-            fontSize: '32px', 
-            color: '#334155', 
-            fontWeight: 'bold',
-            transform: isSidebarOpen ? 'rotate(0deg)' : 'rotate(180deg)',
-            transition: 'transform 0.3s'
-          }}>
-            ×
-          </span>
-        </button> */}
-        {/* Toggle Arrow Button - Visible only in this section */}
+        {/* Toggle Arrow Button */}
         <button 
           onClick={this.toggleSidebar}
           style={{
@@ -401,7 +360,7 @@ export class WhyImportantSection extends React.Component {
           </span>
         </button>
         
-        {/* Side Info Card - "Did You Know?" - Independent */}
+        {/* Side Info Card - "Did You Know?" */}
         <div style={{
           position: 'absolute',
           left: 0,
@@ -466,7 +425,7 @@ export class WhyImportantSection extends React.Component {
   }
 }
 
-// Program Highlights Section (MacBook Air - 39)
+// Program Highlights Section
 export class ProgramHighlightsSection extends React.Component {
   constructor(props) {
     super(props);
@@ -536,7 +495,7 @@ export class ProgramHighlightsSection extends React.Component {
             {title || "Program Highlights"}
           </h2>
           
-          <div className="row" style={{ display: 'flex', gap: '24px' }}>
+          <div className="row" style={{ display: 'flex', gap: '24px', flexWrap: 'wrap' }}>
             {highlights?.map((highlight, index) => {
               const highlightImageUrl = getImageUrl(highlight.image);
               return (
@@ -547,7 +506,8 @@ export class ProgramHighlightsSection extends React.Component {
                     display: 'flex', 
                     flexDirection: 'column', 
                     gap: '12px',
-                    flex: 1
+                    flex: 1,
+                    minWidth: '250px'
                   }}
                 >
                   <div style={{
@@ -589,9 +549,7 @@ export class ProgramHighlightsSection extends React.Component {
   }
 }
 
-// Impact Section (MacBook Air - 46)
-
-
+// Impact Section
 // export class ImpactSection extends React.Component {
 //   constructor(props) {
 //     super(props);
@@ -657,51 +615,60 @@ export class ProgramHighlightsSection extends React.Component {
 //           </h2>
           
 //           {/* Stats Grid */}
-//           <div className="row" style={{ display: 'flex', gap: '28px', marginBottom: '32px' }}>
-//             {stats?.map((stat, index) => (
-//               <div 
-//                 key={index}
-//                 className="col-md-3"
-//                 style={{
-//                   background: 'rgba(255, 255, 255, 0.1)',
-//                   backdropFilter: 'blur(10px)',
-//                   borderRadius: '24px',
-//                   padding: '32px 24px',
-//                   display: 'flex',
-//                   flexDirection: 'column',
-//                   alignItems: 'center',
-//                   gap: '12px',
-//                   flex: 1
-//                 }}
-//               >
-//                 <div style={{ 
-//                   width: '121px', 
-//                   height: '75px',
-//                   background: 'rgba(255, 255, 255, 0.2)',
-//                   borderRadius: '8px'
-//                 }} />
-//                 <div style={{ textAlign: 'center', width: '100%' }}>
-//                   <div style={{ 
-//                     fontSize: '28px', 
-//                     fontWeight: 600, 
-//                     color: '#fff',
-//                     lineHeight: '48px',
-//                     textTransform: 'capitalize'
-//                   }}>
-//                     {stat.value}
-//                   </div>
-//                   <div style={{ 
-//                     fontSize: '18px', 
-//                     fontWeight: 400,
-//                     color: '#fff',
-//                     lineHeight: '20px',
-//                     marginTop: '16px'
-//                   }}>
-//                     {stat.label}
+//           <div className="row" style={{ display: 'flex', gap: '28px', marginBottom: '32px', flexWrap: 'wrap' }}>
+//             {stats?.map((stat, index) => {
+//               const statImageUrl = getImageUrl(stat.image);
+//               return (
+//                 <div 
+//                   key={index}
+//                   className="col-md-3"
+//                   style={{
+//                     background: 'rgba(255, 255, 255, 0.1)',
+//                     backdropFilter: 'blur(10px)',
+//                     borderRadius: '24px',
+//                     padding: '32px 24px',
+//                     display: 'flex',
+//                     flexDirection: 'column',
+//                     alignItems: 'center',
+//                     gap: '12px',
+//                     flex: 1,
+//                     minWidth: '200px'
+//                   }}
+//                 >
+//                   <div style={{ textAlign: 'center', width: '100%' }}>
+//                     {statImageUrl && (
+//                       <div style={{
+//                         width: '121px',
+//                         height: '75px',
+//                         margin: '16px auto',
+//                         backgroundImage: `url(${statImageUrl})`,
+//                         backgroundSize: 'contain',
+//                         backgroundRepeat: 'no-repeat',
+//                         backgroundPosition: 'center'
+//                       }} />
+//                     )}
+//                     <div style={{ 
+//                       fontSize: '28px', 
+//                       fontWeight: 600, 
+//                       color: '#fff',
+//                       lineHeight: '48px',
+//                       textTransform: 'capitalize'
+//                     }}>
+//                       {stat.value}
+//                     </div>
+//                     <div style={{ 
+//                       fontSize: '18px', 
+//                       fontWeight: 400,
+//                       color: '#fff',
+//                       lineHeight: '20px',
+//                       marginTop: '16px'
+//                     }}>
+//                       {stat.label}
+//                     </div>
 //                   </div>
 //                 </div>
-//               </div>
-//             ))}
+//               );
+//             })}
 //           </div>
           
 //           {/* Testimonial Card */}
@@ -795,6 +762,7 @@ export class ProgramHighlightsSection extends React.Component {
 //   }
 // }
 
+// Impact Section
 export class ImpactSection extends React.Component {
   constructor(props) {
     super(props);
@@ -824,7 +792,7 @@ export class ImpactSection extends React.Component {
   render() {
     const { title, stats, testimonials, backgroundImage } = this.props;
     const { currentTestimonial } = this.state;
-    const testimonial = testimonials && testimonials[currentTestimonial];
+    const testimonial = testimonials && testimonials.length > 0 ? testimonials[currentTestimonial] : null;
     const bgImageUrl = getImageUrl(backgroundImage);
     const testimonialImageUrl = testimonial ? getImageUrl(testimonial.image) : null;
 
@@ -859,64 +827,66 @@ export class ImpactSection extends React.Component {
             {title || "Impact"}
           </h2>
           
-          {/* Stats Grid */}
-          <div className="row" style={{ display: 'flex', gap: '28px', marginBottom: '32px' }}>
-            {stats?.map((stat, index) => {
-              const statImageUrl = getImageUrl(stat.image);
-              return (
-                <div 
-                  key={index}
-                  className="col-md-3"
-                  style={{
-                    background: 'rgba(255, 255, 255, 0.1)',
-                    backdropFilter: 'blur(10px)',
-                    borderRadius: '24px',
-                    padding: '32px 24px',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    alignItems: 'center',
-                    gap: '12px',
-                    flex: 1
-                  }}
-                >
-                  <div style={{ textAlign: 'center', width: '100%' }}>
-                   
-                    {statImageUrl && (
-                      <div style={{
-                        width: '121px',
-                        height: '75px',
-                        margin: '16px auto',
-                        backgroundImage: `url(${statImageUrl})`,
-                        backgroundSize: 'contain',
-                        backgroundRepeat: 'no-repeat',
-                        backgroundPosition: 'center'
-                      }} />
-                    )}
-                     <div style={{ 
-                      fontSize: '28px', 
-                      fontWeight: 600, 
-                      color: '#fff',
-                      lineHeight: '48px',
-                      textTransform: 'capitalize'
-                    }}>
-                      {stat.value}
-                    </div>
-                    <div style={{ 
-                      fontSize: '18px', 
-                      fontWeight: 400,
-                      color: '#fff',
-                      lineHeight: '20px',
-                      marginTop: '16px'
-                    }}>
-                      {stat.label}
+          {/* Stats Grid - Only render if stats exist */}
+          {stats && stats.length > 0 && (
+            <div className="row" style={{ display: 'flex', gap: '28px', marginBottom: '32px', flexWrap: 'wrap' }}>
+              {stats.map((stat, index) => {
+                const statImageUrl = getImageUrl(stat.image);
+                return (
+                  <div 
+                    key={index}
+                    className="col-md-3"
+                    style={{
+                      background: 'rgba(255, 255, 255, 0.1)',
+                      backdropFilter: 'blur(10px)',
+                      borderRadius: '24px',
+                      padding: '32px 24px',
+                      display: 'flex',
+                      flexDirection: 'column',
+                      alignItems: 'center',
+                      gap: '12px',
+                      flex: 1,
+                      minWidth: '200px'
+                    }}
+                  >
+                    <div style={{ textAlign: 'center', width: '100%' }}>
+                      {statImageUrl && (
+                        <div style={{
+                          width: '121px',
+                          height: '75px',
+                          margin: '16px auto',
+                          backgroundImage: `url(${statImageUrl})`,
+                          backgroundSize: 'contain',
+                          backgroundRepeat: 'no-repeat',
+                          backgroundPosition: 'center'
+                        }} />
+                      )}
+                      <div style={{ 
+                        fontSize: '28px', 
+                        fontWeight: 600, 
+                        color: '#fff',
+                        lineHeight: '48px',
+                        textTransform: 'capitalize'
+                      }}>
+                        {stat.value}
+                      </div>
+                      <div style={{ 
+                        fontSize: '18px', 
+                        fontWeight: 400,
+                        color: '#fff',
+                        lineHeight: '20px',
+                        marginTop: '16px'
+                      }}>
+                        {stat.label}
+                      </div>
                     </div>
                   </div>
-                </div>
-              );
-            })}
-          </div>
+                );
+              })}
+            </div>
+          )}
           
-          {/* Testimonial Card */}
+          {/* Testimonial Card - Only render if testimonial exists */}
           {testimonial && (
             <div style={{
               background: 'rgba(255, 255, 255, 0.1)',
@@ -999,6 +969,70 @@ export class ImpactSection extends React.Component {
                   transform: 'scaleX(-1)'
                 }}
               />
+              
+              {/* Navigation Arrows - Only show if multiple testimonials */}
+              {testimonials && testimonials.length > 1 && (
+                <>
+                  <button
+                    onClick={this.handlePrevTestimonial}
+                    style={{
+                      position: 'absolute',
+                      left: '16px',
+                      top: '50%',
+                      transform: 'translateY(-50%)',
+                      background: 'rgba(255, 255, 255, 0.2)',
+                      border: 'none',
+                      borderRadius: '50%',
+                      width: '40px',
+                      height: '40px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      cursor: 'pointer',
+                      color: '#fff',
+                      fontSize: '20px',
+                      transition: 'all 0.3s'
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.background = 'rgba(255, 255, 255, 0.3)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.background = 'rgba(255, 255, 255, 0.2)';
+                    }}
+                  >
+                    ‹
+                  </button>
+                  <button
+                    onClick={this.handleNextTestimonial}
+                    style={{
+                      position: 'absolute',
+                      right: '16px',
+                      top: '50%',
+                      transform: 'translateY(-50%)',
+                      background: 'rgba(255, 255, 255, 0.2)',
+                      border: 'none',
+                      borderRadius: '50%',
+                      width: '40px',
+                      height: '40px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      cursor: 'pointer',
+                      color: '#fff',
+                      fontSize: '20px',
+                      transition: 'all 0.3s'
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.background = 'rgba(255, 255, 255, 0.3)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.background = 'rgba(255, 255, 255, 0.2)';
+                    }}
+                  >
+                    ›
+                  </button>
+                </>
+              )}
             </div>
           )}
         </div>
@@ -1006,7 +1040,7 @@ export class ImpactSection extends React.Component {
     );
   }
 }
-// Partners Section (MacBook Air - 35)
+// Partners Section
 export class PartnersSection extends React.Component {
   render() {
     const { title, partners } = this.props;
@@ -1036,7 +1070,8 @@ export class PartnersSection extends React.Component {
             alignItems: 'center', 
             justifyContent: 'flex-start',
             gap: '96px',
-            padding: '48px 0'
+            padding: '48px 0',
+            flexWrap: 'wrap'
           }}>
             {partners?.map((partner, index) => {
               const logoUrl = getImageUrl(partner.logo);
