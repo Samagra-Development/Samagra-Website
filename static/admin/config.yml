@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: feature/ourTeamPage/employeesSection
   publish_mode: editorial_workflow
 
 # local_backend: true
