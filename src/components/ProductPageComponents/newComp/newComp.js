@@ -856,8 +856,8 @@ export class ImpactSection extends React.Component {
           {/* Stats Grid - Only render if stats exist */}
           {stats && stats.length > 0 && (
             <div className="row" style={{ 
-              display: 'grid',
-              gridTemplateColumns: isMobile ? '1fr' : isTablet ? 'repeat(2, 1fr)' : `repeat(${Math.min(stats.length, 4)}, 1fr)`,
+              display: 'flex',
+              flexWrap: 'wrap',
               gap: isMobile ? '16px' : isTablet ? '20px' : '28px', 
               marginBottom: isMobile ? '24px' : '32px'
             }}>
@@ -871,19 +871,21 @@ export class ImpactSection extends React.Component {
                       background: 'rgba(255, 255, 255, 0.1)',
                       backdropFilter: 'blur(10px)',
                       borderRadius: isMobile ? '16px' : '24px',
-                      padding: isMobile ? '20px 16px' : isTablet ? '24px 20px' : '32px 24px',
+                      padding: isMobile ? '20px 16px' : '32px 24px',
                       display: 'flex',
                       flexDirection: 'column',
                       alignItems: 'center',
-                      gap: '12px'
+                      gap: '12px',
+                      flex: isMobile ? '1 1 100%' : isTablet ? '1 1 calc(50% - 10px)' : '1 1 calc(25% - 21px)',
+                      minWidth: isMobile ? '100%' : isTablet ? '200px' : '220px'
                     }}
                   >
                     <div style={{ textAlign: 'center', width: '100%' }}>
                       {statImageUrl && (
                         <div style={{
-                          width: isMobile ? '80px' : '121px',
-                          height: isMobile ? '50px' : '75px',
-                          margin: isMobile ? '8px auto' : '16px auto',
+                          width: isMobile ? '80px' : isTablet ? '100px' : '121px',
+                          height: isMobile ? '50px' : isTablet ? '62px' : '75px',
+                          margin: '16px auto',
                           backgroundImage: `url(${statImageUrl})`,
                           backgroundSize: 'contain',
                           backgroundRepeat: 'no-repeat',
@@ -891,20 +893,20 @@ export class ImpactSection extends React.Component {
                         }} />
                       )}
                       <div style={{ 
-                        fontSize: isMobile ? '24px' : '28px', 
+                        fontSize: isMobile ? '24px' : isTablet ? '26px' : '28px', 
                         fontWeight: 600, 
                         color: '#fff',
-                        lineHeight: isMobile ? '32px' : '48px',
+                        lineHeight: '48px',
                         textTransform: 'capitalize'
                       }}>
                         {stat.value}
                       </div>
                       <div style={{ 
-                        fontSize: isMobile ? '14px' : '18px', 
+                        fontSize: isMobile ? '14px' : isTablet ? '16px' : '18px', 
                         fontWeight: 400,
                         color: '#fff',
-                        lineHeight: isMobile ? '18px' : '20px',
-                        marginTop: isMobile ? '8px' : '16px'
+                        lineHeight: '20px',
+                        marginTop: '16px'
                       }}>
                         {stat.label}
                       </div>
