@@ -768,8 +768,25 @@ export class ImpactSection extends React.Component {
     super(props);
     this.state = {
       currentTestimonial: 0,
+      isMobile: window.innerWidth < 768,
+      isTablet: window.innerWidth >= 768 && window.innerWidth < 1024,
     };
   }
+
+  componentDidMount() {
+    window.addEventListener('resize', this.handleResize);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.handleResize);
+  }
+
+  handleResize = () => {
+    this.setState({
+      isMobile: window.innerWidth < 768,
+      isTablet: window.innerWidth >= 768 && window.innerWidth < 1024,
+    });
+  };
 
   handlePrevTestimonial = () => {
     const { testimonials } = this.props;
@@ -791,7 +808,7 @@ export class ImpactSection extends React.Component {
 
   render() {
     const { title, stats, testimonials, backgroundImage } = this.props;
-    const { currentTestimonial } = this.state;
+    const { currentTestimonial, isMobile, isTablet } = this.state;
     const testimonial = testimonials && testimonials.length > 0 ? testimonials[currentTestimonial] : null;
     const bgImageUrl = getImageUrl(backgroundImage);
     const testimonialImageUrl = testimonial ? getImageUrl(testimonial.image) : null;
@@ -800,9 +817,9 @@ export class ImpactSection extends React.Component {
       <section className="impact-section-wrapper" style={{ 
         position: 'relative', 
         width: '100%', 
-        minHeight: '100vh', 
+        minHeight: isMobile ? 'auto' : '100vh', 
         background: '#fff',
-        padding: '64px 0'
+        padding: isMobile ? '32px 0' : '64px 0'
       }}>
         {/* Background Image with Overlay */}
         <div style={{
@@ -815,12 +832,18 @@ export class ImpactSection extends React.Component {
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(0, 0, 0, 0.5)' }} />
         
         {/* Content */}
-        <div style={{ position: 'relative', zIndex: 10, padding: '0 80px' }}>
+        <div style={{ 
+          position: 'relative', 
+          zIndex: 10, 
+          padding: isMobile ? '0 20px' : isTablet ? '0 40px' : '0 80px',
+          maxWidth: '1400px',
+          margin: '0 auto'
+        }}>
           <h2 style={{ 
-            fontSize: '56px', 
+            fontSize: isMobile ? '32px' : isTablet ? '44px' : '56px', 
             fontWeight: 700, 
             color: '#fff',
-            marginBottom: '48px',
+            marginBottom: isMobile ? '24px' : isTablet ? '36px' : '48px',
             letterSpacing: '-0.01em',
             textTransform: 'capitalize'
           }}>
@@ -829,7 +852,12 @@ export class ImpactSection extends React.Component {
           
           {/* Stats Grid - Only render if stats exist */}
           {stats && stats.length > 0 && (
-            <div className="row" style={{ display: 'flex', gap: '28px', marginBottom: '32px', flexWrap: 'wrap' }}>
+            <div className="row" style={{ 
+              display: 'grid',
+              gridTemplateColumns: isMobile ? '1fr' : isTablet ? 'repeat(2, 1fr)' : `repeat(${Math.min(stats.length, 4)}, 1fr)`,
+              gap: isMobile ? '16px' : isTablet ? '20px' : '28px', 
+              marginBottom: isMobile ? '24px' : '32px'
+            }}>
               {stats.map((stat, index) => {
                 const statImageUrl = getImageUrl(stat.image);
                 return (
@@ -839,22 +867,20 @@ export class ImpactSection extends React.Component {
                     style={{
                       background: 'rgba(255, 255, 255, 0.1)',
                       backdropFilter: 'blur(10px)',
-                      borderRadius: '24px',
-                      padding: '32px 24px',
+                      borderRadius: isMobile ? '16px' : '24px',
+                      padding: isMobile ? '20px 16px' : isTablet ? '24px 20px' : '32px 24px',
                       display: 'flex',
                       flexDirection: 'column',
                       alignItems: 'center',
-                      gap: '12px',
-                      flex: 1,
-                      minWidth: '200px'
+                      gap: '12px'
                     }}
                   >
                     <div style={{ textAlign: 'center', width: '100%' }}>
                       {statImageUrl && (
                         <div style={{
-                          width: '121px',
-                          height: '75px',
-                          margin: '16px auto',
+                          width: isMobile ? '80px' : '121px',
+                          height: isMobile ? '50px' : '75px',
+                          margin: isMobile ? '8px auto' : '16px auto',
                           backgroundImage: `url(${statImageUrl})`,
                           backgroundSize: 'contain',
                           backgroundRepeat: 'no-repeat',
@@ -862,20 +888,20 @@ export class ImpactSection extends React.Component {
                         }} />
                       )}
                       <div style={{ 
-                        fontSize: '28px', 
+                        fontSize: isMobile ? '24px' : '28px', 
                         fontWeight: 600, 
                         color: '#fff',
-                        lineHeight: '48px',
+                        lineHeight: isMobile ? '32px' : '48px',
                         textTransform: 'capitalize'
                       }}>
                         {stat.value}
                       </div>
                       <div style={{ 
-                        fontSize: '18px', 
+                        fontSize: isMobile ? '14px' : '18px', 
                         fontWeight: 400,
                         color: '#fff',
-                        lineHeight: '20px',
-                        marginTop: '16px'
+                        lineHeight: isMobile ? '18px' : '20px',
+                        marginTop: isMobile ? '8px' : '16px'
                       }}>
                         {stat.label}
                       </div>
@@ -891,11 +917,12 @@ export class ImpactSection extends React.Component {
             <div style={{
               background: 'rgba(255, 255, 255, 0.1)',
               backdropFilter: 'blur(10px)',
-              borderRadius: '24px',
-              padding: '32px 64px',
+              borderRadius: isMobile ? '16px' : '24px',
+              padding: isMobile ? '40px 20px 24px' : isTablet ? '40px 32px' : '32px 64px',
               display: 'flex',
+              flexDirection: isMobile ? 'column' : 'row',
               alignItems: 'center',
-              gap: '32px',
+              gap: isMobile ? '20px' : '32px',
               position: 'relative'
             }}>
               {/* Opening Quote - Top Left */}
@@ -904,50 +931,65 @@ export class ImpactSection extends React.Component {
                 alt="quote" 
                 style={{
                   position: 'absolute',
-                  top: '20px',
-                  left: '20px',
-                  width: '40px',
-                  height: '30px',
+                  top: isMobile ? '12px' : '20px',
+                  left: isMobile ? '12px' : '20px',
+                  width: isMobile ? '30px' : '40px',
+                  height: isMobile ? '22px' : '30px',
                   opacity: 0.8
                 }}
               />
               
-              <div style={{ display: 'flex', alignItems: 'center', gap: '32px', flex: 1 }}>
+              <div style={{ 
+                display: 'flex', 
+                flexDirection: isMobile ? 'column' : 'row',
+                alignItems: 'center', 
+                gap: isMobile ? '20px' : '32px', 
+                flex: 1,
+                width: '100%'
+              }}>
                 <div style={{
-                  width: '162px',
-                  height: '238px',
+                  width: isMobile ? '120px' : isTablet ? '140px' : '162px',
+                  height: isMobile ? '176px' : isTablet ? '206px' : '238px',
                   backgroundImage: testimonialImageUrl ? `url(${testimonialImageUrl})` : 'linear-gradient(#666, #999)',
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
-                  borderRadius: '20px',
-                  border: '4px solid rgba(255, 255, 255, 0.75)',
+                  borderRadius: isMobile ? '12px' : '20px',
+                  border: `${isMobile ? '3px' : '4px'} solid rgba(255, 255, 255, 0.75)`,
                   flexShrink: 0
                 }} />
                 
-                <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                <div style={{ 
+                  flex: 1, 
+                  display: 'flex', 
+                  flexDirection: 'column', 
+                  gap: isMobile ? '12px' : '16px',
+                  width: isMobile ? '100%' : 'auto',
+                  textAlign: isMobile ? 'center' : 'left'
+                }}>
                   <p style={{ 
-                    fontSize: '24px', 
+                    fontSize: isMobile ? '16px' : isTablet ? '20px' : '24px', 
                     fontStyle: 'italic',
                     fontWeight: 500, 
                     color: '#fff',
-                    lineHeight: '27px'
+                    lineHeight: isMobile ? '22px' : isTablet ? '26px' : '27px',
+                    margin: 0
                   }}>
                     {testimonial.quote}
                   </p>
                   <div>
                     <div style={{ 
-                      fontSize: '24px', 
+                      fontSize: isMobile ? '18px' : isTablet ? '20px' : '24px', 
                       fontWeight: 900, 
                       color: '#fff',
-                      lineHeight: '33px'
+                      lineHeight: isMobile ? '24px' : '33px'
                     }}>
                       {testimonial.name}
                     </div>
                     <div style={{ 
-                      fontSize: '16px', 
+                      fontSize: isMobile ? '14px' : '16px', 
                       fontWeight: 500, 
                       color: '#fff',
-                      lineHeight: '22px'
+                      lineHeight: isMobile ? '18px' : '22px'
                     }}>
                       {testimonial.title}
                     </div>
@@ -961,10 +1003,10 @@ export class ImpactSection extends React.Component {
                 alt="quote" 
                 style={{
                   position: 'absolute',
-                  bottom: '20px',
-                  right: '20px',
-                  width: '40px',
-                  height: '30px',
+                  bottom: isMobile ? '12px' : '20px',
+                  right: isMobile ? '12px' : '20px',
+                  width: isMobile ? '30px' : '40px',
+                  height: isMobile ? '22px' : '30px',
                   opacity: 0.8,
                   transform: 'scaleX(-1)'
                 }}
@@ -977,21 +1019,22 @@ export class ImpactSection extends React.Component {
                     onClick={this.handlePrevTestimonial}
                     style={{
                       position: 'absolute',
-                      left: '16px',
+                      left: isMobile ? '8px' : '16px',
                       top: '50%',
                       transform: 'translateY(-50%)',
                       background: 'rgba(255, 255, 255, 0.2)',
                       border: 'none',
                       borderRadius: '50%',
-                      width: '40px',
-                      height: '40px',
+                      width: isMobile ? '32px' : '40px',
+                      height: isMobile ? '32px' : '40px',
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
                       cursor: 'pointer',
                       color: '#fff',
-                      fontSize: '20px',
-                      transition: 'all 0.3s'
+                      fontSize: isMobile ? '18px' : '20px',
+                      transition: 'all 0.3s',
+                      zIndex: 10
                     }}
                     onMouseEnter={(e) => {
                       e.currentTarget.style.background = 'rgba(255, 255, 255, 0.3)';
@@ -1006,21 +1049,22 @@ export class ImpactSection extends React.Component {
                     onClick={this.handleNextTestimonial}
                     style={{
                       position: 'absolute',
-                      right: '16px',
+                      right: isMobile ? '8px' : '16px',
                       top: '50%',
                       transform: 'translateY(-50%)',
                       background: 'rgba(255, 255, 255, 0.2)',
                       border: 'none',
                       borderRadius: '50%',
-                      width: '40px',
-                      height: '40px',
+                      width: isMobile ? '32px' : '40px',
+                      height: isMobile ? '32px' : '40px',
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
                       cursor: 'pointer',
                       color: '#fff',
-                      fontSize: '20px',
-                      transition: 'all 0.3s'
+                      fontSize: isMobile ? '18px' : '20px',
+                      transition: 'all 0.3s',
+                      zIndex: 10
                     }}
                     onMouseEnter={(e) => {
                       e.currentTarget.style.background = 'rgba(255, 255, 255, 0.3)';
