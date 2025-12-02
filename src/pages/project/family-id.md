@@ -50,22 +50,22 @@ impactSection:
   stats:
     isVisible: true
     items:
-      - value: 17Cr+
+      - value: "17Cr+"
         image: /img/dsc00019.jpg
         label: citizens availing 180+ Direct Benefit Transfer (DBT) schemes
       - value: "₹58K+ Cr"
         image: /img/dsc00019.jpg
         label: DBT budget utilisation across 30+ departments
-      - value: 8.8L+
+      - value: "8.8L+"
         image: /img/dsc00019.jpg
         label: pensioners, migrant workers and farmers enrolled in Ration scheme
       - value: "₹800 Cr+"
         image: /img/dsc00019.jpg
         label: saved annually through removal of ineligible/duplicate beneficiaries
-      - value: 7K+
+      - value: "7K+"
         image: /img/dsc00019.jpg
         label: caste certificates issued through fast-track mode with two-day turnaround
-      - value: 42
+      - value: "42"
         image: /img/dsc00019.jpg
         label: schemes and services started Aadhaar seeding and authentication due to Family ID
   testimonials:
