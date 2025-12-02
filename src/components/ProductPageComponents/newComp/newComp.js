@@ -117,7 +117,7 @@ export class HeroSection extends React.Component {
             style={{ 
               fontSize: 'clamp(40px, 8vw, 90px)', 
               fontWeight: 900, 
-              marginTop: "70px",
+              marginTop: "110px",
               letterSpacing: '0.12em',
               marginBottom: '24px'
             }}
