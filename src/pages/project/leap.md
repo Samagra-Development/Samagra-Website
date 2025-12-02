@@ -59,7 +59,7 @@ impactSection:
       - value: 45L
         image: /img/dsc00019.jpg
         label: animals impacted
-      - value: 100
+      - value: '100'
         image: /img/dsc00019.jpg
         label: on-call artificial inseminations per district per day
       - value: 45%

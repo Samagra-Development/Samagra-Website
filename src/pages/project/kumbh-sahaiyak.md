@@ -65,10 +65,10 @@ impactSection:
       - value: 100%
         image: /img/dsc00019.jpg
         label: success rate on not responding to profane or abusive language
-      - value: 102
+      - value: '102'
         image: /img/dsc00019.jpg
         label: countries touched by users
-      - value: 11
+      - value: '11'
         image: /img/dsc00019.jpg
         label: Indian languages supported
   testimonials:

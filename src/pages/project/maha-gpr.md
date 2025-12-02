@@ -56,7 +56,7 @@ impactSection:
       - value: 1200+
         image: /img/dsc00019.jpg
         label: schemes and services being brought under standardized governance framework
-      - value: 45
+      - value: '45'
         image: /img/dsc00019.jpg
         label: out of 1200 schemes account for 95%+ of total applications
       - value: 12.8Cr
