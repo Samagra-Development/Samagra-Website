@@ -11,11 +11,11 @@ heroSection:
   categories:
     - Public Service Delivery
     - Andhra Pradesh
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/fbms-banner.jpeg
   isVisible: true
 whyImportantSection:
   title: Why is it important?
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/fbms-our-programs-beneficiaries.jpg
   isVisible: true
   infoCard:
     title: Andhra Pradesh spends heavily on welfare schemes
@@ -30,7 +30,7 @@ whyImportantSection:
       image: /img/dsc00019.jpg
 programHighlightsSection:
   title: Program Highlights
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/fbms-picture-1.jpeg
   isVisible: true
   highlights:
     - title: Single Family Database
@@ -53,7 +53,7 @@ programHighlightsSection:
   description: "-"
 impactSection:
   title: Impact
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/fbms-picture-2.jpeg
   isVisible: true
   stats:
     isVisible: true
