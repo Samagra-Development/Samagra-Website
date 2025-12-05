@@ -122,7 +122,7 @@ export class HeroSection extends React.Component {
               marginBottom: '24px'
             }}
           >
-            {title || "LEAP"}
+            {title || ""}
           </h1>
           <div 
             style={{ 
@@ -145,7 +145,7 @@ export class HeroSection extends React.Component {
                 padding: '0 40px'
               }}
             >
-              {subtitle || "Livestock Expansion and Advancement Program"}
+              {subtitle || ""}
             </p>
             <p 
               style={{ 

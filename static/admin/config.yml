@@ -1285,8 +1285,9 @@ collections:
           name: "templateKey",
           widget: "hidden",
           default: "project-post",
+          required: false,
         }
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Title", name: "title", widget: "string", required: false }
       - {
           label: "Domain New",
           name: "domainNew",
@@ -1297,40 +1298,43 @@ collections:
           widget: relation,
           required: false,
         }
-      - { label: "Project Id", name: "id", widget: "string" }
+      - { label: "Project Id", name: "id", widget: "string", required: false }
       - {
           label: "Hero Section",
           name: "heroSection",
           widget: "object",
+          required: false,
           fields: [
-            {label: "Title", name: "title", widget: "string"},
-            {label: "Subtitle", name: "subtitle", widget: "string"},
-            {label: "Description", name: "description", widget: "text"},
-            {label: "Categories", name: "categories", widget: "list"},
-            {label: "Background Image", name: "backgroundImage", widget: "image"},
-            {label: "Is Visible", name: "isVisible", widget: "boolean", default: true}
+            {label: "Title", name: "title", widget: "string", required: false},
+            {label: "Subtitle", name: "subtitle", widget: "string", required: false},
+            {label: "Description", name: "description", widget: "text", required: false},
+            {label: "Categories", name: "categories", widget: "list", required: false},
+            {label: "Background Image", name: "backgroundImage", widget: "image", required: false},
+            {label: "Is Visible", name: "isVisible", widget: "boolean", default: true, required: false}
           ]
         }
       - {
            label: "Why Important Section",
            name: "whyImportantSection",
            widget: "object",
+           required: false,
            fields: [
-             {label: "Title", name: "title", widget: "string"},
-             {label: "Background Image", name: "backgroundImage", widget: "image"},
-             {label: "Is Visible", name: "isVisible", widget: "boolean", default: true},
+             {label: "Title", name: "title", widget: "string", required: false},
+             {label: "Background Image", name: "backgroundImage", widget: "image", required: false},
+             {label: "Is Visible", name: "isVisible", widget: "boolean", default: true, required: false},
              {
                label: "Info Card", 
                name: "infoCard", 
-               widget: "object", 
+               widget: "object",
+               required: false,
                fields: [
-                 {label: "Title", name: "title", widget: "string"},
+                 {label: "Title", name: "title", widget: "string", required: false},
                  {label: "Description", name: "description", widget: "text", required: false}
                ]
              },
-             {label: "Items", name: "items", widget: "list", fields: [
-               {label: "Title", name: "title", widget: "string"},
-               {label: "Image", name: "image", widget: "image"}
+             {label: "Items", name: "items", widget: "list", required: false, fields: [
+               {label: "Title", name: "title", widget: "string", required: false},
+               {label: "Image", name: "image", widget: "image", required: false}
              ]}
            ]
         }
@@ -1338,15 +1342,16 @@ collections:
           label: "Program Highlights Section",
           name: "programHighlightsSection",
           widget: "object",
+          required: false,
           fields: [
-            {label: "Title", name: "title", widget: "string"},
-            {label: "Description", name: "description", widget: "text"},
-            {label: "Background Image", name: "backgroundImage", widget: "image"},
-            {label: "Is Visible", name: "isVisible", widget: "boolean", default: true},
-            {label: "Highlights", name: "highlights", widget: "list", fields: [
-              {label: "Title", name: "title", widget: "string"},
-              {label: "Description", name: "description", widget: "text"},
-              {label: "Image", name: "image", widget: "image"}
+            {label: "Title", name: "title", widget: "string", required: false},
+            {label: "Description", name: "description", widget: "text", required: false},
+            {label: "Background Image", name: "backgroundImage", widget: "image", required: false},
+            {label: "Is Visible", name: "isVisible", widget: "boolean", default: true, required: false},
+            {label: "Highlights", name: "highlights", widget: "list", required: false, fields: [
+              {label: "Title", name: "title", widget: "string", required: false},
+              {label: "Description", name: "description", widget: "text", required: false},
+              {label: "Image", name: "image", widget: "image", required: false}
             ]}
           ]
         }
@@ -1354,20 +1359,22 @@ collections:
           label: "Impact Section",
           name: "impactSection",
           widget: "object",
+          required: false,
           fields: [
-            {label: "Title", name: "title", widget: "string"},
-            {label: "Background Image", name: "backgroundImage", widget: "image"},
-            {label: "Is Visible", name: "isVisible", widget: "boolean", default: true},
+            {label: "Title", name: "title", widget: "string", required: false},
+            {label: "Background Image", name: "backgroundImage", widget: "image", required: false},
+            {label: "Is Visible", name: "isVisible", widget: "boolean", default: true, required: false},
             {
               label: "Stats",
               name: "stats",
               widget: "object",
+              required: false,
               fields: [
-                {label: "Is Visible", name: "isVisible", widget: "boolean", default: true},
-                {label: "Items", name: "items", widget: "list", fields: [
-                  {label: "Value", name: "value", widget: "string"},
-                  {label: "Label", name: "label", widget: "string"},
-                  {label: "Image", name: "image", widget: "image"}
+                {label: "Is Visible", name: "isVisible", widget: "boolean", default: true, required: false},
+                {label: "Items", name: "items", widget: "list", required: false, fields: [
+                  {label: "Value", name: "value", widget: "string", required: false},
+                  {label: "Label", name: "label", widget: "string", required: false},
+                  {label: "Image", name: "image", widget: "image", required: false}
                 ]}
               ]
             },
@@ -1375,13 +1382,14 @@ collections:
               label: "Testimonials",
               name: "testimonials",
               widget: "object",
+              required: false,
               fields: [
-                {label: "Is Visible", name: "isVisible", widget: "boolean", default: true},
-                {label: "Items", name: "items", widget: "list", fields: [
-                  {label: "Quote", name: "quote", widget: "text"},
-                  {label: "Name", name: "name", widget: "string"},
-                  {label: "Title", name: "title", widget: "string"},
-                  {label: "Image", name: "image", widget: "image"}
+                {label: "Is Visible", name: "isVisible", widget: "boolean", default: true, required: false},
+                {label: "Items", name: "items", widget: "list", required: false, fields: [
+                  {label: "Quote", name: "quote", widget: "text", required: false},
+                  {label: "Name", name: "name", widget: "string", required: false},
+                  {label: "Title", name: "title", widget: "string", required: false},
+                  {label: "Image", name: "image", widget: "image", required: false}
                 ]}
               ]
             }
@@ -1391,12 +1399,13 @@ collections:
           label: "Partners Section",
           name: "partnersSection",
           widget: "object",
+          required: false,
           fields: [
-            {label: "Title", name: "title", widget: "string"},
-            {label: "Is Visible", name: "isVisible", widget: "boolean", default: true},
-            {label: "Partners", name: "partners", widget: "list", fields: [
-              {label: "Name", name: "name", widget: "string"},
-              {label: "Logo", name: "logo", widget: "image"}
+            {label: "Title", name: "title", widget: "string", required: false},
+            {label: "Is Visible", name: "isVisible", widget: "boolean", default: true, required: false},
+            {label: "Partners", name: "partners", widget: "list", required: false, fields: [
+              {label: "Name", name: "name", widget: "string", required: false},
+              {label: "Logo", name: "logo", widget: "image", required: false}
             ]}
           ]
         }
