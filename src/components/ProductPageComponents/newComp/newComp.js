@@ -8,9 +8,193 @@ const getImageUrl = (image) => {
 };
 
 // Hero Section Component
+// export class HeroSection extends React.Component {
+//   render() {
+//     const { title, subtitle, description, categories, backgroundImage } = this.props;
+//     const bgImageUrl = getImageUrl(backgroundImage);
+    
+//     const categoryItems = categories || [];
+    
+//     return (
+//       <section 
+//         className="hero-section-wrapper" 
+//         style={{ 
+//           position: 'relative', 
+//           width: '100%', 
+//           height: '100vh',
+//           minHeight: '500px',
+//           background: '#fff',
+//           overflow: 'hidden'
+//         }}
+//       >
+//         {/* Background Image */}
+//         <div 
+//           className="hero-background"
+//           style={{
+//             position: 'absolute',
+//             inset: 0,
+//             backgroundImage: bgImageUrl 
+//               ? `url(${bgImageUrl})` 
+//               : 'linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4))',
+//             backgroundSize: 'cover',
+//             backgroundPosition: 'center'
+//           }}
+//         />
+        
+//         {/* Overlay */}
+//         <div 
+//           style={{ 
+//             position: 'absolute', 
+//             inset: 0, 
+//             background: 'rgba(0, 0, 0, 0.25)' 
+//           }} 
+//         />
+        
+//         {/* Category Tags */}
+//         <div 
+//           style={{ 
+//             position: 'absolute', 
+//             top: '84px', 
+//             right: '10vw',
+//             display: 'flex',
+//             alignItems: 'center',
+//             gap: '20px',
+//             padding: '8px 24px',
+//             color: '#fff',
+//             zIndex: 10
+//           }}
+//           className="category-tags"
+//         >
+//           {categoryItems.map((category, index) => (
+//             <React.Fragment key={index}>
+//               <span style={{ fontSize: '24px', whiteSpace: 'nowrap' }}>
+//                 {category}
+//               </span>
+//               {index < categoryItems.length - 1 && (
+//                 <div 
+//                   style={{ 
+//                     width: '1px', 
+//                     height: '32px', 
+//                     background: 'rgba(255,255,255,0.5)' 
+//                   }} 
+//                 />
+//               )}
+//             </React.Fragment>
+//           ))}
+//           {/* <div 
+//             style={{ 
+//               width: '1px', 
+//               height: '32px', 
+//               background: 'rgba(255,255,255,0.5)' 
+//             }} 
+//           />
+//           <div 
+//             style={{ 
+//               width: '43px', 
+//               height: '48px', 
+//               background: '#fff', 
+//               borderRadius: '4px' 
+//             }} 
+//           /> */}
+//         </div>
+        
+//         {/* Content */}
+//         <div 
+//           style={{ 
+//             position: 'relative',
+//             display: 'flex',
+//             flexDirection: 'column',
+//             alignItems: 'center',
+//             justifyContent: 'center',
+//             height: '100%',
+//             padding: '0 20px',
+//             color: '#fff',
+//             textAlign: 'center',
+//             zIndex: 5
+//           }}
+//         >
+//           <h1 
+//             style={{ 
+//               fontSize: 'clamp(40px, 8vw, 90px)', 
+//               fontWeight: 900, 
+//               marginTop: "110px",
+//               letterSpacing: '0.12em',
+//               marginBottom: '24px'
+//             }}
+//           >
+//             {title || ""}
+//           </h1>
+//           <div 
+//             style={{ 
+//               background: 'rgba(0, 0, 0, 0.4)',
+//               padding: '24px 0',
+//               backdropFilter: 'blur(8px)',
+//               width: '100%',
+//               display: 'flex',
+//               marginTop: "70px",
+//               flexDirection: 'column',
+//               alignItems: 'center',
+//               gap: '16px'
+//             }}
+//           >
+//             <p 
+//               style={{ 
+//                 fontSize: 'clamp(16px, 2vw, 24px)', 
+//                 lineHeight: '1.6',
+//                 margin: 0,
+//                 padding: '0 40px'
+//               }}
+//             >
+//               {subtitle || ""}
+//             </p>
+//             <p 
+//               style={{ 
+//                 fontSize: 'clamp(20px, 3vw, 36px)', 
+//                 fontWeight: 700, 
+//                 lineHeight: '1.4',
+//                 margin: 0,
+//                 maxWidth: '981px',
+//                 padding: '0 40px'
+//               }}
+//             >
+//               {description}
+//             </p>
+//           </div>
+//         </div>
+//       </section>
+//     );
+//   }
+// }
 export class HeroSection extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isMobile: false,
+      isTablet: false,
+    };
+  }
+
+  componentDidMount() {
+    this.handleResize();
+    window.addEventListener('resize', this.handleResize);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.handleResize);
+  }
+
+  handleResize = () => {
+    if (typeof window !== 'undefined') {
+      this.setState({
+        isMobile: window.innerWidth < 768,
+        isTablet: window.innerWidth >= 768 && window.innerWidth < 1024,
+      });
+    }
+  };
+
   render() {
     const { title, subtitle, description, categories, backgroundImage } = this.props;
+    const { isMobile, isTablet } = this.state;
     const bgImageUrl = getImageUrl(backgroundImage);
     
     const categoryItems = categories || [];
@@ -21,8 +205,8 @@ export class HeroSection extends React.Component {
         style={{ 
           position: 'relative', 
           width: '100%', 
-          height: '100vh',
-          minHeight: '500px',
+          height: isMobile ? 'auto' : '100vh',
+          minHeight: isMobile ? '600px' : '500px',
           background: '#fff',
           overflow: 'hidden'
         }}
@@ -54,48 +238,39 @@ export class HeroSection extends React.Component {
         <div 
           style={{ 
             position: 'absolute', 
-            top: '84px', 
-            right: '10vw',
+            top: isMobile ? '20px' : isTablet ? '60px' : '84px', 
+            right: isMobile ? '20px' : isTablet ? '5vw' : '10vw',
             display: 'flex',
             alignItems: 'center',
-            gap: '20px',
+            gap: isMobile ? '12px' : '20px',
             padding: '8px 24px',
             color: '#fff',
-            zIndex: 10
+            zIndex: 10,
+            flexWrap: isMobile ? 'wrap' : 'nowrap',
+            justifyContent: 'flex-end',
+            maxWidth: isMobile ? 'calc(100% - 40px)' : 'none'
           }}
           className="category-tags"
         >
           {categoryItems.map((category, index) => (
             <React.Fragment key={index}>
-              <span style={{ fontSize: '24px', whiteSpace: 'nowrap' }}>
+              <span style={{ 
+                fontSize: isMobile ? '16px' : isTablet ? '20px' : '24px', 
+                whiteSpace: 'nowrap'
+              }}>
                 {category}
               </span>
               {index < categoryItems.length - 1 && (
                 <div 
                   style={{ 
                     width: '1px', 
-                    height: '32px', 
-                    background: 'rgba(255,255,255,0.5)' 
+                    height: isMobile ? '24px' : isTablet ? '28px' : '32px', 
+                    background: 'rgba(255,255,255,0.5)'
                   }} 
                 />
               )}
             </React.Fragment>
           ))}
-          {/* <div 
-            style={{ 
-              width: '1px', 
-              height: '32px', 
-              background: 'rgba(255,255,255,0.5)' 
-            }} 
-          />
-          <div 
-            style={{ 
-              width: '43px', 
-              height: '48px', 
-              background: '#fff', 
-              borderRadius: '4px' 
-            }} 
-          /> */}
         </div>
         
         {/* Content */}
@@ -107,7 +282,7 @@ export class HeroSection extends React.Component {
             alignItems: 'center',
             justifyContent: 'center',
             height: '100%',
-            padding: '0 20px',
+            padding: isMobile ? '120px 20px 40px' : isTablet ? '0 40px' : '0 20px',
             color: '#fff',
             textAlign: 'center',
             zIndex: 5
@@ -115,11 +290,12 @@ export class HeroSection extends React.Component {
         >
           <h1 
             style={{ 
-              fontSize: 'clamp(40px, 8vw, 90px)', 
+              fontSize: isMobile ? '40px' : isTablet ? '64px' : 'clamp(40px, 8vw, 90px)', 
               fontWeight: 900, 
-              marginTop: "110px",
-              letterSpacing: '0.12em',
-              marginBottom: '24px'
+              marginTop: isMobile ? '0' : isTablet ? '80px' : '110px',
+              letterSpacing: isMobile ? '0.08em' : '0.12em',
+              marginBottom: isMobile ? '16px' : '24px',
+              lineHeight: isMobile ? '1.1' : '1.2'
             }}
           >
             {title || ""}
@@ -127,34 +303,34 @@ export class HeroSection extends React.Component {
           <div 
             style={{ 
               background: 'rgba(0, 0, 0, 0.4)',
-              padding: '24px 0',
+              padding: isMobile ? '20px 0' : '24px 0',
               backdropFilter: 'blur(8px)',
               width: '100%',
               display: 'flex',
-              marginTop: "70px",
+              marginTop: isMobile ? '24px' : isTablet ? '40px' : '70px',
               flexDirection: 'column',
               alignItems: 'center',
-              gap: '16px'
+              gap: isMobile ? '12px' : '16px'
             }}
           >
             <p 
               style={{ 
-                fontSize: 'clamp(16px, 2vw, 24px)', 
+                fontSize: isMobile ? '16px' : isTablet ? '20px' : 'clamp(16px, 2vw, 24px)', 
                 lineHeight: '1.6',
                 margin: 0,
-                padding: '0 40px'
+                padding: isMobile ? '0 20px' : isTablet ? '0 32px' : '0 40px'
               }}
             >
               {subtitle || ""}
             </p>
             <p 
               style={{ 
-                fontSize: 'clamp(20px, 3vw, 36px)', 
+                fontSize: isMobile ? '20px' : isTablet ? '28px' : 'clamp(20px, 3vw, 36px)', 
                 fontWeight: 700, 
                 lineHeight: '1.4',
                 margin: 0,
-                maxWidth: '981px',
-                padding: '0 40px'
+                maxWidth: isMobile ? '100%' : isTablet ? '800px' : '981px',
+                padding: isMobile ? '0 20px' : isTablet ? '0 32px' : '0 40px'
               }}
             >
               {description}
