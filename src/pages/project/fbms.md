@@ -53,7 +53,7 @@ programHighlightsSection:
   description: "-"
 impactSection:
   title: Impact
-  backgroundImage: /img/fbms-picture-2.jpeg
+  backgroundImage: /img/fbms-bg-3.png
   isVisible: true
   stats:
     isVisible: true
