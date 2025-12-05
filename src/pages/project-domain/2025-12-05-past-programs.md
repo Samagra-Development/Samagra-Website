@@ -1,7 +1,7 @@
 ---
 templateKey: project-domain-post
-title: Recent Programs
+title: Past Programs
 displayOnHeader: true
 displayOnHomeSlider: true
-displayOrder: "9"
+displayOrder: "2"
 ---

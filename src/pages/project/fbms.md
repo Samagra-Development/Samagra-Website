@@ -23,11 +23,11 @@ whyImportantSection:
       delivery programs including highest social welfare pensions in the country
   items:
     - title: Limited socio-economic data
-      image: /img/dsc00019.jpg
+      image: /img/fbms-info-1-removebg-preview.png
     - title: Data inconsistencies
-      image: /img/dsc00019.jpg
+      image: /img/fid-info-4-removebg-preview.png
     - title: Misdirection of welfare funds
-      image: /img/dsc00019.jpg
+      image: /img/fid-info-2-removebg-preview.png
 programHighlightsSection:
   title: Program Highlights
   backgroundImage: /img/fbms-picture-1.jpeg
@@ -59,17 +59,17 @@ impactSection:
     isVisible: true
     items:
       - value: 2L+
-        image: /img/dsc00019.jpg
-        label: eligible children in process of being added to ration card
+        image: /img/fbms-icon-1-removebg-preview.png
+        label: Eligible children being added to ration card
       - value: 1L+
-        image: /img/dsc00019.jpg
-        label: pregnant women being added to immunization services
-      - value: 1.8L+
-        image: /img/dsc00019.jpg
-        label: pregnant women identified for addition to Anganwadi services
-      - value: 1.1L+
-        image: /img/dsc00019.jpg
-        label: dead beneficiaries identified in state's ration card database
+        image: /img/fbms-icon-2-removebg-preview.png
+        label: Pregnant women being extended immunisation services
+      - value: 2L+
+        image: /img/fmbs-icon-3-removebg-preview.png
+        label: Pregnant women identified for addition to Anganwadi services
+      - value: 1L+
+        image: /img/fid-icon-1.png
+        label: Dead beneficiaries identified in state's ration card database
   testimonials:
     isVisible: false
     items:

@@ -1,12 +1,13 @@
 ---
 templateKey: project-post
 title: Kumbh Sah'AI'yak
+domainNew: Recent Programs
 id: Kumbh Sahaiyak
-domainNew: Current Programs
 heroSection:
   title: Kumbh Sah'AI'yak
   subtitle: AI-Powered Assistant for Mahakumbh
-  description: Demonstration of a mass-scale use case of AI in the Indian context in the Mahakumbh - the largest human gathering in the world
+  description: Demonstration of a mass-scale use case of AI in the Indian context
+    in the Mahakumbh - the largest human gathering in the world
   categories:
     - Technology - Artificial Intelligence
     - Uttar Pradesh
@@ -18,13 +19,18 @@ whyImportantSection:
   isVisible: true
   infoCard:
     title: India's AI Leadership Opportunity
-    description: Understanding the strategic importance of developing indigenous AI solutions
+    description: Understanding the strategic importance of developing indigenous AI
+      solutions
   items:
-    - title: India, with its sheer size, diversity and complexity, has the potential to be the AI use case capital of the world
+    - title: India, with its sheer size, diversity and complexity, has the potential
+        to be the AI use case capital of the world
       image: /img/dsc00019.jpg
-    - title: Building solutions in the local context, with appropriate guardrails, catering to users in diverse Indian languages, and deployed on domestic AI infrastructure, is critical
+    - title: Building solutions in the local context, with appropriate guardrails,
+        catering to users in diverse Indian languages, and deployed on domestic
+        AI infrastructure, is critical
       image: /img/dsc00019.jpg
-    - title: Advances government priority of Aatmanirbhar Bharat via use of sovereign AI infrastructure
+    - title: Advances government priority of Aatmanirbhar Bharat via use of sovereign
+        AI infrastructure
       image: /img/dsc00019.jpg
 programHighlightsSection:
   title: Program Highlights
@@ -32,7 +38,8 @@ programHighlightsSection:
   isVisible: true
   highlights:
     - title: Strategic Partnerships
-      description: Collaboration with Prayagraj Mela Authority & UPDESCO worked with Bhashini, Krutrim, EkStep, Gupshup, AWS, Reverie
+      description: Collaboration with Prayagraj Mela Authority & UPDESCO worked with
+        Bhashini, Krutrim, EkStep, Gupshup, AWS, Reverie
       image: /img/dsc00019.jpg
     - title: Multilingual Services
       description: Multilingual services in 11 languages
@@ -41,7 +48,8 @@ programHighlightsSection:
       description: Multichannel (WhatsApp and WebApp) service
       image: /img/dsc00019.jpg
     - title: Comprehensive Use Cases
-      description: 10 use cases were finalized across 3 categories - Information, Navigation and Memory
+      description: 10 use cases were finalized across 3 categories - Information,
+        Navigation and Memory
       image: /img/dsc00019.jpg
 impactSection:
   title: Impact
@@ -65,16 +73,18 @@ impactSection:
       - value: 100%
         image: /img/dsc00019.jpg
         label: success rate on not responding to profane or abusive language
-      - value: '102'
+      - value: "102"
         image: /img/dsc00019.jpg
         label: countries touched by users
-      - value: '11'
+      - value: "11"
         image: /img/dsc00019.jpg
         label: Indian languages supported
   testimonials:
     isVisible: true
     items:
-      - quote: Launched by Hon'ble PM on 13th Dec and highlighted prominently in his Mann ki Baat address on 28th December, showcasing India's AI capabilities on a global stage.
+      - quote: Launched by Hon'ble PM on 13th Dec and highlighted prominently in his
+          Mann ki Baat address on 28th December, showcasing India's AI
+          capabilities on a global stage.
         name: Prime Minister's Office
         title: Government of India
         image: /img/dsc00019.jpg

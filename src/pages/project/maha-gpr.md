@@ -1,12 +1,13 @@
 ---
 templateKey: project-post
 title: Maha GPR
+domainNew: Recent Programs
 id: Maha GPR
-domainNew: Current Programs
 heroSection:
   title: Maha GPR
   subtitle: Maharashtra Governance Process Re-engineering
-  description: Ensure predictable, convenient, simple & accountable scheme and service delivery for every citizen in Maharashtra
+  description: Ensure predictable, convenient, simple & accountable scheme and
+    service delivery for every citizen in Maharashtra
   categories:
     - Service Delivery
     - Maharashtra
@@ -32,16 +33,22 @@ programHighlightsSection:
   isVisible: true
   highlights:
     - title: Right to Service Act
-      description: Anchoring Governance Process Re-engineering through the Chief Minister's Office with Right to Service Act notification for all schemes and services
+      description: Anchoring Governance Process Re-engineering through the Chief
+        Minister's Office with Right to Service Act notification for all schemes
+        and services
       image: /img/dsc00019.jpg
     - title: Unified Citizen Experience
-      description: Delivering unified citizen experience through Aaple Sarkar 2.0 portal and upgraded Seva Kendras to enable single-window access with real-time alerts
+      description: Delivering unified citizen experience through Aaple Sarkar 2.0
+        portal and upgraded Seva Kendras to enable single-window access with
+        real-time alerts
       image: /img/dsc00019.jpg
     - title: Scheme Re-engineering
-      description: Re-engineering high-volume schemes through comprehensive GPR using standardized templates and eliminating redundancies
+      description: Re-engineering high-volume schemes through comprehensive GPR using
+        standardized templates and eliminating redundancies
       image: /img/dsc00019.jpg
     - title: Accountability Framework
-      description: Driving accountability through data-backed review & monitoring, and citizen feedback on delivery of services
+      description: Driving accountability through data-backed review & monitoring, and
+        citizen feedback on delivery of services
       image: /img/dsc00019.jpg
 impactSection:
   title: Impact
@@ -55,17 +62,20 @@ impactSection:
         label: citizens in Maharashtra accessing government schemes & services
       - value: 1200+
         image: /img/dsc00019.jpg
-        label: schemes and services being brought under standardized governance framework
-      - value: '45'
+        label: schemes and services being brought under standardized governance
+          framework
+      - value: "45"
         image: /img/dsc00019.jpg
         label: out of 1200 schemes account for 95%+ of total applications
       - value: 12.8Cr
         image: /img/dsc00019.jpg
-        label: citizens across socio-economically diverse population benefiting from reforms
+        label: citizens across socio-economically diverse population benefiting from
+          reforms
   testimonials:
     isVisible: true
     items:
-      - quote: The unified portal and single-window access has made it much easier for citizens to access government services with real-time tracking.
+      - quote: The unified portal and single-window access has made it much easier for
+          citizens to access government services with real-time tracking.
         name: Citizen
         title: Maharashtra
         image: /img/dsc00019.jpg
