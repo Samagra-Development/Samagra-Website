@@ -2137,24 +2137,137 @@ export class ImpactSection extends React.Component {
   }
 }
 // Partners Section
+// export class PartnersSection extends React.Component {
+//   render() {
+//     const { title, partners } = this.props;
+
+//     return (
+//       <section className="partners-section-wrapper" style={{ 
+//         position: 'relative', 
+//         width: '100%', 
+       
+//         background: '#fff',
+//         padding: '64px 0 '
+//       }}>
+//         <div style={{ padding: '0 80px' }}>
+//           <h2 style={{ 
+//             fontSize: '56px', 
+//             fontWeight: 700, 
+//             color: '#000',
+//             marginBottom: '64px',
+//             letterSpacing: '-0.01em',
+//             textTransform: 'capitalize'
+//           }}>
+//             {title || "Our Partners"}
+//           </h2>
+          
+//           <div style={{ 
+//             display: 'flex', 
+//             alignItems: 'center', 
+//             justifyContent: 'flex-start',
+//             gap: '96px',
+//             padding: '48px 0 0 0',
+//             flexWrap: 'wrap'
+//           }}>
+//             {partners?.map((partner, index) => {
+//               const logoUrl = getImageUrl(partner.logo);
+//               return (
+//                 <div 
+//                   key={index} 
+//                   style={{ 
+//                     display: 'flex', 
+//                     alignItems: 'center', 
+//                     justifyContent: 'center',
+//                     transition: 'transform 0.3s ease',
+//                     cursor: 'pointer'
+//                   }}
+//                   onMouseEnter={(e) => {
+//                     e.currentTarget.style.transform = 'translateY(-10px) scale(1.1)';
+//                   }}
+//                   onMouseLeave={(e) => {
+//                     e.currentTarget.style.transform = 'translateY(0) scale(1)';
+//                   }}
+//                 >
+//                   {logoUrl ? (
+//                     <img 
+//                       src={logoUrl} 
+//                       alt={partner.name} 
+//                       style={{ 
+//                         height: '120px', 
+//                         objectFit: 'contain'
+//                       }} 
+//                     />
+//                   ) : (
+//                     <div style={{ 
+//                       width: '160px', 
+//                       height: '120px', 
+//                       background: '#e5e7eb',
+//                       borderRadius: '8px',
+//                       display: 'flex',
+//                       alignItems: 'center',
+//                       justifyContent: 'center'
+//                     }}>
+//                       <span style={{ fontSize: '14px', color: '#6b7280' }}>{partner.name}</span>
+//                     </div>
+//                   )}
+//                 </div>
+//               );
+//             })}
+//           </div>
+//         </div>
+//       </section>
+//     );
+//   }
+// }
+
 export class PartnersSection extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isMobile: false,
+      isTablet: false,
+    };
+  }
+
+  componentDidMount() {
+    this.handleResize();
+    window.addEventListener('resize', this.handleResize);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.handleResize);
+  }
+
+  handleResize = () => {
+    if (typeof window !== 'undefined') {
+      this.setState({
+        isMobile: window.innerWidth < 768,
+        isTablet: window.innerWidth >= 768 && window.innerWidth < 1024,
+      });
+    }
+  };
+
   render() {
     const { title, partners } = this.props;
+    const { isMobile, isTablet } = this.state;
 
     return (
       <section className="partners-section-wrapper" style={{ 
         position: 'relative', 
         width: '100%', 
-       
         background: '#fff',
-        padding: '64px 0 '
+        padding: isMobile ? '32px 0' : '64px 0'
       }}>
-        <div style={{ padding: '0 80px' }}>
+        <div style={{ 
+          padding: isMobile ? '0 20px' : isTablet ? '0 40px' : '0 80px',
+          maxWidth: '1400px',
+          margin: '0 auto'
+        }}>
           <h2 style={{ 
-            fontSize: '56px', 
+            fontSize: isMobile ? '32px' : isTablet ? '44px' : '56px', 
             fontWeight: 700, 
             color: '#000',
-            marginBottom: '64px',
+            marginBottom: isMobile ? '32px' : isTablet ? '48px' : '64px',
             letterSpacing: '-0.01em',
             textTransform: 'capitalize'
           }}>
@@ -2164,9 +2277,9 @@ export class PartnersSection extends React.Component {
           <div style={{ 
             display: 'flex', 
             alignItems: 'center', 
-            justifyContent: 'flex-start',
-            gap: '96px',
-            padding: '48px 0 0 0',
+            justifyContent: isMobile ? 'center' : 'flex-start',
+            gap: isMobile ? '32px' : isTablet ? '64px' : '96px',
+            padding: isMobile ? '24px 0 0 0' : '48px 0 0 0',
             flexWrap: 'wrap'
           }}>
             {partners?.map((partner, index) => {
@@ -2182,10 +2295,14 @@ export class PartnersSection extends React.Component {
                     cursor: 'pointer'
                   }}
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.transform = 'translateY(-10px) scale(1.1)';
+                    if (!isMobile) {
+                      e.currentTarget.style.transform = 'translateY(-10px) scale(1.1)';
+                    }
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.transform = 'translateY(0) scale(1)';
+                    if (!isMobile) {
+                      e.currentTarget.style.transform = 'translateY(0) scale(1)';
+                    }
                   }}
                 >
                   {logoUrl ? (
@@ -2193,21 +2310,26 @@ export class PartnersSection extends React.Component {
                       src={logoUrl} 
                       alt={partner.name} 
                       style={{ 
-                        height: '120px', 
+                        height: isMobile ? '80px' : isTablet ? '100px' : '120px', 
                         objectFit: 'contain'
                       }} 
                     />
                   ) : (
                     <div style={{ 
-                      width: '160px', 
-                      height: '120px', 
+                      width: isMobile ? '120px' : isTablet ? '140px' : '160px', 
+                      height: isMobile ? '80px' : isTablet ? '100px' : '120px', 
                       background: '#e5e7eb',
                       borderRadius: '8px',
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center'
                     }}>
-                      <span style={{ fontSize: '14px', color: '#6b7280' }}>{partner.name}</span>
+                      <span style={{ 
+                        fontSize: isMobile ? '12px' : '14px', 
+                        color: '#6b7280' 
+                      }}>
+                        {partner.name}
+                      </span>
                     </div>
                   )}
                 </div>
