@@ -22,11 +22,11 @@ whyImportantSection:
     description: The state spends heavily on direct benefit transfer based welfare
       delivery programs including highest social welfare pensions in the country
   items:
-    - title: Limited Socio-Economic Data
+    - title: Limited socio-economic data
       image: /img/dsc00019.jpg
-    - title: Data Inconsistencies
+    - title: Data inconsistencies
       image: /img/dsc00019.jpg
-    - title: Misdirection of Welfare Funds
+    - title: Misdirection of welfare funds
       image: /img/dsc00019.jpg
 programHighlightsSection:
   title: Program Highlights
