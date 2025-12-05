@@ -167,22 +167,361 @@ export class HeroSection extends React.Component {
 }
 
 // Why Important Section Component
+// export class WhyImportantSection extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       isVisible: false,
+//       isSidebarOpen: false,
+//     };
+//   }
+
+//   componentDidMount() {
+//     document.addEventListener("scroll", this.handleScroll);
+//   }
+
+//   componentWillUnmount() {
+//     document.removeEventListener("scroll", this.handleScroll);
+//   }
+
+//   handleScroll = () => {
+//     const scrollTop = document.documentElement.scrollTop;
+//     const isVisible = scrollTop > 0 && scrollTop < 2000;
+    
+//     if (this.state.isVisible !== isVisible) {
+//       this.setState({ isVisible });
+//     }
+//   };
+
+//   toggleSidebar = () => {
+//     this.setState(prevState => ({ 
+//       isSidebarOpen: !prevState.isSidebarOpen 
+//     }));
+//   };
+
+//   render() {
+//     const { title, items, infoCard, backgroundImage } = this.props;
+//     const { isVisible, isSidebarOpen } = this.state;
+//     const bgImageUrl = getImageUrl(backgroundImage);
+
+//     return (
+//       <section className="why-important-section-wrapper" style={{ 
+//         position: 'relative', 
+//         width: '100%', 
+//         minHeight: '100vh', 
+//         background: '#fff',
+//         padding: '64px 0',
+//         overflow: 'hidden'
+//       }}>
+//         {/* Background Image with Overlay */}
+//         <div style={{
+//           position: 'absolute',
+//           inset: 0,
+//           backgroundImage: bgImageUrl ? `url(${bgImageUrl})` : 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
+//           backgroundSize: 'cover',
+//           backgroundPosition: 'center'
+//         }} />
+//         <div style={{ position: 'absolute', inset: 0, background: 'rgba(0, 0, 0, 0.5)' }} />
+        
+//         {/* Additional dark overlay when sidebar is open */}
+//         {isSidebarOpen && (
+//           <div 
+//             onClick={this.toggleSidebar}
+//             style={{
+//               position: 'absolute',
+//               inset: 0,
+//               background: 'rgba(0, 0, 0, 0.25)',
+//               zIndex: 20,
+//               transition: 'opacity 0.3s'
+//             }}
+//           />
+//         )}
+        
+//         {/* Content */}
+//         <div style={{
+//           position: 'relative',
+//           zIndex: 10,
+//           padding: '0 80px',
+//           opacity: isVisible ? 1 : 0,
+//           transform: isVisible ? 'translateY(0)' : 'translateY(40px)',
+//           transition: 'all 0.7s'
+//         }}>
+//           <h2 style={{ 
+//             fontSize: '56px', 
+//             fontWeight: 700, 
+//             color: '#fff',
+//             marginBottom: '48px',
+//             letterSpacing: '-0.01em',
+//             textTransform: 'capitalize'
+//           }}>
+//             {title || "Why is it important?"}
+//           </h2>
+          
+//           <div className="row" style={{ display: 'flex', gap: '44px', flexWrap: 'wrap' }}>
+//             {/* {items?.map((item, index) => {
+//               const itemImageUrl = getImageUrl(item.image);
+//               return (
+//                 <div 
+//                   key={index}
+//                   className="col-md-4"
+//                   style={{ 
+//                     display: 'flex', 
+//                     flexDirection: 'column', 
+//                     gap: '20px',
+//                     position: 'relative',
+//                     flex: 1,
+//                     minWidth: '250px'
+//                   }}
+//                 >
+//                   <div style={{
+//                     width: '100%',
+//                     height: '262px',
+//                     backgroundImage: itemImageUrl ? `url(${itemImageUrl})` : 'linear-gradient(#666, #999)',
+//                     backgroundSize: '75% auto',
+//                     backgroundPosition: 'center',
+//                     borderRadius: '20px',
+//                     backgroundRepeat: 'no-repeat',
+//                     transition: 'transform 0.3s'
+//                   }}
+//                   onMouseEnter={(e) => {
+//                     e.currentTarget.style.transform = 'scale(1.02)';
+//                   }}
+//                   onMouseLeave={(e) => {
+//                     e.currentTarget.style.transform = 'scale(1)';
+//                   }}
+//                   />
+//                   <div style={{
+//                     background: 'rgba(255, 255, 255, 0.2)',
+//                     backdropFilter: 'blur(10px)',
+//                     borderRadius: '12px',
+//                     padding: '16px 32px',
+//                     textAlign: 'center',
+//                     position: 'relative',
+//                     transition: 'all 0.3s'
+//                   }}
+//                   onMouseEnter={(e) => {
+//                     e.currentTarget.style.background = 'rgba(255, 255, 255, 0.3)';
+//                   }}
+//                   onMouseLeave={(e) => {
+//                     e.currentTarget.style.background = 'rgba(255, 255, 255, 0.2)';
+//                   }}
+//                   >
+//                     <h3 style={{ 
+//                       fontSize: '22px', 
+//                       fontWeight: 500, 
+//                       color: '#fff',
+//                       textTransform: 'capitalize'
+//                     }}>
+//                       {item.title}
+//                     </h3>
+//                   </div>
+//                 </div>
+//               );
+//             })} */}
+//             {items?.map((item, index) => {
+//   const itemImageUrl = getImageUrl(item.image);
+//   return (
+//     <div 
+//       key={index}
+//       className="col-md-4"
+//       style={{ 
+//         display: 'flex', 
+//         flexDirection: 'column', 
+//         gap: '20px',
+//         position: 'relative',
+//         flex: 1,
+//         minWidth: '250px'
+//       }}
+//     >
+//       <div style={{
+//         width: '100%',
+//         height: '262px',
+//         backgroundImage: itemImageUrl ? `url(${itemImageUrl})` : 'linear-gradient(#666, #999)',
+//         backgroundSize: '75% auto',
+//         backgroundPosition: 'center',
+//         borderRadius: '20px',
+//         backgroundRepeat: 'no-repeat',
+//         transition: 'transform 0.3s',
+//         flexShrink: 0
+//       }}
+//       onMouseEnter={(e) => {
+//         e.currentTarget.style.transform = 'scale(1.02)';
+//       }}
+//       onMouseLeave={(e) => {
+//         e.currentTarget.style.transform = 'scale(1)';
+//       }}
+//       />
+//       <div style={{
+//         background: 'rgba(255, 255, 255, 0.2)',
+//         backdropFilter: 'blur(10px)',
+//         borderRadius: '12px',
+//         padding: '16px 32px',
+//         textAlign: 'center',
+//         position: 'relative',
+//         transition: 'all 0.3s',
+//         flex: 1,
+//         display: 'flex',
+//         alignItems: 'center',
+//         justifyContent: 'center'
+//       }}
+//       onMouseEnter={(e) => {
+//         e.currentTarget.style.background = 'rgba(255, 255, 255, 0.3)';
+//       }}
+//       onMouseLeave={(e) => {
+//         e.currentTarget.style.background = 'rgba(255, 255, 255, 0.2)';
+//       }}
+//       >
+//         <h3 style={{ 
+//           fontSize: '22px', 
+//           fontWeight: 500, 
+//           color: '#fff',
+//           textTransform: 'capitalize',
+//           margin: 0
+//         }}>
+//           {item.title}
+//         </h3>
+//       </div>
+//     </div>
+//   );
+// })}
+//           </div>
+//         </div>
+        
+//         {/* Toggle Arrow Button */}
+//         <button 
+//           onClick={this.toggleSidebar}
+//           style={{
+//             position: 'absolute',
+//             left: isSidebarOpen ? '535px' : '0',
+//             top: '50%',
+//             transform: 'translateY(-50%)',
+//             width: '48px',
+//             height: '96px',
+//             background: 'rgba(255, 255, 255, 0.9)',
+//             backdropFilter: 'blur(10px)',
+//             borderRadius: '0 24px 24px 0',
+//             border: 'none',
+//             display: 'flex',
+//             alignItems: 'center',
+//             justifyContent: 'center',
+//             boxShadow: '4px 4px 24px rgba(0, 0, 0, 0.2)',
+//             zIndex: 31,
+//             cursor: 'pointer',
+//             transition: 'all 0.5s ease-in-out'
+//           }}
+//           onMouseEnter={(e) => {
+//             e.currentTarget.style.background = 'rgba(255, 255, 255, 1)';
+//           }}
+//           onMouseLeave={(e) => {
+//             e.currentTarget.style.background = 'rgba(255, 255, 255, 0.9)';
+//           }}
+//         >
+//           <span style={{ 
+//             fontSize: '24px', 
+//             color: '#334155', 
+//             fontWeight: 'bold',
+//             transform: isSidebarOpen ? 'rotate(180deg)' : 'rotate(0deg)',
+//             transition: 'transform 0.3s'
+//           }}>
+//             &gt;
+//           </span>
+//         </button>
+        
+//         {/* Side Info Card - "Did You Know?" */}
+//         <div style={{
+//           position: 'absolute',
+//           left: 0,
+//           top: '50%',
+//           transform: isSidebarOpen ? 'translate(0, -50%)' : 'translate(-100%, -50%)',
+//           width: '535px',
+//           maxHeight: '80vh',
+//           background: 'rgba(255, 255, 255, 0.9)',
+//           backdropFilter: 'blur(10px)',
+//           borderRadius: '0 24px 24px 0',
+//           boxShadow: '4px 4px 24px rgba(0, 0, 0, 0.3)',
+//           zIndex: 30,
+//           transition: 'transform 0.5s ease-in-out',
+//           overflowY: 'auto'
+//         }}>
+//           <div style={{ 
+//             padding: '48px 40px', 
+//             display: 'flex', 
+//             flexDirection: 'column',
+//             gap: '20px'
+//           }}>
+//             {/* Static "Did you Know?" heading */}
+//             <h2 style={{ 
+//               fontSize: '32px', 
+//               fontWeight: 500, 
+//               color: '#000',
+//               letterSpacing: '-0.01em',
+//               textTransform: 'capitalize',
+//               marginBottom: '4px'
+//             }}>
+//               Did you Know?
+//             </h2>
+            
+//             {/* Dynamic title from infoCard */}
+//             {infoCard?.title && (
+//               <h3 style={{ 
+//                 fontSize: '26px', 
+//                 fontWeight: 600, 
+//                 color: '#422F2A',
+//                 lineHeight: '30px',
+//                 marginBottom: '8px'
+//               }}>
+//                 {infoCard.title}
+//               </h3>
+//             )}
+            
+//             {/* Dynamic description from infoCard */}
+//             {infoCard?.description && (
+//               <p style={{ 
+//                 fontSize: '16px', 
+//                 fontWeight: 400, 
+//                 color: '#666',
+//                 lineHeight: '26px'
+//               }}>
+//                 {infoCard.description}
+//               </p>
+//             )}
+//           </div>
+//         </div>
+//       </section>
+//     );
+//   }
+// }
+
 export class WhyImportantSection extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       isVisible: false,
       isSidebarOpen: false,
+      isMobile: false,
+      isTablet: false,
     };
   }
 
   componentDidMount() {
     document.addEventListener("scroll", this.handleScroll);
+    this.handleResize();
+    window.addEventListener('resize', this.handleResize);
   }
 
   componentWillUnmount() {
     document.removeEventListener("scroll", this.handleScroll);
+    window.removeEventListener('resize', this.handleResize);
   }
+
+  handleResize = () => {
+    if (typeof window !== 'undefined') {
+      this.setState({
+        isMobile: window.innerWidth < 768,
+        isTablet: window.innerWidth >= 768 && window.innerWidth < 1024,
+      });
+    }
+  };
 
   handleScroll = () => {
     const scrollTop = document.documentElement.scrollTop;
@@ -201,16 +540,16 @@ export class WhyImportantSection extends React.Component {
 
   render() {
     const { title, items, infoCard, backgroundImage } = this.props;
-    const { isVisible, isSidebarOpen } = this.state;
+    const { isVisible, isSidebarOpen, isMobile, isTablet } = this.state;
     const bgImageUrl = getImageUrl(backgroundImage);
 
     return (
       <section className="why-important-section-wrapper" style={{ 
         position: 'relative', 
         width: '100%', 
-        minHeight: '100vh', 
+        minHeight: isMobile ? 'auto' : '100vh', 
         background: '#fff',
-        padding: '64px 0',
+        padding: isMobile ? '32px 0' : '64px 0',
         overflow: 'hidden'
       }}>
         {/* Background Image with Overlay */}
@@ -241,24 +580,30 @@ export class WhyImportantSection extends React.Component {
         <div style={{
           position: 'relative',
           zIndex: 10,
-          padding: '0 80px',
+          padding: isMobile ? '0 20px' : isTablet ? '0 40px' : '0 80px',
+          maxWidth: '1400px',
+          margin: '0 auto',
           opacity: isVisible ? 1 : 0,
           transform: isVisible ? 'translateY(0)' : 'translateY(40px)',
           transition: 'all 0.7s'
         }}>
           <h2 style={{ 
-            fontSize: '56px', 
+            fontSize: isMobile ? '32px' : isTablet ? '44px' : '56px', 
             fontWeight: 700, 
             color: '#fff',
-            marginBottom: '48px',
+            marginBottom: isMobile ? '24px' : isTablet ? '36px' : '48px',
             letterSpacing: '-0.01em',
             textTransform: 'capitalize'
           }}>
             {title || "Why is it important?"}
           </h2>
           
-          <div className="row" style={{ display: 'flex', gap: '44px', flexWrap: 'wrap' }}>
-            {/* {items?.map((item, index) => {
+          <div className="row" style={{ 
+            display: 'flex', 
+            gap: isMobile ? '20px' : isTablet ? '32px' : '44px', 
+            flexWrap: 'wrap' 
+          }}>
+            {items?.map((item, index) => {
               const itemImageUrl = getImageUrl(item.image);
               return (
                 <div 
@@ -267,231 +612,232 @@ export class WhyImportantSection extends React.Component {
                   style={{ 
                     display: 'flex', 
                     flexDirection: 'column', 
-                    gap: '20px',
+                    gap: isMobile ? '12px' : '20px',
                     position: 'relative',
-                    flex: 1,
-                    minWidth: '250px'
+                    flex: isMobile ? '1 1 100%' : isTablet ? '1 1 calc(50% - 16px)' : '1 1 calc(33.333% - 30px)',
+                    minWidth: isMobile ? '100%' : isTablet ? '200px' : '250px'
                   }}
                 >
                   <div style={{
                     width: '100%',
-                    height: '262px',
+                    height: isMobile ? '180px' : isTablet ? '220px' : '262px',
                     backgroundImage: itemImageUrl ? `url(${itemImageUrl})` : 'linear-gradient(#666, #999)',
                     backgroundSize: '75% auto',
                     backgroundPosition: 'center',
-                    borderRadius: '20px',
+                    borderRadius: isMobile ? '16px' : '20px',
                     backgroundRepeat: 'no-repeat',
-                    transition: 'transform 0.3s'
+                    transition: 'transform 0.3s',
+                    flexShrink: 0
                   }}
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.transform = 'scale(1.02)';
+                    if (!isMobile) {
+                      e.currentTarget.style.transform = 'scale(1.02)';
+                    }
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.transform = 'scale(1)';
+                    if (!isMobile) {
+                      e.currentTarget.style.transform = 'scale(1)';
+                    }
                   }}
                   />
                   <div style={{
                     background: 'rgba(255, 255, 255, 0.2)',
                     backdropFilter: 'blur(10px)',
                     borderRadius: '12px',
-                    padding: '16px 32px',
+                    padding: isMobile ? '12px 20px' : '16px 32px',
                     textAlign: 'center',
                     position: 'relative',
-                    transition: 'all 0.3s'
+                    transition: 'all 0.3s',
+                    flex: 1,
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center'
                   }}
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.background = 'rgba(255, 255, 255, 0.3)';
+                    if (!isMobile) {
+                      e.currentTarget.style.background = 'rgba(255, 255, 255, 0.3)';
+                    }
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.background = 'rgba(255, 255, 255, 0.2)';
+                    if (!isMobile) {
+                      e.currentTarget.style.background = 'rgba(255, 255, 255, 0.2)';
+                    }
                   }}
                   >
                     <h3 style={{ 
-                      fontSize: '22px', 
+                      fontSize: isMobile ? '18px' : isTablet ? '20px' : '22px', 
                       fontWeight: 500, 
                       color: '#fff',
-                      textTransform: 'capitalize'
+                      textTransform: 'capitalize',
+                      margin: 0,
+                      lineHeight: isMobile ? '24px' : '28px'
                     }}>
                       {item.title}
                     </h3>
                   </div>
                 </div>
               );
-            })} */}
-            {items?.map((item, index) => {
-  const itemImageUrl = getImageUrl(item.image);
-  return (
-    <div 
-      key={index}
-      className="col-md-4"
-      style={{ 
-        display: 'flex', 
-        flexDirection: 'column', 
-        gap: '20px',
-        position: 'relative',
-        flex: 1,
-        minWidth: '250px'
-      }}
-    >
-      <div style={{
-        width: '100%',
-        height: '262px',
-        backgroundImage: itemImageUrl ? `url(${itemImageUrl})` : 'linear-gradient(#666, #999)',
-        backgroundSize: '75% auto',
-        backgroundPosition: 'center',
-        borderRadius: '20px',
-        backgroundRepeat: 'no-repeat',
-        transition: 'transform 0.3s',
-        flexShrink: 0
-      }}
-      onMouseEnter={(e) => {
-        e.currentTarget.style.transform = 'scale(1.02)';
-      }}
-      onMouseLeave={(e) => {
-        e.currentTarget.style.transform = 'scale(1)';
-      }}
-      />
-      <div style={{
-        background: 'rgba(255, 255, 255, 0.2)',
-        backdropFilter: 'blur(10px)',
-        borderRadius: '12px',
-        padding: '16px 32px',
-        textAlign: 'center',
-        position: 'relative',
-        transition: 'all 0.3s',
-        flex: 1,
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
-      }}
-      onMouseEnter={(e) => {
-        e.currentTarget.style.background = 'rgba(255, 255, 255, 0.3)';
-      }}
-      onMouseLeave={(e) => {
-        e.currentTarget.style.background = 'rgba(255, 255, 255, 0.2)';
-      }}
-      >
-        <h3 style={{ 
-          fontSize: '22px', 
-          fontWeight: 500, 
-          color: '#fff',
-          textTransform: 'capitalize',
-          margin: 0
-        }}>
-          {item.title}
-        </h3>
-      </div>
-    </div>
-  );
-})}
+            })}
           </div>
         </div>
         
-        {/* Toggle Arrow Button */}
-        <button 
-          onClick={this.toggleSidebar}
-          style={{
+        {/* Toggle Arrow Button - Hide on mobile */}
+        {!isMobile && (
+          <button 
+            onClick={this.toggleSidebar}
+            style={{
+              position: 'absolute',
+              left: isSidebarOpen ? (isTablet ? '420px' : '535px') : '0',
+              top: '50%',
+              transform: 'translateY(-50%)',
+              width: isTablet ? '40px' : '48px',
+              height: isTablet ? '80px' : '96px',
+              background: 'rgba(255, 255, 255, 0.9)',
+              backdropFilter: 'blur(10px)',
+              borderRadius: '0 24px 24px 0',
+              border: 'none',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              boxShadow: '4px 4px 24px rgba(0, 0, 0, 0.2)',
+              zIndex: 31,
+              cursor: 'pointer',
+              transition: 'all 0.5s ease-in-out'
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = 'rgba(255, 255, 255, 1)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = 'rgba(255, 255, 255, 0.9)';
+            }}
+          >
+            <span style={{ 
+              fontSize: isTablet ? '20px' : '24px', 
+              color: '#334155', 
+              fontWeight: 'bold',
+              transform: isSidebarOpen ? 'rotate(180deg)' : 'rotate(0deg)',
+              transition: 'transform 0.3s'
+            }}>
+              &gt;
+            </span>
+          </button>
+        )}
+        
+        {/* Side Info Card - "Did You Know?" - Hide on mobile */}
+        {!isMobile && (
+          <div style={{
             position: 'absolute',
-            left: isSidebarOpen ? '535px' : '0',
+            left: 0,
             top: '50%',
-            transform: 'translateY(-50%)',
-            width: '48px',
-            height: '96px',
+            transform: isSidebarOpen ? 'translate(0, -50%)' : 'translate(-100%, -50%)',
+            width: isTablet ? '420px' : '535px',
+            maxHeight: '80vh',
             background: 'rgba(255, 255, 255, 0.9)',
             backdropFilter: 'blur(10px)',
             borderRadius: '0 24px 24px 0',
-            border: 'none',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            boxShadow: '4px 4px 24px rgba(0, 0, 0, 0.2)',
-            zIndex: 31,
-            cursor: 'pointer',
-            transition: 'all 0.5s ease-in-out'
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.background = 'rgba(255, 255, 255, 1)';
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.background = 'rgba(255, 255, 255, 0.9)';
-          }}
-        >
-          <span style={{ 
-            fontSize: '24px', 
-            color: '#334155', 
-            fontWeight: 'bold',
-            transform: isSidebarOpen ? 'rotate(180deg)' : 'rotate(0deg)',
-            transition: 'transform 0.3s'
+            boxShadow: '4px 4px 24px rgba(0, 0, 0, 0.3)',
+            zIndex: 30,
+            transition: 'transform 0.5s ease-in-out',
+            overflowY: 'auto'
           }}>
-            &gt;
-          </span>
-        </button>
-        
-        {/* Side Info Card - "Did You Know?" */}
-        <div style={{
-          position: 'absolute',
-          left: 0,
-          top: '50%',
-          transform: isSidebarOpen ? 'translate(0, -50%)' : 'translate(-100%, -50%)',
-          width: '535px',
-          maxHeight: '80vh',
-          background: 'rgba(255, 255, 255, 0.9)',
-          backdropFilter: 'blur(10px)',
-          borderRadius: '0 24px 24px 0',
-          boxShadow: '4px 4px 24px rgba(0, 0, 0, 0.3)',
-          zIndex: 30,
-          transition: 'transform 0.5s ease-in-out',
-          overflowY: 'auto'
-        }}>
-          <div style={{ 
-            padding: '48px 40px', 
-            display: 'flex', 
-            flexDirection: 'column',
-            gap: '20px'
+            <div style={{ 
+              padding: isTablet ? '32px 28px' : '48px 40px', 
+              display: 'flex', 
+              flexDirection: 'column',
+              gap: '20px'
+            }}>
+              {/* Static "Did you Know?" heading */}
+              <h2 style={{ 
+                fontSize: isTablet ? '28px' : '32px', 
+                fontWeight: 500, 
+                color: '#000',
+                letterSpacing: '-0.01em',
+                textTransform: 'capitalize',
+                marginBottom: '4px'
+              }}>
+                Did you Know?
+              </h2>
+              
+              {/* Dynamic title from infoCard */}
+              {infoCard?.title && (
+                <h3 style={{ 
+                  fontSize: isTablet ? '22px' : '26px', 
+                  fontWeight: 600, 
+                  color: '#422F2A',
+                  lineHeight: isTablet ? '28px' : '30px',
+                  marginBottom: '8px'
+                }}>
+                  {infoCard.title}
+                </h3>
+              )}
+              
+              {/* Dynamic description from infoCard */}
+              {infoCard?.description && (
+                <p style={{ 
+                  fontSize: isTablet ? '15px' : '16px', 
+                  fontWeight: 400, 
+                  color: '#666',
+                  lineHeight: isTablet ? '24px' : '26px'
+                }}>
+                  {infoCard.description}
+                </p>
+              )}
+            </div>
+          </div>
+        )}
+
+        {/* Mobile "Did You Know?" Card - Show only on mobile */}
+        {isMobile && infoCard && (
+          <div style={{
+            position: 'relative',
+            zIndex: 10,
+            margin: '32px 20px 0',
+            background: 'rgba(255, 255, 255, 0.9)',
+            backdropFilter: 'blur(10px)',
+            borderRadius: '20px',
+            padding: '24px',
+            boxShadow: '0 4px 24px rgba(0, 0, 0, 0.2)'
           }}>
-            {/* Static "Did you Know?" heading */}
             <h2 style={{ 
-              fontSize: '32px', 
+              fontSize: '24px', 
               fontWeight: 500, 
               color: '#000',
               letterSpacing: '-0.01em',
               textTransform: 'capitalize',
-              marginBottom: '4px'
+              marginBottom: '12px'
             }}>
               Did you Know?
             </h2>
             
-            {/* Dynamic title from infoCard */}
             {infoCard?.title && (
               <h3 style={{ 
-                fontSize: '26px', 
+                fontSize: '20px', 
                 fontWeight: 600, 
                 color: '#422F2A',
-                lineHeight: '30px',
-                marginBottom: '8px'
+                lineHeight: '26px',
+                marginBottom: '12px'
               }}>
                 {infoCard.title}
               </h3>
             )}
             
-            {/* Dynamic description from infoCard */}
             {infoCard?.description && (
               <p style={{ 
-                fontSize: '16px', 
+                fontSize: '15px', 
                 fontWeight: 400, 
                 color: '#666',
-                lineHeight: '26px'
+                lineHeight: '22px',
+                margin: 0
               }}>
                 {infoCard.description}
               </p>
             )}
           </div>
-        </div>
+        )}
       </section>
     );
   }
 }
-
 // Program Highlights Section
 // export class ProgramHighlightsSection extends React.Component {
 //   constructor(props) {
