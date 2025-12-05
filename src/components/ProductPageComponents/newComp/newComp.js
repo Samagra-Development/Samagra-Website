@@ -1101,7 +1101,7 @@ export class PartnersSection extends React.Component {
         width: '100%', 
         minHeight: '100vh', 
         background: '#fff',
-        padding: '64px 0'
+        padding: '64px 0 0 0'
       }}>
         <div style={{ padding: '0 80px' }}>
           <h2 style={{ 
@@ -1120,7 +1120,7 @@ export class PartnersSection extends React.Component {
             alignItems: 'center', 
             justifyContent: 'flex-start',
             gap: '96px',
-            padding: '48px 0',
+            padding: '48px 0 0 0',
             flexWrap: 'wrap'
           }}>
             {partners?.map((partner, index) => {
