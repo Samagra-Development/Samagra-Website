@@ -461,7 +461,6 @@ export class ProgramHighlightsSection extends React.Component {
       <section className="program-highlights-section-wrapper" style={{ 
         position: 'relative', 
         width: '100%', 
-        minHeight: '100vh', 
         background: '#fff',
         padding: '64px 0'
       }}>
