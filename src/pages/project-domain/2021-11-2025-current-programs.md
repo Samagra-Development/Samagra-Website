@@ -1,6 +1,6 @@
 ---
 templateKey: project-domain-post
-title: Current Programs
+title: Recent Programs
 displayOnHeader: true
 displayOnHomeSlider: true
 displayOrder: "9"
