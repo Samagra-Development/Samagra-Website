@@ -88,14 +88,14 @@ export class HeroSection extends React.Component {
               background: 'rgba(255,255,255,0.5)' 
             }} 
           />
-          <div 
+          {/* <div 
             style={{ 
               width: '43px', 
               height: '48px', 
               background: '#fff', 
               borderRadius: '4px' 
             }} 
-          />
+          /> */}
         </div>
         
         {/* Content */}
