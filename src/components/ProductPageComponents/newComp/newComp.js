@@ -499,7 +499,50 @@ export class ProgramHighlightsSection extends React.Component {
             {highlights?.map((highlight, index) => {
               const highlightImageUrl = getImageUrl(highlight.image);
               return (
-                <div 
+                // <div 
+                //   key={index}
+                //   className="col-md-3"
+                //   style={{ 
+                //     display: 'flex', 
+                //     flexDirection: 'column', 
+                //     gap: '12px',
+                //     flex: 1,
+                //     minWidth: '250px'
+                //   }}
+                // >
+                //   {highlightImageUrl &&
+                //      <div style={{
+                //     width: '100%',
+                //     height: '283px',
+                //     backgroundImage: highlightImageUrl ? `url(${highlightImageUrl})` : 'linear-gradient(#666, #999)',
+                //     backgroundSize: 'cover',
+                //     backgroundPosition: 'center',
+                //     borderRadius: '20px'
+                //   }} /> }
+               
+                //   <div style={{
+                //     borderRadius: '12px',
+                //     padding: '16px 8px'
+                //   }}>
+                //     <h3 style={{ 
+                //       fontSize: '24px', 
+                //       fontWeight: 700, 
+                //       color: '#fff',
+                //       marginBottom: '12px'
+                //     }}>
+                //       {highlight.title}
+                //     </h3>
+                //     <p style={{ 
+                //       fontSize: '18px', 
+                //       fontWeight: 400,
+                //       color: '#fff',
+                //       lineHeight: '24px'
+                //     }}>
+                //       {highlight.description}
+                //     </p>
+                //   </div>
+                // </div>
+                 <div 
                   key={index}
                   className="col-md-3"
                   style={{ 
@@ -507,22 +550,31 @@ export class ProgramHighlightsSection extends React.Component {
                     flexDirection: 'column', 
                     gap: '12px',
                     flex: 1,
-                    minWidth: '250px'
+                    minWidth: '250px',
+                    background: highlightImageUrl ? 'transparent' : 'rgba(255, 255, 255, 0.1)',
+                    backdropFilter: highlightImageUrl ? 'none' : 'blur(10px)',
+                    borderRadius: '20px',
+                    padding: highlightImageUrl ? '0' : '24px'
                   }}
                 >
-                  {highlightImageUrl &&
-                     <div style={{
-                    width: '100%',
-                    height: '283px',
-                    backgroundImage: highlightImageUrl ? `url(${highlightImageUrl})` : 'linear-gradient(#666, #999)',
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                    borderRadius: '20px'
-                  }} /> }
+                  {highlightImageUrl && (
+                    <div style={{
+                      width: '100%',
+                      height: '283px',
+                      backgroundImage: `url(${highlightImageUrl})`,
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center',
+                      borderRadius: '20px',
+                      flexShrink: 0
+                    }} />
+                  )}
                
                   <div style={{
                     borderRadius: '12px',
-                    padding: '16px 8px'
+                    padding: highlightImageUrl ? '16px 8px' : '0',
+                    flex: 1,
+                    display: 'flex',
+                    flexDirection: 'column'
                   }}>
                     <h3 style={{ 
                       fontSize: '24px', 
@@ -536,7 +588,8 @@ export class ProgramHighlightsSection extends React.Component {
                       fontSize: '18px', 
                       fontWeight: 400,
                       color: '#fff',
-                      lineHeight: '24px'
+                      lineHeight: '24px',
+                      margin: 0
                     }}>
                       {highlight.description}
                     </p>
