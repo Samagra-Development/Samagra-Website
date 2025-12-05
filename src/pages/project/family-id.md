@@ -15,7 +15,7 @@ heroSection:
   isVisible: true
 whyImportantSection:
   title: Why is it important?
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/fid-bg-2.jpeg
   isVisible: true
   infoCard:
     title: Uttar Pradesh is the largest state of India by population
@@ -30,7 +30,7 @@ whyImportantSection:
       image: /img/dsc00019.jpg
 programHighlightsSection:
   title: Program Highlights
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/fid-bg-3.jpeg
   isVisible: true
   highlights:
     - title: High-Confidence Family Database
