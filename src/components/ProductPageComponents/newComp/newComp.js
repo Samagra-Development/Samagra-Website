@@ -258,7 +258,7 @@ export class WhyImportantSection extends React.Component {
           </h2>
           
           <div className="row" style={{ display: 'flex', gap: '44px', flexWrap: 'wrap' }}>
-            {items?.map((item, index) => {
+            {/* {items?.map((item, index) => {
               const itemImageUrl = getImageUrl(item.image);
               return (
                 <div 
@@ -277,7 +277,7 @@ export class WhyImportantSection extends React.Component {
                     width: '100%',
                     height: '262px',
                     backgroundImage: itemImageUrl ? `url(${itemImageUrl})` : 'linear-gradient(#666, #999)',
-                    backgroundSize: '80% auto',
+                    backgroundSize: '75% auto',
                     backgroundPosition: 'center',
                     borderRadius: '20px',
                     backgroundRepeat: 'no-repeat',
@@ -317,7 +317,73 @@ export class WhyImportantSection extends React.Component {
                   </div>
                 </div>
               );
-            })}
+            })} */}
+            {items?.map((item, index) => {
+  const itemImageUrl = getImageUrl(item.image);
+  return (
+    <div 
+      key={index}
+      className="col-md-4"
+      style={{ 
+        display: 'flex', 
+        flexDirection: 'column', 
+        gap: '20px',
+        position: 'relative',
+        flex: 1,
+        minWidth: '250px'
+      }}
+    >
+      <div style={{
+        width: '100%',
+        height: '262px',
+        backgroundImage: itemImageUrl ? `url(${itemImageUrl})` : 'linear-gradient(#666, #999)',
+        backgroundSize: '75% auto',
+        backgroundPosition: 'center',
+        borderRadius: '20px',
+        backgroundRepeat: 'no-repeat',
+        transition: 'transform 0.3s',
+        flexShrink: 0
+      }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.transform = 'scale(1.02)';
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.transform = 'scale(1)';
+      }}
+      />
+      <div style={{
+        background: 'rgba(255, 255, 255, 0.2)',
+        backdropFilter: 'blur(10px)',
+        borderRadius: '12px',
+        padding: '16px 32px',
+        textAlign: 'center',
+        position: 'relative',
+        transition: 'all 0.3s',
+        flex: 1,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.background = 'rgba(255, 255, 255, 0.3)';
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.background = 'rgba(255, 255, 255, 0.2)';
+      }}
+      >
+        <h3 style={{ 
+          fontSize: '22px', 
+          fontWeight: 500, 
+          color: '#fff',
+          textTransform: 'capitalize',
+          margin: 0
+        }}>
+          {item.title}
+        </h3>
+      </div>
+    </div>
+  );
+})}
           </div>
         </div>
         
