@@ -60,16 +60,16 @@ impactSection:
     items:
       - value: 2L+
         image: /img/fbms-icon-1-removebg-preview.png
-        label: eligible children in process of being added to ration card
+        label: Eligible children being added to ration card
       - value: 1L+
         image: /img/fbms-icon-2-removebg-preview.png
-        label: pregnant women being added to immunization services
+        label: Pregnant women being extended immunisation services
       - value: 2L+
         image: /img/fmbs-icon-3-removebg-preview.png
-        label: pregnant women identified for addition to Anganwadi services
+        label: Pregnant women identified for addition to Anganwadi services
       - value: 1L+
         image: /img/fid-icon-1.png
-        label: dead beneficiaries identified in state's ration card database
+        label: Dead beneficiaries identified in state's ration card database
   testimonials:
     isVisible: false
     items:
