@@ -200,6 +200,9 @@ export const HomeThirdSectionContent = ({
     );
   };
 
+  // Debug: Log the data structure
+  console.log('Items structure:', JSON.stringify(items, null, 2));
+
   return (
     <div className={'container-fluid philosophy-section home-third-section-new'}>
       <div className={'title'}>We work with state governments across domains</div>
@@ -207,28 +210,34 @@ export const HomeThirdSectionContent = ({
       {/* Display structure: Domain → Category → Projects */}
       {items.map((domain, domainIndex) => (
         <div key={domainIndex} style={{ marginBottom: '40px' }}>
-          <h2 style={{ marginBottom: '20px' }}>{domain.name}</h2>
+          <h2 style={{ marginBottom: '20px', fontSize: '24px', fontWeight: 'bold' }}>{domain.name}</h2>
           
-          {domain.categories.map((category, categoryIndex) => (
-            <div key={categoryIndex} style={{ marginBottom: '30px' }}>
-              <h3 style={{ marginBottom: '15px', color: '#666' }}>{category.name}</h3>
-              
-              <div style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap' }}>
-                {category.projects.map((project, projectIndex) => (
-                  <div key={projectIndex} className="col-md-6 px-0">
-                    <ImageCard
-                      bgColor="#BA9807"
-                      heading={project.node.frontmatter.title}
-                      classes={'size-2-2'}
-                      imageUrl={project.node.frontmatter.heroSection?.backgroundImage || '/img/default.jpg'}
-                      subHeading={project.node.frontmatter.heroSection?.description || ''}
-                      href={project.projectUrl}
-                    />
-                  </div>
-                ))}
+          {domain.categories && domain.categories.length > 0 ? (
+            domain.categories.map((category, categoryIndex) => (
+              <div key={categoryIndex} style={{ marginBottom: '30px', marginLeft: '20px' }}>
+                <h3 style={{ marginBottom: '15px', fontSize: '20px', color: '#666', fontWeight: '600' }}>
+                  {category.name}
+                </h3>
+                
+                <div style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap' }}>
+                  {category.projects && category.projects.map((project, projectIndex) => (
+                    <div key={projectIndex} className="col-md-6 px-0">
+                      <ImageCard
+                        bgColor="#BA9807"
+                        heading={project.node.frontmatter.title}
+                        classes={'size-2-2'}
+                        imageUrl={project.node.frontmatter.heroSection?.backgroundImage || '/img/default.jpg'}
+                        subHeading={project.node.frontmatter.heroSection?.description || ''}
+                        href={project.projectUrl}
+                      />
+                    </div>
+                  ))}
+                </div>
               </div>
-            </div>
-          ))}
+            ))
+          ) : (
+            <p style={{ color: '#999' }}>No categories found for this domain</p>
+          )}
         </div>
       ))}
     </div>
