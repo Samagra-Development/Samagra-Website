@@ -55,7 +55,7 @@ export class HeroSection extends React.Component {
           style={{ 
             position: 'absolute', 
             top: '84px', 
-            right: '130px',
+            right: '10vw',
             display: 'flex',
             alignItems: 'center',
             gap: '20px',
@@ -493,21 +493,212 @@ export class WhyImportantSection extends React.Component {
 }
 
 // Program Highlights Section
+// export class ProgramHighlightsSection extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       isVisible: false,
+//     };
+//   }
+
+//   componentDidMount() {
+//     document.addEventListener("scroll", this.handleScroll);
+//   }
+
+//   componentWillUnmount() {
+//     document.removeEventListener("scroll", this.handleScroll);
+//   }
+
+//   handleScroll = () => {
+//     const scrollTop = document.documentElement.scrollTop;
+//     const isVisible = scrollTop > 1000 && scrollTop < 3500;
+    
+//     if (this.state.isVisible !== isVisible) {
+//       this.setState({ isVisible });
+//     }
+//   };
+
+//   render() {
+//     const { title, highlights, backgroundImage } = this.props;
+//     const { isVisible } = this.state;
+//     const bgImageUrl = getImageUrl(backgroundImage);
+
+//     return (
+//       <section className="program-highlights-section-wrapper" style={{ 
+//         position: 'relative', 
+//         width: '100%', 
+//         background: '#fff',
+//         padding: '64px 0'
+//       }}>
+//         {/* Background Image with Overlay */}
+//         <div style={{
+//           position: 'absolute',
+//           inset: 0,
+//           backgroundImage: bgImageUrl ? `url(${bgImageUrl})` : 'linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6))',
+//           backgroundSize: 'cover',
+//           backgroundPosition: 'center'
+//         }} />
+//         <div style={{ position: 'absolute', inset: 0, background: 'rgba(0, 0, 0, 0.6)' }} />
+        
+//         {/* Content */}
+//         <div style={{
+//           position: 'relative',
+//           zIndex: 10,
+//           padding: '0 80px',
+//           opacity: isVisible ? 1 : 0,
+//           transform: isVisible ? 'translateY(0)' : 'translateY(40px)',
+//           transition: 'all 0.7s'
+//         }}>
+//           <h2 style={{ 
+//             fontSize: '56px', 
+//             fontWeight: 700, 
+//             color: '#fff',
+//             marginBottom: '48px',
+//             letterSpacing: '-0.01em',
+//             textTransform: 'capitalize',
+//             textAlign: 'center'
+//           }}>
+//             {title || "Program Highlights"}
+//           </h2>
+          
+//           <div className="row" style={{ display: 'flex', gap: '24px', flexWrap: 'wrap' }}>
+//             {highlights?.map((highlight, index) => {
+//               const highlightImageUrl = getImageUrl(highlight.image);
+//               return (
+//                 // <div 
+//                 //   key={index}
+//                 //   className="col-md-3"
+//                 //   style={{ 
+//                 //     display: 'flex', 
+//                 //     flexDirection: 'column', 
+//                 //     gap: '12px',
+//                 //     flex: 1,
+//                 //     minWidth: '250px'
+//                 //   }}
+//                 // >
+//                 //   {highlightImageUrl &&
+//                 //      <div style={{
+//                 //     width: '100%',
+//                 //     height: '283px',
+//                 //     backgroundImage: highlightImageUrl ? `url(${highlightImageUrl})` : 'linear-gradient(#666, #999)',
+//                 //     backgroundSize: 'cover',
+//                 //     backgroundPosition: 'center',
+//                 //     borderRadius: '20px'
+//                 //   }} /> }
+               
+//                 //   <div style={{
+//                 //     borderRadius: '12px',
+//                 //     padding: '16px 8px'
+//                 //   }}>
+//                 //     <h3 style={{ 
+//                 //       fontSize: '24px', 
+//                 //       fontWeight: 700, 
+//                 //       color: '#fff',
+//                 //       marginBottom: '12px'
+//                 //     }}>
+//                 //       {highlight.title}
+//                 //     </h3>
+//                 //     <p style={{ 
+//                 //       fontSize: '18px', 
+//                 //       fontWeight: 400,
+//                 //       color: '#fff',
+//                 //       lineHeight: '24px'
+//                 //     }}>
+//                 //       {highlight.description}
+//                 //     </p>
+//                 //   </div>
+//                 // </div>
+//                  <div 
+//                   key={index}
+//                   className="col-md-3"
+//                   style={{ 
+//                     display: 'flex', 
+//                     flexDirection: 'column', 
+//                     gap: '12px',
+//                     flex: 1,
+//                     minWidth: '250px',
+//                     background: highlightImageUrl ? 'transparent' : 'rgba(255, 255, 255, 0.1)',
+//                     backdropFilter: highlightImageUrl ? 'none' : 'blur(10px)',
+//                     borderRadius: '20px',
+//                     padding: highlightImageUrl ? '0' : '24px'
+//                   }}
+//                 >
+//                   {highlightImageUrl && (
+//                     <div style={{
+//                       width: '100%',
+//                       height: '283px',
+//                       backgroundImage: `url(${highlightImageUrl})`,
+//                       backgroundSize: 'cover',
+//                       backgroundPosition: 'center',
+//                       borderRadius: '20px',
+//                       flexShrink: 0
+//                     }} />
+//                   )}
+               
+//                   <div style={{
+//                     borderRadius: '12px',
+//                     padding: highlightImageUrl ? '16px 8px' : '0',
+//                     flex: 1,
+//                     display: 'flex',
+//                     flexDirection: 'column'
+//                   }}>
+//                     <h3 style={{ 
+//                       fontSize: '24px', 
+//                       fontWeight: 700, 
+//                       color: '#fff',
+//                       marginBottom: '12px'
+//                     }}>
+//                       {highlight.title}
+//                     </h3>
+//                     <p style={{ 
+//                       fontSize: '18px', 
+//                       fontWeight: 400,
+//                       color: '#fff',
+//                       lineHeight: '24px',
+//                       margin: 0
+//                     }}>
+//                       {highlight.description}
+//                     </p>
+//                   </div>
+//                 </div>
+//               );
+//             })}
+//           </div>
+//         </div>
+//       </section>
+//     );
+//   }
+// }
+
 export class ProgramHighlightsSection extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       isVisible: false,
+      isMobile: false,
+      isTablet: false,
     };
   }
 
   componentDidMount() {
     document.addEventListener("scroll", this.handleScroll);
+    this.handleResize();
+    window.addEventListener('resize', this.handleResize);
   }
 
   componentWillUnmount() {
     document.removeEventListener("scroll", this.handleScroll);
+    window.removeEventListener('resize', this.handleResize);
   }
+
+  handleResize = () => {
+    if (typeof window !== 'undefined') {
+      this.setState({
+        isMobile: window.innerWidth < 768,
+        isTablet: window.innerWidth >= 768 && window.innerWidth < 1024,
+      });
+    }
+  };
 
   handleScroll = () => {
     const scrollTop = document.documentElement.scrollTop;
@@ -520,15 +711,16 @@ export class ProgramHighlightsSection extends React.Component {
 
   render() {
     const { title, highlights, backgroundImage } = this.props;
-    const { isVisible } = this.state;
+    const { isVisible, isMobile, isTablet } = this.state;
     const bgImageUrl = getImageUrl(backgroundImage);
 
     return (
       <section className="program-highlights-section-wrapper" style={{ 
         position: 'relative', 
         width: '100%', 
+        minHeight: isMobile ? 'auto' : '100vh',
         background: '#fff',
-        padding: '64px 0'
+        padding: isMobile ? '32px 0' : '64px 0'
       }}>
         {/* Background Image with Overlay */}
         <div style={{
@@ -544,16 +736,18 @@ export class ProgramHighlightsSection extends React.Component {
         <div style={{
           position: 'relative',
           zIndex: 10,
-          padding: '0 80px',
+          padding: isMobile ? '0 20px' : isTablet ? '0 40px' : '0 80px',
+          maxWidth: '1400px',
+          margin: '0 auto',
           opacity: isVisible ? 1 : 0,
           transform: isVisible ? 'translateY(0)' : 'translateY(40px)',
           transition: 'all 0.7s'
         }}>
           <h2 style={{ 
-            fontSize: '56px', 
+            fontSize: isMobile ? '32px' : isTablet ? '44px' : '56px', 
             fontWeight: 700, 
             color: '#fff',
-            marginBottom: '48px',
+            marginBottom: isMobile ? '24px' : isTablet ? '36px' : '48px',
             letterSpacing: '-0.01em',
             textTransform: 'capitalize',
             textAlign: 'center'
@@ -561,100 +755,62 @@ export class ProgramHighlightsSection extends React.Component {
             {title || "Program Highlights"}
           </h2>
           
-          <div className="row" style={{ display: 'flex', gap: '24px', flexWrap: 'wrap' }}>
+          <div className="row" style={{ 
+            display: 'flex', 
+            gap: isMobile ? '16px' : isTablet ? '20px' : '24px', 
+            flexWrap: 'wrap' 
+          }}>
             {highlights?.map((highlight, index) => {
               const highlightImageUrl = getImageUrl(highlight.image);
               return (
-                // <div 
-                //   key={index}
-                //   className="col-md-3"
-                //   style={{ 
-                //     display: 'flex', 
-                //     flexDirection: 'column', 
-                //     gap: '12px',
-                //     flex: 1,
-                //     minWidth: '250px'
-                //   }}
-                // >
-                //   {highlightImageUrl &&
-                //      <div style={{
-                //     width: '100%',
-                //     height: '283px',
-                //     backgroundImage: highlightImageUrl ? `url(${highlightImageUrl})` : 'linear-gradient(#666, #999)',
-                //     backgroundSize: 'cover',
-                //     backgroundPosition: 'center',
-                //     borderRadius: '20px'
-                //   }} /> }
-               
-                //   <div style={{
-                //     borderRadius: '12px',
-                //     padding: '16px 8px'
-                //   }}>
-                //     <h3 style={{ 
-                //       fontSize: '24px', 
-                //       fontWeight: 700, 
-                //       color: '#fff',
-                //       marginBottom: '12px'
-                //     }}>
-                //       {highlight.title}
-                //     </h3>
-                //     <p style={{ 
-                //       fontSize: '18px', 
-                //       fontWeight: 400,
-                //       color: '#fff',
-                //       lineHeight: '24px'
-                //     }}>
-                //       {highlight.description}
-                //     </p>
-                //   </div>
-                // </div>
-                 <div 
+                <div 
                   key={index}
                   className="col-md-3"
                   style={{ 
                     display: 'flex', 
                     flexDirection: 'column', 
                     gap: '12px',
-                    flex: 1,
-                    minWidth: '250px',
+                    flex: isMobile ? '1 1 100%' : isTablet ? '1 1 calc(50% - 10px)' : '1 1 calc(25% - 18px)',
+                    minWidth: isMobile ? '100%' : isTablet ? '200px' : '250px',
                     background: highlightImageUrl ? 'transparent' : 'rgba(255, 255, 255, 0.1)',
                     backdropFilter: highlightImageUrl ? 'none' : 'blur(10px)',
-                    borderRadius: '20px',
-                    padding: highlightImageUrl ? '0' : '24px'
+                    borderRadius: isMobile ? '16px' : '20px',
+                    padding: highlightImageUrl ? '0' : (isMobile ? '20px' : '24px')
                   }}
                 >
                   {highlightImageUrl && (
                     <div style={{
                       width: '100%',
-                      height: '283px',
+                      height: isMobile ? '200px' : isTablet ? '240px' : '283px',
                       backgroundImage: `url(${highlightImageUrl})`,
                       backgroundSize: 'cover',
                       backgroundPosition: 'center',
-                      borderRadius: '20px',
+                      borderRadius: isMobile ? '12px' : '20px',
                       flexShrink: 0
                     }} />
                   )}
                
                   <div style={{
                     borderRadius: '12px',
-                    padding: highlightImageUrl ? '16px 8px' : '0',
+                    padding: highlightImageUrl ? (isMobile ? '12px 8px' : '16px 8px') : '0',
                     flex: 1,
                     display: 'flex',
                     flexDirection: 'column'
                   }}>
                     <h3 style={{ 
-                      fontSize: '24px', 
+                      fontSize: isMobile ? '20px' : isTablet ? '22px' : '24px', 
                       fontWeight: 700, 
                       color: '#fff',
-                      marginBottom: '12px'
+                      marginBottom: isMobile ? '8px' : '12px',
+                      lineHeight: isMobile ? '26px' : '32px'
                     }}>
                       {highlight.title}
                     </h3>
                     <p style={{ 
-                      fontSize: '18px', 
+                      fontSize: isMobile ? '16px' : '18px', 
                       fontWeight: 400,
                       color: '#fff',
-                      lineHeight: '24px',
+                      lineHeight: isMobile ? '22px' : '24px',
                       margin: 0
                     }}>
                       {highlight.description}
@@ -669,7 +825,6 @@ export class ProgramHighlightsSection extends React.Component {
     );
   }
 }
-
 // Impact Section
 // export class ImpactSection extends React.Component {
 //   constructor(props) {
