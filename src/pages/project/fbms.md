@@ -1,7 +1,7 @@
 ---
 templateKey: project-post
 title: Family Benefit Management System
-domainNew: Recent Programs
+domainNew: Current Programs
 id: FBMS
 heroSection:
   title: Family Benefit Management System
@@ -23,11 +23,11 @@ whyImportantSection:
       delivery programs including highest social welfare pensions in the country
   items:
     - title: Limited socio-economic data
-      image: /img/dsc00019.jpg
+      image: /img/fbms-info-1-removebg-preview.png
     - title: Data inconsistencies
-      image: /img/dsc00019.jpg
+      image: /img/fid-info-4-removebg-preview.png
     - title: Misdirection of welfare funds
-      image: /img/dsc00019.jpg
+      image: /img/fid-info-2-removebg-preview.png
 programHighlightsSection:
   title: Program Highlights
   backgroundImage: /img/fbms-picture-1.jpeg
