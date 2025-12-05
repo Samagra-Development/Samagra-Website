@@ -11,7 +11,7 @@ heroSection:
   categories:
     - Benefit Delivery
     - Uttar Pradesh
-  backgroundImage: /img/beneficiaries-family-id.png
+  backgroundImage: /img/fid-bg-4.png
   isVisible: true
 whyImportantSection:
   title: Why is it important?
@@ -52,7 +52,7 @@ programHighlightsSection:
   description: "-"
 impactSection:
   title: Impact
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/beneficiaries-family-id.png
   isVisible: true
   stats:
     isVisible: true
