@@ -1,8 +1,8 @@
 ---
 templateKey: project-post
 title: SUBHADRA
+domainNew: Recent Programs
 id: SUBHADRA
-domainNew: Current Programs
 heroSection:
   title: SUBHADRA
   subtitle: Women Empowerment Initiative
@@ -18,13 +18,18 @@ whyImportantSection:
   isVisible: true
   infoCard:
     title: Key Challenges for Women's Economic Participation
-    description: Understanding the barriers preventing women from fully participating in Odisha's economy
+    description: Understanding the barriers preventing women from fully
+      participating in Odisha's economy
   items:
-    - title: Unlock Odisha's untapped workforce, as female labour force participation (49%) remains far below men (82%)
+    - title: Unlock Odisha's untapped workforce, as female labour force participation
+        (49%) remains far below men (82%)
       image: /img/dsc00019.jpg
-    - title: Boost women-led entrepreneurship, given that only <5% of MSMEs in Odisha are owned by women, compared to 22% nationally
+    - title: Boost women-led entrepreneurship, given that only <5% of MSMEs in Odisha
+        are owned by women, compared to 22% nationally
       image: /img/dsc00019.jpg
-    - title: Reduce women's care burden and enable work, as improving women-child nutrition (currently 22% stunting, 12% underweight, 3% wasting) frees time and capacity for economic participation
+    - title: Reduce women's care burden and enable work, as improving women-child
+        nutrition (currently 22% stunting, 12% underweight, 3% wasting) frees
+        time and capacity for economic participation
       image: /img/dsc00019.jpg
 programHighlightsSection:
   title: Program Highlights
@@ -32,16 +37,23 @@ programHighlightsSection:
   isVisible: true
   highlights:
     - title: Evidence-Based Policy Design
-      description: A sample beneficiary study in collaboration with IIM Sambalpur conducted, revealing ~80% productive use of funds and strong livelihood aspirations, creating an evidence base for policy and behavioural nudges
+      description: A sample beneficiary study in collaboration with IIM Sambalpur
+        conducted, revealing ~80% productive use of funds and strong livelihood
+        aspirations, creating an evidence base for policy and behavioural nudges
       image: /img/dsc00019.jpg
     - title: SUPOSHIT Odisha Mission
-      description: Statewide SUPOSHIT Odisha Mission launched by Deputy Chief Minister to accelerate achievement of a malnutrition (SAM, MAM and Underweight) free Odisha by 2029
+      description: Statewide SUPOSHIT Odisha Mission launched by Deputy Chief Minister
+        to accelerate achievement of a malnutrition (SAM, MAM and Underweight)
+        free Odisha by 2029
       image: /img/dsc00019.jpg
     - title: SUBHADRA Bhaunis
-      description: A mentor cadre of SUBHADRA "Bhaunis" created by the state, at the district level, to serve as entrepreneurship ambassadors
+      description: A mentor cadre of SUBHADRA "Bhaunis" created by the state, at the
+        district level, to serve as entrepreneurship ambassadors
       image: /img/dsc00019.jpg
     - title: Comprehensive Outreach
-      description: SUBHADRA and its umbrella interventions evangelised across channels, enhancing awareness on DBT's impact and Odisha's evolving welfare landscape for women
+      description: SUBHADRA and its umbrella interventions evangelised across
+        channels, enhancing awareness on DBT's impact and Odisha's evolving
+        welfare landscape for women
       image: /img/dsc00019.jpg
 impactSection:
   title: Impact
@@ -52,20 +64,24 @@ impactSection:
     items:
       - value: 1Cr+
         image: /img/dsc00019.jpg
-        label: women directly benefited through the largest women-centric scheme in Odisha
-      - value: "₹50,000"
+        label: women directly benefited through the largest women-centric scheme in
+          Odisha
+      - value: ₹50,000
         image: /img/dsc00019.jpg
         label: per beneficiary over five years in annual installments
       - value: 74,000+
         image: /img/dsc00019.jpg
-        label: Anganwadi Workers powering one of India's largest women-facing delivery systems
+        label: Anganwadi Workers powering one of India's largest women-facing delivery
+          systems
       - value: ~80%
         image: /img/dsc00019.jpg
         label: productive use of funds by beneficiaries revealed through Samikhya study
   testimonials:
     isVisible: true
     items:
-      - quote: First-of-its-kind insights have been obtained on women's financial behaviour, productive investment, and aspirations via Samikhya, which will now inform policy design and cross-departmental decision-making
+      - quote: First-of-its-kind insights have been obtained on women's financial
+          behaviour, productive investment, and aspirations via Samikhya, which
+          will now inform policy design and cross-departmental decision-making
         name: Impact Study
         title: IIM Sambalpur Collaboration
         image: /img/dsc00019.jpg
