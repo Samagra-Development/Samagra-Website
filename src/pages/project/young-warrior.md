@@ -1,12 +1,13 @@
 ---
 templateKey: project-post
 title: Young Warrior
+domainNew: Recent Programs
 id: Young Warrior
-domainNew: Current Programs
 heroSection:
   title: LEAP
   subtitle: Livestock Expansion and Advancement Program
-  description: Double Odisha's milk production by 2029 by driving systemic interventions in animal induction, nutrition, and breed improvement
+  description: Double Odisha's milk production by 2029 by driving systemic
+    interventions in animal induction, nutrition, and breed improvement
   categories:
     - Agriculture
     - Odisha
@@ -18,7 +19,9 @@ whyImportantSection:
   isVisible: true
   infoCard:
     title: Key Challenges in Odisha's Dairy Sector
-    description: Understanding the core issues affecting dairy farmers and milk production in the state,Understanding the core issues affecting dairy farmers and milk production in the state
+    description: Understanding the core issues affecting dairy farmers and milk
+      production in the state,Understanding the core issues affecting dairy
+      farmers and milk production in the state
   items:
     - title: Poor yield for farmers
       image: /img/dsc00019.jpg
@@ -32,16 +35,22 @@ programHighlightsSection:
   isVisible: true
   highlights:
     - title: Anchoring Milk Mission
-      description: Anchoring the Odisha Milk Mission, deploying levers across genetics (incl. X-sorted semen), nutrition, animal health, and credit enablement
+      description: Anchoring the Odisha Milk Mission, deploying levers across genetics
+        (incl. X-sorted semen), nutrition, animal health, and credit enablement
       image: /img/dsc00019.jpg
     - title: Artificial Insemination
-      description: Delivering doorstep Artificial Insemination through the GO-SUGAM helpline, mapping technicians, & fulfilling same-day requests with digital tracking
+      description: Delivering doorstep Artificial Insemination through the GO-SUGAM
+        helpline, mapping technicians, & fulfilling same-day requests with
+        digital tracking
       image: /img/dsc00019.jpg
     - title: Insurance Protection
-      description: Protecting farmers through Go-Sampad Bima Yojana, using insurance intermediaries to streamline enrollments, policy issuance, & claims
+      description: Protecting farmers through Go-Sampad Bima Yojana, using insurance
+        intermediaries to streamline enrollments, policy issuance, & claims
       image: /img/dsc00019.jpg
     - title: Data-led Governance
-      description: Driving data-led governance by running IVRS awareness, tracking on GO-SUGAM/DSS dashboards, conducting reviews, & commissioning third-party assessments
+      description: Driving data-led governance by running IVRS awareness, tracking on
+        GO-SUGAM/DSS dashboards, conducting reviews, & commissioning third-party
+        assessments
       image: /img/dsc00019.jpg
 impactSection:
   title: Impact
@@ -50,7 +59,7 @@ impactSection:
   stats:
     isVisible: true
     items:
-      - value: "₹1,423 cr"
+      - value: ₹1,423 cr
         image: /img/dsc00019.jpg
         label: five-year budgetary outlay under Mukhyamantri Kamdhenu Yojana
       - value: 15.2L+
@@ -65,7 +74,9 @@ impactSection:
   testimonials:
     isVisible: true
     items:
-      - quote: The LEAP program has transformed our dairy farming operations. We now have access to better breeding facilities and veterinary services that have significantly improved our milk production.
+      - quote: The LEAP program has transformed our dairy farming operations. We now
+          have access to better breeding facilities and veterinary services that
+          have significantly improved our milk production.
         name: Ramesh Kumar
         title: Dairy Farmer, Cuttack District
         image: /img/dsc00019.jpg
