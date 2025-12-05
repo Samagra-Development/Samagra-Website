@@ -1,7 +1,7 @@
 ---
 templateKey: project-post
 title: Family Benefit Management System
-domainNew: Current Programs
+domainNew: Recent Programs
 id: FBMS
 heroSection:
   title: Family Benefit Management System
