@@ -64,10 +64,10 @@ impactSection:
         image: /img/fid-icon-2.png
         label: saved annually through removal of ineligible/duplicate beneficiaries
       - value: 7K+
-        image: /img/fid-icon-3.png
+        image: /img/fid-icon-3-removebg-preview.png
         label: caste certificates issued through fast-track mode with two-day turnaround
       - value: "42"
-        image: /img/fid-icon-4-removebg-preview.png
+        image: /img/fid-icon-4-removebg.png
         label: schemes and services started Aadhaar seeding and authentication due to
           Family ID
   testimonials:
