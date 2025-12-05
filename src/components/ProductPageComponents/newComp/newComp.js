@@ -280,6 +280,7 @@ export class WhyImportantSection extends React.Component {
                     backgroundSize: '100% auto',
                     backgroundPosition: 'center',
                     borderRadius: '20px',
+                    backgroundRepeat: 'no-repeat',
                     transition: 'transform 0.3s'
                   }}
                   onMouseEnter={(e) => {
