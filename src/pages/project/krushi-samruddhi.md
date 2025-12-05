@@ -5,7 +5,7 @@ domainNew: Recent Programs
 id: Krushi Samruddhi
 heroSection:
   title: Krushi Samruddhi
-  subtitle: "-"
+  subtitle: ""
   description: To increasing Odisha's Agri GDP per capita to INR 2 lakh per annum by 2030
   categories:
     - Agriculture
