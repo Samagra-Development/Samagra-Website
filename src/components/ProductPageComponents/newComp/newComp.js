@@ -511,14 +511,16 @@ export class ProgramHighlightsSection extends React.Component {
                     minWidth: '250px'
                   }}
                 >
-                  <div style={{
+                  {highlightImageUrl &&
+                     <div style={{
                     width: '100%',
                     height: '283px',
                     backgroundImage: highlightImageUrl ? `url(${highlightImageUrl})` : 'linear-gradient(#666, #999)',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     borderRadius: '20px'
-                  }} />
+                  }} /> }
+               
                   <div style={{
                     borderRadius: '12px',
                     padding: '16px 8px'
