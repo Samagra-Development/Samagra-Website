@@ -256,7 +256,13 @@ export default ({ previewData, parentDomains }) => (
                 heroSection {
                   title
                   description
-                  backgroundImage
+                  backgroundImage {
+                    childImageSharp {
+                      fluid(maxWidth: 1024, quality: 100) {
+                        ...GatsbyImageSharpFluid
+                      }
+                    }
+                  }
                   categories
                 }
                 thirdSection {
