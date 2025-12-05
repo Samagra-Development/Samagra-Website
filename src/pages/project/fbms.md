@@ -11,7 +11,7 @@ heroSection:
   categories:
     - Public Service Delivery
     - Andhra Pradesh
-  backgroundImage: /img/fbms-banner.jpeg
+  backgroundImage: /img/fbms-bg-1.png
   isVisible: true
 whyImportantSection:
   title: Why is it important?
