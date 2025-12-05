@@ -81,14 +81,14 @@ export class HeroSection extends React.Component {
               )}
             </React.Fragment>
           ))}
-          <div 
+          {/* <div 
             style={{ 
               width: '1px', 
               height: '32px', 
               background: 'rgba(255,255,255,0.5)' 
             }} 
           />
-          {/* <div 
+          <div 
             style={{ 
               width: '43px', 
               height: '48px', 
