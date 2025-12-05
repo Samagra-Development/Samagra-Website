@@ -22,12 +22,12 @@ whyImportantSection:
     description: There are over 17 Crore citizens in Uttar Pradesh availing 180+
       Direct Benefit Transfer (DBT) schemes from 30+ departments
   items:
-    - title: Low Scheme Awareness
-      image: /img/dsc00019.jpg
-    - title: Complex Application Process
-      image: /img/dsc00019.jpg
+    - title: Friction in Scheme Application
+      image: /img/fid-info-1-removebg-preview.png
+    - title: Duplicate & Ghost Beneficiaries
+      image: /img/fid-info-2-removebg-preview.png
     - title: Fragmented Data Systems
-      image: /img/dsc00019.jpg
+      image: /img/fid-info-4-removebg-preview.png
 programHighlightsSection:
   title: Program Highlights
   backgroundImage: /img/fid-bg-3.jpeg
