@@ -277,7 +277,7 @@ export class WhyImportantSection extends React.Component {
                     width: '100%',
                     height: '262px',
                     backgroundImage: itemImageUrl ? `url(${itemImageUrl})` : 'linear-gradient(#666, #999)',
-                    backgroundSize: '100% auto',
+                    backgroundSize: '80% auto',
                     backgroundPosition: 'center',
                     borderRadius: '20px',
                     backgroundRepeat: 'no-repeat',
