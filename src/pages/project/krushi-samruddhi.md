@@ -1,7 +1,7 @@
 ---
 templateKey: project-post
 title: Krushi Samruddhi
-domainNew: Current Programs
+domainNew: Recent Programs
 id: Krushi Samruddhi
 heroSection:
   title: Krushi Samruddhi
