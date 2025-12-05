@@ -1101,9 +1101,9 @@ export class PartnersSection extends React.Component {
       <section className="partners-section-wrapper" style={{ 
         position: 'relative', 
         width: '100%', 
-        minHeight: '100vh', 
+       
         background: '#fff',
-        padding: '64px 0 0 0'
+        padding: '64px 0 '
       }}>
         <div style={{ padding: '0 80px' }}>
           <h2 style={{ 
