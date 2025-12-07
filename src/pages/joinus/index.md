@@ -7,9 +7,9 @@ infoText2: 'Refer to the Job Descriptions: <a target={"_blank"}
   > Sr. Associate/Consultant </a>|<a target={"_blank"}
   href="https://drive.google.com/file/d/1brzGfcYPaR1Cvgw9CVz9rxJEBkdsJvP6/view"
   > Emerging Leader </a> <p>'
-formAcceptance: ' <p> Disclaimer: The designation offered will be determined
-  after the interviews.</p><p> Interviews of applicants from Delhi-NCR will be
-  held in-person at our <a target={"_blank"}
+formAcceptance: ' <p> Disclaimer: The designation offered will be determined by
+  Samagra after the interviews.</p><p> Interviews of applicants from Delhi-NCR
+  will be held in-person at our <a target={"_blank"}
   href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office</a> <p>'
 showForm: true
 verticalImage: /img/screenshot-2025-11-21-at-2.21.38 pm.png
