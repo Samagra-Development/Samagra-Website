@@ -23,15 +23,11 @@ whyImportantSection:
       more than 88 lakh farmers across Odisha through a cadre of 6,000+ last
       mile extension workers\t"
   items:
-    - title: "Agricultural activities contribute only about 35 percent to farmers’
-        earnings while direct benefit transfers form a major share\t"
+    - title: Agricultural activities contribute only about 35% to farmers’ earnings
       image: /img/leap-icon-2-removebg-preview.png
-    - title: "Odisha agri sector needs a strategic shift from a production-led to an
-        income-led approach \t"
+    - title: "Odisha agri sector takes a production-led instead of an income-led
+        approach \t"
       image: /img/leap-icon-1-removebg-preview.png
-    - title: Current initiatives to catalyze the entire sector through a scientific
-        and market-led transformation needs targeted efforts
-      image: /img/pucar-icon-1-removebg-preview.png
 programHighlightsSection:
   title: Program Highlights
   backgroundImage: /img/konnect-picture-1.jpg
@@ -59,16 +55,16 @@ impactSection:
     isVisible: true
     items:
       - value: 20%+
-        image: /img/dsc00019.jpg
+        image: /img/fid-icon-1.png
         label: Reduction in crop losses in weather and pest affected areas
       - value: 75%+
-        image: /img/dsc00019.jpg
+        image: /img/nipun-icon-3-removebg-preview.png
         label: Improvement in agriculture scheme achievement
       - value: 75L+
-        image: /img/dsc00019.jpg
+        image: /img/leap-icon-2-removebg-preview.png
         label: Farmers delivered IVRS agriculture advisory fortnightly
       - value: 900Cr+
-        image: /img/dsc00019.jpg
+        image: /img/leap-icon-1-removebg-preview.png
         label: Released in subsidies through GO-SUGAM to farmers
   testimonials:
     isVisible: false
