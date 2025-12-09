@@ -57,7 +57,7 @@ impactSection:
       - value: 48k+
         image: /img/nipun-icon-2-removebg-preview.png
         label: Schools became NIPUN in 2024-25 vs 4.4k+ in 2022-23
-      - value: 4th rank
+      - value: "#4"
         image: /img/nipun-icon-3-removebg-preview.png
         label: in India for UP in National Achievement Survey 2024
       - value: 50L+
