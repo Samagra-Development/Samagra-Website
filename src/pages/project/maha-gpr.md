@@ -23,11 +23,11 @@ whyImportantSection:
       total applications in Maharashtra
   items:
     - title: Uncertain timelines
-      image: /img/dsc00019.jpg
+      image: /img/gpr-icon-1-removebg-preview.png
     - title: Non-standardized workflows
-      image: /img/dsc00019.jpg
+      image: /img/gpr-icon-3-removebg-preview.png
     - title: Compartmentalized departmental functions
-      image: /img/dsc00019.jpg
+      image: /img/fid-info-4-removebg-preview.png
 programHighlightsSection:
   title: Program Highlights
   backgroundImage: /img/gpr-5.jpg
@@ -55,19 +55,12 @@ impactSection:
     isVisible: true
     items:
       - value: 12.8Cr+
-        image: /img/dsc00019.jpg
-        label: citizens in Maharashtra accessing government schemes & services
-      - value: 1200+
-        image: /img/dsc00019.jpg
-        label: schemes and services being brought under standardized governance
+        image: /img/konnect-icon-1-removebg-preview.png
+        label: Citizens in Maharashtra accessing government schemes & services
+      - value: 1,200+
+        image: /img/fid-icon-3-removebg-preview.png
+        label: Schemes and services being brought under standardized governance
           framework
-      - value: "45"
-        image: /img/dsc00019.jpg
-        label: out of 1200 schemes account for 95%+ of total applications
-      - value: 12.8Cr
-        image: /img/dsc00019.jpg
-        label: citizens across socio-economically diverse population benefiting from
-          reforms
   testimonials:
     isVisible: false
     items:
