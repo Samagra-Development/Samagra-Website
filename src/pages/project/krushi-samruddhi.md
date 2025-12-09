@@ -10,7 +10,7 @@ heroSection:
   categories:
     - Agriculture
     - Odisha
-  backgroundImage: /img/konnect-picture-1.jpg
+  backgroundImage: /img/konnect-picture-2.jpg
   isVisible: true
 whyImportantSection:
   title: Why is it important?
@@ -32,7 +32,7 @@ whyImportantSection:
       image: /img/dsc00019.jpg
 programHighlightsSection:
   title: Program Highlights
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/konnect-picture-1.jpg
   isVisible: true
   highlights:
     - title: AI-Powered Advisory
@@ -55,34 +55,25 @@ programHighlightsSection:
   description: "-"
 impactSection:
   title: Impact
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/konnect-picture-3.jpg
   isVisible: true
   stats:
     isVisible: true
     items:
-      - value: ₹1.15L
+      - value: 20%+
         image: /img/dsc00019.jpg
-        label: current Agri GDP per capita, growing at CAGR of 8.6 percent
-      - value: 88L+
+        label: Reduction in crop losses in weather and pest affected areas
+      - value: 75%+
         image: /img/dsc00019.jpg
-        label: farmers served by Department of Agriculture & Farmers' Empowerment
-      - value: 6,000+
-        image: /img/dsc00019.jpg
-        label: last mile extension workers across Odisha
-      - value: ~10%
-        image: /img/dsc00019.jpg
-        label: improvement in farmer's productivity with up to 20% reduced crop losses
-      - value: 75%
-        image: /img/dsc00019.jpg
-        label: improved agri scheme achievement through Krushi Samiksha Kendra
+        label: Improvement in agriculture scheme achievement
       - value: 75L+
         image: /img/dsc00019.jpg
-        label: farmers reached by KSAS IVRS-based advisory platform
-      - value: 3L+
+        label: Farmers delivered IVRS agriculture advisory fortnightly
+      - value: 900Cr+
         image: /img/dsc00019.jpg
-        label: farmers availed ₹900+ crore in subsidies through GO-SUGAM
+        label: Released in subsidies through GO-SUGAM to farmers
   testimonials:
-    isVisible: true
+    isVisible: false
     items:
       - quote: The personalised advisory and subsidy delivery through digital platforms
           has transformed our farming approach and improved our income
@@ -94,8 +85,8 @@ partnersSection:
   title: Our Partners
   isVisible: true
   partners:
-    - name: Department of Agriculture & Farmers' Empowerment (DAFE)
-      logo: /img/dsc00019.jpg
+    - name: Government of Odisha
+      logo: /img/government-of-odisha.png
     - name: Gates Foundation
-      logo: /img/dsc00019.jpg
+      logo: /img/gates_foundation_logo.svg.png
 ---
