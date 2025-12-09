@@ -26,10 +26,13 @@ whyImportantSection:
   items:
     - title: With increasing uncertainties (climatic and economic) in agriculture,
         farmers require support from the state
+      image: /img/leap-icon-2-removebg-preview.png
     - title: Poor internal coordination and processes limit the department’s ability
         to provide this support
-    - title: "The problem is compounded by a weak feedback loop: farmers’ voices do
-        not reach decision-makers"
+      image: /img/gpr-icon-3-removebg-preview.png
+    - title: The problem is compounded by a weak feedback loop and farmers’ voices do
+        not reach decision-makers
+      image: /img/mahaagri-icon-1-removebg-preview.png
 programHighlightsSection:
   isVisible: true
   description: ""
@@ -56,4 +59,9 @@ impactSection:
 partnersSection:
   isVisible: true
   title: Our Partners
+  partners:
+    - name: Government of Maharashtra
+      logo: /img/seal_of_maharashtra.svg
+    - name: Gates Foundation
+      logo: /img/gates_foundation_logo.svg.png
 ---
