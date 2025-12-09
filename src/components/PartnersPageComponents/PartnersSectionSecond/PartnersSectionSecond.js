@@ -38,6 +38,7 @@ const PartnersSectionSecond = ({ content }) => {
                           height="100%"
                           src={video.videoUrl}
                           frameBorder="0"
+                          referrerpolicy="strict-origin-when-cross-origin"
                           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                           allowFullScreen
                         ></iframe>

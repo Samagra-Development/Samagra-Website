@@ -73,6 +73,7 @@ const Carousel = ({ items }) => {
               <iframe
                 src={item.url}
                 frameborder="0"
+                referrerpolicy="strict-origin-when-cross-origin"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen></iframe>
               <h5 className="main-text">

@@ -96,6 +96,7 @@ export class HomeSecondSection extends React.Component {
               className={'home-second-section-iframe'}
               src="https://www.youtube.com/embed/Y-iHVVfSHRg"
               frameBorder="0"
+              referrerpolicy="strict-origin-when-cross-origin"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen></iframe>
             {/* <div className={`image-wrapper ${(firstSectionAnimation ? 'enable-animation' : '')}`}
