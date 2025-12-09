@@ -22,11 +22,13 @@ whyImportantSection:
     description: The state spends heavily on direct benefit transfer based welfare
       delivery programs including highest social welfare pensions in the country
   items:
-    - title: Limited socio-economic data
+    - title: Household database captures limited set of socio‑economic attributes
       image: /img/fbms-info-1-removebg-preview.png
-    - title: Data inconsistencies
+    - title: Separate “sources of truth,” create data inconsistencies that weaken
+        inclusion‑and‑exclusion checks
       image: /img/fid-info-4-removebg-preview.png
-    - title: Misdirection of welfare funds
+    - title: Will channel welfare funds with precision to the families that need them
+        most
       image: /img/fid-info-2-removebg-preview.png
 programHighlightsSection:
   title: Program Highlights
