@@ -11,11 +11,11 @@ heroSection:
   categories:
     - Agriculture
     - Odisha
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/leap-picture-2.jpg
   isVisible: true
 whyImportantSection:
   title: Why is it important?
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/leap-picture-1.png
   isVisible: true
   infoCard:
     title: Key Challenges in Odisha's Dairy Sector
@@ -30,7 +30,7 @@ whyImportantSection:
       image: /img/dsc00019.jpg
 programHighlightsSection:
   title: Program Highlights
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/leap-picture-3.png
   isVisible: true
   highlights:
     - title: Anchoring the Odisha Milk Mission
@@ -49,28 +49,25 @@ programHighlightsSection:
         third-party assessments
 impactSection:
   title: Impact
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/leap-picture-4.png
   isVisible: true
   stats:
     isVisible: true
     items:
       - value: ₹1,423 cr
-        image: /img/dsc00019.jpg
-        label: five-year budgetary outlay under Mukhyamantri Kamdhenu Yojana
+        image: /img/leap-icon-1-removebg-preview.png
+        label: Five-year budgetary outlay under Mukhyamantri Kamdhenu Yojana
       - value: 25L
-        image: /img/dsc00019.jpg
-        label: livestock farmers impacted across 16 districts
-      - value: 45L
-        image: /img/dsc00019.jpg
-        label: animals impacted
-      - value: "100"
-        image: /img/dsc00019.jpg
-        label: on-call artificial inseminations per district per day
+        image: /img/leap-icon-2-removebg-preview.png
+        label: Livestock farmers impacted across 16 districts
+      - value: 100+
+        image: /img/leap-icon-3-removebg-preview.png
+        label: On-call artificial inseminations per district per day
       - value: 45%
-        image: /img/dsc00019.jpg
-        label: calf birth rate, risen from 5%
+        image: /img/leap-icon-4-removebg-preview.png
+        label: Calf birth rate, risen from 5%
   testimonials:
-    isVisible: true
+    isVisible: false
     items:
       - quote: The LEAP program has transformed our dairy farming operations through
           improved breeding facilities and veterinary services.
@@ -82,7 +79,7 @@ partnersSection:
   isVisible: true
   partners:
     - name: FA&RD Government of Odisha
-      logo: /img/dsc00019.jpg
+      logo: /img/government-of-odisha.png
     - name: Gates Foundation
-      logo: /img/dsc00019.jpg
+      logo: /img/gates_foundation_logo.svg.png
 ---
