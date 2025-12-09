@@ -2139,7 +2139,7 @@ export class ImpactSection extends React.Component {
                     }}
                   >
                     <div style={{ textAlign: 'center', width: '100%' }}>
-                      {statImageUrl && (
+                      {/* {statImageUrl && (
                         <div style={{
                           width: isMobile ? '80px' : isTablet ? '100px' : '121px',
                           height: isMobile ? '50px' : isTablet ? '62px' : '75px',
@@ -2149,7 +2149,28 @@ export class ImpactSection extends React.Component {
                           backgroundRepeat: 'no-repeat',
                           backgroundPosition: 'center'
                         }} />
-                      )}
+                      )} */}
+                      {statImageUrl && (
+  <div style={{
+    width: '100%',
+    maxWidth: isMobile ? '230px' : isTablet ? '120px' : '140px',
+    height: "auto",
+    margin: '16px auto',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
+  }}>
+    <img 
+      src={statImageUrl}
+      alt={stat.label}
+      style={{
+        maxWidth: '100%',
+        maxHeight: '100%',
+        objectFit: 'contain'
+      }}
+    />
+  </div>
+)}
                       <div style={{ 
                         fontSize: isMobile ? '24px' : isTablet ? '26px' : '28px', 
                         fontWeight: 600, 
