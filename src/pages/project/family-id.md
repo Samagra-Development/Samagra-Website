@@ -58,7 +58,7 @@ impactSection:
         label: pensioners, migrant workers and farmers enrolled in Ration scheme
       - value: ₹800 Cr+
         image: /img/fid-icon-2.png
-        label: saved annually through removal of ineligible/duplicate beneficiaries
+        label: saved annually through removal of ineligible beneficiaries
       - value: 7K+
         image: /img/fid-icon-3-removebg-preview.png
         label: caste certificates issued through fast-track mode with two-day turnaround
