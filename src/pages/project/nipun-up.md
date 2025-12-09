@@ -82,9 +82,9 @@ partnersSection:
     - name: Department of Basic Education, UP
       logo: /img/dsc00019.jpg
     - name: CSF
-      logo: /img/dsc00019.jpg
+      logo: /img/CSF.jpg
     - name: LLF
-      logo: /img/dsc00019.jpg
+      logo: /img/llf-logo.png
     - name: Vikramshila
-      logo: /img/dsc00019.jpg
+      logo: /img/vikramshila-photo.png
 ---
