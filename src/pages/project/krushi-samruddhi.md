@@ -10,7 +10,7 @@ heroSection:
   categories:
     - Agriculture
     - Odisha
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/konnect-picture-1.jpg
   isVisible: true
 whyImportantSection:
   title: Why is it important?
