@@ -9,7 +9,7 @@ heroSection:
   description: Provide proactive benefit delivery to 100% eligible beneficiaries
     in U.P. through high-confidence Family level database
   categories:
-    - Benefit Delivery
+    - Service Delivery
     - Uttar Pradesh
   backgroundImage: /img/fid-bg-4.png
   isVisible: true
