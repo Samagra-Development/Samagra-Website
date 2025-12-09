@@ -22,7 +22,7 @@ whyImportantSection:
     description: 45 out of 1200 government schemes & services account for 95%+ of
       total applications in Maharashtra
   items:
-    - title: Uncertain timelines
+    - title: Uncertain service delivery timelines
       image: /img/gpr-icon-1-removebg-preview.png
     - title: Non-standardized workflows
       image: /img/gpr-icon-3-removebg-preview.png
