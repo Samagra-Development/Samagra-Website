@@ -1298,7 +1298,142 @@ collections:
           widget: relation,
           required: false,
         }
+      
+      - { label: "Full Name (Past Programs)", name: "fullName", widget: "string", required: false }
       - { label: "Project Id", name: "id", widget: "string", required: false }
+      - { label: "Background Cover (Past Programs)", name: "backgroundCover", widget: image, required: false }
+      - { label: "Domain (Past Programs)", name: "domain", widget: "string", required: false }
+      - { label: "Sub Title (Past Programs)", name: "subTitle", widget: "string", required: false }
+      - { label: "State (Past Programs)", name: "state", widget: "string", required: false }
+      - { label: "Tag Line (Past Programs)", name: "tagLine", widget: "string", required: false }
+      - {
+          label: "Project Logo with State (Past Programs)",
+          name: "projectLogoWithState",
+          widget: image,
+          required: false,
+        }
+      - {
+          label: "Overview (Past Programs)",
+          name: overview,
+          widget: list,
+          required: false,
+          fields: [{ label: Text, name: text, widget: string, required: false }],
+        }
+      - {
+          label: "Scale (Past Programs)",
+          name: scale,
+          widget: list,
+          required: false,
+          fields:
+            [
+              { label: Count, name: count, widget: string, required: false },
+              { label: Label, name: label, widget: string, required: false },
+            ],
+        }
+      - {
+          label: "Center Banner (Past Programs)",
+          name: "projectMiddleBannerImage",
+          widget: image,
+          required: false,
+        }
+      - {
+          label: "Approach (Past Programs)",
+          name: approach,
+          widget: list,
+          required: false,
+          fields: [{ label: Text, name: text, widget: string, required: false }],
+        }
+      - {
+          label: "Read More (Past Programs)",
+          name: readMore,
+          widget: list,
+          max: 200,
+          min: 1,
+          required: false,
+          fields:
+            [
+              {
+                label: Blog Title,
+                collection: blog,
+                displayFields: ["title", "author"],
+                searchFields: ["title", "author"],
+                name: blogTitle,
+                valueField: title,
+                widget: relation,
+                required: false,
+                optionsLength: 100,
+              },
+              {
+                label: Media Title,
+                collection: mediacontent,
+                required: false,
+                displayFields: ["title", "author", "mediaHouse"],
+                searchFields: ["title", "author"],
+                name: mediaTitle,
+                valueField: title,
+                widget: relation,
+                optionsLength: 100,
+              },
+            ],
+        }
+      - {
+          label: "Impact (Past Programs)",
+          name: impact,
+          widget: list,
+          required: false,
+          fields:
+            [
+              { label: Count, name: count, widget: string, required: false },
+              { label: Label, name: label, widget: string, required: false },
+            ],
+        }
+      - {
+          label: "Key Initiative Title (Past Programs)",
+          name: "keyInitiativesTitle",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Key Initiatives (Past Programs)",
+          name: keyInitiatives,
+          widget: list,
+          required: false,
+          fields:
+            [
+              { label: "Image", name: "image", widget: image, required: false },
+              { label: Title, name: title, widget: string, required: false },
+              {
+                label: Description,
+                name: description,
+                widget: object,
+                required: false,
+                fields: [{ label: Text, name: text, widget: string, required: false }],
+              },
+            ],
+        }
+      - {
+          label: "Partners (Past Programs)",
+          name: partners,
+          widget: list,
+          required: false,
+          fields:
+            [ 
+              { label: Logo, name: logo, widget: image, required: false },
+            ],
+        }
+      - {
+          label: "Our Impact (Past Programs)",
+          name: ourImpact,
+          widget: list,
+          required: false,
+          fields:
+            [ 
+              { label: Image, name: image, widget: image, required: false },
+              { label: Description, name: description, widget: string, required: false },
+              { label: SubTitle, name: subTitle, widget: string, required: false },       
+              { label: Link, name: link, widget: string, required: false },
+            ],
+        }
       - {
           label: "Hero Section",
           name: "heroSection",
