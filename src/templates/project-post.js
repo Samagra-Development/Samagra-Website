@@ -40,7 +40,7 @@ const OurPartnersSection = ({ partners }) => {
 
 export const ProjectPostTemplate = ({ project }) => {
   // Check if this is a new schema project (has heroSection)
-  const isNewSchema = project.heroSection?.isVisible;
+  const isNewSchema =  project.heroSection?.isVisible ?? false;
 
   return (
     <section>
