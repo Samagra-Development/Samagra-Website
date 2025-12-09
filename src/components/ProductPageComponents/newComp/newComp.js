@@ -1163,7 +1163,7 @@ export class WhyImportantSection extends React.Component {
                     minWidth: isMobile ? '100%' : isTablet ? '200px' : '250px'
                   }}
                 >
-                  <div style={{
+                  {/* <div style={{
                     width: '100%',
                     height: isMobile ? '180px' : isTablet ? '220px' : '262px',
                     backgroundImage: itemImageUrl ? `url(${itemImageUrl})` : 'linear-gradient(#666, #999)',
@@ -1184,7 +1184,42 @@ export class WhyImportantSection extends React.Component {
                       e.currentTarget.style.transform = 'scale(1)';
                     }
                   }}
-                  />
+                  /> */}
+                  <div style={{
+                    width: '100%',
+                    borderRadius: isMobile ? '16px' : '20px',
+                    overflow: 'hidden',
+                    transition: 'transform 0.3s',
+                    flexShrink: 0,
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    background: itemImageUrl ? 'transparent' : 'linear-gradient(#666, #999)',
+                    minHeight: isMobile ? '200px' : isTablet ? '220px' : '262px'
+                  }}
+                  onMouseEnter={(e) => {
+                    if (!isMobile) {
+                      e.currentTarget.style.transform = 'scale(1.02)';
+                    }
+                  }}
+                  onMouseLeave={(e) => {
+                    if (!isMobile) {
+                      e.currentTarget.style.transform = 'scale(1)';
+                    }
+                  }}
+                  >
+                    {itemImageUrl && (
+                      <img 
+                        src={itemImageUrl} 
+                        alt={item.title}
+                        style={{
+                          width: '75%',
+                          height: 'auto',
+                          objectFit: 'contain'
+                        }}
+                      />
+                    )}
+                  </div>
                   <div style={{
                     background: 'rgba(255, 255, 255, 0.2)',
                     backdropFilter: 'blur(10px)',
