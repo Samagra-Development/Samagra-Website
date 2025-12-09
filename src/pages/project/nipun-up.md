@@ -12,7 +12,7 @@ heroSection:
   categories:
     - Education
     - Uttar Pradesh
-  backgroundImage: /img/0_img-20210309-wa0040-1-.jpg
+  backgroundImage: /img/nipun-picture-1.jpg
   isVisible: true
 whyImportantSection:
   title: Why is it important?
