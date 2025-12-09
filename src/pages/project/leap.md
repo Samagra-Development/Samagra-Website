@@ -23,11 +23,11 @@ whyImportantSection:
       production in the state
   items:
     - title: Poor yield for farmers
-      image: /img/dsc00019.jpg
+      image: /img/fid-icon-1.png
     - title: Low milk availability
-      image: /img/dsc00019.jpg
+      image: /img/leap-icon-4-removebg-preview.png
     - title: Suppressed farmer income
-      image: /img/dsc00019.jpg
+      image: /img/leap-icon-1-removebg-preview.png
 programHighlightsSection:
   title: Program Highlights
   backgroundImage: /img/leap-picture-3.png
