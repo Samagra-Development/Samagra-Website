@@ -10,30 +10,31 @@ heroSection:
   categories:
     - Women Empowerment
     - Odisha
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/subhadra-picture-1.jpg
   isVisible: true
 whyImportantSection:
   title: Why is it important?
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/subhadra-picture-2.jpg
   isVisible: true
   infoCard:
-    title: Key Challenges for Women's Economic Participation
-    description: Understanding the barriers preventing women from fully
-      participating in Odisha's economy
+    title: SUBHADRA is the largest women-centric scheme in the state, directly
+      benefiting over 1 Cr. women
+    description: Odisha runs one of the largest women-facing delivery systems in
+      India - powered by 74,000+ Anganwadi Workers who interact with nearly
+      every woman and child in the state
   items:
-    - title: Unlock Odisha's untapped workforce, as female labour force participation
-        (49%) remains far below men (82%)
+    - title: Female labour force participation in Odisha remains far below men (49% vs
+        82%)
       image: /img/dsc00019.jpg
-    - title: Boost women-led entrepreneurship, given that only <5% of MSMEs in Odisha
-        are owned by women, compared to 22% nationally
+    - title: Less than 5% of MSMEs in Odisha are owned by women, compared to 22%
+        nationally
       image: /img/dsc00019.jpg
-    - title: Reduce women's care burden and enable work, as improving women-child
-        nutrition (currently 22% stunting, 12% underweight, 3% wasting) frees
-        time and capacity for economic participation
+    - title: Disproportionate care burden falls on women, hindering capacity for
+        economic participation
       image: /img/dsc00019.jpg
 programHighlightsSection:
   title: Program Highlights
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/subhadra.png
   isVisible: true
   highlights:
     - title: Evidence-Based Policy Design
@@ -53,27 +54,20 @@ programHighlightsSection:
         welfare landscape for women
 impactSection:
   title: Impact
-  backgroundImage: /img/dsc00019.jpg
-  isVisible: true
+  backgroundImage: /img/subhadra-picture-3.jpeg
+  isVisible: false
   stats:
     isVisible: true
     items:
       - value: 1Cr+
         image: /img/dsc00019.jpg
-        label: women directly benefited through the largest women-centric scheme in
+        label: Women directly benefited through the largest women-centric scheme in
           Odisha
       - value: ₹50,000
         image: /img/dsc00019.jpg
-        label: per beneficiary over five years in annual installments
-      - value: 74,000+
-        image: /img/dsc00019.jpg
-        label: Anganwadi Workers powering one of India's largest women-facing delivery
-          systems
-      - value: ~80%
-        image: /img/dsc00019.jpg
-        label: productive use of funds by beneficiaries revealed through Samikhya study
+        label: Per beneficiary over five years in annual installments
   testimonials:
-    isVisible: true
+    isVisible: false
     items:
       - quote: First-of-its-kind insights have been obtained on women's financial
           behaviour, productive investment, and aspirations via Samikhya, which
@@ -86,7 +80,7 @@ partnersSection:
   isVisible: true
   partners:
     - name: Women & Child Development Department, Odisha
-      logo: /img/dsc00019.jpg
+      logo: /img/government-of-odisha.png
     - name: Gates Foundation
-      logo: /img/dsc00019.jpg
+      logo: /img/gates_foundation_logo.svg.png
 ---
