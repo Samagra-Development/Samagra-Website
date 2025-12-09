@@ -16,22 +16,11 @@ heroSection:
 whyImportantSection:
   title: Why is it important?
   backgroundImage: /img/kumbh-picture-2.jpg
-  isVisible: false
+  isVisible: true
   infoCard:
-    title: India's AI Leadership Opportunity
-    description: Understanding the strategic importance of developing indigenous AI
-      solutions
-  items:
-    - title: India, with its sheer size, diversity and complexity, has the potential
-        to be the AI use case capital of the world
-      image: /img/dsc00019.jpg
-    - title: Building solutions in the local context, with appropriate guardrails,
-        catering to users in diverse Indian languages, and deployed on domestic
-        AI infrastructure, is critical
-      image: /img/dsc00019.jpg
-    - title: Advances government priority of Aatmanirbhar Bharat via use of sovereign
-        AI infrastructure
-      image: /img/dsc00019.jpg
+    title: ""
+    description: ""
+  items: []
 programHighlightsSection:
   title: Program Highlights
   backgroundImage: /img/kumbh-picture-2.jpg
