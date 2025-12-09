@@ -55,17 +55,16 @@ impactSection:
     items:
       - value: 8.8L+
         image: /img/fid-icon-1.png
-        label: pensioners, migrant workers and farmers enrolled in Ration scheme
+        label: Pensioners, migrant workers and farmers enrolled in Ration scheme
       - value: ₹800 Cr+
         image: /img/fid-icon-2.png
-        label: saved annually through removal of ineligible beneficiaries
+        label: Saved annually through removal of ineligible beneficiaries
       - value: 7K+
         image: /img/fid-icon-3-removebg-preview.png
-        label: caste certificates issued through fast-track mode with two-day turnaround
+        label: Caste certificates issued through fast-track mode with two-day turnaround
       - value: "42"
         image: /img/fid-icon-4-removebg.png
-        label: schemes and services started Aadhaar seeding and authentication due to
-          Family ID
+        label: Schemes & services started Aadhaar authentication due to Family ID
   testimonials:
     isVisible: false
     items:
