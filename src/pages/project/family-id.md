@@ -22,11 +22,14 @@ whyImportantSection:
     description: There are over 17 Crore citizens in Uttar Pradesh availing 180+
       Direct Benefit Transfer (DBT) schemes from 30+ departments
   items:
-    - title: Friction in Scheme Application
+    - title: Eligible citizens miss benefits due to poor awareness, complex processes,
+        and rent-seeking
       image: /img/fid-info-1-removebg-preview.png
-    - title: Duplicate & Ghost Beneficiaries
+    - title: "Administration faces challenges in identifying ghost beneficiaries and
+        difficulty in verification of eligibility\t"
       image: /img/fid-info-2-removebg-preview.png
-    - title: Fragmented Data Systems
+    - title: Citizen information is fragmented across multiple departmental databases
+        which do not talk to each other
       image: /img/fid-info-4-removebg-preview.png
 programHighlightsSection:
   title: Program Highlights
