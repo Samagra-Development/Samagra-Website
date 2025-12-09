@@ -80,7 +80,7 @@ partnersSection:
   isVisible: true
   partners:
     - name: Department of Basic Education, UP
-      logo: /img/dsc00019.jpg
+      logo: /img/seal_of_uttar_pradesh.svg
     - name: CSF
       logo: /img/CSF.jpg
     - name: LLF
