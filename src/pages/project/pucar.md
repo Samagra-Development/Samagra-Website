@@ -26,12 +26,12 @@ whyImportantSection:
       the backlog would take 300+ years.
   items:
     - title: Case backlog costs litigants over ₹80,000 crore annually
-      image: /img/dsc00019.jpg
+      image: /img/gpr-icon-1-removebg-preview.png
     - title: Previous digitization-focused approaches did not focus on case pendency
-      image: /img/dsc00019.jpg
+      image: /img/gpr-icon-3-removebg-preview.png
     - title: Focusing on these high-volume, lower-complexity cases can address 11% of
         caseload
-      image: /img/dsc00019.jpg
+      image: /img/nipun-icon-3-removebg-preview.png
 programHighlightsSection:
   title: Program Highlights
   backgroundImage: /img/pucar-picture-1.jpg
@@ -60,17 +60,17 @@ impactSection:
     isVisible: true
     items:
       - value: 139 days
-        image: /img/dsc00019.jpg
+        image: /img/fid-icon-3-removebg-preview.png
         label: Total time from filing to trial completion, reduced from 600 days
           baseline
       - value: 14 days
-        image: /img/dsc00019.jpg
+        image: /img/pucar-icon-2-removebg-preview.png
         label: Time between hearings, reduced from 60 days
       - value: 98%
-        image: /img/dsc00019.jpg
+        image: /img/pucar-icon-1-removebg-preview.png
         label: Hearings occurring as scheduled
       - value: 80%
-        image: /img/dsc00019.jpg
+        image: /img/pucar-icon-3-removebg-preview.png
         label: Reduction in manpower required to operate court effectively
   testimonials:
     isVisible: false
@@ -86,15 +86,15 @@ partnersSection:
   isVisible: true
   partners:
     - name: High Court of Kerala
-      logo: /img/dsc00019.jpg
+      logo: /img/high-court-kerala.png
     - name: Agami
-      logo: /img/dsc00019.jpg
+      logo: /img/agami.png
     - name: XKDR
-      logo: /img/dsc00019.jpg
+      logo: /img/xkdr.png
     - name: BeeHyv
-      logo: /img/dsc00019.jpg
+      logo: /img/beehyv_software_solutions_private_limited_logo.jpg
     - name: ParallelHQ
-      logo: /img/dsc00019.jpg
+      logo: /img/parallelhq.png
     - name: E-Governments Foundation
-      logo: /img/dsc00019.jpg
+      logo: /img/egov.png
 ---
