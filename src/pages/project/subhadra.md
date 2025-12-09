@@ -44,13 +44,16 @@ programHighlightsSection:
       description: Statewide SUPOSHIT Odisha Mission launched by Deputy Chief Minister
         to accelerate achievement of a malnutrition (SAM, MAM and Underweight)
         free Odisha by 2029
+      image: 
     - title: SUBHADRA Bhaunis
       description: A mentor cadre of SUBHADRA "Bhaunis" created by the state, at the
         district level, to serve as entrepreneurship ambassadors
+      image: 
     - title: Comprehensive Outreach
       description: SUBHADRA and its umbrella interventions evangelised across
         channels, enhancing awareness on DBT's impact and Odisha's evolving
         welfare landscape for women
+      image: 
 impactSection:
   title: Impact
   backgroundImage: /img/dsc00019.jpg
