@@ -12,30 +12,29 @@ heroSection:
   categories:
     - Justice Delivery
     - Kerala
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/pucar-picture-3.jpg
   isVisible: true
 whyImportantSection:
   title: Why is it important?
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/pucar-milestone.png
   isVisible: true
   infoCard:
-    title: Critical Challenges in India's Justice System
-    description: Understanding the systemic barriers affecting access to justice
+    title: "Cheque dishonour (NI Act S138) cases make up about 11% of total criminal
+      courts pendency at lower court \t"
+    description: India’s judicial system struggles with efficiency, burdened by over
+      5 crore pending cases, including 4.3 crore in lower courts alone. Clearing
+      the backlog would take 300+ years.
   items:
-    - title: The backlog costs litigants over ₹80,000 crore annually (0.8% of GDP),
-        posing a critical barrier to achieving a Viksit Bharat by 2047
+    - title: Case backlog costs litigants over ₹80,000 crore annually
       image: /img/dsc00019.jpg
-    - title: The previous digitization-focused approach did not fundamentally change
-        pendency; a new user-centric, case-type approach is needed to
-        systemically address coordination costs and increase certainty
+    - title: Previous digitization-focused approaches did not focus on case pendency
       image: /img/dsc00019.jpg
-    - title: Focusing on these high-volume, lower-complexity cases can transform 11%
-        of all pending disputes and lay the foundation for a 21st-century
-        justice system
+    - title: Focusing on these high-volume, lower-complexity cases can address 11% of
+        caseload
       image: /img/dsc00019.jpg
 programHighlightsSection:
   title: Program Highlights
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/pucar-picture-1.jpg
   isVisible: true
   highlights:
     - title: People-Centric Design
@@ -55,33 +54,26 @@ programHighlightsSection:
         payments, and document signing
 impactSection:
   title: Impact
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/pucar-picture-2.png
   isVisible: true
   stats:
     isVisible: true
     items:
-      - value: 5Cr+
-        image: /img/dsc00019.jpg
-        label: pending cases in India's judicial system including 4.3 crore in lower
-          courts
-      - value: 11%
-        image: /img/dsc00019.jpg
-        label: of total criminal courts pendency are cheque dishonour cases
       - value: 139 days
         image: /img/dsc00019.jpg
-        label: total time from filing to trial completion, reduced from 600 days
+        label: Total time from filing to trial completion, reduced from 600 days
           baseline
       - value: 14 days
         image: /img/dsc00019.jpg
-        label: time between hearings, reduced from 60 days
+        label: Time between hearings, reduced from 60 days
       - value: 98%
         image: /img/dsc00019.jpg
-        label: of hearings occur as scheduled
-      - value: 3 people
+        label: Hearings occurring as scheduled
+      - value: 80%
         image: /img/dsc00019.jpg
-        label: required to operate court effectively, down from average of 14
+        label: Reduction in manpower required to operate court effectively
   testimonials:
-    isVisible: true
+    isVisible: false
     items:
       - quote: The transformation streamlines processes and automates tasks, allowing
           courts to function effectively with significantly fewer personnel
