@@ -10,7 +10,7 @@ heroSection:
     people-centric courts that are accessible, efficient, and equitable for
     every person
   categories:
-    - Judiciary/Justice Delivery
+    - Justice Delivery
     - Kerala
   backgroundImage: /img/dsc00019.jpg
   isVisible: true
