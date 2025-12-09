@@ -1,73 +1,100 @@
 ---
 templateKey: project-post
 title: PUCAR
-domainNew: Judiciary
-fullName: PUCAR
+domainNew: Recent Programs
 id: PUCAR
-backgroundCover: /img/pucar-banner.png
-domain: Judiciary
-subTitle: Samagra
-state: Kerala
-tagLine: " Transforming the dispute resolution experience by creating
-  people-centric courts that are accessible, efficient, and designed for
-  meaningful engagement."
-projectLogoWithState: /img/pucar_4website.png
-overview:
-  - text: India’s judicial system struggles with efficiency, burdened by over 5
-      crore pending cases, including 4.3 crore in lower courts alone. With over
-      70 lakh new cases filed annually and a judge-to-population ratio of just
-      21 per million (far below the recommended 50), disposal rates can’t keep
-      up. Vacant judicial positions, procedural delays, frequent adjournments,
-      and manual workflows further slow case resolution. At the current pace,
-      clearing the backlog would take 300+ years, denying timely justice,
-      eroding public trust, and harming economic growth by delaying contract
-      enforcement and dispute resolution. In 2023, a diverse group of
-      professionals and organizations came together to address the deep-rooted
-      stagnation in dispute resolution—where outdated processes and capacity
-      constraints have left millions frustrated and disillusioned. This
-      collaboration gave rise to the Public Collective for Avoidance and
-      Resolution of Disputes (PUCAR), a movement dedicated to harnesses
-      imagination, volunteer-driven energy, and collective expertise to
-      reimagine and revitalize dispute resolution in India. Anchored by Agami,
-      XKDR, eGov Foundation and Samagra, PUCAR is working in collaboration with
-      the Karnataka and Kerala high courts and the Supreme Courts e-committee to
-      operationalize a special court—24x7 OnCourts—for cases under NIA Section
-      138 (cheque bounce cases), which constitute a significant portion of
-      pending litigation, accounting for 10% of all pending cases. The 24x7 ON
-      Courts initiative aims to create a faster, more accessible, and
-      citizen-centric judicial system by leveraging technology to streamline
-      case resolution. Its intended outcome is to reduce pendency, enhance
-      transparency, and ensure timely justice for all.
-scale:
-  - count: 80+
-    label: Diverse contributors across the executive, judiciary and civil society
-projectMiddleBannerImage: /img/pucar-milestone.png
-approach:
-  - text: Samagra, through PUCAR, is working with the judiciary, government, legal
-      experts, and technology partners to make dispute resolution faster, more
-      transparent, and citizen-friendly. A pilot court for cheque bounce cases
-      is being set up in Kollam, Kerala, as a proof of concept to test and
-      refine new approaches. This includes enabling verifiable digital evidence
-      for seamless document authentication, expanding state-wide digital
-      jurisdiction to allow virtual case handling, and implementing rule-based
-      processes to streamline filings, summons, and hearings. Additionally,
-      multi-channel communication will keep litigants informed, asynchronous
-      proceedings will reduce scheduling bottlenecks. Judges, court staff, and
-      advocates will receive training to ensure smooth implementation, while
-      courtrooms will be redesigned for efficiency with paperless operations and
-      virtual hearings. The pilot’s impact will be measured through data
-      comparisons and stakeholder feedback to assess its success. The initiative
-      follows a two-pronged approach—introducing nationwide technology and
-      policy reforms while making practical courtroom-level improvements that
-      can be replicated across states. Lessons from this pilot will shape a
-      playbook and a shared digital infrastructure, making it easier for other
-      courts to adopt similar changes. By combining better processes, smart
-      technology, and policy refinements, PUCAR and OnCourts aim to create a
-      judicial system that is more accessible, efficient, and responsive to
-      citizens’ needs.
-partners:
-  - logo: /img/agami.png
-  - logo: /img/beehyv.jpg
-  - logo: /img/xkdr.png
-  - logo: /img/egov.png
+heroSection:
+  title: PUCAR
+  subtitle: Public Collective for Avoidance and Resolution of Disputes
+  description: Transforming the dispute resolution experience by creating
+    people-centric courts that are accessible, efficient, and equitable for
+    every person
+  categories:
+    - Justice Delivery
+    - Kerala
+  backgroundImage: /img/pucar-picture-3.jpg
+  isVisible: true
+whyImportantSection:
+  title: Why is it important?
+  backgroundImage: /img/pucar-milestone.png
+  isVisible: true
+  infoCard:
+    title: "Cheque dishonour (NI Act S138) cases make up about 11% of total criminal
+      courts pendency at lower court \t"
+    description: India’s judicial system struggles with efficiency, burdened by over
+      5 crore pending cases, including 4.3 crore in lower courts alone. Clearing
+      the backlog would take 300+ years.
+  items:
+    - title: Case backlog costs litigants over ₹80,000 crore annually
+      image: /img/gpr-icon-1-removebg-preview.png
+    - title: Previous digitization-focused approaches did not focus on case pendency
+      image: /img/gpr-icon-3-removebg-preview.png
+    - title: Focusing on these high-volume, lower-complexity cases can address 11% of
+        caseload
+      image: /img/nipun-icon-3-removebg-preview.png
+programHighlightsSection:
+  title: Program Highlights
+  backgroundImage: /img/pucar-picture-1.jpg
+  isVisible: true
+  highlights:
+    - title: People-Centric Design
+      description: Eliminating the need for physical visits (e.g., remote digital
+        signing, digital filing, automated SMS alerts on case status)
+    - title: Asynchronous Workflows
+      description: Moving away from all parties being present at the same time and
+        place, allowing actors to perform roles independently to optimize
+        judicial time
+    - title: DRISTI Technology Backbone
+      description: A modular Digital Public Infrastructure (DPI) with Open APIs and
+        Data Standards that allows for scaling and reconfiguring modules for
+        different case types
+    - title: Seamless Integrations
+      description: Connecting with digital ecosystems like Aadhaar-based eSign,
+        e-Treasury, courier services, and iCops for automated notice issuance,
+        payments, and document signing
+impactSection:
+  title: Impact
+  backgroundImage: /img/pucar-picture-2.png
+  isVisible: true
+  stats:
+    isVisible: true
+    items:
+      - value: 139 days
+        image: /img/fid-icon-3-removebg-preview.png
+        label: Total time from filing to trial completion, reduced from 600 days
+          baseline
+      - value: 14 days
+        image: /img/pucar-icon-2-removebg-preview.png
+        label: Time between hearings, reduced from 60 days
+      - value: 98%
+        image: /img/pucar-icon-1-removebg-preview.png
+        label: Hearings occurring as scheduled
+      - value: 80%
+        image: /img/pucar-icon-3-removebg-preview.png
+        label: Reduction in manpower required to operate court effectively
+  testimonials:
+    isVisible: false
+    items:
+      - quote: The transformation streamlines processes and automates tasks, allowing
+          courts to function effectively with significantly fewer personnel
+          while optimizing judicial time for core activities.
+        name: Court Official
+        title: Kerala
+        image: /img/dsc00019.jpg
+partnersSection:
+  title: Our Partners
+  isVisible: true
+  partners:
+    - name: High Court of Kerala
+      logo: /img/high-court-kerala.png
+    - name: Agami
+      logo: /img/agami.png
+    - name: XKDR
+      logo: /img/xkdr.png
+    - name: BeeHyv
+      logo: /img/beehyv_software_solutions_private_limited_logo.jpg
+    - name: ParallelHQ
+      logo: /img/parallelhq.png
+    - name: E-Governments Foundation
+      logo: /img/egov.png
 ---

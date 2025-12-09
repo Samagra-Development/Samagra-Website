@@ -1,9 +1,12 @@
 ---
 templateKey: project-post
 title: Skill India
-domainNew: Skills & Employment
+domainNew: Past Programs
 fullName: Skill India
 id: Skill
+heroSection:
+  categories:
+    - Skills & Employment
 backgroundCover: /img/samagragovernance-msde-first-banner.jpg
 domain: Past Projects
 subTitle: Samagra

@@ -1,76 +1,94 @@
 ---
 templateKey: project-post
 title: Kumbh Sah'AI'yak
-domainNew: Service Delivery
-fullName: Kumbh Sah'AI'yak
-id: Kumbh Sah'AI'yak
-backgroundCover: /img/pm-launch.jpeg
-domain: Service Delivery
-subTitle: Samagra
-state: Pan India
-tagLine: "AI-powered, multilingual, conversational chatbot to assist Mahakumbh
-  2025 pilgrims with their information and navigation needs "
-projectLogoWithState: /img/mahakumbh.png
-overview:
-  - text: "A flagship initiative under Digital Kumbh, Kumbh Sah’AI’yak is an
-      AI-powered, voice-enabled, multilingual bot designed to assist millions of
-      pilgrims during Mahakumbh 2025. Accessible via QR code on WhatsApp, the
-      Mahakumbh Mobile App, and the Mahakumbh website, the bot supports Hindi,
-      English, Tamil, and eight other Indian languages.   It has been developed
-      by the Prayagraj Mela Authority and UPDESCO in close collaboration with
-      Samagra as the anchor partner. Bhashini is playing a critical role as the
-      official language translation service partner, Krutrim is offering
-      cutting-edge hosted open-source LLM services and Beehyv is providing
-      support in the development of the bot.  It has been designed to offer a
-      seamless user experience through its clickable interfaces, ability to type
-      or speak queries, speaker button to listen to responses, media-enriched
-      content and, an integrated feedback mechanism.   The chatbot shall provide
-      reliable information on: History, significance, and rituals of Mahakumbh ,
-      prominent spiritual gurus , travel to Prayagraj and nearby areas,
-      accommodation options for pilgrims, tour packages in and around Prayagraj,
-      key attractions in and around the Kumbh, facilities and emergency support
-      within the Mela area, events and schedules for Mahakumbh 2025. In
-      collaboration with Google Maps, Kumbh Sah’AI’yak is also facilitating
-      navigation to nearby attractions and facilities. Additionally, users can
-      also receive shareable, customized pictures featuring the Kumbh backdrop."
-scale:
-  - count: 2 Lakh+
-    label: Total Users
-  - count: 4 Lakh+
-    label: Total Sessions
-  - count: 84%
-    label: users rated the bot 3+ in a 1-4 rating scale
-projectMiddleBannerImage: /img/whatsapp-image-2025-02-07-at-5.30.52-pm.jpeg
-approach:
-  - text: "Information Collection : To address the unique sensitivities surrounding
-      the Mahakumbh Mela, Kumbh Sah'AI'yak had to navigate religious nuances,
-      deliver contextually accurate responses, and function seamlessly at an
-      unprecedented scale. To ensure timely, unbiased, and verified information,
-      academic experts were onboarded to validate content, guaranteeing both
-      accuracy and cultural alignment. Real-time feedback from users was
-      collected, enabling continuous updates to enhance the relevance of
-      responses. "
-  - text: "Accuracy Improvement : Bhashini, an initiative by the Ministry of
-      Electronics and IT, was entrusted with refining translation and
-      transliteration models in multiple languages. Krutrim powered the
-      chatbot’s core intelligence with advanced Large Language Models (LLMs),
-      ensuring that queries were classified correctly, relevant information sets
-      were retrieved, and accurate responses were provided. Given the diverse
-      visitor base expected at Mahakumbh 2025, WhatsApp was enabled as a
-      communication channel for pilgrims."
-  - text: Rigorous safeguards were implemented to prevent misinformation, profanity
-      and security or privacy breaches, ensuring a safe and trustworthy user
-      experience. Kumbh Sah’AI’yak aims to redefine pilgrim assistance by
-      addressing their information and navigation needs while creating enduring
-      memories of the Mahakumbh 2025 experience.
-partners:
-  - logo: /img/updesco.png
-  - logo: /img/BMGF_Logo.jpg
-  - logo: /img/download-2-.jpg
-  - logo: /img/krutrim-logo-01.png
-  - logo: /img/amazon_web_services_logo.svg.png
-  - logo: /img/meta-logo.png
-  - logo: /img/google_2015_logo.svg.png
-  - logo: /img/beehyv_software_solutions_private_limited_logo.jpg
-  - logo: /img/pnb.png
+domainNew: Recent Programs
+id: Kumbh Sahaiyak
+heroSection:
+  title: Kumbh Sah'AI'yak
+  subtitle: AI-Powered Assistant for Mahakumbh
+  description: Demonstration of a mass-scale use case of AI in the Indian context
+    in the Mahakumbh - the largest human gathering in the world
+  categories:
+    - Service Delivery
+    - India
+  backgroundImage: /img/kumbh-p5.png
+  isVisible: true
+whyImportantSection:
+  title: Why is it important?
+  backgroundImage: /img/kumbh-picture-2.jpg
+  isVisible: true
+  infoCard:
+    title: ""
+    description: ""
+  items: []
+programHighlightsSection:
+  title: Program Highlights
+  backgroundImage: /img/kumbh-picture-2.jpg
+  isVisible: true
+  highlights:
+    - title: Strategic Partnerships
+      description: Collaborated with Prayagraj Mela Authority & UPDESCO worked with
+        Bhashini, Krutrim, EkStep, Gupshup, AWS, Reverie
+      image: ""
+    - title: Multilingual Services
+      description: "Enabled users to converse and utilise the chatbot in 11 languages "
+      image: ""
+    - title: Multichannel Access
+      description: Developed multichannel service through WhatsApp and a Web App for
+        users to access the chatbot
+      image: ""
+    - title: Comprehensive Use Cases
+      description: Rolled out 10 use cases across 3 categories - Information,
+        Navigation and Memory for citizens to access
+      image: ""
+impactSection:
+  title: Impact
+  backgroundImage: /img/kumbh-picture-3.jpg
+  isVisible: true
+  stats:
+    isVisible: true
+    items:
+      - value: 3L
+        image: /img/konnect-icon-1-removebg-preview.png
+        label: Unique users with more than 5 lakh sessions
+      - value: 1.32L
+        image: /img/fid-icon-3-removebg-preview.png
+        label: text/voice-based queries with 70% answered successfully
+      - value: 100%
+        image: /img/konnect-icon-2-removebg-preview.png
+        label: success rate on not responding to profane or abusive language
+      - value: "102"
+        image: /img/kumbh-icon-3-removebg-preview.png
+        label: Countries touched by users
+  testimonials:
+    isVisible: false
+    items:
+      - quote: Launched by Hon'ble PM on 13th Dec and highlighted prominently in his
+          Mann ki Baat address on 28th December, showcasing India's AI
+          capabilities on a global stage.
+        name: Prime Minister's Office
+        title: Government of India
+        image: /img/dsc00019.jpg
+partnersSection:
+  title: Our Partners
+  isVisible: true
+  partners:
+    - name: UPDESCO
+      logo: /img/updesco.png
+    - name: Gates Foundation
+      logo: /img/gates_foundation_logo.svg.png
+    - name: Bhashini
+      logo: /img/download-2-.jpg
+    - name: Krutrim
+      logo: /img/krutrim-logo-01.png
+    - name: AWS
+      logo: /img/amazon_web_services_logo.svg.png
+    - name: Meta
+      logo: /img/meta-logo.png
+    - name: Google
+      logo: /img/google_2015_logo.svg.png
+    - name: Beehyv
+      logo: /img/beehyv.jpg
+    - name: Punjab National Bank
+      logo: /img/pnb.png
 ---

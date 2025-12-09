@@ -1,11 +1,14 @@
 ---
 templateKey: project-post
 title: Niramaya
-domainNew: Health
+domainNew: Past Programs
 fullName: Niramaya
 id: Niramaya
 backgroundCover: /img/up-niramaya_samagragovernance.jpg
 domain: Health
+heroSection:
+  categories:
+    - Health
 subTitle: Samagra
 state: Uttar Pradesh
 tagLine: Improving the quality of human resources in healthcare in Uttar Pradesh

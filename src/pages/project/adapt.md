@@ -1,11 +1,14 @@
 ---
 templateKey: project-post
 title: ADAPT
-domainNew: Agriculture
+domainNew: Past Programs
 fullName: Analytics for Decision Making & Agriculture Policy Transformation
 id: ADAPT
 backgroundCover: /img/adapt-header-bg.jpg
 domain: Agriculture
+heroSection:
+  categories:
+    - Agriculture
 subTitle: Samagra
 state: Haryana
 tagLine: Increasing the income of farmers in Odisha by improving their productivity

@@ -1,74 +1,65 @@
 ---
 templateKey: project-post
 title: Kushal Haryana
-domainNew: Education
-fullName: Kushal Haryana
-id: kushal_education
-backgroundCover: /img/dsc_1304.jpg
-domain: Education
-subTitle: Establishing systemic enablers for grade-level competency & pioneering
-  a model of 21st century skills
-state: Haryana
-tagLine: Establishing systemic enablers for grade-level competency & pioneering
-  a model of 21st century skills
-projectLogoWithState: /img/kushal-haryana_website.png
-overview:
-  - text: Saksham Haryana, launched in 2017, successfully transformed learning
-      outcomes in government schools, with 80% of students in classes 1-8
-      achieving grade-level competency, or becoming 'Saksham'. Building on this
-      success, the aim has now shifted to making students future-ready or
-      'Kushal' through systemic reforms to ensure students in classes 6-12
-      achieve grade-level competency and acquire 21st-century skills essential
-      for higher education, careers, and entrepreneurship. This is being done in
-      collaboration with the Department of Education, Haryana and with support
-      from the Michael and Susan Dell Foundation. With a strong focus on
-      institutionalizing interventions for long-term impact, for elementary
-      grades the focus of Kushal Haryana is on improving classroom practices
-      through assessment reforms and enabling a robust teaching learning cycle.
-      For secondary grades, Kushal Haryana is working across board exam reforms,
-      vocational education, and entrepreneurship enablement.
-scale:
-  - count: 6,000
-    label: Schools
-  - count: 55,000
-    label: Teachers
-  - count: 13,50,000
-    label: Students
-projectMiddleBannerImage: /img/dsc_1450.jpg
-approach:
-  - text: Samagra’s approach to transforming education in Haryana under Kushal
-      Haryana is holistic, integrating academic and administrative reforms with
-      the key focus on long-term institutionalization. On the academic front,
-      the program shifts focus from rote-based learning to competency-based
-      education, ensuring students achieve grade-level competency through
-      assessment reforms, teaching-learning cycle, and subject-specific
-      remediation. Simultaneously, administrative reforms ensure effective
-      teacher competency testing & certification, structured mentoring and
-      training, and data-driven monitoring mechanisms to sustain interventions
-      at scale. Beyond academics, the program focuses on equipping students with
-      21st-century skills, with a strong emphasis on career counselling,
-      entrepreneurial mindset development, and vocational education.   A core
-      principle of our approach is institutionalization for long-term
-      impact—embedding interventions within government systems to ensure
-      sustainability and scalability.
-readMore:
-  - text: "E-Adhigam: Pedagogy lessons from Haryana for India"
-  - text: What the NAS results tell us about school education in India
-  - text: How Haryana made government school education a political priority
-impact: []
-keyInitiativesTitle: " "
-keyInitiatives: []
-partners:
-  - logo: /img/MSDF.jpg
-ourImpact:
-  - subTitle: SAKSHAM EDUCATION
-    description: To make more than 80% government elementary school students
-      grade-level competent in Haryana
-    image: /img/home-banner-saksham-slide-2.jpg
-    link: https://samagragovernance.in/amritseries/saksham-phase-1/
-  - link: https://samagragovernance.in/amritseries/teacher-transfer/
-    description: Streamline the teacher transfer process in the state of Haryana to
-      make it transparent, merit-driven and demand-based
-    subTitle: Online Teacher Transfer
-    image: /img/cover_online-teacher-transfer.jpg
+id: Kushal Haryana
+heroSection:
+  isVisible: true
+  title: Kushal Haryana
+  description: To establish systemic enablers for achievement of grade-level
+    competency & pioneering a model for 21st Century readiness for students of
+    grades 6 to 12 in Haryana
+  backgroundImage: /img/kushal-picture-1.jpg
+  categories:
+    - Education
+    - Haryana
+whyImportantSection:
+  isVisible: true
+  title: Why is it important?
+  backgroundImage: /img/0_img-20210309-wa0040-1-.jpg
+  infoCard:
+    title: There are 13.5 lakh students, 55k teachers in approximately 6k government
+      schools are for grades VI-XII
+    description: Haryana's performance in National Achievement Survey (NAS) jumped
+      from bottom performer in 2017 to top-5 among states & UTs in 2021, with
+      grade-level competency increasing from 55% (2017) to ~86% (2020)
+  items:
+    - title: COVID pandemic resulted in reversal of pre-pandemic learning outcomes
+        achieved through lack of consistent quality learning
+      image: /img/pucar-icon-3-removebg-preview.png
+    - title: Haryana's education system struggles with inconsistent teacher quality
+        lacking standardised quality markers for professional growth
+      image: /img/nipun-icon-4-removebg-preview.png
+    - title: Students need 21st-century skills and career guidance to translate
+        learnings into meaningful post-school pathways successfully
+      image: /img/nipun-icon-1-removebg-preview.png
+programHighlightsSection:
+  isVisible: true
+  description: ""
+  title: Program Highlights
+  backgroundImage: /img/saksham-employment-cover.jpg
+  highlights:
+    - description: Kushal Vidyalay establishes grade-level competency as north star
+        with incentives for schools achieving 80%+ students scoring 60%+ marks
+      title: Competency Goals
+    - description: Kushal Shikshak introduces standardised assessment to certify
+        teachers as Proficient, Advanced, or Expert with recognition and
+        incentives
+      title: Teacher Certification
+    - description: Kushal Business Challenge ignites entrepreneurial spirit through
+        seed money and mentorship for students to develop and demonstrate
+        prototypes
+      title: Kushal Business Challenge
+impactSection:
+  isVisible: false
+  stats:
+    isVisible: false
+  testimonials:
+    isVisible: false
+partnersSection:
+  isVisible: true
+  partners:
+    - name: Government of Haryana
+      logo: /img/emblem_of_haryana.svg.png
+    - name: Michael & Susan Dell Foundation
+      logo: /img/MSDF.jpg
 ---

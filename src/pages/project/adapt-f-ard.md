@@ -1,12 +1,15 @@
 ---
 templateKey: project-post
 title: ADAPT-F&ARD
-domainNew: Agriculture
+domainNew: Past Programs
 fullName: ADAPT-Fisheries and Animal Resources Development
 id: ADAPT-F&ARD
 backgroundCover: /img/img_20200914_084637.jpg
 domain: Agriculture
 subTitle: Samagra
+heroSection:
+  categories:
+    - Agriculture
 state: Odisha
 tagLine: Improving productivity from livestock & fisheries to raise farmer income
 projectLogoWithState: /img/fard-for-website.png

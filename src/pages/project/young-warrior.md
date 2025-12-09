@@ -1,10 +1,13 @@
 ---
 templateKey: project-post
 title: Young Warrior
-domainNew: Skills & Employment
+domainNew: Past Programs
 fullName: Young Warrior
 id: Young Warrior
 backgroundCover: /img/0_img-20210309-wa0040-1-.jpg
+heroSection:
+  categories:
+    - Skills & Employment
 domain: 21st Century Skills
 subTitle: Samagra
 state: India

@@ -1,54 +1,68 @@
 ---
 templateKey: project-post
-title: Krishi SAMRIDHI
-domainNew: Agriculture
-fullName: Krishi SAMRIDHI
-id: Krishi SAMRIDHI
-backgroundCover: /img/ks.jpg
-domain: Agriculture
-subTitle: Samagra
-state: Odisha
-tagLine: Enabling data-backed decision making within the department &
-  streamlining agri-service delivery for farmers
-projectLogoWithState: /img/krishi-samridhi.png
-overview:
-  - text: Samagra, with support from Bill & Melinda Gates Foundation, is working
-      with the Government of UP to enable department officers with timely
-      visibility on status & quality of implementation for each scheme.
-      Farm-level data will also help them identify archetypes of farmers and
-      provide them with services customised to their individual needs. This
-      essentially would set up the foundations for any agricultural reform that
-      the state wants to undertake in the future.
-scale:
-  - count: 2.5 Cr+
-    label: Farmers
-  - count: 5,000+
-    label: Extension Workers
-  - count: 40+
-    label: Government Schemes
-projectMiddleBannerImage: /img/photo-2023-12-23-12-51-28.jpg
-approach:
-  - text: Samagra’s approach in making the department of agriculture battle ready to
-      implement any reform in the sector is through setting up data pipelines
-      that will help in identifying farmer archetypes and provide them services
-      and products tailored to their immediate needs on the farm. Data-backed
-      decision making systems would also help the department while conducting
-      reviews at each cascade (state > district > block). Better visibility on
-      where scheme implementation or adoption is getting bottlenecked will help
-      in more targeted problem solving.This would be supplemented by a Krushi
-      Samiksha Kendra, an integrated command and control centre for the
-      government, through which it can send nudges to ground cadres to achieve
-      targets, push weather/pest alerts to farmers, and conduct surveys to take
-      inputs from ground on a time-to-time basis.
-impact:
-  - label: Setting up robust tech structures & data pipelines driven by extension
-      workers
-    count: " "
-  - label: Leveraging the agri tech stack to enable personalised service delivery
-    count: " "
-  - label: Effective assistance to farmers & officers backed by data
-    count: " "
-keyInitiativesTitle: " "
-partners:
-  - logo: /img/BMGF_Logo.jpg
+title: Krishi Samridhi
+id: Krishi Samridhi
+heroSection:
+  isVisible: true
+  title: Krishi Samridhi
+  subtitle: Smart Agriculture Management through Real-time Integrated Data Hub &
+    Innovation
+  description: To enable data-backed decision making and planning within the
+    department and streamline delivery of agri-services (input supply, credit,
+    extension) for all 2.5 Cr+ farmers in Uttar Pradesh
+  categories:
+    - Agriculture
+    - Uttar Pradesh
+  backgroundImage: /img/maha-agri.jpg
+whyImportantSection:
+  isVisible: true
+  backgroundImage: /img/1-ksa.png
+  title: Why is it important?
+  infoCard:
+    title: There are 2.5 Cr+ farmers in the state of Uttar Pradesh
+    description: Last-mile scheme delivery is provided by ~5k Technical Assistants
+      (TAs) at Nyay Panchayat level, monitored by 800+ Senior Technical
+      Assistants (STAs) at Block level and governed by 75 Deputy Directors of
+      Agriculture (DDAs) at District level
+  items:
+    - title: Structural problems in input supply, credit access, and advisory services
+        are limiting agricultural growth potential
+      image: /img/gpr-icon-3-removebg-preview.png
+    - title: Low technology adoption prevents effective farmer identification, benefit
+        delivery, and evidence-based monitoring
+      image: /img/leap-icon-2-removebg-preview.png
+    - title: Limited capability to monitor scheme delivery despite extensive
+        involvement in ground operations
+      image: /img/konnect-icon-2-removebg-preview.png
+programHighlightsSection:
+  isVisible: true
+  title: Program Highlights
+  backgroundImage: /img/ksh_banner_image.jpg
+  highlights:
+    - description: Building foundation blocks with Aadhaar-authenticated farmer
+        registry and Technical Assistant app for real-time monitoring
+      title: Farmer Registry
+    - description: Delivering customized services through integrated schemes platform,
+        credit module with 40+ banks, and AI ChatBot
+      title: AI-Powered Advisory
+    - description: Establishing Krishi Samiksha Kendra for data-backed reviews via
+        integrated Decision Support System
+      title: Decision Support System
+    - description: Formalizing hierarchical review meetings with predetermined agendas
+        and automated data collateral generation
+      title: Cascaded Review & Monitoring
+impactSection:
+  isVisible: false
+  stats:
+    isVisible: false
+  testimonials:
+    isVisible: false
+partnersSection:
+  isVisible: true
+  title: Our Partners
+  partners:
+    - name: Government of UP
+      logo: /img/seal_of_uttar_pradesh.svg
+    - name: Gates Foundation
+      logo: /img/gates_foundation_logo.svg.png
 ---

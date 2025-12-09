@@ -14,6 +14,7 @@ export class HeaderSmall extends React.Component {
       projects: [],
       popupOpened: "",
       selectedDomainIndex: -1,
+      selectedCategoryIndex: -1,
       showUpIcon: false,
     };
   }
@@ -32,15 +33,36 @@ export class HeaderSmall extends React.Component {
     projects.forEach((project) => {
       let found = false;
       project.projectUrl = project.node.fields.slug;
+      const projectCategory = project.node.frontmatter.heroSection?.categories?.[0] || 'Uncategorized';
+      
       domains.forEach((domain) => {
         if (domain.name === project.node.frontmatter["domainNew"]) {
           found = true;
-          domain.projects.push(project);
-          domain.projects = domain.projects.sort(function (a, b) {
-            return b.node.frontmatter.title > a.node.frontmatter.title ? -1 : 1;
+          
+          // Find or create category within domain
+          let categoryFound = false;
+          domain.categories.forEach((category) => {
+            if (category.name === projectCategory) {
+              categoryFound = true;
+              category.projects.push(project);
+              category.projects = category.projects.sort(function (a, b) {
+                return b.node.frontmatter.title > a.node.frontmatter.title ? -1 : 1;
+              });
+            }
           });
+          
+          if (!categoryFound) {
+            domain.categories.push({
+              name: projectCategory,
+              projects: [project]
+            });
+            domain.categories = domain.categories.sort(function (a, b) {
+              return a.name > b.name ? 1 : -1;
+            });
+          }
         }
       });
+      
       if (!found) {
         parentDomains.forEach((pD) => {
           if (
@@ -51,7 +73,10 @@ export class HeaderSmall extends React.Component {
               name: project.node.frontmatter["domainNew"],
               activeProjectIndex: 0,
               displayOrder: pD.displayOrder,
-              projects: [project],
+              categories: [{
+                name: projectCategory,
+                projects: [project]
+              }]
             });
             domains = domains.sort(function (a, b) {
               return b.displayOrder > a.displayOrder ? -1 : 1;
@@ -98,6 +123,7 @@ export class HeaderSmall extends React.Component {
       ourAssetsActive,
       initiativesActive,
       selectedDomainIndex,
+      selectedCategoryIndex,
       popupOpened,
       showUpIcon,
     } = this.state;
@@ -175,6 +201,7 @@ export class HeaderSmall extends React.Component {
                                 selectedDomainIndex === domainIndex
                                   ? -1
                                   : domainIndex,
+                              selectedCategoryIndex: -1,
                             });
                           }}
                         >
@@ -182,22 +209,47 @@ export class HeaderSmall extends React.Component {
                         </a>
                         {domainIndex === selectedDomainIndex ? (
                           <div className="sub-sub-header-list">
-                            {domain.projects.map((project) => {
+                            {domain.categories.map((category, categoryIndex) => {
                               return (
-                                <div
-                                  className="sub-sub-header-list-item"
-                                  onClick={() => {
-                                    this.setState({ popupOpened: "inactive" });
-                                  }}
-                                >
-                                  <Link to={project.projectUrl}>
-                                    <a
-                                      className="nav-link"
-                                      href={project.projectUrl}
-                                    >
-                                      {project.node.frontmatter.title}
-                                    </a>
-                                  </Link>
+                                <div className="sub-sub-header-list-item">
+                                  <a
+                                    className="nav-link"
+                                    onClick={() => {
+                                      this.setState({
+                                        selectedCategoryIndex:
+                                          selectedCategoryIndex === categoryIndex
+                                            ? -1
+                                            : categoryIndex,
+                                      });
+                                    }}
+                                  >
+                                    {category.name}
+                                  </a>
+                                  {categoryIndex === selectedCategoryIndex ? (
+                                    <div className="sub-sub-header-list" style={{paddingLeft: '20px'}}>
+                                      {category.projects.map((project) => {
+                                        return (
+                                          <div
+                                            className="sub-sub-header-list-item"
+                                            onClick={() => {
+                                              this.setState({ popupOpened: "inactive" });
+                                            }}
+                                          >
+                                            <Link to={project.projectUrl}>
+                                              <a
+                                                className="nav-link"
+                                                href={project.projectUrl}
+                                              >
+                                                {project.node.frontmatter.title}
+                                              </a>
+                                            </Link>
+                                          </div>
+                                        );
+                                      })}
+                                    </div>
+                                  ) : (
+                                    <span />
+                                  )}
                                 </div>
                               );
                             })}
@@ -451,8 +503,10 @@ export default () => (
               frontmatter {
                 title
                 templateKey
-                domain
                 domainNew
+                heroSection {
+                  categories
+                }
               }
             }
           }

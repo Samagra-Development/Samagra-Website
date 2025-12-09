@@ -1,11 +1,14 @@
 ---
 templateKey: project-post
 title: Samarth
-domainNew: Education
+domainNew: Past Programs
 fullName: Samarth
 id: SAMARTH
 backgroundCover: /img/samarth-header-bg.jpg
-domain: Education
+domain: Past Programs
+heroSection:
+  categories:
+    - Education
 subTitle: Samagra
 state: Himachal Pradesh
 tagLine: Transforming the government school system in Himachal Pradesh

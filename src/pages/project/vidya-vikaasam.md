@@ -1,12 +1,15 @@
 ---
 templateKey: project-post
 title: Vidya Vikaasam
-domainNew: Education
+domainNew: Past Programs
 fullName: Vidya Vikaasam
 id: Vidya Vikaasam
 backgroundCover: /img/vv.jpg
 domain: Past Projects
 subTitle: Samagra
+heroSection:
+  categories:
+    - Education
 state: Andhra Pradesh
 tagLine: Driving assessment reforms in Andhra Pradesh
 projectLogoWithState: /img/vv-logo.png

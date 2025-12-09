@@ -1,13 +1,16 @@
 ---
 templateKey: project-post
 title: Antyodaya Saral
-domainNew: Service Delivery
+domainNew: Past Programs
 fullName: Antyodaya Saral
 id: SARAL
 backgroundCover: /img/saral-header-bg.jpg
 domain: Service Delivery
 subTitle: SARAL
 state: Haryana
+heroSection:
+  categories:
+    - Service Delivery
 tagLine: Transforming scheme and service delivery in the state
 projectLogoWithState: /img/saral-logo.png
 overview:

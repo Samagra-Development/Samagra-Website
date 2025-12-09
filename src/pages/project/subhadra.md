@@ -1,49 +1,86 @@
 ---
 templateKey: project-post
-title: Subhadra
-domainNew: Women Empowerment
-fullName: Subhadra
-id: Subhadra
-backgroundCover: /img/subhadra.png
-domain: Women Empowerment
-subTitle: Samagra
-state: Odisha
-tagLine: Creating an enabling ecosystem to unlock earning pathways for women by 2029
-projectLogoWithState: /img/subhadra-ribbon.png
-overview:
-  - text: SUBHADRA Plus is a flagship initiative of the Department of Women and
-      Child Development (W&CD), Government of Odisha, aimed at creating an
-      enabling ecosystem to unlock earning pathways for women by 2029. Building
-      on the success of SUBHADRA, the state’s ₹11,000 crore financial inclusion
-      scheme that provides direct monetary assistance to over one crore women,
-      SUBHADRA Plus shifts the focus from short-term financial support to
-      long-term economic empowerment. Anchored within a vast grassroots delivery
-      network of 74,000+ Anganwadi Workers and supported by a strong
-      administrative hierarchy, the program aspires to transform women’s
-      financial agency into sustainable livelihoods.
-scale:
-  - count: 1.1 Cr+
-    label: Women
-  - count: 74,000 +
-    label: Anganwadi Workers
-projectMiddleBannerImage: /img/subhadra-banner.jpeg
-approach:
-  - text: The program’s approach rests on seven interconnected pillars designed to
-      strengthen women’s participation in the economy. It begins with SUBHADRA
-      Samikhya, a study assessing fund utilization and financial
-      decision-making, followed by database strengthening to establish a
-      livelihood baseline for all beneficiaries. Employment creation forms the
-      core — through SUBHADRA Niwas hostels improving mobility, partnerships
-      with line departments to identify job opportunities, and enterprise
-      promotion among adolescent girls and destitute women. A dedicated Steering
-      Committee ensures inter-departmental coordination, while a state-wide
-      Outreach Strategy drives awareness and engagement. Together, these pillars
-      form a comprehensive framework for women’s empowerment that combines
-      financial inclusion, employment generation, and social transformation
-impact:
-  - label: 60%+ beneficiaries report increased participation in household financial
-      decisions
-  - label: 80%+ of the SUBHADRA funds have been used for productive purposes
-partners:
-  - logo: /img/gates_foundation_logo.svg.png
+title: SUBHADRA
+domainNew: Recent Programs
+id: SUBHADRA
+heroSection:
+  title: SUBHADRA
+  subtitle: ""
+  description: To create an enabling ecosystem to unlock earning pathways for women by 2029
+  categories:
+    - Women Empowerment
+    - Odisha
+  backgroundImage: /img/subhadra-picture-1.jpg
+  isVisible: true
+whyImportantSection:
+  title: Why is it important?
+  backgroundImage: /img/subhadra-picture-2.jpg
+  isVisible: true
+  infoCard:
+    title: SUBHADRA is the largest women-centric scheme in the state, directly
+      benefiting over 1 Cr. women
+    description: Odisha runs one of the largest women-facing delivery systems in
+      India - powered by 74,000+ Anganwadi Workers who interact with nearly
+      every woman and child in the state
+  items:
+    - title: Female labour force participation in Odisha remains far below men (49% vs
+        82%)
+      image: /img/pucar-icon-3-removebg-preview.png
+    - title: Less than 5% of MSMEs in Odisha are owned by women, compared to 22%
+        nationally
+      image: /img/subhadra-icon-2-removebg-preview.png
+    - title: Disproportionate care burden falls on women, hindering capacity for
+        economic participation
+      image: /img/subhadra-icon-1-removebg-preview.png
+programHighlightsSection:
+  title: Program Highlights
+  backgroundImage: /img/subhadra.png
+  isVisible: true
+  highlights:
+    - title: Evidence-Based Policy Design
+      description: A sample beneficiary study in collaboration with IIM Sambalpur
+        conducted, revealing ~80% productive use of funds and strong livelihood
+        aspirations, creating an evidence base for policy and behavioural nudges
+    - title: SUPOSHIT Odisha Mission
+      description: Statewide SUPOSHIT Odisha Mission launched by Deputy Chief Minister
+        to accelerate achievement of a malnutrition (SAM, MAM and Underweight)
+        free Odisha by 2029
+    - title: SUBHADRA Bhaunis
+      description: A mentor cadre of SUBHADRA "Bhaunis" created by the state, at the
+        district level, to serve as entrepreneurship ambassadors
+    - title: Comprehensive Outreach
+      description: SUBHADRA and its umbrella interventions evangelised across
+        channels, enhancing awareness on DBT's impact and Odisha's evolving
+        welfare landscape for women
+impactSection:
+  title: Impact
+  backgroundImage: /img/subhadra-picture-3.jpeg
+  isVisible: false
+  stats:
+    isVisible: true
+    items:
+      - value: 1Cr+
+        image: /img/dsc00019.jpg
+        label: Women directly benefited through the largest women-centric scheme in
+          Odisha
+      - value: ₹50,000
+        image: /img/dsc00019.jpg
+        label: Per beneficiary over five years in annual installments
+  testimonials:
+    isVisible: false
+    items:
+      - quote: First-of-its-kind insights have been obtained on women's financial
+          behaviour, productive investment, and aspirations via Samikhya, which
+          will now inform policy design and cross-departmental decision-making
+        name: Impact Study
+        title: IIM Sambalpur Collaboration
+        image: /img/dsc00019.jpg
+partnersSection:
+  title: Our Partners
+  isVisible: true
+  partners:
+    - name: Women & Child Development Department, Odisha
+      logo: /img/government-of-odisha.png
+    - name: Gates Foundation
+      logo: /img/gates_foundation_logo.svg.png
 ---

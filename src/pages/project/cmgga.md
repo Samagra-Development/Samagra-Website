@@ -1,11 +1,14 @@
 ---
 templateKey: project-post
 title: CMGGA
-domainNew: Fellowships
+domainNew: Past Programs
 fullName: Chief Minister’s Good Governance Associates (CMGGA)
 id: CMGGA
 backgroundCover: /img/amrit-sarovar-beneficiaries.jpeg
 domain: Past Projects
+heroSection:
+  categories:
+    - Fellowships
 subTitle: Samagra
 state: Haryana
 tagLine: Catalysing quality implementation of flagship programs of the Govt of Haryana

@@ -1,11 +1,14 @@
 ---
 templateKey: project-post
 title: Saksham Haryana - Skills & Employment
-domainNew: Skills & Employment
+domainNew: Past Programs
 fullName: Saksham Haryana - Skills & Employment
 id: SAKSHAM_EMPLOYMENT
 backgroundCover: /img/saksham-header-bg.jpg
 domain: Skills & Employment
+heroSection:
+  categories:
+    - Skills & Employment
 subTitle: Samagra
 state: Haryana
 tagLine: "Linking youth to employment opportunities "
