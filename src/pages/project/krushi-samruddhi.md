@@ -40,7 +40,7 @@ programHighlightsSection:
     - title: AI-Powered Advisory
       description: End to end management of the AI use case funnel of 5+ use cases to
         unlock personalised advisory to 88 Lakh farmers
-    - title: Private Partnership
+    - title: Public Private Partnership
       description: Initiatives underway to onboard 6 private implementation partners
         across value chains under PPPAVCD scheme
     - title: eRUPI Subsidy Delivery
