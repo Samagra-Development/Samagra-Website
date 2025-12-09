@@ -1700,7 +1700,7 @@ export class ProgramHighlightsSection extends React.Component {
       <section className="program-highlights-section-wrapper" style={{ 
         position: 'relative', 
         width: '100%', 
-        minHeight: isMobile ? 'auto' : '100vh',
+        minHeight: "auto",
         background: '#fff',
         padding: isMobile ? '32px 0' : '64px 0'
       }}>
