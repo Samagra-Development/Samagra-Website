@@ -11,12 +11,12 @@ heroSection:
   categories:
     - Service Delivery
     - India
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/kumbh-p5.png
   isVisible: true
 whyImportantSection:
   title: Why is it important?
   backgroundImage: /img/dsc00019.jpg
-  isVisible: true
+  isVisible: false
   infoCard:
     title: India's AI Leadership Opportunity
     description: Understanding the strategic importance of developing indigenous AI
@@ -38,15 +38,20 @@ programHighlightsSection:
   isVisible: true
   highlights:
     - title: Strategic Partnerships
-      description: Collaboration with Prayagraj Mela Authority & UPDESCO worked with
+      description: Collaborated with Prayagraj Mela Authority & UPDESCO worked with
         Bhashini, Krutrim, EkStep, Gupshup, AWS, Reverie
+      image: ""
     - title: Multilingual Services
-      description: Multilingual services in 11 languages
+      description: "Enabled users to converse and utilise the chatbot in 11 languages "
+      image: ""
     - title: Multichannel Access
-      description: Multichannel (WhatsApp and WebApp) service
+      description: Developed multichannel service through WhatsApp and a Web App for
+        users to access the chatbot
+      image: ""
     - title: Comprehensive Use Cases
-      description: 10 use cases were finalized across 3 categories - Information,
-        Navigation and Memory
+      description: Rolled out 10 use cases across 3 categories - Information,
+        Navigation and Memory for citizens to access
+      image: ""
 impactSection:
   title: Impact
   backgroundImage: /img/dsc00019.jpg
@@ -54,29 +59,20 @@ impactSection:
   stats:
     isVisible: true
     items:
-      - value: 60Cr+
-        image: /img/dsc00019.jpg
-        label: visitors attended Mahakumbh - the largest human gathering in the world
       - value: 3L
-        image: /img/dsc00019.jpg
-        label: unique users with more than 5 lakh sessions
-      - value: 40%
-        image: /img/dsc00019.jpg
-        label: repeat use rate with 82% positive feedback
+        image: /img/konnect-icon-1-removebg-preview.png
+        label: Unique users with more than 5 lakh sessions
       - value: 1.32L
-        image: /img/dsc00019.jpg
+        image: /img/fid-icon-3-removebg-preview.png
         label: text/voice-based queries with 70% answered successfully
       - value: 100%
-        image: /img/dsc00019.jpg
+        image: /img/konnect-icon-2-removebg-preview.png
         label: success rate on not responding to profane or abusive language
       - value: "102"
-        image: /img/dsc00019.jpg
-        label: countries touched by users
-      - value: "11"
-        image: /img/dsc00019.jpg
-        label: Indian languages supported
+        image: /img/kumbh-icon-3-removebg-preview.png
+        label: Countries touched by users
   testimonials:
-    isVisible: true
+    isVisible: false
     items:
       - quote: Launched by Hon'ble PM on 13th Dec and highlighted prominently in his
           Mann ki Baat address on 28th December, showcasing India's AI
@@ -88,12 +84,22 @@ partnersSection:
   title: Our Partners
   isVisible: true
   partners:
-    - name: Prayagraj Mela Authority, Government of Uttar Pradesh
-      logo: /img/dsc00019.jpg
-    - name: Gates Foundation
-      logo: /img/dsc00019.jpg
     - name: UPDESCO
-      logo: /img/dsc00019.jpg
+      logo: /img/updesco.png
+    - name: Gates Foundation
+      logo: /img/gates_foundation_logo.svg.png
+    - name: Bhashini
+      logo: /img/download-2-.jpg
     - name: Krutrim
-      logo: /img/dsc00019.jpg
+      logo: /img/krutrim-logo-01.png
+    - name: AWS
+      logo: /img/amazon_web_services_logo.svg.png
+    - name: Meta
+      logo: /img/meta-logo.png
+    - name: Google
+      logo: /img/google_2015_logo.svg.png
+    - name: Beehyv
+      logo: /img/beehyv.jpg
+    - name: Punjab National Bank
+      logo: /img/pnb.png
 ---
