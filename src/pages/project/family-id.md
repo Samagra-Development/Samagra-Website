@@ -45,7 +45,7 @@ programHighlightsSection:
     - title: Comprehensive Data Capture
       description: Captured 14 key identity and eligibility fields, along with
         transaction details for all members
-    - title: Family e-Passbook
+    - title: Schemes & Services Passbook
       description: Developed a Family e-Passbook that provides members a consolidated
         view of all availed schemes and helps discover new eligible schemes
   description: "-"
