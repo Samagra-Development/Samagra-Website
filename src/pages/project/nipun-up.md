@@ -12,29 +12,26 @@ heroSection:
   categories:
     - Education
     - Uttar Pradesh
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/0_img-20210309-wa0040-1-.jpg
   isVisible: true
 whyImportantSection:
   title: Why is it important?
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/nlb_3.png
   isVisible: true
   infoCard:
-    title: Critical Importance of Foundational Learning
-    description: Understanding why early grade literacy and numeracy is essential
-      for lifelong learning
+    title: " ~30 lakh students in grades 1-2 in ~1.1L Parishadiya government schools
+      of UP, covering ~4L teachers"
+    description: As per ASER 2018 report, in Grade 3, approximately 72.8% of
+      students could not read a Grade 2 level text, and 71.8% could not perform
+      at least subtraction
   items:
-    - title: Class 3 is the inflection point till when the students should learn to
-        read so that they can continue to read to learn in the future grades
-      image: /img/dsc00019.jpg
-    - title: Otherwise, it is a struggle for the student to catch up and could
-        ultimately drop out of formal education itself
-      image: /img/dsc00019.jpg
-    - title: NEP 2020 also highlights the importance of foundational learning and
-        numeracy skills for overall development of children
-      image: /img/dsc00019.jpg
+    - title: Strengthening Foundational Literacy & Numeracy
+      image: /img/nipun-icon-1-removebg-preview.png
+    - title: Enabling Holistic Development
+      image: /img/fbms-icon-1-removebg-preview.png
 programHighlightsSection:
   title: Program Highlights
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/cover_online-teacher-transfer.jpg
   isVisible: true
   highlights:
     - title: Goal & Role Clarity
@@ -52,34 +49,25 @@ programHighlightsSection:
         system of data-backed, periodic review and monitoring
 impactSection:
   title: Impact
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/NIPUN-Bharat-slide-1.png
   isVisible: true
   stats:
     isVisible: true
     items:
-      - value: ~30L
-        image: /img/dsc00019.jpg
-        label: students in grades 1-2 across 1.1 lakh government schools
-      - value: ~4L
-        image: /img/dsc00019.jpg
-        label: teachers covered under the NIPUN mission
       - value: 48k+
-        image: /img/dsc00019.jpg
-        label: schools (43%) became NIPUN in 2024-25 vs 4.4k+ (4%) in 2022-23
+        image: /img/nipun-icon-2-removebg-preview.png
+        label: Schools became NIPUN in 2024-25 vs 4.4k+ in 2022-23
       - value: 4th rank
-        image: /img/dsc00019.jpg
+        image: /img/nipun-icon-3-removebg-preview.png
         label: in India for UP in National Achievement Survey 2024
-      - value: 74% & 71%
-        image: /img/dsc00019.jpg
-        label: average scores for grade 3 students in Hindi and Maths
       - value: 50L+
-        image: /img/dsc00019.jpg
-        label: assessments conducted monthly on NL App
+        image: /img/fid-icon-3-removebg-preview.png
+        label: Assessments conducted monthly using NIPUN Lakshya App
       - value: 87%
-        image: /img/dsc00019.jpg
-        label: teachers feel empowered in making students NIPUN using NL App
+        image: /img/nipun-icon-4-removebg-preview.png
+        label: Teachers feel empowered in making students NIPUN using NL App
   testimonials:
-    isVisible: true
+    isVisible: false
     items:
       - quote: The NIPUN Lakshya App has empowered us to track student progress
           effectively and helped us achieve remarkable improvements in
