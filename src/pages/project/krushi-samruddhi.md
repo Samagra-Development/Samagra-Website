@@ -25,13 +25,13 @@ whyImportantSection:
   items:
     - title: "Agricultural activities contribute only about 35 percent to farmers’
         earnings while direct benefit transfers form a major share\t"
-      image: /img/dsc00019.jpg
+      image: /img/leap-icon-2-removebg-preview.png
     - title: "Odisha agri sector needs a strategic shift from a production-led to an
         income-led approach \t"
-      image: /img/dsc00019.jpg
-    - title: Current initiatives to catalyze the entire sector through a science and
-        market-led transformation needs targeted efforts
-      image: /img/dsc00019.jpg
+      image: /img/leap-icon-1-removebg-preview.png
+    - title: Current initiatives to catalyze the entire sector through a scientific
+        and market-led transformation needs targeted efforts
+      image: /img/pucar-icon-1-removebg-preview.png
 programHighlightsSection:
   title: Program Highlights
   backgroundImage: /img/konnect-picture-1.jpg
