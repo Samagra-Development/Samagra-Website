@@ -23,9 +23,11 @@ whyImportantSection:
       more than 88 lakh farmers across Odisha through a cadre of 6,000+ last
       mile extension workers\t"
   items:
-    - title: Low Agricultural Contribution to Farmer Income
+    - title: "Agricultural activities contribute only about 35 percent to farmers’
+        earnings while direct benefit transfers form a major share\t"
       image: /img/dsc00019.jpg
-    - title: "Focus on "
+    - title: "Odisha agri sector needs a strategic shift from a production-led to an
+        income-led approach \t"
       image: /img/dsc00019.jpg
     - title: Current initiatives to catalyze the entire sector through a science and
         market-led transformation needs targeted efforts
