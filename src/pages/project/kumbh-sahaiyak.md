@@ -15,7 +15,7 @@ heroSection:
   isVisible: true
 whyImportantSection:
   title: Why is it important?
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/kumbh-picture-2.jpg
   isVisible: false
   infoCard:
     title: India's AI Leadership Opportunity
@@ -34,7 +34,7 @@ whyImportantSection:
       image: /img/dsc00019.jpg
 programHighlightsSection:
   title: Program Highlights
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/kumbh-picture-2.jpg
   isVisible: true
   highlights:
     - title: Strategic Partnerships
@@ -54,7 +54,7 @@ programHighlightsSection:
       image: ""
 impactSection:
   title: Impact
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/kumbh-picture-3.jpg
   isVisible: true
   stats:
     isVisible: true
