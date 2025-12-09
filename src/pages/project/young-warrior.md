@@ -1,91 +1,52 @@
 ---
 templateKey: project-post
 title: Young Warrior
-domainNew: Recent Programs
+domainNew: Past Programs
+fullName: Young Warrior
 id: Young Warrior
+backgroundCover: /img/0_img-20210309-wa0040-1-.jpg
 heroSection:
-  title: LEAP
-  subtitle: Livestock Expansion and Advancement Program
-  description: Double Odisha's milk production by 2029 by driving systemic
-    interventions in animal induction, nutrition, and breed improvement
   categories:
-    - Agriculture
-    - Odisha
-  backgroundImage: /img/dsc00019.jpg
-  isVisible: true
-whyImportantSection:
-  title: Why is it important?
-  backgroundImage: /img/dsc00019.jpg
-  isVisible: true
-  infoCard:
-    title: Key Challenges in Odisha's Dairy Sector
-    description: Understanding the core issues affecting dairy farmers and milk
-      production in the state,Understanding the core issues affecting dairy
-      farmers and milk production in the state
-  items:
-    - title: Poor yield for farmers
-      image: /img/dsc00019.jpg
-    - title: Low Milk Availability
-      image: /img/dsc00019.jpg
-    - title: Suppressed farmer income
-      image: /img/dsc00019.jpg
-programHighlightsSection:
-  title: Program Highlights
-  backgroundImage: /img/dsc00019.jpg
-  isVisible: true
-  highlights:
-    - title: Anchoring Milk Mission
-      description: Anchoring the Odisha Milk Mission, deploying levers across genetics
-        (incl. X-sorted semen), nutrition, animal health, and credit enablement
-      image: /img/dsc00019.jpg
-    - title: Artificial Insemination
-      description: Delivering doorstep Artificial Insemination through the GO-SUGAM
-        helpline, mapping technicians, & fulfilling same-day requests with
-        digital tracking
-      image: /img/dsc00019.jpg
-    - title: Insurance Protection
-      description: Protecting farmers through Go-Sampad Bima Yojana, using insurance
-        intermediaries to streamline enrollments, policy issuance, & claims
-      image: /img/dsc00019.jpg
-    - title: Data-led Governance
-      description: Driving data-led governance by running IVRS awareness, tracking on
-        GO-SUGAM/DSS dashboards, conducting reviews, & commissioning third-party
-        assessments
-      image: /img/dsc00019.jpg
-impactSection:
-  title: Impact
-  backgroundImage: /img/dsc00019.jpg
-  isVisible: true
-  stats:
-    isVisible: true
-    items:
-      - value: ₹1,423 cr
-        image: /img/dsc00019.jpg
-        label: five-year budgetary outlay under Mukhyamantri Kamdhenu Yojana
-      - value: 15.2L+
-        image: /img/dsc00019.jpg
-        label: cattle farmers in Odisha
-      - value: 3.5L/day
-        image: /img/dsc00019.jpg
-        label: average milk yield per animal
-      - value: 51%
-        image: /img/dsc00019.jpg
-        label: lower than national average
-  testimonials:
-    isVisible: true
-    items:
-      - quote: The LEAP program has transformed our dairy farming operations. We now
-          have access to better breeding facilities and veterinary services that
-          have significantly improved our milk production.
-        name: Ramesh Kumar
-        title: Dairy Farmer, Cuttack District
-        image: /img/dsc00019.jpg
-partnersSection:
-  title: Our Partners
-  isVisible: true
-  partners:
-    - name: Government of Odisha
-      logo: /img/dsc00019.jpg
-    - name: Bill & Melinda Gates Foundation
-      logo: /img/dsc00019.jpg
+    - Skills & Employment
+domain: 21st Century Skills
+subTitle: Samagra
+state: India
+tagLine: Delivering foundational life skills to youth at scale
+projectLogoWithState: /img/logo-for-website.png
+overview:
+  - text: The Young Warrior NXT program aims to equip 14-18 year-old students with
+      foundational life skills for future readiness and emotional well-being.
+      Along with serving students and helping them build skills for the future,
+      this program also enables the identification of scalable implementation
+      models for imparting life skills training. The program is anchored in
+      Yuwaah, a UNICEF-incubated platform. Samagra is creating the overall
+      strategy for the program, supporting technical partners with research and
+      design as well as coordinating and managing partners from the ecosystem to
+      ensure the program delivers on its target of imparting life skills
+      training to 50 lakh youth.
+scale:
+  - count: 32 crore
+    label: Children and youth facing school closures
+  - count: 1 crore
+    label: "School dropouts "
+  - count: 12 crore
+    label: In the 14-18 age bracket
+projectMiddleBannerImage: /img/whatsapp-image-2021-09-23-at-2.34.59-pm.jpeg
+approach:
+  - text: The Young Warrior NXT program aims to help young people gain life skills
+      for better academic, workplace and life outcomes. A two-pronged approach
+      is being taken to achieve this goal. Through 11 tasks across 5 life skills
+      on the Young Warrior NXT Bot, which was launched in August 2021, we are
+      targeting 5 lakh learners within a year. Simultaneously, we are curating
+      scalable pilots for imparting life skills training that require low levels
+      of facilitation, deliver impact and will scale up successful solutions and
+      institutionalize life skills training.
+impact:
+  - count: 10 lakh
+    label: Youth to be engaged
+  - count: 5 lakh
+    label: Learners to be reached in one year
+keyInitiativesTitle: " "
+partners:
+  - logo: /img/MSDF.jpg
 ---
