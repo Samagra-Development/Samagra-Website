@@ -5,7 +5,7 @@ domainNew: Recent Programs
 id: SUBHADRA
 heroSection:
   title: SUBHADRA
-  subtitle: Women Empowerment Initiative
+  subtitle: ""
   description: To create an enabling ecosystem to unlock earning pathways for women by 2029
   categories:
     - Women Empowerment
