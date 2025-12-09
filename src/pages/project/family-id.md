@@ -36,19 +36,15 @@ programHighlightsSection:
     - title: High-Confidence Family Database
       description: Established a high-confidence, family-level Aadhaar-linked database
         of 15.6 Cr+ individuals across 3.6 Cr+ families
-      image: ""
     - title: Unified Scheme Integration
       description: Linked Aadhaar-authenticated citizen data across 98 central and
         state schemes/services
-      image: ""
     - title: Comprehensive Data Capture
       description: Captured 14 key identity and eligibility fields, along with
         transaction details for all members
-      image: ""
     - title: Family e-Passbook
       description: Developed a Family e-Passbook that provides members a consolidated
         view of all availed schemes and helps discover new eligible schemes
-      image: ""
   description: "-"
 impactSection:
   title: Impact

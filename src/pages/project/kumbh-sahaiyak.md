@@ -40,17 +40,13 @@ programHighlightsSection:
     - title: Strategic Partnerships
       description: Collaboration with Prayagraj Mela Authority & UPDESCO worked with
         Bhashini, Krutrim, EkStep, Gupshup, AWS, Reverie
-      image: ""
     - title: Multilingual Services
       description: Multilingual services in 11 languages
-      image: ""
     - title: Multichannel Access
       description: Multichannel (WhatsApp and WebApp) service
-      image: ""
     - title: Comprehensive Use Cases
       description: 10 use cases were finalized across 3 categories - Information,
         Navigation and Memory
-      image: ""
 impactSection:
   title: Impact
   backgroundImage: /img/dsc00019.jpg

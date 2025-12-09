@@ -36,20 +36,16 @@ programHighlightsSection:
     - title: Single Family Database
       description: Single, high-confidence Family Database that consolidates all
         information relevant to welfare delivery
-      image: ""
     - title: Family Vulnerability Score
       description: Calculation of a family score for each family in the state based on
         their socio-economic vulnerability
-      image: ""
     - title: Event-Triggered Analytics
       description: Event triggered analytics for various life events from birth to
         death to enable proactive inclusion & exclusion from schemes
-      image: ""
     - title: Digital Benefits Ledger
       description: Digital benefits ledger being developed to provide citizens with a
         consolidated view of all welfare benefits availed by them thus enhancing
         transparency
-      image: ""
   description: ""
 impactSection:
   title: Impact
