@@ -36,21 +36,17 @@ programHighlightsSection:
     - title: Anchoring the Odisha Milk Mission
       description: Anchoring the Odisha Milk Mission, deploying levers across genetics
         (incl. X-sorted semen), nutrition, animal health, and credit enablement
-      image: /img/dsc00019.jpg
     - title: Doorstep Artificial Insemination
       description: Delivering doorstep Artificial Insemination through the GO-SUGAM
         helpline, mapping technicians, and fulfilling same-day requests with
         digital tracking
-      image: /img/dsc00019.jpg
     - title: Go-Sampad Bima Yojana
       description: Protecting farmers through Go-Sampad Bima Yojana, using insurance
         intermediaries to streamline enrollments, policy issuance, and claims
-      image: /img/dsc00019.jpg
     - title: Data-led Governance
       description: Driving data-led governance by running IVRS awareness, tracking on
         GO-SUGAM/DSS dashboards, conducting cascaded reviews, and commissioning
         third-party assessments
-      image: /img/dsc00019.jpg
 impactSection:
   title: Impact
   backgroundImage: /img/dsc00019.jpg

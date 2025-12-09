@@ -36,20 +36,16 @@ programHighlightsSection:
       description: Anchoring Governance Process Re-engineering through the Chief
         Minister's Office with Right to Service Act notification for all schemes
         and services
-      image: /img/dsc00019.jpg
     - title: Unified Citizen Experience
       description: Delivering unified citizen experience through Aaple Sarkar 2.0
         portal and upgraded Seva Kendras to enable single-window access with
         real-time alerts
-      image: /img/dsc00019.jpg
     - title: Scheme Re-engineering
       description: Re-engineering high-volume schemes through comprehensive GPR using
         standardized templates and eliminating redundancies
-      image: /img/dsc00019.jpg
     - title: Accountability Framework
       description: Driving accountability through data-backed review & monitoring, and
         citizen feedback on delivery of services
-      image: /img/dsc00019.jpg
 impactSection:
   title: Impact
   backgroundImage: /img/dsc00019.jpg

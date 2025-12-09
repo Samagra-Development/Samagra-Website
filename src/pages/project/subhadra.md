@@ -40,21 +40,17 @@ programHighlightsSection:
       description: A sample beneficiary study in collaboration with IIM Sambalpur
         conducted, revealing ~80% productive use of funds and strong livelihood
         aspirations, creating an evidence base for policy and behavioural nudges
-      image: /img/dsc00019.jpg
     - title: SUPOSHIT Odisha Mission
       description: Statewide SUPOSHIT Odisha Mission launched by Deputy Chief Minister
         to accelerate achievement of a malnutrition (SAM, MAM and Underweight)
         free Odisha by 2029
-      image: /img/dsc00019.jpg
     - title: SUBHADRA Bhaunis
       description: A mentor cadre of SUBHADRA "Bhaunis" created by the state, at the
         district level, to serve as entrepreneurship ambassadors
-      image: /img/dsc00019.jpg
     - title: Comprehensive Outreach
       description: SUBHADRA and its umbrella interventions evangelised across
         channels, enhancing awareness on DBT's impact and Odisha's evolving
         welfare landscape for women
-      image: /img/dsc00019.jpg
 impactSection:
   title: Impact
   backgroundImage: /img/dsc00019.jpg

@@ -41,22 +41,18 @@ programHighlightsSection:
     - title: People-Centric Design
       description: Eliminating the need for physical visits (e.g., remote digital
         signing, digital filing, automated SMS alerts on case status)
-      image: /img/dsc00019.jpg
     - title: Asynchronous Workflows
       description: Moving away from all parties being present at the same time and
         place, allowing actors to perform roles independently to optimize
         judicial time
-      image: /img/dsc00019.jpg
     - title: DRISTI Technology Backbone
       description: A modular Digital Public Infrastructure (DPI) with Open APIs and
         Data Standards that allows for scaling and reconfiguring modules for
         different case types
-      image: /img/dsc00019.jpg
     - title: Seamless Integrations
       description: Connecting with digital ecosystems like Aadhaar-based eSign,
         e-Treasury, courier services, and iCops for automated notice issuance,
         payments, and document signing
-      image: /img/dsc00019.jpg
 impactSection:
   title: Impact
   backgroundImage: /img/dsc00019.jpg

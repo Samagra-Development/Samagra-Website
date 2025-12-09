@@ -38,21 +38,17 @@ programHighlightsSection:
     - title: AI-Powered Advisory
       description: End to end management of the AI use case funnel of 5+ use cases to
         unlock personalised advisory to 88 Lakh farmers
-      image: /img/dsc00019.jpg
     - title: Private Partnership
       description: Initiatives underway to onboard 6 private implementation partners
         across value chains under PPPAVCD scheme
-      image: /img/dsc00019.jpg
     - title: eRUPI Subsidy Delivery
       description: Unlocked front end subsidy to farmers through eRUPI to 7.5k+
         farmers while facilitating subsidy worth Rs19 Crore under farm
         mechanisation scheme
-      image: /img/dsc00019.jpg
     - title: Comprehensive Crop Survey
       description: Successfully completed 3 seasons of crop survey of 2.8 Cr+
         agricultural plots
-      image: /img/dsc00019.jpg
-  description: "-"
+  description: ""
 impactSection:
   title: Impact
   backgroundImage: /img/konnect-picture-3.jpg
