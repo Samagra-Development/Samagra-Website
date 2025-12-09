@@ -11,15 +11,16 @@ heroSection:
   categories:
     - Service Delivery
     - Maharashtra
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/gpr5.jpeg
   isVisible: true
 whyImportantSection:
   title: Why is it important?
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/gpr-picture-1.png
   isVisible: true
   infoCard:
-    title: Service Delivery Challenges in Maharashtra
-    description: Understanding systemic barriers in government service delivery
+    title: 12.8 Cr+ citizens in Maharashtra accessing government schemes & services
+    description: 45 out of 1200 government schemes & services account for 95%+ of
+      total applications in Maharashtra
   items:
     - title: Uncertain timelines
       image: /img/dsc00019.jpg
@@ -29,7 +30,7 @@ whyImportantSection:
       image: /img/dsc00019.jpg
 programHighlightsSection:
   title: Program Highlights
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/gpr-5.jpg
   isVisible: true
   highlights:
     - title: Right to Service Act
@@ -48,7 +49,7 @@ programHighlightsSection:
         citizen feedback on delivery of services
 impactSection:
   title: Impact
-  backgroundImage: /img/dsc00019.jpg
+  backgroundImage: /img/gpr-picture-2.png
   isVisible: true
   stats:
     isVisible: true
@@ -68,7 +69,7 @@ impactSection:
         label: citizens across socio-economically diverse population benefiting from
           reforms
   testimonials:
-    isVisible: true
+    isVisible: false
     items:
       - quote: The unified portal and single-window access has made it much easier for
           citizens to access government services with real-time tracking.
@@ -80,7 +81,7 @@ partnersSection:
   isVisible: true
   partners:
     - name: Government of Maharashtra
-      logo: /img/dsc00019.jpg
+      logo: /img/seal_of_maharashtra.svg
     - name: Gates Foundation
-      logo: /img/dsc00019.jpg
+      logo: /img/gates_foundation_logo.svg.png
 ---
