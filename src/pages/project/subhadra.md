@@ -29,8 +29,8 @@ whyImportantSection:
     - title: Less than 5% of MSMEs in Odisha are owned by women, compared to 22%
         nationally
       image: /img/subhadra-icon-2-removebg-preview.png
-    - title: Disproportionate care burden falls on women, hindering capacity for
-        economic participation
+    - title: Disproportionate care burden falls on women, hindering their economic
+        participation
       image: /img/subhadra-icon-1-removebg-preview.png
 programHighlightsSection:
   title: Program Highlights
