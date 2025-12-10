@@ -27,10 +27,9 @@ whyImportantSection:
   items:
     - title: Case backlog costs litigants over ₹80,000 crore annually
       image: /img/gpr-icon-1-removebg-preview.png
-    - title: Previous digitization-focused approaches did not focus on case pendency
+    - title: Digitization-focused approaches haven't tackled pendency
       image: /img/gpr-icon-3-removebg-preview.png
-    - title: Focusing on these high-volume, lower-complexity cases can address 11% of
-        caseload
+    - title: High-volume, lower-complexity cases make 11% of caseload
       image: /img/nipun-icon-3-removebg-preview.png
 programHighlightsSection:
   title: Program Highlights
