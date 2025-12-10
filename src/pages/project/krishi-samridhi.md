@@ -26,9 +26,9 @@ whyImportantSection:
       Agriculture (DDAs) at District level
   items:
     - title: Structural problems in input supply, credit access, and advisory services
-        are limiting agricultural growth potential
+        limit agricultural growth potential
       image: /img/gpr-icon-3-removebg-preview.png
-    - title: Low technology adoption prevents effective farmer identification, benefit
+    - title: Low tech adoption prevents effective farmer identification, benefit
         delivery, and evidence-based monitoring
       image: /img/leap-icon-2-removebg-preview.png
     - title: Limited capability to monitor scheme delivery despite extensive
