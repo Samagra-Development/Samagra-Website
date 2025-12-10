@@ -27,7 +27,7 @@ whyImportantSection:
   items:
     - title: Strengthening Foundational Literacy & Numeracy
       image: /img/nipun-icon-1-removebg-preview.png
-    - title: Enabling Holistic Development
+    - title: Enabling Holistic Development among students
       image: /img/fbms-icon-1-removebg-preview.png
 programHighlightsSection:
   title: Program Highlights
