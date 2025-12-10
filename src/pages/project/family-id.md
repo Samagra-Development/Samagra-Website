@@ -25,11 +25,11 @@ whyImportantSection:
     - title: Eligible citizens miss benefits due to poor awareness, complex processes,
         and rent-seeking
       image: /img/fid-info-1-removebg-preview.png
-    - title: "Administration faces challenges in identifying ghost beneficiaries and
-        difficulty in verification of eligibility\t"
+    - title: Administration faces challenges in identifying ghost beneficiaries and
+        verifying eligibility
       image: /img/fid-info-2-removebg-preview.png
-    - title: Citizen information is fragmented across multiple departmental databases
-        which do not talk to each other
+    - title: Citizen information is fragmented across multiple disconnected
+        departmental databases
       image: /img/fid-info-4-removebg-preview.png
 programHighlightsSection:
   title: Program Highlights
