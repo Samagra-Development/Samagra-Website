@@ -16,7 +16,7 @@ heroSection:
 whyImportantSection:
   title: Why is it important?
   backgroundImage: /img/kumbh-picture-2.jpg
-  isVisible: true
+  isVisible: false
   infoCard:
     title: ""
     description: ""
