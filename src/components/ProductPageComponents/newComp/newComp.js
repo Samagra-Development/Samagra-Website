@@ -1080,9 +1080,13 @@ export class WhyImportantSection extends React.Component {
   };
 
   render() {
-    const { title, items, infoCard, backgroundImage } = this.props;
+    const { title, items, infoCard, backgroundImage, isVisible: sectionIsVisible } = this.props;
     const { isVisible, isSidebarOpen, isMobile, isTablet, currentInfoCard } = this.state;
     const bgImageUrl = getImageUrl(backgroundImage);
+
+    if (!sectionIsVisible || !items || items.length === 0) {
+      return null;
+    }
     
     // Handle infoCard as either single object or array
     const infoCards = Array.isArray(infoCard) ? infoCard : (infoCard ? [infoCard] : []);
@@ -1095,7 +1099,10 @@ export class WhyImportantSection extends React.Component {
         minHeight: isMobile ? 'auto' : '100vh', 
         background: '#fff',
         padding: isMobile ? '32px 0' : '64px 0',
-        overflow: 'hidden'
+        overflow: 'hidden',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center'
       }}>
         {/* Background Image with Overlay */}
         <div style={{
@@ -1146,7 +1153,8 @@ export class WhyImportantSection extends React.Component {
           <div className="row" style={{ 
             display: 'flex', 
             gap: isMobile ? '20px' : isTablet ? '32px' : '44px', 
-            flexWrap: 'wrap' 
+            flexWrap: 'wrap',
+            justifyContent: 'center'
           }}>
             {items?.map((item, index) => {
               const itemImageUrl = getImageUrl(item.image);
@@ -1155,102 +1163,74 @@ export class WhyImportantSection extends React.Component {
                   key={index}
                   className="col-md-4"
                   style={{ 
-                    display: 'flex', 
-                    flexDirection: 'column', 
-                    gap: isMobile ? '12px' : '20px',
-                    position: 'relative',
+                    background: 'rgba(255, 255, 255, 0.1)',
+                    backdropFilter: 'blur(10px)',
+                    borderRadius: isMobile ? '16px' : '24px',
+                    padding: isMobile ? '20px 16px' : '32px 24px',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    gap: '12px',
                     flex: isMobile ? '1 1 100%' : isTablet ? '1 1 calc(50% - 16px)' : '1 1 calc(33.333% - 30px)',
-                    minWidth: isMobile ? '100%' : isTablet ? '200px' : '250px'
-                  }}
-                >
-                  {/* <div style={{
-                    width: '100%',
-                    height: isMobile ? '180px' : isTablet ? '220px' : '262px',
-                    backgroundImage: itemImageUrl ? `url(${itemImageUrl})` : 'linear-gradient(#666, #999)',
-                    backgroundSize: '75% auto',
-                    backgroundPosition: 'center',
-                    borderRadius: isMobile ? '16px' : '20px',
-                    backgroundRepeat: 'no-repeat',
-                    transition: 'transform 0.3s',
-                    flexShrink: 0
+                    minWidth: isMobile ? '100%' : isTablet ? '200px' : '250px',
+                    transition: 'transform 0.3s'
                   }}
                   onMouseEnter={(e) => {
                     if (!isMobile) {
                       e.currentTarget.style.transform = 'scale(1.02)';
+                      e.currentTarget.style.background = 'rgba(255, 255, 255, 0.15)';
                     }
                   }}
                   onMouseLeave={(e) => {
                     if (!isMobile) {
                       e.currentTarget.style.transform = 'scale(1)';
+                      e.currentTarget.style.background = 'rgba(255, 255, 255, 0.1)';
                     }
                   }}
-                  /> */}
+                >
                   <div style={{
                     width: '100%',
-                    borderRadius: isMobile ? '16px' : '20px',
-                    overflow: 'hidden',
-                    transition: 'transform 0.3s',
-                    flexShrink: 0,
+                    maxWidth: isMobile ? '230px' : isTablet ? '120px' : '140px',
+                    height: "auto",
+                    margin: isMobile ? '8px auto' : '16px auto',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    background: itemImageUrl ? 'transparent' : 'linear-gradient(#666, #999)',
-                    minHeight: isMobile ? '200px' : isTablet ? '220px' : '262px'
-                  }}
-                  onMouseEnter={(e) => {
-                    if (!isMobile) {
-                      e.currentTarget.style.transform = 'scale(1.02)';
-                    }
-                  }}
-                  onMouseLeave={(e) => {
-                    if (!isMobile) {
-                      e.currentTarget.style.transform = 'scale(1)';
-                    }
-                  }}
-                  >
-                    {itemImageUrl && (
+                    flexShrink: 0
+                  }}>
+                    {itemImageUrl ? (
                       <img 
                         src={itemImageUrl} 
                         alt={item.title}
                         style={{
-                          width: '75%',
-                          height: 'auto',
+                          maxWidth: '100%',
+                          maxHeight: '100%',
                           objectFit: 'contain'
                         }}
                       />
+                    ) : (
+                      <div style={{
+                        width: '100%',
+                        height: '100px',
+                        background: 'linear-gradient(#666, #999)',
+                        borderRadius: '12px'
+                      }} />
                     )}
                   </div>
                   <div style={{
-                    background: 'rgba(255, 255, 255, 0.2)',
-                    backdropFilter: 'blur(10px)',
-                    borderRadius: '12px',
-                    padding: isMobile ? '12px 20px' : '16px 32px',
                     textAlign: 'center',
-                    position: 'relative',
-                    transition: 'all 0.3s',
                     flex: 1,
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center'
-                  }}
-                  onMouseEnter={(e) => {
-                    if (!isMobile) {
-                      e.currentTarget.style.background = 'rgba(255, 255, 255, 0.3)';
-                    }
-                  }}
-                  onMouseLeave={(e) => {
-                    if (!isMobile) {
-                      e.currentTarget.style.background = 'rgba(255, 255, 255, 0.2)';
-                    }
-                  }}
-                  >
+                  }}>
                     <h3 style={{ 
-                      fontSize: isMobile ? '18px' : isTablet ? '20px' : '22px', 
-                      fontWeight: 500, 
+                      fontSize: isMobile ? '14px' : isTablet ? '16px' : '18px', 
+                      fontWeight: 400, 
                       color: '#fff',
                       textTransform: 'capitalize',
                       margin: 0,
-                      lineHeight: isMobile ? '24px' : '28px'
+                      lineHeight: isMobile ? '20px' : '24px'
                     }}>
                       {item.title}
                     </h3>
@@ -1700,9 +1680,12 @@ export class ProgramHighlightsSection extends React.Component {
       <section className="program-highlights-section-wrapper" style={{ 
         position: 'relative', 
         width: '100%', 
-        minHeight: "auto",
+        minHeight: isMobile ? "auto" : "100vh",
         background: '#fff',
-        padding: isMobile ? '32px 0' : '64px 0'
+        padding: isMobile ? '32px 0' : '64px 0',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center'
       }}>
         {/* Background Image with Overlay */}
         <div style={{
@@ -1732,7 +1715,7 @@ export class ProgramHighlightsSection extends React.Component {
             marginBottom: isMobile ? '24px' : isTablet ? '36px' : '48px',
             letterSpacing: '-0.01em',
             textTransform: 'capitalize',
-            textAlign: 'center'
+            textAlign: 'left'
           }}>
             {title || "Program Highlights"}
           </h2>
@@ -2080,7 +2063,10 @@ export class ImpactSection extends React.Component {
         width: '100%', 
         minHeight: isMobile ? 'auto' : '100vh', 
         background: '#fff',
-        padding: isMobile ? '32px 0' : '64px 0'
+        padding: isMobile ? '32px 0' : '64px 0',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center'
       }}>
         {/* Background Image with Overlay */}
         <div style={{
