@@ -1255,9 +1255,8 @@ export class ImpactSection extends React.Component {
                       )} */}
                       {statImageUrl && (
   <div style={{
-    width: '100%',
-    maxWidth: isMobile ? '230px' : isTablet ? '120px' : '140px',
-    height: "auto",
+    width: 'auto',
+    height: isMobile ? '200px' : isTablet ? '140px' : '140px',
     margin: '16px auto',
     display: 'flex',
     alignItems: 'center',
