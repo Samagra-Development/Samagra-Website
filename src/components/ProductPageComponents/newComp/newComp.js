@@ -267,9 +267,9 @@ export class WhyImportantSection extends React.Component {
       const rect = this.sectionRef.current.getBoundingClientRect();
       const viewportHeight = window.innerHeight;
       
-      // Check if section is partially visible
-      const isPartiallyVisible = rect.top < viewportHeight * 0.5 && rect.top > -rect.height * 0.5;
-      const isTopNearViewport = rect.top > 0 && rect.top < viewportHeight * 0.3;
+      // Check if section is partially visible (trigger at 10% into view)
+      const isPartiallyVisible = rect.top < viewportHeight * 0.9 && rect.top > -rect.height * 0.5;
+      const isTopNearViewport = rect.top > 0 && rect.top < viewportHeight * 0.9;
       
       if (isPartiallyVisible && isTopNearViewport) {
         this.isSnapping = true;
@@ -285,7 +285,7 @@ export class WhyImportantSection extends React.Component {
           this.isSnapping = false;
         }, 800);
       }
-    }, 150);
+    }, 100);
   };
 
   toggleSidebar = () => {
@@ -767,9 +767,9 @@ export class ProgramHighlightsSection extends React.Component {
       const rect = this.sectionRef.current.getBoundingClientRect();
       const viewportHeight = window.innerHeight;
       
-      // Check if section is partially visible
-      const isPartiallyVisible = rect.top < viewportHeight * 0.5 && rect.top > -rect.height * 0.5;
-      const isTopNearViewport = rect.top > 0 && rect.top < viewportHeight * 0.3;
+      // Check if section is partially visible (trigger at 10% into view)
+      const isPartiallyVisible = rect.top < viewportHeight * 0.9 && rect.top > -rect.height * 0.5;
+      const isTopNearViewport = rect.top > 0 && rect.top < viewportHeight * 0.9;
       
       if (isPartiallyVisible && isTopNearViewport) {
         this.isSnapping = true;
@@ -785,7 +785,7 @@ export class ProgramHighlightsSection extends React.Component {
           this.isSnapping = false;
         }, 800);
       }
-    }, 150);
+    }, 100);
   };
 
   render() {
@@ -1129,15 +1129,23 @@ export class ImpactSection extends React.Component {
       isMobile: false,
       isTablet: false,
     };
+    this.sectionRef = React.createRef();
+    this.scrollTimeout = null;
+    this.isSnapping = false;
   }
 
   componentDidMount() {
     this.handleResize();
     window.addEventListener('resize', this.handleResize);
+    window.addEventListener('scroll', this.handleSnapScroll, { passive: true });
   }
 
   componentWillUnmount() {
     window.removeEventListener('resize', this.handleResize);
+    window.removeEventListener('scroll', this.handleSnapScroll);
+    if (this.scrollTimeout) {
+      clearTimeout(this.scrollTimeout);
+    }
   }
 
   handleResize = () => {
@@ -1167,6 +1175,42 @@ export class ImpactSection extends React.Component {
     }
   };
 
+  handleSnapScroll = () => {
+    if (this.isSnapping || !this.sectionRef.current) return;
+
+    // Clear existing timeout
+    if (this.scrollTimeout) {
+      clearTimeout(this.scrollTimeout);
+    }
+
+    // Wait for scroll to stop (debounced)
+    this.scrollTimeout = setTimeout(() => {
+      if (!this.sectionRef.current) return;
+
+      const rect = this.sectionRef.current.getBoundingClientRect();
+      const viewportHeight = window.innerHeight;
+      
+      // Check if section is partially visible (trigger at 10% into view)
+      const isPartiallyVisible = rect.top < viewportHeight * 0.9 && rect.top > -rect.height * 0.5;
+      const isTopNearViewport = rect.top > 0 && rect.top < viewportHeight * 0.9;
+      
+      if (isPartiallyVisible && isTopNearViewport) {
+        this.isSnapping = true;
+        const targetScroll = window.scrollY + rect.top;
+        
+        window.scrollTo({
+          top: targetScroll,
+          behavior: 'smooth'
+        });
+        
+        // Reset snapping flag after animation
+        setTimeout(() => {
+          this.isSnapping = false;
+        }, 800);
+      }
+    }, 100);
+  };
+
   render() {
     const { title, stats, testimonials, backgroundImage } = this.props;
     const { currentTestimonial, isMobile, isTablet } = this.state;
@@ -1175,7 +1219,7 @@ export class ImpactSection extends React.Component {
     const testimonialImageUrl = testimonial ? getImageUrl(testimonial.image) : null;
 
     return (
-      <section className="impact-section-wrapper" style={{ 
+      <section ref={this.sectionRef} className="impact-section-wrapper" style={{ 
         position: 'relative', 
         width: '100%', 
         minHeight: isMobile ? 'auto' : '100vh', 
@@ -1479,15 +1523,23 @@ export class PartnersSection extends React.Component {
       isMobile: false,
       isTablet: false,
     };
+    this.sectionRef = React.createRef();
+    this.scrollTimeout = null;
+    this.isSnapping = false;
   }
 
   componentDidMount() {
     this.handleResize();
     window.addEventListener('resize', this.handleResize);
+    window.addEventListener('scroll', this.handleSnapScroll, { passive: true });
   }
 
   componentWillUnmount() {
     window.removeEventListener('resize', this.handleResize);
+    window.removeEventListener('scroll', this.handleSnapScroll);
+    if (this.scrollTimeout) {
+      clearTimeout(this.scrollTimeout);
+    }
   }
 
   handleResize = () => {
@@ -1499,12 +1551,48 @@ export class PartnersSection extends React.Component {
     }
   };
 
+  handleSnapScroll = () => {
+    if (this.isSnapping || !this.sectionRef.current) return;
+
+    // Clear existing timeout
+    if (this.scrollTimeout) {
+      clearTimeout(this.scrollTimeout);
+    }
+
+    // Wait for scroll to stop (debounced)
+    this.scrollTimeout = setTimeout(() => {
+      if (!this.sectionRef.current) return;
+
+      const rect = this.sectionRef.current.getBoundingClientRect();
+      const viewportHeight = window.innerHeight;
+      
+      // Check if section is partially visible (trigger at 10% into view)
+      const isPartiallyVisible = rect.top < viewportHeight * 0.9 && rect.top > -rect.height * 0.5;
+      const isTopNearViewport = rect.top > 0 && rect.top < viewportHeight * 0.9;
+      
+      if (isPartiallyVisible && isTopNearViewport) {
+        this.isSnapping = true;
+        const targetScroll = window.scrollY + rect.top;
+        
+        window.scrollTo({
+          top: targetScroll,
+          behavior: 'smooth'
+        });
+        
+        // Reset snapping flag after animation
+        setTimeout(() => {
+          this.isSnapping = false;
+        }, 800);
+      }
+    }, 100);
+  };
+
   render() {
     const { title, partners } = this.props;
     const { isMobile, isTablet } = this.state;
 
     return (
-      <section className="partners-section-wrapper" style={{ 
+      <section ref={this.sectionRef} className="partners-section-wrapper" style={{ 
         position: 'relative', 
         width: '100%', 
         background: '#fff',
