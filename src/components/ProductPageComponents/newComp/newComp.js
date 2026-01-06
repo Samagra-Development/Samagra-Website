@@ -8,163 +8,7 @@ const getImageUrl = (image) => {
 };
 
 // Hero Section Component
-// export class HeroSection extends React.Component {
-//   render() {
-//     const { title, subtitle, description, categories, backgroundImage } = this.props;
-//     const bgImageUrl = getImageUrl(backgroundImage);
-    
-//     const categoryItems = categories || [];
-    
-//     return (
-//       <section 
-//         className="hero-section-wrapper" 
-//         style={{ 
-//           position: 'relative', 
-//           width: '100%', 
-//           height: '100vh',
-//           minHeight: '500px',
-//           background: '#fff',
-//           overflow: 'hidden'
-//         }}
-//       >
-//         {/* Background Image */}
-//         <div 
-//           className="hero-background"
-//           style={{
-//             position: 'absolute',
-//             inset: 0,
-//             backgroundImage: bgImageUrl 
-//               ? `url(${bgImageUrl})` 
-//               : 'linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4))',
-//             backgroundSize: 'cover',
-//             backgroundPosition: 'center'
-//           }}
-//         />
-        
-//         {/* Overlay */}
-//         <div 
-//           style={{ 
-//             position: 'absolute', 
-//             inset: 0, 
-//             background: 'rgba(0, 0, 0, 0.25)' 
-//           }} 
-//         />
-        
-//         {/* Category Tags */}
-//         <div 
-//           style={{ 
-//             position: 'absolute', 
-//             top: '84px', 
-//             right: '10vw',
-//             display: 'flex',
-//             alignItems: 'center',
-//             gap: '20px',
-//             padding: '8px 24px',
-//             color: '#fff',
-//             zIndex: 10
-//           }}
-//           className="category-tags"
-//         >
-//           {categoryItems.map((category, index) => (
-//             <React.Fragment key={index}>
-//               <span style={{ fontSize: '24px', whiteSpace: 'nowrap' }}>
-//                 {category}
-//               </span>
-//               {index < categoryItems.length - 1 && (
-//                 <div 
-//                   style={{ 
-//                     width: '1px', 
-//                     height: '32px', 
-//                     background: 'rgba(255,255,255,0.5)' 
-//                   }} 
-//                 />
-//               )}
-//             </React.Fragment>
-//           ))}
-//           {/* <div 
-//             style={{ 
-//               width: '1px', 
-//               height: '32px', 
-//               background: 'rgba(255,255,255,0.5)' 
-//             }} 
-//           />
-//           <div 
-//             style={{ 
-//               width: '43px', 
-//               height: '48px', 
-//               background: '#fff', 
-//               borderRadius: '4px' 
-//             }} 
-//           /> */}
-//         </div>
-        
-//         {/* Content */}
-//         <div 
-//           style={{ 
-//             position: 'relative',
-//             display: 'flex',
-//             flexDirection: 'column',
-//             alignItems: 'center',
-//             justifyContent: 'center',
-//             height: '100%',
-//             padding: '0 20px',
-//             color: '#fff',
-//             textAlign: 'center',
-//             zIndex: 5
-//           }}
-//         >
-//           <h1 
-//             style={{ 
-//               fontSize: 'clamp(40px, 8vw, 90px)', 
-//               fontWeight: 900, 
-//               marginTop: "110px",
-//               letterSpacing: '0.12em',
-//               marginBottom: '24px'
-//             }}
-//           >
-//             {title || ""}
-//           </h1>
-//           <div 
-//             style={{ 
-//               background: 'rgba(0, 0, 0, 0.4)',
-//               padding: '24px 0',
-//               backdropFilter: 'blur(8px)',
-//               width: '100%',
-//               display: 'flex',
-//               marginTop: "70px",
-//               flexDirection: 'column',
-//               alignItems: 'center',
-//               gap: '16px'
-//             }}
-//           >
-//             <p 
-//               style={{ 
-//                 fontSize: 'clamp(16px, 2vw, 24px)', 
-//                 lineHeight: '1.6',
-//                 margin: 0,
-//                 padding: '0 40px'
-//               }}
-//             >
-//               {subtitle || ""}
-//             </p>
-//             <p 
-//               style={{ 
-//                 fontSize: 'clamp(20px, 3vw, 36px)', 
-//                 fontWeight: 700, 
-//                 lineHeight: '1.4',
-//                 margin: 0,
-//                 maxWidth: '981px',
-//                 padding: '0 40px'
-//               }}
-//             >
-//               {description}
-//             </p>
-//           </div>
-//         </div>
-//       </section>
-//     );
-//   }
-// }
+
 export class HeroSection extends React.Component {
   constructor(props) {
     super(props);
@@ -342,678 +186,7 @@ export class HeroSection extends React.Component {
   }
 }
 
-// Why Important Section Component
-// export class WhyImportantSection extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       isVisible: false,
-//       isSidebarOpen: false,
-//     };
-//   }
 
-//   componentDidMount() {
-//     document.addEventListener("scroll", this.handleScroll);
-//   }
-
-//   componentWillUnmount() {
-//     document.removeEventListener("scroll", this.handleScroll);
-//   }
-
-//   handleScroll = () => {
-//     const scrollTop = document.documentElement.scrollTop;
-//     const isVisible = scrollTop > 0 && scrollTop < 2000;
-    
-//     if (this.state.isVisible !== isVisible) {
-//       this.setState({ isVisible });
-//     }
-//   };
-
-//   toggleSidebar = () => {
-//     this.setState(prevState => ({ 
-//       isSidebarOpen: !prevState.isSidebarOpen 
-//     }));
-//   };
-
-//   render() {
-//     const { title, items, infoCard, backgroundImage } = this.props;
-//     const { isVisible, isSidebarOpen } = this.state;
-//     const bgImageUrl = getImageUrl(backgroundImage);
-
-//     return (
-//       <section className="why-important-section-wrapper" style={{ 
-//         position: 'relative', 
-//         width: '100%', 
-//         minHeight: '100vh', 
-//         background: '#fff',
-//         padding: '64px 0',
-//         overflow: 'hidden'
-//       }}>
-//         {/* Background Image with Overlay */}
-//         <div style={{
-//           position: 'absolute',
-//           inset: 0,
-//           backgroundImage: bgImageUrl ? `url(${bgImageUrl})` : 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
-//           backgroundSize: 'cover',
-//           backgroundPosition: 'center'
-//         }} />
-//         <div style={{ position: 'absolute', inset: 0, background: 'rgba(0, 0, 0, 0.5)' }} />
-        
-//         {/* Additional dark overlay when sidebar is open */}
-//         {isSidebarOpen && (
-//           <div 
-//             onClick={this.toggleSidebar}
-//             style={{
-//               position: 'absolute',
-//               inset: 0,
-//               background: 'rgba(0, 0, 0, 0.25)',
-//               zIndex: 20,
-//               transition: 'opacity 0.3s'
-//             }}
-//           />
-//         )}
-        
-//         {/* Content */}
-//         <div style={{
-//           position: 'relative',
-//           zIndex: 10,
-//           padding: '0 80px',
-//           opacity: isVisible ? 1 : 0,
-//           transform: isVisible ? 'translateY(0)' : 'translateY(40px)',
-//           transition: 'all 0.7s'
-//         }}>
-//           <h2 style={{ 
-//             fontSize: '56px', 
-//             fontWeight: 700, 
-//             color: '#fff',
-//             marginBottom: '48px',
-//             letterSpacing: '-0.01em',
-//             textTransform: 'capitalize'
-//           }}>
-//             {title || "Why is it important?"}
-//           </h2>
-          
-//           <div className="row" style={{ display: 'flex', gap: '44px', flexWrap: 'wrap' }}>
-//             {/* {items?.map((item, index) => {
-//               const itemImageUrl = getImageUrl(item.image);
-//               return (
-//                 <div 
-//                   key={index}
-//                   className="col-md-4"
-//                   style={{ 
-//                     display: 'flex', 
-//                     flexDirection: 'column', 
-//                     gap: '20px',
-//                     position: 'relative',
-//                     flex: 1,
-//                     minWidth: '250px'
-//                   }}
-//                 >
-//                   <div style={{
-//                     width: '100%',
-//                     height: '262px',
-//                     backgroundImage: itemImageUrl ? `url(${itemImageUrl})` : 'linear-gradient(#666, #999)',
-//                     backgroundSize: '75% auto',
-//                     backgroundPosition: 'center',
-//                     borderRadius: '20px',
-//                     backgroundRepeat: 'no-repeat',
-//                     transition: 'transform 0.3s'
-//                   }}
-//                   onMouseEnter={(e) => {
-//                     e.currentTarget.style.transform = 'scale(1.02)';
-//                   }}
-//                   onMouseLeave={(e) => {
-//                     e.currentTarget.style.transform = 'scale(1)';
-//                   }}
-//                   />
-//                   <div style={{
-//                     background: 'rgba(255, 255, 255, 0.2)',
-//                     backdropFilter: 'blur(10px)',
-//                     borderRadius: '12px',
-//                     padding: '16px 32px',
-//                     textAlign: 'center',
-//                     position: 'relative',
-//                     transition: 'all 0.3s'
-//                   }}
-//                   onMouseEnter={(e) => {
-//                     e.currentTarget.style.background = 'rgba(255, 255, 255, 0.3)';
-//                   }}
-//                   onMouseLeave={(e) => {
-//                     e.currentTarget.style.background = 'rgba(255, 255, 255, 0.2)';
-//                   }}
-//                   >
-//                     <h3 style={{ 
-//                       fontSize: '22px', 
-//                       fontWeight: 500, 
-//                       color: '#fff',
-//                       textTransform: 'capitalize'
-//                     }}>
-//                       {item.title}
-//                     </h3>
-//                   </div>
-//                 </div>
-//               );
-//             })} */}
-//             {items?.map((item, index) => {
-//   const itemImageUrl = getImageUrl(item.image);
-//   return (
-//     <div 
-//       key={index}
-//       className="col-md-4"
-//       style={{ 
-//         display: 'flex', 
-//         flexDirection: 'column', 
-//         gap: '20px',
-//         position: 'relative',
-//         flex: 1,
-//         minWidth: '250px'
-//       }}
-//     >
-//       <div style={{
-//         width: '100%',
-//         height: '262px',
-//         backgroundImage: itemImageUrl ? `url(${itemImageUrl})` : 'linear-gradient(#666, #999)',
-//         backgroundSize: '75% auto',
-//         backgroundPosition: 'center',
-//         borderRadius: '20px',
-//         backgroundRepeat: 'no-repeat',
-//         transition: 'transform 0.3s',
-//         flexShrink: 0
-//       }}
-//       onMouseEnter={(e) => {
-//         e.currentTarget.style.transform = 'scale(1.02)';
-//       }}
-//       onMouseLeave={(e) => {
-//         e.currentTarget.style.transform = 'scale(1)';
-//       }}
-//       />
-//       <div style={{
-//         background: 'rgba(255, 255, 255, 0.2)',
-//         backdropFilter: 'blur(10px)',
-//         borderRadius: '12px',
-//         padding: '16px 32px',
-//         textAlign: 'center',
-//         position: 'relative',
-//         transition: 'all 0.3s',
-//         flex: 1,
-//         display: 'flex',
-//         alignItems: 'center',
-//         justifyContent: 'center'
-//       }}
-//       onMouseEnter={(e) => {
-//         e.currentTarget.style.background = 'rgba(255, 255, 255, 0.3)';
-//       }}
-//       onMouseLeave={(e) => {
-//         e.currentTarget.style.background = 'rgba(255, 255, 255, 0.2)';
-//       }}
-//       >
-//         <h3 style={{ 
-//           fontSize: '22px', 
-//           fontWeight: 500, 
-//           color: '#fff',
-//           textTransform: 'capitalize',
-//           margin: 0
-//         }}>
-//           {item.title}
-//         </h3>
-//       </div>
-//     </div>
-//   );
-// })}
-//           </div>
-//         </div>
-        
-//         {/* Toggle Arrow Button */}
-//         <button 
-//           onClick={this.toggleSidebar}
-//           style={{
-//             position: 'absolute',
-//             left: isSidebarOpen ? '535px' : '0',
-//             top: '50%',
-//             transform: 'translateY(-50%)',
-//             width: '48px',
-//             height: '96px',
-//             background: 'rgba(255, 255, 255, 0.9)',
-//             backdropFilter: 'blur(10px)',
-//             borderRadius: '0 24px 24px 0',
-//             border: 'none',
-//             display: 'flex',
-//             alignItems: 'center',
-//             justifyContent: 'center',
-//             boxShadow: '4px 4px 24px rgba(0, 0, 0, 0.2)',
-//             zIndex: 31,
-//             cursor: 'pointer',
-//             transition: 'all 0.5s ease-in-out'
-//           }}
-//           onMouseEnter={(e) => {
-//             e.currentTarget.style.background = 'rgba(255, 255, 255, 1)';
-//           }}
-//           onMouseLeave={(e) => {
-//             e.currentTarget.style.background = 'rgba(255, 255, 255, 0.9)';
-//           }}
-//         >
-//           <span style={{ 
-//             fontSize: '24px', 
-//             color: '#334155', 
-//             fontWeight: 'bold',
-//             transform: isSidebarOpen ? 'rotate(180deg)' : 'rotate(0deg)',
-//             transition: 'transform 0.3s'
-//           }}>
-//             &gt;
-//           </span>
-//         </button>
-        
-//         {/* Side Info Card - "Did You Know?" */}
-//         <div style={{
-//           position: 'absolute',
-//           left: 0,
-//           top: '50%',
-//           transform: isSidebarOpen ? 'translate(0, -50%)' : 'translate(-100%, -50%)',
-//           width: '535px',
-//           maxHeight: '80vh',
-//           background: 'rgba(255, 255, 255, 0.9)',
-//           backdropFilter: 'blur(10px)',
-//           borderRadius: '0 24px 24px 0',
-//           boxShadow: '4px 4px 24px rgba(0, 0, 0, 0.3)',
-//           zIndex: 30,
-//           transition: 'transform 0.5s ease-in-out',
-//           overflowY: 'auto'
-//         }}>
-//           <div style={{ 
-//             padding: '48px 40px', 
-//             display: 'flex', 
-//             flexDirection: 'column',
-//             gap: '20px'
-//           }}>
-//             {/* Static "Did you Know?" heading */}
-//             <h2 style={{ 
-//               fontSize: '32px', 
-//               fontWeight: 500, 
-//               color: '#000',
-//               letterSpacing: '-0.01em',
-//               textTransform: 'capitalize',
-//               marginBottom: '4px'
-//             }}>
-//               Did you Know?
-//             </h2>
-            
-//             {/* Dynamic title from infoCard */}
-//             {infoCard?.title && (
-//               <h3 style={{ 
-//                 fontSize: '26px', 
-//                 fontWeight: 600, 
-//                 color: '#422F2A',
-//                 lineHeight: '30px',
-//                 marginBottom: '8px'
-//               }}>
-//                 {infoCard.title}
-//               </h3>
-//             )}
-            
-//             {/* Dynamic description from infoCard */}
-//             {infoCard?.description && (
-//               <p style={{ 
-//                 fontSize: '16px', 
-//                 fontWeight: 400, 
-//                 color: '#666',
-//                 lineHeight: '26px'
-//               }}>
-//                 {infoCard.description}
-//               </p>
-//             )}
-//           </div>
-//         </div>
-//       </section>
-//     );
-//   }
-// }
-
-//  export class WhyImportantSection extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       isVisible: false,
-//       isSidebarOpen: false,
-//       isMobile: false,
-//       isTablet: false,
-//     };
-//   }
-
-//   componentDidMount() {
-//     document.addEventListener("scroll", this.handleScroll);
-//     this.handleResize();
-//     window.addEventListener('resize', this.handleResize);
-//   }
-
-//   componentWillUnmount() {
-//     document.removeEventListener("scroll", this.handleScroll);
-//     window.removeEventListener('resize', this.handleResize);
-//   }
-
-//   handleResize = () => {
-//     if (typeof window !== 'undefined') {
-//       this.setState({
-//         isMobile: window.innerWidth < 768,
-//         isTablet: window.innerWidth >= 768 && window.innerWidth < 1024,
-//       });
-//     }
-//   };
-
-//   handleScroll = () => {
-//     const scrollTop = document.documentElement.scrollTop;
-//     const isVisible = scrollTop > 0 && scrollTop < 2000;
-    
-//     if (this.state.isVisible !== isVisible) {
-//       this.setState({ isVisible });
-//     }
-//   };
-
-//   toggleSidebar = () => {
-//     this.setState(prevState => ({ 
-//       isSidebarOpen: !prevState.isSidebarOpen 
-//     }));
-//   };
-
-//   render() {
-//     const { title, items, infoCard, backgroundImage } = this.props;
-//     const { isVisible, isSidebarOpen, isMobile, isTablet } = this.state;
-//     const bgImageUrl = getImageUrl(backgroundImage);
-
-//     return (
-//       <section className="why-important-section-wrapper" style={{ 
-//         position: 'relative', 
-//         width: '100%', 
-//         minHeight: isMobile ? 'auto' : '100vh', 
-//         background: '#fff',
-//         padding: isMobile ? '32px 0' : '64px 0',
-//         overflow: 'hidden'
-//       }}>
-//         {/* Background Image with Overlay */}
-//         <div style={{
-//           position: 'absolute',
-//           inset: 0,
-//           backgroundImage: bgImageUrl ? `url(${bgImageUrl})` : 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
-//           backgroundSize: 'cover',
-//           backgroundPosition: 'center'
-//         }} />
-//         <div style={{ position: 'absolute', inset: 0, background: 'rgba(0, 0, 0, 0.5)' }} />
-        
-//         {/* Additional dark overlay when sidebar is open */}
-//         {isSidebarOpen && (
-//           <div 
-//             onClick={this.toggleSidebar}
-//             style={{
-//               position: 'absolute',
-//               inset: 0,
-//               background: 'rgba(0, 0, 0, 0.25)',
-//               zIndex: 20,
-//               transition: 'opacity 0.3s'
-//             }}
-//           />
-//         )}
-        
-//         {/* Content */}
-//         <div style={{
-//           position: 'relative',
-//           zIndex: 10,
-//           padding: isMobile ? '0 20px' : isTablet ? '0 40px' : '0 80px',
-//           maxWidth: '1400px',
-//           margin: '0 auto',
-//           opacity: isVisible ? 1 : 0,
-//           transform: isVisible ? 'translateY(0)' : 'translateY(40px)',
-//           transition: 'all 0.7s'
-//         }}>
-//           <h2 style={{ 
-//             fontSize: isMobile ? '32px' : isTablet ? '44px' : '56px', 
-//             fontWeight: 700, 
-//             color: '#fff',
-//             marginBottom: isMobile ? '24px' : isTablet ? '36px' : '48px',
-//             letterSpacing: '-0.01em',
-//             textTransform: 'capitalize'
-//           }}>
-//             {title || "Why is it important?"}
-//           </h2>
-          
-//           <div className="row" style={{ 
-//             display: 'flex', 
-//             gap: isMobile ? '20px' : isTablet ? '32px' : '44px', 
-//             flexWrap: 'wrap' 
-//           }}>
-//             {items?.map((item, index) => {
-//               const itemImageUrl = getImageUrl(item.image);
-//               return (
-//                 <div 
-//                   key={index}
-//                   className="col-md-4"
-//                   style={{ 
-//                     display: 'flex', 
-//                     flexDirection: 'column', 
-//                     gap: isMobile ? '12px' : '20px',
-//                     position: 'relative',
-//                     flex: isMobile ? '1 1 100%' : isTablet ? '1 1 calc(50% - 16px)' : '1 1 calc(33.333% - 30px)',
-//                     minWidth: isMobile ? '100%' : isTablet ? '200px' : '250px'
-//                   }}
-//                 >
-//                   <div style={{
-//                     width: '100%',
-//                     height: isMobile ? '180px' : isTablet ? '220px' : '262px',
-//                     backgroundImage: itemImageUrl ? `url(${itemImageUrl})` : 'linear-gradient(#666, #999)',
-//                     backgroundSize: '75% auto',
-//                     backgroundPosition: 'center',
-//                     borderRadius: isMobile ? '16px' : '20px',
-//                     backgroundRepeat: 'no-repeat',
-//                     transition: 'transform 0.3s',
-//                     flexShrink: 0
-//                   }}
-//                   onMouseEnter={(e) => {
-//                     if (!isMobile) {
-//                       e.currentTarget.style.transform = 'scale(1.02)';
-//                     }
-//                   }}
-//                   onMouseLeave={(e) => {
-//                     if (!isMobile) {
-//                       e.currentTarget.style.transform = 'scale(1)';
-//                     }
-//                   }}
-//                   />
-//                   <div style={{
-//                     background: 'rgba(255, 255, 255, 0.2)',
-//                     backdropFilter: 'blur(10px)',
-//                     borderRadius: '12px',
-//                     padding: isMobile ? '12px 20px' : '16px 32px',
-//                     textAlign: 'center',
-//                     position: 'relative',
-//                     transition: 'all 0.3s',
-//                     flex: 1,
-//                     display: 'flex',
-//                     alignItems: 'center',
-//                     justifyContent: 'center'
-//                   }}
-//                   onMouseEnter={(e) => {
-//                     if (!isMobile) {
-//                       e.currentTarget.style.background = 'rgba(255, 255, 255, 0.3)';
-//                     }
-//                   }}
-//                   onMouseLeave={(e) => {
-//                     if (!isMobile) {
-//                       e.currentTarget.style.background = 'rgba(255, 255, 255, 0.2)';
-//                     }
-//                   }}
-//                   >
-//                     <h3 style={{ 
-//                       fontSize: isMobile ? '18px' : isTablet ? '20px' : '22px', 
-//                       fontWeight: 500, 
-//                       color: '#fff',
-//                       textTransform: 'capitalize',
-//                       margin: 0,
-//                       lineHeight: isMobile ? '24px' : '28px'
-//                     }}>
-//                       {item.title}
-//                     </h3>
-//                   </div>
-//                 </div>
-//               );
-//             })}
-//           </div>
-//         </div>
-        
-//         {/* Toggle Arrow Button - Hide on mobile */}
-//         {!isMobile && (
-//           <button 
-//             onClick={this.toggleSidebar}
-//             style={{
-//               position: 'absolute',
-//               left: isSidebarOpen ? (isTablet ? '420px' : '535px') : '0',
-//               top: '50%',
-//               transform: 'translateY(-50%)',
-//               width: isTablet ? '40px' : '48px',
-//               height: isTablet ? '80px' : '96px',
-//               background: 'rgba(255, 255, 255, 0.9)',
-//               backdropFilter: 'blur(10px)',
-//               borderRadius: '0 24px 24px 0',
-//               border: 'none',
-//               display: 'flex',
-//               alignItems: 'center',
-//               justifyContent: 'center',
-//               boxShadow: '4px 4px 24px rgba(0, 0, 0, 0.2)',
-//               zIndex: 31,
-//               cursor: 'pointer',
-//               transition: 'all 0.5s ease-in-out'
-//             }}
-//             onMouseEnter={(e) => {
-//               e.currentTarget.style.background = 'rgba(255, 255, 255, 1)';
-//             }}
-//             onMouseLeave={(e) => {
-//               e.currentTarget.style.background = 'rgba(255, 255, 255, 0.9)';
-//             }}
-//           >
-//             <span style={{ 
-//               fontSize: isTablet ? '20px' : '24px', 
-//               color: '#334155', 
-//               fontWeight: 'bold',
-//               transform: isSidebarOpen ? 'rotate(180deg)' : 'rotate(0deg)',
-//               transition: 'transform 0.3s'
-//             }}>
-//               &gt;
-//             </span>
-//           </button>
-//         )}
-        
-//         {/* Side Info Card - "Did You Know?" - Hide on mobile */}
-//         {!isMobile && (
-//           <div style={{
-//             position: 'absolute',
-//             left: 0,
-//             top: '50%',
-//             transform: isSidebarOpen ? 'translate(0, -50%)' : 'translate(-100%, -50%)',
-//             width: isTablet ? '420px' : '535px',
-//             maxHeight: '80vh',
-//             background: 'rgba(255, 255, 255, 0.9)',
-//             backdropFilter: 'blur(10px)',
-//             borderRadius: '0 24px 24px 0',
-//             boxShadow: '4px 4px 24px rgba(0, 0, 0, 0.3)',
-//             zIndex: 30,
-//             transition: 'transform 0.5s ease-in-out',
-//             overflowY: 'auto'
-//           }}>
-//             <div style={{ 
-//               padding: isTablet ? '32px 28px' : '48px 40px', 
-//               display: 'flex', 
-//               flexDirection: 'column',
-//               gap: '20px'
-//             }}>
-//               {/* Static "Did you Know?" heading */}
-//               <h2 style={{ 
-//                 fontSize: isTablet ? '28px' : '32px', 
-//                 fontWeight: 500, 
-//                 color: '#000',
-//                 letterSpacing: '-0.01em',
-//                 textTransform: 'capitalize',
-//                 marginBottom: '4px'
-//               }}>
-//                 Did you Know?
-//               </h2>
-              
-//               {/* Dynamic title from infoCard */}
-//               {infoCard?.title && (
-//                 <h3 style={{ 
-//                   fontSize: isTablet ? '22px' : '26px', 
-//                   fontWeight: 600, 
-//                   color: '#422F2A',
-//                   lineHeight: isTablet ? '28px' : '30px',
-//                   marginBottom: '8px'
-//                 }}>
-//                   {infoCard.title}
-//                 </h3>
-//               )}
-              
-//               {/* Dynamic description from infoCard */}
-//               {infoCard?.description && (
-//                 <p style={{ 
-//                   fontSize: isTablet ? '15px' : '16px', 
-//                   fontWeight: 400, 
-//                   color: '#666',
-//                   lineHeight: isTablet ? '24px' : '26px'
-//                 }}>
-//                   {infoCard.description}
-//                 </p>
-//               )}
-//             </div>
-//           </div>
-//         )}
-
-//         {/* Mobile "Did You Know?" Card - Show only on mobile */}
-//         {isMobile && infoCard && (
-//           <div style={{
-//             position: 'relative',
-//             zIndex: 10,
-//             margin: '32px 20px 0',
-//             background: 'rgba(255, 255, 255, 0.9)',
-//             backdropFilter: 'blur(10px)',
-//             borderRadius: '20px',
-//             padding: '24px',
-//             boxShadow: '0 4px 24px rgba(0, 0, 0, 0.2)'
-//           }}>
-//             <h2 style={{ 
-//               fontSize: '24px', 
-//               fontWeight: 500, 
-//               color: '#000',
-//               letterSpacing: '-0.01em',
-//               textTransform: 'capitalize',
-//               marginBottom: '12px'
-//             }}>
-//               Did you Know?
-//             </h2>
-            
-//             {infoCard?.title && (
-//               <h3 style={{ 
-//                 fontSize: '20px', 
-//                 fontWeight: 600, 
-//                 color: '#422F2A',
-//                 lineHeight: '26px',
-//                 marginBottom: '12px'
-//               }}>
-//                 {infoCard.title}
-//               </h3>
-//             )}
-            
-//             {infoCard?.description && (
-//               <p style={{ 
-//                 fontSize: '15px', 
-//                 fontWeight: 400, 
-//                 color: '#666',
-//                 lineHeight: '22px',
-//                 margin: 0
-//               }}>
-//                 {infoCard.description}
-//               </p>
-//             )}
-//           </div>
-//         )}
-//       </section>
-//     );
-//   }
-// }
 export class WhyImportantSection extends React.Component {
   constructor(props) {
     super(props);
@@ -1024,17 +197,28 @@ export class WhyImportantSection extends React.Component {
       isTablet: false,
       currentInfoCard: 0,
     };
+    this.sectionRef = React.createRef();
+    this.observer = null;
+    this.scrollTimeout = null;
+    this.isSnapping = false;
   }
 
   componentDidMount() {
-    document.addEventListener("scroll", this.handleScroll);
     this.handleResize();
     window.addEventListener('resize', this.handleResize);
+    this.setupIntersectionObserver();
+    window.addEventListener('scroll', this.handleSnapScroll, { passive: true });
   }
 
   componentWillUnmount() {
-    document.removeEventListener("scroll", this.handleScroll);
     window.removeEventListener('resize', this.handleResize);
+    if (this.observer) {
+      this.observer.disconnect();
+    }
+    window.removeEventListener('scroll', this.handleSnapScroll);
+    if (this.scrollTimeout) {
+      clearTimeout(this.scrollTimeout);
+    }
   }
 
   handleResize = () => {
@@ -1046,13 +230,62 @@ export class WhyImportantSection extends React.Component {
     }
   };
 
-  handleScroll = () => {
-    const scrollTop = document.documentElement.scrollTop;
-    const isVisible = scrollTop > 0 && scrollTop < 2000;
-    
-    if (this.state.isVisible !== isVisible) {
-      this.setState({ isVisible });
+  setupIntersectionObserver = () => {
+    if (typeof window === 'undefined' || !this.sectionRef.current) return;
+
+    this.observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          // Set visible when at least 10% of the section is visible
+          const isVisible = entry.intersectionRatio > 0.1;
+          if (this.state.isVisible !== isVisible) {
+            this.setState({ isVisible });
+          }
+        });
+      },
+      {
+        threshold: [0, 0.1, 0.3, 0.5, 0.7, 1.0],
+        rootMargin: '0px'
+      }
+    );
+
+    this.observer.observe(this.sectionRef.current);
+  };
+
+  handleSnapScroll = () => {
+    if (this.isSnapping || !this.sectionRef.current) return;
+
+    // Clear existing timeout
+    if (this.scrollTimeout) {
+      clearTimeout(this.scrollTimeout);
     }
+
+    // Wait for scroll to stop (debounced)
+    this.scrollTimeout = setTimeout(() => {
+      if (!this.sectionRef.current) return;
+
+      const rect = this.sectionRef.current.getBoundingClientRect();
+      const viewportHeight = window.innerHeight;
+      
+      // Check if section is partially visible (trigger at 10% into view)
+      const isPartiallyVisible = rect.top < viewportHeight * 0.9 && rect.top > -rect.height * 0.5;
+      const isTopNearViewport = rect.top > 0 && rect.top < viewportHeight * 0.9;
+      
+      if (isPartiallyVisible && isTopNearViewport) {
+        this.isSnapping = true;
+        const targetScroll = window.scrollY + rect.top;
+        
+        window.scrollTo({
+          top: targetScroll,
+          behavior: 'smooth'
+        });
+        
+        // Reset snapping flag after animation
+        setTimeout(() => {
+          this.isSnapping = false;
+        }, 800);
+      }
+    }, 100);
   };
 
   toggleSidebar = () => {
@@ -1093,7 +326,7 @@ export class WhyImportantSection extends React.Component {
     const currentCard = infoCards.length > 0 ? infoCards[currentInfoCard] : null;
 
     return (
-      <section className="why-important-section-wrapper" style={{ 
+      <section ref={this.sectionRef} className="why-important-section-wrapper" style={{ 
         position: 'relative', 
         width: '100%', 
         minHeight: isMobile ? 'auto' : '100vh', 
@@ -1454,183 +687,7 @@ export class WhyImportantSection extends React.Component {
   }
 }
 
-// Program Highlights Section
-// export class ProgramHighlightsSection extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       isVisible: false,
-//     };
-//   }
 
-//   componentDidMount() {
-//     document.addEventListener("scroll", this.handleScroll);
-//   }
-
-//   componentWillUnmount() {
-//     document.removeEventListener("scroll", this.handleScroll);
-//   }
-
-//   handleScroll = () => {
-//     const scrollTop = document.documentElement.scrollTop;
-//     const isVisible = scrollTop > 1000 && scrollTop < 3500;
-    
-//     if (this.state.isVisible !== isVisible) {
-//       this.setState({ isVisible });
-//     }
-//   };
-
-//   render() {
-//     const { title, highlights, backgroundImage } = this.props;
-//     const { isVisible } = this.state;
-//     const bgImageUrl = getImageUrl(backgroundImage);
-
-//     return (
-//       <section className="program-highlights-section-wrapper" style={{ 
-//         position: 'relative', 
-//         width: '100%', 
-//         background: '#fff',
-//         padding: '64px 0'
-//       }}>
-//         {/* Background Image with Overlay */}
-//         <div style={{
-//           position: 'absolute',
-//           inset: 0,
-//           backgroundImage: bgImageUrl ? `url(${bgImageUrl})` : 'linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6))',
-//           backgroundSize: 'cover',
-//           backgroundPosition: 'center'
-//         }} />
-//         <div style={{ position: 'absolute', inset: 0, background: 'rgba(0, 0, 0, 0.6)' }} />
-        
-//         {/* Content */}
-//         <div style={{
-//           position: 'relative',
-//           zIndex: 10,
-//           padding: '0 80px',
-//           opacity: isVisible ? 1 : 0,
-//           transform: isVisible ? 'translateY(0)' : 'translateY(40px)',
-//           transition: 'all 0.7s'
-//         }}>
-//           <h2 style={{ 
-//             fontSize: '56px', 
-//             fontWeight: 700, 
-//             color: '#fff',
-//             marginBottom: '48px',
-//             letterSpacing: '-0.01em',
-//             textTransform: 'capitalize',
-//             textAlign: 'center'
-//           }}>
-//             {title || "Program Highlights"}
-//           </h2>
-          
-//           <div className="row" style={{ display: 'flex', gap: '24px', flexWrap: 'wrap' }}>
-//             {highlights?.map((highlight, index) => {
-//               const highlightImageUrl = getImageUrl(highlight.image);
-//               return (
-//                 // <div 
-//                 //   key={index}
-//                 //   className="col-md-3"
-//                 //   style={{ 
-//                 //     display: 'flex', 
-//                 //     flexDirection: 'column', 
-//                 //     gap: '12px',
-//                 //     flex: 1,
-//                 //     minWidth: '250px'
-//                 //   }}
-//                 // >
-//                 //   {highlightImageUrl &&
-//                 //      <div style={{
-//                 //     width: '100%',
-//                 //     height: '283px',
-//                 //     backgroundImage: highlightImageUrl ? `url(${highlightImageUrl})` : 'linear-gradient(#666, #999)',
-//                 //     backgroundSize: 'cover',
-//                 //     backgroundPosition: 'center',
-//                 //     borderRadius: '20px'
-//                 //   }} /> }
-               
-//                 //   <div style={{
-//                 //     borderRadius: '12px',
-//                 //     padding: '16px 8px'
-//                 //   }}>
-//                 //     <h3 style={{ 
-//                 //       fontSize: '24px', 
-//                 //       fontWeight: 700, 
-//                 //       color: '#fff',
-//                 //       marginBottom: '12px'
-//                 //     }}>
-//                 //       {highlight.title}
-//                 //     </h3>
-//                 //     <p style={{ 
-//                 //       fontSize: '18px', 
-//                 //       fontWeight: 400,
-//                 //       color: '#fff',
-//                 //       lineHeight: '24px'
-//                 //     }}>
-//                 //       {highlight.description}
-//                 //     </p>
-//                 //   </div>
-//                 // </div>
-//                  <div 
-//                   key={index}
-//                   className="col-md-3"
-//                   style={{ 
-//                     display: 'flex', 
-//                     flexDirection: 'column', 
-//                     gap: '12px',
-//                     flex: 1,
-//                     minWidth: '250px',
-//                     background: highlightImageUrl ? 'transparent' : 'rgba(255, 255, 255, 0.1)',
-//                     backdropFilter: highlightImageUrl ? 'none' : 'blur(10px)',
-//                     borderRadius: '20px',
-//                     padding: highlightImageUrl ? '0' : '24px'
-//                   }}
-//                 >
-//                   {highlightImageUrl && (
-//                     <div style={{
-//                       width: '100%',
-//                       height: '283px',
-//                       backgroundImage: `url(${highlightImageUrl})`,
-//                       backgroundSize: 'cover',
-//                       backgroundPosition: 'center',
-//                       borderRadius: '20px',
-//                       flexShrink: 0
-//                     }} />
-//                   )}
-               
-//                   <div style={{
-//                     borderRadius: '12px',
-//                     padding: highlightImageUrl ? '16px 8px' : '0',
-//                     flex: 1,
-//                     display: 'flex',
-//                     flexDirection: 'column'
-//                   }}>
-//                     <h3 style={{ 
-//                       fontSize: '24px', 
-//                       fontWeight: 700, 
-//                       color: '#fff',
-//                       marginBottom: '12px'
-//                     }}>
-//                       {highlight.title}
-//                     </h3>
-//                     <p style={{ 
-//                       fontSize: '18px', 
-//                       fontWeight: 400,
-//                       color: '#fff',
-//                       lineHeight: '24px',
-//                       margin: 0
-//                     }}>
-//                       {highlight.description}
-//                     </p>
-//                   </div>
-//                 </div>
-//               );
-//             })}
-//           </div>
-//         </div>
-//       </section>
-//     );
-//   }
-// }
 
 export class ProgramHighlightsSection extends React.Component {
   constructor(props) {
@@ -1640,17 +697,28 @@ export class ProgramHighlightsSection extends React.Component {
       isMobile: false,
       isTablet: false,
     };
+    this.sectionRef = React.createRef();
+    this.observer = null;
+    this.scrollTimeout = null;
+    this.isSnapping = false;
   }
 
   componentDidMount() {
-    document.addEventListener("scroll", this.handleScroll);
     this.handleResize();
     window.addEventListener('resize', this.handleResize);
+    this.setupIntersectionObserver();
+    window.addEventListener('scroll', this.handleSnapScroll, { passive: true });
   }
 
   componentWillUnmount() {
-    document.removeEventListener("scroll", this.handleScroll);
     window.removeEventListener('resize', this.handleResize);
+    if (this.observer) {
+      this.observer.disconnect();
+    }
+    window.removeEventListener('scroll', this.handleSnapScroll);
+    if (this.scrollTimeout) {
+      clearTimeout(this.scrollTimeout);
+    }
   }
 
   handleResize = () => {
@@ -1662,13 +730,62 @@ export class ProgramHighlightsSection extends React.Component {
     }
   };
 
-  handleScroll = () => {
-    const scrollTop = document.documentElement.scrollTop;
-    const isVisible = scrollTop > 1000 && scrollTop < 3500;
-    
-    if (this.state.isVisible !== isVisible) {
-      this.setState({ isVisible });
+  setupIntersectionObserver = () => {
+    if (typeof window === 'undefined' || !this.sectionRef.current) return;
+
+    this.observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          // Set visible when at least 10% of the section is visible
+          const isVisible = entry.intersectionRatio > 0.1;
+          if (this.state.isVisible !== isVisible) {
+            this.setState({ isVisible });
+          }
+        });
+      },
+      {
+        threshold: [0, 0.1, 0.3, 0.5, 0.7, 1.0],
+        rootMargin: '0px'
+      }
+    );
+
+    this.observer.observe(this.sectionRef.current);
+  };
+
+  handleSnapScroll = () => {
+    if (this.isSnapping || !this.sectionRef.current) return;
+
+    // Clear existing timeout
+    if (this.scrollTimeout) {
+      clearTimeout(this.scrollTimeout);
     }
+
+    // Wait for scroll to stop (debounced)
+    this.scrollTimeout = setTimeout(() => {
+      if (!this.sectionRef.current) return;
+
+      const rect = this.sectionRef.current.getBoundingClientRect();
+      const viewportHeight = window.innerHeight;
+      
+      // Check if section is partially visible (trigger at 10% into view)
+      const isPartiallyVisible = rect.top < viewportHeight * 0.9 && rect.top > -rect.height * 0.5;
+      const isTopNearViewport = rect.top > 0 && rect.top < viewportHeight * 0.9;
+      
+      if (isPartiallyVisible && isTopNearViewport) {
+        this.isSnapping = true;
+        const targetScroll = window.scrollY + rect.top;
+        
+        window.scrollTo({
+          top: targetScroll,
+          behavior: 'smooth'
+        });
+        
+        // Reset snapping flag after animation
+        setTimeout(() => {
+          this.isSnapping = false;
+        }, 800);
+      }
+    }, 100);
   };
 
   render() {
@@ -1677,7 +794,7 @@ export class ProgramHighlightsSection extends React.Component {
     const bgImageUrl = getImageUrl(backgroundImage);
 
     return (
-      <section className="program-highlights-section-wrapper" style={{ 
+      <section ref={this.sectionRef} className="program-highlights-section-wrapper" style={{ 
         position: 'relative', 
         width: '100%', 
         minHeight: isMobile ? "auto" : "100vh",
@@ -2012,15 +1129,23 @@ export class ImpactSection extends React.Component {
       isMobile: false,
       isTablet: false,
     };
+    this.sectionRef = React.createRef();
+    this.scrollTimeout = null;
+    this.isSnapping = false;
   }
 
   componentDidMount() {
     this.handleResize();
     window.addEventListener('resize', this.handleResize);
+    window.addEventListener('scroll', this.handleSnapScroll, { passive: true });
   }
 
   componentWillUnmount() {
     window.removeEventListener('resize', this.handleResize);
+    window.removeEventListener('scroll', this.handleSnapScroll);
+    if (this.scrollTimeout) {
+      clearTimeout(this.scrollTimeout);
+    }
   }
 
   handleResize = () => {
@@ -2050,6 +1175,42 @@ export class ImpactSection extends React.Component {
     }
   };
 
+  handleSnapScroll = () => {
+    if (this.isSnapping || !this.sectionRef.current) return;
+
+    // Clear existing timeout
+    if (this.scrollTimeout) {
+      clearTimeout(this.scrollTimeout);
+    }
+
+    // Wait for scroll to stop (debounced)
+    this.scrollTimeout = setTimeout(() => {
+      if (!this.sectionRef.current) return;
+
+      const rect = this.sectionRef.current.getBoundingClientRect();
+      const viewportHeight = window.innerHeight;
+      
+      // Check if section is partially visible (trigger at 10% into view)
+      const isPartiallyVisible = rect.top < viewportHeight * 0.9 && rect.top > -rect.height * 0.5;
+      const isTopNearViewport = rect.top > 0 && rect.top < viewportHeight * 0.9;
+      
+      if (isPartiallyVisible && isTopNearViewport) {
+        this.isSnapping = true;
+        const targetScroll = window.scrollY + rect.top;
+        
+        window.scrollTo({
+          top: targetScroll,
+          behavior: 'smooth'
+        });
+        
+        // Reset snapping flag after animation
+        setTimeout(() => {
+          this.isSnapping = false;
+        }, 800);
+      }
+    }, 100);
+  };
+
   render() {
     const { title, stats, testimonials, backgroundImage } = this.props;
     const { currentTestimonial, isMobile, isTablet } = this.state;
@@ -2058,7 +1219,7 @@ export class ImpactSection extends React.Component {
     const testimonialImageUrl = testimonial ? getImageUrl(testimonial.image) : null;
 
     return (
-      <section className="impact-section-wrapper" style={{ 
+      <section ref={this.sectionRef} className="impact-section-wrapper" style={{ 
         position: 'relative', 
         width: '100%', 
         minHeight: isMobile ? 'auto' : '100vh', 
@@ -2138,9 +1299,8 @@ export class ImpactSection extends React.Component {
                       )} */}
                       {statImageUrl && (
   <div style={{
-    width: '100%',
-    maxWidth: isMobile ? '230px' : isTablet ? '120px' : '140px',
-    height: "auto",
+    width: 'auto',
+    height: isMobile ? '200px' : isTablet ? '140px' : '140px',
     margin: '16px auto',
     display: 'flex',
     alignItems: 'center',
@@ -2354,89 +1514,7 @@ export class ImpactSection extends React.Component {
     );
   }
 }
-// Partners Section
-// export class PartnersSection extends React.Component {
-//   render() {
-//     const { title, partners } = this.props;
 
-//     return (
-//       <section className="partners-section-wrapper" style={{ 
-//         position: 'relative', 
-//         width: '100%', 
-       
-//         background: '#fff',
-//         padding: '64px 0 '
-//       }}>
-//         <div style={{ padding: '0 80px' }}>
-//           <h2 style={{ 
-//             fontSize: '56px', 
-//             fontWeight: 700, 
-//             color: '#000',
-//             marginBottom: '64px',
-//             letterSpacing: '-0.01em',
-//             textTransform: 'capitalize'
-//           }}>
-//             {title || "Our Partners"}
-//           </h2>
-          
-//           <div style={{ 
-//             display: 'flex', 
-//             alignItems: 'center', 
-//             justifyContent: 'flex-start',
-//             gap: '96px',
-//             padding: '48px 0 0 0',
-//             flexWrap: 'wrap'
-//           }}>
-//             {partners?.map((partner, index) => {
-//               const logoUrl = getImageUrl(partner.logo);
-//               return (
-//                 <div 
-//                   key={index} 
-//                   style={{ 
-//                     display: 'flex', 
-//                     alignItems: 'center', 
-//                     justifyContent: 'center',
-//                     transition: 'transform 0.3s ease',
-//                     cursor: 'pointer'
-//                   }}
-//                   onMouseEnter={(e) => {
-//                     e.currentTarget.style.transform = 'translateY(-10px) scale(1.1)';
-//                   }}
-//                   onMouseLeave={(e) => {
-//                     e.currentTarget.style.transform = 'translateY(0) scale(1)';
-//                   }}
-//                 >
-//                   {logoUrl ? (
-//                     <img 
-//                       src={logoUrl} 
-//                       alt={partner.name} 
-//                       style={{ 
-//                         height: '120px', 
-//                         objectFit: 'contain'
-//                       }} 
-//                     />
-//                   ) : (
-//                     <div style={{ 
-//                       width: '160px', 
-//                       height: '120px', 
-//                       background: '#e5e7eb',
-//                       borderRadius: '8px',
-//                       display: 'flex',
-//                       alignItems: 'center',
-//                       justifyContent: 'center'
-//                     }}>
-//                       <span style={{ fontSize: '14px', color: '#6b7280' }}>{partner.name}</span>
-//                     </div>
-//                   )}
-//                 </div>
-//               );
-//             })}
-//           </div>
-//         </div>
-//       </section>
-//     );
-//   }
-// }
 
 export class PartnersSection extends React.Component {
   constructor(props) {
@@ -2445,15 +1523,23 @@ export class PartnersSection extends React.Component {
       isMobile: false,
       isTablet: false,
     };
+    this.sectionRef = React.createRef();
+    this.scrollTimeout = null;
+    this.isSnapping = false;
   }
 
   componentDidMount() {
     this.handleResize();
     window.addEventListener('resize', this.handleResize);
+    window.addEventListener('scroll', this.handleSnapScroll, { passive: true });
   }
 
   componentWillUnmount() {
     window.removeEventListener('resize', this.handleResize);
+    window.removeEventListener('scroll', this.handleSnapScroll);
+    if (this.scrollTimeout) {
+      clearTimeout(this.scrollTimeout);
+    }
   }
 
   handleResize = () => {
@@ -2465,12 +1551,48 @@ export class PartnersSection extends React.Component {
     }
   };
 
+  handleSnapScroll = () => {
+    if (this.isSnapping || !this.sectionRef.current) return;
+
+    // Clear existing timeout
+    if (this.scrollTimeout) {
+      clearTimeout(this.scrollTimeout);
+    }
+
+    // Wait for scroll to stop (debounced)
+    this.scrollTimeout = setTimeout(() => {
+      if (!this.sectionRef.current) return;
+
+      const rect = this.sectionRef.current.getBoundingClientRect();
+      const viewportHeight = window.innerHeight;
+      
+      // Check if section is partially visible (trigger at 10% into view)
+      const isPartiallyVisible = rect.top < viewportHeight * 0.9 && rect.top > -rect.height * 0.5;
+      const isTopNearViewport = rect.top > 0 && rect.top < viewportHeight * 0.9;
+      
+      if (isPartiallyVisible && isTopNearViewport) {
+        this.isSnapping = true;
+        const targetScroll = window.scrollY + rect.top;
+        
+        window.scrollTo({
+          top: targetScroll,
+          behavior: 'smooth'
+        });
+        
+        // Reset snapping flag after animation
+        setTimeout(() => {
+          this.isSnapping = false;
+        }, 800);
+      }
+    }, 100);
+  };
+
   render() {
     const { title, partners } = this.props;
     const { isMobile, isTablet } = this.state;
 
     return (
-      <section className="partners-section-wrapper" style={{ 
+      <section ref={this.sectionRef} className="partners-section-wrapper" style={{ 
         position: 'relative', 
         width: '100%', 
         background: '#fff',
