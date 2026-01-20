@@ -18,9 +18,9 @@ whyImportantSection:
   backgroundImage: /img/leap-picture-1.png
   isVisible: true
   infoCard:
-    title: Key Challenges in Odisha's Dairy Sector
-    description: Understanding the core issues affecting dairy farmers and milk
-      production in the state
+    title: Odisha is the home to 15.2 Lakh+ Cattle Farmers
+    description: Average yield of 3.5 litres/day per animal against the national 6.7
+      litres/day per animal
   items:
     - title: Poor yield for farmers
       image: /img/fid-icon-1.png
