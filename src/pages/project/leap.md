@@ -62,7 +62,7 @@ impactSection:
         label: Livestock farmers impacted across 16 districts
       - value: 100+
         image: /img/leap-icon-3-removebg-preview.png
-        label: On-call artificial inseminations per district per day
+        label: On-call artificial inseminations performed per district per day
       - value: 45%
         image: /img/leap-icon-4-removebg-preview.png
         label: Calf birth rate, risen from 5%
