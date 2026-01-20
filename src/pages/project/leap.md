@@ -18,7 +18,7 @@ whyImportantSection:
   backgroundImage: /img/leap-picture-1.png
   isVisible: true
   infoCard:
-    title: Odisha is the home to 15.2 Lakh+ Cattle Farmers
+    title: There are 15.2 Lakh+ Cattle Farmers in Odisha
     description: Average yield of 3.5 litres/day per animal against the national 6.7
       litres/day per animal
   items:
