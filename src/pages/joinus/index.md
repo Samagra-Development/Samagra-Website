@@ -8,11 +8,10 @@ infoText2: 'Refer to the Job Descriptions: <a target={"_blank"}
   href="https://drive.google.com/file/d/1brzGfcYPaR1Cvgw9CVz9rxJEBkdsJvP6/view"
   > Emerging Leader </a> <p>'
 formAcceptance: ' <p> Update: The applications for Open Drive are closed
-  now.</p><p> The designation offered will be determined by Samagra after the
-  interviews.</p><p> Interviews of applicants from Delhi-NCR will be held
-  in-person at our <a target={"_blank"}
-  href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office</a> <p>'
-showForm: false
+  now.</p><p> Interviews of applicants from Delhi-NCR will be held in-person at
+  our <a target={"_blank"} href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" >
+  Delhi office</a> <p>'
+showForm: true
 verticalImage: /img/screenshot-2025-11-21-at-2.21.38 pm.png
 horizontalImage: /img/screenshot-2025-11-21-at-2.21.38 pm.png
 followLinkedin: /img/follow-linkedin.jpg
