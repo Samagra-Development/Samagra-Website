@@ -91,11 +91,13 @@ formsElements:
     placeholder: Enter %/CGPA
     type: text
     validation: VALID_TEXT
-  - required: false
-    label: Postgrad Institute
-    options: []
-    type: text
-    validation: VALID_TEXT
+  - required: true
+    label: Batch of
+    options:
+      - text: "2025"
+      - text: "2026"
+    type: select
+    validation: VALID_OPTION
     placeholder: S﻿elect year of graduation
   - contentDescription: " "
     label: Current/Previous Employer
