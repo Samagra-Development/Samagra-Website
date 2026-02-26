@@ -100,7 +100,7 @@ formsElements:
     validation: VALID_OPTION
     placeholder: S﻿elect year of graduation
   - contentDescription: " "
-    label: Current/Previous Employer
+    label: Company placed at / Current Employer
     placeholder: Enter Organization
     required: true
     type: text
