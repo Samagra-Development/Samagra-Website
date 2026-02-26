@@ -3,17 +3,15 @@ templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
 infoText2: 'Refer to the Job Descriptions: <a target={"_blank"}
-  href="https://drive.google.com/file/d/19MfOuedc_55Km_1fc2-k1DeJWsET8zlk/view"
-  > Sr. Associate/Consultant </a>|<a target={"_blank"}
-  href="https://drive.google.com/file/d/1brzGfcYPaR1Cvgw9CVz9rxJEBkdsJvP6/view"
-  > Emerging Leader </a> <p>'
-formAcceptance: ' <p> Update: The applications for Open Drive are closed
-  now.</p><p> Interviews of applicants from Delhi-NCR will be held in-person at
-  our <a target={"_blank"} href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" >
-  Delhi office</a> <p>'
+  href="https://drive.google.com/file/d/1yn-HA-xNDnVO4vCaOkX3kGOkqJ-QjkUo/view?usp=sharing"
+  > Associate </a>'
+formAcceptance: ' <p> Note: The Associate salary is 12 LPA (9.6 LPA fixed + 2.4
+  LPA performance bonus).</p><p> Interviews of applicants from Delhi-NCR will be
+  held in-person at our <a target={"_blank"}
+  href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office</a> <p>'
 showForm: true
-verticalImage: /img/screenshot-2025-11-21-at-2.21.38 pm.png
-horizontalImage: /img/screenshot-2025-11-21-at-2.21.38 pm.png
+verticalImage: /img/screenshot-2026-02-26-at-11.32.02 am.png
+horizontalImage: /img/screenshot-2026-02-26-at-11.32.02 am.png
 followLinkedin: /img/follow-linkedin.jpg
 postSubInfo:
   heading: Thank you
@@ -99,6 +97,16 @@ formsElements:
     type: select
     validation: VALID_OPTION
     placeholder: S﻿elect year of graduation
+  - required: true
+    label: W﻿hat type of candidate are you?
+    title: W﻿hat type of candidate are you?
+    placeholder: select the best fit
+    type: select
+    validation: VALID_OPTION
+    options:
+      - text: I am already placed, but my heart is in impact
+      - text: I am waiting for an impact opportunity on campus
+      - text: I am currently working, but still looking for a break in impact
   - contentDescription: " "
     label: Company placed at / Current Employer
     placeholder: Enter Organization
@@ -112,7 +120,7 @@ formsElements:
     type: number
     validation: VALID_NUMBER
   - contentDescription: " Notice Period"
-    label: Notice Period (in days)
+    label: Notice Period (in months)
     options:
       - text: Immediate Joining
       - text: 1 month
@@ -123,7 +131,7 @@ formsElements:
     type: text
     validation: VALID_NUMBER
   - contentDescription: " "
-    label: Current CTC (Fixed + Variable)
+    label: Offered/Current CTC (Fixed + Variable)
     placeholder: Enter your current CTC (p.a.)
     required: true
     type: text
