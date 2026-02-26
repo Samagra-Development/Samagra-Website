@@ -76,6 +76,18 @@ formsElements:
       - text: Ashoka University
       - text: Birla Institute of Technology (BITS)
       - text: Delhi Technological University (DTU)
+      - text: Hansraj College
+      - text: Hindu College
+      - text: IIIT Hyderabad
+      - text: IIT Delhi
+      - text: IIT Kanpur
+      - text: LSR
+      - text: Miranda House
+      - text: NIT Karnataka
+      - text: NIT Warangal
+      - text: SSCBS
+      - text: SRCC
+      - text: St. Xaviers
     otherOptionAvailable:
       activateOn: ""
       label: ""
@@ -155,8 +167,8 @@ formsElements:
       Organizational Fit MCQ Test.
     label: Please select your availability for Round 2, if shortlisted
     options:
-      - text: 13th Dec' 25 (7:00 PM - 10:00 PM)
-      - text: 14th Dec' 25 (7:00 PM - 10:00 PM)
+      - text: 20th Mar' 26 (7:00 PM - 10:00 PM)
+      - text: 21st Mar' 26 (7:00 PM - 10:00 PM)
     placeholder: Select Option
     required: true
     type: select
