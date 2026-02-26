@@ -74,15 +74,18 @@ formsElements:
     validation: VALID_TEXT
   - contentDescription: "   "
     label: Undergrad Institute
-    options: []
+    options:
+      - text: Ashoka University
+      - text: Birla Institute of Technology (BITS)
+      - text: Delhi Technological University (DTU)
     otherOptionAvailable:
       activateOn: ""
       label: ""
       placeholder: ""
     placeholder: Enter Institute
     required: true
-    type: text
-    validation: VALID_TEXT
+    type: select
+    validation: VALID_OPTION
   - required: true
     label: Undergrad %/CGPA
     placeholder: Enter %/CGPA
