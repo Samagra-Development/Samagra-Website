@@ -2,14 +2,14 @@
 templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
-infoText2: 'Refer to the Job Descriptions: <a target={"_blank"}
+infoText2: 'Refer to the Job Description: <a target={"_blank"}
   href="https://drive.google.com/file/d/1yn-HA-xNDnVO4vCaOkX3kGOkqJ-QjkUo/view?usp=sharing"
   > Associate </a>'
 formAcceptance: ' <p> Note: The Associate salary is 12 LPA (9.6 LPA fixed + 2.4
-  LPA performance bonus).</p><p> Interviews of applicants from Delhi-NCR will be
+  LPA performance bonus)</p><p> Interviews of applicants from Delhi-NCR will be
   held in-person at our <a target={"_blank"}
   href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office</a> <p>'
-showForm: true
+showForm: false
 verticalImage: /img/screenshot-2026-02-26-at-11.32.02 am.png
 horizontalImage: /img/screenshot-2026-02-26-at-11.32.02 am.png
 followLinkedin: /img/follow-linkedin.jpg
