@@ -92,7 +92,7 @@ formsElements:
       activateOn: ""
       label: ""
       placeholder: ""
-    placeholder: Enter Institute
+    placeholder: S﻿elect Institute
     required: true
     type: select
     validation: VALID_OPTION
@@ -108,11 +108,11 @@ formsElements:
       - text: "2026"
     type: select
     validation: VALID_OPTION
-    placeholder: S﻿elect year of graduation
+    placeholder: Year of graduation
   - required: true
     label: W﻿hat type of candidate are you?
     title: W﻿hat type of candidate are you?
-    placeholder: select the best fit
+    placeholder: Select the best fit
     type: select
     validation: VALID_OPTION
     options:
@@ -121,7 +121,7 @@ formsElements:
       - text: I am currently working, but still looking for a break in impact
   - contentDescription: " "
     label: Company placed at / Current Employer
-    placeholder: Enter Organization
+    placeholder: Enter NA if unplaced
     required: true
     type: text
     validation: VALID_TEXT
