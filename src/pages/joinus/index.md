@@ -6,10 +6,9 @@ infoText2: 'Refer to the Job Description: <a target={"_blank"}
   href="https://drive.google.com/file/d/1yn-HA-xNDnVO4vCaOkX3kGOkqJ-QjkUo/view?usp=sharing"
   > Associate </a>'
 formAcceptance: ' <p> <a target={"_blank"}
-  href="https://us06web.zoom.us/meeting/register/kVVTh5XhQ--_QXLAth_mVg" > Click
-  here to register for Samagra Recruitment Talk  scheduled at 7 PM on 9th
-  March</a></p><p> Interviews of applicants from Delhi-NCR will be held
-  in-person at our <a target={"_blank"}
+  href="https://docs.google.com/document/d/1U3s-pVeIw8fmNR0NlzuXz1wC0aQ5G7pxuQfx-pVb1gQ/edit?usp=sharing"
+  > Check the list of 15 eligible campuses here</a></p><p> Interviews of
+  applicants from Delhi-NCR will be held in-person at our <a target={"_blank"}
   href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office</a> <p>'
 showForm: true
 verticalImage: /img/screenshot-2026-02-26-at-11.32.02 am.png
