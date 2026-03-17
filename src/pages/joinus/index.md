@@ -5,7 +5,7 @@ infoText1: Join Us
 infoText2: 'Refer to the Job Description: <a target={"_blank"}
   href="https://drive.google.com/file/d/1yn-HA-xNDnVO4vCaOkX3kGOkqJ-QjkUo/view?usp=sharing"
   > Associate </a>'
-formAcceptance: ' <p> <a target={"_blank"} href="" > Application for UG hiring
+formAcceptance: ' <p> <a target={"_blank"} href="" > Applications for UG hiring
   is closed.</a></p><p> Interviews of applicants from Delhi-NCR will be held
   in-person at our <a target={"_blank"}
   href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office</a> <p>'
