@@ -5,10 +5,9 @@ bannerImage: /img/new_delhi_government_block_03-2016_img5.jpg
 mainContent:
   - text: Since its inception in 2012, Samagra has been working with governments at
       various levels across the country. We have synthesized our learnings from
-      these 13 years in the form of two frameworks–The Governance Matrix and
-      Panchsutras for Governance Transformation. These frameworks will be useful
-      for those working in the government as well as for those working with the
-      government.
+      these 13 years in the form of two frameworks – The Governance Matrix and
+      The Mission Framework. These frameworks can be useful for those working in
+      the government as well as for those working with the government.
 frameworks:
   - actions:
       - link: https://drive.google.com/file/d/1FhZY3RhkjY_5dWmfQW-Ad_zdWXCKFucr/view?usp=share_link
