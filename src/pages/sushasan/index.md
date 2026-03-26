@@ -199,7 +199,7 @@ postData:
       selectedCategory: "4"
       episode: "2"
       urlLink: https://www.youtube.com/watch?v=DDnjETgWL04
-      postImage: /img/breaking-the-mafia-nexus.png
+      postImage: /img/how-jewar-became-india’s-biggest.png
   - postCard:
       postName: Prashant Kumar
       selectedCategory: "4"
