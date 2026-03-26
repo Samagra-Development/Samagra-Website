@@ -36,6 +36,7 @@ postCategories:
   - season: "1"
   - season: "2"
   - season: "3"
+  - season: "4"
 postData:
   - postCard:
       postName: Anil Swarup
@@ -187,4 +188,16 @@ postData:
       urlLink: https://youtu.be/atdO3wv4Y_k
       episode: "10"
       postImage: /img/3-2-.png
+  - postCard:
+      postName: Amrit Abhijat
+      selectedCategory: "4"
+      episode: "1"
+      urlLink: https://www.youtube.com/watch?v=qwMJG14ZIqE
+      postImage: /img/s4-ep1-t2.png
+  - postCard:
+      postName: Alok Kumar
+      selectedCategory: "4"
+      episode: "2"
+      urlLink: https://www.youtube.com/watch?v=DDnjETgWL04
+      postImage: /img/breaking-the-mafia-nexus.png
 ---
