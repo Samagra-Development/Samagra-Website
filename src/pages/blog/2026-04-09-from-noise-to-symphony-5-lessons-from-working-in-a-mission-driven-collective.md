@@ -16,17 +16,13 @@ featuredimage: /img/blog-feature.png
 ---
 ![](/img/screenshot-2026-04-09-at-11.53.56 am.png)
 
-
-
 It began with beautiful, passionate noise.
 
 I still remember my very first meeting with **PUCAR** — the Public Collective for Avoidance and Resolution of Disputes. Around the table sat lawyers from Agami, researchers from XKDR Forum, technocrats from eGovernments Foundation, and systemic transformation experts from Samagra. All of us were deeply mission-driven, united by one audacious goal: to transform the dispute resolution experience for every citizen in India.
 
 Yet, what I heard that day was not harmony. It was noise — brilliant individual tunes clashing against each other. Like a room full of the country’s best violinists, pianists, and drummers, each playing their own masterpiece.
 
-
-
-![](/img/m1.png)
+![PUCARs full team brainstorming session in 2023](/img/screenshot-2026-04-09-at-1.02.47 pm.png "PUCARs full team brainstorming session in 2023")
 
 I﻿mage 1: PUCARs full team brainstorming session in 2023
 
@@ -104,11 +100,9 @@ Councils + Networking + Over-communication + Consensus + Cross-organisational Ac
 
 For us, that symphony is 24x7 ON Court — Kerala’s (and India’s) first 24/7 digital court for cheque-bounce cases.
 
-![](/img/m2.png)
+![24X7 ON Courts public website](/img/screenshot-2026-04-09-at-1.03.12 pm.png "24X7 ON Courts public website")
 
 I﻿mage 2: 24X7 ON Courts public website
-
-
 
 Since its launch in November 2024, the results have been remarkable:
 
@@ -117,7 +111,7 @@ Since its launch in November 2024, the results have been remarkable:
 
 **Take these lessons to your own orchestra**
 
-![](/img/unnamed-2-.png)
+![](/img/screenshot-2026-04-09-at-1.03.19 pm.png)
 
 Whether you run a government programme, a multi-partner project, or any mission-driven initiative, chances are you’re also conducting an orchestra — with government partners on violins, knowledge partners in the choir, tech vendors on cellos, and funders on kettle drums.
 
@@ -133,7 +127,7 @@ We have broken out of noise and created symphonies — not by luck, but by desig
 
 If your work also feels like an orchestra (formal or informal), I hope these lessons help you turn your own beautiful noise into lasting impact.
 
-![](/img/unnamed-1-.png)
+![PUCARs full team at an In-person All Hands meeting for strategic planning in 2025](/img/unnamed-1-.png "PUCARs full team at an In-person All Hands meeting for strategic planning in 2025")
 
 \
 I﻿mage 4: PUCARs full team at an In-person All Hands meeting for strategic planning in 2025
