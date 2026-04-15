@@ -42,7 +42,7 @@ textCardsSection:
       readMoreLink: https://www.linkedin.com/feed/update/urn:li:activity:7374756791487877120
       image: /img/screenshot-2026-04-15-at-1.35.02 pm.png
     - tag: "Edition #4"
-      title: Citizens availing schemes and services of Maharashtra
+      title: Citizens availing schemes & services of Maharashtra
       description: In the fourth edition of Decoding Citizens, we spotlight
         beneficiaries across Maharashtra who are accessing various government
         schemes and services. Their lived experiences offer valuable insights to
