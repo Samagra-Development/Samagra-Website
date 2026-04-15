@@ -97,8 +97,10 @@ ourWorkCard:
     description2: Establishing systemic enablers for improvement in health &
       nutrition outcomes of 1 Cr+ tribals in Odisha
   - projectName:
-      - project: Antyodaya Saral
-        learnButtonText: Learn More
+      - project: Family ID
+        learnButtonText: Learn More (Family ID)
+      - project: AP FBMS
+        learnButtonText: Learn More (AP FBMS)
     titleLines:
       - text: Transforming
       - text: Service Delivery
