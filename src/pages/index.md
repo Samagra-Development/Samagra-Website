@@ -29,11 +29,8 @@ ourModel:
         impact in the country.
       icon: /img/who-we-are.png
     - subTitle: What we do
-      text: We work with the senior political and bureaucratic leadership of states to
-        solve governance problems at scale. We co-work with the government to
-        diagnose the problem, design a transformation roadmap and implement the
-        same. Our solutions are rooted in the realities of governance in India.
-        We leverage tech & data to enable systemic transformations.
+      text: We work with state governments on deep systemic reforms, to strengthen the
+        state’s capacity to deliver sustainable outcomes at scale
       icon: /img/what-we-do.png
   ourModelVideoLink: https://www.youtube-nocookie.com/embed/8vYy8lJAfeg
 ourApproach:
