@@ -123,7 +123,7 @@ ourJourney:
     description: Empowered by a track record of partnership with governments
       (including state & central)
     image: /img/government.png
-  - subHeading: 125+ Team
+  - subHeading: 75+ Team
     description: Dynamic team of young professionals, each driven by a passion for
       innovation and excellence
     image: /img/team.png
