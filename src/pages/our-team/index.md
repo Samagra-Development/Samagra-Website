@@ -1,7 +1,7 @@
 ---
 templateKey: our-team
 title: Our Team
-bannerImage: /img/irf06544.jpg.jpeg
+bannerImage: /img/sanskar-at-hotel-umrao-new-delhi-december-2025.jpg.jpeg
 subTitle: We are a growing team of 75+ professionals. Our consultants come from
   diverse backgrounds, united in their commitment to creating impact at scale.
 showAchievements: false
