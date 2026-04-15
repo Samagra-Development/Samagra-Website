@@ -26,14 +26,14 @@ textCardsSection:
         exploring the interplay between their traditional practices, responses
         to climate challenges
       image: /img/screenshot-2025-09-11-at-6.38.52 pm.png
-      readMoreLink: /farmers-odisha
+      readMoreLink: https://www.linkedin.com/feed/update/urn:li:activity:7300745687359467521
     - tag: "Edition #2"
       title: School Teachers of Uttar Pradesh
       description: In the second edition of Decoding Citizens, we spotlight government
         school teachers of Uttar Pradesh, who are instrumental in delivering
         foundational learning to over 60 lakh students across the state.
       image: /img/screenshot-2025-09-11-at-6.39.18 pm.png
-      readMoreLink: /teachers-up
+      readMoreLink: https://www.linkedin.com/feed/update/urn:li:activity:7340653564354011136
     - tag: "Edition #3"
       title: Women Entrepreneurs of Odisha
       description: In the third edition of Decoding Citizens, we spotlight women
