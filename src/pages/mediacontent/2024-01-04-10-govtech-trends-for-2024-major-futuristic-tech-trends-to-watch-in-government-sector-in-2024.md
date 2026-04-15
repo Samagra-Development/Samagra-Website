@@ -1,7 +1,7 @@
 ---
 templateKey: media-post
 title: "10 GovTech trends for 2024: Major futuristic tech trends to watch in
-  government sector in 2024"
+  government sector in 2024."
 mediaHouse: "ET Government "
 projectId: Samagra
 date: 2023-12-26T07:22:34.416Z
