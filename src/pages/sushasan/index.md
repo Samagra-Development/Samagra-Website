@@ -5,13 +5,12 @@ bannerImage: /img/sushasan_banner.png
 logo: /img/sushasan.png
 text: Sushasan is India’s first podcast exclusively focused on governance, where
   we bring you unfiltered conversations with the people behind India’s
-  governance. In this captivating podcast, our Founder & CEO, Gaurav Goel,
-  interviews leaders who work in or with the government to create large-scale
-  impact. The podcast offers listeners a ringside view of the functioning of the
-  Indian state as well as a glimpse into the personal journeys of these leaders.
-  <br> <br> Subscribe now and watch all the latest episodes on Sushasan's
-  YouTube channel for governance behind-the-scenes! <br> <br>
-  <b>#GovernanceBTS</b>
+  governance. In this captivating podcast we interview leaders who work in or
+  with the government to create large-scale impact. The podcast offers listeners
+  a ringside view of the functioning of the Indian state as well as a glimpse
+  into the personal journeys of these leaders. <br> <br> Subscribe now and watch
+  all the latest episodes on Sushasan's YouTube channel for governance
+  behind-the-scenes! <br> <br> <b>#GovernanceBTS</b>
 youtubeTrailerLink: https://www.youtube.com/embed/hIJaBY_d55E?si=O9Lu0nlfjT0vm6oz
 youtubeLink: https://www.youtube.com/embed/hIJaBY_d55E?si=O9Lu0nlfjT0vm6oz
 assetsHeading: Explore Our Assets
