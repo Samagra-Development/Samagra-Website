@@ -68,7 +68,7 @@ ourWorkCard:
     description2: Increasing farmer income via phased cohort-based enhancement
       approach for 75 lakh farmers in Odisha
   - projectName:
-      - project: NIPUN Bharat cell
+      - project: NIPUN UP
         learnButtonText: Learn More
     titleLines:
       - text: Transforming
@@ -80,7 +80,7 @@ ourWorkCard:
     workLogo:
       - logo: /img/nipun-logo-copy.png
     backgroundMap: /img/up-map.png
-    description2: Enabling 60 lakh students in grades 1-3 to attain foundational
+    description2: Enabling 60 lakh students in grades 1-2 to attain foundational
       literacy & numeracy in UP
   - projectName:
       - project: Anamaya
@@ -88,7 +88,7 @@ ourWorkCard:
     titleLines:
       - text: Transforming
       - text: Health
-    description1: Our work in the health domain spans 2 years which has impacted the
+    description1: Our work in the health domain spans 3 years which has impacted the
       lives of 1 Cr+ citizens across the states of Odisha and Uttar Pradesh
     image: /img/health.png
     workLogo:
