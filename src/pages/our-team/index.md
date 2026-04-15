@@ -1,8 +1,8 @@
 ---
 templateKey: our-team
 title: Our Team
-bannerImage: /img/samagra-sanskar-2024.jpg
-subTitle: We are a growing team of 125+ professionals. Our consultants come from
+bannerImage: /img/irf06544.jpg.jpeg
+subTitle: We are a growing team of 75+ professionals. Our consultants come from
   diverse backgrounds, united in their commitment to creating impact at scale.
 showAchievements: false
 achievements:
