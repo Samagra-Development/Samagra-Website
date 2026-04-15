@@ -43,11 +43,10 @@ textCardsSection:
       image: /img/screenshot-2026-04-15-at-1.35.02 pm.png
     - tag: "Edition #4"
       title: Citizens availing schemes and services of Maharashtra
-      description: In the third edition of Decoding Citizens, we spotlight
+      description: In the fourth edition of Decoding Citizens, we spotlight
         beneficiaries across Maharashtra who are accessing various government
         schemes and services. Their lived experiences offer valuable insights to
-        re-engineer delivery systems—ensuring they are more responsive,
-        efficient, and aligned with citizen expectations.
+        re-engineer delivery systems.
       image: /img/dc3.png
       readMoreLink: https://www.linkedin.com/feed/update/urn:li:activity:7414219159640682496/
 textImagesListSection:
