@@ -29,17 +29,23 @@ textCardsSection:
       readMoreLink: /farmers-odisha
     - tag: "Edition #2"
       title: School Teachers of Uttar Pradesh
-      description: In the second edition of Decoding Citizens, we spotlight
-        GovernmentSchool Teachers of Uttar Pradesh, who are instrumental in
-        delivering foundational learning to over 60 lakh students across the
-        state.
+      description: In the second edition of Decoding Citizens, we spotlight government
+        school teachers of Uttar Pradesh, who are instrumental in delivering
+        foundational learning to over 60 lakh students across the state.
       image: /img/screenshot-2025-09-11-at-6.39.18 pm.png
       readMoreLink: /teachers-up
+    - tag: "Edition #3"
+      title: Women Entrepreneurs of Odisha
+      description: In the third edition of Decoding Citizens, we spotlight women
+        entrepreneurs of Odisha, who are one of the primary beneficiaries of the
+        SUBHADRA direct benefit transfer scheme of the state.
+      readMoreLink: https://www.linkedin.com/feed/update/urn:li:activity:7374756791487877120
+      image: /img/screenshot-2026-04-15-at-1.35.02 pm.png
 textImagesListSection:
   text: Snapshots from our work in governance.
   images:
     - image: /img/whatsapp-image-2024-06-27-at-13.11.49.jpeg
     - image: /img/74dcd655-8220-473c-85e6-846f78bee823.png
-successStoriesTitle: "Snapshots from our work in governance."
+successStoriesTitle: Snapshots from our work in governance.
 showSuccessStories: "hkrn,ksk,nlapp "
 ---
