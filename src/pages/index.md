@@ -57,7 +57,7 @@ ourWorkCard:
     titleLines:
       - text: Transforming
       - text: Agriculture
-    description1: Our work in the agriculture domain spans 7 years which has
+    description1: Our work in the agriculture domain spans 9 years which has
       impacted the lives of 3 Cr+ farmers across the states of Odisha and
       Maharashtra.
     image: /img/agriculture.png
@@ -73,7 +73,7 @@ ourWorkCard:
     titleLines:
       - text: Transforming
       - text: Education
-    description1: Our work in the education domain spans 7 years which has impacted
+    description1: Our work in the education domain spans 9 years which has impacted
       the lives of 1 Cr+ students across the states of Haryana, Himachal Pradesh
       and Uttar Pradesh
     image: /img/education.png
@@ -88,7 +88,7 @@ ourWorkCard:
     titleLines:
       - text: Transforming
       - text: Health
-    description1: Our work in the health domain spans 3 years which has impacted the
+    description1: Our work in the health domain spans 5 years which has impacted the
       lives of 1 Cr+ citizens across the states of Odisha and Uttar Pradesh
     image: /img/health.png
     workLogo:
@@ -104,7 +104,7 @@ ourWorkCard:
     titleLines:
       - text: Transforming
       - text: Service Delivery
-    description1: Our work in the service delivery domain spans 7 years which has
+    description1: Our work in the service delivery domain spans 9 years which has
       impacted the lives of 2.7 Cr+ citizens in the state of Haryana
     image: /img/service-delivery.png
     workLogo:
