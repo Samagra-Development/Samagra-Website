@@ -49,6 +49,14 @@ textCardsSection:
         re-engineer delivery systems.
       image: /img/dc3.png
       readMoreLink: https://www.linkedin.com/feed/update/urn:li:activity:7414219159640682496/
+    - tag: "Edition #5"
+      title: Litigants in Kerala
+      description: In the fifth edition of Decoding Citizens, we spotlight litigants
+        engaging with the legal system of Kerala. Their lived experiences offer
+        valuable insights to reform the dispute resulution ecosystem of the
+        state.
+      image: /img/screenshot-2026-04-15-at-6.31.50 pm.png
+      readMoreLink: https://www.linkedin.com/feed/update/urn:li:activity:7444372280199000064
 textImagesListSection:
   text: Snapshots from our work in governance.
   images:
