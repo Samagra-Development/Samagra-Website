@@ -1,7 +1,7 @@
 ---
 templateKey: careers-page
 title: Careers
-bannerImage: /img/whatsapp-image-2024-12-16-at-11.38.06-am.jpeg
+bannerImage: /img/screenshot-2026-04-15-at-12.28.16 pm.png
 centerBanner:
   image: /img/diverse.jpg
 mainContent:
