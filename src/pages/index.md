@@ -51,15 +51,15 @@ ourWork:
 ourWorkCard:
   - projectName:
       - project: KONNECT
-        learnButtonText: Learn More (KONNECT)
-      - project: LEAP
-        learnButtonText: Learn More (LEAP)
+        learnButtonText: Learn More (KONNECT
+      - project: MAHA Agri
+        learnButtonText: Learn More (Maha Agri)
     titleLines:
       - text: Transforming
       - text: Agriculture
     description1: Our work in the agriculture domain spans 7 years which has
-      impacted the lives of 3 Cr+ farmers across the states of Odisha
-      and Uttar Pradesh
+      impacted the lives of 3 Cr+ farmers across the states of Odisha and
+      Maharashtra.
     image: /img/agriculture.png
     workLogo:
       - logo: /img/konnect-logo.png
