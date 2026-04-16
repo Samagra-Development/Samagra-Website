@@ -64,7 +64,7 @@ impactSection:
       - value: 75L+
         image: /img/leap-icon-2-removebg-preview.png
         label: Farmers delivered IVRS agriculture advisory fortnightly
-      - value: 900Cr+
+      - value: ₹900Cr+
         image: /img/leap-icon-1-removebg-preview.png
         label: Released in subsidies through GO-SUGAM to farmers
   testimonials:
