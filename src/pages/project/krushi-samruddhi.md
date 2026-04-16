@@ -23,29 +23,30 @@ whyImportantSection:
       more than 88 lakh farmers across Odisha through a cadre of 6,000+ last
       mile extension workers\t"
   items:
-    - title: Agricultural activities contribute only about 35% to farmers’ earnings
+    - title: Average farm household income of farmers of Odisha is low (Rs. 4,953 per
+        month)
       image: /img/leap-icon-2-removebg-preview.png
     - title: "Odisha agri sector takes a production-led instead of an income-led
         approach \t"
       image: /img/leap-icon-1-removebg-preview.png
 programHighlightsSection:
   title: Program Highlights
-  backgroundImage: /img/konnect-picture-1.jpg
+  backgroundImage: /img/dd1.jpg
   isVisible: true
   highlights:
     - title: AI-Powered Advisory
       description: End to end management of the AI use case funnel of 5+ use cases to
         unlock personalised advisory to 88 Lakh farmers
-    - title: Public Private Partnership
-      description: Initiatives underway to onboard 6 private implementation partners
-        across value chains under PPPAVCD scheme
+      image: /img/6646krushak-odisha-empowering-farmers-with-a-unified-digital-registry-1-.jpg
     - title: eRUPI Subsidy Delivery
-      description: Unlocked front end subsidy to farmers through eRUPI to 7.5k+
-        farmers while facilitating subsidy worth Rs19 Crore under farm
+      description: Unlocked front-end subsidy to farmers through eRUPI to 7.5k+
+        farmers while facilitating subsidy worth Rs 19 Crore under farm
         mechanisation scheme
+      image: /img/erupee.png
     - title: Comprehensive Crop Survey
       description: Successfully completed 3 seasons of crop survey of 2.8 Cr+
         agricultural plots
+      image: /img/screenshot-2026-04-16-at-11.54.32 am.png
   description: ""
 impactSection:
   title: Impact
