@@ -3,8 +3,7 @@ templateKey: media-post
 title: "Harnessing the AI wave: Unlocking Uttar Pradesh's demographic dividend
   by AI education, AI adoption, data infra"
 mediaHouse: ET Government
-projectId: "Harnessing the AI wave: Unlocking Uttar Pradesh's demographic
-  dividend by AI education, AI adoption, data infra"
+projectId: SamagraX
 date: 2024-11-09T04:57:33.558Z
 author: Gaurav Goel and Rahul Kulkarni
 link: https://government.economictimes.indiatimes.com/blog/harnessing-the-ai-wave-unlocking-uttar-pradeshs-demographic-dividend-by-ai-education-ai-adoption-data-infra/115110910
