@@ -17,7 +17,7 @@ textImageSection:
     impactful governance outcomes.
   image: /img/screenshot-2025-09-11-at-12.25.44 pm.png
 textCardsSection:
-  text: Explore our previous editions!
+  text: Explore all our editions!
   cards:
     - tag: "Edition #1"
       title: Farmers of Odisha
