@@ -2,7 +2,7 @@
 templateKey: media-post
 title: Weaving a ‘Digital Khadi’ for Bharat
 mediaHouse: Businessline
-projectId: Weaving a ‘Digital Khadi’ for Bharat
+projectId: SamagraX
 date: 2024-10-02T04:53:55.563Z
 author: Rahul Kulkarni
 link: https://www.thehindubusinessline.com/opinion/weaving-a-digital-khadi-for-bharat/article68706326.ece
