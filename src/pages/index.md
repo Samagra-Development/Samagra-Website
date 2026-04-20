@@ -105,7 +105,8 @@ ourWorkCard:
       - text: Transforming
       - text: Service Delivery
     description1: Our work in the service delivery domain spans 9 years which has
-      impacted the lives of 2.7 Cr+ citizens in the state of Haryana
+      impacted the lives of crores of citizens in the state of Haryana, UP, and
+      AP
     image: /img/service-delivery.png
     workLogo:
       - logo: /img/family-id-logo_2024.png
