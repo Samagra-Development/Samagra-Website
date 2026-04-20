@@ -51,7 +51,7 @@ ourWork:
 ourWorkCard:
   - projectName:
       - project: KONNECT
-        learnButtonText: Learn More (KONNECT
+        learnButtonText: Learn More (KONNECT)
       - project: MAHA Agri
         learnButtonText: Learn More (Maha Agri)
     titleLines:
