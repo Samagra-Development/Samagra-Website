@@ -64,9 +64,9 @@ ourWorkCard:
     workLogo:
       - logo: /img/konnect-logo.png
       - logo: /img/seal_of_maharashtra.png
-    backgroundMap: /img/odisha-map.png
-    description2: Increasing farmer income via phased cohort-based enhancement
-      approach for 75 lakh farmers in Odisha
+    backgroundMap: /img/pngtree-technological-white-background-with-abstract-blue-and-gray-dots-vector-png-image_25257776.png
+    description2: Increasing farmer welfare via targeted interventions in Odisha and
+      Maharashtra
   - projectName:
       - project: NIPUN UP
         learnButtonText: Learn More
@@ -111,8 +111,8 @@ ourWorkCard:
     workLogo:
       - logo: /img/family-id-logo_2024.png
       - logo: /img/fbms-logo.png
-    backgroundMap: /img/haryana-map.png
-    description2: Transforming scheme and service delivery for 30 Cr citizens in
+    backgroundMap: /img/pngtree-technological-white-background-with-abstract-blue-and-gray-dots-vector-png-image_25257776.png
+    description2: Transforming scheme and service delivery for crores of citizens in
       Uttar Pradesh, Maharashtra and Andhra Pradesh
 linkedInButtonActive: true
 ourJourneyTitle: Our Journey
