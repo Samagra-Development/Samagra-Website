@@ -46,9 +46,10 @@ programHighlightsSection:
         among the cadre, such as through recognition as NIPUN Vidyalay for
         teachers and headmasters
       image: /img/whatsapp-image-2026-04-14-at-10.15.31-am.jpeg
-    - title: Data-Backed Monitoring
-      description: Administrative cadres tightly drive the mission through a cascaded
-        system of data-backed, periodic review and monitoring
+    - title: NIPUN Sankalp Karyashalas (NSKs)
+      description: Statewide series of workshops was conducted to reorient the
+        mentoring cadre and also administrative officers on the NIPUN mission.
+      image: /img/whatsapp-image-2025-11-25-at-17.00.20-1-.jpeg
 impactSection:
   title: Impact
   backgroundImage: /img/NIPUN-Bharat-slide-1.png
