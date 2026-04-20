@@ -63,7 +63,7 @@ ourWorkCard:
     image: /img/agriculture.png
     workLogo:
       - logo: /img/konnect-logo.png
-      - logo: /img/leap-logo-copy.png
+      - logo: /img/seal_of_maharashtra.png
     backgroundMap: /img/odisha-map.png
     description2: Increasing farmer income via phased cohort-based enhancement
       approach for 75 lakh farmers in Odisha
