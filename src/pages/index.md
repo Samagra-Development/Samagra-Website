@@ -111,7 +111,8 @@ ourWorkCard:
       - logo: /img/family-id-logo_2024.png
       - logo: /img/fbms-logo.png
     backgroundMap: /img/haryana-map.png
-    description2: Transforming scheme and service delivery for 2.7 Cr citizens in Haryana
+    description2: Transforming scheme and service delivery for 30 Cr citizens in
+      Uttar Pradesh, Maharashtra and Andhra Pradesh
 linkedInButtonActive: true
 ourJourneyTitle: Our Journey
 ourJourney:
