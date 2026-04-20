@@ -108,7 +108,8 @@ ourWorkCard:
       impacted the lives of 2.7 Cr+ citizens in the state of Haryana
     image: /img/service-delivery.png
     workLogo:
-      - logo: /img/saral-logo-copy.png
+      - logo: /img/family-id-logo_2024.png
+      - logo: /img/fbms-logo.png
     backgroundMap: /img/haryana-map.png
     description2: Transforming scheme and service delivery for 2.7 Cr citizens in Haryana
 linkedInButtonActive: true
