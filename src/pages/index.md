@@ -50,7 +50,7 @@ ourWork:
     strengthen the state’s capacity to deliver sustainable outcomes at scale'
 ourWorkCard:
   - projectName:
-      - project: KONNECT
+      - project: krushi-samruddhi
         learnButtonText: Learn More (KONNECT)
       - project: MAHA Agri
         learnButtonText: Learn More (Maha Agri)
