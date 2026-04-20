@@ -37,21 +37,20 @@ programHighlightsSection:
   backgroundImage: /img/subhadra.png
   isVisible: true
   highlights:
-    - title: Evidence-Based Policy Design
+    - title: SUBHADRA Samikhya
       description: A sample beneficiary study in collaboration with IIM Sambalpur
         conducted, revealing ~80% productive use of funds and strong livelihood
         aspirations, creating an evidence base for policy and behavioural nudges
+      image: /img/img_7389.jpg
     - title: SUPOSHIT Odisha Mission
       description: Statewide SUPOSHIT Odisha Mission launched by Deputy Chief Minister
         to accelerate achievement of a malnutrition (SAM, MAM and Underweight)
         free Odisha by 2029
+      image: /img/whatsapp-image-2025-11-18-at-7.07.48-pm-1-.jpeg
     - title: SUBHADRA Bhaunis
       description: A mentor cadre of SUBHADRA "Bhaunis" created by the state, at the
         district level, to serve as entrepreneurship ambassadors
-    - title: Comprehensive Outreach
-      description: SUBHADRA and its umbrella interventions evangelised across
-        channels, enhancing awareness on DBT's impact and Odisha's evolving
-        welfare landscape for women
+      image: /img/gemini_generated_image_vwvaazvwvaazvwva.png
 impactSection:
   title: Impact
   backgroundImage: /img/subhadra-picture-3.jpeg
