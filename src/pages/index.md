@@ -52,7 +52,7 @@ ourWorkCard:
   - projectName:
       - project: krushi-samruddhi
         learnButtonText: Learn More (KONNECT)
-      - project: MAHA Agri
+      - project: maha-agri
         learnButtonText: Learn More (Maha Agri)
     titleLines:
       - text: Transforming
@@ -68,7 +68,7 @@ ourWorkCard:
     description2: Increasing farmer welfare via targeted interventions in Odisha and
       Maharashtra
   - projectName:
-      - project: NIPUN UP
+      - project: nipun-up
         learnButtonText: Learn More
     titleLines:
       - text: Transforming
@@ -83,7 +83,7 @@ ourWorkCard:
     description2: Enabling 60 lakh students in grades 1-2 to attain foundational
       literacy & numeracy in UP
   - projectName:
-      - project: Anamaya
+      - project: niramaya
         learnButtonText: Learn More
     titleLines:
       - text: Transforming
@@ -92,14 +92,14 @@ ourWorkCard:
       lives of 1 Cr+ citizens across the states of Odisha and Uttar Pradesh
     image: /img/health.png
     workLogo:
-      - logo: /img/stride-logo.png
-    backgroundMap: /img/odisha-map.png
+      - logo: /img/niramaya_logo.png
+    backgroundMap: /img/up-map.png
     description2: Establishing systemic enablers for improvement in health &
       nutrition outcomes of 1 Cr+ tribals in Odisha
   - projectName:
-      - project: Family ID
+      - project: family-id
         learnButtonText: Learn More (Family ID)
-      - project: AP FBMS
+      - project: fbms
         learnButtonText: Learn More (AP FBMS)
     titleLines:
       - text: Transforming
