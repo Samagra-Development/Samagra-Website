@@ -41,6 +41,7 @@ programHighlightsSection:
     - title: NIPUN Vidyalay Assessment
       description: Every year an independent FLN assessment of schools is conducted by
         DIET students.
+      image: /img/whatsapp-image-2026-04-20-at-3.05.43-pm.jpeg
     - title: NIPUN Samman Sammaroh
       description: To motivate teachers and headmasters, gamification is being created
         among the cadre, such as through recognition as NIPUN Vidyalay for
