@@ -34,16 +34,18 @@ programHighlightsSection:
   backgroundImage: /img/cover_online-teacher-transfer.jpg
   isVisible: true
   highlights:
-    - title: Goal & Role Clarity
-      description: Goal & role clarity amongst the system actors is driven to enable
-        the entire state for the NIPUN mission
     - title: NIPUN Lakshya App
       description: All system actors are given a thermometer-like tool (NIPUN Lakshya
         App) to check the current status with respect to the goal
-    - title: Gamification & Recognition
+      image: /img/nl-app-use-pic.jpg
+    - title: NIPUN Vidyalay Assessment
+      description: Every year an independent FLN assessment of schools is conducted by
+        DIET students.
+    - title: NIPUN Samman Sammaroh
       description: To motivate teachers and headmasters, gamification is being created
         among the cadre, such as through recognition as NIPUN Vidyalay for
         teachers and headmasters
+      image: /img/whatsapp-image-2026-04-14-at-10.15.31-am.jpeg
     - title: Data-Backed Monitoring
       description: Administrative cadres tightly drive the mission through a cascaded
         system of data-backed, periodic review and monitoring
