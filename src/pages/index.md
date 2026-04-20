@@ -94,8 +94,8 @@ ourWorkCard:
     workLogo:
       - logo: /img/niramaya_logo.png
     backgroundMap: /img/up-map.png
-    description2: Establishing systemic enablers for improvement in health &
-      nutrition outcomes of 1 Cr+ tribals in Odisha
+    description2: To make Uttar Pradesh the supplier of quality nursing
+      professionals for the entire country.
   - projectName:
       - project: family-id
         learnButtonText: Learn More (Family ID)
