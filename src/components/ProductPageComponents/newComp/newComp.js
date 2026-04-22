@@ -40,15 +40,15 @@ export class HeroSection extends React.Component {
     const { title, subtitle, description, categories, backgroundImage } = this.props;
     const { isMobile, isTablet } = this.state;
     const bgImageUrl = getImageUrl(backgroundImage);
-    
+
     const categoryItems = categories || [];
-    
+
     return (
-      <section 
-        className="hero-section-wrapper" 
-        style={{ 
-          position: 'relative', 
-          width: '100%', 
+      <section
+        className="hero-section-wrapper"
+        style={{
+          position: 'relative',
+          width: '100%',
           height: isMobile ? 'auto' : '100vh',
           minHeight: isMobile ? '600px' : '500px',
           background: '#fff',
@@ -56,33 +56,33 @@ export class HeroSection extends React.Component {
         }}
       >
         {/* Background Image */}
-        <div 
+        <div
           className="hero-background"
           style={{
             position: 'absolute',
             inset: 0,
-            backgroundImage: bgImageUrl 
-              ? `url(${bgImageUrl})` 
+            backgroundImage: bgImageUrl
+              ? `url(${bgImageUrl})`
               : 'linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4))',
             backgroundSize: 'cover',
             backgroundPosition: 'center'
           }}
         />
-        
+
         {/* Overlay */}
-        <div 
-          style={{ 
-            position: 'absolute', 
-            inset: 0, 
-            background: 'rgba(0, 0, 0, 0.25)' 
-          }} 
+        <div
+          style={{
+            position: 'absolute',
+            inset: 0,
+            background: 'rgba(0, 0, 0, 0.25)'
+          }}
         />
-        
+
         {/* Category Tags */}
-        <div 
-          style={{ 
-            position: 'absolute', 
-            top: isMobile ? '20px' : isTablet ? '60px' : '84px', 
+        <div
+          style={{
+            position: 'absolute',
+            top: isMobile ? '20px' : isTablet ? '60px' : '84px',
             right: isMobile ? '20px' : isTablet ? '5vw' : '10vw',
             display: 'flex',
             alignItems: 'center',
@@ -98,28 +98,28 @@ export class HeroSection extends React.Component {
         >
           {categoryItems.map((category, index) => (
             <React.Fragment key={index}>
-              <span style={{ 
-                fontSize: isMobile ? '16px' : isTablet ? '20px' : '24px', 
+              <span style={{
+                fontSize: isMobile ? '16px' : isTablet ? '20px' : '24px',
                 whiteSpace: 'nowrap'
               }}>
                 {category}
               </span>
               {index < categoryItems.length - 1 && (
-                <div 
-                  style={{ 
-                    width: '1px', 
-                    height: isMobile ? '24px' : isTablet ? '28px' : '32px', 
+                <div
+                  style={{
+                    width: '1px',
+                    height: isMobile ? '24px' : isTablet ? '28px' : '32px',
                     background: 'rgba(255,255,255,0.5)'
-                  }} 
+                  }}
                 />
               )}
             </React.Fragment>
           ))}
         </div>
-        
+
         {/* Content */}
-        <div 
-          style={{ 
+        <div
+          style={{
             position: 'relative',
             display: 'flex',
             flexDirection: 'column',
@@ -132,10 +132,10 @@ export class HeroSection extends React.Component {
             zIndex: 5
           }}
         >
-          <h1 
-            style={{ 
-              fontSize: isMobile ? '40px' : isTablet ? '64px' : 'clamp(40px, 8vw, 90px)', 
-              fontWeight: 900, 
+          <h1
+            style={{
+              fontSize: isMobile ? '40px' : isTablet ? '64px' : 'clamp(40px, 8vw, 90px)',
+              fontWeight: 900,
               marginTop: isMobile ? '0' : isTablet ? '80px' : '110px',
               letterSpacing: isMobile ? '0.08em' : '0.12em',
               marginBottom: isMobile ? '16px' : '24px',
@@ -144,8 +144,8 @@ export class HeroSection extends React.Component {
           >
             {title || ""}
           </h1>
-          <div 
-            style={{ 
+          <div
+            style={{
               background: 'rgba(0, 0, 0, 0.4)',
               padding: isMobile ? '20px 0' : '24px 0',
               backdropFilter: 'blur(8px)',
@@ -157,9 +157,9 @@ export class HeroSection extends React.Component {
               gap: isMobile ? '12px' : '16px'
             }}
           >
-            <p 
-              style={{ 
-                fontSize: isMobile ? '16px' : isTablet ? '20px' : 'clamp(16px, 2vw, 24px)', 
+            <p
+              style={{
+                fontSize: isMobile ? '16px' : isTablet ? '20px' : 'clamp(16px, 2vw, 24px)',
                 lineHeight: '1.6',
                 margin: 0,
                 padding: isMobile ? '0 20px' : isTablet ? '0 32px' : '0 40px'
@@ -167,10 +167,10 @@ export class HeroSection extends React.Component {
             >
               {subtitle || ""}
             </p>
-            <p 
-              style={{ 
-                fontSize: isMobile ? '20px' : isTablet ? '28px' : 'clamp(20px, 3vw, 36px)', 
-                fontWeight: 700, 
+            <p
+              style={{
+                fontSize: isMobile ? '20px' : isTablet ? '28px' : 'clamp(20px, 3vw, 36px)',
+                fontWeight: 700,
                 lineHeight: '1.4',
                 margin: 0,
                 maxWidth: isMobile ? '100%' : isTablet ? '800px' : '981px',
@@ -266,20 +266,20 @@ export class WhyImportantSection extends React.Component {
 
       const rect = this.sectionRef.current.getBoundingClientRect();
       const viewportHeight = window.innerHeight;
-      
+
       // Check if section is partially visible (trigger at 10% into view)
       const isPartiallyVisible = rect.top < viewportHeight * 0.9 && rect.top > -rect.height * 0.5;
       const isTopNearViewport = rect.top > 0 && rect.top < viewportHeight * 0.9;
-      
+
       if (isPartiallyVisible && isTopNearViewport) {
         this.isSnapping = true;
         const targetScroll = window.scrollY + rect.top;
-        
+
         window.scrollTo({
           top: targetScroll,
           behavior: 'smooth'
         });
-        
+
         // Reset snapping flag after animation
         setTimeout(() => {
           this.isSnapping = false;
@@ -289,8 +289,8 @@ export class WhyImportantSection extends React.Component {
   };
 
   toggleSidebar = () => {
-    this.setState(prevState => ({ 
-      isSidebarOpen: !prevState.isSidebarOpen 
+    this.setState(prevState => ({
+      isSidebarOpen: !prevState.isSidebarOpen
     }));
   };
 
@@ -320,16 +320,16 @@ export class WhyImportantSection extends React.Component {
     if (!sectionIsVisible || !items || items.length === 0) {
       return null;
     }
-    
+
     // Handle infoCard as either single object or array
     const infoCards = Array.isArray(infoCard) ? infoCard : (infoCard ? [infoCard] : []);
     const currentCard = infoCards.length > 0 ? infoCards[currentInfoCard] : null;
 
     return (
-      <section ref={this.sectionRef} className="why-important-section-wrapper" style={{ 
-        position: 'relative', 
-        width: '100%', 
-        minHeight: isMobile ? 'auto' : '100vh', 
+      <section ref={this.sectionRef} className="why-important-section-wrapper" style={{
+        position: 'relative',
+        width: '100%',
+        minHeight: isMobile ? 'auto' : '100vh',
         background: '#fff',
         padding: isMobile ? '32px 0' : '64px 0',
         overflow: 'hidden',
@@ -346,10 +346,10 @@ export class WhyImportantSection extends React.Component {
           backgroundPosition: 'center'
         }} />
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(0, 0, 0, 0.5)' }} />
-        
+
         {/* Additional dark overlay when sidebar is open */}
         {isSidebarOpen && (
-          <div 
+          <div
             onClick={this.toggleSidebar}
             style={{
               position: 'absolute',
@@ -360,7 +360,7 @@ export class WhyImportantSection extends React.Component {
             }}
           />
         )}
-        
+
         {/* Content */}
         <div style={{
           position: 'relative',
@@ -372,9 +372,9 @@ export class WhyImportantSection extends React.Component {
           transform: isVisible ? 'translateY(0)' : 'translateY(40px)',
           transition: 'all 0.7s'
         }}>
-          <h2 style={{ 
-            fontSize: isMobile ? '32px' : isTablet ? '44px' : '56px', 
-            fontWeight: 700, 
+          <h2 style={{
+            fontSize: isMobile ? '32px' : isTablet ? '44px' : '56px',
+            fontWeight: 700,
             color: '#fff',
             marginBottom: isMobile ? '24px' : isTablet ? '36px' : '48px',
             letterSpacing: '-0.01em',
@@ -382,20 +382,20 @@ export class WhyImportantSection extends React.Component {
           }}>
             {title || "Why is it important?"}
           </h2>
-          
-          <div className="row" style={{ 
-            display: 'flex', 
-            gap: isMobile ? '20px' : isTablet ? '32px' : '44px', 
+
+          <div className="row" style={{
+            display: 'flex',
+            gap: isMobile ? '20px' : isTablet ? '32px' : '44px',
             flexWrap: 'wrap',
             justifyContent: 'center'
           }}>
             {items?.map((item, index) => {
               const itemImageUrl = getImageUrl(item.image);
               return (
-                <div 
+                <div
                   key={index}
                   className="col-md-4"
-                  style={{ 
+                  style={{
                     background: 'rgba(255, 255, 255, 0.1)',
                     backdropFilter: 'blur(10px)',
                     borderRadius: isMobile ? '16px' : '24px',
@@ -432,8 +432,8 @@ export class WhyImportantSection extends React.Component {
                     flexShrink: 0
                   }}>
                     {itemImageUrl ? (
-                      <img 
-                        src={itemImageUrl} 
+                      <img
+                        src={itemImageUrl}
                         alt={item.title}
                         style={{
                           maxWidth: '100%',
@@ -457,9 +457,9 @@ export class WhyImportantSection extends React.Component {
                     alignItems: 'center',
                     justifyContent: 'center'
                   }}>
-                    <h3 style={{ 
-                      fontSize: isMobile ? '14px' : isTablet ? '16px' : '18px', 
-                      fontWeight: 400, 
+                    <h3 style={{
+                      fontSize: isMobile ? '14px' : isTablet ? '16px' : '18px',
+                      fontWeight: 400,
                       color: '#fff',
                       textTransform: 'capitalize',
                       margin: 0,
@@ -473,9 +473,9 @@ export class WhyImportantSection extends React.Component {
             })}
           </div>
         </div>
-        
+
         {/* Toggle Arrow Button */}
-        <button 
+        <button
           onClick={this.toggleSidebar}
           style={{
             position: 'absolute',
@@ -507,9 +507,9 @@ export class WhyImportantSection extends React.Component {
             }
           }}
         >
-          <span style={{ 
-            fontSize: isMobile ? '20px' : isTablet ? '20px' : '24px', 
-            color: '#334155', 
+          <span style={{
+            fontSize: isMobile ? '20px' : isTablet ? '20px' : '24px',
+            color: '#334155',
             fontWeight: 'bold',
             transform: isSidebarOpen ? 'rotate(180deg)' : 'rotate(0deg)',
             transition: 'transform 0.3s'
@@ -517,7 +517,7 @@ export class WhyImportantSection extends React.Component {
             &gt;
           </span>
         </button>
-        
+
         {/* Side Info Card - "Did You Know?" - Works for all screen sizes */}
         {currentCard && (
           <div style={{
@@ -536,17 +536,17 @@ export class WhyImportantSection extends React.Component {
             transition: 'transform 0.5s ease-in-out',
             overflowY: 'auto'
           }}>
-            <div style={{ 
-              padding: isMobile ? '28px 24px' : isTablet ? '32px 28px' : '48px 40px', 
-              display: 'flex', 
+            <div style={{
+              padding: isMobile ? '28px 24px' : isTablet ? '32px 28px' : '48px 40px',
+              display: 'flex',
               flexDirection: 'column',
               gap: isMobile ? '16px' : '20px',
               position: 'relative'
             }}>
               {/* Static "Did you Know?" heading */}
-              <h2 style={{ 
-                fontSize: isMobile ? '24px' : isTablet ? '28px' : '32px', 
-                fontWeight: 500, 
+              <h2 style={{
+                fontSize: isMobile ? '24px' : isTablet ? '28px' : '32px',
+                fontWeight: 500,
                 color: '#000',
                 letterSpacing: '-0.01em',
                 textTransform: 'capitalize',
@@ -554,12 +554,12 @@ export class WhyImportantSection extends React.Component {
               }}>
                 Did you Know?
               </h2>
-              
+
               {/* Dynamic title from infoCard */}
               {currentCard?.title && (
-                <h3 style={{ 
-                  fontSize: isMobile ? '20px' : isTablet ? '22px' : '26px', 
-                  fontWeight: 600, 
+                <h3 style={{
+                  fontSize: isMobile ? '20px' : isTablet ? '22px' : '26px',
+                  fontWeight: 600,
                   color: '#422F2A',
                   lineHeight: isMobile ? '26px' : isTablet ? '28px' : '30px',
                   marginBottom: '8px'
@@ -567,12 +567,12 @@ export class WhyImportantSection extends React.Component {
                   {currentCard.title}
                 </h3>
               )}
-              
+
               {/* Dynamic description from infoCard */}
               {currentCard?.description && (
-                <p style={{ 
-                  fontSize: isMobile ? '14px' : isTablet ? '15px' : '16px', 
-                  fontWeight: 400, 
+                <p style={{
+                  fontSize: isMobile ? '14px' : isTablet ? '15px' : '16px',
+                  fontWeight: 400,
                   color: '#666',
                   lineHeight: isMobile ? '22px' : isTablet ? '24px' : '26px',
                   marginBottom: infoCards.length > 1 ? '40px' : '0'
@@ -766,20 +766,20 @@ export class ProgramHighlightsSection extends React.Component {
 
       const rect = this.sectionRef.current.getBoundingClientRect();
       const viewportHeight = window.innerHeight;
-      
+
       // Check if section is partially visible (trigger at 10% into view)
       const isPartiallyVisible = rect.top < viewportHeight * 0.9 && rect.top > -rect.height * 0.5;
       const isTopNearViewport = rect.top > 0 && rect.top < viewportHeight * 0.9;
-      
+
       if (isPartiallyVisible && isTopNearViewport) {
         this.isSnapping = true;
         const targetScroll = window.scrollY + rect.top;
-        
+
         window.scrollTo({
           top: targetScroll,
           behavior: 'smooth'
         });
-        
+
         // Reset snapping flag after animation
         setTimeout(() => {
           this.isSnapping = false;
@@ -794,9 +794,9 @@ export class ProgramHighlightsSection extends React.Component {
     const bgImageUrl = getImageUrl(backgroundImage);
 
     return (
-      <section ref={this.sectionRef} className="program-highlights-section-wrapper" style={{ 
-        position: 'relative', 
-        width: '100%', 
+      <section ref={this.sectionRef} className="program-highlights-section-wrapper" style={{
+        position: 'relative',
+        width: '100%',
         minHeight: isMobile ? "auto" : "100vh",
         background: '#fff',
         padding: isMobile ? '32px 0' : '64px 0',
@@ -813,7 +813,7 @@ export class ProgramHighlightsSection extends React.Component {
           backgroundPosition: 'center'
         }} />
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(0, 0, 0, 0.6)' }} />
-        
+
         {/* Content */}
         <div style={{
           position: 'relative',
@@ -825,9 +825,9 @@ export class ProgramHighlightsSection extends React.Component {
           transform: isVisible ? 'translateY(0)' : 'translateY(40px)',
           transition: 'all 0.7s'
         }}>
-          <h2 style={{ 
-            fontSize: isMobile ? '32px' : isTablet ? '44px' : '56px', 
-            fontWeight: 700, 
+          <h2 style={{
+            fontSize: isMobile ? '32px' : isTablet ? '44px' : '56px',
+            fontWeight: 700,
             color: '#fff',
             marginBottom: isMobile ? '24px' : isTablet ? '36px' : '48px',
             letterSpacing: '-0.01em',
@@ -836,21 +836,22 @@ export class ProgramHighlightsSection extends React.Component {
           }}>
             {title || "Program Highlights"}
           </h2>
-          
-          <div className="row" style={{ 
-            display: 'flex', 
-            gap: isMobile ? '16px' : isTablet ? '20px' : '24px', 
-            flexWrap: 'wrap' 
+
+          <div className="row" style={{
+            display: 'flex',
+            gap: isMobile ? '16px' : isTablet ? '20px' : '24px',
+            flexWrap: 'wrap',
+            justifyContent: highlights?.length <= 3 ? 'center' : 'flex-start'
           }}>
             {highlights?.map((highlight, index) => {
               const highlightImageUrl = getImageUrl(highlight.image);
               return (
-                <div 
+                <div
                   key={index}
                   className="col-md-3"
-                  style={{ 
-                    display: 'flex', 
-                    flexDirection: 'column', 
+                  style={{
+                    display: 'flex',
+                    flexDirection: 'column',
                     gap: '12px',
                     flex: isMobile ? '1 1 100%' : isTablet ? '1 1 calc(50% - 10px)' : '1 1 calc(25% - 18px)',
                     minWidth: isMobile ? '100%' : isTablet ? '200px' : '250px',
@@ -871,7 +872,7 @@ export class ProgramHighlightsSection extends React.Component {
                       flexShrink: 0
                     }} />
                   )}
-               
+
                   <div style={{
                     borderRadius: '12px',
                     padding: highlightImageUrl ? (isMobile ? '12px 8px' : '16px 8px') : '0',
@@ -879,17 +880,17 @@ export class ProgramHighlightsSection extends React.Component {
                     display: 'flex',
                     flexDirection: 'column'
                   }}>
-                    <h3 style={{ 
-                      fontSize: isMobile ? '20px' : isTablet ? '22px' : '24px', 
-                      fontWeight: 700, 
+                    <h3 style={{
+                      fontSize: isMobile ? '20px' : isTablet ? '22px' : '24px',
+                      fontWeight: 700,
                       color: '#fff',
                       marginBottom: isMobile ? '8px' : '12px',
                       lineHeight: isMobile ? '26px' : '32px'
                     }}>
                       {highlight.title}
                     </h3>
-                    <p style={{ 
-                      fontSize: isMobile ? '16px' : '18px', 
+                    <p style={{
+                      fontSize: isMobile ? '16px' : '18px',
                       fontWeight: 400,
                       color: '#fff',
                       lineHeight: isMobile ? '22px' : '24px',
@@ -958,7 +959,7 @@ export class ProgramHighlightsSection extends React.Component {
 //           backgroundPosition: 'center'
 //         }} />
 //         <div style={{ position: 'absolute', inset: 0, background: 'rgba(0, 0, 0, 0.5)' }} />
-        
+
 //         {/* Content */}
 //         <div style={{ position: 'relative', zIndex: 10, padding: '0 80px' }}>
 //           <h2 style={{ 
@@ -971,7 +972,7 @@ export class ProgramHighlightsSection extends React.Component {
 //           }}>
 //             {title || "Impact"}
 //           </h2>
-          
+
 //           {/* Stats Grid */}
 //           <div className="row" style={{ display: 'flex', gap: '28px', marginBottom: '32px', flexWrap: 'wrap' }}>
 //             {stats?.map((stat, index) => {
@@ -1028,7 +1029,7 @@ export class ProgramHighlightsSection extends React.Component {
 //               );
 //             })}
 //           </div>
-          
+
 //           {/* Testimonial Card */}
 //           {testimonial && (
 //             <div style={{
@@ -1054,7 +1055,7 @@ export class ProgramHighlightsSection extends React.Component {
 //                   opacity: 0.8
 //                 }}
 //               />
-              
+
 //               <div style={{ display: 'flex', alignItems: 'center', gap: '32px', flex: 1 }}>
 //                 <div style={{
 //                   width: '162px',
@@ -1066,7 +1067,7 @@ export class ProgramHighlightsSection extends React.Component {
 //                   border: '4px solid rgba(255, 255, 255, 0.75)',
 //                   flexShrink: 0
 //                 }} />
-                
+
 //                 <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '16px' }}>
 //                   <p style={{ 
 //                     fontSize: '24px', 
@@ -1097,7 +1098,7 @@ export class ProgramHighlightsSection extends React.Component {
 //                   </div>
 //                 </div>
 //               </div>
-              
+
 //               {/* Closing Quote - Bottom Right */}
 //               <img 
 //                 src={quotes} 
@@ -1189,20 +1190,20 @@ export class ImpactSection extends React.Component {
 
       const rect = this.sectionRef.current.getBoundingClientRect();
       const viewportHeight = window.innerHeight;
-      
+
       // Check if section is partially visible (trigger at 10% into view)
       const isPartiallyVisible = rect.top < viewportHeight * 0.9 && rect.top > -rect.height * 0.5;
       const isTopNearViewport = rect.top > 0 && rect.top < viewportHeight * 0.9;
-      
+
       if (isPartiallyVisible && isTopNearViewport) {
         this.isSnapping = true;
         const targetScroll = window.scrollY + rect.top;
-        
+
         window.scrollTo({
           top: targetScroll,
           behavior: 'smooth'
         });
-        
+
         // Reset snapping flag after animation
         setTimeout(() => {
           this.isSnapping = false;
@@ -1219,10 +1220,10 @@ export class ImpactSection extends React.Component {
     const testimonialImageUrl = testimonial ? getImageUrl(testimonial.image) : null;
 
     return (
-      <section ref={this.sectionRef} className="impact-section-wrapper" style={{ 
-        position: 'relative', 
-        width: '100%', 
-        minHeight: isMobile ? 'auto' : '100vh', 
+      <section ref={this.sectionRef} className="impact-section-wrapper" style={{
+        position: 'relative',
+        width: '100%',
+        minHeight: isMobile ? 'auto' : '100vh',
         background: '#fff',
         padding: isMobile ? '32px 0' : '64px 0',
         display: 'flex',
@@ -1238,18 +1239,18 @@ export class ImpactSection extends React.Component {
           backgroundPosition: 'center'
         }} />
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(0, 0, 0, 0.5)' }} />
-        
+
         {/* Content */}
-        <div style={{ 
-          position: 'relative', 
-          zIndex: 10, 
+        <div style={{
+          position: 'relative',
+          zIndex: 10,
           padding: isMobile ? '0 20px' : isTablet ? '0 40px' : '0 80px',
           maxWidth: '1400px',
           margin: '0 auto'
         }}>
-          <h2 style={{ 
-            fontSize: isMobile ? '32px' : isTablet ? '44px' : '56px', 
-            fontWeight: 700, 
+          <h2 style={{
+            fontSize: isMobile ? '32px' : isTablet ? '44px' : '56px',
+            fontWeight: 700,
             color: '#fff',
             marginBottom: isMobile ? '24px' : isTablet ? '36px' : '48px',
             letterSpacing: '-0.01em',
@@ -1257,19 +1258,19 @@ export class ImpactSection extends React.Component {
           }}>
             {title || "Impact"}
           </h2>
-          
+
           {/* Stats Grid - Only render if stats exist */}
           {stats && stats.length > 0 && (
-            <div className="row" style={{ 
+            <div className="row" style={{
               display: 'flex',
               flexWrap: 'wrap',
-              gap: isMobile ? '16px' : isTablet ? '20px' : '28px', 
+              gap: isMobile ? '16px' : isTablet ? '20px' : '28px',
               marginBottom: isMobile ? '24px' : '32px'
             }}>
               {stats.map((stat, index) => {
                 const statImageUrl = getImageUrl(stat.image);
                 return (
-                  <div 
+                  <div
                     key={index}
                     className="col-md-3"
                     style={{
@@ -1298,36 +1299,36 @@ export class ImpactSection extends React.Component {
                         }} />
                       )} */}
                       {statImageUrl && (
-  <div style={{
-    width: 'auto',
-    height: isMobile ? '200px' : isTablet ? '140px' : '140px',
-    margin: '16px auto',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center'
-  }}>
-    <img 
-      src={statImageUrl}
-      alt={stat.label}
-      style={{
-        maxWidth: '100%',
-        maxHeight: '100%',
-        objectFit: 'contain'
-      }}
-    />
-  </div>
-)}
-                      <div style={{ 
-                        fontSize: isMobile ? '24px' : isTablet ? '26px' : '28px', 
-                        fontWeight: 600, 
+                        <div style={{
+                          width: 'auto',
+                          height: isMobile ? '200px' : isTablet ? '140px' : '140px',
+                          margin: '16px auto',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center'
+                        }}>
+                          <img
+                            src={statImageUrl}
+                            alt={stat.label}
+                            style={{
+                              maxWidth: '100%',
+                              maxHeight: '100%',
+                              objectFit: 'contain'
+                            }}
+                          />
+                        </div>
+                      )}
+                      <div style={{
+                        fontSize: isMobile ? '24px' : isTablet ? '26px' : '28px',
+                        fontWeight: 600,
                         color: '#fff',
                         lineHeight: '48px',
                         textTransform: 'capitalize'
                       }}>
                         {stat.value}
                       </div>
-                      <div style={{ 
-                        fontSize: isMobile ? '14px' : isTablet ? '16px' : '18px', 
+                      <div style={{
+                        fontSize: isMobile ? '14px' : isTablet ? '16px' : '18px',
                         fontWeight: 400,
                         color: '#fff',
                         lineHeight: '20px',
@@ -1341,7 +1342,7 @@ export class ImpactSection extends React.Component {
               })}
             </div>
           )}
-          
+
           {/* Testimonial Card - Only render if testimonial exists */}
           {testimonial && (
             <div style={{
@@ -1356,9 +1357,9 @@ export class ImpactSection extends React.Component {
               position: 'relative'
             }}>
               {/* Opening Quote - Top Left */}
-              <img 
-                src={quotes} 
-                alt="quote" 
+              <img
+                src={quotes}
+                alt="quote"
                 style={{
                   position: 'absolute',
                   top: isMobile ? '12px' : '20px',
@@ -1368,12 +1369,12 @@ export class ImpactSection extends React.Component {
                   opacity: 0.8
                 }}
               />
-              
-              <div style={{ 
-                display: 'flex', 
+
+              <div style={{
+                display: 'flex',
                 flexDirection: isMobile ? 'column' : 'row',
-                alignItems: 'center', 
-                gap: isMobile ? '20px' : '32px', 
+                alignItems: 'center',
+                gap: isMobile ? '20px' : '32px',
                 flex: 1,
                 width: '100%'
               }}>
@@ -1387,19 +1388,19 @@ export class ImpactSection extends React.Component {
                   border: `${isMobile ? '3px' : '4px'} solid rgba(255, 255, 255, 0.75)`,
                   flexShrink: 0
                 }} />
-                
-                <div style={{ 
-                  flex: 1, 
-                  display: 'flex', 
-                  flexDirection: 'column', 
+
+                <div style={{
+                  flex: 1,
+                  display: 'flex',
+                  flexDirection: 'column',
                   gap: isMobile ? '12px' : '16px',
                   width: isMobile ? '100%' : 'auto',
                   textAlign: isMobile ? 'center' : 'left'
                 }}>
-                  <p style={{ 
-                    fontSize: isMobile ? '16px' : isTablet ? '20px' : '24px', 
+                  <p style={{
+                    fontSize: isMobile ? '16px' : isTablet ? '20px' : '24px',
                     fontStyle: 'italic',
-                    fontWeight: 500, 
+                    fontWeight: 500,
                     color: '#fff',
                     lineHeight: isMobile ? '22px' : isTablet ? '26px' : '27px',
                     margin: 0
@@ -1407,17 +1408,17 @@ export class ImpactSection extends React.Component {
                     {testimonial.quote}
                   </p>
                   <div>
-                    <div style={{ 
-                      fontSize: isMobile ? '18px' : isTablet ? '20px' : '24px', 
-                      fontWeight: 900, 
+                    <div style={{
+                      fontSize: isMobile ? '18px' : isTablet ? '20px' : '24px',
+                      fontWeight: 900,
                       color: '#fff',
                       lineHeight: isMobile ? '24px' : '33px'
                     }}>
                       {testimonial.name}
                     </div>
-                    <div style={{ 
-                      fontSize: isMobile ? '14px' : '16px', 
-                      fontWeight: 500, 
+                    <div style={{
+                      fontSize: isMobile ? '14px' : '16px',
+                      fontWeight: 500,
                       color: '#fff',
                       lineHeight: isMobile ? '18px' : '22px'
                     }}>
@@ -1426,11 +1427,11 @@ export class ImpactSection extends React.Component {
                   </div>
                 </div>
               </div>
-              
+
               {/* Closing Quote - Bottom Right */}
-              <img 
-                src={quotes} 
-                alt="quote" 
+              <img
+                src={quotes}
+                alt="quote"
                 style={{
                   position: 'absolute',
                   bottom: isMobile ? '12px' : '20px',
@@ -1441,7 +1442,7 @@ export class ImpactSection extends React.Component {
                   transform: 'scaleX(-1)'
                 }}
               />
-              
+
               {/* Navigation Arrows - Only show if multiple testimonials */}
               {testimonials && testimonials.length > 1 && (
                 <>
@@ -1565,20 +1566,20 @@ export class PartnersSection extends React.Component {
 
       const rect = this.sectionRef.current.getBoundingClientRect();
       const viewportHeight = window.innerHeight;
-      
+
       // Check if section is partially visible (trigger at 10% into view)
       const isPartiallyVisible = rect.top < viewportHeight * 0.9 && rect.top > -rect.height * 0.5;
       const isTopNearViewport = rect.top > 0 && rect.top < viewportHeight * 0.9;
-      
+
       if (isPartiallyVisible && isTopNearViewport) {
         this.isSnapping = true;
         const targetScroll = window.scrollY + rect.top;
-        
+
         window.scrollTo({
           top: targetScroll,
           behavior: 'smooth'
         });
-        
+
         // Reset snapping flag after animation
         setTimeout(() => {
           this.isSnapping = false;
@@ -1592,20 +1593,20 @@ export class PartnersSection extends React.Component {
     const { isMobile, isTablet } = this.state;
 
     return (
-      <section ref={this.sectionRef} className="partners-section-wrapper" style={{ 
-        position: 'relative', 
-        width: '100%', 
+      <section ref={this.sectionRef} className="partners-section-wrapper" style={{
+        position: 'relative',
+        width: '100%',
         background: '#fff',
         padding: isMobile ? '32px 0' : '64px 0'
       }}>
-        <div style={{ 
+        <div style={{
           padding: isMobile ? '0 20px' : isTablet ? '0 40px' : '0 80px',
           maxWidth: '1400px',
           margin: '0 auto'
         }}>
-          <h2 style={{ 
-            fontSize: isMobile ? '32px' : isTablet ? '44px' : '56px', 
-            fontWeight: 700, 
+          <h2 style={{
+            fontSize: isMobile ? '32px' : isTablet ? '44px' : '56px',
+            fontWeight: 700,
             color: '#000',
             marginBottom: isMobile ? '32px' : isTablet ? '48px' : '64px',
             letterSpacing: '-0.01em',
@@ -1613,10 +1614,10 @@ export class PartnersSection extends React.Component {
           }}>
             {title || "Our Partners"}
           </h2>
-          
-          <div style={{ 
-            display: 'flex', 
-            alignItems: 'center', 
+
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
             justifyContent: isMobile ? 'center' : 'flex-start',
             gap: isMobile ? '32px' : isTablet ? '64px' : '96px',
             padding: isMobile ? '24px 0 0 0' : '48px 0 0 0',
@@ -1625,11 +1626,11 @@ export class PartnersSection extends React.Component {
             {partners?.map((partner, index) => {
               const logoUrl = getImageUrl(partner.logo);
               return (
-                <div 
-                  key={index} 
-                  style={{ 
-                    display: 'flex', 
-                    alignItems: 'center', 
+                <div
+                  key={index}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
                     justifyContent: 'center',
                     transition: 'transform 0.3s ease',
                     cursor: 'pointer'
@@ -1646,27 +1647,27 @@ export class PartnersSection extends React.Component {
                   }}
                 >
                   {logoUrl ? (
-                    <img 
-                      src={logoUrl} 
-                      alt={partner.name} 
-                      style={{ 
-                        height: isMobile ? '80px' : isTablet ? '100px' : '120px', 
+                    <img
+                      src={logoUrl}
+                      alt={partner.name}
+                      style={{
+                        height: isMobile ? '80px' : isTablet ? '100px' : '120px',
                         objectFit: 'contain'
-                      }} 
+                      }}
                     />
                   ) : (
-                    <div style={{ 
-                      width: isMobile ? '120px' : isTablet ? '140px' : '160px', 
-                      height: isMobile ? '80px' : isTablet ? '100px' : '120px', 
+                    <div style={{
+                      width: isMobile ? '120px' : isTablet ? '140px' : '160px',
+                      height: isMobile ? '80px' : isTablet ? '100px' : '120px',
                       background: '#e5e7eb',
                       borderRadius: '8px',
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center'
                     }}>
-                      <span style={{ 
-                        fontSize: isMobile ? '12px' : '14px', 
-                        color: '#6b7280' 
+                      <span style={{
+                        fontSize: isMobile ? '12px' : '14px',
+                        color: '#6b7280'
                       }}>
                         {partner.name}
                       </span>
