@@ -854,8 +854,8 @@ export class ProgramHighlightsSection extends React.Component {
                     gap: '12px',
                     flex: isMobile ? '1 1 100%' : isTablet ? '1 1 calc(50% - 10px)' : '1 1 calc(25% - 18px)',
                     minWidth: isMobile ? '100%' : isTablet ? '200px' : '250px',
-                    background: highlightImageUrl ? 'transparent' : 'rgba(255, 255, 255, 0.1)',
-                    backdropFilter: highlightImageUrl ? 'none' : 'blur(10px)',
+                    background: 'rgba(255, 255, 255, 0.1)',
+                    backdropFilter: 'blur(10px)',
                     borderRadius: isMobile ? '16px' : '20px',
                     padding: highlightImageUrl ? '0' : (isMobile ? '20px' : '24px')
                   }}
