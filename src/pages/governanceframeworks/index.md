@@ -45,4 +45,7 @@ assets:
       name: Governance Decluttered
       description: Series of bite-sized videos decoding everyday governance topics
       link: /decluttered
+newsletterText: Subscribe to our LinkedIn monthly newsletter on Governance Frameworks
+newsletterLink: https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7107653256859836416
+newsletterShow: false
 ---

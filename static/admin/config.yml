@@ -2401,6 +2401,10 @@ collections:
                   },
                 ],
             }
+          - { label: "Newsletter Text", name: "newsletterText", widget: "string" }
+          - { label: "Newsletter Link", name: "newsletterLink", widget: "string" }
+          - { label: "Show Newsletter", name: "newsletterShow", widget: "boolean", default: true }
+
       - file: "src/pages/c4gt/index.md"
         label: "C4GT Page"
         name: "c4gt"

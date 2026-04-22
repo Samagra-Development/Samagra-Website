@@ -94,6 +94,9 @@ export const mediaPageQuery = graphql`
                 link
             }
         }
+        newsletterText
+        newsletterLink
+        newsletterShow
 
       }
     }

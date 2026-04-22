@@ -79,26 +79,24 @@ const FrameworkSectionThird = ({ content }) => {
           );
         })}
       </div>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          margin: "35px",
-        }}
-      >
-        <p className="f-18" style={{ margin: "15px 10px" }}>
-          Subscribe to our LinkedIn monthly newsletter on Governance Frameworks
-        </p>
-        <a
-          class="libutton"
-          href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7107653256859836416"
-          target="_blank"
+      {content.newsletterShow && (
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+            margin: "35px",
+          }}
         >
-          Subscribe on LinkedIn
-        </a>
-      </div>
+          <p className="f-18" style={{ margin: "15px 10px" }}>
+            {content.newsletterText}
+          </p>
+          <a class="libutton" href={content.newsletterLink} target="_blank">
+            Subscribe on LinkedIn
+          </a>
+        </div>
+      )}
     </>
   );
 };
