@@ -78,10 +78,11 @@ impactSection:
         image: /img/dsc00019.jpg
 partnersSection:
   title: Our Partners
+  partnerTitle: Our Partners
   isVisible: true
   partners:
-    - name: Government of Uttar Pradesh
-      logo: /img/seal_of_uttar_pradesh.svg
-    - name: Gates Foundation
-      logo: /img/gates_foundation_logo.svg.png
+    - description: Government of Uttar Pradesh
+      image: /img/seal_of_uttar_pradesh.svg
+    - description: Gates Foundation
+      image: /img/gates_foundation_logo.svg.png
 ---

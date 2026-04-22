@@ -78,10 +78,11 @@ impactSection:
         image: /img/dsc00019.jpg
 partnersSection:
   title: Our Partners
+  partnerTitle: Our Partners
   isVisible: true
   partners:
-    - name: Government of Odisha
-      logo: /img/government-of-odisha.png
-    - name: Gates Foundation
-      logo: /img/gates_foundation_logo.svg.png
+    - description: Government of Odisha
+      image: /img/government-of-odisha.png
+    - description: Gates Foundation
+      image: /img/gates_foundation_logo.svg.png
 ---

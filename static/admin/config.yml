@@ -1537,10 +1537,11 @@ collections:
           required: false,
           fields: [
             {label: "Title", name: "title", widget: "string", required: false},
+            {label: "Partner Title", name: "partnerTitle", widget: "string", required: false},
             {label: "Is Visible", name: "isVisible", widget: "boolean", default: true, required: false},
             {label: "Partners", name: "partners", widget: "list", required: false, fields: [
-              {label: "Name", name: "name", widget: "string", required: false},
-              {label: "Logo", name: "logo", widget: "image", required: false}
+              {label: "Description", name: "description", widget: "text", required: false},
+              {label: "Image", name: "image", widget: "image", required: false}
             ]}
           ]
         }

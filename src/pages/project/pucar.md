@@ -81,18 +81,19 @@ impactSection:
         image: /img/dsc00019.jpg
 partnersSection:
   title: Our Partners
+  partnerTitle: Our Partners
   isVisible: true
   partners:
-    - name: High Court of Kerala
-      logo: /img/high-court-kerala.png
-    - name: Agami
-      logo: /img/agami.png
-    - name: XKDR
-      logo: /img/xkdr.png
-    - name: BeeHyv
-      logo: /img/beehyv_software_solutions_private_limited_logo.jpg
-    - name: ParallelHQ
-      logo: /img/parallelhq.png
-    - name: E-Governments Foundation
-      logo: /img/egov.png
+    - description: High Court of Kerala
+      image: /img/high-court-kerala.png
+    - description: Agami
+      image: /img/agami.png
+    - description: XKDR
+      image: /img/xkdr.png
+    - description: BeeHyv
+      image: /img/beehyv_software_solutions_private_limited_logo.jpg
+    - description: ParallelHQ
+      image: /img/parallelhq.png
+    - description: E-Governments Foundation
+      image: /img/egov.png
 ---

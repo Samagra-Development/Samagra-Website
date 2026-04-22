@@ -79,10 +79,11 @@ impactSection:
         image: /img/dsc00019.jpg
 partnersSection:
   title: Our Partners
+  partnerTitle: Our Partners
   isVisible: true
   partners:
-    - name: Government of Andhra Pradesh
-      logo: /img/960px-emblem_of_andhra_pradesh.png
-    - name: Gates Foundation
-      logo: /img/gates_foundation_logo.svg.png
+    - description: Government of Andhra Pradesh
+      image: /img/960px-emblem_of_andhra_pradesh.png
+    - description: Gates Foundation
+      image: /img/gates_foundation_logo.svg.png
 ---

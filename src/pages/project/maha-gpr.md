@@ -71,10 +71,11 @@ impactSection:
         image: /img/dsc00019.jpg
 partnersSection:
   title: Our Partners
+  partnerTitle: Our Partners
   isVisible: true
   partners:
-    - name: Government of Maharashtra
-      logo: /img/seal_of_maharashtra.svg
-    - name: Gates Foundation
-      logo: /img/gates_foundation_logo.svg.png
+    - description: Government of Maharashtra
+      image: /img/seal_of_maharashtra.svg
+    - description: Gates Foundation
+      image: /img/gates_foundation_logo.svg.png
 ---

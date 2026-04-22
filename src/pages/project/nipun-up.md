@@ -81,14 +81,15 @@ impactSection:
         image: /img/dsc00019.jpg
 partnersSection:
   title: Our Partners
+  partnerTitle: Our Partners
   isVisible: true
   partners:
-    - name: Department of Basic Education, UP
-      logo: /img/seal_of_uttar_pradesh.svg
-    - name: CSF
-      logo: /img/CSF.jpg
-    - name: LLF
-      logo: /img/llf-logo.png
-    - name: Vikramshila
-      logo: /img/vikramshila-photo.png
+    - description: Department of Basic Education, UP
+      image: /img/seal_of_uttar_pradesh.svg
+    - description: CSF
+      image: /img/CSF.jpg
+    - description: LLF
+      image: /img/llf-logo.png
+    - description: Vikramshila
+      image: /img/vikramshila-photo.png
 ---

@@ -71,24 +71,25 @@ impactSection:
         image: /img/dsc00019.jpg
 partnersSection:
   title: Our Partners
+  partnerTitle: Our Partners
   isVisible: true
   partners:
-    - name: UPDESCO
-      logo: /img/updesco.png
-    - name: Gates Foundation
-      logo: /img/gates_foundation_logo.svg.png
-    - name: Bhashini
-      logo: /img/download-2-.jpg
-    - name: Krutrim
-      logo: /img/krutrim-logo-01.png
-    - name: AWS
-      logo: /img/amazon_web_services_logo.svg.png
-    - name: Meta
-      logo: /img/meta-logo.png
-    - name: Google
-      logo: /img/google_2015_logo.svg.png
-    - name: Beehyv
-      logo: /img/beehyv.jpg
-    - name: Punjab National Bank
-      logo: /img/pnb.png
+    - description: UPDESCO
+      image: /img/updesco.png
+    - description: Gates Foundation
+      image: /img/gates_foundation_logo.svg.png
+    - description: Bhashini
+      image: /img/download-2-.jpg
+    - description: Krutrim
+      image: /img/krutrim-logo-01.png
+    - description: AWS
+      image: /img/amazon_web_services_logo.svg.png
+    - description: Meta
+      image: /img/meta-logo.png
+    - description: Google
+      image: /img/google_2015_logo.svg.png
+    - description: Beehyv
+      image: /img/beehyv.jpg
+    - description: Punjab National Bank
+      image: /img/pnb.png
 ---

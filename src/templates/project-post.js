@@ -10,6 +10,7 @@ import ProductBannerImage from "../components/ProductPageComponents/ProductBanne
 import { ProductPageSecondSection } from "../components/ProductPageComponents/ProductPageSecondSection/ProductPageSecondSection";
 import { ProductPageKeyInitiatives } from "../components/ProductPageComponents/ProductPageKeyInitiatives/ProductPageKeyInitiatives";
 import { OurImpactSection } from "../components/ProductPageComponents/OurImpactSection/OurImpactSection";
+import PartnersSectionSecond from "../components/PartnersPageComponents/PartnersSectionSecond/PartnersSectionSecond";
 
 // Shared component
 import OurPublicationsSection from "../components/ProductPageComponents/OurPublicationsSection/OurPublicationsSection";
@@ -41,6 +42,13 @@ const OurPartnersSection = ({ partners }) => {
 export const ProjectPostTemplate = ({ project }) => {
   // Check if this is a new schema project (has heroSection)
   const isNewSchema =  project.heroSection?.isVisible ?? false;
+  const isRecentProgram = project.domainNew === "Recent Programs";
+  const partnersContentFromProject = {
+    partnerTitle: project?.partnersSection?.partnerTitle || project?.partnersSection?.title || "Our Partners",
+    titleLines: [],
+    videos: [],
+    partners: project?.partnersSection?.partners || [],
+  };
 
   return (
     <section>
@@ -58,7 +66,11 @@ export const ProjectPostTemplate = ({ project }) => {
               testimonials={project.impactSection.testimonials?.isVisible ? project.impactSection.testimonials.items : []}
             />
           )}
-          {project.partnersSection && project.partnersSection.isVisible && <PartnersSection {...project.partnersSection} />}
+          {isRecentProgram && project.partnersSection && project.partnersSection.isVisible ? (
+            <PartnersSectionSecond content={partnersContentFromProject} />
+          ) : (
+            project.partnersSection && project.partnersSection.isVisible && <PartnersSection {...project.partnersSection} />
+          )}
         </>
       ) : (
         // Old schema rendering (Past Programs)
@@ -297,12 +309,13 @@ export const pageQuery = graphql`
         }
         partnersSection {
           title
+          partnerTitle
           isVisible
           partners {
-            name
-            logo {
+            description
+            image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 100) {
+                fluid(maxWidth: 2048, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }
