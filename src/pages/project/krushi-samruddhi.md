@@ -23,27 +23,27 @@ whyImportantSection:
       more than 88 lakh farmers across Odisha through a cadre of 6,000+ last
       mile extension workers\t"
   items:
-    - title: Average farm household income of farmers of Odisha is low (Rs. 4,953 per
-        month)
+    - title: Average farm household income of farmers of Odisha is low, i.e. Rs. 4,953
+        per month
       image: /img/leap-icon-2-removebg-preview.png
-    - title: "Odisha agri sector takes a production-led instead of an income-led
-        approach \t"
+    - title: "Odisha agriculture sector historically has taken a production-led
+        instead of an income-led approach \t"
       image: /img/leap-icon-1-removebg-preview.png
 programHighlightsSection:
   title: Program Highlights
   backgroundImage: /img/dd1.jpg
   isVisible: true
   highlights:
-    - title: AI-Powered Advisory
+    - title: AI-powered Advisory
       description: End-to-end management of AI use cases to unlock personalised
-        advisory to 88 Lakh farmers.
+        advisory to 88L+ farmers.
       image: /img/6646krushak-odisha-empowering-farmers-with-a-unified-digital-registry-1-.jpg
     - title: eRUPI Subsidy Delivery
-      description: Unlocked front-end subsidy to farmers through RBI's eRUPI to 7.5k+
+      description: Unlocked front-end subsidy to farmers through RBI's eRUPI for 7.5k+
         farmers.
       image: /img/erupee.png
-    - title: Comprehensive Crop Survey
-      description: Successfully completed 3 seasons of crop survey of 2.8 Cr+
+    - title: Annual Crop Surveys
+      description: Successfully completed 3 seasons of crop surveys of 2.8 Cr+
         agricultural plots.
       image: /img/screenshot-2026-04-16-at-11.54.32 am.png
   description: ""
