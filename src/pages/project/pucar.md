@@ -16,7 +16,7 @@ heroSection:
   isVisible: true
 whyImportantSection:
   title: Why is it important?
-  backgroundImage: /img/pucar-milestone.png
+  backgroundImage: /img/ffd.png
   isVisible: true
   infoCard:
     title: "Cheque dishonour (NI Act S138) cases make up about 11% of total criminal
@@ -37,12 +37,12 @@ programHighlightsSection:
   backgroundImage: /img/pucar-picture-1.jpg
   isVisible: true
   highlights:
-    - title: ON Courts vision launch
-      description: On August 16 2024, the Kerala High Court launched the ON Courts
+    - title: Launch of ON Courts vision
+      description: On August 16, 2024, the Kerala High Court launched the ON Courts
         vision in the presence of political, executive, judicial and ecosystem
         leadership.
       image: /img/screenshot-2025-12-09-at-7.23.20 pm.png
-    - title: 1st ON Court live
+    - title: 1st model ON Court live
       description: On November 20, 2024, the first ON Court went live, and the first
         case was filed and registered.
       image: /img/screenshot-2026-04-20-at-2.58.31 pm.png
@@ -84,16 +84,18 @@ partnersSection:
   partnerTitle: Our Partners
   isVisible: true
   partners:
-    - description: High Court of Kerala
+    - description: The team worked with the High Court of Kerala.
       image: /img/high-court-kerala.png
-    - description: Agami
+    - description: Agami brought in the legal expertise & ecosystem-building ability
+        to PUCAR.
       image: /img/agami.png
-    - description: XKDR
+    - description: XKDR brought in data analysis & research capability to PUCAR.
       image: /img/xkdr.png
-    - description: BeeHyv
+    - description: BeeHyv helped PUCAR become a community-driven model.
       image: /img/beehyv_software_solutions_private_limited_logo.jpg
-    - description: ParallelHQ
+    - description: ParallelHQ brought in strategic design capability to PUCAR.
       image: /img/parallelhq.png
-    - description: E-Governments Foundation
+    - description: E-Governments Foundation brought in technological backbone for
+        PUCAR’s initiatives.
       image: /img/egov.png
 ---
