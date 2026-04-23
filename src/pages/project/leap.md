@@ -22,34 +22,34 @@ whyImportantSection:
     description: Average yield of 3.5 litres/day per animal against the national 6.7
       litres/day per animal
   items:
-    - title: Poor yield for farmers
+    - title: 50% milk yield in Odisha vs India
       image: /img/fid-icon-1.png
-    - title: Low milk availability
+    - title: Low milk availability for milk consumers
       image: /img/leap-icon-4-removebg-preview.png
-    - title: Suppressed farmer income
+    - title: Low farmer income in the state
       image: /img/leap-icon-1-removebg-preview.png
 programHighlightsSection:
   title: Program Highlights
   backgroundImage: /img/leap-picture-3.png
   isVisible: true
   highlights:
-    - title: Anchoring the Odisha Milk Mission
-      description: Anchoring the Odisha Milk Mission, deploying levers across genetics
-        (incl. X-sorted semen), nutrition, animal health, and credit enablement
+    - title: Launching the Odisha Milk Mission
+      description: Mukhyamantri Kamadhenu Yojana (MKY) was launched in 2024 deploying
+        levers across genetics, nutrition, & health improvement of cattle
       image: /img/screenshot-2026-04-20-at-2.25.34 pm.png
     - title: Doorstep Artificial Insemination
       description: Delivering doorstep Artificial Insemination through the GO-SUGAM
         helpline, mapping technicians, and fulfilling same-day requests with
         digital tracking
       image: /img/leap-2.png
-    - title: Go-Sampad Bima Yojana
+    - title: Announcing Go-Sampad Bima Yojana
       description: Protecting farmers through Go-Sampad Bima Yojana, using insurance
         intermediaries to streamline enrollments, policy issuance, and claims
       image: /img/leap-3.png
-    - title: Data-led Governance
+    - title: Enabling Data-led Governance
       description: Driving data-led governance by running IVRS awareness, tracking on
-        GO-SUGAM/DSS dashboards, conducting cascaded reviews, and commissioning
-        third-party assessments
+        dashboards, conducting cascaded reviews, & commissioning third-party
+        assessments
       image: /img/screenshot-2025-05-21-at-2.24.53 pm.png
 impactSection:
   title: Impact
@@ -60,8 +60,8 @@ impactSection:
     items:
       - value: ₹1,423 cr
         image: /img/leap-icon-1-removebg-preview.png
-        label: Five-year budgetary outlay under Mukhyamantri Kamdhenu Yojana
-      - value: 25L
+        label: Five-year budgetary outlay
+      - value: 25L+
         image: /img/leap-icon-2-removebg-preview.png
         label: Livestock farmers impacted across 16 districts
       - value: 100+
@@ -69,7 +69,7 @@ impactSection:
         label: On-call artificial inseminations performed per district per day
       - value: 45%
         image: /img/leap-icon-4-removebg-preview.png
-        label: Calf birth rate, risen from 5%
+        label: Calf birth rate risen from 5% in 2 years
   testimonials:
     isVisible: false
     items:
