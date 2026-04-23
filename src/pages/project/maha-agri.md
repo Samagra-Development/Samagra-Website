@@ -62,8 +62,8 @@ partnersSection:
   title: Our Partners
   partnerTitle: Our Partners
   partners:
-    - description: Government of Maharashtra
-      image: /img/seal_of_maharashtra.svg
-    - description: Gates Foundation
+    - description: "Government of Maharashtra: the department Samagra team is working with"
+      image: /img/screenshot-2026-04-23-at-1.04.04 pm.png
+    - description: "Gates Foundation: funding partner"
       image: /img/gates_foundation_logo.svg.png
 ---
