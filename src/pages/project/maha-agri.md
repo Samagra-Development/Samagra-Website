@@ -24,29 +24,27 @@ whyImportantSection:
       40,000 Cr, the Department of Agriculture struggles to effectively serve
       the state’s diverse farmer base\t"
   items:
-    - title: With increasing uncertainties (climatic and economic) in agriculture,
-        farmers require support from the state
+    - title: With increasing uncertainties in agriculture, farmers require support
+        from the state
       image: /img/leap-icon-2-removebg-preview.png
-    - title: Poor internal coordination and processes limit the department’s ability
-        to provide this support
+    - title: Poor internal coordination limit the department’s ability to provide
+        support to farmers
       image: /img/gpr-icon-3-removebg-preview.png
-    - title: The problem is compounded by a weak feedback loop and farmers’ voices do
-        not reach decision-makers
+    - title: A weak feedback loop results in farmers’ voices not reaching
+        decision-makers
       image: /img/mahaagri-icon-1-removebg-preview.png
 programHighlightsSection:
   isVisible: true
   description: ""
   title: Program Highlights
   highlights:
-    - description: "Ensuring accountability by increasing data visibility and
-        establishing a fixed review cadence\t"
-      title: Data-backed Accountability
     - description: Strengthening advisory services by developing a multi-channel
         digital extension system
       title: Digital Agricultural Advisory
-    - description: "Embedding farmer-centricity in all departmental operations by
-        creating a feedback channel\t"
-      title: Farmer Centric Operations
+    - description: Setting up review and monitoring systems in place for cascaded
+        accountability
+      title: Cascaded Review and Monitoring
+      image: /img/whatsapp-image-2025-12-05-at-22.38.47.jpeg
     - description: Simplifying field reporting by bringing all key activities into one
         easy-to-use app
       title: Agri-Extension App
