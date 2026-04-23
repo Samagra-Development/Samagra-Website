@@ -86,12 +86,11 @@ partnersSection:
   partnerTitle: Our Partners
   isVisible: true
   partners:
-    - description: Department of Basic Education, UP
+    - description: The team is working with the Department of Basic Education,
+        Government of Uttar Pradesh.
       image: /img/seal_of_uttar_pradesh.svg
-    - description: CSF
-      image: /img/CSF.jpg
-    - description: LLF
+    - description: Language Learning Foundation is one of the implementation partners.
       image: /img/llf-logo.png
-    - description: Vikramshila
+    - description: Vikramshila is one of the implementation partners.
       image: /img/vikramshila-photo.png
 ---
