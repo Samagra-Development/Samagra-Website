@@ -50,8 +50,8 @@ programHighlightsSection:
         headmasters
       image: /img/whatsapp-image-2026-04-14-at-10.15.31-am.jpeg
     - title: NIPUN Sankalp Karyashalas (NSKs)
-      description: Statewide series of workshops conducted to orient the mentoring
-        cadre and also administrative officers on the NIPUN mission.
+      description: A statewide series of workshops was conducted to orient the
+        mentoring cadre and also administrative officers on the NIPUN mission.
       image: /img/whatsapp-image-2025-11-25-at-17.00.20-1-.jpeg
 impactSection:
   title: Impact
