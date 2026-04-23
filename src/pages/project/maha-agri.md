@@ -62,8 +62,9 @@ partnersSection:
   title: Our Partners
   partnerTitle: Our Partners
   partners:
-    - description: "Government of Maharashtra: the department Samagra team is working with"
+    - description: The team is working with the Department of Agriculture, Government
+        of Maharashtra.
       image: /img/screenshot-2026-04-23-at-1.04.04 pm.png
-    - description: "Gates Foundation: funding partner"
+    - description: Gates Foundation is the funding partner for the program.
       image: /img/gates_foundation_logo.svg.png
 ---
