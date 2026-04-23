@@ -25,10 +25,12 @@ whyImportantSection:
       students could not read a Grade 2 level text, and 71.8% could not perform
       at least subtraction
   items:
-    - title: Strengthening Foundational Literacy & Numeracy
+    - title: Without basic reading and numeracy, children struggle throughout life
       image: /img/nipun-icon-1-removebg-preview.png
-    - title: Enabling Holistic Development
+    - title: Early stage education leads to holistic child development
       image: /img/fbms-icon-1-removebg-preview.png
+    - title: Uttar Pradesh categorized among the lowest-performing states in ASER 2018
+      image: /img/dis.png
 programHighlightsSection:
   title: Program Highlights
   backgroundImage: /img/cover_online-teacher-transfer.jpg
