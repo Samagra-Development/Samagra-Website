@@ -81,8 +81,9 @@ partnersSection:
   partnerTitle: Our Partners
   isVisible: true
   partners:
-    - description: Government of Odisha
+    - description: The team is working with the Department of Agriculture & Farmers'
+        Empowerment, Government of Odisha.
       image: /img/government-of-odisha.png
-    - description: Gates Foundation
+    - description: Gates Foundation is the funding partner for the program.
       image: /img/gates_foundation_logo.svg.png
 ---
