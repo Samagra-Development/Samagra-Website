@@ -35,17 +35,16 @@ programHighlightsSection:
   isVisible: true
   highlights:
     - title: AI-Powered Advisory
-      description: End to end management of the AI use case funnel of 5+ use cases to
-        unlock personalised advisory to 88 Lakh farmers
+      description: End-to-end management of AI use cases to unlock personalised
+        advisory to 88 Lakh farmers
       image: /img/6646krushak-odisha-empowering-farmers-with-a-unified-digital-registry-1-.jpg
     - title: eRUPI Subsidy Delivery
-      description: Unlocked front-end subsidy to farmers through eRUPI to 7.5k+
-        farmers while facilitating subsidy worth Rs 19 Crore under farm
-        mechanisation scheme
+      description: Unlocked front-end subsidy to farmers through RBI's eRUPI to 7.5k+
+        farmers.
       image: /img/erupee.png
     - title: Comprehensive Crop Survey
       description: Successfully completed 3 seasons of crop survey of 2.8 Cr+
-        agricultural plots
+        agricultural plots.
       image: /img/screenshot-2026-04-16-at-11.54.32 am.png
   description: ""
 impactSection:
