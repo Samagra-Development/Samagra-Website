@@ -38,20 +38,20 @@ programHighlightsSection:
   highlights:
     - title: NIPUN Lakshya App
       description: All system actors are given a thermometer-like tool (NIPUN Lakshya
-        App) to check the current status with respect to the goal
+        App) to assess FLN competency
       image: /img/nl-app-use-pic.jpg
     - title: NIPUN Vidyalay Assessment
       description: Every year an independent FLN assessment of schools is conducted by
         DIET students.
       image: /img/whatsapp-image-2026-04-20-at-3.05.43-pm.jpeg
     - title: NIPUN Samman Sammaroh
-      description: To motivate teachers and headmasters, gamification is being created
-        among the cadre, such as through recognition as NIPUN Vidyalay for
-        teachers and headmasters
+      description: To motivate teachers and headmasters, gamification has been done,
+        such as through recognition as NIPUN Vidyalay for teachers and
+        headmasters
       image: /img/whatsapp-image-2026-04-14-at-10.15.31-am.jpeg
     - title: NIPUN Sankalp Karyashalas (NSKs)
-      description: Statewide series of workshops was conducted to reorient the
-        mentoring cadre and also administrative officers on the NIPUN mission.
+      description: Statewide series of workshops conducted to orient the mentoring
+        cadre and also administrative officers on the NIPUN mission.
       image: /img/whatsapp-image-2025-11-25-at-17.00.20-1-.jpeg
 impactSection:
   title: Impact
