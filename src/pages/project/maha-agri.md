@@ -48,7 +48,7 @@ programHighlightsSection:
     - description: Simplifying field reporting by bringing all key activities into one
         easy-to-use app
       title: Agri-Extension App
-  backgroundImage: /img/mahaagri-picture-3.jpeg
+  backgroundImage: /img/ff.png
 impactSection:
   isVisible: false
   stats:
