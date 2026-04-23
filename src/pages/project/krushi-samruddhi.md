@@ -56,7 +56,7 @@ impactSection:
     items:
       - value: 20%+
         image: /img/fid-icon-1.png
-        label: Reduction in crop losses in weather and pest affected areas
+        label: Reduction in crop losses in weather & pest affected areas
       - value: 75%+
         image: /img/nipun-icon-3-removebg-preview.png
         label: Improvement in agriculture scheme achievement
@@ -65,7 +65,7 @@ impactSection:
         label: Farmers delivered IVRS agriculture advisory fortnightly
       - value: ₹900Cr+
         image: /img/leap-icon-1-removebg-preview.png
-        label: Released in subsidies through GO-SUGAM to farmers
+        label: Released in subsidies via GO-SUGAM to farmers
   testimonials:
     isVisible: false
     items:
