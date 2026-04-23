@@ -36,7 +36,7 @@ programHighlightsSection:
   highlights:
     - title: AI-Powered Advisory
       description: End-to-end management of AI use cases to unlock personalised
-        advisory to 88 Lakh farmers
+        advisory to 88 Lakh farmers.
       image: /img/6646krushak-odisha-empowering-farmers-with-a-unified-digital-registry-1-.jpg
     - title: eRUPI Subsidy Delivery
       description: Unlocked front-end subsidy to farmers through RBI's eRUPI to 7.5k+
