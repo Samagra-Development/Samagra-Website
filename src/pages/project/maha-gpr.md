@@ -46,6 +46,7 @@ programHighlightsSection:
     - title: Citizen Feedback System
       description: An IVRS-based outbound feedback system is now live to capture
         citizen experience post service delivery and strengthen accountability.
+      image: /img/gemini_generated_image_525iz9525iz9525i.png
     - title: Aaple Sarkar Dashboard
       description: A review and monitoring dashboard has been launched for departments
         and districts, enabling performance tracking, rankings, and data-driven
