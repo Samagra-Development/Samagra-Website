@@ -82,8 +82,9 @@ partnersSection:
   partnerTitle: Our Partners
   isVisible: true
   partners:
-    - description: Government of Andhra Pradesh
+    - description: The team is working with Planning Department, Government of Andhra
+        Pradesh.
       image: /img/960px-emblem_of_andhra_pradesh.png
-    - description: Gates Foundation
+    - description: Gates Foundation is the funding partner.
       image: /img/gates_foundation_logo.svg.png
 ---
