@@ -37,20 +37,24 @@ programHighlightsSection:
   backgroundImage: /img/subhadra.png
   isVisible: true
   highlights:
+    - image: /img/whatsapp-image-2025-08-09-at-6.07.15-pm.jpeg
+      title: SUBHADRA Direct Benefit Transfer
+      description: The government is providing ₹50,000 over five years (₹10,000/year)
+        to women aged 21-60 from economically weaker sections in Odisha.
     - title: SUBHADRA Samikhya
-      description: A sample beneficiary study in collaboration with IIM Sambalpur
+      description: A sample beneficiary study in collaboration with IIM Sambalpur was
         conducted, revealing ~80% productive use of funds and strong livelihood
-        aspirations, creating an evidence base for policy and behavioural nudges
+        aspirations.
       image: /img/img_7389.jpg
+    - title: SUBHADRA Bhaunis
+      description: A mentor cadre of SUBHADRA "Bhaunis" has been created by the state,
+        at the district level, to serve as entrepreneurship ambassadors.
+      image: /img/gemini_generated_image_vwvaazvwvaazvwva.png
     - title: SUPOSHIT Odisha Mission
       description: Statewide SUPOSHIT Odisha Mission launched by Deputy Chief Minister
         to accelerate achievement of a malnutrition (SAM, MAM and Underweight)
-        free Odisha by 2029
+        free Odisha by 2029.
       image: /img/whatsapp-image-2025-11-18-at-7.07.48-pm-1-.jpeg
-    - title: SUBHADRA Bhaunis
-      description: A mentor cadre of SUBHADRA "Bhaunis" created by the state, at the
-        district level, to serve as entrepreneurship ambassadors
-      image: /img/gemini_generated_image_vwvaazvwvaazvwva.png
 impactSection:
   title: Impact
   backgroundImage: /img/subhadra-picture-3.jpeg
