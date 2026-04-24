@@ -26,6 +26,7 @@ whyImportantSection:
       image: /img/chatgpt-image-apr-24-2026-12_37_40-pm.png
     - title: Building solutions in the local context, with appropriate guardrails, and
         deployed on domestic AI infrastructure, is critical.
+      image: ""
     - title: Need to advance government priority of Aatmanirbhar Bharat via use of
         sovereign AI infrastructure.
 programHighlightsSection:
