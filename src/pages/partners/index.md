@@ -62,4 +62,8 @@ partners:
   - description: Samagra had partnered with TheTeacherApp to develop teacher
       training content as part of the Samarth engagement.
     image: /img/TTA.png
+  - image: /img/vikramshila-language-and-learning.png
+    description: Vikramshila is an implementation partner in the NIPUN UP program.
+  - description: LLF is an implementation partner in the NIPUN UP program.
+    image: /img/language-and-learning-foundation.png
 ---
