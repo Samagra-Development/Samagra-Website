@@ -81,8 +81,9 @@ partnersSection:
   partnerTitle: Our Partners
   isVisible: true
   partners:
-    - description: Government of Uttar Pradesh
-      image: /img/seal_of_uttar_pradesh.svg
-    - description: Gates Foundation
+    - description: The team is working with the Planning Department, Government of
+        Uttar Pradesh.
+      image: /img/up.png
+    - description: Gates Foundation is the funding partner.
       image: /img/gates_foundation_logo.svg.png
 ---
