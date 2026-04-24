@@ -83,8 +83,9 @@ partnersSection:
   partnerTitle: Our Partners
   isVisible: true
   partners:
-    - description: Women & Child Development Department, Odisha
+    - description: The team is working with the Women & Child Development Department,
+        Government of Odisha.
       image: /img/government-of-odisha.png
-    - description: Gates Foundation
+    - description: Gates Foundation is the funding partner.
       image: /img/gates_foundation_logo.svg.png
 ---
