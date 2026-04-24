@@ -27,8 +27,8 @@ whyImportantSection:
     - title: Separate “sources of truth,” create data inconsistencies that weaken
         inclusion‑and‑exclusion checks
       image: /img/fid-info-4-removebg-preview.png
-    - title: Will channel welfare funds with precision to the families that need them
-        most
+    - title: There is a need to channel welfare funds with precision to the
+        beneficiaries that need them the most
       image: /img/fid-info-2-removebg-preview.png
 programHighlightsSection:
   title: Program Highlights
@@ -67,7 +67,7 @@ impactSection:
         label: Pregnant women identified for addition to Anganwadi services
       - value: 1L+
         image: /img/fid-icon-1.png
-        label: Dead beneficiaries identified in state's ration card database
+        label: Deceased beneficiaries identified in state's ration card database
   testimonials:
     isVisible: false
     items:
