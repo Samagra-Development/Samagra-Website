@@ -15,7 +15,7 @@ heroSection:
   isVisible: true
 whyImportantSection:
   title: Why is it important?
-  backgroundImage: /img/kumbh-picture-2.jpg
+  backgroundImage: /img/k1.jpg
   isVisible: true
   infoCard:
     title: ""
@@ -50,7 +50,7 @@ programHighlightsSection:
       image: ""
 impactSection:
   title: Impact
-  backgroundImage: /img/kumbh-picture-3.jpg
+  backgroundImage: /img/k2.jpeg
   isVisible: true
   stats:
     isVisible: true
