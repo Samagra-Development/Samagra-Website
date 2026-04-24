@@ -16,11 +16,18 @@ heroSection:
 whyImportantSection:
   title: Why is it important?
   backgroundImage: /img/kumbh-picture-2.jpg
-  isVisible: false
+  isVisible: true
   infoCard:
     title: ""
     description: ""
-  items: []
+  items:
+    - title: India, with its sheer size, diversity and complexity, has the potential
+        to be the AI use case capital of the world
+      image: /img/chatgpt-image-apr-24-2026-12_37_40-pm.png
+    - title: Building solutions in the local context, with appropriate guardrails, and
+        deployed on domestic AI infrastructure, is critical.
+    - title: Need to advance government priority of Aatmanirbhar Bharat via use of
+        sovereign AI infrastructure.
 programHighlightsSection:
   title: Program Highlights
   backgroundImage: /img/kumbh-picture-2.jpg
