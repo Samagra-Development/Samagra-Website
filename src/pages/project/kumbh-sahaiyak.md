@@ -37,10 +37,10 @@ programHighlightsSection:
       description: Collaborated with Prayagraj Mela Authority & UPDESCO worked with
         Bhashini, Krutrim, EkStep, Gupshup, AWS, Reverie
       image: ""
-    - title: Multilingual Services
+    - title: Multilingual Service in Chatbot
       description: "Enabled users to converse and utilise the chatbot in 11 languages "
       image: ""
-    - title: Multichannel Access
+    - title: Multichannel Access of Chatbot
       description: Developed multichannel service through WhatsApp and a Web App for
         users to access the chatbot
       image: ""
