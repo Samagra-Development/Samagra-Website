@@ -37,6 +37,7 @@ programHighlightsSection:
       description: >
         Simplified application forms and processes for 18 high-volume citizen
         services (covering ~90% of applications)
+      image: /img/gemini_generated_image_3ux2o3ux2o3ux2o3.png
     - title: Granular Tracking of back end process
       description: Amazon-like stage-wise tracking of applications launched across
         900+ services and 90+ DBT schemes, enabling full visibility for both
@@ -60,10 +61,10 @@ impactSection:
       - value: 12.8Cr+
         image: /img/konnect-icon-1-removebg-preview.png
         label: Citizens in Maharashtra accessing government schemes & services
-      - value: 1,200+
-        image: /img/fid-icon-3-removebg-preview.png
-        label: Schemes and services being brought under standardized governance
-          framework
+      - value: 41%
+        label: Reduction in fields while applying for schemes and services
+      - value: 50%
+        label: Reduction in documents required while applying for schemes and services
   testimonials:
     isVisible: false
     items:
