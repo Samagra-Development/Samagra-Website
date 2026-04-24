@@ -33,20 +33,23 @@ programHighlightsSection:
   backgroundImage: /img/gpr-5.jpg
   isVisible: true
   highlights:
-    - title: Right to Service Act
-      description: Anchoring Governance Process Re-engineering through the Chief
-        Minister's Office with Right to Service Act notification for all schemes
-        and services
-    - title: Unified Citizen Experience
-      description: Delivering unified citizen experience through Aaple Sarkar 2.0
-        portal and upgraded Seva Kendras to enable single-window access with
-        real-time alerts
-    - title: Scheme Re-engineering
-      description: Re-engineering high-volume schemes through comprehensive GPR using
-        standardized templates and eliminating redundancies
-    - title: Accountability Framework
-      description: Driving accountability through data-backed review & monitoring, and
-        citizen feedback on delivery of services
+    - title: Process Re-engineering of Top Services
+      description: >
+        Simplified application forms and processes for 18 high-volume citizen
+        services (covering ~90% of applications)
+    - title: Granular Tracking of back end process
+      description: Amazon-like stage-wise tracking of applications launched across
+        900+ services and 90+ DBT schemes, enabling full visibility for both
+        citizens and departments.
+      image: /img/tr.jpeg
+    - title: Citizen Feedback System
+      description: An IVRS-based outbound feedback system is now live to capture
+        citizen experience post service delivery and strengthen accountability.
+    - title: Aaple Sarkar Dashboard
+      description: A review and monitoring dashboard has been launched for departments
+        and districts, enabling performance tracking, rankings, and data-driven
+        reviews.
+      image: /img/screenshot-2026-04-24-at-18.06.35.png
 impactSection:
   title: Impact
   backgroundImage: /img/gpr-picture-2.png
