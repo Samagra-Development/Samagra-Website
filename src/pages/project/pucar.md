@@ -37,12 +37,12 @@ programHighlightsSection:
   backgroundImage: /img/pucar-picture-1.jpg
   isVisible: true
   highlights:
-    - title: Launch of ON Courts vision
+    - title: Launch of Open Network Courts vision
       description: On August 16, 2024, the Kerala High Court launched the ON Courts
         vision in the presence of political, executive, judicial and ecosystem
         leadership.
       image: /img/screenshot-2025-12-09-at-7.23.20 pm.png
-    - title: 1st model ON Court live
+    - title: 1st model Open Network Court live
       description: On November 20, 2024, the first ON Court went live, and the first
         case was filed and registered.
       image: /img/screenshot-2026-04-20-at-2.58.31 pm.png
