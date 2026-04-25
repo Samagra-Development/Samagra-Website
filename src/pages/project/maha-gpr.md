@@ -51,7 +51,7 @@ programHighlightsSection:
       description: A review and monitoring dashboard has been launched for departments
         and districts, enabling performance tracking, rankings, and data-driven
         reviews.
-      image: /img/screenshot-2026-04-24-at-18.06.35.png
+      image: /img/gemini_generated_image_l4ntxyl4ntxyl4nt.png
 impactSection:
   title: Impact
   backgroundImage: /img/gpr-picture-2.png
