@@ -42,7 +42,7 @@ programHighlightsSection:
       description: Amazon-like stage-wise tracking of applications launched across
         900+ services and 90+ DBT schemes, enabling full visibility for both
         citizens and departments.
-      image: /img/tr.jpeg
+      image: /img/gemini_generated_image_zhux4zzhux4zzhux.png
     - title: Citizen Feedback System
       description: An IVRS-based outbound feedback system is now live to capture
         citizen experience post service delivery and strengthen accountability.
