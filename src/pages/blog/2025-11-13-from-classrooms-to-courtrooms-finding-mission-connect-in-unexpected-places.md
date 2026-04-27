@@ -3,7 +3,7 @@ templateKey: blog-post
 title: "From Classrooms to Courtrooms: Finding Mission Connect in Unexpected Places"
 author: Praachi Bhatia
 projectId: PUCAR
-authorImage: /img/praachi.png
+authorImage: /img/11.png
 date: 2025-11-13T06:49:42.380Z
 description: How working with courts taught me that mission connect isn't always
   immediate, and impact doesn't only live in the obvious places.
