@@ -50,11 +50,11 @@ programHighlightsSection:
       description: A mentor cadre of SUBHADRA "Bhaunis" has been created by the state,
         at the district level, to serve as entrepreneurship ambassadors.
       image: /img/gemini_generated_image_vwvaazvwvaazvwva.png
-    - title: SUPOSHIT Odisha Mission
-      description: Statewide SUPOSHIT Odisha Mission launched by Deputy Chief Minister
-        to accelerate achievement of a malnutrition (SAM, MAM and Underweight)
-        free Odisha by 2029.
-      image: /img/whatsapp-image-2025-11-18-at-7.07.48-pm-1-.jpeg
+    - title: SUPOSHIT Lakshya Karmashalas (SLKs)
+      description: A series of workshops were conducted at the state and district
+        levels (in all 30 districts) to drive role and goal clarity at scale
+        across all cadres.
+      image: /img/whatsapp-image-2026-04-21-at-5.57.03-pm.jpeg
 impactSection:
   title: Impact
   backgroundImage: /img/subhadra-picture-3.jpeg
