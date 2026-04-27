@@ -84,7 +84,7 @@ partnersSection:
   isVisible: true
   partners:
     - description: Government of Maharashtra
-      image: /img/seal_of_maharashtra.svg
+      image: /img/screenshot-2026-04-23-at-1.04.04 pm.png
     - description: Gates Foundation
       image: /img/gates_foundation_logo.svg.png
 ---
