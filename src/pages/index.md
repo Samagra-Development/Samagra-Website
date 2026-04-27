@@ -96,7 +96,7 @@ ourWorkCard:
     image: /img/health.png
     workLogo:
       - logo: /img/niramaya_logo.png
-    backgroundMap: /img/up-map.png
+    backgroundMap: /img/pngtree-technological-white-background-with-abstract-blue-and-gray-dots-vector-png-image_25257776.png
     description2: To make Uttar Pradesh the supplier of quality nursing
       professionals for the entire country.
   - projectName:
@@ -111,7 +111,7 @@ ourWorkCard:
     image: /img/education.png
     workLogo:
       - logo: /img/nipun-logo-copy.png
-    backgroundMap: /img/up-map.png
+    backgroundMap: /img/pngtree-technological-white-background-with-abstract-blue-and-gray-dots-vector-png-image_25257776.png
     description2: Enabling 60 lakh students in grades 1-2 to attain foundational
       literacy & numeracy in UP
 linkedInButtonActive: true
