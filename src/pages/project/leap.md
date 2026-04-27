@@ -22,11 +22,11 @@ whyImportantSection:
     description: Average yield of 3.5 litres/day per animal against the national 6.7
       litres/day per animal
   items:
-    - title: 50% milk yield in Odisha vs India
-      image: /img/fid-icon-1.png
-    - title: Low milk availability for milk consumers
+    - title: Odisha has 50% less milk yield vs rest of India
+      image: /img/chatgpt-image-apr-27-2026-12_17_57-pm.png
+    - title: Low milk availability for milk consumers in Odisha
       image: /img/leap-icon-4-removebg-preview.png
-    - title: Low farmer income in the state
+    - title: Per capita income of framers in Odisha is low
       image: /img/leap-icon-1-removebg-preview.png
 programHighlightsSection:
   title: Program Highlights
