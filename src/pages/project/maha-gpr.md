@@ -66,8 +66,10 @@ impactSection:
         label: Citizens in Maharashtra accessing government schemes & services
       - value: 41%
         label: Reduction in fields while applying for schemes and services
+        image: /img/chatgpt-image-apr-27-2026-01_32_41-pm.png
       - value: 50%
         label: Reduction in documents required while applying for schemes and services
+        image: /img/chatgpt-image-apr-27-2026-01_35_36-pm.png
   testimonials:
     isVisible: false
     items:
