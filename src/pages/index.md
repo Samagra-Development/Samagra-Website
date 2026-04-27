@@ -62,8 +62,8 @@ ourWorkCard:
       Maharashtra.
     image: /img/agriculture.png
     workLogo:
-      - logo: /img/konnect-logo.png
-      - logo: /img/seal_of_maharashtra.png
+      - logo: /img/ko-3x.png
+      - logo: /img/gom-3x.png
     backgroundMap: /img/pngtree-technological-white-background-with-abstract-blue-and-gray-dots-vector-png-image_25257776.png
     description2: Increasing farmer welfare via targeted interventions in Odisha and
       Maharashtra
@@ -80,7 +80,7 @@ ourWorkCard:
     image: /img/service-delivery.png
     workLogo:
       - logo: /img/family-id-logo_2024.png
-      - logo: /img/fbms-logo.png
+      - logo: /img/fbms-3x.png
     backgroundMap: /img/pngtree-technological-white-background-with-abstract-blue-and-gray-dots-vector-png-image_25257776.png
     description2: Transforming scheme and service delivery for crores of citizens in
       Uttar Pradesh and Andhra Pradesh
@@ -94,7 +94,7 @@ ourWorkCard:
       lives of 1 Cr+ citizens across the states of Odisha and Uttar Pradesh
     image: /img/mixcollage-27-apr-2026-02-04-pm-3442.jpg.jpeg
     workLogo:
-      - logo: /img/suposhit-.png
+      - logo: /img/som-3x.png
     backgroundMap: /img/pngtree-technological-white-background-with-abstract-blue-and-gray-dots-vector-png-image_25257776.png
     description2: Making 100% of Odisha’s 74,000+ Anganwadis malnutrition-free
       (SUPOSHIT) by 2029
@@ -109,7 +109,7 @@ ourWorkCard:
       and Uttar Pradesh
     image: /img/education.png
     workLogo:
-      - logo: /img/nipun-logo-copy.png
+      - logo: /img/nipun-bharat-3x.png
     backgroundMap: /img/pngtree-technological-white-background-with-abstract-blue-and-gray-dots-vector-png-image_25257776.png
     description2: Enabling 60 lakh students in grades 1-2 to attain foundational
       literacy & numeracy in Uttar Pradesh
