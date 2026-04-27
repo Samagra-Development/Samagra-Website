@@ -14,7 +14,7 @@ description: >
   the world’s supply, with milk output reaching a record 230.58 million tonnes
   in 2022–23. The country’s per capita milk availability stands at 459 grams per
   day, far above the global average of 323 grams.
-featuredimage: /img/blog-feature.png
+featuredimage: /img/9.png
 ---
 The dairy sector is a cornerstone of India’s rural economy, contributing nearly 5% to the national GDP and providing direct employment to over 8 crore farmers. India ranks first in global milk production, accounting for 24% of the world’s supply, with milk output reaching a record 230.58 million tonnes in 2022–23. The country’s per capita milk availability stands at 459 grams per day, far above the global average of 323 grams.
 
