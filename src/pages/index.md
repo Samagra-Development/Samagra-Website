@@ -92,7 +92,7 @@ ourWorkCard:
       - text: Health
     description1: Our work in the health domain spans 5 years which has impacted the
       lives of 1 Cr+ citizens across the states of Odisha and Uttar Pradesh
-    image: /img/mixcollage-27-apr-2026-12-56-pm-9740.jpg.jpeg
+    image: /img/mixcollage-27-apr-2026-02-04-pm-3442.jpg.jpeg
     workLogo:
       - logo: /img/suposhit-.png
     backgroundMap: /img/pngtree-technological-white-background-with-abstract-blue-and-gray-dots-vector-png-image_25257776.png
