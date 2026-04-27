@@ -94,10 +94,10 @@ ourWorkCard:
       lives of 1 Cr+ citizens across the states of Odisha and Uttar Pradesh
     image: /img/health.jpeg
     workLogo:
-      - logo: /img/niramaya_logo.png
+      - logo: /img/suposhit-.png
     backgroundMap: /img/pngtree-technological-white-background-with-abstract-blue-and-gray-dots-vector-png-image_25257776.png
-    description2: To make Uttar Pradesh the supplier of quality nursing
-      professionals for the entire country.
+    description2: Making 100% of Odisha’s 74,000+ Anganwadis malnutrition-free
+      (SUPOSHIT) by 2029
   - projectName:
       - project: nipun-up
         learnButtonText: Learn More
