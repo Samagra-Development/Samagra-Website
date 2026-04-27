@@ -83,8 +83,8 @@ partnersSection:
   partnerTitle: Our Partners
   isVisible: true
   partners:
-    - description: Government of Maharashtra
+    - description: The team is working with the Government of Maharashtra
       image: /img/screenshot-2026-04-23-at-1.04.04 pm.png
-    - description: Gates Foundation
+    - description: Gates Foundation is the funding partner
       image: /img/gates_foundation_logo.svg.png
 ---
