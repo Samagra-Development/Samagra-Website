@@ -38,16 +38,22 @@ programHighlightsSection:
   description: ""
   title: Program Highlights
   highlights:
-    - description: Strengthening advisory services by developing a multi-channel
-        digital extension system
-      title: Digital Agricultural Advisory
-    - description: Setting up review and monitoring systems in place for cascaded
-        accountability
-      title: Cascaded Review and Monitoring
-      image: /img/whatsapp-image-2025-12-05-at-22.38.47.jpeg
-    - description: Simplifying field reporting by bringing all key activities into one
-        easy-to-use app
-      title: Agri-Extension App
+    - description: Establishing a system of regular, data-backed review & monitoring
+        meetings at each cadre level
+      title: Cascaded review & monitoring
+      image: /img/review-and-monitoring.png
+    - description: Strengthening extension services by developing a multi-channel
+        digital system for advisory dissemination
+      title: Digital agricultural advisory
+      image: /img/digital-extension.png
+    - description: Enabling a seamless farmer experience via timely grievance
+        redressal & establishment of a feedback loop
+      title: Loop closure on department activities
+      image: /img/citizen-feedback.png
+    - title: Pest Management
+      description: Revamping the department’s pest management system to improve pest
+        reporting and response
+      image: /img/pest-management.png
   backgroundImage: /img/ff.png
 impactSection:
   isVisible: false
