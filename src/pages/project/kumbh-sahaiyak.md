@@ -18,17 +18,19 @@ whyImportantSection:
   backgroundImage: /img/k1.jpg
   isVisible: true
   infoCard:
-    title: ""
-    description: ""
+    title: Maha Kumbh 2025 was attended by 65 Crore+ individuals
+    description: The 2025 Mahakumbh in Prayagraj set a record as one of the largest
+      human gatherings, with over 660 million (66 crore) people attending over
+      45 days.
   items:
-    - title: India, with its sheer size, diversity and complexity, has the potential
-        to be the AI use case capital of the world
+    - title: India with its population has the potential to be the AI use case capital
+        of the world
       image: /img/chatgpt-image-apr-24-2026-12_37_40-pm.png
-    - title: Building solutions in the local context, with appropriate guardrails, and
-        deployed on domestic AI infrastructure, is critical.
-      image: ""
-    - title: Need to advance government priority of Aatmanirbhar Bharat via use of
-        sovereign AI infrastructure.
+    - title: Building solutions in the local context & deployed on domestic AI infra,
+        is critical
+      image: /img/chatgpt-image-apr-27-2026-01_47_27-pm.png
+    - title: Need to advance priority of Aatmanirbhar Bharat via use of sovereign AI
+        infrastructure.
 programHighlightsSection:
   title: Program Highlights
   backgroundImage: /img/kumbh-picture-2.jpg
