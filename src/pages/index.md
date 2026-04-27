@@ -68,35 +68,6 @@ ourWorkCard:
     description2: Increasing farmer welfare via targeted interventions in Odisha and
       Maharashtra
   - projectName:
-      - project: nipun-up
-        learnButtonText: Learn More
-    titleLines:
-      - text: Transforming
-      - text: Education
-    description1: Our work in the education domain spans 9 years which has impacted
-      the lives of 1 Cr+ students across the states of Haryana, Himachal Pradesh
-      and Uttar Pradesh
-    image: /img/education.png
-    workLogo:
-      - logo: /img/nipun-logo-copy.png
-    backgroundMap: /img/up-map.png
-    description2: Enabling 60 lakh students in grades 1-2 to attain foundational
-      literacy & numeracy in UP
-  - projectName:
-      - project: niramaya
-        learnButtonText: Learn More
-    titleLines:
-      - text: Transforming
-      - text: Health
-    description1: Our work in the health domain spans 5 years which has impacted the
-      lives of 1 Cr+ citizens across the states of Odisha and Uttar Pradesh
-    image: /img/health.png
-    workLogo:
-      - logo: /img/niramaya_logo.png
-    backgroundMap: /img/up-map.png
-    description2: To make Uttar Pradesh the supplier of quality nursing
-      professionals for the entire country.
-  - projectName:
       - project: family-id
         learnButtonText: Learn More (Family ID)
       - project: fbms
@@ -114,6 +85,35 @@ ourWorkCard:
     backgroundMap: /img/pngtree-technological-white-background-with-abstract-blue-and-gray-dots-vector-png-image_25257776.png
     description2: Transforming scheme and service delivery for crores of citizens in
       Uttar Pradesh, Maharashtra and Andhra Pradesh
+  - projectName:
+      - project: niramaya
+        learnButtonText: Learn More
+    titleLines:
+      - text: Transforming
+      - text: Health
+    description1: Our work in the health domain spans 5 years which has impacted the
+      lives of 1 Cr+ citizens across the states of Odisha and Uttar Pradesh
+    image: /img/health.png
+    workLogo:
+      - logo: /img/niramaya_logo.png
+    backgroundMap: /img/up-map.png
+    description2: To make Uttar Pradesh the supplier of quality nursing
+      professionals for the entire country.
+  - projectName:
+      - project: nipun-up
+        learnButtonText: Learn More
+    titleLines:
+      - text: Transforming
+      - text: Education
+    description1: Our work in the education domain spans 9 years which has impacted
+      the lives of 1 Cr+ students across the states of Haryana, Himachal Pradesh
+      and Uttar Pradesh
+    image: /img/education.png
+    workLogo:
+      - logo: /img/nipun-logo-copy.png
+    backgroundMap: /img/up-map.png
+    description2: Enabling 60 lakh students in grades 1-2 to attain foundational
+      literacy & numeracy in UP
 linkedInButtonActive: true
 ourJourneyTitle: Our Journey
 ourJourney:
