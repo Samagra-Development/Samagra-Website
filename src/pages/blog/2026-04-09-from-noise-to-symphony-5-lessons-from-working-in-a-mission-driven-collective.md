@@ -12,7 +12,7 @@ description: >
   systemic transformation experts from Samagra. All of us were deeply
   mission-driven, united by one audacious goal: to transform the dispute
   resolution experience for every citizen in India.
-featuredimage: /img/blog-feature.png
+featuredimage: /img/3.png
 ---
 ![](/img/screenshot-2026-04-09-at-11.53.56 am.png)
 
