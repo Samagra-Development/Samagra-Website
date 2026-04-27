@@ -8,7 +8,7 @@ authorImage: /img/ujjwal_7644.jpg
 date: 2025-12-12T09:39:08.453Z
 description: "Driving India's Growth: Redefining State-Led Cash Transfers for a
   Thriving 2047"
-featuredimage: /img/driving-india-s-growth-redefining-state-led-cash-transfers-for-a-thriving-2047.png
+featuredimage: /img/4.png
 ---
 India is witnessing a welfare wave—11 out of 28 states have already rolled out or promised large-scale cash transfers for women, with more joining in ahead of state elections. Over one lakh crore rupees were reserved in 2024-25 for unconditional cash transfers for women, which is more than the GDP of many countries. Currently, states are spending as high as 2.5% of their Gross State Domestic Product (GSDP) and beyond 10% of their social sector spending on unconditional cash transfer schemes. Such investment has played a vital role in supporting last-mile consumption, reducing informal debt, and enabling household investments in nutrition, health, education, and livelihoods. Yet, as India looks to become a developed nation by 2047, is it time to reassess how we design and deliver it to make it more future-ready?
 
