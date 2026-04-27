@@ -461,7 +461,7 @@ export class WhyImportantSection extends React.Component {
                       fontSize: isMobile ? '14px' : isTablet ? '16px' : '18px',
                       fontWeight: 400,
                       color: '#fff',
-                      textTransform: 'capitalize',
+                      textTransform: 'none',
                       margin: 0,
                       lineHeight: isMobile ? '20px' : '24px'
                     }}>
