@@ -92,7 +92,7 @@ ourWorkCard:
       - text: Health
     description1: Our work in the health domain spans 5 years which has impacted the
       lives of 1 Cr+ citizens across the states of Odisha and Uttar Pradesh
-    image: /img/health.png
+    image: /img/health.jpeg
     workLogo:
       - logo: /img/niramaya_logo.png
     backgroundMap: /img/pngtree-technological-white-background-with-abstract-blue-and-gray-dots-vector-png-image_25257776.png
