@@ -16,7 +16,7 @@ heroSection:
   isVisible: true
 whyImportantSection:
   title: Why is it important?
-  backgroundImage: /img/nlb_3.png
+  backgroundImage: /img/unnamed-1-.jpg
   isVisible: true
   infoCard:
     title: " ~30 lakh students in grades 1-2 in ~1.1L Parishadiya government schools
@@ -69,7 +69,7 @@ impactSection:
       - value: 50L+
         image: /img/fid-icon-3-removebg-preview.png
         label: Assessments conducted monthly using NIPUN Lakshya App
-      - value: 87%
+      - value: 87%+
         image: /img/nipun-icon-4-removebg-preview.png
         label: Teachers feel empowered in making students NIPUN using NL App
   testimonials:
