@@ -40,15 +40,15 @@ programHighlightsSection:
   highlights:
     - description: Establishing a system of regular, data-backed review & monitoring
         meetings at each cadre level
-      title: Cascaded review & monitoring
+      title: Review & Monitoring
       image: /img/review-and-monitoring.png
     - description: Strengthening extension services by developing a multi-channel
         digital system for advisory dissemination
-      title: Digital agricultural advisory
+      title: Digital Extension
       image: /img/digital-extension.png
-    - description: Enabling a seamless farmer experience via timely grievance
-        redressal & establishment of a feedback loop
-      title: Loop closure on department activities
+    - description: Enabling positive farmer experiences via timely grievance redressal
+        and institutionalising a feedback loop
+      title: Citizen Loop Closure
       image: /img/citizen-feedback.png
     - title: Pest Management
       description: Revamping the department’s pest management system to improve pest
