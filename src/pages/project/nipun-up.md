@@ -88,7 +88,7 @@ partnersSection:
   partners:
     - description: The team is working with the Department of Basic Education,
         Government of Uttar Pradesh.
-      image: /img/seal_of_uttar_pradesh.svg
+      image: /img/up.png
     - description: Language Learning Foundation is one of the implementation partners.
       image: /img/llf-logo.png
     - description: Vikramshila is one of the implementation partners.
