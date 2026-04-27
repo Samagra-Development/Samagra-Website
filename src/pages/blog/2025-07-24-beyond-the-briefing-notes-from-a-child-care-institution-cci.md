@@ -9,7 +9,7 @@ description: >
   As I step into the establishment, my eyes are drawn to a rectangular gap
   carved into the wall - a cradle swings in its place. I keep walking, shoving
   down the tide of emotion beginning to bubble. I have a job to do.
-featuredimage: /img/ananya-td.png
+featuredimage: /img/5.png
 ---
 As I step into the establishment, my eyes are drawn to a rectangular gap carved into the wall - a cradle swings in its place. I keep walking, shoving down the tide of emotion beginning to bubble. I have a job to do.
 
