@@ -15,7 +15,7 @@ description: >
   KALIA initiative, short for Krushak Assistance for Livelihood and Income
   Augmentation, is a model of direct, data-driven, and inclusive support
   designed to enhance transparency and efficiency in public service delivery.
-featuredimage: /img/screenshot-2025-05-13-at-9.32.34 am.png
+featuredimage: /img/10.png
 ---
 <!--StartFragment-->
 
