@@ -76,15 +76,14 @@ ourWorkCard:
       - text: Transforming
       - text: Service Delivery
     description1: Our work in the service delivery domain spans 9 years which has
-      impacted the lives of crores of citizens in the state of Haryana, UP, and
-      AP
+      impacted the lives of crores of citizens in the 4 states across India
     image: /img/service-delivery.png
     workLogo:
       - logo: /img/family-id-logo_2024.png
       - logo: /img/fbms-logo.png
     backgroundMap: /img/pngtree-technological-white-background-with-abstract-blue-and-gray-dots-vector-png-image_25257776.png
     description2: Transforming scheme and service delivery for crores of citizens in
-      Uttar Pradesh, Maharashtra and Andhra Pradesh
+      Uttar Pradesh and Andhra Pradesh
   - projectName:
       - project: niramaya
         learnButtonText: Learn More
@@ -113,7 +112,7 @@ ourWorkCard:
       - logo: /img/nipun-logo-copy.png
     backgroundMap: /img/pngtree-technological-white-background-with-abstract-blue-and-gray-dots-vector-png-image_25257776.png
     description2: Enabling 60 lakh students in grades 1-2 to attain foundational
-      literacy & numeracy in UP
+      literacy & numeracy in Uttar Pradesh
 linkedInButtonActive: true
 ourJourneyTitle: Our Journey
 ourJourney:
@@ -132,7 +131,7 @@ ourJourney:
     description: Dynamic team of young professionals, each driven by a passion for
       innovation and excellence
     image: /img/team.png
-  - subHeading: 25 Implementation Partners
+  - subHeading: 25+ Implementation Partners
     description: We collaborate with technical experts to execute quality
       implementation at scale
     image: /img/implementation_partner.png
