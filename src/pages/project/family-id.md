@@ -38,7 +38,7 @@ programHighlightsSection:
   highlights:
     - title: High-Confidence Family Database
       description: Established a high-confidence, family-level Aadhaar-linked database
-        of 15.6 Cr+ individuals across 3.6 Cr+ families
+        of 15.8 Cr+ individuals across 4.2 Cr+ families
     - title: Unified Scheme Integration
       description: Linked Aadhaar-authenticated citizen data across 98 central and
         state schemes/services
@@ -56,16 +56,18 @@ impactSection:
   stats:
     isVisible: true
     items:
-      - value: 8.8L+
+      - value: 33L+
         image: /img/fid-icon-1.png
-        label: Pensioners, migrant workers and farmers enrolled in Ration scheme
-      - value: ₹800 Cr+
+        label: Pensioners, migrant workers, farmers, labourers and primary school
+          students enrolled in ration scheme
+      - value: ₹1500 Cr+
         image: /img/fid-icon-2.png
-        label: Saved annually through removal of ineligible beneficiaries
-      - value: 7K+
+        label: Saved annually through inclusion of deserving citizens and exclusion of
+          ineligible beneficiaries
+      - value: 12K+
         image: /img/fid-icon-3-removebg-preview.png
-        label: Caste certificates issued through fast-track mode with two-day turnaround
-      - value: "42"
+        label: Caste certificates issued in fast track mode with 2-day turnaround time
+      - value: 40+
         image: /img/fid-icon-4-removebg.png
         label: Schemes & services started Aadhaar authentication due to Family ID
   testimonials:
