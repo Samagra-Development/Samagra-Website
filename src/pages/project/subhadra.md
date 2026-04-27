@@ -58,17 +58,20 @@ programHighlightsSection:
 impactSection:
   title: Impact
   backgroundImage: /img/subhadra-picture-3.jpeg
-  isVisible: false
+  isVisible: true
   stats:
     isVisible: true
     items:
       - value: 1Cr+
         image: /img/dsc00019.jpg
-        label: Women directly benefited through the largest women-centric scheme in
-          Odisha
+        label: Women are directly benefited through the largest women-centric scheme
       - value: ₹50,000
         image: /img/dsc00019.jpg
-        label: Per beneficiary over five years in annual installments
+        label: DBT per women beneficiary over five years in annual instalments
+      - value: 87%+
+        label: Beneficiaries perceive SUBHADRA as highly useful and relevant
+      - value: 25%+
+        label: SUBHADRA funds are being invested in new business setup by women
   testimonials:
     isVisible: false
     items:
