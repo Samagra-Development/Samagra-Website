@@ -9,7 +9,7 @@ heroSection:
   description: Demonstration of a mass-scale use case of AI in the Indian context
     in the Mahakumbh - the largest human gathering in the world
   categories:
-    - Service Delivery
+    - Digital
     - India
   backgroundImage: /img/kumbh-p5.png
   isVisible: true
