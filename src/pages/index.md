@@ -79,7 +79,7 @@ ourWorkCard:
       impacted the lives of crores of citizens in the 4 states across India
     image: /img/service-delivery.png
     workLogo:
-      - logo: /img/family-id-logo_2024.png
+      - logo: /img/family-id-3x.png
       - logo: /img/fbms-3x.png
     backgroundMap: /img/pngtree-technological-white-background-with-abstract-blue-and-gray-dots-vector-png-image_25257776.png
     description2: Transforming scheme and service delivery for crores of citizens in
