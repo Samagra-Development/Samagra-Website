@@ -29,6 +29,12 @@ whyImportantSection:
         averages, underscoring the need for targeted interventions.
 programHighlightsSection:
   isVisible: true
+  backgroundImage: /img/children-at-awc.jpg
+  highlights:
+    - image: /img/som-launch.jpeg
+      title: Launch of SUPOSHIT Odisha Mission
+      description: SUPOSHIT Odisha Mission (SOM) was launched on November 18th 2025 by
+        the Hon'ble Deputy CM, Smt. Pravati Parida
 impactSection:
   isVisible: false
   stats:
