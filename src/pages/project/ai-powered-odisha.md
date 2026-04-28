@@ -52,6 +52,7 @@ programHighlightsSection:
         piloted across key departments of the state
       title: Early AI pilots executed
       image: /img/dsc_7263.jpg
+  backgroundImage: /img/9-1.png
 impactSection:
   isVisible: false
   stats:
