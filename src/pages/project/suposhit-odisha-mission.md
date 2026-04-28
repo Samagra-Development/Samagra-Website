@@ -35,6 +35,16 @@ programHighlightsSection:
       title: Launch of SUPOSHIT Odisha Mission
       description: SUPOSHIT Odisha Mission (SOM) was launched on November 18th 2025 by
         the Hon'ble Deputy CM, Smt. Pravati Parida
+    - description: SOM dashboards were launched and rolled out to the cadre by the
+        Hon'ble DCM to monitor the mission's progress and enable cascaded
+        reviews
+      title: Launch of SOM Dashboards
+      image: /img/state-ws-kickoff.jpeg
+    - description: SOM state workshops were conducted on January 27th and 28th 2026 to
+        align the state and district leadership on the mission's goals and
+        outcomes.
+      title: State Workshops conducted
+      image: /img/state-ws-pledge.jpeg
 impactSection:
   isVisible: false
   stats:
