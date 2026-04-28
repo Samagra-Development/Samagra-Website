@@ -32,6 +32,7 @@ whyImportantSection:
     - title: Without a strong AI ecosystem, the state risks missing opportunities for
         innovative and scalable solutions
       image: /img/chatgpt_image_apr_28__2026__03_55_00_pm-removebg-preview.png
+  backgroundImage: /img/gemini_generated_image_8u3smy8u3smy8u3s.png
 programHighlightsSection:
   isVisible: true
   title: Program Highlights
