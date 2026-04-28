@@ -85,7 +85,7 @@ ourWorkCard:
     description2: Transforming scheme and service delivery for crores of citizens in
       Uttar Pradesh and Andhra Pradesh
   - projectName:
-      - project: niramaya
+      - project: suposhit-odisha-mission
         learnButtonText: Learn More
     titleLines:
       - text: Transforming
