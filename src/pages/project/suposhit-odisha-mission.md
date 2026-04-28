@@ -38,13 +38,17 @@ programHighlightsSection:
     - description: SOM dashboards were launched and rolled out to the cadre by the
         Hon'ble DCM to monitor the mission's progress and enable cascaded
         reviews
-      title: Launch of SOM Dashboards
+      title: Formalisation of SOM Dashboards
       image: /img/state-ws-kickoff.jpeg
     - description: SOM state workshops were conducted on January 27th and 28th 2026 to
         align the state and district leadership on the mission's goals and
         outcomes.
-      title: State Workshops conducted
+      title: SOM State Workshop
       image: /img/state-ws-pledge.jpeg
+    - description: SUPOSHIT Lakshya Karmashalas (SLKs) were conducted across all
+        districts to orient ICDS frontline workers on goal and role clarity
+      title: SUPOSHIT Lakshya Karmashalas (SLKs)
+      image: /img/role-charts.jpeg
 impactSection:
   isVisible: false
   stats:
