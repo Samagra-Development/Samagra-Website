@@ -19,6 +19,14 @@ whyImportantSection:
     description: As per the National Family Health Survey (2019-21), in Odisha, 18%
       of the children aged 0-5 years are wasted and 30% are underweight.
     title: Odisha has high level of wasted and underweight children
+  backgroundImage: /img/gemini_generated_image_bj8t4wbj8t4wbj8t.png
+  items:
+    - title: Malnutrition drives nearly half of global child deaths, with severe
+        wasting sharply increasing mortality risk
+    - title: Poor early nutrition causes irreversible physical and cognitive damage,
+        harming learning and future earnings
+    - title: Child malnutrition rates in Odisha remain high relative to national
+        averages, underscoring the need for targeted interventions.
 programHighlightsSection:
   isVisible: true
 impactSection:
