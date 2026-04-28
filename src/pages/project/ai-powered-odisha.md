@@ -30,26 +30,26 @@ whyImportantSection:
         limited digital and analytical capacity
       image: /img/chatgpt_image_apr_28__2026__03_51_39_pm-removebg-preview.png
     - title: Without a strong AI ecosystem, the state risks missing opportunities for
-        innovation, investment, and scalable solutions
+        innovative and scalable solutions
       image: /img/chatgpt_image_apr_28__2026__03_55_00_pm-removebg-preview.png
 programHighlightsSection:
   isVisible: true
   title: Program Highlights
   highlights:
-    - title: Capacity Building
-      description: 120+ officials trained across IAS, OAS, and tech cadres to drive AI
-        adoption.
+    - title: AI capacity building
+      description: 120+ government officials trained to drive AI adoption via live
+        demonstrations and department-level trainings
       image: /img/41e725bb-6684-4602-8fce-a457c0cbd097-1-.jpg
-    - title: Use Case Pipeline
+    - title: Use-case pipeline created
       description: 21 high-impact AI use cases identified and matched to department needs
       image: /img/025a3192.jpg
-    - title: National Showcase
+    - title: Showcase at the India AI Summit
       description: Odisha showcased its AI governance journey at the India AI Impact
-        Summit 2026.
+        Summit 2026 through a dedicated pavillion.
       image: /img/dsc_7667.jpg
     - description: AI tools like Minute-of-Meeting automation and feedback bots
-        piloted across key departments.
-      title: Early AI Pilots
+        piloted across key departments of the state
+      title: Early AI pilots executed
       image: /img/dsc_7263.jpg
 impactSection:
   isVisible: false
