@@ -62,9 +62,9 @@ partnersSection:
   title: Our Partners
   partnerTitle: Our Partners
   partners:
-    - image: /img/gates_foundation_logo.svg.png
-      description: Gates Foundation is one of the funding partners.
     - description: The team is working with the Department of Electronics and
         Information Technology, Government of Odisha.
       image: /img/images__2_-removebg-preview.png
+    - image: /img/gates_foundation_logo.svg.png
+      description: Gates Foundation is the funding partners.
 ---
