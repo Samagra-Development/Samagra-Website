@@ -70,8 +70,10 @@ impactSection:
         label: DBT per women beneficiary over five years in annual instalments
       - value: 87%+
         label: Beneficiaries perceive SUBHADRA as highly useful and relevant
+        image: /img/chatgpt_image_apr_28__2026__07_22_09_pm-removebg-preview.png
       - value: 25%+
         label: SUBHADRA funds are being invested in new business setup by women
+        image: /img/chatgpt_image_apr_28__2026__07_05_24_pm-removebg-preview.png
   testimonials:
     isVisible: false
     items:
