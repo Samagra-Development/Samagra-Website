@@ -57,4 +57,10 @@ impactSection:
     isVisible: true
 partnersSection:
   isVisible: true
+  partners:
+    - description: The team is working with the Department of Women & Child
+        Development, Government of Odisha
+      image: /img/odisha-logo.png
+    - image: /img/gates_foundation_logo.png
+      description: Gates Foundation is the funding partner
 ---
