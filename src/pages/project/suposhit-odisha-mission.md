@@ -1,6 +1,7 @@
 ---
 templateKey: project-post
 title: SUPOSHIT Odisha Mission
+domainNew: Recent Programs
 id: SUPOSHIT Odisha Mission
 heroSection:
   isVisible: true
