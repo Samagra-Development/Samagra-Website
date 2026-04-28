@@ -63,7 +63,7 @@ impactSection:
     isVisible: true
     items:
       - value: 1Cr+
-        image: /img/dsc00019.jpg
+        image: /img/chatgpt_image_apr_28__2026__06_50_19_pm-removebg-preview.png
         label: Women are directly benefited through the largest women-centric scheme
       - value: ₹50,000
         image: /img/dsc00019.jpg
