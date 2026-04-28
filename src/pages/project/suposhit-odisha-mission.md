@@ -18,6 +18,7 @@ whyImportantSection:
   infoCard:
     description: As per the National Family Health Survey (2019-21), in Odisha, 18%
       of the children aged 0-5 years are wasted and 30% are underweight.
+    title: Odisha has high level of wasted and underweight children
 programHighlightsSection:
   isVisible: true
 impactSection:
