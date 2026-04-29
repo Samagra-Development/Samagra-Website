@@ -70,4 +70,12 @@ partners:
     description: ORF is a strategic outreach partner.
   - image: /img/screenshot-2026-04-29-at-11.04.50 am.png
     description: The*Spark Forum is a strategic outreach partner.
+  - image: /img/bhasini-removebg-preview.png
+    description: Bhashini was an implementation partner for Kumbh SahAIyak program.
+  - image: /img/beehyv_software_solutions_private_limited_logo-removebg-preview.png
+    description: BeeHyv was an implementation partner for PUCAR program.
+  - image: /img/egov-foundation.png
+    description: egov foundation was an implementation partner for PUCAR program.
+  - image: /img/logo-agami-removebg-preview.png
+    description: Agami was an implementation partner for PUCAR program.
 ---
