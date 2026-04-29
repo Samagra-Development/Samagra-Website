@@ -13,7 +13,7 @@ heroSection:
   categories:
     - Service Delivery
     - Odisha
-  backgroundImage: /img/odisha-cm-mohan-majhi-on-balanga-victim.webp
+  backgroundImage: /img/postcard-sg-.jpeg
 whyImportantSection:
   isVisible: true
   title: Why is it important?
@@ -46,7 +46,7 @@ programHighlightsSection:
       image: /img/_dsc7526.jpg
     - title: CM-SAMPADA Announced
       description: Launched by Hon’ble Chief Minister in FY 2026–27 Budget Speech
-      image: /img/hdrpm-pawaaky8x.jpg
+      image: /img/odisha-cm-mohan-majhi-on-balanga-victim.webp
     - title: District-Level Reviews Initiated
       description: Collectors driving cascaded departmental reviews through CM-SAMPADA
         dashboard
