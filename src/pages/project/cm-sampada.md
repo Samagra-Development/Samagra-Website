@@ -56,11 +56,15 @@ programHighlightsSection:
         under the chairpersonship of Chief Secretary
       image: /img/whatsapp-image-2026-04-27-at-14.10.35.jpeg
 impactSection:
-  isVisible: true
+  isVisible: false
   stats:
-    isVisible: true
+    isVisible: false
   testimonials:
-    isVisible: true
+    isVisible: false
 partnersSection:
   isVisible: true
+  title: Our Partners
+  partners:
+    - description: The team is working with the Planning & Convergence Dept., Govt. of
+        Odisha
 ---
