@@ -78,4 +78,6 @@ partners:
     description: egov foundation was an implementation partner for PUCAR program.
   - image: /img/logo-agami-removebg-preview.png
     description: Agami was an implementation partner for PUCAR program.
+  - image: /img/meta-logo.png
+    description: META was an implementation partner for Kumbh SahAIyak program.
 ---
