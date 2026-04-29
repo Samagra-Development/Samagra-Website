@@ -67,4 +67,6 @@ partnersSection:
   partners:
     - description: The team is working with the Planning & Convergence Dept., Govt. of
         Odisha
+      image: /img/images-removebg-preview.png
+    - description: "Gates Foundation is "
 ---
