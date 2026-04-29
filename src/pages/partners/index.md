@@ -80,4 +80,8 @@ partners:
     description: Agami was an implementation partner for PUCAR program.
   - image: /img/meta-logo.png
     description: META was an implementation partner for Kumbh SahAIyak program.
+  - image: /img/krutrim.png
+    description: Krutrim was an implementation partner for Kumbh SahAIyak program.
+  - image: /img/google_2015_logo.svg.png
+    description: Google was an implementation partner for Kumbh SahAIyak program.
 ---
