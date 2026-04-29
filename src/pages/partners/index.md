@@ -68,4 +68,6 @@ partners:
     image: /img/language-and-learning-foundation.png
   - image: /img/orf-oecd-seal-partnership-to-collaborate-on-global-policy-issues-removebg-preview.png
     description: ORF is a strategic outreach partner.
+  - image: /img/screenshot-2026-04-29-at-11.04.50 am.png
+    description: The*Spark Forum is a strategic outreach partner.
 ---
