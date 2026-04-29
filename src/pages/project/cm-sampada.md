@@ -26,7 +26,15 @@ whyImportantSection:
       the lives of nearly 38 lakh citizens across 5,109 mining-affected villages
       living within a 15 km radius of mining zones.
   items:
-    - {}
+    - title: Elevated disease burden driven by adverse living and environmental
+        conditions in mining-affected areas
+      image: /img/chatgpt_image_apr_29__2026__11_45_28_am-removebg-preview.png
+    - title: Inadequate occupational health safeguards for mining-dependent
+        communities
+      image: /img/chatgpt_image_apr_29__2026__11_54_58_am-removebg-preview.png
+    - title: Limited physical and digital connectivity constraining access to
+        essential services
+      image: /img/chatgpt_image_apr_29__2026__12_09_31_pm-removebg-preview.png
 programHighlightsSection:
   isVisible: true
 impactSection:
