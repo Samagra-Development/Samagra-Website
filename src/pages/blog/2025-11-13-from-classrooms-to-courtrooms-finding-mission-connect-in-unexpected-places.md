@@ -3,11 +3,11 @@ templateKey: blog-post
 title: "From Classrooms to Courtrooms: Finding Mission Connect in Unexpected Places"
 author: Praachi Bhatia
 projectId: PUCAR
-authorImage: /img/11.png
+authorImage: /img/praachi.jpg
 date: 2025-11-13T06:49:42.380Z
 description: How working with courts taught me that mission connect isn't always
   immediate, and impact doesn't only live in the obvious places.
-featuredimage: /img/pucar-banner.png
+featuredimage: /img/11.png
 ---
 When you think of the work being done in development space, chances are your mind jumps to education, health, or skilling. Mine did too. Law and justice rarely enter the conversation. It’s a sector that has historically received less attention, be it from public spending priorities or from private philanthropic focus areas.
 
