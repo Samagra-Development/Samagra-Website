@@ -66,4 +66,6 @@ partners:
     description: Vikramshila is an implementation partner in the NIPUN UP program.
   - description: LLF is an implementation partner in the NIPUN UP program.
     image: /img/language-and-learning-foundation.png
+  - image: /img/orf-oecd-seal-partnership-to-collaborate-on-global-policy-issues-removebg-preview.png
+    description: ORF is a strategic outreach partner.
 ---
