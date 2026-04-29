@@ -23,10 +23,13 @@ whyImportantSection:
   items:
     - title: Malnutrition drives nearly half of global child deaths, with severe
         wasting sharply increasing mortality risk
+      image: /img/1.png
     - title: Poor early nutrition causes irreversible physical and cognitive damage,
         harming learning and future earnings
+      image: /img/2.png
     - title: Child malnutrition rates in Odisha remain high relative to national
         averages, underscoring the need for targeted interventions.
+      image: /img/3.png
 programHighlightsSection:
   isVisible: true
   backgroundImage: /img/children-at-awc.jpg
