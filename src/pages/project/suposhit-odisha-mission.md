@@ -29,7 +29,7 @@ whyImportantSection:
       image: /img/2.png
     - title: Child malnutrition rates in Odisha remain high relative to national
         averages, underscoring the need for targeted interventions.
-      image: /img/3.png
+      image: /img/chatgpt_image_apr_28__2026__07_49_26_pm-removebg-preview.png
 programHighlightsSection:
   isVisible: true
   backgroundImage: /img/children-at-awc.jpg
