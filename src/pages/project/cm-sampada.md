@@ -40,18 +40,19 @@ programHighlightsSection:
   title: Program Highlights
   backgroundImage: /img/001.jpg
   highlights:
-    - title: CM SAMAPADA Consultative Workshop
+    - title: CM SAMPADA Announcement
+      description: CM SAMPADA was launched by the honourable Chief Minister in FY
+        2026–27 budget speech.
+      image: /img/odisha-cm-mohan-majhi-on-balanga-victim.webp
+    - title: CM SAMAPADA Workshop
       description: Chief Secretary & Development Commissioner led workshop with 11
         Collectors and 10 department secretaries
       image: /img/_dsc7526.jpg
-    - title: CM-SAMPADA Announcement
-      description: Launched by Hon’ble Chief Minister in FY 2026–27 Budget Speech
-      image: /img/odisha-cm-mohan-majhi-on-balanga-victim.webp
-    - title: District-Level Reviews Initiated
-      description: Collectors driving cascaded departmental reviews through CM-SAMPADA
-        dashboard
+    - title: District-Level Reviews
+      description: Collectors have been driving cascaded departmental reviews through
+        CM SAMPADA dashboard
       image: /img/whatsapp-image-2026-04-23-at-13.22.07.jpeg
-    - title: Monthly State Monitoring Underway
+    - title: Monthly state reviews
       description: Monthly review of 11 districts on progress made on the initiative
         under the chairpersonship of Chief Secretary
       image: /img/whatsapp-image-2026-04-27-at-14.10.35.jpeg
