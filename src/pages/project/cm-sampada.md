@@ -13,7 +13,7 @@ heroSection:
   categories:
     - Service Delivery
     - Odisha
-  backgroundImage: /img/postcard-sg-.jpeg
+  backgroundImage: /img/gemini_generated_image_qespxrqespxrqesp.png
 whyImportantSection:
   isVisible: true
   title: Why is it important?
@@ -26,25 +26,25 @@ whyImportantSection:
       the lives of nearly 38 lakh citizens across 5,109 mining-affected villages
       living within a 15 km radius of mining zones.
   items:
-    - title: Elevated disease burden driven by adverse living and environmental
-        conditions in mining-affected areas
+    - title: Elevated disease burden due to adverse living conditions in
+        mining-affected areas
       image: /img/chatgpt_image_apr_29__2026__11_45_28_am-removebg-preview.png
     - title: Inadequate occupational health safeguards for mining-dependent
         communities
       image: /img/chatgpt_image_apr_29__2026__11_54_58_am-removebg-preview.png
-    - title: Limited physical and digital connectivity constraining access to
-        essential services
+    - title: Limited physical & digital connectivity constraining access to essential
+        services
       image: /img/chatgpt_image_apr_29__2026__12_09_31_pm-removebg-preview.png
 programHighlightsSection:
   isVisible: true
   title: Program Highlights
   backgroundImage: /img/001.jpg
   highlights:
-    - title: CM SAMAPADA Consultative Workshop Held
+    - title: CM SAMAPADA Consultative Workshop
       description: Chief Secretary & Development Commissioner led workshop with 11
-        Collectors and 10 department Secretaries
+        Collectors and 10 department secretaries
       image: /img/_dsc7526.jpg
-    - title: CM-SAMPADA Announced
+    - title: CM-SAMPADA Announcement
       description: Launched by Hon’ble Chief Minister in FY 2026–27 Budget Speech
       image: /img/odisha-cm-mohan-majhi-on-balanga-victim.webp
     - title: District-Level Reviews Initiated
