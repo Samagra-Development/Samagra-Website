@@ -111,7 +111,7 @@ const Navbar = class extends React.Component {
                             {title:"Governance Decluttered",projectUrl:"/decluttered"},
                              {title:"Decoding Citizens",projectUrl:"/decodingcitizen"}
                             ]}/>
-                            <MenuDropdown menuIcon={showInverted?menuIconBlack:menuIconWhite} heading={"Ecosystem Initiatives"} data={[{title:"Code for GovTech (C4GT)",projectUrl:"/c4gt"},
+                            <MenuDropdown menuIcon={showInverted?menuIconBlack:menuIconWhite} heading={"Ecosystem Initiatives"} data={[{title:"Code for Good Tech (C4GT)",projectUrl:"https://codeforgoodtech.in/"},
                             {title:"The Governance Challenge (TGC)",projectUrl:"https://www.thegovernancechallenge.in/"}]}/>
                             {/* <li className='nav-dropdown-menu'>
                                 <a className="nav-link" href="#" onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} style={{display:"flex",alignItems:"center",gap:"4px",position:"relative"}}>
@@ -136,7 +136,7 @@ const Navbar = class extends React.Component {
                             <li className='nav-dropdown-menu'>
                                 <a className="nav-link" href="#" style={{display:"flex",alignItems:"center",gap:"4px"}}><span>Ecosystem Initiatives</span><img src={showInverted?menuIconBlack:menuIconWhite}/></a>
                                 <div class="dropdown-content" style={{color:"#000000"}}>
-                                    <a className='nav-dropdown-items' href="/c4gt">{"Code for GovTech (C4GT)"}</a>
+                                    <a className='nav-dropdown-items' href="https://codeforgoodtech.in/">{"Code for Good Tech (C4GT)"}</a>
                                     <a className='nav-dropdown-items' href="/tgc">{"The Governance Challenge (TGC)"}</a>
                                 </div>
                             </li> */}

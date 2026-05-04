@@ -457,9 +457,9 @@ export class HeaderSmall extends React.Component {
                       onClick={() => {
                         this.setState({ popupOpened: "inactive" });
                       }}
-                      href="/c4gt"
+                      href="https://codeforgoodtech.in/"
                     >
-                      {"Code for GovTech (C4GT)"}
+                      {"Code for Good Tech (C4GT)"}
                     </a>
                   </div>
                   <div className="sub-header-list-item">

@@ -110,8 +110,8 @@ export const FooterComponent = ({}) => {
               >
                 <div className="footer-heading">Ecosystem Initiatives</div>
                 <div>
-                  <Link to={"/c4gt"}>
-                    <span className="footer-item">Code for GovTech (C4GT)</span>
+                  <Link to={"https://codeforgoodtech.in/"}>
+                    <span className="footer-item">Code for Good Tech (C4GT)</span>
                   </Link>
                 </div>
                 <div>
