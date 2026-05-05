@@ -47,7 +47,7 @@ ourApproach:
 ourWork:
   title: Our Work
   description: We work with state governments on deep systemic reforms, to
-    strengthen the state’s capacity to deliver sustainable outcomes at scale'
+    strengthen the state’s capacity to deliver sustainable outcomes at scale
 ourWorkCard:
   - projectName:
       - project: krushi-samruddhi
