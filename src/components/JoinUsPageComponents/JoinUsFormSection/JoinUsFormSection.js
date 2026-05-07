@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import emailjs from '@emailjs/browser';
 import { PrimaryButton } from "../../PrimaryButton/PrimaryButton";
 import axios from "axios";
 // import ImageRecruitment from '../../../img/slides/Recruitment_vff_image.pptx.png';
@@ -579,6 +580,24 @@ export const JoinUsFormSection = ({
 
       if (response.ok) {
         console.log("Form submitted successfully!");
+        
+        // Send auto-responder email using EmailJS
+        emailjs.send(
+          'service_vtkteyf', // Replace with your EmailJS Service ID
+          'template_v9kqo8j', // Replace with your EmailJS Template ID
+          { 
+            to_email: formObject['Email'], 
+          },
+          'v6HcfSrwYTdtw_46F' // Replace with your EmailJS Public Key
+        ).then(
+          (result) => {
+            console.log('Email sent successfully:', result.text);
+          },
+          (error) => {
+            console.error('Failed to send email:', error.text);
+          }
+        );
+
         setShowForm(false)
         setSubmissionError((prev)=>{
             return false
