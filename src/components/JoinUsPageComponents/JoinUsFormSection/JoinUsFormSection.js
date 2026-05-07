@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from 'emailjs-com';
 import { PrimaryButton } from "../../PrimaryButton/PrimaryButton";
 import axios from "axios";
 // import ImageRecruitment from '../../../img/slides/Recruitment_vff_image.pptx.png';
