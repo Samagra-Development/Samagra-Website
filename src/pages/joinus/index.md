@@ -9,7 +9,7 @@ formAcceptance: ' <p> <a target={"_blank"} href="" > Applications for UG hiring
   is closed.</a></p><p> Interviews of applicants from Delhi-NCR will be held
   in-person at our <a target={"_blank"}
   href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office</a> <p>'
-showForm: false
+showForm: true
 verticalImage: /img/screenshot-2026-02-26-at-11.32.02 am.png
 horizontalImage: /img/screenshot-2026-02-26-at-11.32.02 am.png
 followLinkedin: /img/follow-linkedin.jpg
