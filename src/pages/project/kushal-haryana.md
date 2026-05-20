@@ -1,6 +1,7 @@
 ---
 templateKey: project-post
 title: Kushal Haryana
+domainNew: Recent Programs
 id: Kushal Haryana
 heroSection:
   isVisible: true
