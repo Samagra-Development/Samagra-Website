@@ -16,8 +16,8 @@ formAcceptance: '<p> <a target={"_blank"}
   target={"_blank"} href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi
   office</a> <p>'
 showForm: true
-verticalImage: /img/screenshot-2026-02-26-at-11.32.02 am.png
-horizontalImage: /img/screenshot-2026-02-26-at-11.32.02 am.png
+verticalImage: /img/screenshot-2026-05-20-at-10.58.40 am.png
+horizontalImage: /img/screenshot-2026-05-20-at-10.58.40 am.png
 followLinkedin: /img/follow-linkedin.jpg
 postSubInfo:
   heading: Thank you
