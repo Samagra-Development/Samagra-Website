@@ -106,6 +106,11 @@ formsElements:
     placeholder: E﻿nter name of the campus
     type: text
     validation: VALID_TEXT
+  - required: true
+    placeholder: E﻿nter %/CGPA
+    type: text
+    validation: VALID_TEXT
+    label: Postgrad %/CGPA
   - contentDescription: " "
     label: Current/Last Employer
     placeholder: E﻿nter company name
@@ -192,9 +197,4 @@ formsElements:
     placeholder: P﻿aste Unlisted YouTube Link
     validation: VALID_LINK
     type: text
-  - required: true
-    placeholder: E﻿nter %/CGPA
-    type: text
-    validation: VALID_TEXT
-    label: Postgrad %/CGPA
 ---
