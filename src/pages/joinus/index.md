@@ -92,36 +92,18 @@ formsElements:
       activateOn: ""
       label: ""
       placeholder: ""
-    placeholder: S﻿elect Institute
+    placeholder: Type Institute
     required: true
-    type: select
-    validation: VALID_OPTION
+    type: text
+    validation: VALID_TEXT
   - required: true
     label: Undergrad %/CGPA
     placeholder: Enter %/CGPA
     type: text
     validation: VALID_TEXT
-  - required: true
-    label: Batch of
-    options:
-      - text: "2025"
-      - text: "2026"
-    type: select
-    validation: VALID_OPTION
-    placeholder: Year of graduation
-  - required: true
-    label: W﻿hat type of candidate are you?
-    title: W﻿hat type of candidate are you?
-    placeholder: Select the best fit
-    type: select
-    validation: VALID_OPTION
-    options:
-      - text: I am already placed, but my heart is in impact
-      - text: I am waiting for an impact opportunity on campus
-      - text: I am currently working, but still looking for a break in impact
   - contentDescription: " "
-    label: Company placed at / Current Employer
-    placeholder: Enter NA if unplaced
+    label: Current/Last Employer
+    placeholder: E﻿nter company name
     required: true
     type: text
     validation: VALID_TEXT
@@ -143,8 +125,8 @@ formsElements:
     type: text
     validation: VALID_NUMBER
   - contentDescription: " "
-    label: Offered/Current CTC (Fixed + Variable)
-    placeholder: Enter your current CTC (p.a.)
+    label: Current/Last CTC (Fixed + Variable)
+    placeholder: Enter your CTC (p.a.)
     required: true
     type: text
     validation: VALID_TEXT
@@ -167,8 +149,8 @@ formsElements:
       Organizational Fit MCQ Test.
     label: Please select your availability for Round 2, if shortlisted
     options:
-      - text: 20th Mar' 26 (7:00 PM - 10:00 PM)
-      - text: 21st Mar' 26 (7:00 PM - 10:00 PM)
+      - text: 12th Jun' 26 (7:00 PM - 10:00 PM)
+      - text: 13th Jun' 26 (7:00 PM - 10:00 PM)
     placeholder: Select Option
     required: true
     type: select
