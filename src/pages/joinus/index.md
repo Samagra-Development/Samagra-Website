@@ -112,7 +112,7 @@ formsElements:
     placeholder: E﻿nter name of the campus
     type: text
     validation: VALID_TEXT
-  - required: true
+  - required: false
     placeholder: E﻿nter %/CGPA
     type: text
     validation: VALID_TEXT
