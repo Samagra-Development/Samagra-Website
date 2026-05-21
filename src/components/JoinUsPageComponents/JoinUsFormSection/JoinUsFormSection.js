@@ -22,11 +22,11 @@ export const JoinUsFormSection = ({
   postSubInfo
 }) => {
   // const reachingOptions = [];
-  const formDataRef = useRef(null) // Ref to store FormData object
+  const formDataRef = useRef(null) // Ref to store URLSearchParams object
   useEffect(() => {
     // Check if we're in the browser
     if (typeof window !== "undefined") {
-      formDataRef.current = new FormData();
+      formDataRef.current = new URLSearchParams();
     }
   }, []);
   const camelCase = (str) => {
@@ -562,18 +562,20 @@ export const JoinUsFormSection = ({
   // };
   const Post = async (e) => {
     try {
-      // Reset FormData before each submission to avoid stale/duplicate entries
-      formDataRef.current = new FormData();
+      // Reset URLSearchParams before each submission
+      // URLSearchParams sends as application/x-www-form-urlencoded,
+      // which is required for Google Apps Script e.parameter to work.
+      const params = new URLSearchParams();
 
       // Append non-file fields
       Object.keys(formObject).forEach((key) => {
         const value = formObject[key];
         if (value !== null && !(value instanceof File)) {
-          formDataRef.current.append(key, value);
+          params.append(key, value);
         }
       });
 
-      // Re-append file fields as base64 (wait for all reads to complete)
+      // Read file fields as base64 and append (wait for all reads to complete)
       const fileAppendPromises = formsElements
         .filter((fE) => fE.type === "file" && formObject[fE.key] instanceof File)
         .map((fE) => {
@@ -581,9 +583,9 @@ export const JoinUsFormSection = ({
           return new Promise((resolve) => {
             const reader = new FileReader();
             reader.onload = (ev) => {
-              formDataRef.current.append(`${fE.label}fileName`, file.name);
-              formDataRef.current.append(`${fE.label}Mimetype`, file.type);
-              formDataRef.current.append(`${fE.label}fileBlob`, ev.target.result.split(",")[1]);
+              params.append(`${fE.label}fileName`, file.name);
+              params.append(`${fE.label}Mimetype`, file.type);
+              params.append(`${fE.label}fileBlob`, ev.target.result.split(",")[1]);
               resolve();
             };
             reader.readAsDataURL(file);
@@ -592,12 +594,13 @@ export const JoinUsFormSection = ({
 
       await Promise.all(fileAppendPromises);
 
-      // Post the form data
+      // Post as URL-encoded so Apps Script e.parameter can read all fields
       const response = await fetch(
         "https://script.google.com/macros/s/AKfycbxgLhAuV7rn41K7FY4FGS38vuWH1_gpBddoGA_j3GiC5SDr7yJyNR9wyv_R9dvYoQCV/exec",
         {
           method: "POST",
-          body: formDataRef.current,
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: params.toString(),
         }
       );
 
@@ -655,23 +658,8 @@ export const JoinUsFormSection = ({
   };
 
   const AddFile = async (file, element) => {
-    try {
-      if (file) {
-        // Read file as base64
-        const base64File = await new Promise((resolve) => {
-          const reader = new FileReader();
-          reader.onload = (e) => resolve(e.target.result.split(",")[1]);
-          reader.readAsDataURL(file);
-        });
-
-        // Append file details to FormData
-        formDataRef.current.append(`${element.label}fileName`, file.name);
-        formDataRef.current.append(`${element.label}Mimetype`, file.type);
-        formDataRef.current.append(`${element.label}fileBlob`, base64File);
-      }
-    } catch (error) {
-      console.error("Error during file processing:", error);
-    }
+    // File reading is handled inside Post() using URLSearchParams.
+    // This function is kept as a no-op to avoid breaking handleFileChange calls.
   };
   return (
     <div style={{ paddingTop: "100px" }} className={"join-us-page-wrapper"}>
