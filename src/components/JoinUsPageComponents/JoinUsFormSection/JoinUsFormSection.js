@@ -562,35 +562,12 @@ export const JoinUsFormSection = ({
   // };
   const Post = async (e) => {
     try {
-      // Reset FormData before each submission to avoid stale/duplicate entries
-      formDataRef.current = new FormData();
-
-      // Append non-file fields
+      // Append non-file fields (file blobs already appended by AddFile at select time)
       Object.keys(formObject).forEach((key) => {
-        const value = formObject[key];
-        if (value !== null && !(value instanceof File)) {
-          formDataRef.current.append(key, value);
+        if (!key.startsWith("file") && formObject[key] !== null && !(formObject[key] instanceof File)) {
+          formDataRef.current.append(key, formObject[key]);
         }
       });
-
-      // Re-append file fields as base64 (wait for all reads to complete)
-      const fileAppendPromises = formsElements
-        .filter((fE) => fE.type === "file" && formObject[fE.key] instanceof File)
-        .map((fE) => {
-          const file = formObject[fE.key];
-          return new Promise((resolve) => {
-            const reader = new FileReader();
-            reader.onload = (ev) => {
-              formDataRef.current.append(`${fE.label}fileName`, file.name);
-              formDataRef.current.append(`${fE.label}Mimetype`, file.type);
-              formDataRef.current.append(`${fE.label}fileBlob`, ev.target.result.split(",")[1]);
-              resolve();
-            };
-            reader.readAsDataURL(file);
-          });
-        });
-
-      await Promise.all(fileAppendPromises);
 
       // Post the form data
       const response = await fetch(
