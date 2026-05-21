@@ -606,12 +606,12 @@ export const JoinUsFormSection = ({
         
         // Send auto-responder email using EmailJS
         emailjs.send(
-          'service_vtkteyf', // Replace with your EmailJS Service ID
-          'template_v9kqo8j', // Replace with your EmailJS Template ID
+          'service_givnwrm', // Replace with your EmailJS Service ID
+          'template_ccisds5', // Replace with your EmailJS Template ID
           { 
             to_email: formObject['Email'], 
           },
-          'v6HcfSrwYTdtw_46F' // Replace with your EmailJS Public Key
+          '9uZLJb9mOk-uDFypC' // Replace with your EmailJS Public Key
         ).then(
           (result) => {
             console.log('Email sent successfully:', result.text);

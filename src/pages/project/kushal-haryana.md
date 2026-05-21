@@ -60,7 +60,7 @@ partnersSection:
   isVisible: true
   partners:
     - name: Government of Haryana
-      logo: /img/emblem_of_haryana.svg.png
+      image: /img/emblem_of_haryana.svg.png
     - name: Michael & Susan Dell Foundation
-      logo: /img/MSDF.jpg
+      image: /img/MSDF.jpg
 ---

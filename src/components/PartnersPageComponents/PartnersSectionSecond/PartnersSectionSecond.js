@@ -65,10 +65,11 @@ const PartnersSectionSecond = ({ content }) => {
                     <div className={"description"}>{partner.description}</div>
                     <img
                       src={
-                        !!partner.image.childImageSharp
+                        partner.image && partner.image.childImageSharp
                           ? partner.image.childImageSharp.fluid.src
-                          : partner.image
+                          : (partner.image && partner.image.publicURL) || partner.image
                       }
+                      alt={partner.description || ""}
                     />
                   </div>
                 );
