@@ -576,6 +576,7 @@ export const JoinUsFormSection = ({
       });
 
       // Read file fields as base64 and append (wait for all reads to complete)
+      // Apps Script expects: resumeFileName, resumeMime, resumeBlob
       const fileAppendPromises = formsElements
         .filter((fE) => fE.type === "file" && formObject[fE.key] instanceof File)
         .map((fE) => {
@@ -583,9 +584,9 @@ export const JoinUsFormSection = ({
           return new Promise((resolve) => {
             const reader = new FileReader();
             reader.onload = (ev) => {
-              params.append(`${fE.label}fileName`, file.name);
-              params.append(`${fE.label}Mimetype`, file.type);
-              params.append(`${fE.label}fileBlob`, ev.target.result.split(",")[1]);
+              params.append(`resumeFileName`, file.name);
+              params.append(`resumeMime`, file.type);
+              params.append(`resumeBlob`, ev.target.result.split(",")[1]);
               resolve();
             };
             reader.readAsDataURL(file);
@@ -596,7 +597,7 @@ export const JoinUsFormSection = ({
 
       // Post as URL-encoded so Apps Script e.parameter can read all fields
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbz3bidWEjfLmK8xWRr8nO13ClXJEDvlp9EYUX-TFLZ5HlLz4y-iRyQE89pk4ip5heaITQ/exec",
+        "https://script.google.com/macros/s/AKfycbyLByCN_wSbKks1TrcpAuh3qv-P8Wj1m1x_OxuKANs4eyUd3biVT_y447cavryPlGjJ/exec",
         {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -928,64 +929,24 @@ export const JoinUsFormSection = ({
                 <PrimaryButton
                   click={() => {
                     setSubmitted(true);
-                    
+
                     let validForm = true;
                     formsElements.forEach((element) => {
                       if (!customValidation(element)) {
                         validForm = false;
                       }
                     });
-                    
-                    let reqObject = JSON.parse(JSON.stringify(formObject));
-                    // axios
-                    // .post(
-                    //   `https://script.google.com/macros/s/AKfycbzAvyix7zw7lyrxf6xEa1gehrZoQwVLeGCzVwxYd1Fdg-x9QSgwbu6x3D_T8XgrPKiG/exec`,
-                    //   {
-                    //     reqObject,
-                    //   },
-                    //   { headers: { "Content-Type": "application/json" } }
-                    // )
-                    // .then(function(response) {
-                    //   setShowForm(false);
-                    //   setTimeout(() => {
-                    //     const lK = JSON.parse(JSON.stringify(loaderKey));
-                    //     lK["formSubmit"] = false;
-                    //     setLoaderKey(lK);
-                    //   }, 200);
-                    // })
-                    // .catch(function(error) {
-                    //   setTimeout(() => {
-                    //     const lK = JSON.parse(JSON.stringify(loaderKey));
-                    //     lK["formSubmit"] = false;
-                    //     setLoaderKey(lK);
-                    //   }, 200);
-                    // });
+
                     if (!validForm) {
                       return;
                     }
+
+                    // Show loader before async submission
+                    const lK = JSON.parse(JSON.stringify(loaderKey));
+                    lK["formSubmit"] = true;
+                    setLoaderKey(lK);
+
                     Post();
-                   
-                    
-                   
-                    
-                    // if (videoProgress !== 100) {
-                    //   return;
-                    // }
-                    formsElements.forEach((element) => {
-                      if (
-                        element.type === "select" &&
-                        element.otherOptionAvailable &&
-                        element.otherOptionAvailable.activateOn &&
-                        formObject[element.key] ===
-                          element.otherOptionAvailable.activateOn
-                      ) {
-                        reqObject[element.key] =
-                          reqObject[element.otherOptionAvailable.key];
-                      }
-                    });
-                    
-                    loaderKey["formSubmit"] = true;
-                    setLoaderKey(JSON.parse(JSON.stringify(loaderKey)));
                   }}
                   text={"Submit"}
                 >
