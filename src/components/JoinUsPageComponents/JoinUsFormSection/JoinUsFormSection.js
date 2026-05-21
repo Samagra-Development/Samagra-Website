@@ -604,17 +604,21 @@ export const JoinUsFormSection = ({
         }
       );
 
-      if (response.ok) {
+      // Apps Script always returns HTTP 200, so check the JSON body for actual result
+      const responseJson = await response.json();
+      console.log("Apps Script response:", responseJson);
+
+      if (responseJson.result === 'success') {
         console.log("Form submitted successfully!");
         
         // Send auto-responder email using EmailJS
         emailjs.send(
-          'service_givnwrm', // Replace with your EmailJS Service ID
-          'template_ccisds5', // Replace with your EmailJS Template ID
+          'service_givnwrm',
+          'template_ccisds5',
           { 
             to_email: formObject['Email'], 
           },
-          '9uZLJb9mOk-uDFypC' // Replace with your EmailJS Public Key
+          '9uZLJb9mOk-uDFypC'
         ).then(
           (result) => {
             console.log('Email sent successfully:', result.text);
@@ -625,19 +629,15 @@ export const JoinUsFormSection = ({
         );
 
         setShowForm(false)
-        setSubmissionError((prev)=>{
-            return false
-        })
+        setSubmissionError(false)
         setTimeout(() => {
-              const lK = JSON.parse(JSON.stringify(loaderKey));
-              lK["formSubmit"] = false;
-              setLoaderKey(lK);
-            }, 200)
+          const lK = JSON.parse(JSON.stringify(loaderKey));
+          lK["formSubmit"] = false;
+          setLoaderKey(lK);
+        }, 200)
       } else {
-        setSubmissionError((prev)=>{
-          return true
-      })
-        console.error("Form submission failed.");
+        console.error("Form submission failed:", responseJson.error);
+        setSubmissionError(true)
         setTimeout(() => {
           const lK = JSON.parse(JSON.stringify(loaderKey));
           lK["formSubmit"] = false;
