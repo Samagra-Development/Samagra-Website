@@ -15,7 +15,7 @@ formAcceptance: '<p> <a target={"_blank"}
   of applicants from Delhi-NCR will be held in-person at our <a
   target={"_blank"} href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi
   office</a> <p>'
-showForm: true
+showForm: false
 verticalImage: /img/screenshot-2026-05-20-at-10.58.40 am.png
 horizontalImage: /img/screenshot-2026-05-20-at-10.58.40 am.png
 followLinkedin: /img/follow-linkedin.jpg
