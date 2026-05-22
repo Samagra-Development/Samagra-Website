@@ -15,7 +15,7 @@ formAcceptance: '<p> <a target={"_blank"}
   of applicants from Delhi-NCR will be held in-person at our <a
   target={"_blank"} href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi
   office</a> <p>'
-showForm: false
+showForm: true
 verticalImage: /img/screenshot-2026-05-20-at-10.58.40 am.png
 horizontalImage: /img/screenshot-2026-05-20-at-10.58.40 am.png
 followLinkedin: /img/follow-linkedin.jpg
@@ -40,7 +40,7 @@ postSubInfo:
     https://www.youtube.com/embed/videoseries?list=PLqeXOsUG-6BtvH-0GgwRGX9Z2uO\
     89l-nB"
   videoTitle: Learn more about Samagra
-  show: false
+  show: true
 formsElements:
   - contentDescription: " "
     label: Full Name
