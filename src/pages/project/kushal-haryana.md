@@ -61,6 +61,9 @@ partnersSection:
   partners:
     - name: Government of Haryana
       image: /img/emblem_of_haryana.svg.png
+      description: The team worked with the Department of School Education, Government
+        of Haryana.
     - name: Michael & Susan Dell Foundation
       image: /img/MSDF.jpg
+      description: Dell Foundation was the funding partner.
 ---
