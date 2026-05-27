@@ -42,10 +42,12 @@ programHighlightsSection:
     - description: Kushal Vidyalay established grade-level competency as north star
         with incentives for schools achieving 80%+ students scoring 60%+ marks
       title: Kushal Vidyalay Declarations
+      image: /img/unnamed-3-.jpg
     - description: Kushal Shikshak introduced standardised assessment to certify
         teachers as Proficient, Advanced, or Expert with recognition and
         incentives
       title: Kushal Shikshak
+      image: /img/chatgpt-image-may-27-2026-12_02_37-pm.png
     - description: Kushal Business Challenge was organised to cultivate
         entrepreneurial spirit through seed money and mentorship for students
       title: Kushal Business Challenge
