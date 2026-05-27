@@ -5,8 +5,8 @@ infoText1: Join Us
 infoText2: 'Refer to the Job Description: <a target={"_blank"}
   href="https://drive.google.com/file/d/1kOpztXSpm7z4XTl3YQbrwzUQRYRK79IU/view"
   > Associate/Sr Associate/Consultant </a> | <a target={"_blank"}
-  href="https://drive.google.com/file/d/1I28e7mXzF3INhCeCFadeO4junnUPITyD/view"
-  > Emerging Leader</a>'
+  href="https://drive.google.com/file/d/1rVP_-ppEyAPsW9MgzOjKDcA8BaUIPBo8/view?usp=sharing"
+  > Emerging Leader (updated) </a>'
 formAcceptance: '<p> <a target={"_blank"}
   href="https://us06web.zoom.us/meeting/register/8yev1XTbQ_2Q2DFw9rPnIw" > Click
   here </a> to register for the Samagra Recruitment Talk scheduled for 1st June,
