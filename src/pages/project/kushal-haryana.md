@@ -27,8 +27,8 @@ whyImportantSection:
     - title: COVID pandemic resulted in reversal of pre-pandemic learning outcomes
         achieved through lack of consistent quality learning
       image: /img/pucar-icon-3-removebg-preview.png
-    - title: Haryana's education system struggles with inconsistent teacher quality
-        lacking standardised quality markers for professional growth
+    - title: Haryana's education system faces challenges with inconsistent teacher
+        quality lacking standardised quality markers for professional growth
       image: /img/nipun-icon-4-removebg-preview.png
     - title: Students need 21st-century skills and career guidance to translate
         learnings into meaningful post-school pathways successfully
