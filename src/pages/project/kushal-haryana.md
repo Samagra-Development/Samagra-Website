@@ -39,16 +39,15 @@ programHighlightsSection:
   title: Program Highlights
   backgroundImage: /img/saksham-employment-cover.jpg
   highlights:
-    - description: Kushal Vidyalay establishes grade-level competency as north star
+    - description: Kushal Vidyalay established grade-level competency as north star
         with incentives for schools achieving 80%+ students scoring 60%+ marks
       title: Competency Goals
-    - description: Kushal Shikshak introduces standardised assessment to certify
+    - description: Kushal Shikshak introduced standardised assessment to certify
         teachers as Proficient, Advanced, or Expert with recognition and
         incentives
       title: Teacher Certification
-    - description: Kushal Business Challenge ignites entrepreneurial spirit through
-        seed money and mentorship for students to develop and demonstrate
-        prototypes
+    - description: Kushal Business Challenge was organised to cultivate
+        entrepreneurial spirit through seed money and mentorship for students
       title: Kushal Business Challenge
 impactSection:
   isVisible: false
