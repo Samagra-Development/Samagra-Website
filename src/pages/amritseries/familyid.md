@@ -17,11 +17,18 @@ showsideIcon2: false
 sideIcon2Text: ""
 showsideIcon3: false
 sideIcon3Text: ""
-title1: saasaso
-title2: ""
-title3: ""
-impactVideoLink: ""
-title4: ""
+title1: 12-digit Family ID created for every family in Uttar Pradesh to enable
+  proactive benefit delivery
+title2: Impact Video
+title3: Launched in Uttar Pradesh in 2021, Family ID creates a unified family
+  database to enable proactive welfare delivery. Explore how Family ID helped
+  the families of Surbhi, Reshma, and Haridwari access government welfare
+  schemes.
+impactVideoLink: https://www.youtube.com/embed/AoPGFk4bZwk?si=eqbOvqfVNLvTfsal
+title4: "Despite more than 180 Direct Benefit Transfer schemes being available
+  to support vulnerable citizens, many eligible families remained excluded
+  because siloed databases made it difficult to identify and reach them. "
+motionGraphic1: /img/family-id-website-gifs_before_2-1-.gif
 title5: ""
 title6: ""
 title7: ""
