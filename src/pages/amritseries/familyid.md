@@ -36,7 +36,13 @@ infographic1:
   - img: /img/backstory-1a-2x.png
   - img: /img/backstory-1b-2x.png
   - img: /img/backstory-1c-2x.png
-title6: ""
+title6: Department Officials struggled to identify and manage beneficiaries
+  because data was fragmented across systems.
+infographic2:
+  - img: /img/picture2.png
+  - img: /img/backstory-2a-2x.png
+  - img: /img/backstory-2b-2x.png
+  - img: /img/backstory-2c-2x.png
 title7: ""
 impactNumber1: 0
 impactNumber1Decimal: 0
