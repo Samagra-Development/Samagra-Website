@@ -7,7 +7,7 @@ date: 2026-06-05T05:06:45.082Z
 sectionSequence: 1 2 3 4 5 6
 featuredimage: /img/001.jpg
 buttonText: ABC
-title: FIDTEST
+title: fid-test
 fontColor: "#294294"
 bannerImage: /img/001.jpg
 showSideNavbar: false
