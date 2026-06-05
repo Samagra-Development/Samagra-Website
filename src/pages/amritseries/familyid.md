@@ -2,13 +2,13 @@
 templateKey: case-study
 formType: This is new case study form
 show: false
-projectId: family id
+projectId: FAMILY ID
 date: 2026-06-05T10:55:41.197Z
 sectionSequence: 1 2 3 4 5 6
-featuredimage: /img/025a3192.jpg
+featuredimage: /img/chatgpt-image-jun-1-2026-02_34_00-pm.png
 buttonText: Learn More
 title: familyid
-fontColor: "#c05a5a"
+fontColor: "#00b9e6"
 bannerImage: /img/025a3192.jpg
 showSideNavbar: false
 showsideIcon1: false
