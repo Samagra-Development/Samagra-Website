@@ -8,6 +8,7 @@ showsideIcon1: true
 showsideIcon2: true
 showsideIcon3: true
 impactVideoLink: https://youtube/PIGCFr1So8U?si=XBMLem4l0z7WXSqP
+motionGraphic2: /img/family-id-website-gifs_before_2-1-.gif
 impactNumber1: 1
 impactNumber1Decimal: 0
 impactNumber1Text: ""
@@ -17,22 +18,22 @@ impactNumber2Text: "%"
 impactNumber3: 1
 impactNumber3Decimal: 0
 impactNumber3Text: crore
+impactNumber4: 100
 impactNumber4Decimal: 0
 impactNumber4Text: "%"
 impactNumber4Title: Antyodaya Saral Portal enables access for all citizens of Haryana
-impactNumber5Decimal: 0
-downloadInfographicBtn: Download Infographic
-infographicGoogleDriveLink2: ""
-showTestimonial: true
-newsletterBtn: Read Newsletter
-impactNumber4: 100
 impactNumber5: 40
+impactNumber5Decimal: 0
 impactNumber5Text: "%"
 impactNumber5Title: Reduction in delivery time of applications across schemes and services
-infographicGoogleDriveLink: https://drive.google.com/file/d/1qux_0xs5JyS6hE_0-IhBPwb5J-my5KoH/view?usp=drive_link
-downloadInfographicBtn2: ""
+downloadInfographicBtn: Download Infographic
+infographicGoogleDriveLink2: ""
 showWebinar: false
 webinarTitle: Webinar
+showTestimonial: true
+newsletterBtn: Read Newsletter
+infographicGoogleDriveLink: https://drive.google.com/file/d/1qux_0xs5JyS6hE_0-IhBPwb5J-my5KoH/view?usp=drive_link
+downloadInfographicBtn2: ""
 webinarDescription: Title of webinar
 webinarLink: ""
 footerText1: Partner with us today!
