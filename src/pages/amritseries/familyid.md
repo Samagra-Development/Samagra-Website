@@ -75,17 +75,18 @@ impactNumber5Decimal: 0
 impactNumber5Text: ""
 impactNumber5Title: ""
 showPlus5: false
-infographicGoogleDriveLink: ""
-downloadInfographicBtn: ""
-infographicGoogleDriveLink2: ""
-downloadInfographicBtn2: ""
-title8: ""
+infographicGoogleDriveLink: https://drive.google.com/file/d/1X2XEM3Kin7WD9Mw_l3ag-1SCo6gMsQ8S/view?usp=sharing
+downloadInfographicBtn: Download Infographic
+infographicGoogleDriveLink2: https://docs.google.com/document/d/1pJheCZsgVpyH32L3paDQA43HiDyh1hEf0gnUvlm4eNk/edit
+downloadInfographicBtn2: Download one-pager
+title8: Insights from the ground
 showBlog: false
-blogTitle: ""
-blogDescription: ""
-blogLink: ""
+blogTitle: Blog
+blogDescription: Tech-enabled streamlining of hiring and benefits dispersal for
+  contractual government employees in Haryana
+blogLink: https://samagragovernance.in/blog/2024-03-12-amrit-series-3-haryana-kaushal-rozgar-nigam/
 showOpEd: false
-opEdTitle: ""
+opEdTitle: Op-ed
 opEdAuthorDate: ""
 opEdDescription: ""
 opEdLink: ""
@@ -97,9 +98,12 @@ showTestimonial: false
 testimonialText: ""
 testimonialAuthor: ""
 testimonialAuthorDesignation: ""
-footersubText1: ""
-footerText1: ""
-footerText2: ""
-successStoriesTitle: ""
-showSuccessStories: ""
+footersubText1: "**T﻿his work has been done under
+  [](https://samagragovernance.in/project/saksham-employment/) [Family
+  ID](https://samagragovernance.in/project/family-id/) program with the support
+  of Government of Uttar Pradesh and Gates Foundation.**"
+footerText1: Partner with us today!
+footerText2: "Write to us at: outreach@samagragovernance.in"
+successStoriesTitle: View more <i>Success Stories of Impact</i>
+showSuccessStories: antyodaya-saral,go-sugam,ksk
 ---
