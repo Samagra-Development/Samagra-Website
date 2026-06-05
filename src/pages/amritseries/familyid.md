@@ -28,7 +28,7 @@ impactVideoLink: https://www.youtube.com/embed/AoPGFk4bZwk?si=eqbOvqfVNLvTfsal
 title4: "Despite more than 180 Direct Benefit Transfer schemes being available
   to support vulnerable citizens, many eligible families remained excluded
   because siloed databases made it difficult to identify and reach them. "
-motionGraphic1: /img/family-id-website-gifs_before_2-1-.gif
+motionGraphic1: /img/family-id-website-gifs_before_2-1-.mp4
 title5: Citizens faced barriers accessing welfare benefits due to limited
   awareness and complex processes.
 infographic1:
@@ -43,7 +43,7 @@ infographic2:
   - img: /img/backstory-2a-2x.png
   - img: /img/backstory-2b-2x.png
   - img: /img/backstory-2c-2x.png
-motionGraphic2: /img/family-id-website-gifs_after_2.gif
+motionGraphic2: /img/family-id-website-gifs_after_2.mp4
 title7: By creating a high-confidence family level database Family ID has
   enabled the government to proactively identify and deliver welfare to the
   eligible families allowing better utilisation of welfare funds.
