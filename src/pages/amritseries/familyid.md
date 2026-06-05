@@ -43,21 +43,27 @@ infographic2:
   - img: /img/backstory-2a-2x.png
   - img: /img/backstory-2b-2x.png
   - img: /img/backstory-2c-2x.png
-title7: ""
-impactNumber1: 0
+motionGraphic2: /img/family-id-website-gifs_after_2.gif
+title7: By creating a high-confidence family level database Family ID has
+  enabled the government to proactively identify and deliver welfare to the
+  eligible families allowing better utilisation of welfare funds.
+icon1: /img/imapct-1a.png
+impactNumber1: 3647592
 impactNumber1Decimal: 0
 impactNumber1Text: ""
-impactNumber1Title: ""
+impactNumber1Title: Left-out beneficiaries receiving rightful benefits
 showPlus1: false
-impactNumber2: 0
+icon2: /img/imapct-1b.png
+impactNumber2: 728
 impactNumber2Decimal: 0
-impactNumber2Text: ""
-impactNumber2Title: ""
+impactNumber2Text: " Cr"
+impactNumber2Title: Targeted utilization (₹) of tax-payers money
 showPlus2: false
-impactNumber3: 0
+icon3: /img/imapct-1c.png
+impactNumber3: 1073
 impactNumber3Decimal: 0
-impactNumber3Text: ""
-impactNumber3Title: ""
+impactNumber3Text: " Cr"
+impactNumber3Title: Budgetary Leakages (₹) prevented
 showPlus3: false
 impactNumber4: 0
 impactNumber4Decimal: 0
