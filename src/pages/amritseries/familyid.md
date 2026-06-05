@@ -80,7 +80,7 @@ downloadInfographicBtn: Download Infographic
 infographicGoogleDriveLink2: https://docs.google.com/document/d/1pJheCZsgVpyH32L3paDQA43HiDyh1hEf0gnUvlm4eNk/edit
 downloadInfographicBtn2: Download one-pager
 title8: Insights from the ground
-showBlog: false
+showBlog: true
 blogTitle: Blog
 blogDescription: Tech-enabled streamlining of hiring and benefits dispersal for
   contractual government employees in Haryana
