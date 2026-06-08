@@ -42,7 +42,7 @@ infographic2:
   - img: /img/backstory-2b-2x-1-.png
   - img: /img/backstory-2c-2x-1-.png
 motionGraphic2: /img/family-id-website-gifs_after_2.mp4
-title7: By creating a high-confidence family level database , Family ID has
+title7: By creating a high-confidence family level database, Family ID has
   enabled the government to proactively identify and deliver welfare to eligible
   families allowing targeted utilisation of public funds
 icon1: /img/imapct-1a.png
@@ -77,7 +77,7 @@ infographicGoogleDriveLink: https://drive.google.com/file/d/1X2XEM3Kin7WD9Mw_l3a
 downloadInfographicBtn: Download Infographic
 infographicGoogleDriveLink2: https://docs.google.com/document/d/1pJheCZsgVpyH32L3paDQA43HiDyh1hEf0gnUvlm4eNk/edit
 downloadInfographicBtn2: ""
-title8: Insights from the ground
+title8: ""
 showBlog: true
 blogTitle: Blog
 blogDescription: Family ID is helping Uttar Pradesh build a unified,
