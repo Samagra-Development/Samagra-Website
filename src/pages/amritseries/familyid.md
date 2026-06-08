@@ -29,15 +29,15 @@ title4: "Despite more than 180 Direct Benefit Transfer schemes being available
   to support vulnerable citizens, many eligible families remained excluded
   because siloed databases made it difficult to identify and reach them. "
 motionGraphic1: /img/family-id-website-gifs_before_2.mp4
-title5: Citizens faced barriers accessing welfare benefits due to limited
-  awareness and complex processes.
+title5: Citizens faced barriers accessing welfare benefits due to limited scheme
+  awareness and complex application processes.
 infographic1:
   - img: /img/picture1.png
   - img: /img/backstory-1a-2x.png
   - img: /img/backstory-1b-2x.png
   - img: /img/backstory-1c-2x.png
-title6: Department Officials struggled to identify and manage beneficiaries
-  because data was fragmented across systems.
+title6: Department Officials struggled to identify and reach beneficiaries
+  because citizen data was fragmented across government databases.
 infographic2:
   - img: /img/picture2.png
   - img: /img/backstory-2a-2x.png
