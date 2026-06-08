@@ -76,7 +76,7 @@ showPlus5: false
 infographicGoogleDriveLink: https://drive.google.com/file/d/1X2XEM3Kin7WD9Mw_l3ag-1SCo6gMsQ8S/view?usp=sharing
 downloadInfographicBtn: Download Infographic
 infographicGoogleDriveLink2: https://docs.google.com/document/d/1pJheCZsgVpyH32L3paDQA43HiDyh1hEf0gnUvlm4eNk/edit
-downloadInfographicBtn2: Download One-Pager
+downloadInfographicBtn2: ""
 title8: Insights from the ground
 showBlog: true
 blogTitle: Blog
