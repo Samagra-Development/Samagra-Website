@@ -21,11 +21,11 @@ title1: Proactive welfare delivery powered by a family-level citizen registry in
   Uttar Pradesh
 title2: ""
 title3: Explore how Family ID helped the families of Surbhi, Reshma, and
-  Haridwari access government welfare schemes
+  Haridwari enabled easier welfare access to government schemes
 impactVideoLink: https://www.youtube.com/embed/AoPGFk4bZwk?si=eqbOvqfVNLvTfsal
-title4: "Despite more than 180 Direct Benefit Transfer schemes being available
-  to support vulnerable citizens, many eligible families remained excluded
-  because siloed databases made it difficult to identify and reach them  "
+title4: "Despite more than 180 Direct Benefit Transfer schemes available to
+  support vulnerable families, many of them remained excluded as siloed
+  databases made it difficult to identify and reach them  "
 motionGraphic1: /img/family-id-website-gifs_before_2.mp4
 title5: Citizens faced barriers accessing welfare benefits due to limited scheme
   awareness and complex application processes
@@ -34,8 +34,8 @@ infographic1:
   - img: /img/backstory-1a-2x-2-.png
   - img: /img/backstory-1b-2x-3-.png
   - img: /img/backstory-1c-2x-3-.png
-title6: Department Officials struggled to identify and reach beneficiaries
-  because citizen data was fragmented across government databases
+title6: Department Officials struggled to identify and reach citizens as data
+  was fragmented across government databases
 infographic2:
   - img: /img/picture1.png
   - img: /img/backstory-2a-2x-2-.png
