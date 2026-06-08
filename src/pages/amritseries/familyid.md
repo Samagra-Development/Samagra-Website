@@ -30,7 +30,7 @@ motionGraphic1: /img/family-id-website-gifs_before_2.mp4
 title5: Citizens faced barriers accessing welfare benefits due to limited scheme
   awareness and complex application processes
 infographic1:
-  - img: /img/picture1.png
+  - img: /img/picture3.png
   - img: /img/backstory-1a-2x-1-.png
   - img: /img/backstory-1b-2x-1-.png
   - img: /img/backstory-1c-2x-2-.png
