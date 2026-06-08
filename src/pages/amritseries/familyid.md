@@ -9,7 +9,7 @@ featuredimage: /img/chatgpt-image-jun-1-2026-02_34_00-pm.png
 buttonText: Learn More
 title: familyid
 fontColor: "#00b9e6"
-bannerImage: /img/banner_medium.mp4
+bannerImage: /img/banner_large.gif
 showSideNavbar: false
 showsideIcon1: false
 sideIcon1Text: ""
@@ -44,9 +44,9 @@ infographic2:
   - img: /img/backstory-2b-2x.png
   - img: /img/backstory-2c-2x.png
 motionGraphic2: /img/family-id-website-gifs_after_2.mp4
-title7: By creating a high-confidence family level database Family ID has
-  enabled the government to proactively identify and deliver welfare to the
-  eligible families allowing better utilisation of welfare funds.
+title7: By creating a high-confidence family level database , Family ID has
+  enabled the government to proactively identify and deliver welfare to eligible
+  families allowing targeted utilisation of public funds.
 icon1: /img/imapct-1a.png
 impactNumber1: 3647592
 impactNumber1Decimal: 0
