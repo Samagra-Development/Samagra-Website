@@ -46,11 +46,11 @@ title7: By creating a high-confidence family level database , Family ID has
   enabled the government to proactively identify and deliver welfare to eligible
   families allowing targeted utilisation of public funds
 icon1: /img/imapct-1a.png
-impactNumber1: 3647592
-impactNumber1Decimal: 0
-impactNumber1Text: ""
+impactNumber1: 36.4
+impactNumber1Decimal: 1
+impactNumber1Text: " Lakh"
 impactNumber1Title: Left-out beneficiaries receiving rightful benefits
-showPlus1: false
+showPlus1: true
 icon2: /img/imapct-1b.png
 impactNumber2: 728
 impactNumber2Decimal: 0
@@ -76,7 +76,7 @@ showPlus5: false
 infographicGoogleDriveLink: https://drive.google.com/file/d/1X2XEM3Kin7WD9Mw_l3ag-1SCo6gMsQ8S/view?usp=sharing
 downloadInfographicBtn: Download Infographic
 infographicGoogleDriveLink2: https://docs.google.com/document/d/1pJheCZsgVpyH32L3paDQA43HiDyh1hEf0gnUvlm4eNk/edit
-downloadInfographicBtn2: Download one-pager
+downloadInfographicBtn2: Download One-Pager
 title8: Insights from the ground
 showBlog: true
 blogTitle: Blog
