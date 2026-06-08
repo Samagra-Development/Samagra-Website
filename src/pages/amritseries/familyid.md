@@ -82,8 +82,8 @@ downloadInfographicBtn2: Download one-pager
 title8: Insights from the ground
 showBlog: true
 blogTitle: Blog
-blogDescription: Tech-enabled streamlining of hiring and benefits dispersal for
-  contractual government employees in Haryana
+blogDescription: Family ID is helping Uttar Pradesh build a unified,
+  family-level database for more accurate and efficient welfare delivery.
 blogLink: https://samagragovernance.in/blog/2024-03-12-amrit-series-3-haryana-kaushal-rozgar-nigam/
 showOpEd: false
 opEdTitle: Op-ed
