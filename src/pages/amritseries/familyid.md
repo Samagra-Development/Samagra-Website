@@ -17,27 +17,25 @@ showsideIcon2: false
 sideIcon2Text: ""
 showsideIcon3: false
 sideIcon3Text: ""
-title1: 12-digit Family ID created for every family in Uttar Pradesh to enable
-  proactive benefit delivery
-title2: Impact Video
-title3: Launched in Uttar Pradesh in 2021, Family ID creates a unified family
-  database to enable proactive welfare delivery. Explore how Family ID helped
-  the families of Surbhi, Reshma, and Haridwari access government welfare
-  schemes.
+title1: Proactive welfare delivery powered by a family-level citizen registry in
+  Uttar Pradesh
+title2: ""
+title3: Explore how Family ID helped the families of Surbhi, Reshma, and
+  Haridwari access government welfare schemes
 impactVideoLink: https://www.youtube.com/embed/AoPGFk4bZwk?si=eqbOvqfVNLvTfsal
-title4: "Despite more than 180 Direct Benefit Transfer schemes being available
-  to support vulnerable citizens, many eligible families remained excluded
-  because siloed databases made it difficult to identify and reach them. "
+title4: Despite more than 180 Direct Benefit Transfer schemes being available to
+  support vulnerable citizens, many eligible families remained excluded because
+  siloed databases made it difficult to identify and reach them
 motionGraphic1: /img/family-id-website-gifs_before_2.mp4
 title5: Citizens faced barriers accessing welfare benefits due to limited scheme
-  awareness and complex application processes.
+  awareness and complex application processes
 infographic1:
   - img: /img/picture1.png
-  - img: /img/backstory-1a-2x.png
-  - img: /img/backstory-1b-2x.png
+  - img: /img/backstory-1a-2x-1-.png
+  - img: /img/backstory-1b-2x-1-.png
   - img: /img/backstory-1c-2x.png
 title6: Department Officials struggled to identify and reach beneficiaries
-  because citizen data was fragmented across government databases.
+  because citizen data was fragmented across government databases
 infographic2:
   - img: /img/picture2.png
   - img: /img/backstory-2a-2x.png
@@ -46,7 +44,7 @@ infographic2:
 motionGraphic2: /img/family-id-website-gifs_after_2.mp4
 title7: By creating a high-confidence family level database , Family ID has
   enabled the government to proactively identify and deliver welfare to eligible
-  families allowing targeted utilisation of public funds.
+  families allowing targeted utilisation of public funds
 icon1: /img/imapct-1a.png
 impactNumber1: 3647592
 impactNumber1Decimal: 0
