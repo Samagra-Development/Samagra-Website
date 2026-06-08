@@ -9,7 +9,7 @@ featuredimage: /img/chatgpt-image-jun-1-2026-02_34_00-pm.png
 buttonText: Learn More
 title: familyid
 fontColor: "#00b9e6"
-bannerImage: /img/banner_large.gif
+bannerImage: /img/banner-v_8-jun.mp4
 showSideNavbar: false
 showsideIcon1: false
 sideIcon1Text: ""
