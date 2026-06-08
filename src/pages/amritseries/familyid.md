@@ -51,7 +51,7 @@ impactNumber1Decimal: 1
 impactNumber1Text: " Lakh"
 impactNumber1Title: Left-out beneficiaries receiving rightful benefits
 showPlus1: true
-icon2: /img/imapct-1b.png
+icon2: /img/rupee-3-.png
 impactNumber2: 730
 impactNumber2Decimal: 0
 impactNumber2Text: " Cr"
