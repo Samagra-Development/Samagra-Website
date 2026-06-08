@@ -52,16 +52,16 @@ impactNumber1Text: " Lakh"
 impactNumber1Title: Left-out beneficiaries receiving rightful benefits
 showPlus1: true
 icon2: /img/imapct-1b.png
-impactNumber2: 728
+impactNumber2: 730
 impactNumber2Decimal: 0
 impactNumber2Text: " Cr"
-impactNumber2Title: Targeted utilization (₹) of tax-payers money
+impactNumber2Title: "Benefits retargeted (₹) <br> to the right beneficiaries "
 showPlus2: false
 icon3: /img/imapct-1c.png
-impactNumber3: 1073
+impactNumber3: 1804
 impactNumber3Decimal: 0
 impactNumber3Text: " Cr"
-impactNumber3Title: Budgetary Leakages (₹) prevented
+impactNumber3Title: Total annual monetary savings (₹) <br> via Family ID
 showPlus3: false
 impactNumber4: 0
 impactNumber4Decimal: 0
