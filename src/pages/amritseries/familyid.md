@@ -28,7 +28,7 @@ impactVideoLink: https://www.youtube.com/embed/AoPGFk4bZwk?si=eqbOvqfVNLvTfsal
 title4: "Despite more than 180 Direct Benefit Transfer schemes being available
   to support vulnerable citizens, many eligible families remained excluded
   because siloed databases made it difficult to identify and reach them. "
-motionGraphic1: /img/family-id-website-gifs_before_2-1-.mp4
+motionGraphic1: /img/family-id-website-gifs_before_2.mp4
 title5: Citizens faced barriers accessing welfare benefits due to limited
   awareness and complex processes.
 infographic1:
