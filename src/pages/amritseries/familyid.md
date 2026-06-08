@@ -37,7 +37,7 @@ infographic1:
 title6: Department Officials struggled to identify and reach beneficiaries
   because citizen data was fragmented across government databases
 infographic2:
-  - img: /img/picture2.png
+  - img: /img/picture1.png
   - img: /img/backstory-2a-2x-1-.png
   - img: /img/backstory-2b-2x-1-.png
   - img: /img/backstory-2c-2x-1-.png
@@ -56,13 +56,13 @@ impactNumber2: 730
 impactNumber2Decimal: 0
 impactNumber2Text: " Cr"
 impactNumber2Title: "Benefits retargeted (₹) <br> to the right beneficiaries "
-showPlus2: false
+showPlus2: true
 icon3: /img/imapct-1c.png
 impactNumber3: 1804
 impactNumber3Decimal: 0
 impactNumber3Text: " Cr"
 impactNumber3Title: Total annual monetary savings (₹) <br> via Family ID
-showPlus3: false
+showPlus3: true
 impactNumber4: 0
 impactNumber4Decimal: 0
 impactNumber4Text: ""
