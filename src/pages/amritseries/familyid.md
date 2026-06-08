@@ -31,16 +31,16 @@ title5: Citizens faced barriers accessing welfare benefits due to limited scheme
   awareness and complex application processes
 infographic1:
   - img: /img/picture3.png
-  - img: /img/backstory-1a-2x-1-.png
-  - img: /img/backstory-1b-2x-1-.png
-  - img: /img/backstory-1c-2x-2-.png
+  - img: /img/backstory-1a-2x-2-.png
+  - img: /img/backstory-1b-2x-3-.png
+  - img: /img/backstory-1c-2x-3-.png
 title6: Department Officials struggled to identify and reach beneficiaries
   because citizen data was fragmented across government databases
 infographic2:
   - img: /img/picture1.png
-  - img: /img/backstory-2a-2x-1-.png
-  - img: /img/backstory-2b-2x-1-.png
-  - img: /img/backstory-2c-2x-1-.png
+  - img: /img/backstory-2a-2x-2-.png
+  - img: /img/backstory-2b-2x-2-.png
+  - img: /img/backstory-2c-2x-2-.png
 motionGraphic2: /img/family-id-website-gifs_after_2.mp4
 title7: By creating a high-confidence family level database, Family ID has
   enabled the government to proactively identify and deliver welfare to eligible
