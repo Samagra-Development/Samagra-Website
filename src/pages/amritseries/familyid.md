@@ -49,13 +49,13 @@ icon1: /img/imapct-1a.png
 impactNumber1: 43.99
 impactNumber1Decimal: 2
 impactNumber1Text: " Lakh"
-impactNumber1Title: Left-out <br>eligible citizens enrolled <br> in schemes
+impactNumber1Title: Left-out <br>eligible citizens enrolled <br>in schemes
 showPlus1: true
 icon2: /img/rupee-symbol.png
 impactNumber2: 730
 impactNumber2Decimal: 0
 impactNumber2Text: " Cr"
-impactNumber2Title: Annual benefits(₹) <br> delivered to eligible but excluded citizens
+impactNumber2Title: Annual benefits(₹) delivered <br> to eligible but excluded citizens
 showPlus2: true
 icon3: /img/imapct-1c.png
 impactNumber3: 1804
