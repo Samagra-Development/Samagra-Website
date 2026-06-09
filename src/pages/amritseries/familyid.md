@@ -49,7 +49,7 @@ icon1: /img/imapct-1a.png
 impactNumber1: 43.99
 impactNumber1Decimal: 2
 impactNumber1Text: " Lakh"
-impactNumber1Title: Left-out <br>eligible citizens enrolled in schemes
+impactNumber1Title: Left-out <br>eligible citizens enrolled <br> in schemes
 showPlus1: true
 icon2: /img/rupee-symbol.png
 impactNumber2: 730
