@@ -51,7 +51,7 @@ impactNumber1Decimal: 2
 impactNumber1Text: " Lakh"
 impactNumber1Title: Left-out <br>eligible citizens enrolled in schemes
 showPlus1: true
-icon2: /img/rupee-3-.png
+icon2: /img/rupee-symbol.png
 impactNumber2: 730
 impactNumber2Decimal: 0
 impactNumber2Text: " Cr"
