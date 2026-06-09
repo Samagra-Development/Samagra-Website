@@ -46,22 +46,22 @@ title7: By creating a high-confidence family level database, Family ID has
   enabled the government to proactively identify and deliver welfare to eligible
   families allowing targeted utilisation of public funds
 icon1: /img/imapct-1a.png
-impactNumber1: 36.4
-impactNumber1Decimal: 1
+impactNumber1: 43.99
+impactNumber1Decimal: 2
 impactNumber1Text: " Lakh"
-impactNumber1Title: Left-out beneficiaries receiving rightful benefits
+impactNumber1Title: Left-out <br>eligible citizens enrolled in schemes
 showPlus1: true
 icon2: /img/rupee-3-.png
 impactNumber2: 730
 impactNumber2Decimal: 0
 impactNumber2Text: " Cr"
-impactNumber2Title: "Benefits retargeted (₹) <br> to the right beneficiaries "
+impactNumber2Title: Annual benefits(₹) <br> delivered to eligible but excluded citizens
 showPlus2: true
 icon3: /img/imapct-1c.png
 impactNumber3: 1804
 impactNumber3Decimal: 0
 impactNumber3Text: " Cr"
-impactNumber3Title: Total annual monetary savings (₹) <br> via Family ID
+impactNumber3Title: Total annual benefits (₹) <br> retargeted via Family ID
 showPlus3: true
 impactNumber4: 0
 impactNumber4Decimal: 0
