@@ -38,9 +38,9 @@ title6: Department Officials struggled to identify and reach citizens as data
   was fragmented across government databases
 infographic2:
   - img: /img/picture1.png
-  - img: /img/rura.png
-  - img: /img/backstory-2b-2x-2-.png
-  - img: /img/backstory-2c-2x-2-.png
+  - img: /img/go.png
+  - img: /img/ru.png
+  - img: /img/suke.png
 motionGraphic2: /img/family-id-website-gifs_after_2.mp4
 title7: By creating a high-confidence family level database, Family ID has
   enabled the government to proactively identify and deliver welfare to eligible
