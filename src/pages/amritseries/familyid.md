@@ -38,7 +38,7 @@ title6: Department Officials struggled to identify and reach citizens as data
   was fragmented across government databases
 infographic2:
   - img: /img/picture1.png
-  - img: /img/backstory-2a-2x-2-.png
+  - img: /img/untitled-design-1-.png
   - img: /img/backstory-2b-2x-2-.png
   - img: /img/backstory-2c-2x-2-.png
 motionGraphic2: /img/family-id-website-gifs_after_2.mp4
