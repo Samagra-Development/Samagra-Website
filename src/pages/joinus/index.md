@@ -7,12 +7,11 @@ infoText2: 'Refer to the Job Description: <a target={"_blank"}
   > Associate/Sr Associate/Consultant </a> | <a target={"_blank"}
   href="https://drive.google.com/file/d/1rVP_-ppEyAPsW9MgzOjKDcA8BaUIPBo8/view?usp=sharing"
   > Emerging Leader (updated) </a>'
-formAcceptance: '<p> Applications are closed for Open Drive. Shortlists to be
-  declared by 10th June EOD.</p> <p> Note: You are not applying for a specific
-  designation. The designation offered is decided during the interview
-  process.</p><p> Interviews of applicants from Delhi-NCR will be held in-person
-  at our <a target={"_blank"} href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" >
-  Delhi office</a> <p>'
+formAcceptance: '<p> Applications are closed for Open Drive.</p> <p> Note: You
+  are not applying for a specific designation. The designation offered is
+  decided during the interview process.</p><p> Interviews of applicants from
+  Delhi-NCR will be held in-person at our <a target={"_blank"}
+  href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office</a> <p>'
 showForm: false
 verticalImage: /img/screenshot-2026-05-20-at-10.58.40 am.png
 horizontalImage: /img/screenshot-2026-05-20-at-10.58.40 am.png
