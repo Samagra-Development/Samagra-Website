@@ -122,7 +122,7 @@ Here, I was no longer just coordinating things in the background. I was represen
 
 \[Image 8: Demonstrations to other state delegations]
 
-![](/img/odisha-pavilion-at-ai-summit-1-.jpg)
+![](/img/screenshot-2026-06-11-174210.png)
 
 \[Image 9: Team picture towards the last day of the Summit]
 
