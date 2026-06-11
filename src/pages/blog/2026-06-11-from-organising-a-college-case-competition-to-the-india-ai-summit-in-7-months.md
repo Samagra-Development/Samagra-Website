@@ -72,7 +72,7 @@ More than 2,000 people showed up. Over 30 speakers took the stage. The halls fil
 
 Somewhere in the middle of that day, standing at the back of a packed hall, I had a small moment of realisation. Confidence had not come from planning everything perfectly. It had come from handling things as they happened.
 
-The Odisha AI Summit went well, really well. And when it ended, I exhaled for the first time in weeks.<!--StartFragment-->
+The[ Odisha AI Summit](https://samagragovernance.in/project/ai-powered-odisha/) went well, really well. And when it ended, I exhaled for the first time in weeks.<!--StartFragment-->
 
 I thought the chapter was over.
 
