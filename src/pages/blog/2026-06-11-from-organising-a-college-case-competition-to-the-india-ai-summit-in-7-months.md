@@ -114,17 +114,9 @@ One of those moments was when Hon'ble Union Minister Shri Ashwini Vaishnaw visit
 
 Here, I was no longer just coordinating things in the background. I was representing the work, explaining it, and holding my own in rooms and spaces that had once felt much larger than me.
 
-![](/img/unnamed-4-.jpg)
+![](/img/screenshot-2026-06-15-122241.png)
 
-\[Image 7: Demonstrations to Union Minister Mr Ashwini Vaishnaw]
-
-![](/img/unnamed-3-.jpg)
-
-\[Image 8: Demonstrations to other state delegations]
-
-![](/img/screenshot-2026-06-11-174210.png)
-
-\[Image 9: Team picture towards the last day of the Summit]
+\[Image 7&8: Demonstrations to Union Minister Mr Ashwini Vaishnaw and demonstration to other state delegations]
 
 <!--StartFragment-->
 
@@ -147,3 +139,9 @@ I came out of them different. Not just in how I work, but in how I see the AI la
 And ownership? It never waited until I was ready. It arrived when the work did. And by then, the only choice I had was to step back or to step in.
 
 I chose to step in.
+
+
+
+![](/img/screenshot-2026-06-15-122520.png)
+
+\[Image 9: Team picture towards the last day of the Summit]
