@@ -45,34 +45,36 @@ motionGraphic2: /img/family-id-website-gifs_after_2.mp4
 title7: By creating a high-confidence family level database, Family ID has
   enabled the government to proactively identify and deliver welfare to eligible
   families allowing targeted utilisation of public funds
-icon1: /img/imapct-1a.png
-impactNumber1: 43.99
-impactNumber1Decimal: 2
-impactNumber1Text: " Lakh"
-impactNumber1Title: Left-out eligible citizens <br> enrolled in schemes
+icon1: /img/impact-1.png
+impactNumber1: 1750
+impactNumber1Decimal: 0
+impactNumber1Text: Cr
+impactNumber1Title: Total annual benefits (₹) <br> retargeted via Family ID
 showPlus1: true
-icon2: /img/rupee-symbol.png
-impactNumber2: 730
+icon2: /img/impact-2.png
+impactNumber2: 750
 impactNumber2Decimal: 0
 impactNumber2Text: " Cr"
 impactNumber2Title: Annual benefits(₹) delivered <br> to eligible but excluded citizens
 showPlus2: true
-icon3: /img/imapct-1c.png
-impactNumber3: 1804
+icon3: /img/impact-3.png
+impactNumber3: 1000
 impactNumber3Decimal: 0
 impactNumber3Text: " Cr"
-impactNumber3Title: Total annual benefits (₹) <br> retargeted via Family ID
+impactNumber3Title: Budgetary leakages (₹) <br> prevented annually
 showPlus3: true
-impactNumber4: 0
+icon4: /img/impact-4.png
+impactNumber4: 45
 impactNumber4Decimal: 0
-impactNumber4Text: ""
-impactNumber4Title: ""
-showPlus4: false
-impactNumber5: 0
+impactNumber4Text: lakh
+impactNumber4Title: "Left-out eligible citizens <br> enrolled in schemes "
+showPlus4: true
+icon5: /img/impact-5.png
+impactNumber5: 32
 impactNumber5Decimal: 0
-impactNumber5Text: ""
-impactNumber5Title: ""
-showPlus5: false
+impactNumber5Text: lakh
+impactNumber5Title: Ghost beneficiaries <br> removed from schemes
+showPlus5: true
 infographicGoogleDriveLink: https://drive.google.com/file/d/1X2XEM3Kin7WD9Mw_l3ag-1SCo6gMsQ8S/view?usp=sharing
 downloadInfographicBtn: Download Infographic
 infographicGoogleDriveLink2: https://docs.google.com/document/d/1pJheCZsgVpyH32L3paDQA43HiDyh1hEf0gnUvlm4eNk/edit
