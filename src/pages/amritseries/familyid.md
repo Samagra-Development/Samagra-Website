@@ -48,7 +48,7 @@ title7: By creating a high-confidence family level database, Family ID has
 icon1: /img/impact-1.png
 impactNumber1: 1750
 impactNumber1Decimal: 0
-impactNumber1Text: Cr
+impactNumber1Text: " Cr"
 impactNumber1Title: Total annual benefits (₹) <br> retargeted via Family ID
 showPlus1: true
 icon2: /img/impact-2.png
@@ -66,13 +66,13 @@ showPlus3: true
 icon4: /img/impact-4.png
 impactNumber4: 45
 impactNumber4Decimal: 0
-impactNumber4Text: lakh
+impactNumber4Text: " L"
 impactNumber4Title: "Left-out eligible citizens <br> enrolled in schemes "
 showPlus4: true
 icon5: /img/impact-5.png
 impactNumber5: 32
 impactNumber5Decimal: 0
-impactNumber5Text: lakh
+impactNumber5Text: " L"
 impactNumber5Title: Ghost beneficiaries <br> removed from schemes
 showPlus5: true
 infographicGoogleDriveLink: https://drive.google.com/file/d/1X2XEM3Kin7WD9Mw_l3ag-1SCo6gMsQ8S/view?usp=sharing
