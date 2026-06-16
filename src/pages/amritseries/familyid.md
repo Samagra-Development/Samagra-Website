@@ -30,14 +30,14 @@ motionGraphic1: /img/family-id-website-gifs_before_2.mp4
 title5: Citizens faced barriers accessing welfare benefits due to limited scheme
   awareness and complex application processes
 infographic1:
-  - img: /img/picture3.png
+  - img: /img/citiz.png
   - img: /img/untitled-design.png
   - img: /img/backstory-1b-2x-3-.png
   - img: /img/backstory-1c-2x-3-.png
 title6: Department Officials struggled to identify and reach citizens as data
   was fragmented across government databases
 infographic2:
-  - img: /img/picture1.png
+  - img: /img/off-pic.png
   - img: /img/backstory-21-2x.png
   - img: /img/backstory-22-2x.png
   - img: /img/backstory-23-2x.png
