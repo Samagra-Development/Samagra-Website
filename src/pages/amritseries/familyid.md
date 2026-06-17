@@ -49,25 +49,25 @@ icon1: /img/impact-1.png
 impactNumber1: 1750
 impactNumber1Decimal: 0
 impactNumber1Text: " Cr"
-impactNumber1Title: Total annual benefits (₹) <br> retargeted via Family ID
+impactNumber1Title: Total annual benefits(₹) retargeted via Family ID
 showPlus1: true
 icon2: /img/impact-2.png
 impactNumber2: 750
 impactNumber2Decimal: 0
 impactNumber2Text: " Cr"
-impactNumber2Title: Annual benefits(₹) delivered <br> to eligible but excluded citizens
+impactNumber2Title: Annual benefits(₹) delivered to eligible but excluded citizens
 showPlus2: true
 icon3: /img/impact-3.png
 impactNumber3: 1000
 impactNumber3Decimal: 0
 impactNumber3Text: " Cr"
-impactNumber3Title: Budgetary leakages (₹) <br> prevented annually
+impactNumber3Title: Budgetary leakages(₹) prevented annually
 showPlus3: true
 icon4: /img/impact-4.png
 impactNumber4: 45
 impactNumber4Decimal: 0
 impactNumber4Text: " L"
-impactNumber4Title: "Left-out eligible citizens <br> enrolled in schemes "
+impactNumber4Title: "Left-out eligible citizens enrolled in schemes "
 showPlus4: true
 icon5: /img/impact-5.png
 impactNumber5: 32
