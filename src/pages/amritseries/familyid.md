@@ -61,7 +61,7 @@ icon3: /img/impact-3.png
 impactNumber3: 1000
 impactNumber3Decimal: 0
 impactNumber3Text: " Cr"
-impactNumber3Title: Budgetary leakages(₹) prevented annually
+impactNumber3Title: Budgetary leakages(₹) prevented annually via FamilyID
 showPlus3: true
 icon4: /img/impact-4.png
 impactNumber4: 45
@@ -73,7 +73,7 @@ icon5: /img/impact-5.png
 impactNumber5: 32
 impactNumber5Decimal: 0
 impactNumber5Text: " L"
-impactNumber5Title: Ghost beneficiaries <br> removed from schemes
+impactNumber5Title: Ghost and ineligible beneficiaries removed from schemes
 showPlus5: true
 infographicGoogleDriveLink: https://drive.google.com/file/d/1X2XEM3Kin7WD9Mw_l3ag-1SCo6gMsQ8S/view?usp=sharing
 downloadInfographicBtn: Download Infographic
