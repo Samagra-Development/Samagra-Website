@@ -46,7 +46,7 @@ But it went far beyond letters. Every logistical decision was directly connected
 
 None of these things is glamorous. But each one is a decision. And at a summit where over 2,000 people will show up, hundreds of thousands will reach on social media, and over 30 speakers will take the stage, getting the details right isn't just good practice. It's what separates an event that works from one that merely happens.
 
-![1](/img/screenshot-2026-06-11-165300.png "1")
+![India AI summit workplan and agenda](/img/screenshot-2026-06-11-165300.png "India AI summit workplan and agenda")
 
 \[Image 1&2: Odisha AI Summit Workplan and Agenda]
 
@@ -76,7 +76,7 @@ The[ Odisha AI Summit](https://samagragovernance.in/project/ai-powered-odisha/) 
 
 I thought the chapter was over.
 
-![2](/img/screenshot-2026-06-11-165520.png "2")
+![Odisha AI Summit ](/img/screenshot-2026-06-11-165520.png "Odisha AI Summit ")
 
 \[Image 3&4: Odisha AI Summit ending ceremony followed by a team picture]
 
@@ -90,7 +90,7 @@ All of it had to come together in barely a month and a half after the Odisha AI 
 
 But something was different this time. I wasn't figuring things out from scratch. I was building with confidence. The first summit had shown me what pressure looked like and, more importantly, that I could work through it.
 
-![4](/img/screenshot-2026-06-11-165649.png "4")
+![India AI summit workplan ](/img/screenshot-2026-06-11-165649.png "India AI summit workplan ")
 
 \[Image 5&6: India AI summit workplan and Booth layout]
 
@@ -114,7 +114,7 @@ One of those moments was when Hon'ble Union Minister Shri Ashwini Vaishnaw visit
 
 Here, I was no longer just coordinating things in the background. I was representing the work, explaining it, and holding my own in rooms and spaces that had once felt much larger than me.
 
-![](/img/screenshot-2026-06-15-130345.png)
+![Ashwini Vaishnaw at AI summit](/img/screenshot-2026-06-15-130345.png "Ashwini Vaishnaw at AI summit")
 
 \[Image 7&8: Demonstrations to Union Minister Mr Ashwini Vaishnaw and demonstration to other state delegations]
 
@@ -140,6 +140,6 @@ And ownership? It never waited until I was ready. It arrived when the work did. 
 
 I chose to step in.
 
-![](/img/screenshot-2026-06-15-122520.png)
+![India AI summit Samagra Odisha](/img/screenshot-2026-06-15-122520.png "India AI summit Samagra Odisha")
 
 \[Image 9: Team picture towards the last day of the Summit]
