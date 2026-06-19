@@ -46,7 +46,7 @@ But it went far beyond letters. Every logistical decision was directly connected
 
 None of these things is glamorous. But each one is a decision. And at a summit where over 2,000 people will show up, hundreds of thousands will reach on social media, and over 30 speakers will take the stage, getting the details right isn't just good practice. It's what separates an event that works from one that merely happens.
 
-![India AI summit workplan and agenda](/img/screenshot-2026-06-11-165300.png "India AI summit workplan and agenda")
+![Odisha AI summit workplan and agenda](/img/screenshot-2026-06-11-165300.png "Odisha AI summit workplan and agenda")
 
 \[Image 1&2: Odisha AI Summit Workplan and Agenda]
 
