@@ -6,13 +6,9 @@ author: Yatharth Mahobiya
 projectId: "1234"
 authorImage: /img/yatharth.jpg
 date: 2026-06-11T11:15:51.905Z
-description: One thing I understood very quickly after working with the
-  government is that nothing is as simple as it looks from the outside. Even
-  something as basic as sending an invitation is not really just sending an
-  email. It can mean drafting formal letters, getting the format right, printing
-  them, routing them for signatures, following up with different offices, and
-  making sure they reach the right people on time. I learnt that the hard way
-  while helping put together two AI summits. One in Odisha.
+description: "Yatharth describes his journey from organising a college case
+  competition to being a key representative from Samagra organising the India AI
+  Impact Summit and Odisha AI summit. "
 featuredimage: /img/blog-feature-13-.png
 ---
 One thing I understood very quickly after working with the government is that nothing is as simple as it looks from the outside. Even something as basic as sending an invitation is not really just sending an email. It can mean drafting formal letters, getting the format right, printing them, routing them for signatures, following up with different offices, and making sure they reach the right people on time. I learnt that the hard way while helping put together two AI summits. One in Odisha. One in Delhi. A few months later, I was standing inside Bharat Mandapam, representing the state on a global stage, with big tech giants like Google, OpenAI, and Meta just down the aisle.
