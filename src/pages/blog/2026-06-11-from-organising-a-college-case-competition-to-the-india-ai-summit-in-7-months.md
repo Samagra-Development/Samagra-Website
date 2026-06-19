@@ -82,7 +82,7 @@ I thought the chapter was over.
 
 ## The Door That Opened After
 
-The Odisha AI Summit didn't close a chapter. It opened a door. Very quickly, the focus shifted to the India AI Summit in Delhi. This wasn't state-level anymore. This was global. Thousands of attendees. Government ministers. Every major tech company you can think of. And Odisha needed to show up. Not just be present, but actually show up.
+The Odisha AI Summit didn't close a chapter. It opened a door. Very quickly, the focus shifted to the [India AI Impact Summit](https://impact.indiaai.gov.in/) in Delhi. This wasn't state-level anymore. This was global. Thousands of attendees. Government ministers. Every major tech company you can think of. And Odisha needed to show up. Not just be present, but actually show up.
 
 On paper, some of the tasks looked familiar: booth planning, startup coordination, collaterals, videos, brochures, and showcases. But the context was completely different. We had around 1,300 square feet of booth space, thirteen startups to coordinate, impact videos to prepare, a state brochure to close, and our in-house work to present.
 
@@ -96,7 +96,7 @@ But something was different this time. I wasn't figuring things out from scratch
 
 ## Cutting Through the Noise
 
-The weeks leading up to Delhi were relentless. There were impact videos to finish, brochure drafts going back and forth, booth designs to review, startups to coordinate, and new inputs coming in almost every day.
+The weeks leading up to  Delhi were relentless. There were impact videos to finish, brochure drafts going back and forth, booth designs to review, startups to coordinate, and new inputs coming in almost every day.
 
 This was where I really learned about cutting through the noise and prioritising. By then, I had started asking myself a very simple question: when someone walks into Odisha's booth, what should they remember?
 
