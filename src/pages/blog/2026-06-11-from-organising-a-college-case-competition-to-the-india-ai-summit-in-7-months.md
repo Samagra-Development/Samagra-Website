@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: From Organising a College Case Competition to the India AI Summit in 7 Months
+title: From Organising a College Case Competition to the India AI Impact Summit
+  in 7 Months
 author: Yatharth Mahobiya
 projectId: "1234"
 authorImage: /img/yatharth.jpg
