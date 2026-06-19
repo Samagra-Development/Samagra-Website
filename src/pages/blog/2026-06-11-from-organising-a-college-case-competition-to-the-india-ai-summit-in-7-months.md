@@ -20,13 +20,13 @@ I still don't fully know how I got there. But I can tell you exactly what it fel
 
 ## I Thought I Had Time
 
-I joined Samagra in August 2025, and for the first few weeks, everything felt new. The people, the language of policy, the way decisions moved through the system. I was still learning names, still trying to follow conversations in meetings, and then Googling acronyms afterwards.
+I joined [Samagra ](https://samagragovernance.in/)in August 2025, and for the first few weeks, everything felt new. The people, the language of policy, the way decisions moved through the system. I was still learning names, still trying to follow conversations in meetings, and then Googling acronyms afterwards
 
 Before this, the biggest thing I had organised was a college-level case competition involving 1,000 teams, and at the time, that is what “scale” meant to me. Little did I know that scale could be an entirely different concept. 
 
 I came into this system thinking I’d have time to settle in. However, that lasted about two months.
 
-In the first week of October, my team sat down for a quarterly strategy discussion. It was just us in a room, with a board on the wall where we were laying out priorities for the next few months. And somewhere in that discussion, it became clear that Odisha would be hosting the Regional AI  Summit on the 19th and 20th of December as a precursor to the India AI Summit happening in Delhi from the 16th to 20th of February. This was going to be one of seven such official pre-events held across the country.
+In the first week of October, my team sat down for a quarterly strategy discussion. It was just us in a room, with a board on the wall where we were laying out priorities for the next few months. And somewhere in that discussion, it became clear that Odisha would be hosting the [Regional AI  Summit ](https://www.google.com/search?q=odisha+ai+summit&oq=odisha+ai+summit&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MggIARAAGBYYHjIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDQ1OTBqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8)on the 19th and 20th of December as a precursor to the[ India AI Impact Summit](https://impact.indiaai.gov.in/) happening in Delhi from the 16th to 20th of February. This was going to be one of seven such official pre-events held across the country.
 
 And it was going to be my workstream.
 
