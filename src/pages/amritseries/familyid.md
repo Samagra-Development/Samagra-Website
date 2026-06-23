@@ -67,13 +67,13 @@ icon4: /img/impact-4.png
 impactNumber4: 45
 impactNumber4Decimal: 0
 impactNumber4Text: " L"
-impactNumber4Title: "Left-out eligible citizens enrolled in schemes "
+impactNumber4Title: "Left-out eligible citizens enrolled <br>in schemes "
 showPlus4: true
 icon5: /img/impact-5.png
 impactNumber5: 32
 impactNumber5Decimal: 0
 impactNumber5Text: " L"
-impactNumber5Title: Ghost and ineligible beneficiaries removed from schemes
+impactNumber5Title: Ghost and ineligible beneficiaries removed <br>from schemes
 showPlus5: true
 infographicGoogleDriveLink: https://drive.google.com/file/d/1X2XEM3Kin7WD9Mw_l3ag-1SCo6gMsQ8S/view?usp=sharing
 downloadInfographicBtn: Download Infographic
