@@ -3,7 +3,7 @@ templateKey: blog-post
 title: "The Dust They Breathe: A story about mining, governance, and what a
   dashboard can actually mean."
 author: Parth Khandar
-projectId: CM SAMPADA
+projectId: "1"
 authorImage: /img/parth-khandar-1-.jpg
 date: 2026-06-03T10:25:32.198Z
 description: >
