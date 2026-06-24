@@ -27,13 +27,13 @@ States increasingly introduced or expanded schemes such as free electricity, fre
 
 <!--EndFragment-->
 
-![Figure 1](/img/1_sackgfkew2zfuo103yeuew.webp "Figure 1")
+![Welfare Analysis Samagra](/img/1_sackgfkew2zfuo103yeuew.webp "Figure 1")
 
 **Source: Samagra Analysis**
 
 <!--EndFragment-->
 
-![Figure 2](/img/1_ietkpzbhe3b4xnefm0gija.webp "Figure 2")
+![Welfare Analysis Samagra](/img/1_ietkpzbhe3b4xnefm0gija.webp "Figure 2")
 
 **Source: Samagra Analysis**
 
@@ -57,11 +57,11 @@ The expansion of welfare provisioning has led to a situation where per capita we
 
 <!--EndFragment-->
 
-![Figure 3](/img/1_bwuedhrb_jmzxwxjig2byw.webp "Figure 3")
+![Samagra Analysis](/img/1_bwuedhrb_jmzxwxjig2byw.webp "Figure 3")
 
 **Source: Samagra Analysis**
 
-![Figure 4](/img/1_mxig_atrabi8lhcepv6m_g.webp "Figure 4")
+![Samagra Analysis](/img/1_mxig_atrabi8lhcepv6m_g.webp "Figure 4")
 
 **Source: Samagra Analysis**
 
@@ -71,7 +71,7 @@ The 16th Finance Commission in its report has also highlighted the unprecedented
 
 <!--EndFragment-->
 
-![](/img/1_m_xtqycdqqpwqyu2qgmp5a-1-.webp)
+![Report of the 16th Finance Commission](/img/1_m_xtqycdqqpwqyu2qgmp5a-1-.webp "Report of the 16th Finance Commission")
 
 ***Source: Report of the 16th Finance Commission***
 
