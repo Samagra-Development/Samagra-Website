@@ -85,7 +85,7 @@ The opportunity cost of this trajectory is high. Rising revenue expenditure on r
 
 To illustrate the scale involved, Karnataka’s annual subsidy and transfer expenditure is estimated at nearly ₹85,000 crore. 1% of this amount would be sufficient to operate a full-fledged IIT–scale institution every year. Similarly, the annual budget of the Department of Science and Technology in the Government of India for FY 2026–27 is one-third of the subsidy burden incurred by Karnataka this year.
 
-### **Beyond the intended objectives — ‘side effects’ of benefit transfer schemes**
+### **‘Side effects’ of benefit transfer schemes**
 
 Beyond their immediate fiscal implications, large-scale subsidies and welfare schemes also create important second-order and third-order effects on the broader economy and governance ecosystem.
 
