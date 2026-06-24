@@ -5,10 +5,10 @@ author: Amit Gupta
 projectId: "1"
 authorImage: /img/amit-gupta.jpg
 date: 2026-05-26T15:04:08.260Z
-description: India’s welfare architecture has undergone a profound
-  transformation over the last decade. What was once characterised by fragmented
-  subsidies, leakages, and intermediary-driven delivery has evolved into one of
-  the world’s largest digitally enabled welfare ecosystems.
+description: Explore India’s expanding welfare state, the rise of JAM ( (Jan
+  Dhan, Aadhaar, Mobile) -DBT and competitive welfarism, and the fiscal
+  sustainability challenges facing subsidies, cash transfers, and state welfare
+  schemes.
 featuredimage: /img/blog-feature-4-.png
 ---
 <!--StartFragment-->
