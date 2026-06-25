@@ -1,7 +1,9 @@
 const _ = require('lodash')
 const path = require('path')
+const fs = require('fs')
 const {createFilePath} = require('gatsby-source-filesystem')
 const {fmImagesToRelative} = require('gatsby-remark-relative-images')
+
 
 exports.createPages = ({actions, graphql}) => {
     const {createPage} = actions
@@ -96,3 +98,100 @@ exports.onCreateNode = ({node, actions, getNode}) => {
         })
     }
 };
+
+exports.createSchemaCustomization = ({ actions }) => {
+    const { createTypes } = actions;
+    const typeDefs = `
+      type MarkdownRemarkFrontmatter @infer {
+        verticalImage: File @fileByRelativePath
+        horizontalImage: File @fileByRelativePath
+
+        followLinkedin: File @fileByRelativePath
+        textImageSection: MarkdownRemarkFrontmatterTextImageSection
+        textCardsSection: MarkdownRemarkFrontmatterTextCardsSection
+        textImagesListSection: MarkdownRemarkFrontmatterTextImagesListSection
+        assetCard1: MarkdownRemarkFrontmatterAssetCard1
+        assetCard2: MarkdownRemarkFrontmatterAssetCard2
+        assetCard3: MarkdownRemarkFrontmatterAssetCard3
+        assetCard4: MarkdownRemarkFrontmatterAssetCard4
+        assetCard5: MarkdownRemarkFrontmatterAssetCard5
+      }
+      
+      type MarkdownRemarkFrontmatterTextImageSection {
+        image: File @fileByRelativePath
+      }
+      
+      type MarkdownRemarkFrontmatterTextCardsSection {
+        cards: [MarkdownRemarkFrontmatterTextCardsSectionCards]
+      }
+      
+      type MarkdownRemarkFrontmatterTextCardsSectionCards {
+        image: File @fileByRelativePath
+      }
+      
+      type MarkdownRemarkFrontmatterTextImagesListSection {
+        images: [MarkdownRemarkFrontmatterTextImagesListSectionImages]
+      }
+      
+      type MarkdownRemarkFrontmatterTextImagesListSectionImages {
+        image: File @fileByRelativePath
+      }
+      
+      type MarkdownRemarkFrontmatterAssetCard1 {
+        icon: File @fileByRelativePath
+      }
+      type MarkdownRemarkFrontmatterAssetCard2 {
+        icon: File @fileByRelativePath
+      }
+      type MarkdownRemarkFrontmatterAssetCard3 {
+        icon: File @fileByRelativePath
+      }
+      type MarkdownRemarkFrontmatterAssetCard4 {
+        icon: File @fileByRelativePath
+      }
+      type MarkdownRemarkFrontmatterAssetCard5 {
+        icon: File @fileByRelativePath
+      }
+    `;
+    createTypes(typeDefs);
+};
+
+exports.onPostBuild = async ({ graphql }) => {
+    const result = await graphql(`
+        {
+            allSitePage {
+                edges {
+                    node {
+                        path
+                    }
+                }
+            }
+        }
+    `);
+
+    if (result.errors) {
+        throw result.errors;
+    }
+
+    const pages = result.data.allSitePage.edges.filter(edge => {
+        const p = edge.node.path;
+        return !p.startsWith('/dev-404-page') && !p.startsWith('/offline-plugin-app-shell-fallback');
+    });
+
+    const sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${pages
+    .map(edge => {
+        return `  <url>
+    <loc>https://samagragovernance.in${edge.node.path}</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>`;
+    })
+    .join('\n')}
+</urlset>`;
+
+    fs.writeFileSync(path.join(__dirname, 'public', 'sitemap.xml'), sitemapContent);
+    console.log('Sitemap.xml generated successfully in public folder.');
+};
+

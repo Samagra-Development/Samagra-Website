@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://samagragovernance.in/sitemap.xml
