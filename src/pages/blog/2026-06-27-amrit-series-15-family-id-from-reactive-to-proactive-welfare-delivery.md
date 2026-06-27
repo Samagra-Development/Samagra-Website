@@ -24,7 +24,7 @@ The scale of this effort is immense. Yet despite significant investments in welf
 
 Welfare data is not absent. Revenue departments maintain caste, income, and domicile records. Agriculture departments hold farmer databases. Labour departments track registered workers. The problem is that this data lives in silos — no single view of a family exists across departments. And from this single root cause, two costly problems emerge.
 
-# 2. The Twin Challenge: Inclusion and Exclusion Errors
+### 2. The Twin Challenge: Inclusion and Exclusion Errors
 
 Because departments cannot cross-check records across systems, two structural errors undermine welfare delivery simultaneously:
 
