@@ -84,7 +84,7 @@ showBlog: true
 blogTitle: Blog
 blogDescription: Family ID is helping Uttar Pradesh build a unified,
   family-level database for more accurate and efficient welfare delivery.
-blogLink: https://samagragovernance.in/blog/2024-03-12-amrit-series-3-haryana-kaushal-rozgar-nigam/
+blogLink: https://samagragovernance.in/blog/2026-06-27-amrit-series-15-family-id-from-reactive-to-proactive-welfare-delivery/
 showOpEd: false
 opEdTitle: Op-ed
 opEdAuthorDate: ""
