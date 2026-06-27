@@ -1,7 +1,7 @@
 ---
 templateKey: case-study
 formType: This is new case study form
-show: false
+show: true
 projectId: FAMILY ID
 date: 2026-06-05T10:55:41.197Z
 sectionSequence: 1 2 3 4 5 6
