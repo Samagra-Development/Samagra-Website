@@ -22,7 +22,7 @@ title1: Proactive welfare delivery powered by a family-level citizen registry in
 title2: ""
 title3: Explore how Family ID helped the families of Surbhi, Reshma, and
   Haridwari enabled easier welfare access to government schemes
-impactVideoLink: https://www.youtube.com/watch?v=kLazY71yfQw
+impactVideoLink: https://www.youtube.com/embed/kLazY71yfQw?si=GCxRo3xBe8-zYl71%22
 title4: "Despite more than 180 Direct Benefit Transfer schemes available to
   support vulnerable families, many of them remained excluded as siloed
   databases made it difficult to identify and reach them  "
