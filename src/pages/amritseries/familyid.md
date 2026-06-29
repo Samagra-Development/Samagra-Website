@@ -75,9 +75,9 @@ impactNumber5Decimal: 0
 impactNumber5Text: " L"
 impactNumber5Title: Ghost and ineligible beneficiaries removed <br>from schemes
 showPlus5: true
-infographicGoogleDriveLink: https://drive.google.com/file/d/1-MFN61kbuR7MbnB_N2wElU_LRQBK88us/view?usp=drive_link
+infographicGoogleDriveLink: https://drive.google.com/file/d/1UI6Z8r9HMuYTGMMi99cTl-SrCSzwCrwd/view?usp=drive_link
 downloadInfographicBtn: Download Infographic
-infographicGoogleDriveLink2: https://drive.google.com/file/d/1UI6Z8r9HMuYTGMMi99cTl-SrCSzwCrwd/view?usp=sharing
+infographicGoogleDriveLink2: https://drive.google.com/file/d/1UI6Z8r9HMuYTGMMi99cTl-SrCSzwCrwd/view?usp=drive_link
 downloadInfographicBtn2: ""
 title8: ""
 showBlog: true
