@@ -7,6 +7,7 @@ date: 2024-01-15T07:24:17.098Z
 sectionSequence: 1 2 3 4 5 6
 featuredimage: /img/GO-SUGAM-landing-page.jpg
 buttonText: Learn More
+title: go-sugam
 fontColor: "#025300"
 bannerImage: /img/gosugam.mp4
 showSideNavbar: false
@@ -25,7 +26,11 @@ title2: Impact Video
 title3: GO-SUGAM was introduced by the Govt of Odisha in May 2022, to ease the
   life of farmers. See how it impacted the life of an aspirational small scale
   farmer - Sangita.
-impactVideoLink: https://www.youtube.com/embed/DYKEJfHbjVM?si=ggltnk6nWh966wG_
+impactVideoLink: <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/DYKEJfHbjVM?si=Rhh7cG_CY3SxlOPK"
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 title4: Like Sangita, many farmers in Odisha have such dreams. And they need
   help from the right schemes to unlock these dreams.
 motionGraphic1: /img/gs_mg_1.mp4
@@ -48,6 +53,7 @@ title7: GO-SUGAM has quickly become the de-facto choice of Department of
   Agriculture and Farmers' Empowerment (DA&FE) and Fisheries and Animal
   Resources Development (FARD) for easy and smooth delivery of schemes across
   directorates
+icon1: /img/gosugam-icon1.png
 impactNumber1: 2
 impactNumber1Decimal: 0
 impactNumber1Text: Lakh
@@ -64,35 +70,22 @@ impactNumber3: 70000
 impactNumber3Decimal: 0
 impactNumber3Text: ""
 impactNumber3Title: Subsidies released <br>against go-ahead
-showPlus3: true
-icon4: /img/gosugam-icon4.png
 impactNumber4: 44
 impactNumber4Decimal: 0
 impactNumber4Text: "%"
 impactNumber4Title: Farmers applied on <br>their own
-showPlus4: true
 icon5: /img/gosugam-icon5.png
 impactNumber5: 99
 impactNumber5Decimal: 0
 impactNumber5Text: "%"
 impactNumber5Title: Farmer stated correct <br>subsidy was received
-showPlus5: true
 infographicGoogleDriveLink: https://drive.google.com/file/d/1BL_OLyhvmrt9BsOCiSya-6UEOhJAAyyr/view?usp=drive_link
 downloadInfographicBtn: Download Infographic
 infographicGoogleDriveLink2: https://docs.google.com/document/d/1vmJKh3TfQ_JTHlvHg5beF6ncKwMuAaoNNnTen-EnLgI/edit
 downloadInfographicBtn2: Download One-Pager
 title8: Insights from the ground
-showBlog: true
-blogTitle: Blog
-blogDescription: Government of Odisha’s single window portal for digital
-  delivery of agricultural schemes to farmers
-blogLink: /blog/2024-02-01-amrit-series-2-go-sugam/
-showOpEd: false
-opEdDescription: Title of op-ed
-opEdLink: /blog/2023-12-25-amrit-series-1-krushi-samiksha-kendra/
 showWebinar: false
 webinarTitle: Webinar
-webinarDescription: Title of webinar
 webinarLink: /blog/2023-12-25-amrit-series-1-krushi-samiksha-kendra/
 showTestimonial: false
 testimonialText: Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -108,18 +101,29 @@ testimonialText: Lorem ipsum dolor sit amet consectetur adipisicing elit.
 testimonialImg: /img/garima_7700.jpg
 sideIcon4: /img/icon4-gosugam.png
 showsideIcon4: false
-blogSectionImage: /img/gosugam-impact.jpg
 testimonialAuthor: Garima Sood
 testimonialAuthorDesignation: Outreach Team, Samagra
-footersubText1: T﻿his work has been done under
-  [KONNECT](https://samagragovernance.in/project/konnect/) with the support from
-  Government of Odisha and Bill and Melinda Gates Foundation.
 footerText1: Partner with us today!
 footerText2: "Write to us at: outreach@samagragovernance.in"
 successStoriesTitle: View more <i>Success Stories of Impact</i>
 showSuccessStories: antyodaya-saral,ksk,hkrn
 sideIcon4Text: Impact Numbers
-title: go-sugam
-icon1: /img/gosugam-icon1.png
+showPlus3: true
+icon4: /img/gosugam-icon4.png
+showPlus4: true
+showPlus5: true
+showBlog: true
+blogTitle: Blog
+blogDescription: Government of Odisha’s single window portal for digital
+  delivery of agricultural schemes to farmers
+blogLink: /blog/2024-02-01-amrit-series-2-go-sugam/
+showOpEd: false
 opEdTitle: Op-Ed
+opEdDescription: Title of op-ed
+opEdLink: /blog/2023-12-25-amrit-series-1-krushi-samiksha-kendra/
+webinarDescription: Title of webinar
+blogSectionImage: /img/gosugam-impact.jpg
+footersubText1: T﻿his work has been done under
+  [KONNECT](https://samagragovernance.in/project/konnect/) with the support from
+  Government of Odisha and Bill and Melinda Gates Foundation.
 ---
