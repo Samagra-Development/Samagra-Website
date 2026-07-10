@@ -205,4 +205,10 @@ postData:
       episode: "3"
       urlLink: https://www.youtube.com/watch?v=7239XhhaVuU
       postImage: /img/breaking-the-mafia-nexus.png
+  - postCard:
+      postName: P.K.Jena
+      selectedCategory: "4"
+      urlLink: https://www.youtube.com/watch?v=_mSprbOC9o0
+      episode: "4"
+      postImage: /img/untitled-design-7-.png
 ---
