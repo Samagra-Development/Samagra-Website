@@ -56,20 +56,18 @@ impactSection:
   stats:
     isVisible: true
     items:
-      - value: 33L+
-        image: /img/fid-icon-1.png
-        label: Pensioners, migrant workers, farmers, labourers and primary school
-          students enrolled in ration scheme
-      - value: ₹1500 Cr+
+      - value: ₹1750 Cr+
         image: /img/fid-icon-2.png
-        label: Saved annually through inclusion of deserving citizens and exclusion of
-          ineligible beneficiaries
-      - value: 12K+
-        image: /img/fid-icon-3-removebg-preview.png
-        label: Caste certificates issued in fast track mode with 2-day turnaround time
-      - value: 40+
-        image: /img/fid-icon-4-removebg.png
-        label: Schemes & services started Aadhaar authentication due to Family ID
+        label: Total annual benefits retargeted via Family ID
+      - value: 45L+
+        image: /img/fid-icon-1.png
+        label: Left-out eligible citizens enrolled in schemes
+      - value: ₹1000Cr+
+        image: /img/save.png
+        label: Budgetary leakages prevented annually via FamilyID
+      - value: ₹750 Cr +
+        image: /img/beneficiary.png
+        label: Annual benefits delivered to eligible but excluded citizens
   testimonials:
     isVisible: false
     items:
