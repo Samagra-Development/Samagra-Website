@@ -192,7 +192,7 @@ postData:
       selectedCategory: "4"
       episode: "1"
       urlLink: https://www.youtube.com/watch?v=qwMJG14ZIqE
-      postImage: /img/s4-ep1-t2.png
+      postImage: /img/untitled-design-8-.png
   - postCard:
       postName: Alok Kumar
       selectedCategory: "4"
