@@ -57,6 +57,23 @@ textCardsSection:
         state.
       image: /img/screenshot-2026-04-15-at-6.31.50 pm.png
       readMoreLink: https://www.linkedin.com/feed/update/urn:li:activity:7444372280199000064
+    - tag: "Edition #6"
+      title: Citizens Availing Schemes & Services of Maharashtra
+      description: "In the sixth edition of Decoding Citizens, we spotlight Citizens
+        Availing Schemes & Services of #Maharashtra, who face diverse
+        circumstances, challenges, and opportunities. Their experiences deliver
+        valuable insights into structuring scheme and service delivery of the
+        state."
+      image: /img/1767687536535.jpg
+      readMoreLink: https://www.linkedin.com/feed/update/urn:li:activity:7414219159640682496/
+    - tag: "Edition #7"
+      title: Anganwadi Workers of Odisha
+      description: "In the seventh edition of of Decoding Citizens, we spotlight the
+        Anganwadi Workers of Odisha. Their experiences s offer deep insight into
+        their unmet needs, and on-ground realities, enabling more precise and
+        impactful intervention design. "
+      image: /img/1781689887348.jpg
+      readMoreLink: https://www.linkedin.com/feed/update/urn:li:activity:7472988938492772353/
 textImagesListSection:
   text: Snapshots from our work in governance.
   images:
