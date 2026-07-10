@@ -51,8 +51,8 @@ programHighlightsSection:
       title: Citizen Loop Closure
       image: /img/citizen-feedback.png
     - title: Pest Management
-      description: Revamping the department’s pest management system to improve pest
-        reporting and response
+      description: Revamping pest management system more responsive and reducing crop
+        losses in the state through CROPSAP 2.0
       image: /img/pest-management.png
   backgroundImage: /img/ff.png
 impactSection:
