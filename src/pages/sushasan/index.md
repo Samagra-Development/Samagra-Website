@@ -198,13 +198,13 @@ postData:
       selectedCategory: "4"
       episode: "2"
       urlLink: https://www.youtube.com/watch?v=DDnjETgWL04
-      postImage: /img/how-jewar-became-india’s-biggest.png
+      postImage: /img/website-thumbnails-1-.png
   - postCard:
       postName: Prashant Kumar
       selectedCategory: "4"
       episode: "3"
       urlLink: https://www.youtube.com/watch?v=7239XhhaVuU
-      postImage: /img/breaking-the-mafia-nexus.png
+      postImage: /img/website-thumbnails.png
   - postCard:
       postName: P.K.Jena
       selectedCategory: "4"
