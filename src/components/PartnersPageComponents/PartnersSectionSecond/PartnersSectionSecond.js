@@ -58,7 +58,7 @@ const PartnersSectionSecond = ({ content }) => {
             {content.partnerTitle}
           </div>
           <div className="container partner-companies">
-            <div className="row ">
+            <div className="row justify-content-center">
               {content.partners.map((partner) => {
                 return (
                   <div className="partners-image-wrapper col-lg-3 col-md-3 col-sm-4 col-xs-6">
