@@ -100,7 +100,7 @@ As our discussions progressed, one question continued to surface:
 
 Perhaps that is a journey for the next phase…
 
-Reflections from the Journey
+### Reflections from the Journey
 
 While the recommendations focus on scholarship delivery, the journey itself offered a few enduring lessons on driving governance reform.
 
