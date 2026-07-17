@@ -40,9 +40,9 @@ Maharashtra supports nearly **24 lakh students** every year through an annual sc
 
 Every meaningful governance reform begins with understanding the citizen's experience.
 
-![Workflow for Scholarship Maharashtra](/img/gpr.png "Previous process for Maharashtra scholarship")
+![Workflow for Scholarship Maharashtra](/img/gpr.png "Previously existing process for scholarships in Maharashtra")
 
-I﻿mage 1: The existing process for shcolarships Maharashtra
+I﻿mage 1: Previously existing process for scholarships in Maharashtra
 
 Together with officers across implementing departments, MahaIT, educational institutions and students, we spent weeks tracing the scholarship journey - from application to disbursement. Every stakeholder shared the same objective: ensuring that scholarships reached eligible students while maintaining accountability in the use of public funds.
 
