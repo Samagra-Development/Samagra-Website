@@ -16,9 +16,9 @@ featuredimage: /img/blog-feature-16-.png
 
 Before I ever worked on scholarship policy, I was shaped by one.
 
-When I received my first merit scholarship of ₹600 from the Government of Maharashtra in Grade 7, it wasn't just recognition for good grades. It was my first experience of self-dependence - the first time I could, however modestly, contribute towards easing my family's financial burden.
+When I received my first merit scholarship of **₹600** from the Government of Maharashtra in Grade 7, it wasn't just recognition for good grades. It was my first experience of self-dependence - the first time I could, however modestly, contribute towards easing my family's financial burden.
 
-Years later, the Vidula Jalan Scholarship enabled me to pursue my MBA at the Indian School of Business. More importantly, it gave me something far more valuable - the freedom to choose. Without the pressure of repaying an education loan, I could continue pursuing a career in the social impact sector instead of one driven solely by financial considerations.
+Years later, the **Vidula Jalan Scholarship** enabled me to pursue my MBA at the Indian School of Business. More importantly, it gave me something far more valuable - the freedom to choose. Without the pressure of repaying an education loan, I could continue pursuing a career in the social impact sector instead of one driven solely by financial considerations.
 
 Looking back, I realise that the greatest value a scholarship creates isn't financial assistance. It is the freedom to choose one's future.
 
