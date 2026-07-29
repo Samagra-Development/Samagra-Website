@@ -3,9 +3,9 @@ templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
 infoText2: 'Refer to the Job Description: <a target={"_blank"}
-  href="https://drive.googleo.cm/file/d/1kOpztXSpm7z4XTl3YQbrwzUQRYRK79IU/view"
+  href="https://drive.google.com/file/d/1kOpztXSpm7z4XTl3YQbrwzUQRYRK79IU/view"
   > Associate/Sr Associate/Consultant </a>  <a target={"_blank"}
-  href="https://drive.google.com/file/d/1rVP_-ppEyAPs'
+  href="https://drive.google.com/file/d/1kOpztXSpm7z4XTl3YQbrwzUQRYRK79IU/view">'
 formAcceptance: '<p> Applications are open.</p> <p> Note: You are not applying
   for a specific designation. The designation offered is decided during the
   interview process.</p><p> Interviews of applicants from Delhi-NCR will be held
