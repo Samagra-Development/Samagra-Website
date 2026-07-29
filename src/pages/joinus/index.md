@@ -12,8 +12,8 @@ formAcceptance: '<p> Applications are open.</p> <p> Note: You are not applying
   in-person at our <a target={"_blank"}
   href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office</a> <p>'
 showForm: true
-verticalImage: /img/timelines.jpeg
-horizontalImage: /img/timelines.jpeg
+verticalImage: /img/whatsapp-image-2026-07-29-at-11.39.45-1-.jpeg
+horizontalImage: /img/whatsapp-image-2026-07-29-at-11.39.45-1-.jpeg
 followLinkedin: /img/follow-linkedin.jpg
 postSubInfo:
   heading: Thank you
