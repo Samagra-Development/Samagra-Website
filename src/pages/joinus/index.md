@@ -193,8 +193,8 @@ formsElements:
     label: B﻿enchmark output
     hint: Upload an Excel/ Presentation/Concept Note you have created in this
       calendar year
-    placeholder: Upload an Excel/ Presentation/Concept Note you have created in this
-      calendar year
+    placeholder: Upload an Excel/ Presentation/Concept Note that you have created in
+      this calendar year
     type: file
     validation: VALID_FILE
     actionName: Upload
