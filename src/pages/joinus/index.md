@@ -3,10 +3,9 @@ templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
 infoText2: 'Refer to the Job Description: <a target={"_blank"}
-  href="https://drive.google.com/file/d/1kOpztXSpm7z4XTl3YQbrwzUQRYRK79IU/view"
-  > Associate/Sr Associate/Consultant </a> | <a target={"_blank"}
-  href="https://drive.google.com/file/d/1rVP_-ppEyAPsW9MgzOjKDcA8BaUIPBo8/view?usp=sharing"
-  >'
+  href="https://drive.googleo.cm/file/d/1kOpztXSpm7z4XTl3YQbrwzUQRYRK79IU/view"
+  > Associate/Sr Associate/Consultant </a>  <a target={"_blank"}
+  href="https://drive.google.com/file/d/1rVP_-ppEyAPs'
 formAcceptance: '<p> Applications are open.</p> <p> Note: You are not applying
   for a specific designation. The designation offered is decided during the
   interview process.</p><p> Interviews of applicants from Delhi-NCR will be held
@@ -158,16 +157,6 @@ formsElements:
     required: false
     type: text
     validation: VALID_LINK
-  - contentDescription: This includes an online Concept Note Submission +
-      Organizational Fit MCQ Test.
-    label: Please select your availability for Round 2, if shortlisted
-    options:
-      - text: 12th Jun' 26 (7:00 PM - 10:00 PM)
-      - text: 13th Jun' 26 (7:00 PM - 10:00 PM)
-    placeholder: Select Option
-    required: true
-    type: select
-    validation: VALID_OPTION
   - contentDescription: " "
     label: Where did you hear about Samagra?
     options:
