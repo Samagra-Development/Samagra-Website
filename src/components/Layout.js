@@ -20,8 +20,12 @@ class LayoutWrapper extends React.Component {
 
   componentDidMount() {
     if (typeof window !== 'undefined') {
-      ReactGA.initialize('UA-117691729-3');
-      ReactGA.pageview(window.location.pathname);
+      try {
+        ReactGA.initialize('UA-117691729-3');
+        ReactGA.pageview(window.location.pathname);
+      } catch (err) {
+        console.error('Failed to initialize Google Analytics', err);
+      }
       const { edges: domains } = this.props.projects.allMarkdownRemark;
       window.localStorage.setItem('domains', JSON.stringify(domains));
       if (window.sessionStorage.getItem('sticky-banner-close')) {
