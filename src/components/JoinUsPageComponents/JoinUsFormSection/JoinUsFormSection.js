@@ -194,13 +194,28 @@ export const JoinUsFormSection = ({
     return false; // Validation fails if no file is selected.
   }
 
-  // File validation: type and size
-  const isPDF = file.type === "application/pdf";
-  const isWithinSizeLimit = file.size <= 3 * 1024 * 1024; // 1 MB limit.
+  const isBenchmark = element.label && element.label.toLowerCase().includes("benchmark");
+  let isValidType = false;
+  let isWithinSizeLimit = false;
 
-  formObject[element.fileErrorKey] = !(isPDF && isWithinSizeLimit); // Update error state.
+  if (isBenchmark) {
+    const validMimes = [
+      "application/pdf", 
+      "text/plain", 
+      "application/vnd.ms-excel", 
+      "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", 
+      "text/csv"
+    ];
+    isValidType = validMimes.includes(file.type) || /\.(pdf|txt|xlsx|xls|csv)$/i.test(file.name);
+    isWithinSizeLimit = file.size <= 5 * 1024 * 1024; // 5 MB limit.
+  } else {
+    isValidType = file.type === "application/pdf" || /\.pdf$/i.test(file.name);
+    isWithinSizeLimit = file.size <= 3 * 1024 * 1024; // 3 MB limit.
+  }
 
-  return isPDF && isWithinSizeLimit; // Return validation result.
+  formObject[element.fileErrorKey] = !(isValidType && isWithinSizeLimit); // Update error state.
+
+  return isValidType && isWithinSizeLimit; // Return validation result.
 };
   
 
@@ -404,7 +419,9 @@ export const JoinUsFormSection = ({
                     formObject[element.fileErrorKey] ? "invalid-size" : ""
                   }`}
                 >
-                  (pdf only, max size 3mb){" "}
+                  {element.label && element.label.toLowerCase().includes("benchmark")
+                    ? "(pdf, text, excel only, max size 5mb)"
+                    : "(pdf only, max size 3mb)"}{" "}
                 </span>
                 <span className={"required-mark"}>*</span>
               </label>
@@ -427,7 +444,7 @@ export const JoinUsFormSection = ({
                 <input
                   type="file"
                   className={"file-input"}
-                  accept={".pdf"}
+                  accept={element.label && element.label.toLowerCase().includes("benchmark") ? ".pdf,.txt,.xlsx,.xls,.csv" : ".pdf"}
                   onChange={(e) => handleFileChange(e, element)}
                 />
                 <div className="input-group-append">
@@ -576,7 +593,8 @@ export const JoinUsFormSection = ({
       });
 
       // Read file fields as base64 and append (wait for all reads to complete)
-      // Apps Script expects: resumeFileName, resumeMime, resumeBlob
+      // Apps Script expects: resumeFileName, resumeMime, resumeBlob (for resume)
+      // and benchmarkFileName, benchmarkMime, benchmarkBlob (for benchmark)
       const fileAppendPromises = formsElements
         .filter((fE) => fE.type === "file" && formObject[fE.key] instanceof File)
         .map((fE) => {
@@ -584,9 +602,13 @@ export const JoinUsFormSection = ({
           return new Promise((resolve) => {
             const reader = new FileReader();
             reader.onload = (ev) => {
-              params.append(`resumeFileName`, file.name);
-              params.append(`resumeMime`, file.type);
-              params.append(`resumeBlob`, ev.target.result.split(",")[1]);
+              let prefix = "resume";
+              if (fE.label && fE.label.toLowerCase().includes("benchmark")) {
+                prefix = "benchmark";
+              }
+              params.append(`${prefix}FileName`, file.name);
+              params.append(`${prefix}Mime`, file.type);
+              params.append(`${prefix}Blob`, ev.target.result.split(",")[1]);
               resolve();
             };
             reader.readAsDataURL(file);
