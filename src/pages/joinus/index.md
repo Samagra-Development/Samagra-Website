@@ -190,7 +190,7 @@ formsElements:
     validation: VALID_LINK
     type: text
   - required: true
-    label: B﻿enchmark output
+    label: Benchmark output
     hint: Upload an Excel/ Presentation/Concept Note you have created in this
       calendar year
     placeholder: Upload an Excel/ Presentation/Concept Note that you have created in
