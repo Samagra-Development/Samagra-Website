@@ -201,12 +201,11 @@ export const JoinUsFormSection = ({
   if (isBenchmark) {
     const validMimes = [
       "application/pdf", 
-      "text/plain", 
       "application/vnd.ms-excel", 
       "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", 
       "text/csv"
     ];
-    isValidType = validMimes.includes(file.type) || /\.(pdf|txt|xlsx|xls|csv)$/i.test(file.name);
+    isValidType = validMimes.includes(file.type) || /\.(pdf|xlsx|xls|csv)$/i.test(file.name);
     isWithinSizeLimit = file.size <= 5 * 1024 * 1024; // 5 MB limit.
   } else {
     isValidType = file.type === "application/pdf" || /\.pdf$/i.test(file.name);
@@ -420,7 +419,7 @@ export const JoinUsFormSection = ({
                   }`}
                 >
                   {element.label && element.label.toLowerCase().includes("benchmark")
-                    ? "(pdf, text, excel only, max size 5mb)"
+                    ? "(pdf, excel only, max size 5mb)"
                     : "(pdf only, max size 3mb)"}{" "}
                 </span>
                 <span className={"required-mark"}>*</span>
@@ -444,7 +443,7 @@ export const JoinUsFormSection = ({
                 <input
                   type="file"
                   className={"file-input"}
-                  accept={element.label && element.label.toLowerCase().includes("benchmark") ? ".pdf,.txt,.xlsx,.xls,.csv" : ".pdf"}
+                  accept={element.label && element.label.toLowerCase().includes("benchmark") ? ".pdf,.xlsx,.xls,.csv" : ".pdf"}
                   onChange={(e) => handleFileChange(e, element)}
                 />
                 <div className="input-group-append">
