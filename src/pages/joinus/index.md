@@ -5,10 +5,12 @@ infoText1: Join Us
 infoText2: 'Refer to the Job Description: <a target={"_blank"}
   href="https://drive.google.com/file/d/1G--N_b467M-P55VF-wqXj1tHZ23IfO4J/view?usp=sharing"
   > Associate/Sr Associate/Consultant </a> '
-formAcceptance: '<p> Applications are now open.</p> <p> Note: You are not
-  applying for a specific designation. The designation offered is decided during
-  the interview process.</p><p> Interviews of applicants from Delhi-NCR will be
-  held in-person at our <a target={"_blank"}
+formAcceptance: '<p> <a target={"_blank"}
+  href="https://us06web.zoom.us/meeting/register/aBUBmCatTBiBFCUPOD-7jQ">
+  Register for Samagra Recruitment Talk scheduled on 5th Aug, 7 PM here.</a></p>
+  <p> Note: You are not applying for a specific designation. The designation
+  offered is decided during the interview process.</p><p> Interviews of
+  applicants from Delhi-NCR will be held in-person at our <a target={"_blank"}
   href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office</a> <p>'
 showForm: true
 verticalImage: /img/whatsapp-image-2026-07-29-at-11.39.45-1-.jpeg
