@@ -26,7 +26,7 @@ export const OurTeamPage = ({ data }) => {
       try {
         setLoading(true);
         // Your Google Apps Script API endpoint
-        const response = await fetch('https://script.googleusercontent.com/a/macros/esmagico.in/echo?user_content_key=AehSKLg83-_9Vjl4TMdvQW4fc2fTwfyGvYD_9CDbnRR0qluBvpEek00SPcaSjlpHpocj8LkGFHf4gyYh8qExigWK8C0MN70FhmeqJsgm7GLsZTRb6fDATZe0NG_nDQY7rp64CZRGkOBXLTIgzKnQ8cte7wHhf30Nij4go4RfOOiElWkFspMqs7WZzlgtGUaZFZcPggzHbNXEkJ5MQWAALR7BC_pI1jSiR0jw-jVJ-xyqevcEOMlmEo-6QSGi8mq010cGmu35sMKYPQvVZjtzFRhgvL4OxpT8Hr9PFHxUt0HEfNzzZawF_1w&lib=MnX535NAwlQqTTmK8rRb1UHigX9cjdZoX');
+        const response = await fetch('https://script.google.com/macros/s/AKfycbxNqTFsmxfr3GsxahTop01N4SwtqVXAfjJCSgUgZ_s7tOJIMGDnvqkE_OHsWOzRySFM/exec');
         if (!response.ok) {
           throw new Error('Failed to fetch team data');
         }
