@@ -11,6 +11,6 @@ mainContent:
       and domain will be chosen for the challenge. The anchor state will host
       the final round of the Challenge with the Chief Minister of the state
       attending and judging the finalist teams.
-link: https://unstop.com/competitions/the-governance-challenge-2024-samagra-governance-1148681
+link: https://unstop.com/competitions/crp-the-governance-challenge-2026-tgc-2026-samagra-1726557
 buttonText: Apply here
 ---
