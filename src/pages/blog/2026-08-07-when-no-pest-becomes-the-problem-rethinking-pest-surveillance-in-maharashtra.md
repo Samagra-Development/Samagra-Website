@@ -46,7 +46,7 @@ The root question: why were serious pest incidents - the ones bad enough to thre
 
 Five failure points  and a pest incident had to survive all five to become a number someone could act on. This is simply how we work at Samagra: you cannot understand a system from a conference room. So we took each branch to the field and tested it against what officers and farmers actually told us, keeping what held up and changing our minds where it did not.
 
-![Validating hypotheses on the ground - field visit with agriculture officers, Feb, 2026](/img/whatsapp-image-2026-04-27-at-13.05.45.jpeg "Validating hypotheses on the ground - field visit with agriculture officers, Feb, 2026")
+![Validating hypotheses on the ground - field visit with agriculture officers, Feb, 2026](/img/screenshot-2026-08-07-195503.png "Validating hypotheses on the ground - field visit with agriculture officers, Feb, 2026")
 
 *Validating hypotheses on the ground - field visit with agriculture officers, Feb, 2026*
 
@@ -102,7 +102,7 @@ What existed by the launch date was a minimum viable product: the core of the sy
 
 It would be easy to read that as recklessness. I have come to see it differently. A public commitment from the very top does something an internal deadline never can: it turns work that could silently slip, or be shelved, or lose its momentum, into an obligation that has to be met. The launch did not mean the work was done. It meant the work could no longer be abandoned  which, in a government context, is often what separates the ideas that reach the field from the ones that stay forever "in progress."
 
-![With the Joint Director of Agriculture (Extension) at the CROPSAP 2.0 launch, during the Kharif Preparation Meeting 2026 chaired by the Hon'ble CM of Maharashtra](/img/whatsapp-image-2026-05-30-at-22.41.06-3-.jpeg "With the Joint Director of Agriculture (Extension) at the CROPSAP 2.0 launch, during the Kharif Preparation Meeting 2026 chaired by the Hon'ble CM of Maharashtra")
+![With the Joint Director of Agriculture (Extension) at the CROPSAP 2.0 launch, during the Kharif Preparation Meeting 2026 chaired by the Hon'ble CM of Maharashtra](/img/screenshot-2026-08-07-195456.png "With the Joint Director of Agriculture (Extension) at the CROPSAP 2.0 launch, during the Kharif Preparation Meeting 2026 chaired by the Hon'ble CM of Maharashtra")
 
 *With the Joint Director of Agriculture (Extension) at the CROPSAP 2.0 launch, during the Kharif Preparation Meeting 2026 chaired by the Hon'ble CM of Maharashtra*
 
@@ -119,8 +119,6 @@ Even a well-designed system has blind spots. The hardest case is not the officer
 But here is what I keep coming back to. We started out thinking the job was to build a better system for detecting pests. Somewhere along the way, the problem changed shape in front of us. The real job was never to build a smarter system to detect pests.
 
 It was to build a system where telling the truth was the easiest thing to do.
-
-
 
 <!--EndFragment-->
 
