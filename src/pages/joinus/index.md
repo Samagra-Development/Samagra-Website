@@ -12,7 +12,7 @@ formAcceptance: '<p> <a target={"_blank"}
   offered is decided during the interview process.</p><p> Interviews of
   applicants from Delhi-NCR will be held in-person at our <a target={"_blank"}
   href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office</a> <p>'
-showForm: true
+showForm: false
 verticalImage: /img/whatsapp-image-2026-07-29-at-11.39.45-1-.jpeg
 horizontalImage: /img/whatsapp-image-2026-07-29-at-11.39.45-1-.jpeg
 followLinkedin: /img/follow-linkedin.jpg
