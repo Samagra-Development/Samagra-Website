@@ -618,7 +618,7 @@ export const JoinUsFormSection = ({
 
       // Post as URL-encoded so Apps Script e.parameter can read all fields
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbyLByCN_wSbKks1TrcpAuh3qv-P8Wj1m1x_OxuKANs4eyUd3biVT_y447cavryPlGjJ/exec",
+        "https://script.google.com/macros/s/AKfycbxsJouWGJwV4xh9MZH2gJKJ7cRGQdINoItJCCKXpX7WIdb4FZCWQ708Hi8kmk83l3cG/exec",
         {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
