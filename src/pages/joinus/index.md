@@ -11,7 +11,7 @@ formAcceptance: '<p> Applications are now closed. Shortlist expected by 13th
   of applicants from Delhi-NCR will be held in-person at our <a
   target={"_blank"} href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi
   office</a> <p>'
-showForm: false
+showForm: true
 verticalImage: /img/whatsapp-image-2026-07-29-at-11.39.45-1-.jpeg
 horizontalImage: /img/whatsapp-image-2026-07-29-at-11.39.45-1-.jpeg
 followLinkedin: /img/follow-linkedin.jpg
