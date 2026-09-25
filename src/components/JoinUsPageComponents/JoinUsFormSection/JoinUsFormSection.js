@@ -34,12 +34,12 @@ export const JoinUsFormSection = ({
       return "";
     }
     return str
-      .replace(/(?:^\w|[A-Z]|\b\w)/g, function(word, index) {
+      .replace(/(?:^\w|[A-Z]|\b\w)/g, function (word, index) {
         return index == 0 ? word.toLowerCase() : word.toUpperCase();
       })
       .replace(/\s+/g, "");
   };
-  
+
   const [showForm, setShowForm] = useState(true);
   const slides = {
     default: Slide1,
@@ -52,7 +52,7 @@ export const JoinUsFormSection = ({
   const [videoProgress, setVideoProgress] = useState(0);
   const [formObject, setFormObject] = useState({});
   const [submitted, setSubmitted] = useState(false);
-  const [submissionError,setSubmissionError] = useState(false)
+  const [submissionError, setSubmissionError] = useState(false)
   const [activeOption, setActiveOption] = useState(-1);
   const [activeHoverIndex, setActiveHoverIndex] = useState(-1);
   const [loaderKey, setLoaderKey] = useState({});
@@ -131,7 +131,7 @@ export const JoinUsFormSection = ({
     const files = e.target.files;
     if (files.length > 0) {
       const file = files[0];
-      AddFile(file,element)
+      AddFile(file, element)
       const updatedFormObject = {
         ...formObject,
         [element.key]: file, // Store the file object.
@@ -184,39 +184,39 @@ export const JoinUsFormSection = ({
       )
     );
   };
-  
-   const VALID_FILE = (element) => {
-  if (!element.required) return true; // Skip validation if not required.
 
-  const file = formObject[element.key]; // Access the file object.
-  if (!file) {
-    formObject[element.fileErrorKey] = true; // Mark an error.
-    return false; // Validation fails if no file is selected.
-  }
+  const VALID_FILE = (element) => {
+    if (!element.required) return true; // Skip validation if not required.
 
-  const isBenchmark = element.label && element.label.toLowerCase().includes("benchmark");
-  let isValidType = false;
-  let isWithinSizeLimit = false;
+    const file = formObject[element.key]; // Access the file object.
+    if (!file) {
+      formObject[element.fileErrorKey] = true; // Mark an error.
+      return false; // Validation fails if no file is selected.
+    }
 
-  if (isBenchmark) {
-    const validMimes = [
-      "application/pdf", 
-      "application/vnd.ms-excel", 
-      "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", 
-      "text/csv"
-    ];
-    isValidType = validMimes.includes(file.type) || /\.(pdf|xlsx|xls|csv)$/i.test(file.name);
-    isWithinSizeLimit = file.size <= 5 * 1024 * 1024; // 5 MB limit.
-  } else {
-    isValidType = file.type === "application/pdf" || /\.pdf$/i.test(file.name);
-    isWithinSizeLimit = file.size <= 3 * 1024 * 1024; // 3 MB limit.
-  }
+    const isBenchmark = element.label && element.label.toLowerCase().includes("benchmark");
+    let isValidType = false;
+    let isWithinSizeLimit = false;
 
-  formObject[element.fileErrorKey] = !(isValidType && isWithinSizeLimit); // Update error state.
+    if (isBenchmark) {
+      const validMimes = [
+        "application/pdf",
+        "application/vnd.ms-excel",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "text/csv"
+      ];
+      isValidType = validMimes.includes(file.type) || /\.(pdf|xlsx|xls|csv)$/i.test(file.name);
+      isWithinSizeLimit = file.size <= 5 * 1024 * 1024; // 5 MB limit.
+    } else {
+      isValidType = file.type === "application/pdf" || /\.pdf$/i.test(file.name);
+      isWithinSizeLimit = file.size <= 3 * 1024 * 1024; // 3 MB limit.
+    }
 
-  return isValidType && isWithinSizeLimit; // Return validation result.
-};
-  
+    formObject[element.fileErrorKey] = !(isValidType && isWithinSizeLimit); // Update error state.
+
+    return isValidType && isWithinSizeLimit; // Return validation result.
+  };
+
 
   const VALID_OPTION = (element) => {
     if (!element.required) {
@@ -262,9 +262,9 @@ export const JoinUsFormSection = ({
 
   const [statementOfPurpose, setStatementOfPurpose] = useState("");
   const [introVideo, setIntroVideo] = useState("");
- useEffect(()=>{
+  useEffect(() => {
 
- },[submissionError])
+  }, [submissionError])
   const renderInput = (element) => {
     switch (element.type) {
       case "text":
@@ -286,9 +286,8 @@ export const JoinUsFormSection = ({
                   formObjectTemp[element.key] = e.target.value;
                   setFormObject(formObjectTemp);
                 }}
-                className={`form-control ${
-                  submitted && !customValidation(element) ? "invalid" : ""
-                }`}
+                className={`form-control ${submitted && !customValidation(element) ? "invalid" : ""
+                  }`}
                 placeholder={element.placeholder}
               />
               {element.key === "totalProfessionalExperienceInMonths" && (
@@ -296,8 +295,8 @@ export const JoinUsFormSection = ({
                   (excluding internships and fellowships)
                 </span>
               )}
-              {element.hint &&<span className={"hint"}>{element.hint}</span>}
-              
+              {element.hint && <span className={"hint"}>{element.hint}</span>}
+
             </fieldset>
           </div>
         );
@@ -320,9 +319,8 @@ export const JoinUsFormSection = ({
                   formObjectTemp[element.key] = e.target.value;
                   setFormObject(formObjectTemp);
                 }}
-                className={`form-control ${
-                  submitted && !customValidation(element) ? "invalid" : ""
-                }`}
+                className={`form-control ${submitted && !customValidation(element) ? "invalid" : ""
+                  }`}
                 placeholder={element.placeholder}
               />
               {element.key === "totalProfessionalExperienceInMonths" && (
@@ -339,7 +337,7 @@ export const JoinUsFormSection = ({
             <div
               className={
                 element.label ===
-                "If shortlisted, when can you take round 2? (Concept note round)"
+                  "If shortlisted, when can you take round 2? (Concept note round)"
                   ? "col-12"
                   : "col-md-4 col-sm-6 col-xs-12"
               }
@@ -359,16 +357,15 @@ export const JoinUsFormSection = ({
                     formObjectTemp[element.key] = e.target.value;
                     setFormObject(formObjectTemp);
                   }}
-                  className={`form-control ${
-                    submitted && !customValidation(element) ? "invalid" : ""
-                  }`}
+                  className={`form-control ${submitted && !customValidation(element) ? "invalid" : ""
+                    }`}
                 >
                   <option>{element.placeholder}</option>
                   {element.options.map((u) => {
                     return <option value={u.text || u}>{u.text || u}</option>;
                   })}
                   {element.otherOptionAvailable &&
-                  element.otherOptionAvailable.activateOn ? (
+                    element.otherOptionAvailable.activateOn ? (
                     <option value={element.otherOptionAvailable.activateOn}>
                       {element.otherOptionAvailable.activateOn}
                     </option>
@@ -377,8 +374,8 @@ export const JoinUsFormSection = ({
               </fieldset>
             </div>
             {element.otherOptionAvailable &&
-            element.otherOptionAvailable.activateOn &&
-            formObject[element.key] ===
+              element.otherOptionAvailable.activateOn &&
+              formObject[element.key] ===
               element.otherOptionAvailable.activateOn ? (
               <div className="col-md-4 col-sm-6 col-xs-12">
                 <fieldset className={"form-group"}>
@@ -396,9 +393,8 @@ export const JoinUsFormSection = ({
                         e.target.value;
                       setFormObject(formObjectTemp);
                     }}
-                    className={`form-control ${
-                      submitted && !customValidation(element) ? "invalid" : ""
-                    }`}
+                    className={`form-control ${submitted && !customValidation(element) ? "invalid" : ""
+                      }`}
                     placeholder={element.otherOptionAvailable.placeholder}
                   />
                 </fieldset>
@@ -414,9 +410,8 @@ export const JoinUsFormSection = ({
                 {" "}
                 {element.label}{" "}
                 <span
-                  className={`${
-                    formObject[element.fileErrorKey] ? "invalid-size" : ""
-                  }`}
+                  className={`${formObject[element.fileErrorKey] ? "invalid-size" : ""
+                    }`}
                 >
                   {element.label && element.label.toLowerCase().includes("benchmark")
                     ? "(pdf, excel only, max size 5mb)"
@@ -435,9 +430,8 @@ export const JoinUsFormSection = ({
                 <input
                   type="text"
                   value={formObject[element.fileKeyName]}
-                  className={`form-control ${
-                    submitted && !customValidation(element) ? "invalid" : ""
-                  }`}
+                  className={`form-control ${submitted && !customValidation(element) ? "invalid" : ""
+                    }`}
                   placeholder={"No file selected"}
                 />
                 <input
@@ -491,9 +485,8 @@ export const JoinUsFormSection = ({
                       }}
                     >
                       <div
-                        className={`selection ${
-                          activeOption === index ? "active" : ""
-                        }`}
+                        className={`selection ${activeOption === index ? "active" : ""
+                          }`}
                       ></div>
                       <div>{option.text || option}</div>
                     </div>
@@ -507,16 +500,15 @@ export const JoinUsFormSection = ({
                     }}
                   >
                     <div
-                      className={`selection ${
-                        activeOption === element.otherOptionAvailable.activateOn
+                      className={`selection ${activeOption === element.otherOptionAvailable.activateOn
                           ? "active"
                           : ""
-                      }`}
+                        }`}
                     ></div>
                     <div>{element.otherOptionAvailable.activateOn}</div>
                     <div style={{ padding: "0 10px" }}>
                       {activeOption ===
-                      element.otherOptionAvailable.activateOn ? (
+                        element.otherOptionAvailable.activateOn ? (
                         <input
                           onChange={(e) => {
                             const formObjectTemp = {
@@ -618,7 +610,7 @@ export const JoinUsFormSection = ({
 
       // Post as URL-encoded so Apps Script e.parameter can read all fields
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbxsJouWGJwV4xh9MZH2gJKJ7cRGQdINoItJCCKXpX7WIdb4FZCWQ708Hi8kmk83l3cG/exec",
+        "https://script.google.com/macros/s/AKfycbx9q21HgUsKorKdUJ48KDXh-KLG0LXa4n-KUYuVGhG-VQGhyMQq4VB5oXWChRfDYOk/exec",
         {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -632,13 +624,13 @@ export const JoinUsFormSection = ({
 
       if (responseJson.result === 'success') {
         console.log("Form submitted successfully!");
-        
+
         // Send auto-responder email using EmailJS
         emailjs.send(
           'service_givnwrm',
           'template_ccisds5',
-          { 
-            to_email: formObject['Email'], 
+          {
+            to_email: formObject['Email'],
           },
           '9uZLJb9mOk-uDFypC'
         ).then(
@@ -666,11 +658,11 @@ export const JoinUsFormSection = ({
           setLoaderKey(lK);
         }, 200)
       }
-      
+
     } catch (error) {
       console.error("Error during form submission:", error);
       setSubmissionError(true);
-  
+
       setTimeout(() => {
         const lK = JSON.parse(JSON.stringify(loaderKey));
         lK["formSubmit"] = false;
@@ -766,23 +758,23 @@ export const JoinUsFormSection = ({
                 fontWeight: "600",
                 color: "#444444",
               }}
-              dangerouslySetInnerHTML={{__html: infoText2}}
+              dangerouslySetInnerHTML={{ __html: infoText2 }}
             >
-              
+
             </p>
           </div>
         ) : null}
       </div>
-{formAcceptance && <div className="follow-linkedin f-18" style={{ padding: "16px 0" }} dangerouslySetInnerHTML={{__html: formAcceptance}}> 
-  
-  </div>}
-      
-        
-        
-      
-      <div 
-       style={{display:`${ShowForm?"block":"none"}`}}
-       className={"join-us-form"}>
+      {formAcceptance && <div className="follow-linkedin f-18" style={{ padding: "16px 0" }} dangerouslySetInnerHTML={{ __html: formAcceptance }}>
+
+      </div>}
+
+
+
+
+      <div
+        style={{ display: `${ShowForm ? "block" : "none"}` }}
+        className={"join-us-form"}>
         <div className="container">
           {showForm ? (
             <div className="row">
@@ -976,7 +968,7 @@ export const JoinUsFormSection = ({
                   ) : null}
                 </PrimaryButton>
                 <div style={{ marginTop: "25px" }}>
-                {submissionError  && <span
+                  {submissionError && <span
                     style={{
                       cursor: "pointer",
                       color: "#ec672c",
@@ -987,9 +979,9 @@ export const JoinUsFormSection = ({
                   >
                     Submission failed, Try again
                   </span>}
-                  
-               
-              </div>
+
+
+                </div>
                 <div style={{ marginTop: "25px" }}>
                   <a
                     style={{
@@ -1011,15 +1003,15 @@ export const JoinUsFormSection = ({
                     </span>
                   </a>
                 </div>
-               
+
               </div>
-              
+
             </div>
           ) : (
             <div className={"thank-you-message"}>
               {postSubInfo.heading}
               <div className="sub-title">
-              {postSubInfo.subHeading}
+                {postSubInfo.subHeading}
               </div>
               <ol
                 style={{
@@ -1030,28 +1022,28 @@ export const JoinUsFormSection = ({
                 }}
               >
                 <li>
-                  <a href= {`${postSubInfo.line1link}`}>
-                  {postSubInfo.line1text}
+                  <a href={`${postSubInfo.line1link}`}>
+                    {postSubInfo.line1text}
                   </a>
                 </li>
                 <li>
-                  <a href= {`${postSubInfo.line2link}`}>
-                  {postSubInfo.line2text}
+                  <a href={`${postSubInfo.line2link}`}>
+                    {postSubInfo.line2text}
                   </a>
                 </li>
                 <li>
-                  <a href=  {`${postSubInfo.line3link}`}>
-                  {postSubInfo.line3text}
+                  <a href={`${postSubInfo.line3link}`}>
+                    {postSubInfo.line3text}
                   </a>
                 </li>
                 <li>
-                  <a href= {`${postSubInfo.line4link}`}>
-                  {postSubInfo.line4text}
+                  <a href={`${postSubInfo.line4link}`}>
+                    {postSubInfo.line4text}
                   </a>
                 </li>
               </ol>
-              <div className="sub-title" dangerouslySetInnerHTML={{__html:postSubInfo.subHeading2}}>
-             
+              <div className="sub-title" dangerouslySetInnerHTML={{ __html: postSubInfo.subHeading2 }}>
+
               </div>
               <div className={"video"}>
                 <div className="title">{postSubInfo.videoTitle}</div>
