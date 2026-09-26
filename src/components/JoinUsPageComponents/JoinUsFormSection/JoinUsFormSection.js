@@ -53,6 +53,7 @@ export const JoinUsFormSection = ({
   const [formObject, setFormObject] = useState({});
   const [submitted, setSubmitted] = useState(false);
   const [submissionError, setSubmissionError] = useState(false)
+  const [submissionUnconfirmed, setSubmissionUnconfirmed] = useState(false)
   const [activeOption, setActiveOption] = useState(-1);
   const [activeHoverIndex, setActiveHoverIndex] = useState(-1);
   const [loaderKey, setLoaderKey] = useState({});
@@ -618,9 +619,35 @@ export const JoinUsFormSection = ({
         }
       );
 
-      // Apps Script always returns HTTP 200, so check the JSON body for actual result
-      const responseJson = await response.json();
-      console.log("Apps Script response:", responseJson);
+      // Apps Script always returns HTTP 200 for a real doPost result, so normally
+      // we'd check the JSON body for the actual result. But large payloads can
+      // cause the response redirect/echo step to fail and return a non-JSON
+      // (HTML) body even though doPost already saved the data server-side.
+      let responseJson;
+      try {
+        responseJson = await response.json();
+        console.log("Apps Script response:", responseJson);
+      } catch (parseErr) {
+        if (response.ok) {
+          // 200 status but non-JSON body — likely an echo/redirect drop on a
+          // large payload, not a doPost failure. Don't claim confirmed success
+          // (no auto-responder) and don't hide the form; show a neutral state.
+          console.warn("200 response but not valid JSON (likely echo drop):", parseErr);
+          setSubmissionError(false)
+          setSubmissionUnconfirmed(true)
+        } else {
+          // Non-200 and unparseable — genuine failure.
+          console.error("Non-OK response and not valid JSON:", parseErr);
+          setSubmissionError(true)
+          setSubmissionUnconfirmed(false)
+        }
+        setTimeout(() => {
+          const lK = JSON.parse(JSON.stringify(loaderKey));
+          lK["formSubmit"] = false;
+          setLoaderKey(lK);
+        }, 200)
+        return;
+      }
 
       if (responseJson.result === 'success') {
         console.log("Form submitted successfully!");
@@ -644,6 +671,7 @@ export const JoinUsFormSection = ({
 
         setShowForm(false)
         setSubmissionError(false)
+        setSubmissionUnconfirmed(false)
         setTimeout(() => {
           const lK = JSON.parse(JSON.stringify(loaderKey));
           lK["formSubmit"] = false;
@@ -652,6 +680,7 @@ export const JoinUsFormSection = ({
       } else {
         console.error("Form submission failed:", responseJson.error);
         setSubmissionError(true)
+        setSubmissionUnconfirmed(false)
         setTimeout(() => {
           const lK = JSON.parse(JSON.stringify(loaderKey));
           lK["formSubmit"] = false;
@@ -662,6 +691,7 @@ export const JoinUsFormSection = ({
     } catch (error) {
       console.error("Error during form submission:", error);
       setSubmissionError(true);
+      setSubmissionUnconfirmed(false);
 
       setTimeout(() => {
         const lK = JSON.parse(JSON.stringify(loaderKey));
@@ -979,7 +1009,16 @@ export const JoinUsFormSection = ({
                   >
                     Submission failed, Try again
                   </span>}
-
+                  {submissionUnconfirmed && <span
+                    style={{
+                      color: "#ec672c",
+                      fontSize: "18px",
+                      width: "100%",
+                      textAlign: "center",
+                    }}
+                  >
+                    We received your submission but couldn't confirm it went through. Please check your email for a confirmation, or reach out to careers@samagragovernance.in if you don't hear back within a day.
+                  </span>}
 
                 </div>
                 <div style={{ marginTop: "25px" }}>
