@@ -158,7 +158,7 @@ formsElements:
       - text: "2026"
       - text: "2027"
   - required: true
-    label: What type of candidate are you?
+    label: What Type of Candidate Are You
     type: select
     hint: Select
     options:
@@ -197,7 +197,7 @@ formsElements:
     type: text
     validation: VALID_TEXT
   - contentDescription: Possibility of early exit from current org
-    label: Possibility of early exit from current org
+    label: Possibility of Early Exit From Current Org
     options:
       - text: Yes
       - text: No
@@ -212,7 +212,7 @@ formsElements:
     type: text
     validation: VALID_LINK
   - contentDescription: " "
-    label: Where did you hear about Samagra?
+    label: Where Did You Hear About Samagra?
     options:
       - text: Word of Mouth
       - text: Samagra Team Member
