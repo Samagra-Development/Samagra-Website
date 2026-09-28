@@ -102,7 +102,7 @@ formsElements:
     placeholder: Enter %/CGPA
     type: text
     validation: VALID_TEXT
-  - required: false
+  - required: true
     label: Postgrad Institute
     placeholder: E﻿nter name of the campus
     type: text
