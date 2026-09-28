@@ -13,8 +13,8 @@ formAcceptance: '<p> Applications are now open.</a></p> <p> Note: You are not
   held in-person at our <a target={"_blank"}
   href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office</a> <p>'
 showForm: true
-verticalImage: /img/whatsapp-image-2026-09-28-at-17.46.11.jpeg
-horizontalImage: /img/whatsapp-image-2026-09-28-at-17.46.11.jpeg
+verticalImage: /img/whatsapp-image-2026-09-28-at-18.41.02.jpeg
+horizontalImage: /img/whatsapp-image-2026-09-28-at-18.41.02.jpeg
 followLinkedin: /img/follow-linkedin.jpg
 postSubInfo:
   heading: Thank you
