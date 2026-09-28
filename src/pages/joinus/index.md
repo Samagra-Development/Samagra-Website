@@ -110,6 +110,7 @@ formsElements:
     type: select
     validation: VALID_OPTION
     options:
+      - text: BITSoM, BITS School of Management
       - text: DMS, IIT Delhi
       - text: Faculty of Management Studies
       - text: IIM Ahmedabad
