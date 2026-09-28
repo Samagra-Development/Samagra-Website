@@ -105,7 +105,7 @@ formsElements:
   - required: true
     label: Postgrad Institute
     placeholder: Select Name of Campus
-    type: text
+    type: select
     validation: VALID_OPTION
     options:
       - text: DMS, IIT Delhi
@@ -142,6 +142,19 @@ formsElements:
     type: text
     validation: VALID_TEXT
     label: Postgrad %/CGPA
+  - required: true
+    label: Year of Post-Graduation Completion
+    title: ""
+    hint: ""
+    placeholder: S﻿elect
+    validation: VALID_OPTION
+    type: select
+    options:
+      - text: "2023"
+      - text: "2024"
+      - text: "2025"
+      - text: "2026"
+      - text: "2027"
   - required: true
     label: What type of candidate are you?
     type: select
