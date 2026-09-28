@@ -135,7 +135,7 @@ formsElements:
       - text: NMIMS
       - text: SIBM Pune
       - text: SJMSoM, IIT Bombay
-      - text: SJMSoM, IIT Bombay
+      - text: SPJIMR, Mumbai
       - text: Tata Institute of Social Sciences
       - text: Xavier Institute of Management (XIMB)
       - text: XLRI
