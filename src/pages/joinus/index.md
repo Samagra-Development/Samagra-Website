@@ -140,7 +140,7 @@ formsElements:
       - text: Tata Institute of Social Sciences
       - text: Xavier Institute of Management (XIMB)
       - text: XLRI
-  - required: false
+  - required: true
     placeholder: E﻿nter %/CGPA
     type: text
     validation: VALID_TEXT
