@@ -244,7 +244,7 @@ formsElements:
     validation: VALID_LINK
     type: text
   - required: true
-    label: Availability For Round 2 On 15th Oct, If Shortlisted
+    label: Availability for Round 2 on 15th Oct, if Shortlisted
     placeholder: S﻿elect
     type: select
     options:
