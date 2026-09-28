@@ -113,6 +113,16 @@ formsElements:
     type: text
     validation: VALID_TEXT
     label: Postgrad %/CGPA
+  - required: true
+    label: What type of candidate are you?
+    type: select
+    hint: Select
+    options:
+      - text: Working in industry but looking for a break in impact
+      - text: Studying and having a PPO, but your heart is in impact
+      - text: Waiting for an impact opportunity on campus
+    placeholder: S﻿elect
+    validation: VALID_OPTION
   - contentDescription: " "
     label: Current/Last Employer
     placeholder: E﻿nter company name
@@ -189,13 +199,4 @@ formsElements:
     placeholder: P﻿aste Unlisted YouTube Link
     validation: VALID_LINK
     type: text
-  - required: true
-    label: Benchmark output
-    hint: Upload an Excel/Presentation/Concept Note you have created in this
-      calendar year
-    placeholder: Upload an Excel/Presentation/Concept Note that you have owned and
-      created (preferably in this calendar year)
-    type: file
-    validation: VALID_FILE
-    actionName: Upload
 ---
