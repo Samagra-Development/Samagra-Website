@@ -241,4 +241,12 @@ formsElements:
     placeholder: P﻿aste Unlisted YouTube Link
     validation: VALID_LINK
     type: text
+  - required: true
+    label: Availability For Round 2 On 15th Oct, If Shortlisted
+    placeholder: S﻿elect
+    type: select
+    options:
+      - text: Available
+      - text: Not Available
+    validation: VALID_OPTION
 ---
