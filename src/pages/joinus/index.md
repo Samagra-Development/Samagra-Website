@@ -12,7 +12,7 @@ formAcceptance: '<p> Applications are now open.</a></p> <p> Note: You are not
   the interview process.</p><p> Interviews of applicants from Delhi-NCR will be
   held in-person at our <a target={"_blank"}
   href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office</a> <p>'
-showForm: true
+showForm: false
 verticalImage: /img/whatsapp-image-2026-09-28-at-18.41.02.jpeg
 horizontalImage: /img/whatsapp-image-2026-09-28-at-18.41.02.jpeg
 followLinkedin: /img/follow-linkedin.jpg
