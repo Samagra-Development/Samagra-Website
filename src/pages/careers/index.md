@@ -24,7 +24,7 @@ mainContent2:
     and return to Samagra post its completion.
 apply:
   applyLink: /joinus
-  show: true
+  show: false
 philosophy:
   title: People Philosophy
   sectionFour:
