@@ -5,14 +5,14 @@ infoText1: Join Us
 infoText2: 'Refer to the Job Description: <a target={"_blank"}
   href="https://drive.google.com/file/d/1oHMo5zlLxzVTgym8bzWNDCba7Q-oAsiU/view?usp=sharing"
   > Sr Associate/Consultant </a>  | <a target={"_blank"}
-  href="https://drive.google.com/file/d/1tWDlhvAgEP6mJ3AXNeYUuDE1-TGIAJxd/view?usp=drive_link"
+  href="https://drive.google.com/file/d/1o6ScmX9wT8RnQqC7MR0m8p27t1QO6AAC/view?usp=sharing"
   > Emerging Leader </a> '
 formAcceptance: '<p> Applications are now open.</a></p> <p> Note: You are not
   applying for a specific designation. The designation offered is decided during
   the interview process.</p><p> Interviews of applicants from Delhi-NCR will be
   held in-person at our <a target={"_blank"}
   href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office</a> <p>'
-showForm: false
+showForm: true
 verticalImage: /img/whatsapp-image-2026-09-28-at-18.41.02.jpeg
 horizontalImage: /img/whatsapp-image-2026-09-28-at-18.41.02.jpeg
 followLinkedin: /img/follow-linkedin.jpg
