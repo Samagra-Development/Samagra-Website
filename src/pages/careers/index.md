@@ -24,7 +24,7 @@ mainContent2:
     and return to Samagra post its completion.
 apply:
   applyLink: /joinus
-  show: false
+  show: true
 philosophy:
   title: People Philosophy
   sectionFour:
@@ -65,7 +65,7 @@ slides:
 roles:
   joinus:
     joinUsLink: /joinus
-    show: false
+    show: true
   items:
     - description: Associates and Senior Associates take ownership of 3-5 workstreams
         (mini projects within a large program) and manage them end-to-end. They
