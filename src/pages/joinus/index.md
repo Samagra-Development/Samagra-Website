@@ -7,12 +7,12 @@ infoText2: 'Refer to the Job Description: <a target={"_blank"}
   > Sr Associate/Consultant </a>  | <a target={"_blank"}
   href="https://drive.google.com/file/d/1o6ScmX9wT8RnQqC7MR0m8p27t1QO6AAC/view?usp=sharing"
   > Emerging Leader </a> '
-formAcceptance: '<p> Applications are now open.</a></p> <p> Register here for
-  the Recruitment Talk scheduled on 6th: <a target={"_blank"}
+formAcceptance: '<p> Applications are now open. Register here for the
+  Recruitment Talk scheduled on 6th October at 7 PM: <a target={"_blank"}
   href="https://us06web.zoom.us/meeting/register/yAUAvnzJRkWV_p_ylKZ3qg" >Link.
-  </a>  October at 7 PM: Note: You are not applying for a specific designation.
-  The designation offered is decided during the interview process.</p><p>
-  Interviews of applicants from Delhi-NCR will be held in-person at our <a
+  </a> </a></p> <p>  Note: You are not applying for a specific designation. The
+  designation offered is decided during the interview process.</p><p> Interviews
+  of applicants from Delhi-NCR will be held in-person at our <a
   target={"_blank"} href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi
   office</a> <p>'
 showForm: true
