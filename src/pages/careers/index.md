@@ -65,7 +65,7 @@ slides:
 roles:
   joinus:
     joinUsLink: /joinus
-    show: true
+    show: false
   items:
     - description: Associates and Senior Associates take ownership of 3-5 workstreams
         (mini projects within a large program) and manage them end-to-end. They
