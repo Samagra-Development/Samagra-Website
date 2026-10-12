@@ -7,7 +7,7 @@ infoText2: 'Refer to the Job Description: <a target={"_blank"}
   > Sr Associate/Consultant </a>  | <a target={"_blank"}
   href="https://drive.google.com/file/d/1o6ScmX9wT8RnQqC7MR0m8p27t1QO6AAC/view?usp=sharing"
   > Emerging Leader </a> '
-formAcceptance: '<p> Applications are now open. </a></p> <p>   <a
+formAcceptance: '<p> Applications are now closed. </a></p> <p>   <a
   target={"_blank"}
   href="https://us06web.zoom.us/meeting/register/yAUAvnzJRkWV_p_ylKZ3qg" >
   Register here </a>for the Recruitment Talk scheduled on 6th October at 7 PM.
