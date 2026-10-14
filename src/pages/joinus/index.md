@@ -8,7 +8,7 @@ infoText2: 'Refer to the Job Description: <a target={"_blank"}
   href="https://drive.google.com/file/d/1o6ScmX9wT8RnQqC7MR0m8p27t1QO6AAC/view?usp=sharing"
   > Emerging Leader </a> '
 formAcceptance: <p> Applications are now closed.</p>Round 1 results have been
-  released (updated on 14th Oct)<p> <p> Interviews of applicants from Delhi-NCR
+  released (updated on 14th Oct).<p> <p> Interviews of applicants from Delhi-NCR
   will be held in-person at our <a target={"_blank"}
   href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office.</a> <p>
 showForm: false
