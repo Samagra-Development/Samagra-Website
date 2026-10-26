@@ -40,6 +40,25 @@ programHighlightsSection:
   isVisible: true
   description: ""
   title: Program Highlights
+  highlights:
+    - title: Star Ratings for Public Hospitals
+      description: Star Ratings for public hospitals, notified via a Government
+        Resolution, with a baseline assessment and facility report cards; being
+        extended to 14,000+ primary facilities
+      image: /img/screenshot-2026-10-08-at-7.15.49 pm.png
+    - title: "Integrated Health Dashboard for Reviews "
+      description: Integrated Health Dashboard made live driving cascaded, data-backed
+        outcome-linked reviews from state to district
+      image: /img/screenshot-2026-10-08-at-7.20.10 pm.png
+    - description: Integrated Health Facilitation Centre (IHFC) launched with 5 use
+        cases, alongside an integrated 104 health call centre for beneficiary
+        outreach
+      title: Integrated Health Facilitation Centre Launched
+      image: /img/whatsapp-image-2026-08-23-at-11.29.53-am-1-.jpeg
+    - description: Review cadence has been institutionalised across all levels of the
+        department hierarchy, with standardised KPIs ensuring consistency.
+      title: "Review Cadence Institutionalised "
+      image: /img/whatsapp-image-2026-10-08-at-5.45.17-pm.jpeg
 impactSection:
   isVisible: true
   stats:
