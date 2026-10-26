@@ -191,24 +191,24 @@ postData:
       postName: Amrit Abhijat
       selectedCategory: "4"
       episode: "1"
-      urlLink: https://www.youtube.com/watch?v=qwMJG14ZIqE
+      urlLink: https://www.youtube.com/embed/qwMJG14ZIqE?si=YopXqITQChfH0vJX
       postImage: /img/untitled-design-8-.png
   - postCard:
       postName: Alok Kumar
       selectedCategory: "4"
       episode: "2"
-      urlLink: https://www.youtube.com/watch?v=DDnjETgWL04
+      urlLink: https://www.youtube.com/embed/DDnjETgWL04?si=lW7dCPnZCrHNRUjq
       postImage: /img/website-thumbnails-1-.png
   - postCard:
       postName: Prashant Kumar
       selectedCategory: "4"
       episode: "3"
-      urlLink: https://www.youtube.com/watch?v=7239XhhaVuU
+      urlLink: https://www.youtube.com/embed/7239XhhaVuU?si=y-ye2XvHnXg_88qW
       postImage: /img/website-thumbnails.png
   - postCard:
       postName: P.K. Jena
       selectedCategory: "4"
-      urlLink: https://www.youtube.com/watch?v=_mSprbOC9o0
+      urlLink: https://www.youtube.com/embed/_mSprbOC9o0?si=exuyg7lb17_1Uban
       episode: "4"
       postImage: /img/untitled-design-7-.png
   - postCard:
