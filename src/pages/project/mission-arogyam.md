@@ -67,4 +67,10 @@ impactSection:
     isVisible: true
 partnersSection:
   isVisible: true
+  partners:
+    - description: The team is working with the Department of Public Health,
+        Government of Mahrashtra
+      image: /img/seal_of_maharashtra-1-.png
+    - description: "Gates Foundation is the funding partner. "
+      image: /img/gates_foundation_logo.png
 ---
