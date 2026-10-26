@@ -149,7 +149,7 @@ postData:
       postName: Arushi Mishra
       selectedCategory: "3"
       episode: "4"
-      urlLink: https://youtu.be/vzDDFkw9EbA?feature=shared
+      urlLink: https://www.youtube.com/embed/vzDDFkw9EbA?si=6el27evpuOshWf6z
       postImage: /img/4-3-.png
   - postCard:
       postName: Vineet Dwivedi
