@@ -155,22 +155,22 @@ postData:
       postName: Vineet Dwivedi
       selectedCategory: "3"
       episode: "5"
-      urlLink: https://youtu.be/uSnulq0gJPI?feature=shared
+      urlLink: https://www.youtube.com/embed/uSnulq0gJPI?si=T5Tm0LTboV9ugZGC
       postImage: /img/2-4-.png
   - postCard:
       postName: Inderjeet Singh
       selectedCategory: "3"
       episode: "6"
-      urlLink: https://youtu.be/KSzrQJ-_PQM?feature=shared
+      urlLink: https://www.youtube.com/embed/KSzrQJ-_PQM?si=Y0dcSUPufHNx6SFO
       postImage: /img/4-1-.png
   - postCard:
       postName: Avinash Shandilya
       selectedCategory: "3"
-      urlLink: https://youtu.be/Gh_lX45s7kM?feature=shared
+      urlLink: https://www.youtube.com/embed/Gh_lX45s7kM?si=LUkerIylpaQwqIXv
       episode: "7"
       postImage: /img/2-3-.png
   - postCard:
-      urlLink: https://youtu.be/Cr7gVbYh4w0
+      urlLink: https://www.youtube.com/embed/Cr7gVbYh4w0?si=OefEAMJf0yvbG-VE
       postName: Ministhy S.
       selectedCategory: "3"
       episode: "8"
