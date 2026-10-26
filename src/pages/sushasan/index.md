@@ -228,5 +228,17 @@ postData:
       selectedCategory: "4"
       urlLink: https://www.youtube.com/embed/x7Sd38WldYg?si=TVvABnoexDyAjUpC
       episode: "7"
+      postImage: /img/x7sd38wldyg-hd-1-.jpg
+  - postCard:
+      postName: Ashwini Bhide
+      selectedCategory: "4"
+      urlLink: https://www.youtube.com/embed/GrTLGQo3HGg?si=oRUo_hWxeXP_Ws6L
+      episode: "8"
+      postImage: /img/grtlgqo3hgg-hd-1-.jpg
+  - postCard:
+      postName: Dr Arabinda K Padhee
+      selectedCategory: "4"
+      urlLink: https://www.youtube.com/embed/CTj8r_gdhSI?si=PU_CA1L7Dg92cQ5F
+      episode: "9"
       postImage: /img/ctj8r_gdhsi-hd.jpg
 ---
