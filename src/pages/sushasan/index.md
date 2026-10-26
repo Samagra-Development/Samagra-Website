@@ -218,7 +218,7 @@ postData:
       episode: "5"
       postImage: /img/97smfnpd-lm-hd-2-.jpg
   - postCard:
-      postName: Rajesg Aggarwal
+      postName: Rajesh Aggarwal
       selectedCategory: "4"
       urlLink: https://www.youtube.com/embed/JQPPu9fdGT0?si=vMHO492gKhlp6Oyh
       episode: "6"
