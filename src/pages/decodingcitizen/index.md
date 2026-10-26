@@ -64,7 +64,7 @@ textCardsSection:
         circumstances, challenges, and opportunities. Their experiences deliver
         valuable insights into structuring scheme and service delivery of the
         state."
-      image: /img/1767687536535.jpg
+      image: /img/1767687536535_pages-to-jpg-0003.jpg
       readMoreLink: https://www.linkedin.com/feed/update/urn:li:activity:7414219159640682496/
     - tag: "Edition #7"
       title: Anganwadi Workers of Odisha
