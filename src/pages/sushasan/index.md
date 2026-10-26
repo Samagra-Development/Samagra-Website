@@ -217,4 +217,16 @@ postData:
       urlLink: https://www.youtube.com/embed/97SMfnpd-lM?si=4sM6kN5g5WrKVOVo
       episode: "5"
       postImage: /img/97smfnpd-lm-hd-2-.jpg
+  - postCard:
+      postName: Rajesg Aggarwal
+      selectedCategory: "4"
+      urlLink: https://www.youtube.com/embed/JQPPu9fdGT0?si=vMHO492gKhlp6Oyh
+      episode: "6"
+      postImage: /img/jqppu9fdgt0-hd-2-.jpg
+  - postCard:
+      postName: Deependra Kushwah
+      selectedCategory: "4"
+      urlLink: https://www.youtube.com/embed/x7Sd38WldYg?si=TVvABnoexDyAjUpC
+      episode: "7"
+      postImage: /img/ctj8r_gdhsi-hd.jpg
 ---
