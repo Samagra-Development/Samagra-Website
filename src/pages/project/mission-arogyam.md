@@ -59,12 +59,13 @@ programHighlightsSection:
         department hierarchy, with standardised KPIs ensuring consistency.
       title: "Review Cadence Institutionalised "
       image: /img/whatsapp-image-2026-10-08-at-5.45.17-pm.jpeg
+  backgroundImage: /img/images-43-.jpg
 impactSection:
-  isVisible: true
+  isVisible: false
   stats:
-    isVisible: true
+    isVisible: false
   testimonials:
-    isVisible: true
+    isVisible: false
 partnersSection:
   isVisible: true
   partners:
