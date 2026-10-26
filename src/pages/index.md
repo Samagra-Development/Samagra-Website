@@ -119,15 +119,15 @@ ourJourney:
   - subHeading: 25+ Programs
     description: Across geographies and domains
     image: /img/programs.png
-  - subHeading: 7 Domains
+  - subHeading: 10 Domains
     description: Our impactful work spans across domains like health, education,
       agriculture, skilling, employment and public service delivery among others
     image: /img/domains.png
-  - subHeading: 7 Governments
+  - subHeading: 10 Governments
     description: Empowered by a track record of partnership with governments
       (including state & central)
     image: /img/government.png
-  - subHeading: 75+ Team
+  - subHeading: 80+ Team
     description: Dynamic team of young professionals, each driven by a passion for
       innovation and excellence
     image: /img/team.png
