@@ -211,4 +211,10 @@ postData:
       urlLink: https://www.youtube.com/watch?v=_mSprbOC9o0
       episode: "4"
       postImage: /img/untitled-design-7-.png
+  - postCard:
+      selectedCategory: "4"
+      postName: Anu Garg
+      urlLink: https://www.youtube.com/embed/97SMfnpd-lM?si=4sM6kN5g5WrKVOVo
+      episode: "5"
+      postImage: /img/97smfnpd-lm-hd-2-.jpg
 ---
