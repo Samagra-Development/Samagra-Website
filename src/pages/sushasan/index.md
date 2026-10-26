@@ -11,8 +11,8 @@ text: Sushasan is India’s first podcast exclusively focused on governance, whe
   into the personal journeys of these leaders. <br> <br> Subscribe now and watch
   all the latest episodes on Sushasan's YouTube channel for governance
   behind-the-scenes! <br> <br> <b>#GovernanceBTS</b>
-youtubeTrailerLink: https://www.youtube.com/embed/hIJaBY_d55E?si=O9Lu0nlfjT0vm6oz
-youtubeLink: https://www.youtube.com/embed/hIJaBY_d55E?si=O9Lu0nlfjT0vm6oz
+youtubeTrailerLink: https://www.youtube.com/embed/Qks1yUf3jIE?si=pYuL8UkwNTuw_JAO
+youtubeLink: https://www.youtube.com/embed/Qks1yUf3jIE?si=pYuL8UkwNTuw_JAO
 assetsHeading: Explore Our Assets
 assets:
   - assetCard:
