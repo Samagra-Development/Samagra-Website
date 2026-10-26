@@ -24,6 +24,8 @@ frameworks:
   - actions:
       - link: https://drive.google.com/file/d/1ncW3qNc83nM8cT8-JTwGWsmcXvJ_dH8n/view?usp=sharing
         text: Download
+      - text: Video
+        link: https://www.youtube.com/watch?v=kvPuXP7HOUA
     image: /img/screenshot-2026-03-23-at-4.36.47 pm.png
     text: The Mission Framework provides a structured approach for mission-mode
       attainment of citizen-centric outcomes
