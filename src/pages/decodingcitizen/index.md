@@ -72,8 +72,16 @@ textCardsSection:
         Anganwadi Workers of Odisha. Their experiences s offer deep insight into
         their unmet needs, and on-ground realities, enabling more precise and
         impactful intervention design. "
-      image: /img/1781689887348.jpg
+      image: /img/dc3_page-0001.jpg
       readMoreLink: https://www.linkedin.com/feed/update/urn:li:activity:7472988938492772353/
+    - tag: "Edition #8"
+      title: Citizens on the HIV Treatment Journey
+      description: In the eighth edition of Decoding Citizens, we spotlight people
+        living with HIV as they begin and continue treatment. Their experiences
+        offer deep insight into their unmet needs and on-ground realities,
+        enabling more precise and impactful intervention design.
+      image: /img/dc3-1-_page-0001.jpg
+      readMoreLink: https://www.linkedin.com/feed/update/urn:li:activity:7515786294447378432
 textImagesListSection:
   text: Snapshots from our work in governance.
   images:
