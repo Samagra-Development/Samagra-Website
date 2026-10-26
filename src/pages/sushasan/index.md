@@ -206,7 +206,7 @@ postData:
       urlLink: https://www.youtube.com/watch?v=7239XhhaVuU
       postImage: /img/website-thumbnails.png
   - postCard:
-      postName: P.K.Jena
+      postName: P.K. Jena
       selectedCategory: "4"
       urlLink: https://www.youtube.com/watch?v=_mSprbOC9o0
       episode: "4"
@@ -236,7 +236,7 @@ postData:
       episode: "8"
       postImage: /img/grtlgqo3hgg-hd-1-.jpg
   - postCard:
-      postName: Dr Arabinda K Padhee
+      postName: Dr. Arabinda K. Padhee
       selectedCategory: "4"
       urlLink: https://www.youtube.com/embed/CTj8r_gdhSI?si=PU_CA1L7Dg92cQ5F
       episode: "9"
