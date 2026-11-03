@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Encountering Heroes within the System
-author: Shivika Bhasina
+author: Shivika Bhasin
 projectId: "0"
 authorImage: /img/Female-Avatar.jpg
 date: 2019-05-10T07:26:17.227Z
