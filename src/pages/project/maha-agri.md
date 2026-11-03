@@ -28,7 +28,7 @@ whyImportantSection:
         from the state
       image: /img/leap-icon-2-removebg-preview.png
     - title: Poor internal coordination limit the department’s ability to provide
-        support to farmers
+        support to farmers.
       image: /img/gpr-icon-3-removebg-preview.png
     - title: A weak feedback loop results in farmers’ voices not reaching
         decision-makers
