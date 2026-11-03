@@ -39,7 +39,7 @@ programHighlightsSection:
   backgroundImage: /img/whatsapp-image-2026-11-03-at-18.00.36.jpeg
   highlights:
     - title: "4-tier district classification framework "
-      image: /img/ssss-1-.png
+      image: /img/ssss-1-1-.png
       description: Distrcts divided into Sangharshsheel, Saksham, Surakshit,
         Surakshit+ establishing clear goal clarity and accountability.
     - title: System inputs codification
