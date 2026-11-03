@@ -77,6 +77,7 @@ impactSection:
     isVisible: false
     items:
       - {}
+  backgroundImage: /img/whatsapp-image-2026-11-03-at-18.37.01.jpeg
 partnersSection:
   isVisible: true
   partners:
