@@ -49,6 +49,7 @@ programHighlightsSection:
     - title: Digital outcome tracking
       description: Tech-enabled outcome tracking via SOCH Portal integration and MAS
         Dashboards enabling cascaded reviews at all levels
+      image: /img/soch.jpeg
     - description: Recognition (Surakshit Ghoshna & Sammaan Samaaroh) driving field
         motivation and repeated communication sustaining the momentum
       title: Recognition and field motivation
