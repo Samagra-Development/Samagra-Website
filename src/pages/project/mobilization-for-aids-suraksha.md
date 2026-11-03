@@ -57,8 +57,26 @@ impactSection:
   isVisible: true
   stats:
     isVisible: true
+    items:
+      - value: "219"
+        label: Districts under supportive supervision which cover ~70% of India’s HIV
+          burden
+        image: /img/minimalist_doctor_with_magnifying_glass-removebg-preview.png
+      - value: 100%
+        label: Field officers gained role and goal clarity through MAS guides and
+          regular communication
+        image: /img/open_book_above_a_helping_hand-removebg-preview.png
+      - value: 92.8–90.6–96.3
+        label: Progress towards India’s 95–95–95 HIV targets in September 2026
+        image: /img/white_ribbon_above_open_hands-removebg-preview.png
+      - value: 92 / 284
+        label: Surakshit / Saksham districts in September 2026, up from 16 / 149 in
+          January
+        image: /img/minimalist_medical_shield_icon-removebg-preview.png
   testimonials:
-    isVisible: true
+    isVisible: false
+    items:
+      - {}
 partnersSection:
   isVisible: true
 ---
