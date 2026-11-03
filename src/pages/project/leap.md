@@ -20,7 +20,7 @@ whyImportantSection:
   infoCard:
     title: There are 15.2 Lakh+ Cattle Farmers in Odisha
     description: Average yield of 3.5 litres/day per animal against the national 6.7
-      litres/day per animal
+      litres/day per animal.
   items:
     - title: Odisha has 50% less milk yield vs rest of India
       image: /img/chatgpt-image-apr-27-2026-12_17_57-pm.png
