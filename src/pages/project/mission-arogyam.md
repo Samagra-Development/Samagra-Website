@@ -56,7 +56,7 @@ programHighlightsSection:
       title: Integrated Health Facilitation Centre Launched
       image: /img/whatsapp-image-2026-08-23-at-11.29.53-am-1-.jpeg
     - description: Review cadence has been institutionalised across all levels of the
-        department hierarchy, with standardised KPIs ensuring consistency.
+        department hierarchy, with standardised KPIs ensuring consistency
       title: "Review Cadence Institutionalised "
       image: /img/whatsapp-image-2026-10-08-at-5.45.17-pm.jpeg
   backgroundImage: /img/images-43-.jpg
