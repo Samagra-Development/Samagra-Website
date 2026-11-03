@@ -27,7 +27,7 @@ whyImportantSection:
       image: /img/minimalist_ribbon_and_virus_icon-removebg-preview.png
     - title: Program management is loose, testing and treating had many gaps at the
         facility level - kits, human resource, goal clarity, role clarity and so
-        on.
+        on
       image: /img/minimalist_heart_pulse_warning_icon-removebg-preview.png
     - image: /img/minimalist_bullseye_with_diagonal_arrow-removebg-preview.png
       title: Critical need to fast-track UNAIDS targets and achieve epidemic control
