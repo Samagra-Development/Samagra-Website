@@ -1,6 +1,7 @@
 ---
 templateKey: project-post
 title: Mobilization for AIDS Suraksha
+domainNew: Recent Programs
 fullName: Mobilization for AIDS Suraksha
 id: MAS
 domain: Health
