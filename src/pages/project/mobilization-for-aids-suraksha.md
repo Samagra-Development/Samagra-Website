@@ -3,7 +3,7 @@ templateKey: project-post
 title: Mobilization for AIDS Suraksha
 domainNew: Recent Programs
 fullName: Mobilization for AIDS Suraksha
-id: MAS
+id: "Mobilization for AIDS Suraksha "
 domain: Health
 subTitle: Samagra
 projectLogoWithState: /img/images__45_-removebg-preview.png
