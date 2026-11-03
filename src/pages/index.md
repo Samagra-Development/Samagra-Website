@@ -88,7 +88,7 @@ ourWorkCard:
       - project: suposhit-odisha-mission
         learnButtonText: Learn More (SOM)
       - project: Mission-Arogyam
-        learnButtonText: Learn More (Mission Arogyam)
+        learnButtonText: Learn More(Mission Arogyam)
       - project: Mobilization-for-AIDS-Suraksha
         learnButtonText: Learn More (MAS)
     titleLines:
