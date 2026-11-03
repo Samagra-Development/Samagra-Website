@@ -79,4 +79,8 @@ impactSection:
       - {}
 partnersSection:
   isVisible: true
+  partners:
+    - image: /img/images__48_-removebg-preview.png
+      description: The team is working with National AIDS Control Organization,
+        Ministry of Health and Family Welfare, Govt. of India
 ---
