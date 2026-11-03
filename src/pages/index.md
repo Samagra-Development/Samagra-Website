@@ -99,7 +99,7 @@ ourWorkCard:
     image: /img/mixcollage-27-apr-2026-02-04-pm-3442.jpg.jpeg
     workLogo:
       - logo: /img/som-3x.png
-      - logo: /img/seal_of_maharashtra-1-.png
+      - logo: /img/images__8_-removebg-preview.png
       - logo: /img/mas_logo-removebg-preview.png
     backgroundMap: /img/pngtree-technological-white-background-with-abstract-blue-and-gray-dots-vector-png-image_25257776.png
     description2: Transforming healthcare for crores of citizens in Odisha,
