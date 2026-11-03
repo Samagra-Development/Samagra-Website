@@ -135,7 +135,7 @@ ourJourney:
     description: We collaborate with technical experts to execute quality
       implementation at scale
     image: /img/implementation_partner.png
-  - subHeading: 100 mn Lives Impacted
+  - subHeading: 10 Cr Lives Impacted
     description: In collaboration with governments and partners, we have transformed
       the lives of farmers, students, teachers and many more
     image: /img/live_impacted.png
