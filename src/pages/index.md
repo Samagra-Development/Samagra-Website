@@ -86,18 +86,24 @@ ourWorkCard:
       Uttar Pradesh and Andhra Pradesh
   - projectName:
       - project: suposhit-odisha-mission
-        learnButtonText: Learn More
+        learnButtonText: Learn More (SOM)
+      - project: Mission-Arogyam
+        learnButtonText: Learn More (Mission Arogyam)
+      - project: Mobilization-for-AIDS-Suraksha
+        learnButtonText: Learn More (MAS)
     titleLines:
       - text: Transforming
       - text: Health
     description1: Our work in the health domain spans 5 years which has impacted the
-      lives of 1 Cr+ citizens across the states of Odisha and Uttar Pradesh
+      lives of 1 Cr+ citizens across the country
     image: /img/mixcollage-27-apr-2026-02-04-pm-3442.jpg.jpeg
     workLogo:
       - logo: /img/som-3x.png
+      - logo: /img/seal_of_maharashtra-1-.png
+      - logo: /img/mas_logo-removebg-preview.png
     backgroundMap: /img/pngtree-technological-white-background-with-abstract-blue-and-gray-dots-vector-png-image_25257776.png
-    description2: Making 100% of Odisha’s 74,000+ Anganwadis malnutrition-free
-      (SUPOSHIT) by 2029
+    description2: Transforming healthcare for crores of citizens in Odisha,
+      Maharashtra and throughout the country
   - projectName:
       - project: nipun-up
         learnButtonText: Learn More
