@@ -69,9 +69,9 @@ ourWorkCard:
       Maharashtra
   - projectName:
       - project: family-id
-        learnButtonText: Learn More (Family ID)
+        learnButtonText: Read More (Family ID)
       - project: fbms
-        learnButtonText: Learn More (AP FBMS)
+        learnButtonText: Read More (AP FBMS)
     titleLines:
       - text: Transforming
       - text: Service Delivery
@@ -86,9 +86,9 @@ ourWorkCard:
       Uttar Pradesh and Andhra Pradesh
   - projectName:
       - project: suposhit-odisha-mission
-        learnButtonText: Learn More (SOM)
+        learnButtonText: Read More (SOM)
       - project: Mission-Arogyam
-        learnButtonText: Learn More(Mission Arogyam)
+        learnButtonText: Read More (Mission Arogyam)
       - project: Mobilization-for-AIDS-Suraksha
         learnButtonText: Learn More (MAS)
     titleLines:
@@ -106,7 +106,7 @@ ourWorkCard:
       Maharashtra and throughout the country
   - projectName:
       - project: nipun-up
-        learnButtonText: Learn More
+        learnButtonText: Read More
     titleLines:
       - text: Transforming
       - text: Education
