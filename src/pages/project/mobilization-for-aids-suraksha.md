@@ -45,8 +45,7 @@ programHighlightsSection:
     - title: System inputs codification
       image: /img/system-inputs.jpeg
       description: Inputs codified via MAS Handbook, video guides, and supportive
-        supervision deploying Sahyogis and Sanyojaks across 219 priority
-        districts
+        supervision deploying frontline workers across 219 priority districts
     - title: Digital outcome tracking
       description: Tech-enabled outcome tracking via SOCH Portal integration and MAS
         Dashboards enabling cascaded reviews at all levels
@@ -65,8 +64,8 @@ impactSection:
           burden
         image: /img/minimalist_doctor_with_magnifying_glass-removebg-preview.png
       - value: 100%
-        label: Field officers gained role and goal clarity through MAS guides and
-          regular communication
+        label: Field officers gained role and goal clarity through guides and regular
+          communication
         image: /img/open_book_above_a_helping_hand-removebg-preview.png
       - value: 92.8–90.6–96.3
         label: Progress towards India’s 95–95–95 HIV targets in September 2026
