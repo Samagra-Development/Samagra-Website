@@ -10,7 +10,7 @@ description: Vijeeth Srinivas, Program Lead at Samagra, examines why Indian
   processes can leave tender specifications outdated before contracts are
   awarded. He makes the case for testing solutions through pilots, drawing on
   technical experts, and tying vendor payments to measurable outcomes.
-featuredimage: /img/images-51-.jpg
+featuredimage: /img/blog-feature-22-.png
 ---
 <!--StartFragment-->
 
