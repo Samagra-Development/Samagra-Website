@@ -19,10 +19,6 @@ The gap between vision and delivery is not a budget or technology problem anymor
 
 Every successful digital transformation that India has pulled off has followed the same pattern: a clear public mandate, a dedicated government or quasi-government authority and public-spirited experts brought inside to help deliver it. Aadhaar was built under the guidance of Nandan Nilekani, one of the top technologists brought in from the private sector. UPI's open architecture was shaped in large part by iSPIRT volunteers, a non-profit technology think tank founded in 2013 to foster the Indian software product ecosystem. CoWIN's credentialing infrastructure was built by eGov Foundation, whose open-source DIVOC platform issued over two billion vaccination certificates across the world.
 
-![Key services under digital India](/img/image005a1k8.jpg)
-
-*I﻿mage 1: Key services under digital India*
-
 In each case, the government owned the mission but was clear that the civil service alone could not build it. The e-courts project has the same mandate. What is missing are the experts needed for effective delivery, that is, the product designers, data architects, and change management professionals who can turn a technical roadmap into something a litigant in Varanasi or a registry clerk in Chennai can actually use.
 
 <!--EndFragment-->
@@ -54,7 +50,5 @@ The model for how to bring in this talent already exists. The National Health Au
 The objection most commonly raised to engaging experts is the risk of losing  judicial independence and the security of data. But independence applies to adjudication, not administration. A product designer improving an e-filing workflow has no bearing on how a judge decides a case. Further data security can be easily ensured by making sure the data remains with the courts, creating contractual accountability and providing access, if any, only with authorisation. Done right, specialist hiring is not a risk.
 
 The litigant in Varanasi and the registry clerk in Chennai are not waiting for a better algorithm. They are waiting for someone who designed the system with them in mind, someone who made sure the data flowing through it was safe, and someone who stayed long enough to bring about an irreversible change. That is what experts can do. And that is the missing link here.
-
-
 
 <!--EndFragment-->
