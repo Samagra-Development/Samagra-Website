@@ -144,29 +144,6 @@ formsElements:
     type: text
     validation: VALID_TEXT
     label: Postgrad %/CGPA
-  - required: true
-    label: Year of Post-Graduation Completion
-    title: ""
-    hint: ""
-    placeholder: S﻿elect
-    validation: VALID_OPTION
-    type: select
-    options:
-      - text: "2023"
-      - text: "2024"
-      - text: "2025"
-      - text: "2026"
-      - text: "2027"
-  - required: true
-    label: What Type of Candidate Are You
-    type: select
-    hint: Select
-    options:
-      - text: Working in industry but looking for a break in impact
-      - text: Studying and having a PPO, but your heart is in impact
-      - text: Waiting for an impact opportunity on campus
-    placeholder: S﻿elect
-    validation: VALID_OPTION
   - contentDescription: " "
     label: Current/Last Employer
     placeholder: E﻿nter company name
@@ -244,11 +221,11 @@ formsElements:
     validation: VALID_LINK
     type: text
   - required: true
-    label: Availability for Round 2 on 15th Oct, If Shortlisted
-    placeholder: S﻿elect
+    label: Availability for Round 2, if shortlisted
+    placeholder: S﻿elect option
     type: select
     options:
-      - text: Available
-      - text: Not Available
+      - text: 16th January, 2027
+      - text: 17th January, 2027
     validation: VALID_OPTION
 ---
