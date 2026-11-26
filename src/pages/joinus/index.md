@@ -108,37 +108,7 @@ formsElements:
     placeholder: T﻿ype Institute
     type: text
     validation: VALID_TEXT
-    options:
-      - text: BITSoM, BITS School of Management
-      - text: DMS, IIT Delhi
-      - text: Faculty of Management Studies
-      - text: IIM Ahmedabad
-      - text: IIM Bangalore
-      - text: IIM Calcutta
-      - text: IIM Indore
-      - text: IIM Kozhikode
-      - text: IIM Lucknow
-      - text: IIM Mumbai
-      - text: IIM Nagpur
-      - text: IIM Raipur
-      - text: IIM Ranchi
-      - text: IIM Shillong
-      - text: IIM Tiruchirappalli
-      - text: IIM Udaipur
-      - text: IMT Ghaziabad
-      - text: Indian Institute of Foreign Trade
-      - text: Indian School of Business
-      - text: Jamnalal Bajaj Institute of Management Studies
-      - text: Management Development Institute (MDI)
-      - text: Masters Union
-      - text: NLSIU Bangalore
-      - text: NMIMS
-      - text: SIBM Pune
-      - text: SJMSoM, IIT Bombay
-      - text: SPJIMR, Mumbai
-      - text: Tata Institute of Social Sciences
-      - text: Xavier Institute of Management (XIMB)
-      - text: XLRI
+    options: []
   - required: true
     placeholder: E﻿nter %/CGPA
     type: text
