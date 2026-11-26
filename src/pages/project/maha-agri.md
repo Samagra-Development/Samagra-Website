@@ -56,11 +56,28 @@ programHighlightsSection:
       image: /img/pest-management.png
   backgroundImage: /img/ff.png
 impactSection:
-  isVisible: false
+  isVisible: true
   stats:
     isVisible: true
+    items:
+      - value: "6.5L+ "
+        label: Farmers receive successfully piloted personalised voice-based advisories
+        image: /img/faceless_farmer_with_smartphone_advisory-removebg-preview.png
+      - value: 20L+
+        label: Advisory calls capacity of the state per day for the farmers
+        image: /img/agricultural_advisory_call_icon-removebg-preview.png
+      - value: 80%
+        label: "Districts conducting regular reviews followed by fortnightly state-wide
+          review "
+        image: /img/document_review_magnifying_glass_icon-removebg-preview.png
+      - value: " 37,000"
+        label: Farmers covered under AI-powered voice-based citizen feedback collection
+        image: /img/minimal_thumbs-up_feedback_icon-removebg-preview.png
   testimonials:
     isVisible: true
+    items: []
+  title: Impact
+  backgroundImage: /img/7-savita-with-group-dscf1338-scaled.webp
 partnersSection:
   isVisible: true
   title: Our Partners
