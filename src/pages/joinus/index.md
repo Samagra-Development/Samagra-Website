@@ -107,7 +107,7 @@ formsElements:
     label: Postgrad Institute
     placeholder: T﻿ype Institute
     type: text
-    validation: VALID_OPTION
+    validation: VALID_TEXT
     options:
       - text: BITSoM, BITS School of Management
       - text: DMS, IIT Delhi
