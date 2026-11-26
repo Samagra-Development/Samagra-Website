@@ -15,7 +15,7 @@ featuredimage: /img/blog-feature-26-.png
 ---
 Uttar Pradesh, home to over 24 crore residents, spends more than ₹58,000 crores a year delivering benefits through direct-transfer schemes. It has now found an unlikely mechanism to redirect over ₹1,500 crore of that spending to the citizens it was meant for. That mechanism is a family-level citizen database. The Family ID, built over the last three years, is on track to do for scheme delivery in UP what the Aadhaar–PDS link did for ration leakages a decade ago. And its design choices carry a playbook that other states would do well to study before commissioning their next survey.
 
-## Theparadox of plenty
+## The paradox of plenty
 
 Uttar Pradesh administers welfare at a scale few governments anywhere match. Across more than 180 schemes and dozens of departments, the state already holds vast amounts of authenticated citizen data. The challenge was that this data sat in silos: one department knew a person's age, another their caste, a third their income, and no single record brought them together. Every scheme, therefore, began almost from scratch — income reverified, caste reconfirmed, age re-proven — with field staff visiting the same households on behalf of different departments, and citizens submitting the same documents again and again. The result was slower approvals, eligible people left out, and administrative effort that grew faster than the services it produced.
 
