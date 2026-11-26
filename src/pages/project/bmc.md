@@ -43,6 +43,6 @@ partnersSection:
   partners:
     - description: The team is working with Brihanmumbai Municipal Corporation, Mumbai
       image: /img/brihanmumbai_municipal_corporation_logo.png
-    - image: /img/adani-logo-png-file-thumb.webp
+    - image: /img/adani-logo-png-file-thumb-removebg-preview.png
       description: Adani Foundation is the funding partner
 ---
