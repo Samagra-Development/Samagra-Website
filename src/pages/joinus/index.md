@@ -3,8 +3,8 @@ templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
 infoText2: 'Refer to the Job Description: <a target={"_blank"}
-  href="https://drive.google.com/file/d/1oHMo5zlLxzVTgym8bzWNDCba7Q-oAsiU/view?usp=sharing"
-  > Sr Associate/Consultant </a>  | <a target={"_blank"}
+  href="https://drive.google.com/file/d/1gAv1SBA1LSR1vszi2D2KGCgl2xrHVCi6/view?usp=sharing"
+  > Associate/Sr Associate/Consultant </a>  | <a target={"_blank"}
   href="https://drive.google.com/file/d/1o6ScmX9wT8RnQqC7MR0m8p27t1QO6AAC/view?usp=sharing"
   > Emerging Leader </a> '
 formAcceptance: <p> Applications are now closed.</p>Round 1 results have been
