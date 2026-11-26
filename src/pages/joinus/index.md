@@ -105,8 +105,8 @@ formsElements:
     validation: VALID_TEXT
   - required: true
     label: Postgrad Institute
-    placeholder: Select Name of Campus
-    type: select
+    placeholder: T﻿ype Institute
+    type: text
     validation: VALID_OPTION
     options:
       - text: BITSoM, BITS School of Management
