@@ -109,7 +109,7 @@ formsElements:
     type: text
     validation: VALID_TEXT
     options: []
-  - required: true
+  - required: false
     placeholder: E﻿nter %/CGPA
     type: text
     validation: VALID_TEXT
