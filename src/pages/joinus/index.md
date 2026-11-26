@@ -28,7 +28,7 @@ postSubInfo:
     on                  <a                   target={\"_blank\"}                   \
     href=\"https://www.linkedin.com/company/samagra-transforming-governance/\"                 \
     >                   LinkedIn                 </a>   "
-  line1link: https://www.youtube.com/watch?v=8vYy8lJAfeg
+  line1link: https://www.youtube.com/watch?v=XK3uRDgMjw0
   line2link: https://www.youtube.com/watch?v=Y-iHVVfSHRg&t=325s
   line3link: https://samagragovernance.in/amritseries
   line4link: https://drive.google.com/file/d/1hZT30cY45bStl9DzgjQTyEmGr2kCNnWg/view
