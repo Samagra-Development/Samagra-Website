@@ -11,7 +11,7 @@ formAcceptance: <p> Applications are now closed.</p>Round 1 results have been
   released (updated on 14th Oct).<p> <p> Interviews of applicants from Delhi-NCR
   will be held in-person at our <a target={"_blank"}
   href="https://maps.app.goo.gl/n28gjSE9MrHthcaJ7" > Delhi office.</a> <p>
-showForm: false
+showForm: true
 verticalImage: /img/whatsapp-image-2026-09-28-at-18.41.02.jpeg
 horizontalImage: /img/whatsapp-image-2026-09-28-at-18.41.02.jpeg
 followLinkedin: /img/follow-linkedin.jpg
