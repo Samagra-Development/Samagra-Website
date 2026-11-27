@@ -21,7 +21,7 @@ Uttar Pradesh administers welfare at a scale few governments anywhere match. Acr
 
 <!--EndFragment-->
 
-![Destitute Pension Scheme - Family ID](/img/131858026.avif "Destitute Pension Scheme - Family ID")
+![Destitute Pension Scheme - Family ID](/img/131858026.jpg "Destitute Pension Scheme - Family ID")
 
 *I﻿mage 1: Destitute Pension Scheme, one of the several welfare schemes in Uttar Pradesh*
 
