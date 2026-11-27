@@ -12,7 +12,7 @@ heroSection:
   categories:
     - Urban Governance
     - Mumbai
-  backgroundImage: /img/1791357989759-1-.jpg
+  backgroundImage: /img/1791357989759-1-1-.jpg
 whyImportantSection:
   isVisible: true
   title: Why is it important?
